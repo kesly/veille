@@ -1,214 +1,209 @@
-# 🔥 Market Scan — 2026-04-24
+# 🔥 Market Scan — 2026-04-25
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Baton (AI agents orchestration)
-- Opportunités immédiates (BUILD NOW) : 1 (Baton-adjacent)
+- Top potentiel : Voicebox
+- Opportunités immédiates (BUILD NOW) : 1 (Voicebox — angle SaaS voix)
 
-## 🏆 TOP APP #1 : Baton
+## 🏆 TOP APP #1 : Voicebox
 ### 1. Identification
-- **URL** : [getbaton.dev](https://getbaton.dev) · [PH](https://www.producthunt.com/products/baton-2) · [Show HN](https://news.ycombinator.com/item?id=47599771)
-- **Lancement** : Avril 2026 (Show HN ~3 semaines avant le 24/04)
-- **Fondateurs** : Indépendant (indie dev)
-- **Catégorie** : DevTools / AI Agent Orchestration
-- **Buzz** : Show HN (#1 du jour), Product Hunt top launch, GitHub repo actif
+- **URL** : [voicebox.sh](https://voicebox.sh) · GitHub : [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
+- **Launch** : 13 janvier 2026 · **Fondateur** : Jamie Pine (indie dev)
+- **Catégorie** : Voice AI / TTS open-source desktop app
+- **Métriques buzz** : 18 471 ★ GitHub (semaine +7 009 ★) · GitHub Trending #1-2 semaine du 22/04 · couverture AIToolly, shareuhack.com
 
 ### 2. Proposition de valeur
-- **Problème** : Gérer plusieurs agents AI (Claude Code, Codex, OpenCode) en parallèle = chaos de terminaux, perte de contexte
-- **Solution** : Desktop app qui orchestre N agents dans des git worktrees isolés, avec tableau de bord unifié + notifications quand l'agent demande une action humaine
-- **USP** : "Zéro babysitting" — spawn, surveille, interviens seulement quand nécessaire
-- **Target** : Développeurs solo/petites équipes utilisant des AI coding agents
-- **Pricing** : Gratuit (4 workspaces concurrent) · $49 one-time (workspaces illimités)
+- **Problème** : ElevenLabs coûte cher, données envoyées dans le cloud, lock-in propriétaire
+- **Solution** : Studio de clonage vocal 100% local — gratuit, open-source, privacy-first
+- **USP** : 7 moteurs TTS (Qwen3-TTS, Chatterbox Turbo, LuxTTS, HumeAI TADA, Kokoro…), 50+ voix preset, 23 langues, timeline multi-voix, zero telemetry
+- **Target** : Devs, créateurs audio, podcasteurs, app builders voice AI
+- **Pricing** : Gratuit / open-source (MIT) — monétisation future probable (cloud sync, API hosted)
 
 ### 3. Stack technique
-- **Frontend** : Desktop app (Electron ou Tauri — cross-platform Mac/Win/Linux)
-- **Backend** : Local, intègre les CLIs agents via process management
-- **Infra** : 100% local, zéro cloud requis
-- **APIs** : Interop avec Claude Code, Codex CLI, OpenCode
+- **Frontend** : TypeScript / Electron (app desktop cross-platform)
+- **Backend** : Local (CUDA + Apple Silicon MLX)
+- **Moteurs TTS** : Qwen3-TTS, Chatterbox, Kokoro, LuxTTS, MOSS-TTS-Nano (ajouté avril 2026)
+- **STT** : Whisper (transcription temps réel)
+- **Infra** : Zéro backend cloud, modèles locaux
 
 ### 4. Psychologie
-- **JTBD** : "Je veux faire tourner 10 tâches AI en même temps sans perdre le fil"
-- **Aha moment** : Premier run multi-agents dans des branches isolées sans conflit
-- **Triggers** : Autorité (ça marche avec Claude Code — l'outil du moment), Social proof (HN front page), Urgence (les devs vibe-coding cherchent ce workflow)
-- **Biais** : Loss aversion — sans Baton, tu rates du throughput pendant que tes concurrents AI-augmentés avancent 5x plus vite
+- **Triggers** : Autorité (alternative directe à ElevenLabs), FOMO (concurrent viral), Data sovereignty (privacy-first)
+- **JTBD** : "Je veux cloner ma voix sans payer $22/mois ni envoyer mes données"
+- **Aha moment** : Clone vocal en 5s depuis 3s d'audio — instantané, offline
 
 ### 5. Go-to-Market
-- **Canal principal** : HN Show HN → distribution organique dev Twitter/X
-- **Stratégie launch** : Solo founder, zero paid marketing — PH + HN uniquement
-- **Viral loop** : Les devs partagent leur "setup multi-agents" sur X/LinkedIn → visibilité organique
-- **Community** : Segment dev tooling très engagé (vibe-coding / AI-augmented dev)
+- **Canal principal** : GitHub Trending → HN → Twitter dev → bouche-à-oreille
+- **Viral loop** : Open-source → forks massifs (4 forks dans le top trending la même semaine) → contributions → press
+- **Stratégie launch** : Pas de PH, 100% organique via GitHub star velocity
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (desktop app cross-platform, intégration process management)
-- **Temps de dev** : 3-6 semaines MVP
-- **Angle Kyle** : Version voice AI — orchestrateur de workflows voice agents (ElevenLabs + Whisper + Claude) dans des pipelines isolés
-- **Verticaux adjacents** : Orchestration d'agents no-code, CI/CD AI-aware, agent dashboard SaaS (cloud)
+- **Complexité** : 6/10 — nécessite bonne UX audio + intégration modèles locaux
+- **Verticaux adjacents** : SaaS hosted "Voicebox Cloud" (API REST), Voice AI pour podcasts auto-générés, doublage vidéo
+- **Angle Kyle** : Wrapper SaaS payant autour de Voicebox — API voix clonée pour IVR / agents vocaux, $99-299/mo. Kyle a l'expertise voice AI + réseau pour lancer en 2-4 semaines
+- **Temps de dev** : 3-4 semaines (MVP SaaS sur Voicebox backend)
 
-## 🏆 TOP APP #2 : Voicebox
+## 🏆 TOP APP #2 : Baton
 ### 1. Identification
-- **URL** : [voicebox.sh](https://voicebox.sh) · [GitHub](https://github.com/jamiepine/voicebox)
-- **Lancement** : Mi-avril 2026 (GitHub trending semaine du 16/04)
-- **Fondateurs** : Jamie Pine (indie dev, open-source)
-- **Catégorie** : Voice AI / Local-first TTS & Voice Cloning
-- **Buzz** : 22 300+ GitHub stars en 1 semaine, GitHub Trending Top 3, couverte par AIToolly, BrightCoding, shareuhack weekly
+- **URL** : [getbaton.dev](https://getbaton.dev)
+- **Launch** : ~avril 2026 · **Fondateur** : indie dev (non nommé publiquement)
+- **Catégorie** : Dev Tools / AI Agent Orchestration
+- **Métriques buzz** : Product Hunt trending (top 5 semaine du 21/04) · forte réaction communauté devs
 
 ### 2. Proposition de valeur
-- **Problème** : ElevenLabs = cher, dépendant du cloud, données vocales envoyées à des serveurs tiers
-- **Solution** : Studio voice cloning 100% local — clonage depuis quelques secondes d'audio, 50+ voix présets, 23 langues, 7 moteurs TTS, timeline multi-voix, post-processing intégré
-- **USP** : "No API keys, no rate limits, no fees — works offline forever"
-- **Target** : Devs, créateurs de contenu, chercheurs, toute personne voulant éviter ElevenLabs
-- **Pricing** : Gratuit open-source (MIT)
+- **Problème** : Jongler entre 5+ terminaux et IDEs pour surveiller des agents Claude Code / Gemini CLI en parallèle — chaos et perte de contexte
+- **Solution** : Dashboard desktop unifié pour spawner, monitorer et contrôler des agents AI coding dans des branches git isolées
+- **USP** : Isolation git par workspace (zéro collision de fichiers), notifications when agent bloqué, supporte Claude Code + Gemini CLI + Codex CLI
+- **Target** : Devs solo et petites équipes travaillant avec multi-agents AI
+- **Pricing** : Gratuit (4 workspaces) · $49 one-time (illimité, remboursement 14j)
 
 ### 3. Stack technique
-- **Frontend** : Desktop app (Tauri/Electron) — Mac (Apple Silicon/CUDA)
-- **Backend** : Qwen3-TTS, Whisper (transcription), MLX (inference Apple Silicon)
-- **Infra** : 100% local, CUDA ou Apple Silicon
-- **APIs** : REST API exposée pour intégration tierce
+- **Frontend** : App desktop (probablement Electron/Tauri)
+- **Backend** : Local, wrapper CLI autour des agents AI
+- **Intégrations** : Claude Code, Gemini CLI, OpenAI Codex CLI
+- **Isolation** : Git worktrees par agent
 
 ### 4. Psychologie
-- **JTBD** : "Je veux cloner des voix sans payer ElevenLabs ni envoyer mes données au cloud"
-- **Aha moment** : Premier clone vocal en 30 secondes, qualité pro, offline
-- **Triggers** : Prix zéro (ancrage fort vs ElevenLabs $22/mois), vie privée, anti-SaaS fatigue
-- **Biais** : Identité — "je supporte l'open-source" · Ownership vs location (voix stockées localement)
+- **Triggers** : Productivité (multiplier son output × agents), FOMO (early adopter advantage), one-time price (pas d'abonnement)
+- **JTBD** : "Je veux coder 5x plus vite en parallélisant mes agents sans perdre la tête"
+- **Aha moment** : 4 agents qui codent en parallèle, chacun dans sa branche, dashboard unique
 
 ### 5. Go-to-Market
-- **Canal principal** : GitHub Trending → Twitter/X dev community → HN
-- **Stratégie launch** : Open-source first — étoiles GitHub = validation sociale massive
-- **Viral loop** : Chaque utilisateur qui fork/star amplifie le signal GitHub trending
-- **Community** : /r/SideProject, /r/MachineLearning, AI Twitter
+- **Canal** : Product Hunt + Twitter devs + HN · Construction en public ("je construis Baton avec Baton")
+- **Viral loop** : $49 one-time → faible friction achat → bouche-à-oreille dev
+- **Stratégie** : Niche first (Claude Code users) → expand tous agents AI
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (intégration multi-TTS engines, MLX/CUDA, UX timeline)
-- **Temps de dev** : 6-10 semaines
-- **Angle Kyle (FORT)** : SaaS cloud sur base Voicebox — "Voicebox Pro" avec stockage cloud, collaboration équipe, API managée → monétise la demande open-source avec une offre premium
-- **Verticaux adjacents** : Voice cloning pour podcasts/doublage, avatars IA, formation linguistique
+- **Complexité** : 5/10 — app desktop + orchestration CLI
+- **Angle Kyle** : Version SaaS web (pas desktop) pour équipes — $29-99/mo par siège, focus voice AI agents + coding agents. Ou niche: orchestrateur agents voice AI spécifiquement
+- **Temps de dev** : 4-6 semaines (MVP web)
 
-## 🏆 TOP APP #3 : Hermes Agent
+## 🏆 TOP APP #3 : Magic Patterns Agent 2.0
 ### 1. Identification
-- **URL** : [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) · [GitHub](https://github.com/nousresearch/hermes-agent)
-- **Lancement** : 25 février 2026 (NousResearch)
-- **Fondateurs** : NousResearch (équipe open-source AI réputée)
-- **Catégorie** : AI Agent Framework / Self-Improving Autonomous Agent
-- **Buzz** : 95 600+ GitHub stars (65K en semaine du 13/04, +32K semaine du 22/04), parmi les projets à croissance la plus rapide de 2026
+- **URL** : [magicpatterns.com](https://www.magicpatterns.com)
+- **Launch v2** : semaine du 20 avril 2026 · **Fondateur** : équipe SF, YC-backed
+- **Catégorie** : AI Design / UI Generation
+- **Métriques buzz** : PH #1 semaine du 20/04 (1 547 upvotes) · $6.5M levée ($6M Series A Standard Capital nov 2025) · $1M ARR · 1 500+ product teams
 
 ### 2. Proposition de valeur
-- **Problème** : Les agents AI oublient tout entre les sessions — zéro apprentissage continu, zéro adaptation à l'utilisateur
-- **Solution** : Agent auto-évolutif qui extrait des "skills" de chaque conversation, les affine automatiquement, et construit un modèle mémoire cross-session
-- **USP** : "The agent that grows with you" — closed-loop self-evolution, multi-platform (Telegram, Discord, Slack, WhatsApp, Signal, CLI)
-- **Target** : Devs/chercheurs, power users AI, entreprises voulant un agent personnalisé
-- **Pricing** : MIT free · $0.30/tâche complexe (coûts LLM) · $5-10/mois VPS hosting
+- **Problème** : Le design UI est le goulot d'étranglement entre idée et production — Figma → dev = friction massive
+- **Solution** : Agent AI qui génère des composants UI production-ready depuis du langage naturel, screenshots ou design tokens
+- **USP** : Respecte votre design system existant, handoff direct en code, collaboration temps réel équipes
+- **Target** : Product teams, devs front-end, designers · PME et entreprises
+- **Pricing** : Freemium → plans team (non public) · ~$49-199/mo estimé
 
 ### 3. Stack technique
-- **Frontend** : CLI + intégrations messaging (Telegram, Slack, Discord, WhatsApp, Signal)
-- **Backend** : Agent framework Python, worktree parallelism (v0.8.0)
-- **Infra** : Self-hosted VPS $5/mois ou serverless · Browser Use integration
-- **APIs** : Nous Portal, OpenRouter (200+ modèles), OpenAI, Anthropic
+- **Frontend** : Web app SaaS
+- **Backend** : LLMs (probablement GPT-4o/Claude) + fine-tuning sur composants UI
+- **Output** : React/TypeScript composants · intégration Figma
+- **Infra** : Cloud SaaS, San Francisco
 
 ### 4. Psychologie
-- **JTBD** : "Je veux un assistant AI qui apprend mes préférences et s'améliore sans que je reconfig à chaque fois"
-- **Aha moment** : Agent qui réutilise un skill appris la semaine dernière sans qu'on le lui redemande
-- **Triggers** : Social proof massif (95K stars), autorité NousResearch, curiosité "IA qui apprend"
-- **Biais** : Endowment — l'agent devient "le mien" au fur et à mesure qu'il apprend
+- **Triggers** : Social proof (YC, Standard Capital, 1 500 équipes), urgence (concurrent v Vercel/Bolt/Lovable), autorité (ARR public)
+- **JTBD** : "Je veux prototyper et shipper du code UI 10x plus vite sans designer"
+- **Aha moment** : Premier composant généré en 10s qui respecte parfaitement son design system
 
 ### 5. Go-to-Market
-- **Canal principal** : GitHub Trending → AI Twitter → HN → YouTube demos
-- **Stratégie launch** : Open-source momentum → v0.8.0 avec Browser Use = re-viral
-- **Viral loop** : Chaque release majeure → redémarre le cycle trending (FOMO technique)
-- **Community** : Discord NousResearch actif, AI researcher community
+- **Canal** : PH launch + YC network + Twitter design/dev + word-of-mouth équipes produit
+- **Viral loop** : "Made with Magic Patterns" en footer → nouveaux users → effets réseau
+- **Launch v2** : Agent autonome (pas juste génération) = repositionnement majeur
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (self-evolution loop, skill extraction, multi-platform)
-- **Temps de dev** : 8-16 semaines
-- **Angle Kyle** : Voice-native Hermes — agent auto-évolutif avec interface vocale (Whisper + ElevenLabs) pour call centers / support client → vertical SaaS B2B
-- **Verticaux adjacents** : Agent personnel vocal, support client IA adaptatif, coach vocal automatique
+- **Complexité** : 8/10 — fine-tuning LLM + design system parsing + collaboration temps réel
+- **Angle Kyle** : Niche verticale — générateur de UI pour interfaces voice AI / dashboards agents vocaux. Marché de niche mais forte demande
+- **Temps de dev** : 10-14 semaines (produit complet)
 
-## 💰 Unit Economics Deep Dive — Baton
-> ⚠️ Baton est un tool indie récent sans métriques publiques — estimations basées sur analogies marché (analogues : Raycast $29, TablePlus $79, Warp $0→$15/mo)
+## 💰 Unit Economics Deep Dive — Voicebox
+> ⚠️ Voicebox est open-source et gratuit — pas de revenus directs. Analyse basée sur le **potentiel de monétisation** d'un fork SaaS ou d'un modèle cloud adjacent.
 
-| Métrique | Estimation | Source / Hypothèse |
+| Métrique | Valeur estimée | Source / Méthode |
 |---|---|---|
-| **Modèle** | One-time $49 (freemium → paid) | Pricing public getbaton.dev |
-| **Utilisateurs total** | ~2 000–5 000 (semaine 3) | HN Show HN typique = 500-2K signups J1 |
-| **Conversion free→paid** | ~5–8% | Benchmark devtools freemium |
-| **Licences vendues** | ~150–350 | 3 000 users × 6% |
-| **ARR équivalent** | ~€7 000–17 000 | One-time, pas récurrent |
-| **ARPU** | $49 (one-time) | Prix fixe |
-| **CAC** | ~$0 | 100% organic (HN + PH) |
-| **LTV** | $49 (one-time) — risque churn nul | No subscription |
-| **LTV/CAC** | ∞ (CAC=0) | Marketing zéro |
-| **Payback period** | Immédiat | One-time payment |
-| **Burn** | ~$0/mois | Solo dev, no infra |
-| **Runway** | Infini | Coûts quasi-nuls |
-| **Rev/Employee** | $17K/an (1 personne) | Estimation conservative |
-| **Rule of 40** | N/A (pas SaaS récurrent) | One-time model |
+| **Modèle actuel** | Open-source gratuit | GitHub MIT |
+| **Stars GitHub** | ~18 500 | GitHub Trending semaine 22/04 |
+| **Vitesse croissance** | +7 000 ★/semaine | shareuhack.com |
+| **Forks actifs** | 4 forks trending = ~50-100 forks total | GitHub |
+| **ARR actuel** | $0 | Pas de monétisation |
+| **Potentiel ARR (SaaS cloud)** | $500K–2M en 12 mois | Estimation |
 
-### Verdict santé : 🟡 PROMETTEUR MAIS LIMITÉ
+### Scénario SaaS "Voicebox Cloud API"
 
-**Points forts** : CAC=0, marges 100%, zero burn  
-**Points faibles** : Revenus one-time = pas de récurrence, scalabilité limitée sans passer en SaaS/abonnement  
-**Levier principal** : Ajouter tier abonnement (sync cloud, team features, $15-29/mois) pour transformer en ARR réel
+| Métrique | Valeur | Hypothèse |
+|---|---|---|
+| **ARPU cible** | $99/mo | Plan API voix clonée |
+| **Users payants (12mo)** | 500–1 500 | 1-3% conversion des ~50K utilisateurs |
+| **ARR potentiel** | $600K–1.8M | — |
+| **CAC** | ~$15 | Organique (GitHub → site) |
+| **LTV** | $594 (6 mois churn) | ARPU × 1/churn |
+| **LTV/CAC** | ~40x | 🟢 Excellent |
+| **Payback period** | <1 mois | — |
+| **Rev/Employee** | $600K (solo) | Bootstrappable |
+| **Rule of 40** | >100 (croissance ~200% - margin ~80%) | 🟢 |
 
-**Estimation ARR potentiel si pivot abonnement** : ~€30K–80K ARR à 12 mois avec 500 abonnés à $15/mois
+### Verdict santé : 🟢 FORT POTENTIEL (si monétisé)
+- Audience captive massive, CAC proche de zéro
+- Risque : open-source = fork possible par concurrents
+- Sources : [GitHub jamiepine/voicebox](https://github.com/jamiepine/voicebox) · [AIToolly](https://aitoolly.com/ai-news/article/2026-04-19-voicebox-a-new-open-source-speech-synthesis-workstation-emerges-on-github)
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Baton | Voicebox | Hermes Agent |
+| Dimension (poids) | Voicebox | Baton | Magic Patterns |
 |---|---|---|---|
-| 📊 Market Size (20%) | 7 (€500M devtools AI) | 8 (€1B+ voice AI) | 7 (€500M agents) |
-| ⚙️ Complexity inversé (15%) | 6 (desktop app, 3-6 sem) | 4 (multi-TTS, MLX) | 2 (self-evolution loop) |
-| ⏱️ Time-to-Market (15%) | 7 (MVP 4 sem) | 5 (MVP 8 sem) | 3 (MVP 12+ sem) |
-| 🏟️ Competition inversé (15%) | 7 (niche neuve) | 6 (ElevenLabs domine mais cher) | 5 (agents saturés) |
-| 💰 Revenue Potential (20%) | 6 (one-time→SaaS pivot) | 7 (SaaS cloud sur open-source) | 5 (monétisation floue) |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 6 (devtools, pas voice) | **9** (voice AI = cœur de métier) | 7 (agent SaaS B2B) |
+| 📊 Market Size (20%) | **8** — Voice AI $15B+ | **7** — Dev tools $8B | **8** — UI/Design AI $12B |
+| ⚙️ Complexité inv. (15%) | **6** — Stack audio complexe | **7** — Orchestration CLI | **3** — Fine-tuning + collab |
+| ⏱️ Time-to-Market (15%) | **7** — 3-4 sem (wrapper SaaS) | **6** — 4-6 sem (web) | **3** — 10-14 sem |
+| 🏟️ Competition inv. (15%) | **7** — ElevenLabs domine mais marché local-first vide | **8** — Très peu d'orchestrateurs desktop | **4** — Lovable/Bolt/v0 saturés |
+| 💰 Revenue Potential (20%) | **8** — API voix = forte valeur | **7** — $49 one-time limité | **7** — SaaS récurrent possible |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI + réseau | **6** — Dev tool, pas son cœur | **5** — Design, pas son expertise |
 
-| App | Score pondéré | Verdict |
-|---|---|---|
-| **Baton** | **(7×0.20)+(6×0.15)+(7×0.15)+(7×0.15)+(6×0.20)+(6×0.15)** = **6.55** | 🟡 BUILD ADJACENT |
-| **Voicebox** | **(8×0.20)+(4×0.15)+(5×0.15)+(6×0.15)+(7×0.20)+(9×0.15)** = **6.80** | 🟡 BUILD ADJACENT |
-| **Hermes Agent** | **(7×0.20)+(2×0.15)+(3×0.15)+(5×0.15)+(5×0.20)+(7×0.15)** = **4.95** | 🟠 WATCH |
+### Scores pondérés
 
-### Détail calculs
-- **Baton** : 1.40+0.90+1.05+1.05+1.20+0.90 = **6.50** 🟡 BUILD ADJACENT
-- **Voicebox** : 1.60+0.60+0.75+0.90+1.40+1.35 = **6.60** 🟡 BUILD ADJACENT
-- **Hermes Agent** : 1.40+0.30+0.45+0.75+1.00+1.05 = **4.95** 🟠 WATCH
+| App | Calcul | **Score final** | Verdict |
+|---|---|---|---|
+| **Voicebox** | 8×0.2 + 6×0.15 + 7×0.15 + 7×0.15 + 8×0.2 + 10×0.15 | **7.75** | 🟢 **BUILD NOW** |
+| **Baton** | 7×0.2 + 7×0.15 + 6×0.15 + 8×0.15 + 7×0.2 + 6×0.15 | **6.90** | 🟡 **BUILD ADJACENT** |
+| **Magic Patterns** | 8×0.2 + 3×0.15 + 3×0.15 + 4×0.15 + 7×0.2 + 5×0.15 | **5.35** | 🟠 **WATCH** |
 
 ## 📈 Tendances Émergentes
-### 1. 🤖 Skills Ecosystem Explosion (Agent Tooling Layer)
-Le GitHub trending hebdo du 22/04 titre "Skills Ecosystem Explosion" — les agents ne sont plus des chatbots, ils deviennent des systèmes à compétences persistantes (Hermes, Baton, Claude Code Game Studios). Signal fort : le tooling *autour* des agents explose plus vite que les agents eux-mêmes.
+### 1. 🎙️ Voice AI local-first — la contre-attaque open-source
+ElevenLabs a créé le marché, Voicebox veut le redistribuer. La tendance "AI on-device" explose : Qwen3-TTS, MOSS-TTS-Nano, Chatterbox — des modèles TTS haute qualité arrivent en open-source toutes les 2-3 semaines. La fenêtre pour un SaaS wrapper est maintenant.
 
-### 2. 🎙️ Voice AI Dual Race : Cloud vs Local
-Voicebox (22K stars en 1 semaine) illustre la bifurcation : ElevenLabs domine le cloud payant, mais une masse critique de devs veut du local, gratuit, privé. La course est entre centralisation premium (ElevenLabs, Cartesia) et décentralisation open-source (Voicebox, Coqui successeurs).
+### 2. 🤖 Multi-agent coding = nouveau standard
+Baton révèle que le dev solo avec agents parallèles devient courant. Le marché d'outillage (orchestration, monitoring, review) autour des coding agents est encore vide. Tendance à surveiller : émergence d'équipes "1 dev + 10 agents" d'ici fin 2026.
 
-### 3. 🖥️ Desktop Apps Renaissance
-Baton, Voicebox = desktop apps locales. Tendance inverse au full-cloud : la latence, la vie privée, et le coût des API poussent les devs vers des apps locales-first. Electron/Tauri + LLMs locaux = nouveau paradigme pour les devtools.
+### 3. 🎨 AI design agent > AI design assistant
+Magic Patterns v2 représente le pivot du secteur : on passe des outils "suggestion" aux agents autonomes qui livrent du code production-ready. v0 (Vercel), Bolt, Lovable, Framer — tous pivotent vers l'agent. La concurrence s'intensifie mais le marché total monte aussi.
 
-### 4. 💸 One-Time Pricing Comeback
-Le "SaaS fatigue" est réel : Baton à $49 one-time, Raycast freemium agressif, TablePlus $79 perpetual. Les acheteurs tech sont saturés d'abonnements → opportunité pour des pricing alternatifs (one-time + upgrades payants).
+### 4. 🧩 Skills ecosystems pour LLMs
+andrej-karpathy-skills (#1 GitHub trending) : les utilisateurs créent des "packs de comportements" pour LLMs coding. Nouveau méta-marché autour de la personnalisation des agents — promptware, skills marketplaces.
 
-### 5. 🧠 Self-Evolving Systems
-Hermes Agent avec 95K stars montre l'appétit pour des systèmes qui s'améliorent sans re-configuration. Le JTBD "un outil qui apprend mes habitudes" sera le prochain battleground des AI assistants (au-delà du simple RAG).
+### 5. 📊 Claude Code = plateforme dominante en Q1-Q2 2026
+$2.5B ARR annualisé pour Claude Code seul (Anthropic, fév. 2026). Tout l'écosystème d'outillage (Claudoscope, Baton, andrej-karpathy-skills) se construit autour. Opportunité : être le "meilleur outil Claude Code pour [niche]".
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Top 3 Actions Immédiates
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions immédiates (semaine 1)
 
-**1. Lancer "Voicebox Cloud" — SaaS sur l'open-source**
-Voicebox est open-source MIT avec 22K stars et zéro monétisation. L'opportunité : construire la couche SaaS manquante — stockage cloud des voix clonées, API managée, collaboration équipe, dashboard analytics. Kyle a l'expertise voice AI + réseau pour le faire en 6-8 semaines. Pricing : $29-49/mois pro, $99-199/mois team.
+**1. [CRITIQUE] Fork Voicebox → SaaS API voix clonée**
+Voicebox est MIT. Kyle peut wrapper le backend local en API cloud REST :
+- `POST /clone` → upload 3s audio → retourne voice_id
+- `POST /speak` → voice_id + text → MP3 streaming
+- Pricing : $49/mo (100 clones) · $149/mo (illimité + SLA)
+- Marché cible : IVR builders, agent vocal devs, podcasteurs pro
+- Avantage Kyle : il connaît ElevenLabs de l'intérieur, il sait exactement ce que les clients détestent
+- **Temps : 3-4 semaines pour MVP · Lancement PH + HN**
 
-**2. Baton-Adjacent : "Voice Agent Orchestrator" B2B**
-Baton orchestre des AI coding agents. L'angle Kyle : orchestrer des voice AI agents (call center, support, onboarding) dans des workflows isolés avec monitoring en temps réel. Marché B2B, pricing $200-500/mois/client. Différenciation vs Baton : focus vertical voice, pas devtools.
+**2. [RAPIDE] Valider l'angle "Baton pour voice agents"**
+Baton orchestre des coding agents. Il n'existe pas d'orchestrateur pour agents vocaux (Vapi, Bland, ElevenLabs Conversational AI). Kyle peut construire la version "Baton pour voice" :
+- Dashboard pour monitorer N agents vocaux en prod
+- Logs conversations, coûts, latences, erreurs
+- **Temps : 2-3 semaines · $29-99/mo · SaaS récurrent**
 
-**3. Distribution HN + PH : lancer un "Show HN" en mai**
-Les deux apps qui buzzent cette semaine (Baton, Voicebox) viennent de HN et GitHub organic. Kyle a un projet voice AI → le packaging comme outil open-source ou freemium + Show HN peut générer 1 000-5 000 signups en 48h à coût zéro.
+**3. [VEILLE] Magic Patterns — suivre le taux d'adoption enterprise**
+Pas d'action immédiate. Surveiller si Magic Patterns ouvre une API publique ou un programme partenaires. Opportunité adjacente : générateur de UI voice-first spécialisé (interfaces pour agents vocaux, dashboards IVR) que les design tools généralistes ne couvriront jamais bien.
 
-### ⚠️ Signaux d'alerte
-- **Éviter le full open-source sans plan monétisation** : Voicebox a 22K stars mais $0 ARR — open-source sans couche paid = goodwill sans business
-- **Desktop apps = barrière distribution** : Baton et Voicebox nécessitent un téléchargement → conversion plus faible que SaaS web ; préférer web-first si possible
-- **"Skills fatigue"** : Hermes Agent et ses 95K stars masquent un marché saturé en frameworks agents — le vrai business est dans les verticals, pas le framework
+### 📌 Résumé priorités Kyle
 
-### 🔗 Sources principales
-- [Baton — Product Hunt](https://www.producthunt.com/products/baton-2)
-- [Baton — Show HN](https://news.ycombinator.com/item?id=47599771)
-- [Voicebox — GitHub](https://github.com/jamiepine/voicebox)
-- [Voicebox — AIToolly Analysis](https://aitoolly.com/ai-news/article/2026-04-19-voicebox-a-new-open-source-speech-synthesis-workstation-emerges-on-github)
-- [GitHub Trending Weekly 2026-04-22](https://www.shareuhack.com/en/posts/github-trending-weekly-2026-04-22)
-- [Hermes Agent — Review DEV.to](https://dev.to/tokenmixai/hermes-agent-review-956k-stars-self-improving-ai-agent-april-2026-11le)
-- [Hermes Agent — GitHub](https://github.com/nousresearch/hermes-agent)
+| Priorité | Action | Effort | Revenue potential |
+|---|---|---|---|
+| 🥇 **P0** | SaaS API sur Voicebox | 3-4 semaines | $50K-200K ARR/an |
+| 🥈 **P1** | Orchestrateur voice agents | 2-3 semaines | $20K-100K ARR/an |
+| 🥉 **P2** | Watch Magic Patterns | 0 effort | — |
+
+> Sources principales : [GitHub jamiepine/voicebox](https://github.com/jamiepine/voicebox) · [getbaton.dev](https://getbaton.dev) · [PH Week 17/2026](https://www.producthunt.com/leaderboard/weekly/2026/17) · [GitHub Trending Weekly 22/04](https://www.shareuhack.com/en/posts/github-trending-weekly-2026-04-22) · [Magic Patterns Series A](https://vctavern.com/magic-patterns-raises-6m-series-a-to-accelerate-ai-powered-production-ready-design-workflows/)
