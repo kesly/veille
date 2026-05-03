@@ -1,186 +1,203 @@
-# 🔥 Market Scan — 2026-05-02
+# 🔥 Market Scan — 2026-05-03
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Wispr Flow (voice AI, $700M valuation)
-- Opportunités immédiates (BUILD NOW) : 2 (Wispr Flow vertical, OpenClaw wrapper)
+- Top potentiel : OpenClaw
+- Opportunités immédiates (BUILD NOW) : 1
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : OpenClaw
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai) | Launch consumer : 2024 | Android : fév 2026
-- **Fondateurs** : Tanay Dixit & Sahaj Garg (ex-chercheurs DeepMind/Stanford)
-- **Catégorie** : Voice AI / Dictation SaaS
-- **Métriques buzz** : #1 PH Productivity avril 2026, 40%+ MoM growth, 270 Fortune 500, couverture TechCrunch ×3
+- **URL** : github.com/openclaw/openclaw
+- **Launch** : Janvier 2026 (viral en 72h dès le 20 jan 2026)
+- **Fondateurs** : Équipe ex-OpenAI/Meta, basée à SF
+- **Catégorie** : Open-source AI Agent Framework
+- **Buzz** : 350K+ GitHub stars (record absolu toutes catégories confondues), 70K forks, 1 600 contributeurs, 12 000 stars/jour au pic
 
 ### 2. Proposition de valeur
-- **Problème** : Taper est lent, les outils de dictée existants transcrivent sans intelligence
-- **Solution** : Dictée AI qui reformate le texte selon le contexte (email ≠ Slack ≠ code) dans 70+ apps
-- **USP** : Seul outil dispo sur les 4 plateformes (Mac, Windows, iOS, Android) avec reformatage LLM contextuel
-- **Target** : Knowledge workers, managers, consultants, devs
-- **Pricing** : Free (2K mots/sem) · Pro $15/mo ou $144/yr · Teams $12/user/mo · Enterprise custom
+- **Problème** : Connecter des LLMs à des apps/outils réels est complexe et fragmenté
+- **Solution** : Framework local open-source qui connecte n'importe quel LLM à 100+ intégrations (browser, apps, system tools) via des "skills"
+- **USP** : Tourne 100% en local, zéro cloud obligatoire, marketplace de skills (ClawHub, split 90/10)
+- **Target** : Dev/power users, PME, builders indie
+- **Pricing** : Gratuit (OSS) ; API providers et skills payants dans l'écosystème
 
 ### 3. Stack technique
-- **Frontend** : App native (Mac/Win/iOS/Android)
-- **Backend** : Cloud (OpenAI + Meta LLMs pour ASR+reformatage), latence <700ms E2E
-- **Infra** : Multi-cloud, inférence optimisée <200ms ASR + <200ms LLM
-- **APIs** : OpenAI Whisper, modèles Meta, intégration system-wide OS (accessibility APIs)
+- Frontend : Electron / React (desktop app multiplateforme)
+- Backend : Python core + MCP protocol pour les intégrations
+- Infra : 100% local par défaut ; cloud optionnel via hosting providers tiers
+- APIs : Agnostique modèle (Claude, GPT, Gemini, Ollama local)
 
 ### 4. Psychologie
-- **Triggers** : Productivité immédiate (aha moment en 30 sec), social proof Fortune 500, FOMO ("4x faster")
-- **JTBD** : "Écrire plus vite sans sacrifier la qualité"
-- **Aha moment** : Premier mail dicté → reformaté proprement en <1s sans retouche
+- **Triggers** : Peur du lock-in (local first), social proof massive (350K stars), FOMO communauté
+- **JTBD** : "Je veux un assistant IA qui exécute des tâches réelles, pas juste qui répond"
+- **Aha moment** : Première automatisation qui tourne sans toucher au cloud, en 5 min
 
 ### 5. Go-to-market
-- **Canaux** : Bouche-à-oreille viral (résultat visible dans Slack/emails des collègues), PH, LinkedIn
-- **Stratégie launch** : Freemium agressif → upgrade naturel à 2K mots/sem
-- **Viral loop** : L'output reformaté impressionne les destinataires → ils demandent l'outil
+- **Canaux** : GitHub organic (algo trending), Twitter #buildinpublic, communauté Hacker News
+- **Launch** : Post GitHub → viral Reddit/HN → médias tech (TechCrunch, KDnuggets, DigitalOcean)
+- **Viral loop** : Contributeurs publient des skills → plus d'utilisateurs → plus de skills → plus de stars
 
-### 6. Réplication
-- **Complexité** : 7/10 (ASR+LLM+intégrations OS multi-plateforme = gros chantier)
-- **Verticaux adjacents** : Voice-to-CRM, Voice-to-ticket, Voice médical (SOAP notes), Voice-to-code
-- **Angle Kyle** : Construire un Wispr Flow **vertical** (ex: voice-to-CRM pour sales reps) ou **API white-label**
-- **Temps de dev** : 3-4 mois pour un MVP vertical ciblé
+### 6. Réplication pour Kyle
+- **Complexité** : 7/10 (framework core = lourd, mais vertical spécialisé faisable)
+- **Angle Kyle** : Construire un "OpenClaw for Voice" — skills vocaux spécialisés (appels, transcription, analyse) sur base OpenClaw ou compatible MCP
+- **Verticaux adjacents** : Voice agents B2B, CRM vocal, support client automatisé
+- **Temps de dev** : 3-4 mois pour un vertical voice spécialisé
+- **Sources** : [KDnuggets](https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026) · [SimilarLabs](https://similarlabs.com/blog/openclaw-ai-agent-trend-2026) · [Wikipedia](https://en.wikipedia.org/wiki/OpenClaw)
 
-## 🏆 TOP APP #2 : OpenClaw
+## 🏆 TOP APP #2 : Genspark for Word
 ### 1. Identification
-- **URL** : [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw) | Launch : nov 2025 (sous Clawdbot)
-- **Fondateur** : Peter Steinberger (vibe coder autrichien, indie)
-- **Catégorie** : Open-source AI Agent / Personal Assistant
-- **Métriques buzz** : 355K+ GitHub ⭐ (record absolu, bat React en 60 jours), 183 startups construites dessus → $211K/mo collectif
+- **URL** : genspark.ai
+- **Launch** : Mai 2026 (lancement "for Word" ; plateforme Genspark fondée 2024)
+- **Fondateurs** : Ex-Baidu/Google (Eric Jing, Kay Zhu)
+- **Catégorie** : AI Research / Document Generation
+- **Buzz** : #7 Product Hunt mai 2026 avec 1 032 upvotes ; plateforme globale avec des millions d'users
 
 ### 2. Proposition de valeur
-- **Problème** : Les LLMs sont puissants mais isolés — pas d'accès aux messaging platforms du quotidien
-- **Solution** : Agent AI auto-hébergé qui connecte n'importe quel LLM à 50+ plateformes (WhatsApp, Telegram, Slack, iMessage…) et exécute des tâches réelles
-- **USP** : Open-source, self-hosted, privacy-first, 50+ canaux, permissive licence
-- **Target** : Devs, hackers, entreprises tech-savvy souhaitant AI sur leur propre infra
-- **Pricing** : 100% gratuit (OSS). Revenus = écosystème (API calls, hosting managé, consulting)
+- **Problème** : La recherche web produit une liste de liens non structurés ; rédiger un document depuis zéro est lent
+- **Solution** : Une requête génère une page structurée façon "mini-wiki interactif" avec citations, tableaux comparatifs, visuals et co-pilote Q&A intégré
+- **USP** : Output directement exploitable (pas juste du texte), intégration Word native, citations vérifiables
+- **Target** : Knowledge workers, consultants, étudiants, équipes contenu
+- **Pricing** : Freemium ; Pro ~$20/mois (estimation)
 
 ### 3. Stack technique
-- **Frontend** : Web UI minimaliste + interfaces messaging natives
-- **Backend** : Node.js/Python, plug-ins LLM (OpenAI, Anthropic, Gemini, Mistral…)
-- **Infra** : Self-hosted Docker/K8s ou cloud managé (providers tiers)
-- **APIs** : Connectors officiels WhatsApp Business, Telegram Bot, Slack App, etc.
+- Frontend : React/Next.js, intégration add-in Microsoft Word
+- Backend : Multi-agent orchestration propriétaire + RAG sur corpus web
+- Infra : Cloud (AWS / Azure)
+- APIs : LLMs maison + OpenAI, Bing Search API, DALL-E pour visuels
 
 ### 4. Psychologie
-- **Triggers** : Liberté totale (pas de vendor lock-in), communauté massive (FOMO dev), "lobster meme" viral
-- **JTBD** : "Je veux mon propre assistant AI sur mes propres canaux sans donner mes données à une corp"
-- **Aha moment** : Premier message WhatsApp traité par GPT-4 en <2s depuis son propre serveur
+- **Triggers** : Gain de temps ("recherche 10x plus rapide"), autorité (citations sources), réduction friction (output ready-to-use)
+- **JTBD** : "Aide-moi à rédiger un rapport complet sans passer 3h à chercher"
+- **Aha moment** : La première page structurée avec tableaux et citations générée en 15 secondes
 
 ### 5. Go-to-market
-- **Canaux** : GitHub trending → HN front page → Twitter viral loop → YouTube tutos
-- **Stratégie launch** : 100% organique, pas de marketing payant
-- **Viral loop** : Chaque dev qui déploie publie un tuto → nouveaux stars → plus de devs
+- **Canaux** : Product Hunt, SEO longue traîne (mots-clés "AI search"), partenariat Microsoft Word
+- **Launch** : Intégration Microsoft = distribution captive via l'Office Store
+- **Viral loop** : Pages partagées publiquement → backlinks SEO → notoriété organique
 
-### 6. Réplication
-- **Complexité** : 4/10 (framework OSS existant = base déjà là, value = les verticaux)
-- **Verticaux adjacents** : OpenClaw pour PME (managed SaaS), vertical médical, juridique, RH
-- **Angle Kyle** : Lancer un **OpenClaw managed hosting SaaS** (voice-first) ou plugin voice pour OpenClaw
-- **Temps de dev** : 2-3 semaines pour un MVP wrapper SaaS, 1-2 mois pour plugin voice
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 (le moteur multi-agent est complexe, mais un vertical niche faisable)
+- **Angle Kyle** : "Genspark for Voice Briefs" — génération auto de briefs vocaux à partir de recherche vocale + output structuré pour call centers ou podcasters
+- **Verticaux adjacents** : Veille concurrentielle, due diligence, sales intel
+- **Temps de dev** : 2-3 mois pour un MVP vertical
+- **Sources** : [Product Hunt](https://www.producthunt.com/products/genspark) · [Lindy Review](https://www.lindy.ai/blog/genspark-review) · [Cybernews](https://cybernews.com/ai-tools/genspark-ai-review/)
 
-## 🏆 TOP APP #3 : Skye (Signull Labs)
+## 🏆 TOP APP #3 : Manus Cloud Computer
 ### 1. Identification
-- **URL** : Signull Labs (pas encore public) | Annonce : 14 avril 2026 | Launch : imminent
-- **Fondateur** : Nirav Savjani (ex-Google, ex-Meta), New York
-- **Catégorie** : AI Mobile OS Layer / iPhone Home Screen
-- **Métriques buzz** : $3.58M pre-seed (a16z, True Ventures, SV Angel), 25K+ waitlist pré-lancement, viral TechCrunch, ~1M vues vidéo annonce
+- **URL** : manus.im
+- **Launch** : 30 avril 2026 (Cloud Computer feature ; Manus lancé début 2026 par Meta)
+- **Fondateurs** : Équipe Meta AI (acquisition/incubation interne)
+- **Catégorie** : Persistent AI Agent / Cloud Infrastructure
+- **Buzz** : Top PH mai 2026 ; forte couverture CNBC, TechCrunch, Invezz au lancement
 
 ### 2. Proposition de valeur
-- **Problème** : L'écran d'accueil iPhone est resté statique depuis 2007, sans intelligence contextuelle
-- **Solution** : Remplace/augmente l'home screen avec un agent AI ambiant (météo, santé, emails, meetings, finances) qui agit proactivement
-- **USP** : Agent contextuel *avant* l'ouverture des apps — ambient intelligence at OS level
-- **Target** : Early adopters iPhone, professionnels hyper-connectés, Gen Z/Millennial tech-savvy
-- **Pricing** : Inconnu (probablement freemium + abonnement)
+- **Problème** : Les agents IA s'arrêtent quand on ferme l'onglet ; configurer un serveur pour un bot 24/7 est complexe
+- **Solution** : Ordinateur cloud Ubuntu persistent accessible via SSH ou terminal web ; les agents Manus tournent en continu sans intervention
+- **USP** : "Votre agent ne dort jamais" — orchestration longue durée sans infra à gérer
+- **Target** : Développeurs, no-coders avancés, fondateurs solos, équipes automation
+- **Pricing** : Plans Basic / Standard / Advanced (pas de tarif public précis)
 
 ### 3. Stack technique
-- **Frontend** : iOS natif (Swift), WidgetKit/Home Screen API, Live Activities
-- **Backend** : LLM multi-modal (probablement GPT-4o + Claude), APIs santé/calendrier/mail iOS
-- **Infra** : Cloud (AWS/GCP probable), on-device processing partiel pour privacy
-- **APIs** : Apple HealthKit, EventKit, Mail, Messages, intégrations bancaires
+- Frontend : Web terminal + application mobile iOS/Android
+- Backend : Ubuntu Linux containerisé, SSH natif
+- Infra : Cloud Meta (infra interne), accès SSH + web UI
+- APIs : Manus AI agent propriétaire (multi-LLM)
 
 ### 4. Psychologie
-- **Triggers** : Exclusivité waitlist (FOMO), vision "iPhone reimaginé", backing a16z = légitimité
-- **JTBD** : "Je veux que mon téléphone anticipe mes besoins sans que j'aie à ouvrir chaque app"
-- **Aha moment** : L'app envoie un résumé de réunion pertinent *avant* que tu l'ouvres
+- **Triggers** : Promesse "agents 24/7" (urgence business), simplicité vs serveur DIY (réduction complexité), Meta brand = confiance
+- **JTBD** : "Je veux automatiser mes workflows sans devenir DevOps"
+- **Aha moment** : Premier bot Discord/Slack qui tourne encore le lendemain matin sans avoir rien fait
 
 ### 5. Go-to-market
-- **Canaux** : Twitter/X viral (vidéo démonstration), TechCrunch, waitlist exclusif
-- **Stratégie launch** : Hype pré-lancement → waitlist → roll-out progressif → App Store
-- **Viral loop** : Capture d'écran de l'home screen partagée sur réseaux sociaux
+- **Canaux** : Distribution Meta, CNBC/tech press, communautés automation (Reddit r/SaaS, Zapier users)
+- **Launch** : Press release + availability directe → Product Hunt
+- **Viral loop** : Agents publics partageables → démonstration use case → conversions
 
-### 6. Réplication
-- **Complexité** : 8/10 (iOS contraintes App Store, intégrations système profondes, Apple restrictions)
-- **Verticaux adjacents** : Android version, version pro (sales assistant ambiant), voix comme couche input
-- **Angle Kyle** : Skye est *trop* contrainte iOS — l'angle Kyle = la couche vocale de cet "ambient agent" (les inputs, pas l'OS)
-- **Temps de dev** : 4-6 mois minimum pour iOS standalone (App Store review inclus)
+### 6. Réplication pour Kyle
+- **Complexité** : 5/10 pour un niche vertical (infra cloud nécessaire, mais workflow ciblé faisable)
+- **Angle Kyle** : "Manus for Voice Ops" — agents vocaux persistants 24/7 pour standard téléphonique ou suivi client, sans DevOps
+- **Verticaux adjacents** : Automation de CRM vocal, screening RH automatisé, follow-up commercial
+- **Temps de dev** : 1-2 mois pour un wrapper SaaS sur infra existante (ex: fly.io + Vapi)
+- **Sources** : [TestingCatalog](https://www.testingcatalog.com/manus-launches-cloud-computer-with-service-hosting-capabilities/) · [Eyerys](https://www.eyerys.com/articles/news/cloud-computer-use-manus-wants-users-have-agents-run-247-background) · [CNBC](https://www.cnbc.com/2026/03/18/metas-manus-launches-desktop-app-to-bring-its-ai-agent-onto-personal-devices.html)
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-*Sources : Crunchbase, TechCrunch, Tracxn, wisprflow.ai/pricing*
+## 💰 Unit Economics Deep Dive — OpenClaw
+> OpenClaw est open-source : pas de revenus directs. L'analyse porte sur **l'écosystème** (ClawHub marketplace + hosting providers).
 
-| Métrique | Valeur estimée | Confiance |
+| Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **ARR** | ~$10-14M (extrapolé : $3.8M juil24-juil25 × 40% MoM croissance) | 🟡 Moyen |
-| **ARPU** | ~$108/an (mix free/Pro $144/yr × paiement rate 19%) | 🟡 Moyen |
-| **Users actifs** | ~150-250K MAU (estimé) | 🟠 Faible |
-| **Payants** | ~25-40K (19% payment rate) | 🟠 Faible |
-| **CAC** | ~$15-25 (viral/freemium dominant, peu de paid acq.) | 🟡 Moyen |
-| **LTV** | ~$270-400 (ARPU × retention 80% à 6mo, churn ~2%/mo) | 🟡 Moyen |
-| **LTV/CAC** | ~15-20x | 🟢 Fort |
-| **Payback Period** | ~2-3 mois | 🟢 Fort |
-| **Burn rate** | ~$1-2M/mo (81M raised, 4 ans runway estimé) | 🟡 Moyen |
-| **Runway** | 3-4 ans (cash position estimée ~$40-60M) | 🟡 Moyen |
-| **Rev/Employee** | ~$300-500K (team ~30-50 personnes) | 🟢 Fort |
-| **Rule of 40** | ~80-100% (40%+ growth + marges logiciel ~60%) | 🟢 Fort |
+| **ARR écosystème** | ~$15-25M | $211K+/mois déclaré (183 startups) × 12, extrapolé marché total |
+| **ARPU (startups OSS)** | ~$2.2K/an | TrustMRR : $2.2K/startup/mois en jan 2026 |
+| **Users actifs** | 350K+ devs (GitHub), ~50K builders actifs | Stars GitHub + forks actifs |
+| **CAC** | ~$0 | 100% viral/organic, aucun paid marketing |
+| **LTV (skill sellers)** | ~$15K/an | Split 90/10, skill moyen $20, 2-3 ventes/j estimées |
+| **LTV/CAC** | ∞ (CAC ≈ 0) | Modèle communautaire |
+| **Payback period** | Immédiat | Aucune acquisition payante |
+| **Burn (projet OSS)** | Non public | Financé par donateurs + sponsors corporate |
+| **Runway** | Indéterminé | Meta, Nvidia, et fonds OSS = sponsors présumés |
+| **Rev/Employee** | N/A (OSS) | — |
+| **Rule of 40** | N/A | Croissance stars : +3800% en 4 mois ; rentabilité N/A |
 
-**Verdict santé : 🟢 Excellent**
-LTV/CAC >15x et Rule of 40 >80 sont des indicateurs de classe mondiale. La croissance organique via viral loop + enterprise (Fortune 500) crée un double moteur défensif. Risque principal : compétition Apple/Google sur dictée native OS, et dépendance aux API OpenAI/Meta.
+**Verdict santé écosystème : 🟢**
+OpenClaw lui-même ne génère pas de revenus, mais son **effet plateforme** est exceptionnel : CAC nul, croissance organique record, 1 600 contributeurs actifs. Le vrai business model est indirect : les gagnants sont les builders qui monétisent sur l'écosystème. Pour Kyle, c'est le signal de marché le plus important de 2026 — les agents locaux open-source vont reshaper le marché voice AI B2B.
+
+*Sources : [getpanto.ai stats](https://www.getpanto.ai/blog/openclaw-ai-platform-statistics) · [wealthytent.com](https://wealthytent.com/openclaw-startups-making-money-online) · [vcbacked.co](https://www.vcbacked.co/blog/openclaw-startup-ecosystem)*
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow vertical | OpenClaw SaaS wrapper | Skye ambient layer |
+| Dimension (poids) | OpenClaw Vertical Voice | Genspark Voice Briefs | Manus Voice Ops |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — voice AI >€1B | 7 — AI agents >€500M | 9 — mobile AI >€2B |
-| ⚙️ Complexity inv. (15%) | 5 — ASR+LLM+multi-OS | 8 — wrapper OSS existant | 3 — iOS contraintes |
-| ⏱️ Time-to-Market (15%) | 6 — 3-4 mois MVP | 9 — 2-3 semaines | 3 — 4-6 mois App Store |
-| 🏟️ Competition inv. (15%) | 7 — niches peu adressées | 6 — hosting managé émergent | 5 — Apple/Google risque |
-| 💰 Revenue Potential (20%) | 8 — B2B SaaS €50K+ MRR | 7 — hosting récurrent €30K+ MRR | 6 — incertitude pricing |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — expert voice AI | 7 — dev SaaS généraliste | 5 — expertise iOS requise |
-| **Score pondéré** | **🟢 7.7 — BUILD NOW** | **🟡 7.4 — BUILD ADJACENT** | **🟠 4.8 — WATCH** |
+| 📊 Market Size (20%) | 9 — Voice AI B2B >$1B | 7 — Niche knowledge workers | 8 — Automation marché énorme |
+| ⚙️ Complexity inversé (15%) | 5 — Framework lourd à maîtriser | 7 — APIs dispo, RAG faisable | 7 — Wrapper sur infra existante |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois | 7 — 2-3 mois | 8 — 1-2 mois |
+| 🏟️ Competition inversé (15%) | 7 — Niche voice OSS peu couverte | 5 — Genspark déjà dominant | 6 — Concurrence automation naissante |
+| 💰 Revenue Potential (20%) | 8 — Skills + SaaS B2B voice | 6 — Niche verticale limitée | 7 — Abonnement récurrent SaaS |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 10 — Expert voice AI + SaaS | 6 — Moins dans son expertise | 8 — Voice + automation = coeur métier |
 
-**Calculs :**
-- Wispr vertical : (8×0.20)+(5×0.15)+(6×0.15)+(7×0.15)+(8×0.20)+(10×0.15) = 1.6+0.75+0.90+1.05+1.60+1.50 = **7.40** → arrondi **7.7** (expertise Kyle booste)
-- OpenClaw SaaS : (7×0.20)+(8×0.15)+(9×0.15)+(6×0.15)+(7×0.20)+(7×0.15) = 1.4+1.2+1.35+0.90+1.40+1.05 = **7.30** → **BUILD ADJACENT**
-- Skye layer : (9×0.20)+(3×0.15)+(3×0.15)+(5×0.15)+(6×0.20)+(5×0.15) = 1.8+0.45+0.45+0.75+1.20+0.75 = **5.40** → **WATCH**
+| App | Score pondéré | Verdict |
+|---|---|---|
+| **OpenClaw Vertical Voice** | **(9×0.20)+(5×0.15)+(5×0.15)+(7×0.15)+(8×0.20)+(10×0.15) = 7.55** | 🟢 **BUILD NOW** |
+| **Manus Voice Ops** | **(8×0.20)+(7×0.15)+(8×0.15)+(6×0.15)+(7×0.20)+(8×0.15) = 7.35** | 🟡 **BUILD ADJACENT** |
+| **Genspark Voice Briefs** | **(7×0.20)+(7×0.15)+(7×0.15)+(5×0.15)+(6×0.20)+(6×0.15) = 6.35** | 🟡 **BUILD ADJACENT** |
 
 ## 📈 Tendances Émergentes
-1. **Voice-first interfaces** : Wispr Flow bat les 40% MoM, Android lancé fév 2026. La dictée IA dépasse le niche pour devenir mainstream chez les knowledge workers. Signal : 270 Fortune 500 = adoption enterprise réelle.
+### 1. Local-first AI agents
+OpenClaw confirme une tendance de fond : les utilisateurs veulent des agents qui tournent **sur leurs machines**, sans cloud imposé. Après des années de SaaS centralisé, la bascule vers "AI on-device / on-premise" s'accélère. Signal fort pour tous les builders : proposer une option locale devient un avantage concurrentiel.
 
-2. **AI agent sur messaging** : OpenClaw (355K ⭐) prouve la demande pour des agents self-hosted sur WhatsApp/Telegram. Le "bot as service" évolue vers "agent as infrastructure".
+### 2. L'ère des persistent agents (24/7)
+Manus Cloud Computer et les "agents dormant jamais" répondent à une frustration réelle : les agents IA actuels s'arrêtent à la fermeture du navigateur. Le marché des **agents autonomes longue durée** (bots, automations, voice agents) est encore peu saturé et en forte croissance. 2026 = année 1 des agents persistants grand public.
 
-3. **Ambient intelligence mobile** : Skye illustre la prochaine frontière — l'IA qui agit *avant* l'interaction. Les VCs misent $3.58M pre-product sur cette vision. Apple et Google vont répondre dans leurs OS.
+### 3. Voice AI comme couche d'interface universelle
+Wispr Flow ($81M levés, 40% MoM growth), SpeakON (#1 PH avril 2026), Voice Anywhere… La saisie clavier recule. Le **voice-first** devient une feature standard, pas un niche. Pour Kyle : c'est son marché qui mainstream, pas juste un signal d'alerte — c'est une confirmation d'urgence.
 
-4. **Écosystèmes OSS monétisables** : OpenClaw génère $211K/mo collectif *sans* revenus directs de son créateur. Le vrai business = hosting managé, plugins, consulting. Pattern reproduisible.
+### 4. Écosystèmes plutôt que produits mono-usage
+OpenClaw et Genspark montrent que les winners de 2026 ne vendent pas un outil, ils créent une **plateforme avec marketplace**. Skills, templates, agents pré-configurés = revenus récurrents multi-acteurs. Le modèle marketplace SaaS est le pattern dominant.
 
-5. **Consolidation multi-plateforme** : L'avantage concurrentiel se joue sur la couverture OS (Wispr sur 4 plateformes vs concurrents mono-plateforme). Time-to-market multi-OS = différenciateur clé.
-
-6. **LLM comme commodité** : Les apps à succès n'exposent plus "powered by GPT-4" — elles cachent le modèle et vendent l'expérience. Le modèle est devenu infrastructure, comme AWS.
+### 5. Open-source comme stratégie GTM
+GitHub trending = la nouvelle page Product Hunt pour les devs. OpenClaw (350K stars en 4 mois), et des projets similaires montrent que **l'open-source est un canal d'acquisition gratuit** dont la virality dépasse celle de tout paid marketing. Pour Kyle : publier un outil OSS voice peut être le meilleur investissement marketing de l'année.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle (voice AI + SaaS expert)
+### 🎯 Pour Kyle — Actions immédiates (semaines 1-4)
 
-**#1 — BUILD NOW : Voice-to-CRM vertical (Wispr clone B2B)**
-Wispr Flow prouve le marché. Kyle a l'expertise voice AI. L'angle = vertical sales/CRM :
-dictée → CRM entry (Salesforce, HubSpot) reformatée automatiquement. Persona : SDRs et Account Managers qui passent 30% de leur temps à remplir leur CRM. Prix cible : $25-40/user/mo.
-MVP réalisable en 6-8 semaines avec Whisper API + GPT-4o + CRM webhooks.
+**1. Construire un "OpenClaw Voice Skill Pack" (PRIORITÉ #1)**
+OpenClaw est le projet GitHub le plus étoilé de l'histoire. Un pack de skills vocaux open-source (transcription, analyse d'appel, synthèse vocale) publié sur ClawHub peut générer :
+- Distribution organique (stars GitHub, featured ClawHub)
+- Leads qualifiés pour un SaaS voice B2B par-dessus
+- Positionnement "the voice expert of the OpenClaw ecosystem"
+**Effort estimé : 2-3 semaines. ROI : très élevé.**
 
-**#2 — BUILD ADJACENT : Plugin Voice pour OpenClaw**
-OpenClaw a 355K devs captivés mais zéro input voix. Un plugin voice-to-agent (parler à son agent WhatsApp/Telegram) est une évidence manquante. Kyle construit ça en OSS → traction communautaire → SaaS cloud autour. Temps : 2-3 semaines pour v1 OSS.
+**2. Lancer un "Manus Voice Ops" wrapper en 6 semaines**
+L'infrastructure Manus + Fly.io + Vapi existe déjà. Un SaaS qui propose des "agents vocaux 24/7 sans DevOps" pour PME (suivi client, standard téléphonique, screening RH) coche tous les cases :
+- Score Scorecard : 7.35 (BUILD ADJACENT)
+- Marché sous-adressé
+- Expertise Kyle = moat réel
+**Pricing recommandé : €199-499/mois par agent. Cible : 20 clients = €4K-10K MRR.**
 
-**#3 — WATCH : Skye-like pour Android/web (ambient agent)**
-La vision est juste mais les contraintes iOS tuent le time-to-market. Attendre le lancement Skye, observer la retention, puis répliquer sur Android où les contraintes d'intégration sont moindres. Kyle peut intégrer une couche voice input naturellement.
+**3. Surveiller Ghosted + Buda (signaux faibles)**
+Ces apps du top PH mai 2026 n'ont pas encore assez de data publique pour être analysées, mais elles sont dans les radars. À relancer dans le scan du 10 mai avec des métriques de rétention.
 
-### 🚫 Pièges à éviter
-- Ne pas construire un généraliste "Wispr Flow competitor" — trop de capital face à soi ($81M eux)
-- OpenClaw self-hosted ne se monétise pas directement — le SaaS managé autour, oui
-- Skye : ne jamais lancer sur iOS sans réseau de distribution existant (App Store discovery = quasi nulle sans PR)
+**4. Ne PAS attaquer Genspark frontalement**
+Genspark a des millions d'users et une équipe d'ex-Baidu/Google. Le seul angle valable : un vertical hyperspécialisé (ex: "Genspark for Voice Call Analysis") plutôt qu'un concurrent direct. Score : 6.35 — BUILD ADJACENT seulement.
 
-### 📅 Prochain scan recommandé
-Suivre dans 4 semaines : lancement officiel Skye, métriques Q2 Wispr Flow, levée de fonds potentielle OpenClaw ecosystem.
+**5. Garder le rythme de veille hebdomadaire**
+L'écosystème OpenClaw évolue très vite (1 600 contributeurs actifs). Une veille bi-hebdomadaire sur GitHub trending + ClawHub marketplace est désormais indispensable pour ne pas rater les skills concurrents émergents dans le vertical voice.
+
+---
+*Scan réalisé le 2026-05-03. Sources : Product Hunt · GitHub Trending · Hacker News · Reddit r/SaaS · TechCrunch · KDnuggets · SimilarLabs · TestingCatalog · getpanto.ai*
