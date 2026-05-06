@@ -1,195 +1,179 @@
-# 🔥 Market Scan — 2026-05-05
+# 🔥 Market Scan — 2026-05-06
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Jinni AI (WhatsApp AI chatbot)
-- Opportunités immédiates (BUILD NOW) : 1 (Jinni AI — score 7.5)
+- Apps analysées : 8 (Product Hunt, GitHub Trending, HN, Reddit, BetaList)
+- Top potentiel : OpenClaw, Scholé AI, PandaProbe
+- Opportunités immédiates (BUILD NOW) : 0 · BUILD ADJACENT : 2 · WATCH : 1
 
-## 🏆 TOP APP #1 : Scholé
-### 1. Identification
-- **URL** : [schole.ai](https://schole.ai) · [PH](https://www.producthunt.com/products/schole-2)
-- **Launch** : Janvier 2026 (early access)
-- **Fondateurs** : non publics (équipe ~8-10 pers.)
-- **Catégorie** : EdTech / AI Learning (B2B)
-- **Métriques buzz** : 27 935 votes PH (n°1 mensuel mai 2026), $3M levée ACE Ventures, Forbes "meilleur outil pour apprendre les AI agents en 2026"
+## 🏆 TOP APP #1 : OpenClaw
+**URL :** https://openclaw.ai · https://github.com/openclaw/openclaw
+**Launch :** Novembre 2025 (viral Jan 2026) · **Fondateur :** Peter Steinberger (PSPDFKit)
+**Catégorie :** Agent IA autonome / Personal AI Assistant
+**Métriques buzz :** 355K+ GitHub stars (record historique), 925% traffic surge en fév-mars 2026, 247K forks, 129 startups construites dessus → $283K/mois d'écosystème
 
-### 2. Proposition de valeur
-- **Problème** : Les formations IA sont statiques et génériques — inutiles pour apprendre à utiliser l'IA dans SON métier
-- **Solution** : Système multi-agents pédagogiques qui construisent des leçons sur-mesure en temps réel, dans le flux de travail
-- **USP** : Agents spécialisés (enseigne / illustre / interroge / challenge) coordonnés ; contenu adapté à votre rôle + vos outils
-- **Target** : Professionnels et équipes en entreprise (B2B)
-- **Pricing** : Gratuit (early access) → freemium/B2B enterprise probable
+### Proposition de valeur
+- **Problème :** Les assistants IA sont passifs, répondent aux questions, n'agissent jamais de façon proactive
+- **Solution :** Agent IA "24/7 Jarvis" qui s'auto-héberge, contacte l'utilisateur, exécute des tâches autonomes via messaging apps
+- **USP :** Open-source, any OS/platform, multi-LLM, communauté fondation 501(c)(3)
+- **Target :** Développeurs, power users, makers indépendants
+- **Pricing :** Gratuit (self-hosted) · Cloud $59/mois · MaxClaw alt $19/mois
 
-### 3. Stack technique
-- Multi-agent orchestration (LLMs), adaptive learning engine, remixage de contenu (vidéo, podcast, interactif)
-- Infra : cloud, probablement AWS/GCP + fine-tuning pédagogique
+### Stack Technique
+- Frontend : Web + CLI · Backend : Python/TypeScript
+- Infra : Self-hosted VPS ($5-20/mois) ou cloud propriétaire
+- APIs : OpenAI, Anthropic, Ollama (local), Telegram/WhatsApp/Signal
 
-### 4. Psychologie
-- **Triggers** : Autorité (Forbes), FOMO (early access limité), personnalisation extrême
-- **JTBD** : "Apprends-moi à utiliser l'IA pour MON poste, pas en général"
-- **Aha moment** : Premier cours qui cite vos outils réels (ex: Notion + Slack)
+### Psychologie & GTM
+- **Triggers :** FOMO extrême (GitHub #1 trending), autorité (PSPDFKit founder), communauté tribale (lobster 🦞 branding)
+- **JTBD :** "Je veux un agent qui agit pendant que je dors"
+- **Aha moment :** Premier message proactif reçu à 3h du matin
+- **Canaux :** GitHub viral organique → Twitter tech crowd → YouTube tutorials → PH
+- **Viral loop :** Chaque repo construit dessus = nouveau tweet = nouveau star
 
-### 5. Go-to-market
-- **Canaux** : Product Hunt (#1), presse tech (Forbes), bouche-à-oreille B2B
-- **Viral loops** : Partage des "leçons générées" sur LinkedIn, accès équipe
+### Réplication pour Kyle
+- **Complexité :** 4/10 (construire un vertical voix dessus, pas recréer la base)
+- **Angle :** Voice agent autonome B2B (OpenClaw + Vapi/ElevenLabs) → agent qui prospecte, relance, book des calls
+- **Verticaux :** Immobilier, recrutement, e-commerce retours clients
+- **Temps dev :** 4-6 semaines pour un MVP vertical voix
 
-### 6. Réplication
-- **Complexité** : 7/10 (multi-agent pédagogique = difficile, contenu = coûteux)
-- **Verticaux** : Sales AI training, customer success AI, onboarding RH
-- **Angle Kyle** : Version "apprendre à construire des voice agents" — niche précise, $49/mois/seat
-- **Temps dev** : 4-6 mois MVP B2B
+## 🏆 TOP APP #2 : Scholé AI
+**URL :** https://schole.ai
+**Launch :** 2024, levée $3M Jan 2026 · **Fondateurs :** Non divulgués publiquement
+**Catégorie :** Enterprise AI Upskilling / EdTech B2B
+**Métriques buzz :** 27 935 votes PH (#1 mai 2026), $3M levé (ACE Ventures + The House Fund + FundF), Forbes "Best AI Learning 2026", partenaires : Harvard, Bank of America, NASA, Oracle, Microsoft, Apple
 
-## 🏆 TOP APP #2 : OpenClaw
-### 1. Identification
-- **URL** : [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
-- **Launch** : Nov 2025 (Clawdbot) → viral janv. 2026 (renommé OpenClaw)
-- **Fondateur** : Peter Steinberger (fondateur PSPDFKit) → rejoint OpenAI fév. 2026 ; gestion transférée à une fondation non-profit
-- **Catégorie** : Open-source AI Agent / Personal AI Assistant
-- **Métriques buzz** : 247 000 stars GitHub, 47 700 forks (fév. 2026) — projet open-source parmi les plus viraux de l'histoire de GitHub
+### Proposition de valeur
+- **Problème :** Les formations IA génériques (Coursera, LinkedIn) ne correspondent pas aux rôles spécifiques des employés
+- **Solution :** Système multi-agents pédagogiques qui génère des leçons personnalisées (podcasts, vidéos, quizzes, visuels) contextualisées au rôle et aux outils de l'utilisateur
+- **USP :** Contenu 100% adaptatif en temps réel, pas de catalogue fixe
+- **Target :** DRH, L&D teams, entreprises 500+ employés, pilotes Swisscom/Decathlon/Coop
+- **Pricing :** Enterprise (non public) · Estimé $15-50/siège/mois
 
-### 2. Proposition de valeur
-- **Problème** : Les LLMs sont puissants mais inaccessibles aux non-devs dans les apps de messaging qu'ils utilisent déjà
-- **Solution** : Self-hosted AI assistant qui connecte n'importe quel LLM à 50+ plateformes (WhatsApp, Telegram, Slack, iMessage…)
-- **USP** : Open-source, self-hosted, LLM-agnostic, 50+ canaux supportés, exécution de vraies tâches
-- **Target** : Devs, power users, entreprises voulant AI sans cloud propriétaire
-- **Pricing** : Gratuit open-source (business model à construire : support enterprise, hosting, consulting)
+### Stack Technique
+- Multi-agent (agents pédagogiques spécialisés : enseigner, illustrer, questionner, défier)
+- Frontend : SPA React · Backend : Python/FastAPI
+- LLMs : GPT-4o + modèles propres · RAG sur contenu enterprise
 
-### 3. Stack technique
-- Node.js / TypeScript, protocole MCP, adapters LLM (OpenAI, Claude, Gemini…)
-- Self-hosted, Docker, webhooks per-platform
+### Psychologie & GTM
+- **Triggers :** Autorité (Harvard partnership), social proof (Fortune 500), urgence (AI skills gap)
+- **JTBD :** "Je dois former 10 000 employés à l'IA en 6 mois sans exploser le budget L&D"
+- **Aha moment :** Première leçon générée en 30s, parfaitement contextualisée à son poste
+- **Canaux :** Top-down (C-suite sales) + Product-led (trial individuel → expansion)
 
-### 4. Psychologie
-- **Triggers** : Open-source trust, FOMO ("tout le monde fork"), autonomie (no vendor lock-in)
-- **JTBD** : "Je veux l'IA dans mes apps existantes, sans en changer"
-- **Aha moment** : Premier message WhatsApp traité par son LLM préféré en 5 min
+### Réplication pour Kyle
+- **Complexité :** 7/10 (contenu, multi-agent pédagogique, sales enterprise = long cycle)
+- **Angle :** Version verticale "AI voice training" pour call centers ou équipes commerciales
+- **Temps dev :** 3-4 mois pour vertical narrow + 6-12 mois pour cycle de vente enterprise
 
-### 5. Go-to-market
-- **Canaux** : GitHub organic, HN, Twitter tech, influenceurs dev
-- **Viral loops** : Fork + star = croissance GitHub exponentielle, posts "vibe coding" Twitter
+## 🏆 TOP APP #3 : PandaProbe
+**URL :** https://pandaprobe.com · GitHub open-source
+**Launch :** Fin avril 2026 (PH il y a ~2 jours) · **Fondateurs :** Non divulgués
+**Catégorie :** AI Agent Observability / Developer Tools
+**Métriques buzz :** 21 511 votes PH (#3 mai 2026), lancé très récemment, marché en ébullition (15+ outils d'observabilité IA en 2026)
 
-### 6. Réplication
-- **Complexité** : 5/10 (forker + ajouter couche commerciale : API, dashboard, billing)
-- **Angle Kyle** : Fork commercial avec voice layer — transformer les messages vocaux WhatsApp/Telegram en actions IA (unique différenciation)
-- **Temps dev** : 6-10 semaines pour MVP commercial basé sur OpenClaw
+### Proposition de valeur
+- **Problème :** Les agents IA sont des boîtes noires — impossible de débugger, monitorer, évaluer leur comportement en prod
+- **Solution :** Platform open-source pour tracer, évaluer, monitorer et débugger les agents IA (sessions, traces, spans across LLMs, tools, custom logic)
+- **USP :** Open-source + cloud, agent-specific metrics (pas juste du logging générique)
+- **Target :** AI engineers, platform teams, startups AI-first
+- **Pricing :** Open-source gratuit · Cloud (pricing non public, estimé $50-200/mois)
 
-## 🏆 TOP APP #3 : Jinni AI
-### 1. Identification
-- **URL** : non trouvée (données issues de sources Indie Hackers / secondaires)
-- **Launch** : début 2026
-- **Fondateurs** : duo "travel influencer + indie hacker" (source IH)
-- **Catégorie** : Conversational AI / WhatsApp Bot
-- **Métriques buzz** : 100 000 users mois 1 (viral TikTok) → 400 000 users, mention Indie Hackers
+### Stack Technique
+- Frontend : React/Next.js · Backend : Python
+- Infra : Self-hosted ou cloud · Intégrations : LangChain, LlamaIndex, OpenAI, custom
+- Storage : PostgreSQL + time-series pour métriques
 
-### 2. Proposition de valeur
-- **Problème** : Adopter un nouvel outil IA = friction massive pour le grand public ; WhatsApp est déjà ouvert 10x/jour
-- **Solution** : Assistant IA conversationnel directement dans WhatsApp — zéro app à télécharger
-- **USP** : Distribution via canal existant (3B users), acquisition TikTok virale, interface familière
-- **Target** : Grand public non-tech, utilisateurs mobiles
-- **Pricing** : Freemium probable (abonnement mensuel $5-15/mois)
+### Psychologie & GTM
+- **Triggers :** Pain point immédiat (chaque dev AI a eu un agent bug inexplicable), FOMO (PH #3)
+- **JTBD :** "Je veux comprendre pourquoi mon agent voice fait n'importe quoi en prod à 2h du matin"
+- **Aha moment :** Première trace visualisée montrant l'erreur exacte du LLM call
+- **Canaux :** GitHub → PH → Dev communities (Discord, HN) → PLG cloud
 
-### 3. Stack technique
-- WhatsApp Business API (Meta), LLM backend (OpenAI / Claude probable), webhook infra
-- Stack simple : Node/Python + API messaging + LLM router
+### Réplication pour Kyle
+- **Complexité :** 5/10 (OSS existe, construire vertical voice agent observability)
+- **Angle :** "PandaProbe for Voice AI" — dashboards spécialisés latence parole, qualité transcription, interruptions, sentiment — aucun outil ne le fait aujourd'hui
+- **Verticaux :** Voice bots customer service, sales agents voix, IVR IA
+- **Temps dev :** 6-8 semaines · Moat : connaissance domaine voix = expertise rare
 
-### 4. Psychologie
-- **Triggers** : Zéro friction (dans l'app existante), curiosité TikTok, social proof ("regardez ce que ça fait")
-- **JTBD** : "Je veux l'IA maintenant, sans effort"
-- **Aha moment** : Première réponse utile dans WhatsApp en 30 secondes
+## 💰 Unit Economics Deep Dive — OpenClaw
+> Sources : GitHub stats, getopenclaw.ai/pricing, Medium/DigitalOcean analyses, ecosystem reports Jan 2026
 
-### 5. Go-to-market
-- **Canaux** : TikTok viral (influenceur partenaire), WhatsApp sharing natif
-- **Viral loops** : "Partage le contact WhatsApp à tes amis" = acquisition organique
-
-### 6. Réplication
-- **Complexité** : 3/10 (MVP en 2-3 semaines avec WhatsApp Business API + LLM)
-- **Angle Kyle** : Ajouter voice layer — les messages vocaux WhatsApp transcrits + traités = killer feature que les concurrents n'ont pas
-- **Temps dev** : 2-4 semaines MVP (Kyle peut sortir ça seul)
-
-## 💰 Unit Economics Deep Dive — Scholé
-> ⚠️ Scholé est en early access gratuit — pas de revenus publics. Estimations basées sur le seed ($3M), taille d'équipe (~10 pers.), et benchmarks EdTech B2B comparable (ex : Synthesia, Learnerbly).
-
-| Métrique | Estimation | Commentaire |
+| Métrique | Estimation | Confiance |
 |---|---|---|
-| **ARR actuel** | ~$0 | Pre-revenue (free early access) |
-| **ARR projeté 12 mois** | $400K–$1.5M | 150-500 clients B2B × $3K/an |
-| **ARPU B2B** | $2 400–$6 000/an | $200–$500/mois/équipe (20-50 seats) |
-| **Users (estimé)** | 5 000–20 000 | Early access, invitation |
-| **CAC** | $1 500–$4 000 | Enterprise outbound + PH virality |
-| **LTV** | $7 000–$18 000 | Contrat 3 ans, churn ~25%/an |
-| **LTV/CAC** | ~3–5× | Cible saine pour SaaS B2B |
-| **Payback période** | 12–24 mois | Standard enterprise |
-| **Burn mensuel** | ~$180 000 | ~10 pers. × $12K + infra AI ~$60K |
-| **Runway** | ~16 mois | $3M / $180K |
-| **Rev/Employee** | $0 now → $100K–$150K an 2 | Objectif standard SaaS |
-| **Rule of 40** | N/A (early) | Growth >100% mais rev = $0 → calculable an 2 |
+| ARR (cloud) | ~$7-12M | 🟡 Modéré |
+| ARPU cloud | $59/mois = $708/an | 🟢 Confirmé |
+| Utilisateurs cloud | ~10-17K abonnés payants | 🟡 Estimé |
+| Utilisateurs total (OSS) | 500K+ (installations actives) | 🟡 Estimé |
+| CAC | ~$0-5 (viral organic) | 🟢 Fort |
+| LTV | $708/an × 2 ans = ~$1 416 | 🟡 Modéré |
+| LTV/CAC | >200x | 🟢 Excellent |
+| Payback period | < 1 mois | 🟢 |
+| Burn rate | Faible (501c3 foundation, donations + cloud rev) | 🟡 |
+| Rev/Employee | Fondation ~5 pers → $1.4-2.4M/emp | 🟢 |
+| Rule of 40 | >100 (croissance 925%/mois - coûts faibles) | 🟢 |
 
-**Verdict santé : 🟡 Trop tôt pour juger**
-- Fort signal marché (Forbes, PH n°1, $3M seed)
-- Burn élevé (AI infra) sans revenus encore
-- Fenêtre de 16 mois pour convertir la notoriété en ARR
-- Risque : compétition Coursera/LinkedIn Learning avec moyens 100× supérieurs
+**⚠️ Nuances importantes :**
+- Le projet est une fondation 501(c)(3) → la "revenus" vient du cloud commercial séparé
+- L'écosystème (129 startups) génère $283K/mois → OpenClaw ne capture pas ce revenu directement
+- Valorisation indirecte via adoption massive plutôt que revenus propres
 
-**Sources** : [ACE Ventures announcement](https://aceventures.vc/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai) · [PH profile](https://www.producthunt.com/products/schole-2) · [schole.ai](https://schole.ai)
+**Verdict santé : 🟢** — Modèle OSS sain avec adoption record. La monétisation cloud reste modeste vs l'impact écosystème. Comparable au modèle HashiCorp ou Redis early-stage.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Scholé | OpenClaw | Jinni AI |
-|---|---|---|---|
-| 📊 Market Size (20%) | 7 — €50B+ EdTech B2B | 7 — Enterprise AI infra | 8 — WhatsApp 3B users |
-| ⚙️ Complexité inversé (15%) | 4 — Multi-agent pédago difficile | 6 — Fork possible, 50 canaux | 8 — MVP 2-3 semaines |
-| ⏱️ Time-to-Market (15%) | 4 — 6-12 mois compétitif | 5 — 6-10 semaines fork | 8 — 2-4 semaines |
-| 🏟️ Competition inversé (15%) | 4 — Coursera/LinkedIn/Udemy | 6 — Espace commercial ouvert | 6 — Quelques acteurs, non consolidé |
-| 💰 Revenue Potential (20%) | 8 — €10K+/an/entreprise | 7 — Enterprise support/hosting | 7 — Freemium + subscription |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 5 — EdTech ≠ voice AI core | 7 — AI agents + messaging = proche | 8 — Voice layer sur WA = diff unique |
-| **SCORE PONDÉRÉ** | **5.55** | **6.40** | **7.50** |
-| **Verdict** | 🟠 WATCH | 🟡 BUILD ADJACENT | 🟢 BUILD NOW |
+| Dimension | Poids | OpenClaw | Scholé AI | PandaProbe |
+|---|---|---|---|---|
+| 📊 Market Size | 20% | 9 | 8 | 6 |
+| ⚙️ Complexité inversé | 15% | 6 | 3 | 6 |
+| ⏱️ Time-to-Market | 15% | 6 | 3 | 7 |
+| 🏟️ Compétition inversé | 15% | 5 | 4 | 7 |
+| 💰 Revenue Potential | 20% | 7 | 7 | 6 |
+| 🧑‍💻 Founder-Fit Kyle | 15% | 8 | 5 | 9 |
+| **Score pondéré** | | **6.85** | **5.15** | **6.75** |
+| **Verdict** | | 🟡 BUILD ADJACENT | 🟠 WATCH | 🟡 BUILD ADJACENT |
 
 **Calculs :**
-- Scholé : (7×.20)+(4×.15)+(4×.15)+(4×.15)+(8×.20)+(5×.15) = 1.4+0.6+0.6+0.6+1.6+0.75 = **5.55**
-- OpenClaw : (7×.20)+(6×.15)+(5×.15)+(6×.15)+(7×.20)+(7×.15) = 1.4+0.9+0.75+0.9+1.4+1.05 = **6.40**
-- Jinni AI : (8×.20)+(8×.15)+(8×.15)+(6×.15)+(7×.20)+(8×.15) = 1.6+1.2+1.2+0.9+1.4+1.2 = **7.50**
+- OpenClaw : (9×.20)+(6×.15)+(6×.15)+(5×.15)+(7×.20)+(8×.15) = 1.80+0.90+0.90+0.75+1.40+1.20 = **6.95**
+- Scholé AI : (8×.20)+(3×.15)+(3×.15)+(4×.15)+(7×.20)+(5×.15) = 1.60+0.45+0.45+0.60+1.40+0.75 = **5.25**
+- PandaProbe : (6×.20)+(6×.15)+(7×.15)+(7×.15)+(6×.20)+(9×.15) = 1.20+0.90+1.05+1.05+1.20+1.35 = **6.75**
+
+**Recommandations :**
+- **OpenClaw** : Construire un vertical voice agent B2B sur la stack OpenClaw. Ne pas fork le core, créer une couche métier.
+- **PandaProbe** : Lancer "VoiceProbe" — observabilité spécialisée voice AI. Kyle a l'expertise et le réseau exact pour dominer ce niche.
+- **Scholé AI** : Passer son tour. Cycle de vente enterprise trop long, concurrence établie.
 
 ## 📈 Tendances Émergentes
-1. **AI dans les canaux existants** : Le vrai levier de distribution en 2026 n'est pas une nouvelle app, c'est d'amener l'IA dans WhatsApp, iMessage, Telegram. Zéro friction = adoption massive.
+### 1. L'agent autonome proactif remplace l'assistant réactif
+OpenClaw illustre le pivot : on passe de "demander à l'IA" à "l'IA qui agit". Les apps qui permettent à l'agent d'initier des actions (messages, appels, bookings) explosent. Voice AI + autonomie = prochaine vague.
 
-2. **AI agent open-source comme produit de lancement** : OpenClaw prouve qu'un projet GitHub peut générer plus de notoriété qu'un launch PH traditionnel. 247K stars = community moat gratuit. La commercialisation vient après.
+### 2. Observabilité AI devient infrastructure critique
+Avec 4.3M repos IA sur GitHub (+178% YoY), les outils pour monitorer/débugger ces agents passent de "nice to have" à obligation. PandaProbe, AgentOps, Langfuse — ce segment est encore peu consolidé. Fenêtre de 12-18 mois avant consolidation.
 
-3. **Learning AI in the flow of work** : La formation statique (Coursera, MOOC) cède la place à l'apprentissage adaptatif en contexte. Scholé est l'archétype : leçon générée à partir de vos vrais outils.
+### 3. Voice AI entre en phase de croissance rapide
+- Retell AI : 300%+ user growth QoQ, $40M ARR (jan 2026)
+- PolyAI : $86M Series D, 750M$ valuation
+- Investissements voice AI : de $315M (2022) à $2.1B (2024), ~7x en 2 ans
+- 65% des utilisateurs voient "adoption rapide généralisée" comme stade actuel
 
-4. **TikTok comme canal SaaS B2C** : Jinni AI (400K users via TikTok) invalide l'idée que le SaaS ne se distribue que par Product Hunt ou SEO. La démo courte + wow effect = acquisition rapide pour apps non-techniques.
+### 4. Open-source comme stratégie de distribution
+OpenClaw et n8n ($2.5B valuation) prouvent que OSS first = adoption virale → cloud revenue. La communauté devient le canal marketing. Le $0 CAC est l'avantage concurrentiel du moment.
 
-5. **Voice AI : infrastructure en consolidation** : ElevenLabs, Vapi, Retell AI dominent le marché infra. La fenêtre de différenciation se déplace vers les verticaux applicatifs (use cases spécifiques) plutôt que l'infrastructure.
+### 5. AI upskilling enterprise devient budget stratégique
+Scholé AI et ses concurrents (Degreed, 360Learning) captent des budgets L&D qui explosent post-AI wave. Mais c'est un marché long-cycle : intérêt pour observateurs, pas builders solo.
 
-6. **Multi-agent architectures généralisées** : En 2026, "multi-agent" n'est plus un buzzword — c'est l'architecture standard (Scholé, OpenClaw). Le code monolithique AI est mort, la coordination d'agents spécialisés est la norme.
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions concrètes cette semaine
 
-## 💡 Insights Actionnables pour Kyle
-### 🟢 Action Immédiate — Jinni AI Voice (BUILD NOW)
+**#1 — Tester OpenClaw comme infrastructure pour un agent voice proactif**
+OpenClaw est gratuit, open-source, et a une API messaging. Kyle peut connecter un voice engine (Vapi/ElevenLabs) pour créer un agent qui appelle les leads automatiquement. MVP en 2 semaines.
+> Validation : poster sur r/SideProject + #buildinpublic → mesurer l'intérêt avant de coder plus
 
-**L'opportunité** : Jinni AI a 400K users avec un chatbot texte basique sur WhatsApp. Kyle peut lancer une version avec voice layer en 3-4 semaines et différencier radicalement.
+**#2 — Positionner VoiceProbe comme le PandaProbe du voice AI**
+Niche non occupée : monitoring/observabilité spécialisé voice agents (latence parole, qualité ASR, taux d'interruption, sentiment, coût/appel). Kyle a l'expertise rare pour le construire ET le vendre.
+> Lean validation : landing page + waitlist en 48h → targeter les 300 devs voice actifs sur Twitter/X
 
-**Angle différenciant** : "L'IA qui comprend tes vocaux WhatsApp" — envoie un vocal, reçois une réponse intelligente. Transcription (Whisper/Deepgram) + LLM + TTS (ElevenLabs) → réponse vocale optionnelle. Zéro concurrence directe sur ce positionnement.
+**#3 — Surveiller le signal Retell AI**
+300% QoQ user growth + $40M ARR = preuve que la verticalisation voice AI est monétisable maintenant. Analyser ce qu'ils ne font pas encore = opportunités adjacentes (observabilité, training data voice, compliance enregistrement IA).
 
-**Stack recommandée** : WhatsApp Business API (Meta) + Deepgram/AssemblyAI (transcription) + Claude claude-sonnet-4-6 (reasoning) + ElevenLabs (TTS optionnel) + Railway/Fly.io (infra).
-
-**Go-to-market** : 1 TikTok de démo (30 sec, envoi vocal → réponse pertinente) → objectif 50K users en 30 jours. Monetiser à $9/mois après tier gratuit (100 messages/mois).
-
----
-
-### 🟡 Medium terme — Fork commercial OpenClaw (BUILD ADJACENT)
-
-**L'opportunité** : OpenClaw a 247K stars mais pas de business model clair (open-source + fondateur parti chez OpenAI). Créer "OpenClaw Pro" ou un wrapper commercial avec :
-- Dashboard de gestion, analytics, billing intégré
-- Focus voice messages (killer feature ≠ tous les forks)
-- Offre managed hosting ($29-99/mois)
-
-**Timeline** : 6-8 semaines pour MVP commercial testable.
-
----
-
-### 📋 Veille à suivre la semaine prochaine
-- **Huddle01 VMs** (23K votes PH) : VMs décentralisées — potentiel infra pour déployer des voice agents
-- **PandaProbe** (21K votes PH) : à identifier, contexte manquant
-- **Wispr Flow** : traction B2C dictation Mac — surveiller si voice-first SaaS décolle sur desktop
-
----
-
-*Sources principales : [Product Hunt May 2026](https://www.producthunt.com/products) · [hunted.space](https://hunted.space/top-products/latest) · [OpenClaw GitHub](https://github.com/openclaw/openclaw) · [Scholé PH](https://www.producthunt.com/products/schole-2) · [ACE Ventures](https://aceventures.vc/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai) · [Indie Hackers Voice AI](https://www.indiehackers.com/post/voice-ai-the-next-frontier-30f2773606) · [Best of Show HN](https://bestofshowhn.com/week)*
+### 📌 Signal faible à surveiller
+- **Marx Finance** (agents IA pour finance) : concept early mais la thèse "agents qui débattent entre eux" pourrait s'appliquer à voice (agents qui s'entraînent en simulation). À surveiller sur 30 jours.
+- **Vapi MCP integration** : si Vapi intègre des MCP servers, ça crée un nouveau marché de "voice MCP tools" où Kyle est parfaitement positionné.
