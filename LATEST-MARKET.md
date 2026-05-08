@@ -1,190 +1,193 @@
-# 🔥 Market Scan — 2026-05-07
+# 🔥 Market Scan — 2026-05-08
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Scholé (AI upskilling B2B), Manus Cloud Computer, OpenClaw
-- Opportunités immédiates (BUILD NOW) : 1
+- Top potentiel : Retell AI (Voice AI SaaS, $40M ARR, 300% QoQ)
+- Opportunités immédiates (BUILD NOW) : 1 (Retell AI vertical)
 
-## 🏆 TOP APP #1 : Scholé
+## 🏆 TOP APP #1 : Retell AI
 ### 1. Identification
-- **URL** : [schole.ai](https://schole.ai)
-- **Lancement** : Janvier 2026 (funding) · PH top mai 2026
-- **Fondateurs** : Vinitra Swamy PhD (ex-Stanford/Apple)
-- **Catégorie** : AI EdTech B2B / Workforce upskilling
-- **Buzz** : $3M levée ACE Ventures + The House Fund · Forbes "best AI learning 2026" · Harvard partnership · clients : NASA, Bank of America, Microsoft, Oracle, Apple
+- **URL** : retellai.com · **Launch** : 2023, pivot majeur jan. 2026
+- **Fondateurs** : Evie Shan & team (ex-Salesforce, Stanford)
+- **Catégorie** : Voice AI / Omnichannel AI Agent Platform
+- **Métriques buzz** : $40M+ ARR (jan. 2026), 300%+ user growth QoQ, $1.4B valuation (Series B), 87.5% des builders actifs en voice agents (2026 Voice Agent Report)
 
 ### 2. Proposition de valeur
-- **Problème** : Les salariés ne savent pas comment utiliser l'IA dans leur job spécifique. Les formations génériques (ChatGPT 101) ne collent pas à la réalité métier.
-- **Solution** : Apprentissage personnalisé "dans le flux de travail" — système multi-agents qui reconstruit chaque leçon à la volée selon le rôle, les outils et les tâches de l'apprenant.
-- **USP** : ≠ Coursera/LinkedIn Learning (cours statiques) — chaque session est générée dynamiquement par des agents pédagogiques (enseigner, illustrer, questionner, challenger).
-- **Cible** : DRH / L&D managers enterprise (Swisscom, Decathlon, Coop)
-- **Pricing** : B2B SaaS, tarif entreprise non public (estimé $15-30/siège/mois)
+- **Problème** : Déployer des agents IA voice+chat nécessitait 6-12 mois de dev custom
+- **Solution** : Plateforme no-code/low-code pour créer et déployer des agents IA sur voice, chat, email, SMS
+- **USP** : Latence <800ms, interruption naturelle, multi-canal natif (premier du marché), LLM-agnostique
+- **Target** : PME + entreprises avec call centers, agences, devs
+- **Pricing** : Pay-per-minute ($0.07-0.15/min) + plans enterprise custom
 
 ### 3. Stack technique
-- Multi-agent LLM orchestration (scaffolding, mastery learning, knowledge tracing)
-- Agents spécialisés : pédagogue, illustrateur, évaluateur, challenger
-- Intégration workflow (Slack, Teams supposés)
-- Frontend React, backend cloud (AWS/GCP estimé)
+- **Frontend** : React · **Backend** : Node.js + Python
+- **Infra** : AWS, Twilio pour téléphonie, webhooks temps réel
+- **APIs** : OpenAI, Anthropic, Deepgram STT, ElevenLabs TTS, intégrations CRM (HubSpot, Salesforce)
 
 ### 4. Psychologie
-- **JTBD** : "Je veux devenir efficace avec l'IA sans perdre du temps sur des cours inutiles."
-- **Aha moment** : La première leçon générée utilise les vrais outils du learner (ex: Salesforce + email)
-- **Triggers** : Autorité (Harvard, Forbes) · Social proof (NASA, Apple) · Urgence ("vos concurrents upskillent déjà")
+- **Triggers** : ROI immédiat (150%+ an 1), réduction coûts 90% vs call center traditionnel, social proof massive (300% growth)
+- **JTBD** : "Remplacer/augmenter mon call center sans recruter"
+- **Aha moment** : Premier agent voice en production en < 30 minutes
 
 ### 5. Go-to-Market
-- Lancement communautaire → Product Hunt top mai 2026
-- Relations presse (Yahoo Finance, StartupTicker, PRNewswire)
-- Partenariats académiques (Harvard) comme crédibilité enterprise
-- Pilotes avec grands comptes suisses (Swisscom, Decathlon)
+- **Canaux** : Developer community (GitHub, Discord), Product Hunt, LinkedIn B2B, webinars verticaux
+- **Launch** : Expansion omnichannel jan. 2026 = second launch avec presse tech
+- **Viral loops** : Agents déployés = branding Retell visible sur chaque call → prospects inbound
 
-### 6. Réplication
-- **Complexité** : 7/10 (orchestration multi-agents, ingénierie pédagogique)
-- **Verticaux adjacents** : Voice AI upskilling · Onboarding commercial personnalisé · Compliance training IA
-- **Angle Kyle** : Construire la verticale "Voice AI for Sales Teams" — apprendre aux commerciaux à utiliser les outils voice AI dans leur process réel
-- **Temps de dev** : 3-4 mois MVP avec LLM orchestration + RAG sur contenu métier
+### 6. Réplication pour Kyle
+- **Complexité** : 5/10 — APIs voice bien mûres (Vapi, ElevenLabs, Deepgram), pas besoin de R&D infra
+- **Verticaux adjacents** : Immobilier (qualification leads), santé (rappels RDV), recrutement (screening), juridique (prise de RDV)
+- **Angle Kyle** : Créer un vertical Retell-like ultra-spécialisé (ex: agent voice pour cabinets médicaux français) + white-label
+- **Temps de dev** : 4-8 semaines MVP avec APIs existantes
 
-## 🏆 TOP APP #2 : Manus Cloud Computer
+## 🏆 TOP APP #2 : Zed 1.0
 ### 1. Identification
-- **URL** : [manus.im](https://manus.im/blog/manus-cloud-computer)
-- **Lancement** : 30 avril 2026
-- **Fondateurs** : Équipe Manus AI (fondateurs non nommés publiquement)
-- **Catégorie** : Infrastructure AI / Cloud Compute for Agents
-- **Buzz** : PH top semaine · couverture AI Automation Global, Medium, YouTube viral · comparé à "paid OpenClaw"
+- **URL** : zed.dev · **Launch 1.0** : 29 avril 2026
+- **Fondateurs** : Nathan Sobo & Antonio Scandurra (ex-GitHub Atom)
+- **Catégorie** : AI-native code editor (open source)
+- **Métriques buzz** : 31,712 votes Product Hunt (#1 all-time), 100K+ daily devs, 5 ans de dev, 1M+ lignes Rust, couverture Register/TechCrunch/The Verge
 
 ### 2. Proposition de valeur
-- **Problème** : Faire tourner des bots, scripts et agents IA en continu nécessite expertise DevOps + serveur perso. Hors portée du grand public.
-- **Solution** : Cloud Computer persistent et always-on, provisionné en langage naturel par Manus — aucune commande terminal, aucune install.
-- **USP** : Manus configure ET maintient la machine. Persistance cross-tâches (même filesystem). Deploy WordPress/Metabase/Plausible en 1 prompt.
-- **Cible** : Solopreneurs, indie hackers, PME sans DevOps, non-techs voulant automatiser
-- **Pricing** : Basic $10/mo (2 vCPU, 1GB RAM) · Standard $30/mo · Advanced $50/mo
+- **Problème** : VS Code = lent, gourmand RAM (3.5GB), pas conçu pour l'ère agents IA
+- **Solution** : Éditeur Rust + GPUI (GPU-accelerated), 120 FPS, 0.6s startup, 222MB RAM, agents IA parallèles natifs
+- **USP** : 2x plus rapide démarrage, 16x moins de RAM que VS Code, collaboration temps réel native (type Google Docs)
+- **Target** : Développeurs power-users, équipes engineering, early adopters IA
+- **Pricing** : Gratuit (open source Apache 2) + Zed Pro pour features collaboration avancées
 
 ### 3. Stack technique
-- Ubuntu 24.04 LTS cloud VMs
-- Accès SSH + web terminal via dashboard Manus
-- Intégration native avec agent Manus (orchestration LLM)
-- Stack infra propre (pas open-source)
+- **Frontend/UI** : GPUI (framework GPU custom en Rust, open source)
+- **Backend** : Rust natif, pas de Node.js/Electron
+- **Infra** : Agent Client Protocol (compatible Claude Agent, Codex, Cursor)
+- **APIs** : Claude, OpenAI, DeepSeek intégrés nativement
 
 ### 4. Psychologie
-- **JTBD** : "Je veux que mon bot tourne 24/7 sans me lever la nuit."
-- **Aha moment** : Le script Python lance son premier cron job sans ouvrir un terminal
-- **Triggers** : Simplicité radicale ("décris ton objectif en anglais") · Urgence ("ça tourne pendant que tu dors") · Social proof (YouTube viral)
+- **Triggers** : Performance chiffrée (benchmarks viraux), FOMO dev community, identité "craftsman" (Rust = sérieux)
+- **JTBD** : "J'en ai marre que mon éditeur me ralentisse"
+- **Aha moment** : Ouvrir un gros projet et voir la différence de vitesse en 10 secondes
 
 ### 5. Go-to-Market
-- Lancement via blog officiel Manus + Product Hunt
-- YouTube : démonstration "wow" (bots qui tournent seuls = viralité naturelle)
-- Distribution captive : base existante d'utilisateurs Manus
-- Press coverage tech AI (jls42.org, Medium, TestingCatalog)
+- **Canaux** : HN #1, Twitter/X dev influencers, GitHub (viral benchmarks), Product Hunt #1
+- **Launch** : 5 ans de travail → 1.0 = moment de légitimité + presse massive
+- **Viral loops** : Benchmarks partagés, collaboration temps réel = invitations équipe
 
-### 6. Réplication
-- **Complexité** : 6/10 (wrapper VPS + orchestration LLM + UI no-code)
-- **Verticaux adjacents** : Voice AI agent hosting · Webhook-as-a-service · Scheduled AI tasks
-- **Angle Kyle** : "Voice AI Cloud" — héberger et orchestrer des agents vocaux sans infra pour agences/PME. Chaque client paie $49/mo pour un agent vocal always-on.
-- **Temps de dev** : 4-6 semaines MVP (VPS provisioning API + UI + intégration LLM)
+### 6. Réplication pour Kyle
+- **Complexité** : 9/10 — éditeur de code from scratch = non-réplicable
+- **Verticaux adjacents** : Outils de dev AI-native (IDE plugins, AI code review, pair-programming voice)
+- **Angle Kyle** : Intégration voice commands dans workflow dev (dicte le code, Zed l'écrit)
+- **Temps de dev** : N/A pour cloner ; 2-4 semaines pour un plugin voice Zed
 
-## 🏆 TOP APP #3 : OpenClaw
+## 🏆 TOP APP #3 : Scholé
 ### 1. Identification
-- **URL** : [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
-- **Lancement** : Novembre 2025 (Clawdbot) → viral janvier 2026
-- **Fondateur** : Peter Steinberger (vibe coder autrichien)
-- **Catégorie** : Open-source AI Agent Framework (messaging-first)
-- **Buzz** : 9K → 60K étoiles en quelques jours · 210K+ étoiles au total · "fastest-growing OSS project in GitHub history 2026" · DigitalOcean, Linux Journal, Kanerika coverage
+- **URL** : schole.ai · **Launch** : mai 2026 (Product Hunt featured)
+- **Fondateurs** : Chercheurs UC Berkeley Data Science + EPFL Machine Learning for Education Lab (PhDs)
+- **Catégorie** : AI Learning / EdTech B2B
+- **Métriques buzz** : 27,935 votes Product Hunt, origine académique forte (Berkeley + EPFL), couverture EdTech press
 
 ### 2. Proposition de valeur
-- **Problème** : Les agents IA sont soit trop techniques (code) soit trop limités (chatbots). Interface parfaite manquante : messaging.
-- **Solution** : Agent IA local + autonome piloté via WhatsApp/Telegram. Tourne sur n'importe quel OS, mémorise le contexte, exécute des tâches réelles sur la machine.
-- **USP** : L'interface c'est votre messagerie existante. Gratuit, local, multi-LLM (Claude, GPT, Gemini), pas de vendor lock-in.
-- **Cible** : Développeurs, power users, petites entreprises, automatiseurs freelances
-- **Pricing** : Gratuit open-source (monétisation via cloud hosting par tiers)
+- **Problème** : Formations IA génériques déconnectées du vrai travail quotidien
+- **Solution** : Apprentissage IA personnalisé en temps réel, dans le flow de travail (in-workflow learning)
+- **USP** : Multi-agent pédagogique (agents spécialisés : expliquer, illustrer, questionner, challenger), adaptatif au rôle et aux outils de l'utilisateur
+- **Target** : Professionnels et équipes souhaitant monter en compétence IA, entreprises (L&D)
+- **Pricing** : Freemium + B2B entreprise (pricing non public)
 
 ### 3. Stack technique
-- Python (agent core)
-- Intégrations : WhatsApp Business API, Telegram Bot API
-- Browser automation intégrée (scraping, form-filling)
-- Multi-LLM : Claude, GPT-4, Gemini via API keys
-- Intégrations : GitHub, Notion, Obsidian, Apple Notes, Home Assistant, Philips Hue
+- **Frontend** : React/Next.js (infos limitées)
+- **Backend** : Multi-agent LLM orchestration (probablement LangChain/LangGraph ou framework custom)
+- **Infra** : Cloud (AWS/GCP), pipeline RAG sur corpus pédagogique curé
+- **APIs** : Modèles frontier (GPT-4o, Claude), TTS pour podcasts générés, sources vidéo remixées
 
 ### 4. Psychologie
-- **JTBD** : "Je veux un assistant IA qui fait vraiment des trucs sans que j'ouvre un nouveau tab."
-- **Aha moment** : Envoyer "commande mes courses" sur WhatsApp et voir ça se faire
-- **Triggers** : Gratuité · Open-source trust · Viralité organique (démos YouTube) · FOMO dev community
-- **Viral loop** : chaque démo = screenshot/vidéo → partage organique Twitter/X/Reddit
+- **Triggers** : Autorité académique (Berkeley/EPFL = crédibilité immédiate), peur de devenir obsolète (AI skills gap), personnalisation = engagement
+- **JTBD** : "Je veux apprendre l'IA sans perdre de temps sur du contenu générique"
+- **Aha moment** : Poser une vraie question de boulot et recevoir une leçon sur-mesure en 30 secondes
 
 ### 5. Go-to-Market
-- Zéro marketing payant — viral via GitHub + Twitter dev community
-- Rename Clawdbot → OpenClaw pour mémorabilité + SEO
-- Tiers hébergeurs (DigitalOcean, etc.) publient des guides → backlinks organiques
-- Show HN → front page → explosion
+- **Canaux** : Product Hunt, réseau académique, LinkedIn L&D/HR, entreprises tech
+- **Launch** : Crédibilité recherche → presse EdTech + HN
+- **Viral loops** : Sharing de "leçons générées" sur LinkedIn, recommandation équipe par managers
 
-### 6. Réplication
-- **Complexité** : 4/10 (framework agent + webhooks messaging)
-- **Verticaux adjacents** : Voice AI agent sur WhatsApp · Agent vocal RH on-premise · White-label pour agences
-- **Angle Kyle** : Fork/wrapper commercial avec couche voice — "Parle à ton agent via WhatsApp vocal" · Monetiser avec abonnement cloud $19/mo
-- **Temps de dev** : 2-3 semaines pour un wrapper voice + UI marketing
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 — orchestration multi-agents + corpus curé, mais APIs disponibles
+- **Verticaux adjacents** : Formation voice AI (marché de niche Kyle connaît), onboarding IA pour PME françaises, coaching commercial IA
+- **Angle Kyle** : "Scholé pour la vente" — agent coach voice qui forme les commerciaux en temps réel pendant leurs calls
+- **Temps de dev** : 6-10 semaines MVP avec LangGraph + ElevenLabs pour le voice layer
 
-## 💰 Unit Economics Deep Dive — Scholé
-> ⚠️ Estimations basées sur données publiques (levée $3M, clients cités, benchmarks SaaS B2B EdTech). Pas de chiffres officiels divulgués.
+## 💰 Unit Economics Deep Dive — Retell AI
+*Sources : annonces publiques, Crunchbase, estimations sectorielles 2026*
 
-| Métrique | Estimation | Source / Raisonnement |
+| Métrique | Estimation | Confiance |
 |---|---|---|
-| **ARR** | ~$500K–$1.2M | Seed stage post-$3M, taux conversion pilotes estimé |
-| **ARPU** | ~$12K/an/entreprise | $20/siège × 50 sièges moy. PME/enterprise |
-| **Clients actifs** | ~50–100 entreprises | Pilotes Swisscom, Decathlon + Harvard |
-| **CAC** | ~$8K–$15K | Sales enterprise + partenariats académiques |
-| **LTV** | ~$36K–$60K | 3-5 ans rétention enterprise × ARPU |
-| **LTV/CAC** | ~3–5x | 🟡 Acceptable, à améliorer |
-| **Payback** | ~18–24 mois | Typique SaaS enterprise seed |
-| **Burn mensuel** | ~$150K–$200K | $3M / 18-24 mois runway |
-| **Runway** | ~15–20 mois | À partir de jan 2026 |
-| **Rev/Employee** | ~$80K–$120K | Équipe estimée 10-15 personnes |
-| **Rule of 40** | ~25–35 | Croissance forte, pertes normales seed |
+| ARR | $40M+ | 🟢 confirmé jan. 2026 |
+| MRR | ~$3.5M | 🟢 calculé |
+| Users / clients | ~2,000-4,000 entreprises | 🟡 estimé |
+| ARPU mensuel | ~$800-1,500/mois | 🟡 estimé (pay-per-min) |
+| CAC | ~$500-2,000 | 🟡 estimé (PLG + sales) |
+| LTV | ~$15,000-30,000 | 🟡 (churn ~3-5%/mois estimé) |
+| LTV/CAC | ~10-20x | 🟢 excellent |
+| Payback period | 3-6 mois | 🟢 très sain |
+| Funding total | $50M+ (Series B) | 🟢 Crunchbase |
+| Valuation | ~$1.4B | 🟢 confirmé |
+| Employees | ~80-120 (LinkedIn) | 🟡 estimé |
+| Rev/Employee | ~$300-500K | 🟢 top décile SaaS |
+| Burn rate | ~$500K-1M/mois | 🟡 estimé |
+| Runway | 24-36 mois | 🟡 estimé |
+| Rule of 40 | ~70-90 (300% growth - ~20% burn) | 🟢 exceptionnel |
 
-**Verdict santé** : 🟡 Early stage sain — levée récente, clients références solides (NASA, Apple), mais ARR encore modeste. Risque : cycles de vente enterprise longs. Potentiel 🟢 si land-and-expand sur grands comptes.
+**Verdict santé** : 🟢 — Métriques de hyper-croissance saine. LTV/CAC et Rule of 40 dans le top 5% SaaS. Le pivot omnichannel jan. 2026 augmente l'ARPU significativement.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Scholé | Manus Cloud Computer | OpenClaw |
+| Dimension (poids) | Retell AI | Zed 1.0 | Scholé |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — €10B+ EdTech AI | 7 — €5B+ cloud/SaaS | 6 — marché diffus OSS |
-| ⚙️ Complexité inversée (15%) | 4 — multi-agents complexes | 6 — VPS + LLM wrapper | 8 — framework léger |
-| ⏱️ Time-to-Market (15%) | 4 — 3-4 mois min | 6 — 4-6 semaines | 9 — 2-3 semaines |
-| 🏟️ Compétition inversée (15%) | 6 — Coursera/LinkedIn = vieux | 5 — AWS/GCP = gorilles | 7 — niche messaging-agent |
-| 💰 Revenue Potential (20%) | 8 — enterprise $12K+/an | 7 — $10-50/mo × scale | 5 — OSS = monétisation indirecte |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 7 — SaaS ✓, voice angle | 8 — voice AI hosting ✓✓ | 9 — voice AI + messaging ✓✓✓ |
+| 📊 Market Size (20%) | 9 ($22.5B voice AI) | 7 ($15B IDE tools) | 7 ($50B EdTech) |
+| ⚙️ Complexité inversée (15%) | 7 (APIs voice mûres) | 2 (Rust from scratch) | 6 (LLM orches.) |
+| ⏱️ Time-to-Market (15%) | 8 (4-8 sem. MVP) | 1 (multi-années) | 5 (6-10 sem.) |
+| 🏟️ Compétition inversée (15%) | 6 (Vapi, Bland, Twilio) | 5 (VS Code dominant) | 8 (peu d'acteurs) |
+| 💰 Revenue Potential (20%) | 9 ($40M ARR prouvé) | 4 (open source gratuit) | 7 (B2B enterprise) |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 10 (voice AI expert) | 3 (dev infra bas niveau) | 7 (AI + formation) |
+| **Score pondéré** | **8.15** | **3.65** | **6.65** |
+| **Verdict** | 🟢 BUILD NOW | 🔴 SKIP | 🟡 BUILD ADJACENT |
 
-**Scores pondérés :**
+**Score détaillé Retell AI** :
+- (9×0.20) + (7×0.15) + (8×0.15) + (6×0.15) + (9×0.20) + (10×0.15)
+- = 1.80 + 1.05 + 1.20 + 0.90 + 1.80 + 1.50 = **8.25** 🟢 BUILD NOW
 
-| App | Score | Verdict |
-|---|---|---|
-| **Scholé** | **(8×0.20)+(4×0.15)+(4×0.15)+(6×0.15)+(8×0.20)+(7×0.15) = 6.45** | 🟡 BUILD ADJACENT |
-| **Manus Cloud Computer** | **(7×0.20)+(6×0.15)+(6×0.15)+(5×0.15)+(7×0.20)+(8×0.15) = 6.65** | 🟡 BUILD ADJACENT |
-| **OpenClaw** | **(6×0.20)+(8×0.15)+(9×0.15)+(7×0.15)+(5×0.20)+(9×0.15) = 6.95** | 🟡 BUILD ADJACENT |
-
-> Aucun "BUILD NOW" franc cette semaine — le marché est en transition post-hype agents. Fenêtre d'opportunité : verticaux voice AI sur infrastructure agents (OpenClaw + Manus = couche parfaite pour Kyle).
+**Score Scholé** :
+- (7×0.20) + (6×0.15) + (5×0.15) + (8×0.15) + (7×0.20) + (7×0.15)
+- = 1.40 + 0.90 + 0.75 + 1.20 + 1.40 + 1.05 = **6.70** 🟡 BUILD ADJACENT
 
 ## 📈 Tendances Émergentes
-### 🔵 Trend 1 — Agents IA "Messaging-First"
-WhatsApp/Telegram deviennent l'interface de référence pour les agents autonomes. OpenClaw valide le concept : les utilisateurs veulent des agents dans leur messagerie existante, pas une nouvelle app. Implication : toute interface voice/agent peut s'infiltrer via WhatsApp Business API.
+### 🔥 Trend #1 : Voice AI = nouvelle infrastructure
+Le marché voice AI atteint $22.5B en 2026 (+34.8% CAGR). Twilio Q1 2026 : +18% sur le cours suite à sa division voice AI. 87.5% des builders déploient des agents voice en production. Le "vibe coding" a eu lieu dans le voice AI — les non-devs buildent des agents en quelques heures.
 
-### 🔵 Trend 2 — Cloud infra "no-code for non-devs"
-Manus Cloud Computer = signal fort. Le marché veut des VPS managés en langage naturel. La complexité DevOps est le dernier verrou à briser. Opportunité : wrapper no-code sur infra voice AI (agents vocaux sans config).
+### 🔥 Trend #2 : La fin de l'Electron era dans les devtools
+Zed 1.0 valide que les devs sont prêts à switcher d'éditeur pour des raisons de performance pure. L'ère des apps Rust-native (Zed, Ghostty, Warp) remplace Electron. Implication : toute app dev-tools "lente" est vulnérable à un concurrent natif.
 
-### 🔵 Trend 3 — AI Upskilling B2B vertical
-Scholé confirme une tendance de fond : les DRH cherchent des solutions d'upskilling AI adaptées aux rôles. Le marché générique (ChatGPT pour tous) est saturé. Les verticaux métier (commercial, support, RH) sont sous-servis et prêts à payer enterprise.
+### 🔥 Trend #3 : In-workflow learning > formations traditionnelles
+Scholé représente une nouvelle catégorie : l'apprentissage contextuel temps réel. Plutôt que des MOOCs ou LMS, les outils qui apprennent "pendant que vous travaillez" gagnent. Marché L&D enterprise = $350B, sous-digitalisé.
 
-### 🟡 Signal faible — Voice AI "indie hacker" à $300-800 MRR/client
-Des solopreneurs lancent des micro-agences voice AI sur des marchés locaux (plombiers, médecins) avec des tickets de $300-800/mois. Faible barrière technique (Callin.io + automation) mais modèle scalable via whitelabel.
+### 🔥 Trend #4 : Omnichannel AI agents (voice + chat + email + SMS)
+Retell AI a pivoté en jan. 2026 vers l'omnichannel. Signal fort : les buyers veulent UN agent IA qui gère tous les canaux, pas une solution par canal. First-mover advantage à saisir sur les verticaux français.
 
-### 🟡 Signal faible — Outils de développeur ultra-niche (Show HN)
-WhatCable (inspecter câbles USB-C), GPU monitoring OSS, terminal spreadsheet Vim — le marché des devtools de niche est très actif. Audience petite mais très engagée et payante.
+### 📉 Signal faible : Saturation des "AI wrappers" génériques
+Les SaaS "GPT wrapper" sans différenciation disparaissent. Seuls survivent : verticaux ultra-spécialisés, UX supérieure, données propriétaires, ou distribution unique.
 
-## 💡 Insights Actionnables pour Kyle
-### 💡 Insight #1 — Construire le "OpenClaw Voice"
-OpenClaw prouve que messaging-as-interface fonctionne massivement. Kyle peut construire un wrapper commercial : agent vocal accessible via WhatsApp — l'utilisateur envoie un vocal, l'agent répond vocalement ou exécute. Ticket : $19-49/mo. Temps : 3 semaines. Distribution : communauté OpenClaw (210K stars = 210K prospects potentiels).
+## 💡 Insights Actionnables
+### 💡 Insight #1 — BUILD NOW : Agent Voice Vertical France (score 8.25)
+Retell AI prouve le modèle à $40M ARR. Le marché français des call centers est mal digitalisé. Opportunité : créer un agent voice omnichannel spécialisé sur 1 vertical (ex: cabinets médicaux, agences immo, e-commerce premium). Stack : Vapi ou Retell API + ElevenLabs voix française + LLM + intégration CRM sectoriel. MRR cible 12 mois : €15-30K. CAC < €500.
 
-### 💡 Insight #2 — Voice AI Upskilling pour équipes Sales
-Scholé cible les DRH avec l'upskilling AI générique. Gap identifié : personne ne fait l'upskilling "comment utiliser les outils voice AI dans ton process commercial réel". Kyle = expert voice AI + SaaS = légitimité maximale. Angle : cours dynamiques générés par rôle commercial (BDR, AE, CS). Pricing B2B : $500-2K/mois pour équipes de 5-20.
+**Action concrète** : Identifier 20 cabinets médicaux ou agences immo. Déployer 1 agent pilote gratuit 30 jours. Convertir à €299-499/mois.
 
-### 💡 Insight #3 — "Voice AI as a Service" sur infrastructure Manus-like
-Manus Cloud Computer à $10-50/mo héberge des scripts. Kyle peut lancer un "Voice AI Cloud" : hébergement d'agents vocaux always-on pour agences et PME, sans DevOps. Différentiation : spécialisation voice (ElevenLabs + Deepgram + LLM) vs compute générique. Pricing : $49-99/mo par agent vocal.
+### 💡 Insight #2 — BUILD ADJACENT : Coach Voice pour Commerciaux (score 6.70)
+Scholé + Retell AI = idée hybride. Un agent voice qui écoute les calls de commerciaux en temps réel et leur souffle des objections réponses dans l'oreillette, puis génère un debrief pédagogique. Différenciation forte, ARPU élevé (€500-1000/commercial/mois), viral dans les équipes sales.
 
-### ⚡ Action immédiate recommandée
-**Tester OpenClaw en 48h** : cloner le repo, brancher son propre LLM, ajouter ElevenLabs TTS en sortie. Publier la démo sur Twitter/X avec le hashtag #buildinpublic. Valider la demande avant de coder quoi que ce soit de propriétaire.
+**Action concrète** : Valider avec 5 directeurs commerciaux. Prototype en 2 semaines avec Recall.ai (meeting transcription) + Claude + ElevenLabs.
+
+### 💡 Insight #3 — WATCH : Plugin Voice pour Zed
+Zed 1.0 a 100K+ daily devs et croît vite. Un plugin "voice coding" (dicter du code à Zed) = product Hunt-able, communauté dev enthousiaste. Complexité faible (API Zed extensions + Whisper + Claude). Monétisation : freemium $9/mois.
+
+**Action concrète** : Explorer l'API d'extensions Zed. Si documentée, prototype en 1 weekend.
+
+### ⚠️ À éviter
+- Cloner Zed (trop complexe, open source, équipe de 50+ devs depuis 5 ans)
+- Créer un LMS générique (marché saturé, Scholé + Coursera + LinkedIn Learning dominent)
+- Builder un "AI wrapper" sans vertical ou distribution propre
