@@ -1,181 +1,184 @@
-# 🔥 Market Scan — 2026-05-15
+# 🔥 Market Scan — 2026-05-16
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 5 (Wispr Flow, Lightfield, OpenClaw, Flare, Mindra)
-- Top potentiel : Wispr Flow, Lightfield, OpenClaw
-- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow — angle vertical)
+- Apps analysées : 3
+- Top potentiel : AgentPeek
+- Opportunités immédiates (BUILD NOW) : 1 (AgentPeek)
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : AgentPeek
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai) | **Lancé** : Oct 2024 (Mac), Android fév 2026
-- **Fondateurs** : Tanay Dixit (ex-Perplexity, ex-Google Brain)
-- **Catégorie** : Voice AI / Productivity / Dictation
-- **Métriques buzz** : $81M levés (Series B, Notable Capital lead), 100x users YoY, 70% rétention 12 mois, 270 entreprises Fortune 500, couverture TechCrunch, SaaStr
+- **URL** : [agentpeek.app](https://agentpeek.app)
+- **Lancement** : Mai 2026
+- **Catégorie** : Developer Tools / AI Tooling
+- **Buzz** : Top Product Hunt mai 2026, trending sur X (#buildinpublic, #claudecode)
+- **Open-source** : Partiel (hooks open source sur [GitHub/AppGram/agentnotch](https://github.com/AppGram/agentnotch))
 
 ### 2. Proposition de valeur
-- **Problème** : Taper est lent, les outils dictée actuels sont rigides et dumb
-- **Solution** : Dictée universelle intelligente — fonctionne dans TOUTE app (Gmail, Notion, Slack, code editor), avec suppression fillers, ponctuation auto, correction backtracking, style adaptatif par app
-- **USP** : L'IA adapte le style d'écriture au contexte (email formel ≠ Slack message ≠ code commentaire)
-- **Target** : Knowledge workers, executives, devs, auteurs — tous ceux qui écrivent >2h/jour
-- **Pricing** : Free (2 000 mots/sem) → Pro $15/mo ($12 annuel) → Team → Enterprise custom
+- **Problème** : Les devs qui font tourner Claude Code / OpenAI Codex doivent jongler entre terminaux pour voir les sessions actives, valider les permissions et suivre les tokens.
+- **Solution** : App macOS native qui s'installe dans le notch du Mac. Toutes les infos AI en un coup d'œil sans quitter l'éditeur.
+- **USP** : "Zero context-switch" — local-first, <1 Mo, s'installe en 2 min via hooks Claude/Codex.
+- **Cible** : Développeurs Apple Silicon utilisant des agents IA quotidiennement.
+- **Pricing** : $9 lifetime (2 jours gratuits, pas de CB). Modèle one-shot, friction quasi-nulle.
 
 ### 3. Stack technique
-- Multi-couches : transcription (Whisper-like) + LLM pour style/correction + adaptation contextuelle
-- Dispo : Mac, Windows, iOS, Android (1 abonnement = tous appareils)
-- Sync settings cross-platform automatique
-- Mode Privacy (offline) disponible
+- **Frontend** : SwiftUI (macOS natif)
+- **Backend** : Aucun serveur — lecture locale des fichiers de hooks (`~/.claude/settings.json`, `~/.codex/hooks.json`)
+- **Infra** : Distribué en direct (pas App Store nécessaire pour v1)
+- **APIs** : Aucune API externe — tout local
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Aide-moi à produire 3x plus de contenu écrit sans effort mental"
-- **Aha moment** : 1ère fois qu'on dicte un email et qu'il sort parfait sans correction
-- **Triggers** : autorité (Fortune 500), social proof (100x growth), réciprocité (free trial 14j sans CB)
-- **Rétention** : habitude forte — après 3 mois, 50%+ des caractères tapés via l'app
+### 4. Psychologie
+- **Triggers** : Urgence ("tes agents tournent sans que tu le saches"), social proof (viral X/HN), autorité (fondateur crédible du monde Apple dev)
+- **JTBD** : "Quand je code avec Claude, je veux savoir exactement ce qu'il fait, sans interrompre mon flow."
+- **Aha moment** : Voir en temps réel son agent IA penser dans le notch — effet "wow" immédiat.
 
 ### 5. Go-to-Market
-- **Canaux** : Product Hunt (#1 launch), bouche-à-oreille organique, contenu "productivity hack" sur X/LinkedIn
-- **Viral loop** : Les utilisateurs produisent + de contenu → partagent → attirent d'autres knowledge workers
-- **B2B** : Fortune 500 via sales outreach, ROI clair (temps économisé × salaire)
+- **Canaux** : X (#buildinpublic, #claudecode), Product Hunt, HN Show HN, bouche-à-oreille dev
+- **Viral loop** : Chaque développeur qui screenshot le notch génère du UGC organique
+- **Stratégie launch** : Démo vidéo courte + thread X → Product Hunt le même jour
 
-### 6. Réplication & Angle Kyle
-- **Complexité** : 6/10 — core tech accessible (Whisper + LLM), différenciation dans l'UX et l'adaptation contextuelle
-- **Angle Kyle** : Wispr Flow **vertical** — même stack, mais pour un secteur précis (sales calls → CRM, médecins → dossiers, juristes → contrats). Kyle a l'expertise voice AI pour construire ça en <3 mois.
-- **Verticaux adjacents** : médical (dictée ordonnances), juridique, immobilier
-- **Temps de dev estimé** : 6-10 semaines MVP vertical
+### 6. Réplication
+- **Complexité** : 2/10 — 1 dev Swift, 1-2 semaines max
+- **Verticaux adjacents** : Version Windows (PowerToys), version Linux (waybar widget), version "multi-agent" pour équipes
+- **Angle Kyle** : Adapter pour voice AI agents (Vapi, ElevenLabs) — widget notch qui monitore les sessions voice en cours, coûts, latences. Niche encore vierge.
 
-## 🏆 TOP APP #2 : Lightfield
+## 🏆 TOP APP #2 : Steadwing
 ### 1. Identification
-- **URL** : [lightfield.app](https://lightfield.app) | **Lancé** : fin 2025 (stealth 1 an), PH 2026
-- **Fondateurs** : Keith Peiris (ex-Meta, co-fondateur Tome → 20M users), Henri Liriani (ex-Meta)
-- **Catégorie** : AI CRM / Sales Intelligence / Go-to-Market
-- **Métriques buzz** : $81M levés à $300M valuation (Coatue, Greylock, Lightspeed, 8VC, GV), SaaStr "App of the Week"
+- **URL** : [steadwing.com](https://www.steadwing.com)
+- **Lancement** : Mars 2026 (Show HN : 7 mars 2026)
+- **Catégorie** : DevOps / AIOps / Autonomous Engineering
+- **Buzz** : HN Show HN, intégrations Datadog + PagerDuty, free tier attractif
 
 ### 2. Proposition de valeur
-- **Problème** : Les CRM (Salesforce, HubSpot) nécessitent une saisie manuelle constante → abandonnés → données pourries
-- **Solution** : CRM qui se construit et met à jour lui-même depuis emails, meetings, calls — zéro saisie manuelle
-- **USP** : Connect inbox + old CRM CSV → tout recréé en < 5 minutes. Prépare les meetings, connaît les clients mieux que le commercial
-- **Target** : Startups B2B, founder-led sales, petites équipes revenue (<50 personnes)
-- **Pricing** : $24/membre/mois (plans startup, pro, enterprise)
+- **Problème** : Les alertes on-call à 3h du matin coûtent cher en burn humain. Diagnostiquer un incident prend 20-60 min en moyenne.
+- **Solution** : Agent IA autonome qui corrèle logs, métriques, traces → RCA en <5 min + proposition de fix avec ou sans approbation humaine.
+- **USP** : Pas juste de l'alerte intelligente — exécution du correctif. "Your engineer, not your monitor."
+- **Cible** : Startups et scale-ups avec infra cloud, 10-200 ingénieurs.
+- **Pricing** : Freemium (connexion stack en 5 min, pas de CB) → tiers payants non publiés.
 
 ### 3. Stack technique
-- Ingestion : email, calendar, Slack, meeting transcriptions, support tickets, product analytics
-- LLM layer : extraction entités, résumés relationnels, prédictions deal health
-- Sources structurées (tickets, metrics) + non-structurées (emails, calls) fusionnées
+- **Intégrations** : Datadog, PagerDuty, Slack, GitHub, AWS/GCP
+- **Core** : LLM orchestration + RAG sur runbooks d'incidents historiques
+- **Infra** : Cloud-hosted SaaS (accès API aux stacks clients)
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Arrête-moi de perdre des deals parce que j'ai oublié un détail de conversation"
-- **Aha moment** : Voir son CRM entièrement peuplé 5 minutes après avoir connecté Gmail
-- **Triggers** : autorité (founders Tome 20M users + investisseurs tier-1), urgence (pipeline qui se perd)
-- **Pain fort** : Chaque commercial perd 28% de son temps en saisie CRM (donnée Salesforce)
+### 4. Psychologie
+- **Triggers** : Peur (incident nocturne, perte de revenus), gain (ingénieurs libérés des gardes), social proof (intégrations tier-1)
+- **JTBD** : "Quand une alerte tombe, je veux un diagnostic immédiat sans réveiller mon équipe."
+- **Aha moment** : Premier incident résolu automatiquement pendant le sommeil du CTO.
 
 ### 5. Go-to-Market
-- **Canaux** : Réseau ex-Tome (20M users), SaaStr community, LinkedIn thought leadership Keith Peiris
-- **ICP cible** : Founders/Head of Sales startups Series A-B avec équipe <20 commerciaux
-- **Viral loop** : Chaque invite d'un contact dans Lightfield génère une invitation → réseau grandit
+- **Canaux** : HN, Slack communities DevOps, intégrations comme growth vector (Datadog Marketplace)
+- **Viral loop** : L'équipe partage les "incidents auto-résolus" → crédibilité + FOMO
+- **Stratégie** : Bottom-up (free tier dev), expansion vers l'enterprise
 
-### 6. Réplication & Angle Kyle
-- **Complexité** : 8/10 — intégrations multiples (email, calendar, Slack, calls), confiance données critique, compétition féroce
-- **Angle Kyle** : CRM vertical voice-first — Lightfield pour les agences/consultants qui font bcp d'appels. Wispr Flow pour capture + Lightfield-like pour structuration automatique → niche très défendable
-- **Verticaux adjacents** : recrutement (ATS qui se remplit), real estate, consulting
-- **Temps de dev** : 4-6 mois MVP (intégrations complexes)
+### 6. Réplication
+- **Complexité** : 7/10 — intégrations multiples, confiance sécurité critique, 3-6 mois pour v1 robuste
+- **Verticaux adjacents** : On-call pour systèmes voice AI (latence, erreurs TTS/STT, coûts API)
+- **Angle Kyle** : "Steadwing for Voice AI" — monitorer et auto-diagnostiquer les incidents sur pipelines Vapi/ElevenLabs/Twilio. Niche sous-adressée, expertise directe.
 
-## 🏆 TOP APP #3 : OpenClaw
+## 🏆 TOP APP #3 : Thewebsite.app
 ### 1. Identification
-- **URL** : [openclaws.io](https://openclaws.io) | **Lancé** : nov 2025 (sous nom Clawdbot), rebrandé OpenClaw jan 2026
-- **Fondateur** : Peter Steinberger (dev autrichien solo, "vibe coder")
-- **Catégorie** : Open Source AI Agent / Autonomous Assistant
-- **Métriques buzz** : 250K+ stars GitHub (bat React en 60 jours !), projet open source #1 GitHub tous temps, viral sur X/HN/Reddit, couverture DigitalOcean, The New Stack, Medium
+- **URL** : [thewebsite.app](https://thewebsite.app)
+- **Lancement** : Février-mars 2026
+- **Catégorie** : Expérimentation / AI-native business / Build in Public
+- **Buzz** : HN Show HN 111 points / 31 comments (6 mars 2026), concept viral sur X
+- **Open-source** : Oui — code intégralement public
 
 ### 2. Proposition de valeur
-- **Problème** : Les LLMs sont puissants mais isolés — pas d'accès fichiers locaux, pas d'interface conversationnelle, pas d'autonomie réelle
-- **Solution** : Agent AI autonome qui tourne 24/7, connecté à WhatsApp/Telegram/Slack/Discord/iMessage + fichiers locaux, exécute des tâches automatiquement
-- **USP** : Local-first, privacy, gratuit, fonctionne sur 12+ plateformes de messagerie simultanément
-- **Target** : Développeurs, early adopters tech, power users qui veulent un assistant autonome
-- **Pricing** : 100% gratuit / open source (MIT ou similaire)
+- **Problème** : Peut-on déléguer la gestion d'un business réel à un agent IA et atteindre $80K/mois ?
+- **Solution** : Le fondateur fixe la stratégie, l'agent IA code, déploie et opère. Transparence totale, tout public.
+- **USP** : Pas un produit à vendre — un laboratoire vivant en public. La viralité EST le produit.
+- **Cible** : Fondateurs tech curieux, investisseurs IA, communauté Build in Public
+- **Pricing** : Gratuit (open source) — monétisation indirecte (audience, consulting, sponsoring)
 
 ### 3. Stack technique
-- Agent framework : LLM-agnostique (OpenAI, Anthropic, Gemini…)
-- Intégrations : WhatsApp Business API, Telegram Bot API, Slack SDK, Discord.js, iMessage bridges
-- Local-first : accès filesystem, mode offline possible
-- Architecture : Python/Node.js (open source, contributeurs communauté)
+- **Stack** : Non précisé, entièrement open source sur GitHub
+- **Core** : Orchestration d'agents LLM pour décisions business opérationnelles
+- **Infra** : Probablement Vercel + cloud standard
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Je veux un assistant IA qui travaille pendant que je dors, sur mes propres données"
-- **Aha moment** : Envoyer un message WhatsApp à l'agent et recevoir un fichier résumé 2 minutes après
-- **Triggers** : curiosité (record GitHub = FOMO massif), communauté (20K+ contributeurs), gratuité
-- **Viralité** : Record GitHub = news → presse → plus de stars → trending → boucle infinie
+### 4. Psychologie
+- **Triggers** : Curiosité (expérience unique), FOMO (suivre l'évolution en live), légitimité (code ouvert = transparence)
+- **JTBD** : "Je veux voir si les agents IA peuvent vraiment gérer un business — pas un démo, un vrai."
+- **Aha moment** : Voir une décision business prise et exécutée par l'agent en temps réel.
 
 ### 5. Go-to-Market
-- **Canaux** : GitHub organic (stars → trending → presse), X viral, HN Show HN
-- **Aucun budget marketing** — pure word-of-mouth developer community
-- **Viral loop** : Stars GitHub → trending → articles → plus de stars. Rebrand = 3 rebonds viraux
+- **Canaux** : HN, X build-in-public, newsletters IA, YouTube explainers
+- **Viral loop** : Chaque milestone ($1K → $5K MRR) génère du contenu organique naturel
+- **Stratégie** : Audience first → produit/consulting ensuite
 
-### 6. Réplication & Angle Kyle
-- **Complexité** : 5/10 — le core agent est simple, la valeur est dans les intégrations messaging
-- **Angle Kyle** : OpenClaw **monétisé** — prendre le concept (agent sur messaging), ajouter voice input, et proposer un SaaS B2B "Agent vocal sur WhatsApp pour PMEs". Zéro compétiteur SaaS direct.
-- **Modèle business** : $29-99/mo par entreprise, white-label agency plays
-- **Temps de dev** : 4-8 semaines MVP (s'appuyer sur OpenClaw open source comme base)
+### 6. Réplication
+- **Complexité** : 4/10 pour le concept (wrapper LLM + site vitrine), 9/10 pour l'exécution à l'échelle
+- **Verticaux adjacents** : "AI-native agency" pour voice AI — un agent qui gère les campagnes clients
+- **Angle Kyle** : Documentaire public "Voice AI business run by agents" → audience + crédibilité + leads entrants. Différenciation forte sur le marché francophone.
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-*Sources : TechCrunch, Tracxn, PitchBook, Crunchbase, voicescriber.com*
+## 💰 Unit Economics Deep Dive — AgentPeek
+**Note** : Données estimées — AgentPeek est un produit solo bootstrappé, aucune donnée publique officielle.
 
-| Métrique | Valeur estimée | Source / Méthode |
+| Métrique | Estimation | Base |
 |---|---|---|
-| **ARR** | ~$8-12M | $3.8M rev juil'24-juil'25 × croissance 100%+ YoY |
-| **Users actifs** | ~150-300K | Retention 70% × 12mo, 100x YoY depuis base initiale |
-| **ARPU** | ~$60/an | Mix free + Pro $144/an + Team/Enterprise |
-| **Payment rate** | 19% | Déclaré CEO |
-| **CAC** | ~$15-30 | Acquisition organique dominant (PH, bouche-à-oreille) |
-| **LTV** | ~$200-350 | ARPU × durée ~3ans (retention forte) |
-| **LTV/CAC** | ~10-15x | 🟢 Excellent |
-| **Payback period** | 2-4 mois | CAC faible + conversion rapide |
-| **Burn estimé** | ~$3-5M/mo | 87 employés × ~$50K/mo fully loaded |
-| **Runway** | ~18-24 mois | $81M levés, burn modéré |
-| **Rev/Employee** | ~$100-140K/an | ARR ÷ 87 employés |
-| **Rule of 40** | ~60-80 | Croissance 100%+ + marges SaaS (estimé) |
+| **Pricing** | $9 one-time | Confirmé |
+| **Users (est.)** | 2 000 – 8 000 | PH + X traction |
+| **ARR équivalent** | $18K – $72K (one-shot) | Conversion ~30-40% |
+| **ARPU** | $9 (lifetime) | Confirmé |
+| **CAC** | ~$0 | Distribution organique (X, HN, PH) |
+| **LTV** | $9 (one-shot) | Pas d'abonnement |
+| **LTV/CAC** | ∞ (CAC≈0) | Distribution gratuite |
+| **Payback** | Immédiat | $9 direct |
+| **Burn** | ~$0 / mois | 1 dev solo, infra nulle |
+| **Runway** | Infini | Coûts quasi-nuls |
+| **Rev/Employee** | $18K-$72K (1 personne) | Solo |
+| **Rule of 40** | N/A (one-shot, pas SaaS récurrent) | — |
 
-**Verdict santé : 🟢 Très sain**
-Modèle PLG (product-led growth) avec CAC quasi-nul, rétention exceptionnelle, et marché adressable massif (tous les knowledge workers). La levée Series B à $300M valuation anticipée confirme la confiance investisseurs. Risque principal : compétition Apple/Google dictée native.
+**Verdict santé** : 🟢
+
+Modèle one-shot atypique : pas de récurrence, mais CAC=0 + marges=100% + zéro infrastructure.
+Risque principal : plateau rapide si pas de v2 ou passage à l'abonnement.
+Signal fort que le marché existe — à convertir en SaaS $X/mois pour LTV >$9.
+
+*Sources : [Product Hunt AgentPeek](https://www.producthunt.com/products/agentpeek), [agentpeek.app](https://agentpeek.app), [GitHub AppGram](https://github.com/AppGram/agentnotch)*
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Lightfield | OpenClaw |
+| Dimension (poids) | AgentPeek | Steadwing | Thewebsite.app |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — TAM global knowledge workers >€100B | 8 — TAM CRM €50B+ | 7 — TAM agents AI >€30B |
-| ⚙️ Complexité inv. (15%) | 6 — voice AI requiert expertise réelle | 4 — intégrations multiples complexes | 7 — open source base dispo |
-| ⏱️ Time-to-Market (15%) | 7 — 6-10 sem vertical MVP | 4 — 4-6 mois minimum | 8 — 4-8 sem MVP SaaS |
-| 🏟️ Compétition inv. (15%) | 6 — Otter, SuperWhisper, Dragon existent | 4 — Salesforce, HubSpot, Attio, Clarify | 8 — zéro SaaS B2B voice agent messaging |
-| 💰 Revenue Potential (20%) | 9 — $144/an × 100K users = €14M ARR | 8 — $288/an × équipes = fort potentiel | 7 — $39/mo × 1000 PMEs = €468K MRR |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — expert voice AI + SaaS = bullseye | 6 — SaaS oui, mais CRM ≠ expertise Kyle | **9** — voice AI + agent = parfait |
+| 📊 Market Size (20%) | 6 — marché dev tools IA en croissance explosive | 8 — AIOps/DevOps $50B+ | 5 — niche expérimentale |
+| ⚙️ Complexité inversée (15%) | 9 — 1-2 semaines Swift | 3 — 6+ mois, intégrations lourdes | 6 — concept simple, exécution dure |
+| ⏱️ Time-to-Market (15%) | 9 — <1 mois | 3 — >6 mois | 7 — site + agent en 2-3 semaines |
+| 🏟️ Compétition inversée (15%) | 7 — Agent Hub concurrent, mais niche encore jeune | 4 — Devin, incident.io, PagerDuty AI | 8 — concept unique, peu de concurrents directs |
+| 💰 Revenue Potential (20%) | 5 — $9 one-shot, plateau rapide | 8 — ARR récurrent enterprise possible | 3 — monétisation indirecte lente |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 7 — dev tool, mais pas voice AI direct | 8 — voice AI ops = expertise directe | 7 — build in public + audience = atout |
 
-**Score pondéré :**
-- **Wispr Flow vertical** : (9×0.20)+(6×0.15)+(7×0.15)+(6×0.15)+(9×0.20)+(10×0.15) = **7.95** 🟢 **BUILD NOW**
-- **Lightfield-like** : (8×0.20)+(4×0.15)+(4×0.15)+(4×0.15)+(8×0.20)+(6×0.15) = **5.90** 🟠 WATCH
-- **OpenClaw SaaS B2B** : (7×0.20)+(7×0.15)+(8×0.15)+(8×0.15)+(7×0.20)+(9×0.15) = **7.55** 🟢 **BUILD NOW**
+| App | Score pondéré | Verdict |
+|---|---|---|
+| **AgentPeek** | **(6×0.20)+(9×0.15)+(9×0.15)+(7×0.15)+(5×0.20)+(7×0.15) = 7.15** | 🟡 BUILD ADJACENT |
+| **Steadwing** | **(8×0.20)+(3×0.15)+(3×0.15)+(4×0.15)+(8×0.20)+(8×0.15) = 5.90** | 🟠 WATCH |
+| **Thewebsite.app** | **(5×0.20)+(6×0.15)+(7×0.15)+(8×0.15)+(3×0.20)+(7×0.15) = 5.75** | 🟠 WATCH |
+
+**Recommandation** : AgentPeek → construire la version "Voice AI notch monitor" pour Vapi/ElevenLabs. Score BUILD NOW potentiel si on cible le segment voice AI (Kyle = expert = Founder-Fit 10).
 
 ## 📈 Tendances Émergentes
-1. **Voice-first devient mainstream** : Wispr Flow prouve que les knowledge workers adoptent massivement la dictée IA. La voix n'est plus un gadget, c'est le nouveau clavier pour les >35 ans productifs.
+1. **"Notch economy"** : Le notch Mac devient un espace UI premium pour les power users. AgentPeek, Notchmeister, et d'autres apps exploitent cette zone vierge. Tendance 6-12 mois.
 
-2. **AI qui travaille en autonomie 24/7** : OpenClaw symbolise le passage de l'IA "réactive" (chatbot) à l'IA "proactive" (agent qui agit). Le messaging est l'interface gagnante — pas les apps dédiées.
+2. **Agents IA en production ≠ monitoring standard** : Les outils classiques (Datadog, Sentry) ne sont pas faits pour observer des agents LLM. Nouveau segment : observability native pour AI agents. Marché naissant, peu de solutions robustes.
 
-3. **CRM zero-input** : Lightfield confirme que la prochaine génération de business software sera auto-alimentée. La saisie manuelle est condamnée dans tous les verticaux (RH, support, sales, médical).
+3. **Modèle one-shot lifetime en renaissance** : Après des années de SaaS pur, le $9-$49 lifetime revient fort pour les dev tools (AgentPeek, RayCast plugins, etc.). Acquisition ultra-rapide, CAC=0, mais LTV limitée.
 
-4. **Open source → SaaS B2B** : Le pattern OpenClaw (viral gratuit → opportunité SaaS payant) se répète. Les grands projets OS créent des marchés que des startups commerciales peuvent monétiser.
+4. **DevOps → AIOps → AgentOps** : La chaîne d'évolution est claire. Steadwing est positionné AIOps. La prochaine vague = AgentOps (monitoring d'agents autonomes multi-étapes). Encore très peu d'acteurs.
 
-5. **Verticaux > horizontal** : Les apps horizontales (Wispr, Lightfield) établissent le marché. La vraie opportunité 2026 est de les répliquer en vertical (médecins, juristes, commerciaux) avec des prix premium justifiés.
+5. **Build in Public comme canal d'acquisition** : Thewebsite.app illustre une tendance : le projet EST le marketing. 2026 voit l'explosion des "founder-as-media" où la transparence radicale remplace les ads.
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Top 2 opportunités BUILD NOW pour Kyle
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle (Voice AI + SaaS)
 
-**#1 — Wispr Flow vertical médical/juridique/sales (Score 7.95 🟢)**
-Wispr Flow prouve le marché horizontal ($81M, 100x growth). Mais aucun acteur n'a fait la version verticale premium. Kyle peut construire "Wispr pour commerciaux B2B" : dictée qui capture les appels → résumé structuré → push CRM automatique. Prix : $49-99/mo vs $15 Wispr. ROI évident = conversion enterprise facile.
-- Action immédiate : interview 10 sales managers sur leur pain dictée/CRM
-- Stack suggérée : Whisper API + GPT-4o + Zapier/Make pour CRM connectors
+**Insight #1 — BUILD : "AgentPeek for Voice AI"**
+Un widget macOS (ou menu bar) qui monitore en temps réel les sessions Vapi, ElevenLabs, Twilio Voice AI : coût/appel, latence TTS/STT, taux d'erreur, tokens. Pricing $12 lifetime ou $5/mois. Stack : SwiftUI + webhooks Vapi. Délai : 2-3 semaines. Founder-Fit = 10/10.
 
-**#2 — Agent vocal WhatsApp B2B (Score 7.55 🟢)**
-OpenClaw prouve l'appétit massif pour les agents autonomes. Zéro acteur ne vend ça en SaaS B2B avec voice input. Kyle peut proposer aux PMEs/agences un agent vocal sur WhatsApp : le commercial parle → l'agent transcrit, répond aux FAQs, relance les leads. $49-199/mo en white-label agence.
-- Action immédiate : tester OpenClaw + wrapper SaaS en 2 semaines
-- Différenciation : voice-first (not text-only) + interface no-code pour PMEs
+**Insight #2 — WATCH : "Steadwing pour Voice AI ops"**
+Les équipes qui déploient des agents vocaux n'ont aucun outil de on-call dédié. Un Steadwing vertical = "quand ton agent vocal tombe à 3h, je te dis pourquoi et je le fix". Différenciation forte, mais complexité élevée. À surveiller sur 3-6 mois.
 
-### ⚠️ Risques à surveiller
-- Wispr Flow vertical : Apple/Google pourraient intégrer dictée avancée nativement (moat OS)
-- Agent WhatsApp : WhatsApp Business API coûts + restrictions peuvent changer sans préavis
-- Lightfield-like : trop complexe, trop de capital requis — passer son tour pour l'instant
+**Insight #3 — AUDIENCE : Documenter en public**
+Thewebsite.app montre qu'un projet expérimental bien raconté génère plus de leads que de la pub. Kyle peut documenter la construction de son prochain produit voice AI en public (X, LinkedIn, YouTube FR) → audience francophone encore peu exploitée sur ce segment.
+
+**Insight #4 — MONETISATION : Éviter le one-shot pur**
+Le modèle $9 one-shot d'AgentPeek est bon pour l'acquisition, mais plafonne vite. Pour un produit équivalent, Kyle devrait cibler $9 trial → $8/mois après 30 jours, pour garder une LTV >$50.
+
+**Insight #5 — SIGNAL FAIBLE : AgentOps comme catégorie**
+Aucun acteur dominant sur le monitoring d'agents IA (voice ou texte) en 2026. Fenêtre de 6-12 mois avant consolidation. Opportunité de définir la catégorie et d'en devenir la référence francophone.
