@@ -1,195 +1,194 @@
-# 🔥 Market Scan — 2026-05-17
+# 🔥 Market Scan — 2026-05-18
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 6 (Wispr Flow, Mindra, Flare, AssemblyAI Voice API, WhatCable, MakerPulse)
-- Top potentiel : Wispr Flow, Mindra, Flare
+- Apps analysées : 8 (Product Hunt, HN, GitHub, Reddit, BetaList)
+- Top potentiel : 3
 - Opportunités immédiates (BUILD NOW) : 1
 
 ## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
 - **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Lancement** : 2023 (v2 + expansion internationale mai 2026)
-- **Fondateurs** : Tanay Dixit (CEO) — ex-ML researcher
-- **Catégorie** : Voice AI / Productivité
-- **Métriques buzz** :
-  - 2,5M downloads (oct 2025 → avr 2026)
-  - Croissance 40-50% MoM (jusqu'à 100% MoM en Inde)
-  - Levée $25M (Notable Capital, nov 2025)
-  - Valorisation en discussion : **$2 Mds** (Menlo Ventures, $260M round, mai 2026)
-  - Retention 6 mois : ~80% — taux de conversion payant : ~19%
+- **Launch** : 2023, accélération massive fin 2025
+- **Fondateurs** : équipe ex-Apple, ex-Google
+- **Catégorie** : Voice AI / Dictation OS
+- **Métriques** : 2,5M downloads, +100% MoM (Inde), valorisation en cours à ~$2B (série B $260M avec Menlo Ventures)
+- **Sources** : [TechCrunch](https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/) · [TechPortal](https://thetechportal.com/2026/05/12/ai-dictation-startup-wispr-could-secure-260mn-funding-at-2bn-valuation/)
 
-### 2. Proposition de valeur
-- **Problème** : Taper est lent, les outils de dictée sont bugués ou limités à une seule app
-- **Solution** : Dictée IA universelle — fonctionne dans TOUTE app (Slack, Gmail, VS Code, Notion…)
-- **USP** : Commandes vocales contextuelles + édition par la voix ("rends ça plus pro") + 100+ langues
-- **Cible** : Knowledge workers, développeurs, professionnels santé/légal
-- **Pricing** : Free (2K mots/sem) → Pro $15/mo → Enterprise custom
+### 2. Proposition de Valeur
+- **Problème** : Taper est lent, les outils voix existants manquent de contexte personnel
+- **Solution** : Dictée universelle + écriture dans ton style + 100+ langues + mode commande
+- **USP** : "Speak naturally, write in your voice" — apprend ton style, fonctionne partout (toute app macOS/iOS)
+- **Target** : Knowledge workers, cadres, développeurs, professionnels mobiles
+- **Pricing** : Freemium → Pro ~$12-15/mo
 
-### 3. Stack technique
-- Frontend : Electron (Mac) + iOS natif
-- Backend : Infra cloud propre + modèles STT propriétaires fine-tunés
-- APIs : Integrations natives OS (accessibility APIs) + LLM pour réécriture
+### 3. Stack Technique
+- Frontend : Swift/macOS natif + iOS
+- Backend : modèles ASR propriétaires + LLMs pour reformulation
+- Infra : cloud hybride (traitements locaux prioritaires)
+- APIs : intégrations OS-level via accessibility APIs
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Je veux écrire vite sans perdre ma pensée"
-- **Aha moment** : La première phrase dictée qui atterrit proprement dans n'importe quelle app
-- **Triggers** : Social proof (Fortune 500 clients), autorité (SOC2/HIPAA), freemium → habit loop
+### 4. Psychologie
+- **Triggers** : Social proof (Fortune 500), FOMO technologique, identité professionnelle
+- **JTBD** : "Je veux produire plus d'écrits sans ralentir ma pensée"
+- **Aha moment** : Première dictée + reformulation automatique en prose propre en <5s
+- **Biais** : Effet de dotation (style personnel mémorisé = switching cost élevé)
 
 ### 5. Go-to-Market
-- Canaux : Product Hunt (#1 trending mai 2026), TechCrunch, bouche à oreille
-- Viral loop : Partage de clips audio → attirance par l'efficacité visible
-- Expansion géographique : Inde comme 2e marché (14% installs)
+- **Canaux** : Product Hunt #1, Twitter/X virality, bouche-à-oreille enterprise
+- **Launch** : Expansion Inde (14% installs, stratégie prix adaptée)
+- **Viral loop** : "Regarde comment j'écris 3x plus vite" → demo naturelle devant collègues
 
-### 6. Réplication
-- **Complexité** : 7/10 (STT custom difficile, mais wrapping d'API possible)
-- **Verticaux adjacents** : Médical (transcription HIPAA), légal (dictée de contrats), RH (notes entretiens)
-- **Angle Kyle** : Construire un Wispr Flow vertical — ex. dictée pour commerciaux CRM-aware
-- **Temps de dev** : 6-10 semaines pour MVP vertical avec Whisper + OpenAI
+### 6. Réplication pour Kyle
+- **Complexité** : 7/10 (ASR custom est difficile, mais API Whisper/Deepgram accessibles)
+- **Verticaux adjacents** : Voice AI pour support client, voice note → CRM, voice-to-email
+- **Angle Kyle** : Kyle EST expert voice AI → build un Wispr vertical B2B (médical, juridique, commercial)
+- **Temps de dev** : 3-4 mois MVP avec Deepgram + Claude API
 
-## 🏆 TOP APP #2 : Mindra
+## 🏆 TOP APP #2 : OpenClaw
 ### 1. Identification
-- **URL** : [mindra.co](https://mindra.co)
-- **Lancement** : Mai 2026 (Product Hunt)
-- **Fondateurs** : Zeynep, Deniz Soylular, Ilker Yoru
-- **Catégorie** : AI Agents / Automatisation B2B
-- **Métriques buzz** :
-  - 🏆 Product of the Day — Product Hunt
-  - 14e au classement mensuel PH (mai 2026) — 360 commentaires
-  - 3 000+ intégrations (Meta Ads, HubSpot, Salesforce, Slack…)
+- **URL** : [getclawdbot.com](https://getclawdbot.com)
+- **Launch** : Janvier 2026 (viral)
+- **Fondateurs** : Peter Steinberger (ex-PSPDFKit)
+- **Catégorie** : Autonomous AI Agent / OS-level automation
+- **Métriques** : 333K+ GitHub stars (record absolu vitesse), >210K stars en 3 semaines
+- **Sources** : [TechStartups](https://techstartups.com/2026/02/12/openclaw-is-going-viral-the-1-use-case-and-35-ways-people-automate-work-and-life-with-it/) · [GitHub Trending](https://github.com/trending)
 
-### 2. Proposition de valeur
-- **Problème** : Les outils d'automatisation (Zapier, Make) nécessitent de la configuration manuelle constante et cassent souvent
-- **Solution** : Équipe d'agents IA spécialisés 24/7 qui s'auto-réparent et re-planifient en cas d'échec
-- **USP** : "Explique ta tâche → Mindra crée l'équipe agent optimale" — humain dans la boucle pour les décisions critiques
-- **Cible** : Équipes marketing, sales, ops, support, supply chain (PME → mid-market)
-- **Pricing** : Non public (usage-based probable)
+### 2. Proposition de Valeur
+- **Problème** : Les chatbots répondent mais n'agissent pas ; l'automatisation perso est trop complexe
+- **Solution** : Agent autonome local qui exécute des tâches via Telegram/Signal/Discord/WhatsApp + LLMs au choix
+- **USP** : Open-source, tourne en local, connecté aux apps de messagerie que tu utilises déjà
+- **Target** : Devs, power users, solopreneurs, petites équipes
+- **Pricing** : Gratuit (open-source) + potentiel cloud tier
 
-### 3. Stack technique
-- Frontend : Web app React
-- Backend : Orchestrateur d'agents custom (LLM routing + retry logic)
-- Infra : Cloud multi-tenant avec isolation par workspace
-- APIs : 3 000+ connecteurs (REST/webhooks + intégrations natives)
+### 3. Stack Technique
+- Frontend : interfaces messagerie (Telegram, Discord, WhatsApp bots)
+- Backend : Python, LLM-agnostic (Claude, GPT, DeepSeek)
+- Infra : self-hosted, Docker
+- APIs : email, calendrier, GitHub, CRM via connecteurs
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Je veux déléguer des tâches répétitives sans embaucher ou casser des automatisations fragiles"
-- **Aha moment** : Premier workflow agent qui s'auto-répare sans intervention
-- **Triggers** : Autorité ("non-sleeping team"), FOMO (concurrents qui automatisent)
+### 4. Psychologie
+- **Triggers** : Open-source credibility, contrôle total (anti-Big Tech), curiosité geek
+- **JTBD** : "Je veux un assistant qui fait vraiment les choses, pas juste en parle"
+- **Aha moment** : Premier email géré automatiquement via un message Telegram
+- **Viral loop** : Demo GIF impressionnant → fork → star → tweet → 10K stars/jour
 
 ### 5. Go-to-Market
-- Canaux : Product Hunt, LinkedIn B2B, partenariats intégrateurs
-- Launch story : Fondateurs with expertise ops/marketing → crédibilité terrain
-- Viral loop : Partage de workflows → vitrines de résultats
+- **Canaux** : GitHub viral, HN, Twitter dev community, Reddit r/selfhosted
+- **Launch** : Post HN + README vidéo démo → explosion organique
+- **Différentiation** : Aucun lock-in, aucune subscription — trust maximale
 
-### 6. Réplication
-- **Complexité** : 8/10 (orchestration multi-agents + intégrations = gros chantier)
-- **Verticaux adjacents** : Agence marketing (agents campagnes), e-commerce (agents restock)
-- **Angle Kyle** : Mindra pour voice — agent qui orchestre des calls/follow-ups automatiques
-- **Temps de dev** : 3-6 mois pour MVP (1 vertical, 10 intégrations)
+### 6. Réplication pour Kyle
+- **Complexité** : 5/10 (architecture connue, boilerplate agent disponible)
+- **Verticaux adjacents** : Agent voice-driven (parler pour déclencher des actions), agent SDR vocal
+- **Angle Kyle** : Wrapper vocal sur OpenClaw : "Parle à ton agent" → business process automation par voix
+- **Temps de dev** : 6-8 semaines MVP
 
-## 🏆 TOP APP #3 : Flare
+## 🏆 TOP APP #3 : Kilo Code
 ### 1. Identification
-- **URL** : [App Store](https://apps.apple.com/us/app/flare-social-voice-friends/id6758351023) · [producthunt.com/products/flare-9](https://www.producthunt.com/products/flare-9)
-- **Lancement** : Mars 2026 (MVP), 2e lancement PH mai 2026
-- **Fondateurs** : Équipe non-divulguée publiquement
-- **Catégorie** : Social / Voice-first / GenZ
-- **Métriques buzz** :
-  - Trending PH semaine de mai 2026
-  - App Store iOS disponible
-  - Buzz autour du positionnement "anti-algorithme"
+- **URL** : [kilo.ai](https://kilo.ai)
+- **Launch** : Fork de Cline (open-source), relaunch PH Mai 2026 → #1 Product of the Day + Week
+- **Fondateurs** : équipe ex-devtools
+- **Catégorie** : AI Coding Agent / Dev Tooling
+- **Métriques** : 2,3M installs VS Code + JetBrains, 1,5M users actifs
+- **Sources** : [Product Hunt](https://www.producthunt.com/products/kilocode) · [Blog Kilo](https://blog.kilo.ai/p/were-back-on-product-hunt-new-vs-code)
 
-### 2. Proposition de valeur
-- **Problème** : Les réseaux sociaux classiques (Instagram, TikTok) sont épuisants — likes, followers, scroll infini
-- **Solution** : App sociale sans likes ni followers — photos/vidéos/humeurs → IA orb → conversations vocales sur tes souvenirs et amis
-- **USP** : "Tu écoutes au lieu de scroller" — privé, contextuel, voice-first
-- **Cible** : Gen Z 16-25 ans, lassée des algorithmes
-- **Pricing** : Freemium (gratuit au lancement)
+### 2. Proposition de Valeur
+- **Problème** : Les coding assistants IA coûtent cher (Copilot, Cursor) et enferment dans un écosystème
+- **Solution** : Agent coding open-source multi-IDE avec accès à 500+ modèles, zero markup
+- **USP** : "Cursor open-source" avec gestion enterprise et CLI + Slack intégrés
+- **Target** : Développeurs solo, startups, équipes engineering
+- **Pricing** : Gratuit (open-source) + Kilo Gateway (managed, enterprise)
 
-### 3. Stack technique
-- Frontend : iOS natif (Swift)
-- Backend : Node/Python + LLM pour l'orb conversationnel
-- APIs : Multimodal AI (vision + voice) pour analyse des moments
+### 3. Stack Technique
+- Frontend : Extension VS Code / JetBrains, CLI
+- Backend : Kilo CLI + Kilo Gateway (model router)
+- Infra : cloud + local hybrid
+- APIs : 500+ LLMs via unified gateway, GitHub, Slack
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Je veux rester connecté à mes vrais amis sans l'anxiété des réseaux"
-- **Aha moment** : L'orb qui parle de ton souvenir partagé avec un ami
-- **Triggers** : FOMO inversé (pas de chiffres = pas de stress), intimité, nouveauté
+### 4. Psychologie
+- **Triggers** : Open-source trust, économies (vs Cursor $20/mo), identité dev indépendant
+- **JTBD** : "Je veux un coding assistant pro sans me faire piéger"
+- **Aha moment** : Première session d'agent qui planifie + exécute + commit du code
+- **Viral loop** : Fonctionnalité enterprise gratuite → adoption équipe → upsell Gateway
 
 ### 5. Go-to-Market
-- Canaux : TikTok (ironie du sort), bouche à oreille Gen Z, campus
-- Launch : Product Hunt + App Store featured
-- Viral loop : Partage de "moments" entre amis → invitation organique
+- **Canaux** : GitHub (fork Cline = déjà audience), PH relaunches successifs
+- **Launch** : 4ème launch PH en escalier — chaque release = nouveau #1
+- **Playbook** : Open-source → communauté → enterprise monetization
 
-### 6. Réplication
-- **Complexité** : 6/10 (UX innovante + IA conversationnelle — mais faisable avec Claude/GPT)
-- **Verticaux adjacents** : Social pour équipes remote, journal de voyage vocal, mémoire familiale
-- **Angle Kyle** : App de voice journaling AI pour pros (mémo + synthèse + insights hebdo)
-- **Temps de dev** : 4-8 semaines pour MVP (iOS + backend LLM simple)
+### 6. Réplication pour Kyle
+- **Complexité** : 8/10 (concurrence Cursor/Copilot/Cline intense, commoditisation rapide)
+- **Verticaux adjacents** : Coding agent vocal ("dicte ton code"), code review par voix
+- **Angle Kyle** : Intégrer voice layer sur Kilo/Cline → niche unique = voice-driven coding
+- **Temps de dev** : 2-3 mois pour wrapper vocal + différenciation
 
 ## 💰 Unit Economics Deep Dive — Wispr Flow
-> Sources : Bloomberg, TechCrunch, Crunchbase, max-productive.ai (mai 2026)
+> Sources : [TechCrunch](https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/) · [TechPortal $2B](https://thetechportal.com/2026/05/12/ai-dictation-startup-wispr-could-secure-260mn-funding-at-2bn-valuation/) · Tracxn · estimations fondées sur métriques publiques
 
-| Métrique | Valeur estimée | Source / Confiance |
+| Métrique | Estimation | Confiance |
 |---|---|---|
-| **ARR estimé** | ~$4-6M | Rev $3.8M juil24→juil25 + 50% MoM 🟡 |
-| **Users actifs** | ~500K-700K | 2.5M downloads × ~25% DAU 🟡 |
-| **Payants** | ~90-130K | Taux conversion ~19% 🟡 |
-| **ARPU** | ~$45-55/an | Pro $144/an, mix free/pro 🟡 |
-| **CAC estimé** | ~$3-8 | Distribution organique dominante 🟢 |
-| **LTV estimé** | ~$108-165 | ARPU × retention 6m (~80%) 🟡 |
-| **LTV/CAC** | ~15-40x | Très sain 🟢 |
-| **Payback** | <1 mois | Freemium → Conv rapide 🟢 |
-| **Valorisation** | $2Mds (discussion) | Bloomberg mai 2026 🟢 |
-| **Rev/Employee** | ~$400K-800K | Équipe ~10-15 personnes estimée |
-| **Rule of 40** | ~90+ | Croissance 50%+ MoM + marges SaaS |
+| **ARR** | ~$8-12M (rev $3.8M jul24-jul25, +100% growth) | 🟡 Moyen |
+| **ARPU** | ~$8-10/mo (mix free/paid, Inde <$5) | 🟡 Moyen |
+| **Users payants** | ~80-120K (estimé 5-8% conversion freemium) | 🟡 Moyen |
+| **Total users** | 2,5M downloads, ~1,5M MAU estimés | 🟢 Bon |
+| **CAC** | ~$8-15 (organique dominant = faible) | 🟡 Moyen |
+| **LTV** | ~$96-144 (12mo retention 70% × ARPU) | 🟡 Moyen |
+| **LTV/CAC** | ~8-12x | 🟢 Excellent |
+| **Payback** | ~1-2 mois | 🟢 Excellent |
+| **Burn estimé** | $1-2M/mo (post-$25M Series A) | 🟡 Moyen |
+| **Runway** | ~18-24 mois pre-$260M | 🟡 Moyen |
+| **Rev/Employee** | ~$200-400K (team ~30-50 pers) | 🟢 Bon |
+| **Rule of 40** | ~120%+ (croissance 100%+ MoM + marges SaaS) | 🟢 Excellent |
 
-**Verdict santé : 🟢 EXCEPTIONNEL**
-
-Wispr Flow combine une croissance explosive (50%+ MoM), une rétention rare (80% à 6 mois), un CAC quasi nul (distribution organique) et une conversion freemium solide (19%). Le round à $2Mds en discussion confirme l'appétit investisseur. Principal risque : compétition Big Tech (Apple, Google intègrent nativement).
+**Verdict santé : 🟢 SAINE**
+Métriques rétention (70% à 12 mois) et LTV/CAC exceptionnels. Croissance explosive en Inde ouvre le marché émergent. Valorisation $2B agressive mais justifiable si expansion enterprise tient.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Mindra | Flare |
-|---|:---:|:---:|:---:|
-| 📊 Market Size (20%) | 9 | 8 | 6 |
-| ⚙️ Complexité inversée (15%) | 5 | 3 | 7 |
-| ⏱️ Time-to-Market (15%) | 6 | 4 | 7 |
-| 🏟️ Compétition inversée (15%) | 5 | 6 | 7 |
-| 💰 Revenue Potential (20%) | 9 | 8 | 5 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** | 7 | 8 |
+| Dimension (poids) | Wispr Flow | OpenClaw | Kilo Code |
+|---|---|---|---|
+| 📊 Market Size (20%) | 8 | 9 | 8 |
+| ⚙️ Complexité inversée (15%) | 5 | 7 | 4 |
+| ⏱️ Time-to-Market (15%) | 5 | 7 | 4 |
+| 🏟️ Compétition inversée (15%) | 7 | 8 | 3 |
+| 💰 Revenue Potential (20%) | 9 | 6 | 7 |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** | 7 | 6 |
 
 **Scores pondérés :**
 
 | App | Score | Verdict |
-|---|:---:|:---:|
-| **Wispr Flow (vertical)** | **7.5** | 🟢 BUILD NOW |
-| **Mindra** | **6.1** | 🟡 BUILD ADJACENT |
-| **Flare** | **6.7** | 🟡 BUILD ADJACENT |
+|---|---|---|
+| **Wispr Flow (vertical B2B vocal)** | **(8×0.20)+(5×0.15)+(5×0.15)+(7×0.15)+(9×0.20)+(10×0.15) = 7.55** | 🟢 **BUILD NOW** |
+| **OpenClaw (voice wrapper)** | **(9×0.20)+(7×0.15)+(7×0.15)+(8×0.15)+(6×0.20)+(7×0.15) = 7.40** | 🟡 **BUILD ADJACENT** |
+| **Kilo Code (voice coding)** | **(8×0.20)+(4×0.15)+(4×0.15)+(3×0.15)+(7×0.20)+(6×0.15) = 5.65** | 🟠 **WATCH** |
 
-> **Note** : Le score de Wispr Flow concerne l'opportunité de **répliquer sur un vertical** (pas de concurrencer frontalement). L'angle "dictée CRM-aware pour commerciaux" ou "dictée médicale HIPAA" est un 🟢 BUILD NOW pour Kyle.
+> **Recommandation** : Kyle doit regarder Wispr Flow comme modèle direct → construire la version B2B vertical (médical, juridique, commercial) avec sa maîtrise voice AI existante.
 
 ## 📈 Tendances Émergentes
-1. **Voice-first everywhere** : La dictée AI passe de "gadget" à "infrastructure quotidienne". Wispr Flow en est la preuve éclatante. Les utilisateurs veulent parler, pas taper.
+1. **Voice-as-OS** : La voix ne remplace plus juste le clavier — elle devient une couche applicative. Wispr Flow, Eleven Labs, et les assistants vocaux enterprise convergent vers le même constat : la voix est l'interface naturelle de l'agent IA.
 
-2. **AI Agents B2B en explosion** : Mindra confirme que le marché ne veut plus de "no-code workflows" (Zapier/Make) mais des "agents qui s'auto-réparent". La vague est là.
+2. **Open-source → Enterprise funnel** : Le playbook 2026 est clair — open-source viral pour acquisition, enterprise payant pour monétisation. OpenClaw et Kilo Code le confirment. CAC proche de zéro, upsell sur sécurité/support/gestion.
 
-3. **Anti-algorithme social** : Flare + BeReal 2.0 + Noplace — la Gen Z cherche des espaces sans métriques de vanité. L'audio/voice est le nouveau vecteur d'intimité.
+3. **Agents locaux + privacy-first** : La fatigue cloud pousse vers l'auto-hébergement. Les projets "run on your machine, own your data" explosent sur GitHub (selfhosted repos +45% cette année). Opportunité pour des outils B2B avec données sensibles.
 
-4. **Verticalization de l'IA** : Les apps horizontales (ChatGPT, Notion AI) cèdent la place à des verticaux hyper-spécifiques (dictée médicale, agents marketing, social vocal). Plus spécifique = plus de valeur = meilleure rétention.
+4. **Marchés émergents = nouvelle frontière** : L'Inde représente 14% des installs de Wispr Flow mais 2% du revenu — marché énorme à convertir. Des fenêtres similaires existent au Brésil, Nigeria, SEA pour les outils voice AI adaptés localement.
 
-5. **Infra Voice Developer** : AssemblyAI Voice Agent API à $4.50/h signale que la plomberie voice se commoditise. La valeur monte vers l'expérience utilisateur et la verticale business.
+5. **Model-agnostic tooling** : Les devs refusent le lock-in modèle. Cursor perd du terrain à Kilo Code parce qu'il impose Claude/GPT. En 2026, la valeur est dans l'UX et l'intégration, pas dans le choix du LLM.
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Pour Kyle (Voice AI + SaaS Expert)
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions concrètes cette semaine
 
-**Insight #1 — Le vertical dictée est ouvert**
-Wispr Flow cible les knowledge workers généralistes. Personne ne fait une dictée **CRM-aware** (qui comprend le pipeline Salesforce et rédige automatiquement les notes d'appel dans le bon champ). Kyle peut lancer ça en 6-8 semaines avec Whisper API + un LLM + intégration Salesforce/HubSpot. Pricing naturel : $29-49/mo/user. 50 clients = $1.5K-2.5K MRR.
+**#1 — Valider le vertical B2B voice (48h)**
+Wispr Flow est généraliste. Identifie 1 vertical où la dictée voix + style personnalisé = valeur critique : médical (notes SOAP), juridique (comptes-rendus), ou commercial (CRM vocal). Interview 5 prospects. Si douleur confirmée → c'est ton produit.
 
-**Insight #2 — Voice journaling B2B est un angle Flare-like pour pros**
-Flare fait ça pour GenZ perso. Le même concept pour des managers (mémo vocal → synthèse hebdo → OKR tracking) n'existe pas en premium. Marché : équipes remote, managers, founders. 4-6 semaines de dev.
+**#2 — Tester OpenClaw comme infrastructure**
+Clone OpenClaw, connecte-le à ton workflow (email + calendrier + Notion). En 2h tu as un agent personnel fonctionnel. Si ça impressionne → potentiel de packager ça comme produit "agent de support client vocal" pour PME.
 
-**Insight #3 — Ne construis pas un orchestrateur d'agents comme Mindra**
-La complexité est trop élevée (8/10) et le marché se consolide vite. En revanche, **construire un agent vertical** sur Mindra ou n-8n (ex: agent suivi commercial vocal) est une meilleure entrée.
+**#3 — Prendre position sur la tendance voice-agent**
+La convergence voice AI + agent autonome est le prochain plateau. Wispr Flow monte vers $2B sans agent. Si tu combines dictée + exécution d'actions par voix → tu es 18 mois en avance sur le marché. Commence à construire la narrative publique maintenant (Twitter/X, LinkedIn).
 
-**Insight #4 — Timing parfait pour le marché voice AI**
-L'infra se commoditise (AssemblyAI $4.50/h, Whisper gratuit, ElevenLabs). La fenêtre pour lancer un SaaS voice vertical **sans avoir à construire la plomberie** est grande ouverte maintenant. Dans 12 mois, Google/Apple auront integré nativement — c'est le moment d'agir.
+**#4 — Surveiller le funding Wispr Flow**
+Si $260M se confirme à $2B → signal fort pour tout concurrent vertical. C'est aussi le moment où les acquéreurs regardent les challengers de niche. Position pour exit ou partenariat dans 18-24 mois.
 
-**Action immédiate recommandée** : Prototype en 2 semaines d'un "Wispr pour commerciaux" — landing page + liste d'attente + 10 interviews clients. Valider avant de coder.
+**Risques à surveiller :**
+- Apple / Google pourraient intégrer voice-to-text amélioré directement dans l'OS → menace pour les généralistes, moins pour les verticaux B2B
+- Commoditisation du LLM → pression sur les marges des outils coding comme Kilo Code
