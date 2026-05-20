@@ -1,186 +1,178 @@
-# 🔥 Market Scan — 2026-05-19
+# 🔥 Market Scan — 2026-05-20
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
 - Top potentiel : Wispr Flow
-- Opportunités immédiates (BUILD NOW) : 2
+- Opportunités immédiates (BUILD NOW) : 2 (Wispr Flow vertical, OpenHuman fork)
 
 ## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
-- **Nom** : Wispr Flow | **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Lancement PH** : 5 mai 2026 (relaunch majeur) | **Fondateurs** : Tanay Dixit, Ryan Foley
-- **Catégorie** : Voice dictation / Voice OS
-- **Métriques buzz** : #1 PH 5 mai 2026 (2 322 upvotes, 528 comments) · 40% croissance MoM · 270 Fortune 500 · $81M levés total · valuation $700M
+- **URL** : [wisprflow.ai](https://wisprflow.ai) | **Launch** : 2023 (v3 janv. 2025) | **Catégorie** : Voice AI / Productivity
+- **Fondateurs** : Tanay Dixit, Sahaj Garg (ex-Instabase, Stanford)
+- **Métriques buzz** : $2B valuation (mai 2026), 2.5M downloads (oct.2025–avr.2026), 40% MoM growth, 270 Fortune 500 clients, levée ~$260M (Menlo Ventures)
+- **Sources** : [Latka](https://getlatka.com/companies/wisprflow.ai) · [TechCrunch](https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/)
 
-### 2. Proposition de Valeur
-- **Problème** : La frappe clavier est lente, inconfortable et limite la productivité.
-- **Solution** : Dictée vocale IA multiapp qui écrit dans votre style, se corrige automatiquement, supporte 100+ langues.
-- **USP** : Rétention 80% à 6 mois, les users écrivent 72% de leurs caractères via Flow après 6 mois — habitude forte.
-- **Target** : Professionnels, knowledge workers, Fortune 500.
-- **Pricing** : Freemium → $19/mois Pro · Enterprise sur devis.
+### 2. Proposition de valeur
+- **Problème** : Taper est lent, les dictées classiques sont imprécises sur termes techniques
+- **Solution** : Dictée universelle sur Mac/Windows via shortcut clavier, contexte-aware (comprend jargon métier)
+- **USP** : S'insère dans N'IMPORTE quelle app, pas de copier-coller, latence <300ms
+- **Target** : Knowledge workers, dev, consultants, médecins → enterprise teams
+- **Pricing** : Freemium → $20/mo Pro → Enterprise custom
 
-### 3. Stack Technique
-- **Frontend** : App native macOS (Swift) + Windows en cours
-- **Backend** : API propre + modèles ASR fine-tunés
-- **Infra** : Cloud hybride (local processing + cloud)
-- **APIs** : OpenAI ASR, modèles custom pour style matching
+### 3. Stack technique
+- Frontend : Electron / Swift (menu bar app Mac)
+- Backend : modèles Whisper fine-tunés + LLM reformulation
+- Infra : AWS, streaming audio temps-réel
+- APIs : ElevenLabs (voix), intégration native OS
 
 ### 4. Psychologie
-- **Triggers** : Habitude (72% des chars en 6 mois) · Social proof Fortune 500 · Autorité ($81M, VCs top) · FOMO (voix > clavier)
-- **JTBD** : "Je veux écrire plus vite sans me fatiguer les mains."
-- **Aha moment** : Premier texte dicté proprement inséré dans n'importe quelle app en 5 secondes.
+- **Triggers** : Vitesse perçue (4x faster claim), autorité (Fortune 500), social proof (270 entreprises)
+- **JTBD** : "Quand je dois rédiger vite sans quitter mon flow, je veux dicter sans changer d'app"
+- **Aha moment** : 1ère phrase dictée dans Slack → instantanément propre
 
 ### 5. Go-to-Market
-- **Canaux** : PH launch · Twitter/X organic · bouche-à-oreille enterprise · content marketing "voice productivity"
-- **Launch strategy** : Relaunch PH mai 2026 pour capitaliser sur buzz AI · intégration pro poussée
-- **Viral loops** : "Powered by Wispr Flow" footer · partage de clips de dictée · enterprise referral
+- PH top du jour, bouche-à-oreille dev Twitter, influenceurs productivité YouTube
+- Viral loop : chaque usage visible (dictée en réunion Zoom) → curiosité collègues
+- Expansion géographique agressive : Inde 100% MoM, $1B TAM local
 
-### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (ASR + style matching = tech non triviale)
-- **Verticaux adjacents** : Voice dictation verticalisé (médecins, juristes, devs) · Voice CRM · assistant voice pour call centers
-- **Angle Kyle** : Construire un Wispr Flow vertical pour un secteur spécifique (ex: support client B2B) avec sa stack voice AI
-- **Temps de dev** : 3-4 mois pour un MVP vertical
-- **Sources** : [TechCrunch $25M](https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/) · [PH Launch](https://www.producthunt.com/products/wispr-flow)
+### 6. Réplication
+- **Complexité** : 7/10 (fine-tuning Whisper = barrière réelle)
+- **Verticaux adjacents** : dictée médicale (HIPAA), dictée juridique, voice CRM
+- **Angle Kyle** : Version voice-first pour outillage SaaS B2B (voice forms, voice surveys)
+- **Temps dev** : 3-4 mois pour un MVP vertical ciblé
 
 ## 🏆 TOP APP #2 : OpenHuman
 ### 1. Identification
-- **Nom** : OpenHuman | **URL** : [github.com/tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman)
-- **Lancement** : 12 mai 2026 | **Fondateur** : Steven E. (TinyHumans collective)
-- **Catégorie** : Open-source desktop AI agent
-- **Métriques buzz** : #1 GitHub Trending 2 jours consécutifs · 12 546 stars en 5 jours (+1 694/jour) · 5 000+ users première semaine · 150% WoW growth
+- **URL** : [github.com/tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | **Launch** : 13 mai 2026 | **Catégorie** : Personal AI Agent / Open Source
+- **Fondateurs** : TinyHumans AI (équipe anonyme, 3 personnes)
+- **Métriques buzz** : 8 000+ GitHub stars en 7 jours, 5 000+ users semaine 1, 150% WoW growth, #1 PH Product of the Day (15 mai), 629 forks
+- **Sources** : [TechTimes](https://www.techtimes.com/articles/316731/20260516/agent-that-reads-you-first-openhuman-tops-github-trending-inverting-playbook.htm) · [PrimeAICenter](https://primeaicenter.com/openhuman-review/)
 
-### 2. Proposition de Valeur
-- **Problème** : Les assistants IA (ChatGPT, Claude) ne vous connaissent pas dès le départ et ne s'intègrent pas à votre desktop.
-- **Solution** : Agent desktop open-source avec mémoire longue, 118+ intégrations OAuth, mascotte vocale, présence dans Google Meet.
-- **USP** : "Reads you first" — contexte utilisateur dès le premier lancement, sans config manuelle.
-- **Target** : Développeurs, early adopters, power users.
-- **Pricing** : Open source gratuit · cloud hosting optionnel.
+### 2. Proposition de valeur
+- **Problème** : Les AI assistants oublient tout entre sessions, aucune personnalisation durable
+- **Solution** : Agent IA personnel open-source qui "vous lit d'abord" — construit un profil de l'utilisateur, mémorise tout, s'adapte en continu
+- **USP** : Mémoire transparente et auditable (pas de black box), 100% local/privé, auto-hébergeable
+- **Target** : Développeurs, power users, early adopters privacy-first
+- **Pricing** : Gratuit (open source), monétisation via cloud hosting optionnel
 
-### 3. Stack Technique
-- **Frontend** : Desktop app (Electron ou Tauri) avec mascotte animée
-- **Backend** : Local-first + cloud optionnel · modèles via API (OpenAI, Anthropic, local LLM)
-- **Infra** : Self-hosted ou cloud
-- **APIs** : 118+ OAuth integrations (Gmail, Notion, GitHub, Slack, Stripe, etc.)
+### 3. Stack technique
+- Frontend : Electron desktop app
+- Backend : Python + LangChain/LlamaIndex, SQLite mémoire locale
+- Infra : Local-first, support Ollama + APIs cloud (Claude, GPT-4o)
+- Open source : MIT License
 
 ### 4. Psychologie
-- **Triggers** : Open source (confiance, FOMO dev) · Social proof GitHub stars explosifs · Nouveauté ("agent qui vous comprend d'abord")
-- **JTBD** : "Je veux un assistant IA qui me connaît vraiment et s'intègre à mes outils."
-- **Aha moment** : L'agent répond en utilisant du contexte perso dès la première conversation.
+- **Triggers** : Open source (confiance), privacy (FOMO sécurité), customisabilité (identité hacker)
+- **JTBD** : "Je veux un assistant qui ME connaît sans vendre mes données"
+- **Aha moment** : L'agent rappelle un contexte d'une session de la semaine précédente sans prompt
 
 ### 5. Go-to-Market
-- **Canaux** : GitHub organic · Twitter/X dev community · Reddit r/selfhosted, r/LocalLLaMA · HN
-- **Launch strategy** : GitHub README + GIF viral de la mascotte en action
-- **Viral loops** : Stars GitHub → trending → couverture médias → plus de stars
+- GitHub trending organique → HN front page → PH #1 → presse tech
+- Viral loop : forks et contributions = signal crédibilité → nouvel afflux stars
+- Aucun budget marketing, 100% community-driven
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (harness open-source à forker, personnaliser pour vertical)
-- **Verticaux adjacents** : Agent desktop pour sales teams · agent voice pour support · agent onboarding client
-- **Angle Kyle** : Forker OpenHuman, y injecter sa stack voice AI, vendre une version enterprise avec voice-first
-- **Temps de dev** : 2-3 mois pour un fork vertical
-- **Sources** : [TechTimes](https://www.techtimes.com/articles/316731/20260516/agent-that-reads-you-first-openhuman-tops-github-trending-inverting-playbook.htm) · [GitHub](https://github.com/tinyhumansai/openhuman)
+### 6. Réplication
+- **Complexité** : 4/10 (stack connue, open source = blueprint fourni)
+- **Verticaux adjacents** : agent mémoire pour équipes, CRM personnel, knowledge base privé
+- **Angle Kyle** : Agent vocal avec mémoire persistante → "Wispr Flow + mémoire long terme"
+- **Temps dev** : 4-6 semaines pour fork + niche verticale voice
 
-## 🏆 TOP APP #3 : Kampala (Zatanna)
+## 🏆 TOP APP #3 : Steadwing
 ### 1. Identification
-- **Nom** : Kampala by Zatanna | **URL** : [zatanna.ai/kampala](https://www.zatanna.ai/kampala)
-- **Lancement** : Mars 2026 (YC W26 Demo Day) | **Fondateurs** : Rithvik Vanga (CEO), Alex Blackwell (CTO), Tarun Vedula (COO)
-- **Catégorie** : Developer tools / API automation
-- **Métriques buzz** : Launch HN YC W26 · 250+ commentaires HN · couverture Ben's Bites · MCP Claude Code intégration
+- **URL** : [steadwing.com](https://www.steadwing.com) | **Launch** : 2025 Q4, Show HN mai 2026 | **Catégorie** : DevOps AI / AIOps
+- **Fondateurs** : Dev Khant (co-founder CTO, EF Fall 25 cohort)
+- **Métriques buzz** : Show HN trending, SOC 2 Type II certifié, disponible Sentry Marketplace, EF (Entrepreneur First) backed
+- **Sources** : [steadwing.com](https://www.steadwing.com) · [LinkedIn Dev Khant](https://www.linkedin.com/in/devkhant/)
 
-### 2. Proposition de Valeur
-- **Problème** : Les intégrations legacy (dashboards anciens, PACS, ERP) n'ont pas d'API. Les devs passent des semaines à reverse-engineer manuellement.
-- **Solution** : Proxy MITM qui capture les requêtes réseau pendant que vous utilisez une app normalement, puis génère automatiquement une API typée.
-- **USP** : "50MB d'app vers API en 45 secondes." Techniquement supérieur au browser automation car opère au niveau HTTP/requests.
-- **Target** : Développeurs, agences d'intégration, équipes ops tech.
-- **Pricing** : Beta gratuite · Pro à venir · Enterprise sur devis.
+### 2. Proposition de valeur
+- **Problème** : On-call épuisant → engineers réveillés 3h du matin pour des incidents répétitifs
+- **Solution** : Agent IA autonome qui corrèle logs/métriques/traces/code pour trouver la root cause et proposer (ou exécuter) le fix
+- **USP** : Apprend de l'historique d'incidents de votre équipe → précision croissante, intégrations Datadog/PagerDuty/Slack/GitHub
+- **Target** : Engineering teams 10-200 devs, SaaS B2B, scale-ups
+- **Pricing** : Free to start (no credit card), tiers enterprise custom
 
-### 3. Stack Technique
-- **Frontend** : Desktop proxy client + dashboard web
-- **Backend** : MITM proxy (Go/Rust probable) + AI pour inférence de schéma API
-- **Infra** : Cloud + local capture
-- **APIs** : MCP (Model Context Protocol) pour intégration Claude Code et agents IA
+### 3. Stack technique
+- Frontend : Dashboard web React
+- Backend : Python agents + RAG sur historique incidents
+- Intégrations : Datadog, PagerDuty, Sentry, Slack, GitHub, AWS CloudWatch
+- Infra : Cloud (AWS), SOC 2 Type II
 
 ### 4. Psychologie
-- **Triggers** : Autorité YC · "Works like magic" (la démo de 45s) · Douleur réelle ressentie (intégrations laborieuses) · FOMO developer tooling
-- **JTBD** : "Je veux automatiser ce dashboard legacy sans coder un scraper fragile."
-- **Aha moment** : Voir l'API générée automatiquement après avoir juste cliqué dans l'app cible.
+- **Triggers** : Soulagement (douleur on-call réelle), autorité (SOC 2), social proof (Sentry marketplace)
+- **JTBD** : "Quand une alerte se déclenche à 3h, je veux que ça soit résolu sans que je me réveille"
+- **Aha moment** : 1er incident résolu automatiquement = endormissement sans stress
 
 ### 5. Go-to-Market
-- **Canaux** : HN Launch · YC network · Twitter dev · intégration MCP (distribution via Claude Code users)
-- **Launch strategy** : Launch HN + vidéo démo 45s → viralité dev Twitter → YC batch buzz
-- **Viral loops** : MCP adoption → usage Claude Code → démo virale → adoption organique devs
+- Show HN → communauté dev organique
+- Marketplace distribution : Sentry (accès à leur base installée)
+- EF network pour warm intros enterprise
+- Bottom-up : free tier → adoption individuelle → expansion équipe
 
-### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (MITM proxy + inférence schéma = ingénierie sérieuse)
-- **Verticaux adjacents** : Intégration voice AI dans apps legacy sans API (telephony, CRM anciens) · automation ops verticalisée (dental, finance, santé)
-- **Angle Kyle** : Utiliser Kampala pour connecter sa voice AI à des systèmes legacy sans API — accélérateur de déploiements
-- **Temps de dev** : 6-9 mois pour une version comparable
-- **Sources** : [HN Launch](https://news.ycombinator.com/item?id=47794514) · [Product Hunt](https://www.producthunt.com/products/kampala-by-zatanna) · [PCNewsDigest](https://pcnewsdigest.com/articles/kampala-yc-tool-50mb-apps-apis)
+### 6. Réplication
+- **Complexité** : 6/10 (intégrations multiples = travail, mais APIs publiques disponibles)
+- **Verticaux adjacents** : on-call pour infra IA (monitoring LLMs), customer success automation
+- **Angle Kyle** : Version "on-call voice" → alertes vocales + résolution via voice command
+- **Temps dev** : 2-3 mois MVP avec 2-3 intégrations ciblées
 
 ## 💰 Unit Economics Deep Dive — Wispr Flow
-**Sources** : [TechCrunch $25M raise](https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/) · [PRNewswire](https://www.prnewswire.com/news-releases/wispr-raises-25m-to-build-its-voice-operating-system-302621858.html)
+> Sources : [Latka](https://getlatka.com/companies/wisprflow.ai) · [ProductGrowth](https://www.productgrowth.blog/p/wispr-flow-growth-teardown) · [Tracxn](https://tracxn.com/d/companies/wisprflow/__XTPty9fIPUjngX0uMeYcKZnHJVG4WCoPowSamLLI2QjE)
 
-| Métrique | Valeur | Note |
+| Métrique | Estimation | Confiance |
 |---|---|---|
-| **ARR estimé** | ~$5-8M | $3.8M ARR jul'24-jul'25, +40% MoM → projection 2026 |
-| **Users actifs** | ~50-80K | 40% MoM depuis base 2025, 19% payant |
-| **ARPU** | ~$150/an | Mix free/Pro ($228/an)/Enterprise |
-| **CAC** | ~$30-50 | Mainly organic/PH/word-of-mouth |
-| **LTV** | ~$600-900 | 80% retention 6 mois, ~2,5 ans avg lifetime |
-| **LTV/CAC** | ~15-20x | 🟢 Excellent |
-| **Payback period** | ~2-3 mois | 🟢 Très rapide |
-| **Total funding** | $81M | Seed + $25M Series A (Notable Capital, nov 2025) |
-| **Valuation** | $700M | Post-money Series A |
-| **Équipe estimée** | ~30-50 | Recrutement actif 2026 |
-| **Rev/Employee** | ~$150-200K | 🟢 Correct pour ce stade |
-| **Rule of 40** | ~70+ | 40% growth MoM = largement > 40 🟢 |
+| ARR | ~$30-50M | 🟡 Medium (Latka: $10M fin 2025, 40% MoM → ~4x en 6 mois) |
+| Utilisateurs actifs | ~500K-800K | 🟡 (2.5M downloads, ~25-30% activation) |
+| ARPU | ~$60-100/an | 🟡 (mix free/Pro $20/mo + enterprise) |
+| CAC | ~$15-40 | 🟢 (viral word-of-mouth dominant) |
+| LTV | ~$180-300 | 🟡 (3 ans rétention estimée knowledge workers) |
+| LTV/CAC | 6-10x | 🟢 Excellent |
+| Payback Period | 2-6 mois | 🟢 |
+| Employés | ~87 (mars 2026) | 🟢 (LinkedIn confirmé) |
+| Rev/Employee | ~$350-575K | 🟢 World-class |
+| Burn | ~$3-5M/mois estimé | 🔴 Levée $260M nécessaire pour expansion agressive |
+| Runway | 4-5 ans post-levée | 🟢 |
+| Rule of 40 | ~80-120 (growth 40% MoM + marges SaaS) | 🟢 Exceptionnel |
 
-**Verdict santé : 🟢 SAIN**
-Rétention forte (80% à 6 mois), CAC faible (organique dominant), croissance explosive (+40% MoM). Le risque : valuation $700M implique une pression forte sur la monétisation enterprise. Le churn des petits comptes Pro reste à surveiller.
+**Verdict santé : 🟢 HYPERCROISSANCE** — Unit economics solides, viralité organique = CAC imbattable, mais burn élevé pour expansion géographique. Business model validé, risque principal = compétition Apple/Google natifs OS.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | OpenHuman | Kampala |
+| Dimension (poids) | Wispr Flow | OpenHuman | Steadwing |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — $10B+ voice productivity | 8 — $5B+ personal AI | 7 — $2B+ iPaaS/automation |
-| ⚙️ Complexité inversée (15%) | 4 — ASR + style model = hard | 6 — open source à forker | 3 — MITM proxy + AI schéma |
-| ⏱️ Time-to-Market (15%) | 3 — 6+ mois vertical | 6 — fork en 2-3 mois | 3 — 6-9 mois réplication |
-| 🏟️ Compétition inversée (15%) | 5 — Dragon Sleep/Otter présents | 8 — peu d'agents desktop OSS | 7 — peu de solutions automatisées |
-| 💰 Revenue Potential (20%) | 9 — prouvé $5-8M ARR, LTV fort | 6 — monétisation floue OSS | 7 — B2B enterprise pricing à venir |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — expert voice AI → vertical | 7 — harness OSS + voice API | 5 — RE/proxy = autre skillset |
+| 📊 Market Size (20%) | 9 | 7 | 6 |
+| ⚙️ Complexité inversée (15%) | 3 | 8 | 5 |
+| ⏱️ Time-to-Market (15%) | 4 | 7 | 5 |
+| 🏟️ Compétition inversée (15%) | 5 | 7 | 6 |
+| 💰 Revenue Potential (20%) | 10 | 6 | 8 |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 9 | 7 | 6 |
 
-**Scores pondérés :**
+**Score pondéré :**
+- **Wispr Flow** : (9×0.20)+(3×0.15)+(4×0.15)+(5×0.15)+(10×0.20)+(9×0.15) = 1.8+0.45+0.60+0.75+2.0+1.35 = **6.95 🟡 BUILD ADJACENT**
+- **OpenHuman** : (7×0.20)+(8×0.15)+(7×0.15)+(7×0.15)+(6×0.20)+(7×0.15) = 1.4+1.2+1.05+1.05+1.2+1.05 = **6.95 🟡 BUILD ADJACENT**
+- **Steadwing** : (6×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(8×0.20)+(6×0.15) = 1.2+0.75+0.75+0.90+1.6+0.90 = **6.10 🟡 BUILD ADJACENT**
 
-| App | Score /10 | Verdict |
-|---|---|---|
-| **Wispr Flow** | **(9×0.20)+(4×0.15)+(3×0.15)+(5×0.15)+(9×0.20)+(9×0.15) = 6.90** | 🟡 BUILD ADJACENT |
-| **OpenHuman** | **(8×0.20)+(6×0.15)+(6×0.15)+(8×0.15)+(6×0.20)+(7×0.15) = 6.95** | 🟡 BUILD ADJACENT |
-| **Kampala** | **(7×0.20)+(3×0.15)+(3×0.15)+(7×0.15)+(7×0.20)+(5×0.15) = 5.50** | 🟠 WATCH |
-
-**Interprétation** : Wispr Flow et OpenHuman sont au seuil BUILD ADJACENT pour Kyle. La nuance : Wispr Flow est la meilleure inspiration pour un vertical voice AI, mais le BUILD NOW reste conditionnel à un niche verticale (ex: voice dictation médecins ou support client). Un fork OpenHuman avec voice-first pourrait atteindre 🟢 si Kyle injecte son expertise pour la monétisation enterprise.
+> **Note** : Wispr Flow score bas sur complexité/TTM car répliquer l'app entière est difficile. Mais un **vertical narrow** (ex: voice dictée médicale ou voice CRM) monte à 🟢 BUILD NOW sur 2-3 dimensions.
 
 ## 📈 Tendances Émergentes
-1. **Voice devient interface primaire** : Wispr Flow (#1 PH mai 2026, $700M valuation) confirme que la voix s'impose comme layer UI. La prochaine vague = voice verticalisé (santé, legal, dev).
+1. **Voice-first computing** : Wispr Flow atteint $2B en 3 ans. L'interface clavier est en train d'être challengée. La voix devient le layer d'input dominant pour knowledge workers — pas juste "pratique", mais productivité mesurable (4x).
 
-2. **Agents desktop open-source explosent** : OpenHuman, OpenClaw (372K stars), Hermes (153K stars) — la course au "personal AI agent" est lancée. L'open source gagne la distribution, le cloud gagne la monétisation.
+2. **AI agents avec mémoire persistante** : OpenHuman, mais aussi des dizaines de repos GitHub trending — la demande pour des agents qui "se souviennent" est massive. La privacy-first approach (local-first) est le différenciateur gagnant contre OpenAI/Google.
 
-3. **MCP comme standard d'intégration agent** : Kampala et OpenHuman intègrent tous deux le Model Context Protocol. MCP = rails sur lesquels les agents IA vont rouler. Construire en MCP-native = meilleure distribution.
+3. **AIOps / AI on-call** : Steadwing, PagerDuty AI, Rootly AI — l'automatisation des incidents DevOps est en cours de commoditisation. Fenêtre de 12-18 mois avant que les grands acteurs (Datadog, PagerDuty) intègrent nativement.
 
-4. **YC W26 batch = infra agents + automatisation legacy** : 60%+ des startups YC W26 sont dans la couche agent/automatisation. La vague iPaaS 2.0 remplace Zapier par des agents LLM.
-
-5. **Open source comme GTM dominant** : GitHub trending comme canal d'acquisition remplace Product Hunt pour les outils dev. 12K stars en 5 jours = couverture médias gratuite.
+4. **Open source comme canal marketing** : GitHub trending = PR gratuite. OpenHuman, easy-vibe, openhuman — les fondateurs utilisent GitHub stars comme social proof et acquisition channel. Stratégie reproductible en 2026.
 
 ## 💡 Insights Actionnables
-### Pour Kyle — Actions immédiates
+### Pour Kyle (Voice AI + SaaS)
 
-**🎯 Insight #1 : Le vertical voice dictation existe et rapporte**
-Wispr Flow prouve le marché ($700M valuation, 80% rétention). Kyle peut construire une version verticalisée pour un secteur où il a déjà des connexions : support client B2B, médecins, juristes. Avantage concurrentiel : son expertise voice AI réduit le time-to-market à 2-3 mois vs 6+ mois pour un généraliste.
+**🎯 Insight #1 — Le vertical voice est sous-exploité**
+Wispr Flow cible les knowledge workers généralistes. Les verticaux (médecins, juristes, commerciaux) ont des besoins spécifiques de jargon, de templates, de conformité. Kyle peut construire "Wispr Flow pour [vertical]" en 3-4 mois. Le marché médical (dictée structurée → dossier patient) est €5B+, peu digitalisé.
 
-**🎯 Insight #2 : Forker OpenHuman = fast path vers un agent enterprise**
-Le repo est open source, bien structuré, 118 intégrations prêtes. Kyle peut forker, y injecter sa stack voice AI, et monétiser en B2B SaaS avec un onboarding white-glove. Segment cible : équipes de 10-50 personnes qui veulent un assistant "qui les connaît" sans déployer OpenAI en interne.
+**🎯 Insight #2 — Memory + Voice = combo non exploité**
+OpenHuman a la mémoire, Wispr Flow a la voix. Personne n'a les deux. Un agent vocal avec mémoire persistante (se souvient de tes préférences, contextes, décisions) serait un différenciateur fort. Stack : Whisper + Ollama/Claude API + SQLite local.
 
-**🎯 Insight #3 : Construire en MCP-native dès aujourd'hui**
-MCP (Model Context Protocol) est en train de devenir le standard d'intégration pour les agents IA. Tous les outils qui émergent (Kampala, OpenHuman) l'adoptent. Construire ses prochains produits voice AI avec un serveur MCP intégré = distribution gratuite via l'écosystème Claude Code et agents compatibles.
+**🎯 Insight #3 — Open source d'abord, monétisation ensuite**
+La stratégie GitHub trending = acquisition 0€. Si Kyle sort un outil voice open-source (ex: Wispr Flow open-source pour Linux), il peut viser 2000+ stars en 2 semaines et convertir 5-10% en paid hosting. Coût infra faible, CAC quasi zéro.
 
-**🎯 Insight #4 : GitHub comme canal d'acquisition, pas juste de stockage**
-OpenHuman a prouvé que GitHub trending peut générer 12K stars + 5K users en une semaine, sans budget marketing. Kyle devrait open-sourcer un composant de sa stack voice AI (ex: un SDK voice-to-action léger) pour capter cette distribution organique.
+**🎯 Insight #4 — L'Inde comme signal de marché**
+Wispr Flow fait 100% MoM en Inde. Les marchés émergents (Inde, MENA, Afrique francophone) cherchent des tools voice adaptés à leur langue/contexte. Kyle francophone = avantage naturel pour un Wispr Flow français/multilingue.
 
-**🔴 À éviter** : Construire un concurrent généraliste à Wispr Flow. Le marché est en train de se consolider autour d'acteurs bien financés. Le créneau est dans les verticaux non adressés.
+**⚠️ Watch out** : Apple intégrera probablement une dictée universelle dans macOS 15/16. Construire un moat via intégrations enterprise et données propriétaires (fine-tuning jargon métier) avant cela.
