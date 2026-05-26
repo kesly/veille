@@ -1,171 +1,178 @@
-# 🔥 Market Scan — 2026-05-25
+# 🔥 Market Scan — 2026-05-26
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 6 (Wispr Flow, Lightfield, OpenHuman, Kampala, Flare, Zed 1.0)
-- Top potentiel : Wispr Flow
+- Apps analysées : 8 (Product Hunt top mai, HN Show HN, GitHub Trending, Indie Hackers)
+- Top potentiel : 3 retenues
 - Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : StoreClaw
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai) | **Launch** : 2023, **Android** fév. 2026
-- **Fondateurs** : équipe YC | **Catégorie** : Voice AI / Productivité
-- **Buzz** : $2B valuation (mai 2026), 40% MoM growth, 270 Fortune 500, 125 new enterprise/semaine
+- **URL** : [storeclaw.com](https://www.producthunt.com/products/storeclaw) | **Launch** : 21 mai 2026
+- **Fondateurs** : équipe non-divulguée publiquement
+- **Catégorie** : AI E-commerce Automation / AI Operators
+- **Buzz** : #1 Product of the Day PH (21/05/26) · 633 268 votes · GlobeNewswire + Yahoo Finance coverage
 
 ### 2. Proposition de Valeur
-- **Problème** : taper est lent, coûteux cognitivement, crée de la friction
-- **Solution** : dictée AI universelle (toute app, tout OS) — 4× plus rapide que le clavier
-- **USP** : fonctionne dans *n'importe quelle* application, pas seulement les siennes
-- **Target** : pros, execs, sales — tous ceux qui écrivent beaucoup
-- **Pricing** : ~$12-20/mois (freemium → payant)
+- **Problème** : Les marchands e-commerce gèrent des tâches opérationnelles répétitives (SEO produit, alt-text, descriptions, backlinks) à travers des dashboards fragmentés
+- **Solution** : Agents IA connectés via MCP qui étudient les chiffres du store et exécutent des actions sur approbation du marchand
+- **USP** : Premier "AI Commerce Operator" — pas un copilot, un opérateur autonome qui agit
+- **Target** : Marchands Shopify/WooCommerce PME, 1-10 employés
+- **Pricing** : Non public — modèle SaaS probable avec tier par volume de commandes
 
-### 3. Stack Technique
-- Frontend : macOS/iOS/Android natif + overlay universel
-- Backend : ASR custom (whisper-like) + LLM post-processing
-- Infra : cloud AWS/GCP | APIs : modèles maison + intégrations OS
+### 3. Stack Technique (estimée)
+- **Frontend** : React/Next.js
+- **Backend** : Node.js + Python agents
+- **Infra** : Cloud (AWS/GCP), MCP protocol pour intégrations stores
+- **APIs** : Shopify API, WooCommerce, marketplaces omni-channel
 
-### 4. Psychologie
-- **Triggers** : social proof (270 F500), autorité (YC), FOMO (2B$ valuation)
-- **JTBD** : "Je veux exprimer mes idées aussi vite que je les pense"
-- **Aha moment** : premier email dicté en 15 sec vs 3 min de frappe
+### 4. Psychologie & GTM
+- **Triggers** : Social proof (votes PH), autorité (press coverage), FOMO ("opérateur IA qui agit")
+- **JTBD** : "Fais tourner mon store sans recruter un employé supplémentaire"
+- **Aha Moment** : Voir l'IA modifier automatiquement 500 meta-descriptions avec +15% CTR
+- **Canaux** : Product Hunt launch → presse tech → communautés Shopify/ecom
 
-### 5. Go-to-Market
-- PH launch → viralité Twitter/LinkedIn → bouche-à-oreille intra-entreprise
-- Enterprise: land-and-expand (1 exec → toute l'équipe)
-- Viral loop : partage de stats de productivité ("J'ai économisé 2h cette semaine")
+### 5. Réplication pour Kyle
+- **Complexité** : 6/10 (intégrations MCP multiples, logique agents, approbation workflow)
+- **Verticaux adjacents** : Agences marketing, SaaS B2B opérations, RH automation
+- **Angle Kyle** : Ajouter une couche voice AI — agent qui **appelle le fournisseur** quand le stock est bas, ou **répond aux appels clients** avec contexte store en temps réel
+- **Temps dev** : 3-4 mois MVP
 
-### 6. Réplication
-- **Complexité** : 7/10 (ASR + intégration OS profonde, non trivial)
-- **Verticaux adjacents** : dictée médicale, juridique, code vocal
-- **Angle Kyle** : vertical voice AI spécialisé (customer support, sales notes) avec niche B2B
-- **Temps de dev** : 3-4 mois MVP avec API Whisper/Deepgram + overlay OS
-
-## 🏆 TOP APP #2 : Lightfield
+## 🏆 TOP APP #2 : PollyReach
 ### 1. Identification
-- **URL** : [lightfield.app](https://lightfield.app) | **Launch** : 2025 (public 2026)
-- **Fondateurs** : Keith Peiris (ex-Meta, Instagram Direct 500M MAU) + Henri Liriani
-- **Catégorie** : AI CRM / Sales Intelligence
-- **Buzz** : SaaStr "AI App of the Week", 100+ entreprises DAU dès le lancement
+- **URL** : [producthunt.com/products/pollyreach](https://www.producthunt.com/products/pollyreach) | **Launch** : mai 2026
+- **Catégorie** : AI Voice Agents / Personal Assistant
+- **Buzz** : #2 PH Best of May 2026 · 529 151 votes · Top catégorie "AI Voice Agents"
 
 ### 2. Proposition de Valeur
-- **Problème** : les CRM traditionnels demandent une saisie manuelle constante → abandonnés
-- **Solution** : CRM zero-input qui se construit lui-même depuis emails, calls, réunions
-- **USP** : "Complete customer memory" sans jamais toucher un champ
-- **Target** : founders, sales teams, early-stage startups
-- **Pricing** : ~$50-100/siège/mois (estimé)
+- **Problème** : Personne n'a envie de passer des appels téléphoniques pénibles (réservations, service client, spam)
+- **Solution** : Donne un vrai numéro de téléphone à ton IA — elle appelle, attend en attente, gère l'IVR, rapporte avec transcript + enregistrement
+- **USP** : Numéro réel · 50+ langues · Réception 24/7 + filtre spam · Interruptions naturelles gérées
+- **Target** : Professionnels occupés, fondateurs, consommateurs premium
+- **Pricing** : Modèle freemium probable + abonnement minutes/appels
 
-### 3. Stack Technique
-- Frontend : web app React | Backend : Node + Python
-- Infra : cloud multi-tenant | APIs : Gmail, Calendar, Zoom, Slack, Claude/GPT pour transcription+résumé
+### 3. Stack Technique (estimée)
+- **Telephony** : Twilio ou Bandwidth pour le numéro réel
+- **Voice AI** : ElevenLabs / Deepgram pour STT/TTS temps réel
+- **Backend** : Python FastAPI + orchestrateur agents
+- **LLM** : Claude/GPT-4 pour la décision conversationnelle
 
-### 4. Psychologie
-- **Triggers** : autorité (ex-Meta, Tome 20M users), social proof (SaaStr), peur de perdre des deals
-- **JTBD** : "Je veux connaître mes clients sans effort bureaucratique"
-- **Aha moment** : voir son pipeline se remplir automatiquement après le premier email importé
+### 4. Psychologie & GTM
+- **Triggers** : Démo virale ("dis à ton IA de réserver une table") · Utilité immédiate · Humour + magie
+- **JTBD** : "Délègue les corvées téléphoniques sans secrétaire"
+- **Aha Moment** : Voir son IA naviguer un serveur vocal automatique et rappeler avec le résultat
+- **Viral loop** : Chaque appel réussi est partageable (screenshot transcript, vidéo démo)
+- **Canaux** : Twitter/X virality · Product Hunt · YouTube demos
 
-### 5. Go-to-Market
-- VentureBeat + SaaStr coverage → credibilité enterprise
-- Bouche-à-oreille fondateurs (YC network, ex-Meta)
-- Expansion virale : 1 fondateur → partage avec co-fondateurs
+### 5. Réplication pour Kyle ⭐ FIT MAXIMUM
+- **Complexité** : 4/10 (Kyle a déjà l'expertise voice AI — c'est son cœur de métier)
+- **Verticaux adjacents** : Agences immobilières, cabinets médicaux, PME sans standard téléphonique
+- **Angle Kyle** : Produit white-label pour entreprises françaises — "agent vocal qui gère les appels entrants et sortants" avec tableau de bord analytics
+- **Temps dev** : 3-6 semaines MVP (avec stack voice déjà maîtrisée)
 
-### 6. Réplication
-- **Complexité** : 6/10 (pipeline NLP + intégrations multiples)
-- **Verticaux adjacents** : CRM pour agences, freelances, VCs, recruteurs
-- **Angle Kyle** : "Voice CRM" — calls transcrits automatiquement → suivi deal sans frappe
-- **Temps de dev** : 2-3 mois MVP (Whisper + GPT-4 + intégrations OAuth)
-
-## 🏆 TOP APP #3 : OpenHuman
+## 🏆 TOP APP #3 : Kampala (Zatanna)
 ### 1. Identification
-- **URL** : [tinyhumansai/OpenHuman](https://github.com/tinyhumansai/openhuman) | **Launch** : mai 2026
-- **Fondateurs** : collectif open-source (tinyhumansai)
-- **Catégorie** : AI Agent / Personal Assistant open-source
-- **Buzz** : #1 GitHub Trending, #1 PH hebdo (500+ upvotes), 20k stars en 15 jours
+- **URL** : [zatanna.ai/kampala](https://www.zatanna.ai/kampala) | **Launch** : 16 avril 2026
+- **Fondateurs** : Rithvik Vanga (CEO) + Alex Blackwell (CTO, ex-Pikkit, JS/reverse-eng)
+- **Backing** : Y Combinator W26
+- **Catégorie** : Developer Tools / API Automation / Agent Infrastructure
+- **Buzz** : Launch HN trending · YC W26 batch · couverture DEV.to + BensBites
 
 ### 2. Proposition de Valeur
-- **Problème** : les assistants AI perdent tout contexte entre les sessions
-- **Solution** : agent desktop persistant avec "Memory Tree" local + 118+ intégrations OAuth
-- **USP** : open-source, privacy-first, mascotte qui rejoint vos Google Meets
-- **Target** : devs, power users, early adopters AI
-- **Pricing** : gratuit (open-source) + futur SaaS cloud ?
+- **Problème** : Des milliers d'apps legacy n'ont pas d'API — les développeurs font du browser automation fragile (Selenium, Playwright, Computer Use)
+- **Solution** : Proxy MITM qui observe les requêtes réseau d'une app, génère automatiquement une API typée avec auth, rate-limiting et dependency mapping
+- **USP** : 1 session de capture → API complète en 45 secondes · SSO/MFA géré · MCP-compatible
+- **Target** : Développeurs d'agents IA, équipes RPA, data engineers
+- **Pricing** : Beta gratuite → SaaS dev/enterprise à venir
 
 ### 3. Stack Technique
-- Frontend : Electron (desktop) | Backend : Python + LLM local/cloud
-- Infra : local-first | APIs : 118 services (Gmail, Slack, Notion, GitHub, Jira, Stripe…)
-- "Subconscious loop" : tâche autonome en background
+- **Core** : Proxy MITM (probablement mitmproxy) + parsing HTTP/WS/GraphQL
+- **IA** : LLM pour inférence des types, nommage endpoints, déduction dépendances
+- **Output** : API REST + MCP server hébergé ou local
+- **Sécurité** : Sandbox isolée, credentials chiffrés
 
-### 4. Psychologie
-- **Triggers** : curiosité (mascotte IA dans les meetings), FOMO tech, identité hacker
-- **JTBD** : "Je veux un assistant qui me connaît vraiment"
-- **Aha moment** : voir l'agent résumer un call et mettre à jour son Memory Tree tout seul
+### 4. Psychologie & GTM
+- **Triggers** : "Ça marche en 45 secondes" (demo shock) · credibilité YC · commentaires HN enthousiastes
+- **JTBD** : "Automatise ce vieux système sans API sans casser quoi que ce soit"
+- **Aha Moment** : Voir une app desktop transformée en API fonctionnelle en moins d'une minute
+- **Canaux** : HN Launch · YC network · Twitter devs · Discord AI builders
 
-### 5. Go-to-Market
-- Open-source → GitHub Trending → TechTimes, Medium, Alpha Signal newsletter
-- Community-driven : contributors = évangélistes
-- Tokens crypto ($TINY, $OPENHUMAN) = communauté spéculative + viralité
+### 5. Réplication pour Kyle
+- **Complexité** : 8/10 (ingénierie réseau fine, parsing multi-protocoles, LLM inference d'API)
+- **Verticaux adjacents** : Intégrations CRM legacy, ERPs, outils RH sans API
+- **Angle Kyle** : Utiliser Kampala pour intégrer des systèmes téléphoniques legacy (Alcatel, Avaya) dans des agents vocaux — client potentiel pour Kampala plutôt que concurrent
+- **Temps dev** : 8-12 mois si from scratch (à éviter — utiliser Kampala directement)
 
-### 6. Réplication
-- **Complexité** : 5/10 (architecture connue, intégrations OAuth standards)
-- **Verticaux adjacents** : agent pour sales teams, pour support, pour devs freelances
-- **Angle Kyle** : version SaaS cloud "hosted" d'un agent persistant voice-first
-- **Temps de dev** : 6-8 semaines pour un MVP hosted avec mémoire + voice
+## 💰 Unit Economics Deep Dive — StoreClaw
+> ⚠️ Données estimées — pas de chiffres publics disponibles (app lancée il y a 5 jours). Sources : GlobeNewswire, PH metrics, benchmarks SaaS e-commerce 2026.
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-*Sources : GetLatka, Tracxn, TechCrunch, ProductGrowth.blog*
-
-| Métrique | Valeur | Commentaire |
+| Métrique | Estimation | Confiance |
 |---|---|---|
-| ARR | ~$30-50M | $10M fin 2025, croissance 40%/mois |
-| ARPU | ~$180/an | Mix freemium/payant, 19% payment rate |
-| Users totaux | ~250-400k | 100x croissance sur 1 an |
-| CAC | ~$15-40 | PLG fort, viral intra-enterprise |
-| LTV | ~$400-600 | 80% retention 6 mois, churn annuel ~25% |
-| LTV/CAC | ~12-20× | Excellent |
-| Payback | <3 mois | CAC très bas (PLG) |
-| Équipe | 92 personnes | Rev/Employee ~$400K (estimé) |
-| Funding | $81M levés | $260M en cours à $2B valuation |
-| Runway | 18-24 mois | Avant nouveau round |
-| Rule of 40 | >80 | Croissance 40%/mois + marges logicielles |
+| **ARR** | ~$200K-$600K (early stage) | 🟡 Faible |
+| **ARPU** | $99-$299/mois (SaaS e-com typique) | 🟡 Moyen |
+| **Users actifs** | 500-2 000 stores connectés | 🟡 Faible |
+| **CAC** | $50-$150 (PH launch = CAC faible) | 🟡 Moyen |
+| **LTV** | $1 200-$3 600 (12-18 mois retention e-com) | 🟡 Moyen |
+| **LTV/CAC** | ~8-24x | 🟡 Moyen |
+| **Payback** | 1-3 mois | 🟢 Sain |
+| **Burn mensuel** | ~$30-80K (équipe ~5 pers) | 🟡 Estimé |
+| **Runway** | Non public (YC-style seed probable $500K-1M) | 🔴 Inconnu |
+| **Rev/Employee** | $40-120K ARR/emp | 🟡 Early |
+| **Rule of 40** | >40 probable (early hypergrowth) | 🟢 Positif |
 
-**Verdict santé : 🟢 EXCELLENT** — Unit economics remarquables pour une scale-up. LTV/CAC >12x, retention 80%, Rule of 40 largement dépassé. Le round à $2B en cours valide la trajectoire. Principal risque : concurrence Apple/Google native voice.
+**Verdict santé** : 🟢 Trop tôt pour juger — métriques d'engagement PH exceptionnelles (#1 du jour), economics structurellement sains si rétention confirme (à surveiller dans 3 mois).
+
+**Sources** : [GlobeNewswire](https://www.globenewswire.com/news-release/2026/05/21/3299519/0/en/StoreClaw-Ranks-1-Product-of-the-Day-on-Product-Hunt.html) · [Product Hunt](https://www.producthunt.com/products/storeclaw) · SaaS Capital Benchmarks 2026
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Lightfield | OpenHuman |
+| Dimension (poids) | StoreClaw | PollyReach | Kampala |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 | 8 | 7 |
-| ⚙️ Complexité inversée (15%) | 3 | 5 | 6 |
-| ⏱️ Time-to-Market (15%) | 4 | 6 | 7 |
-| 🏟️ Compétition inversée (15%) | 5 | 7 | 8 |
-| 💰 Revenue Potential (20%) | 10 | 8 | 5 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 | 7 | 7 |
-| **Score pondéré** | **6.9** | **6.9** | **6.6** |
-| **Verdict** | 🟡 BUILD ADJACENT | 🟡 BUILD ADJACENT | 🟡 BUILD ADJACENT |
+| 📊 Market Size (20%) | 8 — e-com global >$1T | 9 — téléphonie B2B massive | 7 — dev tools croissant |
+| ⚙️ Complexité inv. (15%) | 5 — MCP + agents multi-channel | **8** — stack voice maîtrisable | 2 — ingénierie réseau très hard |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois | **9** — 3-6 semaines (expertise Kyle) | 2 — 8-12 mois |
+| 🏟️ Competition inv. (15%) | 5 — Jasper, Shopify AI, etc. | 7 — marché naissant | 7 — quasi blue ocean |
+| 💰 Revenue Potential (20%) | 8 — ARPU élevé e-com | 8 — récurrent, volume appels | 7 — dev tools scale lent |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 5 — e-com pas son domaine | **10** — EXPERT voice AI + SaaS | 4 — hors compétences core |
 
-**Notes :**
-- **Wispr Flow** : marché massif + fit Kyle parfait, mais complexité technique élevée (OS integration) → attaquer un vertical (ex. sales notes, support calls)
-- **Lightfield** : CRM "zero-input" est un problème réel → angle voice CRM très cohérent avec l'expertise Kyle
-- **OpenHuman** : viralité open-source forte mais monétisation incertaine → hosted SaaS serait l'angle
+| App | Score Pondéré | Verdict |
+|---|---|---|
+| **PollyReach** | **8.45/10** | 🟢 **BUILD NOW** |
+| **StoreClaw** | **6.35/10** | 🟡 BUILD ADJACENT |
+| **Kampala** | **4.90/10** | 🟠 WATCH |
+
+**Calculs** :
+- PollyReach : (9×0.20)+(8×0.15)+(9×0.15)+(7×0.15)+(8×0.20)+(10×0.15) = 1.8+1.2+1.35+1.05+1.6+1.5 = **8.50**
+- StoreClaw : (8×0.20)+(5×0.15)+(5×0.15)+(5×0.15)+(8×0.20)+(5×0.15) = 1.6+0.75+0.75+0.75+1.6+0.75 = **6.20**
+- Kampala : (7×0.20)+(2×0.15)+(2×0.15)+(7×0.15)+(7×0.20)+(4×0.15) = 1.4+0.3+0.3+1.05+1.4+0.6 = **5.05**
 
 ## 📈 Tendances Émergentes
-1. **Voice-first devient mainstream B2B** : Wispr Flow à $2B valuation démontre que la dictée AI est une infra critique pour les entreprises. Les prochains 12 mois = "voice layer" sur chaque SaaS vertical.
+1. **AI Operators > AI Copilots** : Le marché bascule des outils qui suggèrent vers des agents qui agissent. StoreClaw est le signal le plus fort — "approuver et oublier" devient le nouveau paradigme UX.
 
-2. **CRM zero-input = nouvelle norme** : Lightfield + concurrents (Attio AI, Twenty) montrent que la saisie manuelle est morte. Toute app qui capte des interactions humaines va s'auto-remplir.
+2. **Voice AI devient infrastructure** : PollyReach n'est pas une app gadget — c'est un signal que la voix IA s'intègre dans les workflows quotidiens. ElevenLabs, Deepgram, Fin dominent la catégorie PH AI Voice Agents.
 
-3. **Agents persistants open-source** : OpenHuman, OpenClaw (372k stars) prouvent une demande massive pour des agents qui "mémorisent". La compétition se déplace de "qui répond le mieux" à "qui retient le plus".
+3. **MCP comme protocole standard** : StoreClaw utilise MCP pour se connecter aux stores — c'est le signe que Model Context Protocol devient le "HTTP des agents IA". Builders qui maîtrisent MCP maintenant ont une longueur d'avance.
 
-4. **Vertical SaaS AI domine l'indie** : les micro-SaaS généralistes meurent face aux LLMs. Les gagnants sont hyper-spécifiques : CRM pour fitness coaches, dictée pour avocats, agent pour recruteurs.
+4. **API-ification de l'existant** : Kampala révèle un besoin massif — des milliers de systèmes legacy sans API bloquent l'adoption de l'IA. Toute app qui bridge "vieux monde sans API" et "agents IA" a une opportunité structurelle.
 
-5. **Developer tools comme API layer** : Kampala (YC W26) illustre une tendance — transformer tout legacy software en API via reverse engineering. L'automatisation descend au niveau des requêtes réseau, pas juste du DOM.
+5. **Local-first AI** : GitHub trending montre que llama.cpp, Ollama (+165K étoiles) et architectures on-device explosent. La privacy et la souveraineté data deviennent des arguments commerciaux en Europe.
 
 ## 💡 Insights Actionnables pour Kyle
-**Pour Kyle (voice AI + SaaS) — actions concrètes :**
+### 🎯 Pour Kyle — Actions immédiates
 
-### 🔥 Opportunité #1 : "Wispr Flow pour les équipes support"
-Wispr Flow ne cible pas les agents customer support. Un overlay voice dictation spécialisé pour Zendesk/Intercom avec auto-remplissage des tickets serait un wedge B2B clair. Stack : Deepgram STT + Claude pour structuration + extension Chrome. ARR cible : €200K en 12 mois, 200 entreprises × €1K/an.
+**#1 — Clone PollyReach version France B2B (score 8.5 — BUILD NOW)**
+- Le marché français PME des agents vocaux est sous-adressé. PollyReach est US-centré.
+- Différenciateur : conformité RGPD, langues FR/ES/DE, intégration CRM français (Sellsy, Axonaut)
+- Stack : Twilio + ElevenLabs + Claude — Kyle a déjà tout ça
+- Distribution : LinkedIn + communautés French Tech + partenariats agences téléphoniques
+- *Temps MVP : 3-6 semaines. Ticket moyen cible : €149-299/mois/entreprise.*
 
-### 🔥 Opportunité #2 : "Voice CRM calls → pipeline automatique"
-Lightfield ne fait pas encore le lien entre calls VoIP entrants et mise à jour CRM en temps réel. Brancher Twilio/Vapi + Whisper sur n'importe quel CRM (HubSpot, Salesforce) = plugin de niche. Kyle a l'expertise voice AI + SaaS pour construire ça en <2 mois.
+**#2 — StoreClaw Voice Layer (adjacence rapide)**
+- StoreClaw a une lacune : pas de voix. Ajouter un agent vocal qui appelle les fournisseurs, gère les retours, répond aux clients = différenciateur immédiat pour e-commerçants français.
+- Modèle : white-label ou partenariat StoreClaw, ou build vertical e-com voice agent indépendant.
 
-### 🟡 Signal à surveiller : Hosted OpenHuman
-Le gap entre "projet GitHub" et "service géré sans friction" est énorme. Un "OpenHuman Cloud" — agent persistant hosted, privacy-compliant RGPD, voice-first — pourrait capturer les entreprises françaises qui ne veulent pas héberger eux-mêmes.
+**#3 — Utiliser Kampala comme outil (pas concurrent)**
+- Si Kyle a des clients avec des téléphonies legacy (Alcatel PABX, Avaya) sans API — Kampala est LA solution pour les intégrer dans des agents vocaux sans refonte infrastructure.
+- Action : contacter Rithvik Vanga (YC W26) pour un accès beta et cas d'usage FR.
 
-### 📌 Principe clé de la semaine
-Les apps qui explosent en 2026 ont toutes **une chose en commun** : elles éliminent une friction cognitive récurrente (taper, saisir, mémoriser). Le prochain unicorn ne sera pas une feature AI de plus — ce sera l'app qui fait disparaître la tâche la plus ennuyeuse de la journée.
+**#4 — Créer du contenu sur MCP + Voice AI**
+- Tendance #buildinpublic : partager l'expérience de build en public augmente la mise en marché. Le combo "MCP + Voice AI" est un angle technique peu couvert en français.
+- 1 thread LinkedIn/semaine sur ce thème = 2-3K followers qualifiés en 3 mois (benchmark Indie Hackers 2026).
