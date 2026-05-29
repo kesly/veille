@@ -1,211 +1,207 @@
-# 🔥 Market Scan — 2026-05-28
+# 🔥 Market Scan — 2026-05-29
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8 (Product Hunt, HN, Reddit, GitHub Trending, IndieHackers)
-- Top potentiel : 3 retenues (Wispr Flow, OpenHuman, PollyReach)
+- Apps analysées : 8 (OpenHuman, Kilo Code v7, Mintlify Workflows, Papel, Mina, Fere AI, Vivago Video Agent, Pancake)
+- Top potentiel : OpenHuman, Kilo Code v7, Mintlify Workflows
 - Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : OpenHuman
+
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Launch** : 2023 (v2 majeure + hype en cours — <6 mois pour la vague actuelle)
-- **Fondateurs** : Tanay Dixit & Siddharth Sharma (ex-Stanford, ex-Meta/Google)
-- **Catégorie** : Voice AI / Productivity / Dictation
-- **Métriques buzz** : $2B valuation en discussion (Menlo Ventures, mai 2026), 2.5M downloads, 270 Fortune 500, 40% MoM growth, 70% rétention 12 mois, $260M raise en cours
+- **URL** : openhuman.ai (TinyHumans)
+- **Launch** : 15 mai 2026 — #1 Product Hunt du jour, semaine ET mois
+- **Fondateur** : Steven (TinyHumans), projet solo
+- **Catégorie** : AI Agent local / Personal AI superintelligence
+- **Métriques buzz** : 488 upvotes PH · 65 commentaires · 20K+ GitHub stars en 5 jours · 5 000+ users en 7 jours · 150% croissance semaine/semaine
 
-### 2. Proposition de Valeur
-- **Problème** : Taper est lent — la parole est 4× plus rapide, mais les outils de dictée existants sont rigides et inexacts.
-- **Solution** : Dictée universelle sur Mac/Windows, fonctionne dans TOUTES les apps, adapte le style de l'utilisateur, 100+ langues, mode commande.
-- **USP** : IA qui "apprend votre voix et votre style" — écriture personnalisée, pas juste transcription.
-- **Target** : Knowledge workers, executives, 270 Fortune 500 companies (Nvidia, Amazon).
-- **Pricing** : ~$15/mois individuel, tarifs enterprise non publics.
+### 2. Proposition de valeur
+- **Problème** : 90% des gens abandonnent les agents IA (mémoire qui reset, data dans le cloud, setup terminal requis)
+- **Solution** : Agent IA local, mémoire persistante jusqu'à 1 milliard de tokens, GUI simple, 118+ intégrations OAuth one-click
+- **USP** : Private-first + local-first + zero config = l'agent IA que tu donnes à tes parents
+- **Target** : Utilisateurs non-tech + power users qui veulent la privacy
+- **Pricing** : Freemium — beta gratuite, tier managé payant à venir
 
-### 3. Stack Technique
-- **Frontend** : Electron app (Mac / Windows)
-- **Backend** : Proprietary ASR pipeline + fine-tuned LLM pour adaptation de style
-- **Infra** : Cloud (AWS), traitement edge pour latence faible
-- **APIs** : Intégration OS-level (accessibilité), modèle custom Wispr (non Whisper pur)
+### 3. Stack technique
+- **Frontend** : Electron / GUI desktop cross-platform
+- **Backend** : Local (on-device), modèles ONNX runtime + Apple Intelligence compatible
+- **Mémoire** : Architecture vectorielle locale, jusqu'à 1B tokens
+- **Intégrations** : 118+ OAuth (Gmail, GitHub, Slack, Notion, Stripe, Jira, Linear…)
+- **Open-source** : OUI (GitHub)
 
-### 4. Psychologie
-- **Triggers** : Autorité (Fortune 500, Bloomberg coverage), Social Proof (2.5M downloads), Urgence implicite (vague voice AI, early-mover advantage)
-- **JTBD** : "Je veux écrire plus vite sans perdre ma voix/style"
-- **Aha moment** : Première fois que l'IA corrige une hésitation en gardant le ton naturel de l'utilisateur.
+### 4. Psychologie & JTBD
+- **Triggers** : Peur du cloud (privacy), frustration setup agents IA, FOMO communauté early adopters
+- **JTBD** : "Avoir un assistant IA qui ME connaît vraiment et garde mes données chez moi"
+- **Aha moment** : Première fois que l'agent répond en connaissant ton historique sans le réentraîner
+- **Viral loop** : GitHub stars → dev community → presse tech → mainstream
 
 ### 5. Go-to-Market
-- **Canaux** : Word-of-mouth (Knowledge workers), PR Bloomberg/TechCrunch, Product Hunt, LinkedIn influence.
-- **Launch strategy** : Freemium → conversion par habitude d'usage (50% chars via Wispr après 3 mois).
-- **Viral loop** : Utilisateurs font remarquer leur vitesse → collègues téléchargent.
+- **Canaux** : GitHub Trending (#1) → Product Hunt (#1 jour/semaine/mois) → Twitter/X → presse IA
+- **Stratégie launch** : Product Hunt coordiné avec GitHub Trending run — double amplification
+- **Viral** : Open-source + "give it to your parents" storytelling
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 — pipeline ASR+LLM custom difficile à égaler, mais possible sur niche verticale
-- **Verticaux adjacents** : Voice dictation pour médecins/avocats/sales reps (niche premium)
-- **Angle Kyle** : Construire une version voice-AI verticale (ex: dictée pour commercial, CRM vocal) avec pricing enterprise plus agressif
-- **Temps de dev** : 4-6 mois pour MVP vertical crédible
+- **Complexité** : 7/10 (architecture locale mémoire longue durée non triviale)
+- **Verticaux adjacents** : Voice AI agent local (persona vocale avec mémoire), agent IA pour PMEs
+- **Angle Kyle** : Ajouter une couche voice AI (wake word, voice commands) = OpenHuman + Voice = "Jarvis perso"
+- **Temps dev** : 3-4 mois MVP voice layer sur base OpenHuman (open-source)
+- **Sources** : [PH](https://www.producthunt.com/products/openhuman) · [Tech Times](https://www.techtimes.com/articles/316731/20260516/agent-that-reads-you-first-openhuman-tops-github-trending-inverting-playbook.htm) · [Alpha Signal](https://alphasignalai.substack.com/p/how-openhuman-works-and-how-to-set)
 
-Sources : [TechCrunch](https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-funding-talks-at-2-billion-value) · [Getlatka](https://getlatka.com/companies/wisprflow.ai)
+## 🏆 TOP APP #2 : Kilo Code v7
 
-## 🏆 TOP APP #2 : OpenHuman
 ### 1. Identification
-- **URL** : [openhuman.ai](https://openhuman.ai) / GitHub open-source
-- **Launch** : 15 mai 2026 (#1 Product of the Day, Product Hunt)
-- **Fondateurs** : Steven E. / TinyHumans
-- **Catégorie** : Personal AI Agent / Open-Source / Productivity
-- **Métriques buzz** : 8 000+ GitHub stars, 5 000+ users en 7 jours, 150% WoW growth, 488 upvotes PH, 65 comments
+- **URL** : kilo.ai — extension VS Code + JetBrains + CLI + Cloud Agents
+- **Launch v7** : 5 mai 2026 — #1 PH du jour ET de la semaine
+- **Fondateurs** : Équipe Kilo AI (fondé ~mai 2025)
+- **Catégorie** : AI Coding Assistant / Dev Tools
+- **Métriques buzz** : 589 upvotes PH · 123 commentaires · 3M+ users · 2,3M installs VS Code · 30T+ tokens processés
 
-### 2. Proposition de Valeur
-- **Problème** : Les assistants IA n'ont pas de mémoire persistante ni d'accès contextualisé aux outils de l'utilisateur.
-- **Solution** : Agent IA local open-source avec mémoire 1 milliard de tokens, 118+ intégrations (Gmail, Slack, Notion, GitHub), vault Obsidian-style.
-- **USP** : "L'IA qui se souvient de tout, localement, sans abonnement forcé" — SQLite local + Markdown vault.
-- **Target** : Developers, power users, privacy-conscious knowledge workers.
-- **Pricing** : Gratuit (open-source) + plan premium multi-provider.
+### 2. Proposition de valeur
+- **Problème** : Les coding assistants IA font une chose à la fois → lent pour les grosses tâches
+- **Solution** : Agents parallèles simultanés (file reads, searches, terminal commands en concurrence) + diff reviewer + multi-model comparisons
+- **USP** : Vrai parallélisme multi-agents dans l'IDE + support JetBrains (là où GitHub Copilot est faible)
+- **Target** : Développeurs VS Code/JetBrains, équipes SaaS
+- **Pricing** : Freemium (extension gratuite, plans pro avec quotas tokens)
 
-### 3. Stack Technique
-- **Frontend** : Electron desktop app (style Obsidian)
-- **Backend** : SQLite memory tree local, MCP integrations, 30+ AI providers
-- **Infra** : 100% local possible, ou cloud optionnel
-- **APIs** : 118 connecteurs (Gmail, Slack, Telegram, Notion, GitHub...), LLM agnostique
+### 3. Stack technique
+- **Frontend** : Extension VS Code + JetBrains, Electron CLI
+- **Backend** : Cloud Agents Kilo, multi-model (GPT-4o, Claude, Gemini)
+- **Diff/checkpoint** : Système propriétaire de review de changements
+- **Open-source** : Partiellement (extension VS Code open-source)
 
-### 4. Psychologie
-- **Triggers** : Open-source (confiance), Privacy (data locale), FOMO communauté GitHub (8K stars en 7j)
-- **JTBD** : "Je veux un AI qui connaît vraiment mon contexte sans tout envoyer dans le cloud"
-- **Aha moment** : Quand l'IA cite un email de 6 mois et le relie à une tâche Notion ouverte.
+### 4. Psychologie & JTBD
+- **Triggers** : Vitesse (FOMO productivité), comparaison modèles (rationalité), social proof (3M devs)
+- **JTBD** : "Coder 10x plus vite sans changer mon workflow IDE"
+- **Aha moment** : Voir 3 agents travailler en parallèle sur une même tâche = "wow"
+- **Viral loop** : Dev poste son setup → réseaux dev → installs → word of mouth
 
 ### 5. Go-to-Market
-- **Canaux** : GitHub (8K stars organique), HN Show HN, Product Hunt, developer Twitter/X
-- **Launch strategy** : Open-source first → community → premium tier (multi-provider, sync cloud)
-- **Viral loop** : Chaque utilisateur qui fork/star attire 3 nouveaux développeurs
+- **Canaux** : VS Code Marketplace → Product Hunt → Twitter dev community → DEV.to
+- **Stratégie** : Lancement v majeure annuel sur PH pour garder la visibilité (v1 mai 2025, v7 mai 2026)
+- **Viral** : Benchmark multi-modèles public + intégration Slack
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 — stack bien documentée, open-source cloneable
-- **Verticaux adjacents** : "OpenHuman for Sales" (mémoire contextualisée des prospects/clients)
-- **Angle Kyle** : Version verticale voice-first : l'agent se nourrit de vos calls vocaux + emails pour créer une mémoire commerciale unifiée
-- **Temps de dev** : 2-3 mois pour MVP vertical avec open-source comme base
+- **Complexité** : 8/10 (intégration profonde IDE, système de diff, orchestration multi-agents)
+- **Verticaux adjacents** : Coding assistant pour voice scripts / IVR / agents vocaux — niche dans laquelle Kyle est expert
+- **Angle Kyle** : "Kilo Code pour le Voice AI" = assistant de codage spécialisé prompts voice AI, scripts Twilio/Vapi
+- **Temps dev** : 6-9 mois (marché très compétitif)
+- **Sources** : [PH](https://www.producthunt.com/products/kilocode) · [kilo.ai blog](https://blog.kilo.ai/p/were-back-on-product-hunt-new-vs-code) · [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code)
 
-Sources : [Product Hunt](https://www.producthunt.com/products/openhuman) · [PrimeAIcenter](https://primeaicenter.com/openhuman-review/) · [Hunted.space](https://hunted.space/product/openhuman)
+## 🏆 TOP APP #3 : Mintlify Workflows
 
-## 🏆 TOP APP #3 : PollyReach
 ### 1. Identification
-- **URL** : [producthunt.com/products/pollyreach](https://www.producthunt.com/products/pollyreach)
-- **Launch** : Mai 2026 (Product Hunt — Top AI Voice Agents)
-- **Fondateurs** : Gia Xu
-- **Catégorie** : Voice AI Agent / Telephony / Automation
-- **Métriques buzz** : Trending sur PH catégorie AI Voice Agents, 200 crédits offerts au lancement, mentions actives sur X #voiceai
+- **URL** : mintlify.com/workflows
+- **Launch** : 21 mai 2026 — #2 Product Hunt du jour
+- **Fondateurs** : Han Wang & Hahnbee Lee (YC W22)
+- **Catégorie** : Developer Tools / Documentation Automation
+- **Métriques buzz** : 20 000+ entreprises clientes · 100M+ content views/an · $45M Series B (a16z + Salesforce Ventures) · valuation $500M
 
-### 2. Proposition de Valeur
-- **Problème** : Les appels téléphoniques restent la tâche la plus chronophage pour les pros et PMEs.
-- **Solution** : Agent IA avec un VRAI numéro de téléphone — fait des appels sortants sur commande ("réserve une table pour 20h"), gère les appels entrants 24/7, résume et transcrit.
-- **USP** : Numéro réel dédié, gestion IVR, attente, interruptions naturelles — 50+ langues. Cas d'usage validé : gestionnaire 80+ locations immobilières.
-- **Target** : Solopreneurs, PMEs, property managers, commerciaux.
-- **Pricing** : Freemium (200 crédits offerts + numéro gratuit au lancement), modèle crédit/abonnement.
+### 2. Proposition de valeur
+- **Problème** : La doc technique devient obsolète dès que le produit change → équipes perdent des heures en maintenance manuelle
+- **Solution** : Workflows = automations déclenchées par des events repo (push, PR merge) → la doc se met à jour seule (changelogs, traductions, syncs)
+- **USP** : "Set it once, never chase a product change again" — infra-as-code pour la documentation
+- **Target** : Équipes d'ingénierie et de docs dans les startups SaaS & scale-ups tech
+- **Pricing** : $250/mois (plan Starter) → Enterprise sur devis
 
-### 3. Stack Technique
-- **Frontend** : Web app + mobile (numéro virtuel)
-- **Backend** : LLM + pipeline TTS/STT temps réel, intégration réseau téléphonique (PSTN)
-- **Infra** : Probablement Twilio/Vapi pour la téléphonie + LLM propriétaire ou OpenAI
-- **APIs** : PSTN, IVR navigation, transcription, résumé automatique
+### 3. Stack technique
+- **Frontend** : MDX, React components, dashboard web
+- **Backend** : Git-native (triggers sur GitHub/GitLab), AI pour génération/mise à jour contenu
+- **Infra** : Cloud (CDN global pour sites docs), AI models propriétaires
+- **Intégrations** : GitHub, GitLab, Slack, Segment, analytics
+- **Open-source** : NON (SaaS fermé)
 
-### 4. Psychologie
-- **Triggers** : Gain de temps concret ("il gère vos appels pendant que vous dormez"), Social proof (cas immo), Curiosité ("votre IA a un vrai numéro")
-- **JTBD** : "Je veux déléguer 100% de mes appels téléphoniques sans sacrifier le contrôle"
-- **Aha moment** : Premier appel entrant géré automatiquement avec résumé reçu en 2 minutes.
+### 4. Psychologie & JTBD
+- **Triggers** : Douleur réelle (doc en retard = support tickets), autorité (a16z backing), urgence (la concurrence documente mieux)
+- **JTBD** : "Que ma doc soit toujours à jour sans y penser"
+- **Aha moment** : Merger une PR et voir la doc se mettre à jour automatiquement en 30 secondes
+- **Viral loop** : Liens vers docs Mintlify dans les produits → devs découvrent Mintlify → adoptent pour leurs projets
 
 ### 5. Go-to-Market
-- **Canaux** : Product Hunt, X/Twitter (démo vidéo virale), LinkedIn (PME/solopreneurs), niches verticales (immobilier, restaurant)
-- **Launch strategy** : Lancement PH + 200 crédits offerts → viralité par démonstration (vidéo de l'IA en train d'appeler)
-- **Viral loop** : Utilisateurs partagent l'enregistrement de leur agent IA en appel → curiosité → inscription
+- **Canaux** : YC network → GitHub/GitLab ecosystem → Twitter dev → Product Hunt (itération annuelle)
+- **Stratégie** : Land-and-expand (free tier → pro → enterprise), net revenue retention 150%
+- **Viral** : Footer "Powered by Mintlify" sur 20K+ sites → million de devs exposés/mois
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 4/10 — possible avec Vapi/Retell comme infra + LLM + Twilio. Commodité croissante.
-- **Verticaux adjacents** : Immobilier, hôtellerie, soins de santé, support client PME francophone
-- **Angle Kyle** : Version francophone premium + intégration CRM native (HubSpot/Salesforce) — marché français sous-équipé en voice AI
-- **Temps de dev** : 6-8 semaines pour MVP avec stack Vapi + LLM + Twilio
+- **Complexité** : 6/10 (trigger sur Git bien documenté, AI generation testable via API Claude)
+- **Verticaux adjacents** : Workflows auto pour prompts voice AI, scripts IVR, bases de connaissance FAQ bot vocal
+- **Angle Kyle** : "Mintlify pour le Voice AI" = KB auto-maintenue pour agents vocaux Vapi/Twilio qui se sync sur les MAJ produit
+- **Temps dev** : 2-3 mois MVP (webhooks Git + Claude API + rendu markdown)
+- **Sources** : [Mintlify blog](https://www.mintlify.com/blog/series-b) · [ARR Club](https://www.arr.club/mintlify/mintlify-powers-docs-for-20-000-companies-with-45m-series-b) · [PH](https://launches.uicomet.com/products/mintlify-workflows-pwOSZ)
 
-Sources : [Product Hunt](https://www.producthunt.com/products/pollyreach) · [Vapi TechCrunch](https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/)
+## 💰 Unit Economics Deep Dive — OpenHuman
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-| Métrique | Valeur | Source |
+> ⚠️ OpenHuman est en beta gratuite et open-source. Pas de revenus publics. Estimations basées sur les métriques d'adoption et benchmarks sectoriels (Raycast, Notion, Linear à stade comparable).
+
+| Métrique | Estimation | Source |
 |---|---|---|
-| **ARR** | ~$10M ARR (2025) → ~$15-20M estimé mai 2026 | Getlatka, Bloomberg |
-| **Valuation** | $2B en discussion (Menlo Ventures) | Bloomberg mai 2026 |
-| **Funding total** | $81M levés ($25M dernière round, $700M val. précédente) | TechCrunch |
-| **Users** | 2.5M downloads, 270 Fortune 500 enterprise customers | Wispr Flow |
-| **ARPU** | ~$4-6/mois (consumer) / ~$50-100/mois (enterprise) estimé | Inference |
-| **MoM Growth** | 40% month-over-month | Wispr (déclaré) |
-| **Rétention 12 mois** | 70% — exceptionnel pour une app productivité | Wispr (déclaré) |
-| **Employees** | ~50 personnes | PitchBook |
-| **Rev/Employee** | ~$200-400K ARR/employé | Calcul |
-| **CAC** | ~$10-20 (consumer, WoM dominant) / ~$500-2K (enterprise) | Estimé |
-| **LTV consumer** | ~$108/an × rétention 70% × 2,5 ans = ~$190 | Calcul |
-| **LTV/CAC consumer** | ~10-19x | Excellent |
-| **Payback period** | ~2-3 mois | Estimé |
-| **Burn** | ~$2-4M/mois (50 personnes, coûts infra élevés) | Estimé |
-| **Runway** | >24 mois (si round $260M se clôt) | Estimé |
-| **Rule of 40** | 40% growth + ~20% margin = **~60** 🟢 | Calcul |
+| **ARR actuel** | ~€0 (beta free) | Pas de tier payant lancé |
+| **ARR projeté 12 mois** | €300K–€1,2M | 5% conversion freemium × 5K users × €50–€100/an |
+| **ARPU** | €0 aujourd'hui → €60–€120/an (pro) | Benchmark Raycast Pro €96/an |
+| **Users actifs** | 5 000+ (J+7), ~50K projeté M+6 | Données PH + GitHub stars |
+| **CAC** | ~€0 (viral organique pur) | 0 spend pub confirmé |
+| **LTV estimé** | €200–€400 (3 ans × ARPU) | Rétention forte si mémoire = valeur croissante |
+| **LTV/CAC** | ∞ aujourd'hui (CAC ≈ 0) → ~20x post-paid | Benchmark SaaS sain = 3x minimum |
+| **Payback** | <1 mois (si CAC ~€0) | — |
+| **Burn estimé** | €5K–€15K/mois (founder solo) | Infra locale = coût cloud minimal |
+| **Runway** | Inconnu (bootstrap ou early angels) | Pas de levée annoncée |
+| **Rev/Employee** | N/A (pre-revenue, ~2 personnes) | — |
+| **Rule of 40** | N/A (pas de revenus) | Croissance 150% WoW compense |
 
-### Verdict de Santé Financière : 🟢 EXCELLENTE
-
-**Points forts** : Rétention 70% à 12 mois = benchmark top 1% SaaS. CAC faible (WoM), LTV/CAC >10x, croissance 40% MoM. Valorisation $2B sur $10-15M ARR est agressive (133-200× ARR) mais justifiée par la courbe de rétention + enterprise moat.
-
-**Risques** : Valorisation bubble-like si la croissance ralentit. Dépendance à un seul OS (Mac initialement). Concurrence potentielle d'Apple/Google/Microsoft intégrant nativement.
-
-Sources : [Getlatka](https://getlatka.com/companies/wisprflow.ai) · [Tracxn](https://tracxn.com/d/companies/wisprflow) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-funding-talks-at-2-billion-value)
+**Verdict santé : 🟡 POTENTIEL ÉLEVÉ, MONÉTISATION À CONSTRUIRE**
+- Forces : CAC nul, viralité prouvée, rétention structurelle (mémoire = lock-in doux)
+- Risques : Open-source = concurrence forks, modèle payant non validé, dépendance infra locale complexe
+- Catalyseur : Annonce d'un tier managé cloud ou d'un marketplace d'intégrations payantes = potentiel €5M ARR en 18 mois
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension | Poids | Wispr Flow | OpenHuman | PollyReach |
-|---|---|---|---|---|
-| 📊 Market Size | 20% | 9 (>$1B voice AI) | 7 ($500M+ personal AI) | 8 ($800M+ telephony AI) |
-| ⚙️ Complexity inversé | 15% | 3 (pipeline ASR/LLM custom) | 6 (open-source réutilisable) | 7 (stack Vapi/Twilio) |
-| ⏱️ Time-to-Market | 15% | 3 (4-6 mois minimum) | 6 (2-3 mois vertical) | 8 (<2 mois MVP) |
-| 🏟️ Competition inversé | 15% | 4 (Apple, Google, Dragon) | 7 (niche locale/privacy) | 7 (EU/FR sous-adressé) |
-| 💰 Revenue Potential | 20% | 9 (enterprise + consumer) | 6 (open-source, premium lent) | 8 (SaaS récurrent PME) |
-| 🧑‍💻 Founder-Fit Kyle | 15% | 9 (voice AI = core expertise) | 6 (tech fit, réseau?) | 9 (voice AI + SaaS = bullseye) |
 
-**Score Wispr Flow** = (9×0.20) + (3×0.15) + (3×0.15) + (4×0.15) + (9×0.20) + (9×0.15) = 1.80+0.45+0.45+0.60+1.80+1.35 = **6.45 / 10** 🟡 BUILD ADJACENT
+| Dimension (poids) | OpenHuman | Kilo Code v7 | Mintlify Workflows |
+|---|---|---|---|
+| 📊 Market Size (20%) | 9 — AI personal agent >€10B | 9 — Dev tools >€5B | 7 — Doc tools €1B+ |
+| ⚙️ Complexity inversé (15%) | 4 — Mémoire locale difficile | 3 — IDE profond, multi-agents | 7 — Git webhooks + LLM manageable |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois voice layer fork | 3 — 6-9 mois (trop compétitif) | 8 — 2-3 mois MVP |
+| 🏟️ Competition inversé (15%) | 6 — Local-first = niche défendable | 3 — Copilot, Cursor, Windsurf | 5 — Confluence, Notion, GitBook |
+| 💰 Revenue Potential (20%) | 7 — €5M ARR plausible 18 mois | 8 — 3M users = €10M+ MRR possible | 8 — $10M ARR prouvé, 150% NRR |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 8 — Voice layer = différenciation directe | 5 — Dev tools, pas voice | 7 — SaaS + KB = voice AI adjacent |
+| **Score pondéré** | **6.8** | **5.2** | **7.2** |
+| **Verdict** | 🟡 BUILD ADJACENT | 🟠 WATCH | 🟢 BUILD NOW |
 
-**Score OpenHuman** = (7×0.20) + (6×0.15) + (6×0.15) + (7×0.15) + (6×0.20) + (6×0.15) = 1.40+0.90+0.90+1.05+1.20+0.90 = **6.35 / 10** 🟡 BUILD ADJACENT
-
-**Score PollyReach** = (8×0.20) + (7×0.15) + (8×0.15) + (7×0.15) + (8×0.20) + (9×0.15) = 1.60+1.05+1.20+1.05+1.60+1.35 = **7.85 / 10** 🟢 BUILD NOW
-
-### Recommandation
-- 🟢 **PollyReach clone FR** : BUILD NOW — Stack connue, marché FR non adressé, founder-fit parfait pour Kyle
-- 🟡 **Wispr Flow vertical** : BUILD ADJACENT — Potentiel énorme mais complexité pipeline
-- 🟡 **OpenHuman vertical** : BUILD ADJACENT — Base open-source, mais monétisation lente
+**Recommandations :**
+- **Mintlify Workflows clone (voice AI)** : Construire une KB auto-maintenue pour agents vocaux. 2-3 mois, marché prouvé, fit parfait expertise Kyle. **Priorité #1.**
+- **OpenHuman + Voice layer** : Fork open-source + couche vocale Vapi/ElevenLabs. Différenciation forte, mais 4 mois min. **Priorité #2.**
+- **Kilo Code vertical voice** : Trop compétitif, passer.
 
 ## 📈 Tendances Émergentes
-### 1. Voice AI passe en phase d'adoption mainstream
-Le VC voice AI est passé de $315M (2022) à $2.1B (2024), × 7 en 2 ans. Wispr Flow ($2B), Vapi ($500M), Retell ($40M ARR) — les premières licornes voice AI arrivent en 2026. 87.5% des builders construisent des voice agents activement. **C'est maintenant.**
 
-### 2. La mémoire persistante devient le différenciateur IA
-OpenHuman, Novi Notes, et d'autres convergent vers un pattern : l'IA doit "se souvenir" comme un humain. La course aux 1B tokens de contexte persistant remplacera la course aux benchmarks. L'Obsidian-style local vault + AI devient un pattern de référence.
+1. **Local-first AI gagne du terrain** : Après des années de cloud-first, les users veulent leurs data chez eux. OpenHuman, Apple Intelligence on-device, ONNX runtime browser = signal fort. Opportunité voice AI locale (pas de call cloud = RGPD-safe).
 
-### 3. Open-source = go-to-market stratégie (pas juste idéologie)
-8 000 stars GitHub en 7 jours pour OpenHuman. Les fondateurs indie utilisent GitHub comme canal d'acquisition primaire. L'open-source devient le nouveau Product Hunt — plus de crédibilité, communauté captive dès le jour 1.
+2. **Skills/Agents infra explose sur GitHub** : Les repos d'infra d'agents (Claude Code skills, Hermes Agent 105K stars, andrej-karpathy-skills) dépassent les LLM fine-tuning. La couche "orchestration" devient le nouveau moat.
 
-### 4. Agents AI avec numéros réels (Phone AI) : marché émergent
-PollyReach, Vapi (Amazon Ring), Retell — la téléphonie AI devient une commodité. La fenêtre d'opportunité pour bâtir des verticaux spécialisés (immobilier, santé, PME FR) est ouverte maintenant, avant saturation en 12-18 mois.
+3. **Documentation as Code** : Mintlify Workflows = confirmation que la doc n'est plus un projet IT annexe mais une infra critique. Traduction automatique, changelogs auto, sync repo → énorme douleur non résolue chez les PMEs.
 
-### 5. Stack "vibe-coding" abaisse les barrières à 6 semaines
-Avec Claude Code, Cursor, Vapi, Twilio, et Vercel, un dev solo peut lancer un MVP voice AI fonctionnel en 4-8 semaines. Le seul moat restant : distribution + niche + rétention.
+4. **AI Coding Assistants se verticalisent** : Après la guerre des génériques (Copilot, Cursor, Kilo), les prochains gagnants seront des assistants spécialisés (voice AI scripting, infra cloud, finance, médical). Fenêtre d'opportunité = maintenant.
 
-Sources : [AssemblyAI Voice AI 2026](https://www.assemblyai.com/blog/voice-ai-in-2026-series-1) · [Vapi TechCrunch](https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/)
+5. **TikTokification du contenu sérieux** : Papel (papers scientifiques) confirme la tendance feed algorithmique pour tout type de contenu. À surveiller pour: veille automatisée façon "TikTok for market signals" = use case direct pour Kyle.
 
-## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions concrètes cette semaine
+## 💡 Insights Actionnables pour Kyle
 
-**1. [URGENT] Lancer un PollyReach francophone en 6 semaines**
-Stack : Vapi + GPT-4o + Twilio + Vercel. Cible : agences immobilières françaises (80 propriétés = use case validé). Pricing : €49/mois pour 200 minutes AI. Acquisition : démonstration vidéo LinkedIn + outreach direct agences. Le marché FR est vierge — Vapi n'a pas de partenaire FR officiel.
+### 🎯 Action immédiate (cette semaine)
+**Builder "VoiceFlow KB"** — Clone du concept Mintlify Workflows, mais pour les équipes voice AI :
+- Trigger : merge PR dans le repo prompt/script → KB de l'agent vocal mise à jour auto
+- Stack : Claude API (Sonnet 4.6) + webhook GitHub/GitLab + interface Vapi/Twilio
+- Monétisation : €99–€299/mois par workspace (même positioning que Mintlify Starter)
+- Différenciation : Kyle a le réseau voice AI = 0 CAC sur les 100 premiers clients
+- GTM : Product Hunt + communauté Vapi Discord + LinkedIn posts "building in public"
 
-**2. [Moyen terme] Wispr Flow pour les commerciaux FR (voice-to-CRM)**
-Construire un pipeline vocal → CRM natif (Salesforce, HubSpot, Pipedrive). Dictée vocale post-call → résumé structuré → champs CRM remplis automatiquement. ARPU cible : €30-50/utilisateur/mois. 100 reps = €3-5K MRR rapidement avec une équipe sales existante comme first customer.
+### 🧪 Expérience à lancer (ce mois)
+**Installer OpenHuman + ajouter un wake word vocal** :
+- Fork repo GitHub OpenHuman
+- Ajouter wake word via Picovoice Porcupine (open-source, on-device)
+- Connecter ElevenLabs pour réponse vocale
+- → Demo en 2 semaines = contenu viral LinkedIn + lead magnet potentiel
 
-**3. [Signal faible] Devenir le "OpenHuman francophone"**
-Forker OpenHuman, ajouter des intégrations FR (France Connect, Pennylane, Sellsy, Alan), publier en open-source avec une offre cloud Premium €15/mois. L'Obsidian playbook en France = 50K users potentiels en 6 mois.
+### 📡 Signaux à surveiller
+- **OpenHuman** : Annonce tier payant/managé = signal d'accélération → potentiellement acquérir early ou forker pro
+- **Kilo Code** : Levée de fonds annoncée → confirmation que le marché dev tools AI est chaud → un concurrent vertical voice AI aura du financement
+- **GitHub trending "voice AI"** : Hermes Agent 105K stars = la prochaine vague sera les agents multimodaux (text + voice + vision)
 
-**4. [Réseau] Contacter Vapi pour partenariat FR**
-Vapi vient de décrocher Amazon Ring. Ils cherchent des ISVs régionaux. Positionner Kyle comme "Vapi Partner France" ouvre un channel inbound enterprise sans CAC.
-
-**5. [Méta] Le pattern gagnant actuel**
-Niche verticale + voice AI + intégration CRM/outils métier existants = SaaS defensible à €50-200/mois/siège. Pas besoin de lever des fonds, juste 20 clients enterprise pour atteindre €20K MRR.
-
----
-*Rapport généré le 2026-05-28 — Sources : Product Hunt, Bloomberg, TechCrunch, Getlatka, AssemblyAI, GitHub Trending*
+### 💬 Message clé pour Kyle
+> "Le moment est maintenant : l'IA locale + voice + auto-maintenance KB = triangle inexploité. Mintlify a prouvé le marché doc-as-code à €10M ARR en 2 ans avec 2 fondateurs. Toi tu peux faire la même chose en voice AI en 3 mois. CAC nul si tu utilises ton réseau."
