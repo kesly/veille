@@ -1,189 +1,182 @@
-# 🔥 Market Scan — 2026-05-31
+# 🔥 Market Scan — 2026-06-01
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Wispr Flow
-- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow — vertical voice B2B)
+- Top potentiel : StoreClaw
+- Opportunités immédiates (BUILD NOW) : 1
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : StoreClaw
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Launch** : 2023 (Series A), explosion en 2025-2026
-- **Fondateurs** : Tanay Dixit (CEO), ex-entrepreneurs VC-backed
-- **Catégorie** : Voice AI / Productivity
-- **Buzz** : Levée $260M en cours (mai 2026), valuation $2B, 50% MoM growth, 270 Fortune 500 clients
+- **URL** : storeclaw.com
+- **Lancement** : 20 mai 2026
+- **Fondateurs** : Steven Zhou (co-fondateur)
+- **Catégorie** : AI Agent · E-commerce · Agentic Commerce
+- **Métriques buzz** : #1 Product of the Day PH (21 mai) + #1 Product of the Week PH (26 mai) · Couverture GlobeNewswire, Manila Times, Yahoo Finance · Sources : [GlobeNewswire](https://www.globenewswire.com/news-release/2026/05/21/3299519/0/en/StoreClaw-Ranks-1-Product-of-the-Day-on-Product-Hunt.html)
 
-### 2. Proposition de Valeur
-- **Problème** : La frappe clavier est 4x plus lente que la parole
-- **Solution** : Dictée vocale IA cross-app (fonctionne dans n'importe quelle appli)
-- **USP** : Contexte adaptatif — l'IA comprend le contexte de l'app ouverte et reformate automatiquement
-- **Target** : Professionnels, développeurs, managers (B2C → B2B)
-- **Pricing** : Free (2K mots/semaine) | Pro $15/mois | $144/an | Enterprise custom
+### 2. Proposition de valeur
+- **Problème** : Les marchands e-commerce passent des heures/jour sur des tâches répétitives (PPC, SEO, inventaire, listings) sans pouvoir scaler sans recruter.
+- **Solution** : Premier « AI growth engine » cross-plateforme — des agents IA autonomes qui exécutent réellement les opérations (pas juste des conseils).
+- **USP** : 30+ skills pré-chargées (diagnostics, optimisation listings, PPC, SEO+GEO, santé inventaire) avec guardrails budgétaires intégrés.
+- **Target** : Marchands Shopify/Amazon SMB, solo sellers, petites équipes e-com.
+- **Pricing** : Non divulgué publiquement — freemium probable + tiers SaaS mensuel.
 
-### 3. Stack Technique
-- **Modèles** : Propriétaires (speech-to-text maison) + LLM pour reformatage contextuel
-- **Infra** : Cloud-based, traitement côté serveur
-- **APIs** : Intégration OS-level (macOS, Windows), APIs contextuelles par app
+### 3. Stack technique (estimée)
+- **Frontend** : React / Next.js
+- **Backend** : Node.js ou Python FastAPI · LLM : GPT-4o / Claude Sonnet
+- **Infra** : AWS ou Vercel · Shopify Partner API · Amazon SP-API
+- **Paradigme** : Agentic loop (plan → act → confirm → execute) avec approbation humaine optionnelle
 
 ### 4. Psychologie & JTBD
-- **JTBD** : "Quand je dois écrire vite sans perdre ma pensée"
-- **Triggers** : Vitesse (4x faster), social proof massif (Fortune 500), autorité ($2B)
-- **Aha moment** : Premier dictage cross-app qui "comprend" le contexte en <5 sec
+- **JTBD** : "Fais tourner mon business pendant que je dors."
+- **Triggers** : Autorité (30+ skills expert), Social proof (PH #1 week), Urgence (agentic = prochain paradigme)
+- **Aha moment** : Premier agent qui modifie un prix PPC sans que le founder touche quoi que ce soit.
 
 ### 5. Go-to-Market
-- **Acquisition** : Bouche-à-oreille enterprise, Product Hunt, LinkedIn, influenceurs productivité
-- **Viral loop** : Partage de clips vidéo montrant la dictée en action
-- **Stratégie** : B2C → land & expand en B2B équipes
+- **Canaux** : Product Hunt (execution parfaite), PR wire (GlobeNewswire), communauté Shopify/Amazon sellers
+- **Viral loop** : Marchands montrent leurs dashboards de croissance → FOMO dans les groupes FB/Reddit e-com
+- **Stratégie launch** : Double frappe PH day + week = visibilité maximale communauté tech
 
-### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (speech pipeline propriétaire est dur à égaler)
-- **Verticaux adjacents** : Voice AI pour support client, voice CRM input, voice coding assistant
-- **Angle Kyle** : Construire un Wispr Flow vertical — ex. dictée spécialisée pour équipes commerciales avec intégration CRM native
-- **Temps de dev** : 3-6 mois (si utilisation d'APIs ASR existantes + fine-tuning contexte)
+### 6. Réplication
+- **Complexité** : 7/10 (intégrations multi-plateformes + fiabilité agents en prod = le vrai défi)
+- **Verticaux adjacents** : Agence immobilière, recrutement, comptabilité freelance, gestion hôtelière
+- **Angle Kyle** : Voice layer pour StoreClaw — les agents appellent les fournisseurs / négocient les prix via voice AI (gap non adressé)
 
-## 🏆 TOP APP #2 : Lightfield
+## 🏆 TOP APP #2 : Unabyss
 ### 1. Identification
-- **URL** : [lightfield.app](https://lightfield.app)
-- **Launch** : Nov 2025 (stealth) → public début 2026
-- **Fondateurs** : Keith Peiris (CEO) + Henri Liriani (CPO), ex-Meta, fondateurs de Tome (25M users, $81M levés)
-- **Catégorie** : AI CRM / Sales Intelligence
-- **Buzz** : 2 500+ entreprises en 3 mois dont 100+ startups YC ; featured VentureBeat, SaaStr
+- **URL** : unabyss.com
+- **Lancement** : 25 mai 2026 (Product Hunt)
+- **Fondateurs** : Non divulgués publiquement
+- **Catégorie** : AI Infrastructure · MCP · Context Management
+- **Métriques buzz** : #1 Product of the Day PH · 454 upvotes · 113 commentaires · Sources : [Product Hunt](https://www.producthunt.com/products/unabyss), [Kingy AI](https://kingy.ai/news/what-is-unabyss-the-mcp-context-layer-for-ai-tools/)
 
-### 2. Proposition de Valeur
-- **Problème** : Les CRMs classiques (HubSpot, Salesforce) sont des outils de saisie, pas d'action
-- **Solution** : CRM auto-alimenté qui ingère emails, calls, transcriptions et se met à jour seul
-- **USP** : "Customer memory" complète + IA qui prépare vos réunions, rédige vos follow-ups, répond à vos questions business avec sources
-- **Target** : Startups et scale-ups B2B (early sales teams), 100+ YC companies
-- **Pricing** : Free | Startup $36/user/mois | Pro $99/user/mois
+### 2. Proposition de valeur
+- **Problème** : Chaque outil AI repart de zéro — répétition de contexte (qui je suis, mon entreprise, ma voix) à chaque session, à chaque outil.
+- **Solution** : Coffre-fort de contexte personnel structuré (persona.md, voice.md, company.md…) exposé via MCP à tous les agents.
+- **USP** : 10× moins de tokens que RAG classique · Auto-update depuis LinkedIn, Notion, Gmail, Slack, GitHub · MCP natif.
+- **Target** : Founders, operators, builders utilisant Claude/Cursor/ChatGPT/Claude Code quotidiennement.
+- **Pricing** : $5 crédits offerts · Pay-as-you-go ensuite (pas de carte au lancement)
 
-### 3. Stack Technique
-- **Frontend** : React (interface consumer-grade, engagement comparable à Instagram)
-- **Backend** : Ingestion multi-sources (email, Slack, transcriptions calls)
-- **IA** : LLM pour summarisation, Q&A avec citations, génération de contenu
-- **Intégrations** : Email, Slack, outils de recording (Gong-like)
+### 3. Stack technique (estimée)
+- **Frontend** : Next.js / React
+- **Backend** : MCP server Python/Node · Intégrations OAuth (Google, LinkedIn, Notion, Slack, GitHub)
+- **Infra** : Vercel ou Cloudflare Workers · Stockage vectoriel léger
+- **Standard** : MCP (Model Context Protocol — Anthropic) — timing parfait avec adoption massive
 
 ### 4. Psychologie & JTBD
-- **JTBD** : "Quand j'entre en réunion client sans avoir relu 3h de notes"
-- **Triggers** : Autorité (fondateurs Tome), social proof (YC batch), FOMO (concurrence HubSpot dépassé)
-- **Aha moment** : Lightfield génère un brief de réunion complet 5 min avant l'appel
+- **JTBD** : "Mes outils AI doivent me connaître sans que je répète."
+- **Triggers** : Reconnaissance (frustration universelle des heavy AI users), résolution élégante, frémissement communauté (113 comments = débat riche)
+- **Aha moment** : Claude Code connaît ta voix, ton entreprise et tes préférences dès la première session sans prompt.
 
 ### 5. Go-to-Market
-- **Acquisition** : Word-of-mouth YC community, SaaStr, VentureBeat coverage, influenceurs sales
-- **Viral loop** : Partage de briefs de réunion générés automatiquement
-- **Stratégie** : Bottom-up via AE individuels → expansion d'équipe
+- **Canaux** : Product Hunt, Twitter/X (AI builders), Claude/Cursor communities
+- **Viral loop** : Shared context files → invite à rejoindre → votre contexte vous suit partout
+- **Distribution** : Timing idéal — MCP devient standard industrie en 2026
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (pipeline d'ingestion + LLM orchestration faisable avec APIs existantes)
-- **Verticaux adjacents** : CRM vocal (input par voix), CRM pour agences, CRM pour solopreneurs
-- **Angle Kyle** : CRM vocal natif — saisie CRM 100% vocale + résumés auto après calls avec clients
-- **Temps de dev** : 2-4 mois (MVP avec intégrations limitées)
+### 6. Réplication
+- **Complexité** : 5/10 (architecture MCP bien documentée, OAuth standard)
+- **Verticaux adjacents** : Context layer pour équipes (partagé), context layer voix pour call centers
+- **Angle Kyle** : **DIRECT** — Unabyss pour voice agents : ton profil client extrait une fois, injecté dans chaque appel vocal automatiquement (zéro répétition client)
 
-## 🏆 TOP APP #3 : Vivago Video Agent
+## 🏆 TOP APP #3 : OpenClaw
 ### 1. Identification
-- **URL** : [vivago.ai](https://vivago.ai)
-- **Launch** : App lancée 2024, Video Agent (nouvelle feature) mai 2026
-- **Fondateurs** : Non publics
-- **Catégorie** : AI Video Generation / Creative Tools
-- **Buzz** : 10M+ downloads Android, 4.3/5 (12K reviews), #17 PH mai 2026 pour Video Agent
+- **URL** : openclaw.ai · github.com/openclaw/openclaw
+- **Lancement** : Novembre 2025 (viral Jan 2026) ⚠️ borderline 6 mois mais encore en pleine explosion
+- **Fondateur** : Peter Steinberger (Autriche) → rejoint OpenAI 14 fév 2026 · projet transféré à fondation open-source
+- **Catégorie** : Open-source AI Agent · Personal Assistant · Automation
+- **Métriques buzz** : 210 000+ stars GitHub · Croissance 9K→60K en quelques jours · 183 startups construites dessus · ~$211K/mois collectif Sources : [GitHub](https://github.com/openclaw/openclaw), [Wikipedia](https://en.wikipedia.org/wiki/OpenClaw), [KDnuggets](https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026)
 
-### 2. Proposition de Valeur
-- **Problème** : Créer une vidéo narrative cohérente nécessite un réalisateur, un scénariste, des acteurs
-- **Solution** : Agent IA qui invente personnages + scénario, produit une vidéo 1080p en 40 min
-- **USP** : "Swarm of AI directors" — pas de prompting complexe, on décrit l'histoire et l'IA fait tout
-- **Target** : Créateurs de contenu, marketeurs, agences vidéo low-budget
-- **Pricing** : Free trial | Plans payants (détails non publics)
+### 2. Proposition de valeur
+- **Problème** : Les AI assistants restent dans leur silo — pas d'action réelle cross-app, pas de mémoire longue, pas d'autonomie vraie.
+- **Solution** : Agent IA personnel qui s'exécute sur votre machine, répond sur vos channels (WhatsApp, Telegram, Slack, Signal), agit (shell, browser, email, calendrier, fichiers).
+- **USP** : Heartbeat scheduler (agit sans être déclenché) · Long-term memory · Skills modulaires via ClawHub · MIT licence · Voice sur macOS/iOS/Android.
+- **Target** : Développeurs, power users, builders souhaitant une automatisation personnelle totale.
+- **Pricing** : Gratuit (open-source) · Ecosystem payant : ClawHub skills, hosting managé, consulting
 
-### 3. Stack Technique
-- **Modèles vidéo** : Intégration Sora 2, Veo 3.1, Kling, Nano Banana
-- **Frontend** : Web + iOS + Android (natif)
-- **Infra** : Cloud rendering, pipeline multi-modèles vidéo
+### 3. Stack technique
+- **Core** : MIT-licensed · Gateway open-source (Node.js / Python)
+- **LLM** : Multi-provider (OpenAI, Anthropic, Google — configurable)
+- **Infra** : Self-hosted ou cloud · SKILL.md avec YAML frontmatter
+- **Intégrations** : WhatsApp, Telegram, Slack, Signal, macOS/iOS/Android voice, browser automation
 
 ### 4. Psychologie & JTBD
-- **JTBD** : "Quand j'ai besoin d'une vidéo pro mais pas de budget ni de compétences"
-- **Triggers** : Facilité ("décris juste ton histoire"), résultat visuel immédiat, social sharing
-- **Aha moment** : La première vidéo narrative générée sans compétence vidéo
+- **JTBD** : "Un assistant qui bosse pendant que je dors, sur mes outils, sans cloud vendor lock-in."
+- **Triggers** : Liberté (open-source), autorité (Peter Steinberger = crédibilité iOS), viral social proof (210K stars = FOMO massif)
+- **Aha moment** : Un message WhatsApp déclenche une action réelle sur votre ordinateur.
 
 ### 5. Go-to-Market
-- **Acquisition** : App Stores (10M+ downloads organique), TikTok/Reels de vidéos générées
-- **Viral loop** : Les vidéos générées deviennent du contenu marketing organique
-- **Stratégie** : Freemium mass-market → upgrade créateurs récurrents
+- **Canaux** : GitHub viral, Twitter/X dev community, HN front page, Reddit r/selfhosted
+- **Viral loop** : Stars → forks → skills → ClawHub → nouvelles stars (flywheel open-source)
+- **Stratégie** : Open-source first → écosystème commercial autour (vs SaaS d'emblée)
 
-### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (orchestration multi-modèles vidéo est techniquement complexe et coûteux)
-- **Verticaux adjacents** : Video agent pour témoignages clients, vidéos de formation, pitchs commerciaux
-- **Angle Kyle** : Vertical voice-to-video — le vendeur parle son pitch, l'IA génère une vidéo de présentation client
-- **Temps de dev** : 4-6 mois (APIs vidéo disponibles mais orchestration longue)
+### 6. Réplication
+- **Complexité** : 8/10 (fiabilité agent en prod = très difficile, mais vertical spécifique = 4-5/10)
+- **Verticaux adjacents** : OpenClaw pour PME (managed), pour immobilier, pour comptables
+- **Angle Kyle** : Fork OpenClaw + voice layer = agent vocal autonome open-source pour pros. Ou : service managed "OpenClaw for Sales Teams" avec voice call automation intégrée.
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
+## 💰 Unit Economics Deep Dive — StoreClaw
+> ⚠️ Données estimées — StoreClaw vient de lancer (10 jours). Pas de chiffres publics. Modèle basé sur comparables (Jasper, Gorgias, Klaviyo early stage).
+
 | Métrique | Estimation | Source / Méthode |
 |---|---|---|
-| ARR | ~$15-20M | GetLatka: $10M ARR 2025 + 50% MoM growth |
-| Users payants | ~80-100K | $15/mois moyen, ARR estimé |
-| ARPU | ~$150/an | Plan Pro $144/an, mix consumer/enterprise |
-| CAC | ~$30-50 | Modèle viral + word-of-mouth dominant |
-| LTV | ~$300-450 | ARPU × 2-3 ans de rétention estimée |
-| LTV/CAC | ~8-10x | Excellent (SaaS sain = >3x) |
-| Payback Period | ~3-4 mois | CAC/$ARPU mensuel |
-| Burn | Modéré | $81M levés, profil growth stage |
-| Rev/Employee | ~$500K+ | ~30-50 employés estimés (LinkedIn) |
-| Rule of 40 | ~70-80 | Growth 50%+ MoM + marges SaaS logiciel |
+| **ARR** | ~$120K–$600K | Hypothèse 100–500 clients × $100/mo |
+| **ARPU** | ~$100–200/mo | Pricing SaaS AI agent comparable |
+| **Users actifs** | ~100–500 | 10 jours post-launch, traction PH |
+| **CAC** | ~$50–150 | PH launch + PR = faible CAC initial |
+| **LTV** | ~$1 200–3 600 | 12–18 mois retention e-com tool |
+| **LTV/CAC** | ~8–24× | Excellent si rétention tient |
+| **Payback period** | ~1–2 mois | CAC bas + prix mensuel |
+| **Burn estimé** | ~$50K–100K/mo | Petite équipe, infra AI coûteuse |
+| **Runway** | Inconnu (pas de levée publique) | — |
+| **Rev/Employee** | ~$30K–100K ARR | Équipe estimée 5–10 pers |
+| **Rule of 40** | Non calculable (trop tôt) | — |
 
-**Verdict santé : 🟢 EXCELLENT**
-
-Wispr affiche un profil rare : croissance explosive (50% MoM) + unit economics solides (LTV/CAC ~10x) + validation enterprise massive (270 Fortune 500). La levée $260M à $2B confirme l'appétit investisseur. Le risque principal : compétition des OS natifs (Apple, Google) et des LLMs généralistes avec audio.
-
-Sources : [GetLatka](https://getlatka.com/companies/wisprflow.ai) · [Crunchbase](https://www.crunchbase.com/organization/wispr-ai/financial_details) · [The Tech Portal](https://thetechportal.com/2026/05/12/ai-dictation-startup-wispr-could-secure-260mn-funding-at-2bn-valuation/)
+**Verdict santé : 🟡 TROP TÔT**
+Métriques d'engagement (PH #1 week) prometteuses mais ARR réel inconnu. Surveiller conversion trial→payant à 30/60 jours. Le vrai test : rétention à M3.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Lightfield | Vivago |
+| Dimension (poids) | StoreClaw | Unabyss | OpenClaw |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — Voice AI >$10B | 8 — CRM $50B+ | 7 — Video AI $5B |
-| ⚙️ Complexité inversée (15%) | 4 — Pipeline ASR dur | 6 — LLM orchestration | 3 — Multi-model vidéo |
-| ⏱️ Time-to-Market (15%) | 3 — 6-12 mois | 6 — 2-4 mois | 3 — 4-6 mois |
-| 🏟️ Compétition inversée (15%) | 5 — Apple/Google menacent | 7 — HubSpot lent à pivoter | 4 — Red ocean video AI |
-| 💰 Revenue Potential (20%) | 9 — >€100K MRR possible | 8 — >€50K MRR | 6 — €20K MRR |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 10 — Expert voice AI | 7 — SaaS B2B | 5 — Création contenu |
+| 📊 Market Size (20%) | 9 — e-com mondial $6T+ | 7 — AI infra en explosion | 8 — marché AI agent universel |
+| ⚙️ Complexity inversé (15%) | 4 — multi-plateforme + agents fiables = dur | 7 — MCP standard, OAuth connu | 3 — agent autonome fiable = très dur |
+| ⏱️ Time-to-Market (15%) | 5 — 3–6 mois MVP vertical | 7 — 4–8 semaines MVP ciblé | 3 — 6–12 mois pour prod robuste |
+| 🏟️ Competition inversé (15%) | 6 — Shopify AI apps arrivent | 8 — peu de vrais concurrents MCP natifs | 5 — AutoGPT, Devin, agents similaires |
+| 💰 Revenue Potential (20%) | 8 — €50–200K MRR possible à 12 mois | 7 — €20–80K MRR si B2B pivot | 5 — OS = revenus indirects seulement |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 6 — e-com = hors expertise directe | 8 — AI infra + voice context = synergies | 7 — voice layer sur OS agent = fit fort |
 
 **Score pondéré :**
-- Wispr Flow : **(9×0.20)+(4×0.15)+(3×0.15)+(5×0.15)+(9×0.20)+(10×0.15) = 1.8+0.6+0.45+0.75+1.8+1.5 = 6.9 🟡 BUILD ADJACENT**
-- Lightfield : **(8×0.20)+(6×0.15)+(6×0.15)+(7×0.15)+(8×0.20)+(7×0.15) = 1.6+0.9+0.9+1.05+1.6+1.05 = 7.1 🟡 BUILD ADJACENT**
-- Vivago : **(7×0.20)+(3×0.15)+(3×0.15)+(4×0.15)+(6×0.20)+(5×0.15) = 1.4+0.45+0.45+0.6+1.2+0.75 = 4.85 🟠 WATCH**
 
-> **Note** : Wispr vertical B2B (dictée sales/support) atteindrait 8.5+ 🟢 BUILD NOW pour Kyle grâce au fit expert x10.
+| App | Calcul | Score final | Verdict |
+|---|---|---|---|
+| **StoreClaw** | (9×0.20)+(4×0.15)+(5×0.15)+(6×0.15)+(8×0.20)+(6×0.15) | **6.75** | 🟡 BUILD ADJACENT |
+| **Unabyss** | (7×0.20)+(7×0.15)+(7×0.15)+(8×0.15)+(7×0.20)+(8×0.15) | **7.30** | 🟡 BUILD ADJACENT |
+| **OpenClaw** | (8×0.20)+(3×0.15)+(3×0.15)+(5×0.15)+(5×0.20)+(7×0.15) | **5.30** | 🟠 WATCH |
 
 ## 📈 Tendances Émergentes
-1. **Voice AI → OS Layer** : Wispr montre que la voix devient une couche OS, pas juste une feature. La course est ouverte pour chaque vertical (médical, juridique, commercial, RH).
+1. **MCP devient le système nerveux de l'AI** — Unabyss en est la preuve : le Model Context Protocol (Anthropic) s'impose comme standard de facto pour connecter contexte ↔ agents. Chaque verticale va avoir son "context layer".
 
-2. **CRM auto-alimenté** : Lightfield préfigure la mort des CRMs de saisie. La prochaine vague = CRM qui "voit" et "entend" tout sans intervention humaine. L'intégration voice-first CRM est le chainon manquant.
+2. **Agentic Commerce = nouveau paradigme e-com** — StoreClaw illustre le passage du copilot (recommande) à l'opérateur (exécute). Prochain vague : finance, RH, juridique, immobilier.
 
-3. **Agents vidéo multi-modèles** : Vivago orchestre Sora, Veo, Kling — la compétition n'est plus sur les modèles mais sur l'orchestration et l'UX. Tendance : commoditisation des modèles vidéo.
+3. **Open-source AI agents : explosion d'écosystème** — OpenClaw à 210K stars montre qu'un framework ouvert peut générer un écosystème de $211K/mo en 6 mois. Les "skills marketplaces" (ClawHub) sont le nouveau App Store.
 
-4. **Infrastructure agents** : GitHub trending dominé par la mémoire d'agents, code indexing, on-device AI. La prochaine bataille = agents avec mémoire persistante cross-session.
+4. **Voice AI = marché de $2B+ en structuration** — Vapi ($500M valuation, Amazon Ring), ElevenLabs ($11B), Parloa ($3B) : la voix n'est plus expérimentale, elle entre en production à grande échelle. Fenêtre d'opportunité pour des solutions verticales.
 
-5. **Land & Expand bottom-up B2B** : Lightfield (via YC community) et Wispr (via AE individuels) confirment que le go-to-market B2B gagnant en 2026 = utilisateur individuel d'abord, équipe ensuite.
+5. **"Vibe coding" → apps lancées en weekends** — Les fondateurs solo construisent des produits significatifs (Unabyss, 100+ intégrations) en quelques semaines. Time-to-market compressé par 5× vs 2023.
 
-6. **Enterprise voice au-delà de Zoom** : 270 Fortune 500 sur Wispr Flow montre que la voix quitte les salles de réunion pour envahir tous les workflows métier (email, CRM, code, legal).
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle (Voice AI + SaaS)
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Pour Kyle — Priorité #1 : Voice CRM Vertical
+**#1 — Construire "Unabyss for Voice" (angle le plus direct)**
+Problème non résolu : les voice agents recommencent à zéro à chaque appel. Une couche de contexte MCP-native, alimentée par CRM/Calendly/emails, qui injecte automatiquement le bon contexte dans chaque call. Pas de répétition client. Aha moment immédiat.
+→ MVP faisable en 3–4 semaines avec MCP + Vapi/ElevenLabs + une source CRM.
 
-**L'opportunité** : Wispr Flow prouve le marché voice AI (50% MoM, $2B). Lightfield prouve que le CRM auto-alimenté est recherché (2 500 clients en 3 mois). **Kyle peut combiner les deux** avec son expertise voice AI.
+**#2 — Voice layer pour StoreClaw (partenariat ou feature adjacente)**
+Les agents StoreClaw prennent des décisions — mais qui appelle les fournisseurs pour négocier ? Gap évident. Un voice agent autonome qui négocie les prix d'achat en inbound/outbound serait un différenciateur massif pour StoreClaw (ou tout concurrent).
+→ Angle BD : proposer à StoreClaw d'intégrer ta techno voice.
 
-**Idée concrète** : Un outil voice-first CRM pour équipes sales — le commercial parle après chaque appel (30 sec), l'IA transcrit, résume, met à jour le CRM, génère un follow-up email. Zéro frappe clavier.
+**#3 — "OpenClaw for Sales Teams" (managed + voice)**
+L'open-source attire les devs, mais les équipes commerciales veulent du clé-en-main. Service managé OpenClaw + voice call automation pour SDRs/AEs : l'agent qualifie, planifie, relance, appelle — tout en autonome.
+→ Complexité opérationnelle élevée mais LTV/client très haute ($500–2000/mo).
 
-**Différenciation vs Wispr** : Wispr est horizontal (tout contexte). Kyle peut être vertical (sales/support spécifique) avec des templates métier, intégrations CRM natives (HubSpot, Salesforce), et reporting vocal.
+**Signal faible à surveiller :** Vapi vient de signer Amazon Ring (100% du trafic inbound). Les grands comptes cherchent des intégrateurs voice AI verticaux. Positionnement "expert voice AI francophone" = créneau réel.
 
-**Différenciation vs Lightfield** : Lightfield est interface CRM. Kyle est input layer vocal — complémentaire, pas concurrent.
-
-### ⚡ Actions Court Terme (30 jours)
-
-1. **Valider le problème** : 10 entretiens avec AEs/SDRs — combien de temps passent-ils à saisir le CRM après les calls ?
-2. **Prototype voix** : Utiliser Wispr Flow API ou ElevenLabs/Deepgram pour un MVP de saisie vocale → CRM update automatique
-3. **Choisir 1 vertical précis** : Sales B2B tech ou support client — ne pas viser large
-4. **Pricing test** : $49/user/mois (entre Wispr $15 et Lightfield $36) avec feature set sales-specific
-
-### 🔴 Risques à Surveiller
-
-- Apple/Google peuvent nativer la dictée contextuelle (menace sur Wispr et tout vertical)
-- OpenAI Advanced Voice Mode monte en puissance — surveiller si ça mange le marché dictée
-- Lightfield lève probablement en 2026 — regarder s'ils ajoutent l'input vocal
+**Ne pas faire :** Cloner StoreClaw ou OpenClaw — trop de complexité, trop de concurrence frontale imminente.
