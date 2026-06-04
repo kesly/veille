@@ -1,194 +1,204 @@
-# 🔥 Market Scan — 2026-06-03
+# 🔥 Market Scan — 2026-06-04
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Mina Meeting Assistant
-- Opportunités immédiates (BUILD NOW) : 1
+- Apps analysées : 8 (Product Hunt top juin, GitHub trending semaine)
+- Top potentiel : Mina Meeting Assistant, Tabstack Web Research, headroom
+- Opportunités immédiates (BUILD NOW) : 1 (Mina clone vertical)
 
 ## 🏆 TOP APP #1 : Mina Meeting Assistant
 ### 1. Identification
-- **URL** : [getmina.ai](https://getmina.ai)
-- **Launch** : Juin 2026 (Product Hunt #1 du mois, 29 547 votes)
-- **Catégorie** : AI Meeting Assistant / Agentic Voice AI
-- **Métriques buzz** : #1 PH juin 2026, 1,7K followers PH, couverture médias tech, 200+ intégrations
+- **URL** : [producthunt.com/products/mina-meeting-assistant](https://www.producthunt.com/products/mina-meeting-assistant)
+- **Launch** : Mai 2026 | **Catégorie** : AI Meeting Agent / Voice AI SaaS
+- **Fondateurs** : Équipe UIComet (ex-Mozilla) | **Statut** : Payant, SOC2 Type 2 en cours
+- **Buzz** : #1 PH juin 2026 — 29 547 votes, 1 700+ followers PH
 
-### 2. Proposition de Valeur
-- **Problème** : Les assistants réunion existants (Otter, Fireflies) sont passifs — ils transcrivent mais n'agissent pas.
-- **Solution** : Mina rejoint la call EN TANT QUE PARTICIPANT actif, répond aux questions en temps réel, tire du contexte des outils connectés et génère des outputs (CRM, tickets Jira, résumés) pendant la réunion.
-- **USP** : Passe de "note-taker" à "AI teammate" qui exécute — pas juste qui observe.
-- **Target** : Sales teams, CS, managers en réunions répétitives (standups, demos, interviews).
-- **Pricing** : Mode réactif ("Hey Mina") moins cher / mode proactif (écoute autonome) premium. Freemium + crédits PH.
+### 2. Proposition de valeur
+- **Problème** : Les outils de note de réunion (Otter, Fireflies) sont passifs — ils écoutent mais n'agissent pas
+- **Solution** : Mina rejoint Zoom/Meet/Teams comme participant IA, exécute des tâches en temps réel (recherche, CRM update, envoi d'email) pendant la réunion
+- **USP** : Mode proactif (agit sans être invoqué) + mode réactif ("Hey Mina")
+- **Target** : Équipes sales, CS, execs avec réunions fréquentes
+- **Pricing** : ~$30-50/mois estimé (non-public à date)
 
-### 3. Stack Technique
-- **Intégrations** : Zoom, Google Meet, Teams + 200 outils (Slack, HubSpot, Salesforce, Jira, Linear, Notion, GitHub)
-- **Architecture** : Agent LLM orchestré en temps réel, RAG sur outils connectés, TTS/STT low-latency
-- **Infra** : Cloud (probablement AWS/GCP), WebSocket pour la communication temps réel
+### 3. Stack technique
+- **Frontend** : Web app + SDK d'intégration Zoom/Meet/Teams
+- **Backend** : WebSocket temps réel, pipeline STT → LLM → action
+- **Infra** : Cloud (AWS/GCP probable), MCP pour intégrations
+- **APIs** : OpenAI / Claude pour reasoning, calendrier, CRM, email
 
 ### 4. Psychologie
-- **Aha moment** : Voir Mina répondre à une question en live sans que tu touches au clavier
-- **Triggers** : Social proof massif (PH #1), FOMO (ton concurrent l'utilise déjà ?), autorité (fondateurs crédibles)
-- **JTBD** : "Laisse-moi me concentrer sur la conversation, pas sur la prise de notes et les follow-ups"
-- **Viral loop** : Chaque réunion où Mina apparaît comme participant expose l'outil aux autres participants
+- **Trigger** : Social proof ("votre concurrent l'utilise en réunion") + gain de statut
+- **JTBD** : "Je veux fermer des deals sans perdre d'infos pendant l'appel"
+- **Aha moment** : La première fois que Mina répond à une question factuellement pendant un call live
+- **Hook** : Chaque réunion utilisée = habitude → switching cost élevé
 
 ### 5. Go-to-Market
-- **Canal principal** : Product Hunt launch massif (29K votes = communauté mobilisée)
-- **Stratégie** : Lancement viral PH → word of mouth dans les équipes → expansion bottom-up
-- **Viral loop** : Mina visible comme "bot invité" dans les calls → curiosité → inscription
+- **Canal principal** : Product Hunt (explosion) + bouche-à-oreille B2B
+- **Viral loop** : Les participants extérieurs voient "Mina" dans la room → curiosité → signup
+- **Stratégie** : Freemium limité (X réunions/mois) → upgrade équipe
+- **Communauté** : LinkedIn / Slack sales communities
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (orchestration agent temps réel + intégrations)
-- **Verticaux adjacents** : Mina pour le recrutement, Mina pour les appels support, Mina pour les calls de coaching
-- **Angle Kyle** : Construire une version Voice AI spécialisée pour un vertical (ex : demo calls SaaS, onboarding clients) — expertise directe voice AI + SaaS
-- **Temps de dev** : 3-4 mois pour un MVP vertical ciblé
+- **Complexité** : 7/10 (pipeline voix temps réel, intégrations Zoom SDK)
+- **Verticaux adjacents** : Mina pour médecins (SOAP notes + ordonnances auto), Mina pour juristes (contrats cités en temps réel), Mina pour recruteurs
+- **Angle Kyle** : Kyle maîtrise le pipeline voix IA → construire "Mina for [vertical]" en 4-6 semaines
+- **Temps de dev** : 6-8 semaines pour un MVP vertical (ex: Mina for Sales Calls)
 
-## 🏆 TOP APP #2 : Sesame
+## 🏆 TOP APP #2 : Tabstack Web Research
 ### 1. Identification
-- **URL** : [sesame.com](https://www.sesame.com)
-- **Launch** : 28 mai 2026 (iOS public preview, 39 pays)
-- **Fondateurs** : Brendan Iribe (co-founder Oculus/Meta), Nate Mitchell (CPO), Ankit Kumar (CTO ex-Ubiquity6)
-- **Catégorie** : Conversational Voice AI / AI Companion
-- **Métriques buzz** : 1M+ users en quelques semaines, $250M Series B (Sequoia, Spark), TechCrunch cover
+- **URL** : [producthunt.com/products/tabstack](https://www.producthunt.com/products/tabstack)
+- **Launch** : Juin 2026 | **Catégorie** : Web Research API / Dev Tool SaaS
+- **Fondateurs** : Ex-Mozilla | **Statut** : Payant (API), open-source dashboard demo
+- **Buzz** : #13 PH juin 2026 — 9 412 votes, featured leaderboard mensuel
 
-### 2. Proposition de Valeur
-- **Problème** : Les chatbots IA (ChatGPT, Claude) sont textuels et impersonnels — l'interaction voix est soit robotique, soit sans mémoire.
-- **Solution** : 4 agents vocaux distincts (Maya, Miles, Simone, Charlie) avec personnalités propres, mémoire persistante, et naturalité conversationnelle humaine.
-- **USP** : Première app grand public où l'agent vocal *semble vraiment humain* — présence émotionnelle, pas juste STT+TTS.
-- **Target** : Grand public early adopters, professionnels isolés, niches thérapeutiques et coaching.
-- **Pricing** : Gratuit (bêta publique) + waitlist — monétisation à venir.
+### 2. Proposition de valeur
+- **Problème** : Les scrapers cassent constamment (changements de DOM), maintenance = cauchemar
+- **Solution** : API unique — passe une URL + un schema JSON → reçois des données structurées fiables à chaque appel, sans scraper à maintenir
+- **USP** : Agent de recherche avec citations intégré en un seul appel API
+- **Target** : Devs / founders qui intègrent de la veille concurrentielle ou du data enrichment
+- **Pricing** : API à la consommation, estimé $0.01-0.05/appel + plans mensuels
 
-### 3. Stack Technique
-- **Modèle vocal** : Propre (ex-Oculus = expertise hardware/ML embarqué), probablement fine-tuné sur expressivité émotionnelle
-- **Fonctionnalités** : Search cards visuelles, notes, mode texte, mode incognito, deep dives
-- **Future** : Lunettes intelligentes prévues pour 2027 (vision hardware AI wearable)
+### 3. Stack technique
+- **Frontend** : Docs API + dashboard demo open-source (React)
+- **Backend** : Headless browser automation + LLM pour structuration + cache intelligent
+- **Infra** : Cloud, navigateurs sandboxés, pas d'infra client nécessaire
+- **APIs** : LLM propriétaire pour parsing + extraction sémantique
 
 ### 4. Psychologie
-- **Aha moment** : Première conversation où l'agent répond avec des inflexions émotionnelles réalistes
-- **Triggers** : Curiosité ("ça ressemble vraiment à un humain ?"), FOMO (1M users), autorité (founders Oculus = légitimité hardware/AI)
-- **JTBD** : "J'ai besoin d'un interlocuteur disponible 24/7 qui se souvient de moi"
-- **Stickiness** : Mémoire persistante = switching cost élevé après quelques semaines
+- **Trigger** : Frustration (scraper cassé) → résolution immédiate ("ça juste marche")
+- **JTBD** : "Je veux des données web fraîches sans gérer une infra de scraping"
+- **Aha moment** : Premier appel API qui retourne du JSON propre depuis une page complexe
+- **Hook** : Intégration dans le codebase → dépendance infra forte
 
 ### 5. Go-to-Market
-- **Canal principal** : PR/médias (TechCrunch, etc.) + légitimité fondateurs Oculus
-- **Viralité** : Clips viraux de conversations "trop humaines" sur Twitter/TikTok
-- **Expansion** : iOS first → Android → hardware (lunettes 2027)
+- **Canal principal** : Dev communities (HN, PH, Reddit r/programming)
+- **Viral loop** : Dashboard demo open-source → stars GitHub → découverte produit
+- **Stratégie** : Open-source honeypot (demo gratuite) → API payante pour la production
+- **Community** : Crédibilité ex-Mozilla, confiance technique immédiate
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 9/10 (proprietary voice model, financement massif requis)
-- **Verticaux adjacents** : Version B2B pour coaching commercial, onboarding employés, companion thérapeutique
-- **Angle Kyle** : Ne pas répliquer Sesame — trop cher. Mais construire *sur* la même technologie vocale pour un vertical B2B précis
-- **Temps de dev** : 6+ mois pour une version B2B crédible (via APIs Eleven Labs, Hume AI, etc.)
+- **Complexité** : 6/10 (navigateur headless + LLM structuration, patterns bien documentés)
+- **Verticaux adjacents** : Tabstack for Real Estate (prix/dispo), Tabstack for Job Intelligence (offres d'emploi parsées), Veille presse IA
+- **Angle Kyle** : Construire une API de veille voix/podcast (transcription + structuration) en complément de Tabstack
+- **Temps de dev** : 4-6 semaines pour un MVP API vertical
 
-## 🏆 TOP APP #3 : Understand-Anything
+## 🏆 TOP APP #3 : headroom
 ### 1. Identification
-- **URL** : [github.com/Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)
-- **Launch** : ~24 mai 2026 (GitHub trending #1, semaine du 1er juin)
-- **Fondateur** : Lum1104 (indépendant, solo dev)
-- **Catégorie** : Developer Tool / AI Code Intelligence (Open Source MIT)
-- **Métriques buzz** : 50 400 ⭐ GitHub, ~2 000 stars/semaine, trending #1 GitHub le 1er juin 2026
+- **URL** : [github.com/chopratejas/headroom](https://github.com/chopratejas/headroom)
+- **Launch** : 2025 (viral juin 2026) | **Catégorie** : AI Infrastructure / Token Compression
+- **Fondateurs** : chopratejas | **Statut** : Open-source (Apache 2.0), pas de SaaS commercial actif
+- **Buzz** : 10 378 étoiles GitHub, +6 245 étoiles en une semaine, 684 forks
 
-### 2. Proposition de Valeur
-- **Problème** : Comprendre une codebase inconnue (ou même la sienne) prend des heures — surtout avec des agents AI qui perdent le contexte.
-- **Solution** : Plugin multi-agent qui analyse tout le projet et génère un knowledge graph interactif — chaque fichier, fonction, classe est un nœud cliquable avec résumé en langage naturel.
-- **USP** : "Graphs that teach > graphs that impress" — orienté compréhension réelle, pas juste visualisation.
-- **Target** : Développeurs (Claude Code, Cursor, Copilot users), tech leads, PMs devant onboarder vite.
-- **Pricing** : 100% gratuit, MIT License. Patreon pour soutenir le dev solo.
+### 2. Proposition de valeur
+- **Problème** : Les agents IA (Claude Code, Cursor, Codex) consomment des milliers de tokens inutiles sur des logs/fichiers verbeux → coûts et latence explosent
+- **Solution** : Couche de compression locale (library/proxy/MCP) qui réduit les tokens de 60-95% avant envoi au LLM, sans modifier le code existant
+- **USP** : 6 algorithmes spécialisés (JSON, code AST, conversation), modèle HuggingFace open-source
+- **Target** : Devs qui utilisent des agents IA intensivement, entreprises avec multi-agents
+- **Pricing** : Gratuit open-source, potentiel SaaS cloud non exploité
 
-### 3. Stack Technique
-- **Compatible** : Claude Code, Codex, Cursor, Copilot, Gemini CLI
-- **Features** : Semantic search, guided tours architecturales, domain-aware views, persona-adaptive UI
-- **Tech** : Python/TypeScript (probablement), LLM pour analyse, graph viz (D3 ou similar)
+### 3. Stack technique
+- **Frontend** : CLI + SDK Python/npm
+- **Backend** : Python (76.8%) + Rust (18.4%) pour performance
+- **Infra** : Local-first, 3 modes : library / proxy / MCP server
+- **Model** : Kompress-base (HuggingFace), entraîné sur des traces d'agents IA
 
 ### 4. Psychologie
-- **Aha moment** : Voir toute sa codebase transformée en graphe interactif navigable en 2 minutes
-- **Triggers** : Social proof viral GitHub, utilité immédiate perçue, zéro friction (free + MIT)
-- **JTBD** : "Je veux comprendre ce codebase en 10 minutes, pas en 10 heures"
-- **Viral loop** : Dev le partage dans son équipe → tous l'utilisent → stars explosent
+- **Trigger** : Douleur économique directe (facture API LLM) → ROI mesurable immédiat
+- **JTBD** : "Je veux réduire ma facture Claude/OpenAI sans refactorer mon stack"
+- **Aha moment** : Premier run avec -70% de tokens et mêmes résultats
+- **Hook** : Une fois installé en proxy, difficile de revenir → dépendance infra
 
 ### 5. Go-to-Market
-- **Canal** : GitHub + HN + Twitter (dev community) — zéro budget marketing
-- **Croissance** : Word-of-mouth organique, amplifiée par la compatibilité avec tous les AI IDE majeurs
+- **Canal principal** : GitHub (stars organiques) + HN + communautés agent IA
+- **Viral loop** : Les devs partagent leurs benchmarks de compression → FOMO
+- **Stratégie** : Open-source d'abord → cloud SaaS pour entreprises (pattern classique)
+- **Opportunité monétisation** : SaaS "Headroom Cloud" pour équipes multi-agents non exploité
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 5/10 (concept reproductible, mais le solo dev a déjà 50K stars)
-- **Angle** : Ne pas répliquer — construire une version *SaaS payante* avec Understand-Anything comme couche open source + dashboard collaboratif, historique, accès équipe
-- **Verticaux** : Understand-Anything for Enterprise (onboarding devs, audit legacy code, docs auto-générées)
-- **Temps de dev** : 2-3 mois pour une couche SaaS au-dessus
+- **Complexité** : 8/10 (ML model custom, optimisations Rust) pour reproduire exact
+- **Angle réaliste** : Wrapper SaaS autour d'headroom → "Compression-as-a-Service" pour les applis voice AI (Kyle paye déjà des tokens STT+LLM)
+- **Verticaux adjacents** : Compression pour voice agents (transcriptions verboses), compression pour RAG pipelines
+- **Temps de dev** : 2-3 semaines pour un SaaS wrapper, 3-4 mois pour un produit natif
 
 ## 💰 Unit Economics Deep Dive — Mina Meeting Assistant
-> ⚠️ *Mina est lancé en juin 2026 — données financières publiques inexistantes. Estimations basées sur les benchmarks du secteur (Otter.ai, Fireflies, Loom) et les signaux disponibles.*
+> ⚠️ Estimations basées sur benchmarks sectoriels — données publiques insuffisantes (non-coté, non-financé public)
 
 | Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **ARR** | ~$500K–$2M | Post-launch PH #1 ; 6-12 mois de traction |
-| **ARPU** | ~$20–$40/mois | Pricing mode proactif premium, B2B light |
-| **Users (payants)** | ~2 000–5 000 | Conversion 5% d'une base de ~50-100K signups |
-| **CAC** | ~$30–$80 | Canal PH/viral, peu de paid ads au lancement |
-| **LTV** | ~$400–$800 | Churn ~15%/an estimé (sticky = actions en temps réel) |
-| **LTV/CAC** | ~5–10x | Sain pour un SaaS B2B early |
-| **Payback period** | ~3–6 mois | CAC bas + ARPU mensuel |
-| **Burn estimé** | Inconnu | Pas de levée publique détectée |
-| **Rev/Employee** | N/A | Trop tôt |
-| **Rule of 40** | N/A | Trop tôt |
+| **ARR** | ~$1-3M | 5-10K users payants, ARPU ~$300/an |
+| **ARPU** | ~$300/an (~$25/mois) | Pricing positioning vs Otter.ai ($16/mois) |
+| **Users actifs** | ~5 000-10 000 | 29 547 PH votes → conv. ~5-10% payants |
+| **CAC** | ~$30-80 | PH + viral (bot visible en room) → CAC bas |
+| **LTV** | ~$600-900 | Churn SaaS meeting ~30%/an → 3.3 ans |
+| **LTV/CAC** | ~8-15x | 🟢 Excellent (>3x = sain) |
+| **Payback** | ~2-3 mois | CAC bas, ARPU mensuel |
+| **Burn estimé** | ~$50-100K/mois | Équipe 5-8 personnes, infra LLM |
+| **Runway** | Inconnu (non-financé public) | Potentiellement bootstrapped |
+| **Rev/Employee** | ~$150-300K | Si 5-10 employés + $1.5M ARR |
+| **Rule of 40** | ~45-60 | Croissance >50% + marges LLM ~50% |
 
-### Verdict : 🟡 WATCH → 🟢 potentiel BUILD NOW à 6 mois
-
-**Forces** : Lancement viral prouvé, viral loop naturel (bot visible en call), marché meeting AI en explosion.
-**Risques** : Concurrence (Otter, Fireflies, Zoom AI natif), dépendance aux APIs Zoom/Meet, moat technique à construire.
-**Signal clé** : Si Mina annonce une levée ou des chiffres MRR dans les 3 prochains mois → marché validé pour un challenger vertical.
+**Verdict santé : 🟢 SOLIDE**
+- Modèle freemium→payant avec viral loop intégrée (bot visible aux participants)
+- LTV/CAC exceptionnel si croissance organique maintenue
+- Risque principal : coûts LLM en temps réel (latence + tokens par réunion)
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension | Poids | Mina Meeting Asst | Sesame | Understand-Anything |
-|---|---|---|---|---|
-| 📊 Market Size | 20% | 8 (marché meeting AI >$5B) | 9 (grand public mondial) | 6 (dev tools, plus niche) |
-| ⚙️ Complexity inversé | 15% | 4 (agent temps réel complexe) | 2 (modèle vocal proprio) | 6 (open source dispo) |
-| ⏱️ Time-to-Market | 15% | 5 (3-4 mois vertical) | 2 (6+ mois + $$$) | 7 (2-3 mois SaaS layer) |
-| 🏟️ Competition inversé | 15% | 5 (Otter, Fireflies, Zoom AI) | 4 (ChatGPT voice, Replika) | 7 (peu de SaaS payant) |
-| 💰 Revenue Potential | 20% | 8 (ARPU B2B $30-80/mois) | 5 (gratuit maintenant, B2C) | 5 (SaaS team $50-200/mois) |
-| 🧑‍💻 Founder-Fit Kyle | 15% | 9 (voice AI + SaaS = bullseye) | 5 (voice mais trop grand) | 6 (dev tool, pas voice) |
-| **Score pondéré** | **100%** | **🟢 6.7** | **🟠 4.5** | **🟡 6.1** |
-| **Verdict** | | **BUILD ADJACENT** | **WATCH** | **BUILD ADJACENT** |
+| Dimension (poids) | Mina (clone vertical) | Tabstack (vertical API) | headroom (SaaS wrapper) |
+|---|---|---|---|
+| 📊 Market Size (20%) | 8 — marché meeting AI >€1B | 7 — data API €500M+ | 6 — infra AI €300M+ |
+| ⚙️ Complexity inversé (15%) | 5 — pipeline voix temps réel | 7 — headless + LLM parsing | 8 — wrapper existant |
+| ⏱️ Time-to-Market (15%) | 5 — 6-8 semaines minimum | 7 — 4-6 semaines | 8 — 2-3 semaines |
+| 🏟️ Competition inversé (15%) | 7 — verticaux peu couverts | 6 — Apify, Firecrawl présents | 5 — espace émergent, entrants |
+| 💰 Revenue Potential (20%) | 9 — B2B récurrent, upsell équipe | 7 — API usage-based scalable | 6 — marché enterprise lent |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — voice AI + SaaS = bullseye | 6 — SaaS oui, scraping non | 5 — infra ML hors core |
 
-### Interprétation
-- **Mina (6.7)** 🟡 → **BUILD ADJACENT** : Ne pas répliquer Mina, mais construire un vertical spécialisé (ex : AI meeting assistant pour démos SaaS, or pour appels de vente) avec expertise voice AI de Kyle.
-- **Sesame (4.5)** 🟠 → **WATCH** : Marché énorme mais barrières capitalistiques massives. Observer la monétisation, ne pas répliquer.
-- **Understand-Anything (6.1)** 🟡 → **BUILD ADJACENT** : Couche SaaS payante team/enterprise au-dessus de l'OSS. Signal de marché fort, moins dans la zone d'expertise Kyle.
+**Score pondéré :**
+
+| App | Calcul | **Score final** | Verdict |
+|---|---|---|---|
+| **Mina vertical** | 8×.20 + 5×.15 + 5×.15 + 7×.15 + 9×.20 + 9×.15 | **7.45** | 🟡 BUILD ADJACENT |
+| **Tabstack vertical** | 7×.20 + 7×.15 + 7×.15 + 6×.15 + 7×.20 + 6×.15 | **6.70** | 🟡 BUILD ADJACENT |
+| **headroom SaaS** | 6×.20 + 8×.15 + 8×.15 + 5×.15 + 6×.20 + 5×.15 | **6.30** | 🟡 BUILD ADJACENT |
+
+> **Note** : Aucun 🟢 BUILD NOW strict — le marché AI agents est trop encombré pour un clone direct. Le signal fort : Mina vertical **avec la voix comme avantage différenciant** (Kyle) frôle le BUILD NOW.
 
 ## 📈 Tendances Émergentes
-### 1. 🎙️ L'IA passe de "passive" à "agentique en temps réel"
-Mina incarne le shift majeur : fini les bots qui transcrivent, place aux agents qui agissent pendant la conversation. Firfly, Otter = disruption imminente. Vapi ($50M levée, 1B calls) confirme l'infrastructure voice AI est mature pour le passage à l'échelle.
+### 🔵 Tendance 1 — De l'IA passive à l'IA exécutrice en temps réel
+Mina illustre le shift majeur : les outils ne se contentent plus d'observer, ils **agissent pendant** l'interaction. La fenêtre d'action est le call en cours, pas l'après. Ce pattern (listen → reason → act in-session) va s'étendre : support client, coaching, vente.
 
-### 2. 🧑‍💻 L'agent-as-participant devient la norme
-Zoom AI Companion, Teams Copilot, et maintenant Mina : les réunions de 2027 auront systématiquement un agent visible et actif. La question n'est plus "est-ce que l'IA est dans la réunion ?" mais "lequel tu utilises ?"
+### 🔵 Tendance 2 — L'infrastructure IA devient un produit en soi
+headroom (compression), Databox MCP (21 539 votes PH), Tabstack — les développeurs monétisent des **couches d'optimisation** plutôt que des apps finales. Chaque étape de la chaîne IA (input, reasoning, output, storage) devient un SaaS distinct.
 
-### 3. 🗣️ Voice AI grand public — la course au "plus humain"
-Sesame lance la guerre des companions vocaux. Après ChatGPT Advanced Voice Mode et ElevenLabs, les modèles vocaux expressifs (émotions, personnalité, mémoire) deviennent le différenciant clé. Le marché se segmente entre B2C (Sesame) et B2B (Mina, Vapi).
+### 🔵 Tendance 3 — MCP comme standard d'intégration
+Databox MCP (#3 PH juin avec 21 539 votes) signale que le protocole MCP (Model Context Protocol) s'impose comme le **"REST des agents IA"**. Les produits qui exposent des MCP servers gagnent de l'adoption par les agents LLM automatiquement.
 
-### 4. 📊 GitHub comme canal de distribution SaaS
-Understand-Anything prouve que 50K stars open source en 10 jours est atteignable solo en 2026. Le playbook : MIT → viral GitHub → SaaS payant team/enterprise. Plus besoin de Product Hunt pour les dev tools.
+### 🔵 Tendance 4 — Token compression = nouveau cost center
+Avec headroom +6 245 étoiles/semaine, la réduction des coûts LLM devient un sujet mainstream. Les founders commencent à traiter les tokens comme un budget infra, pas comme une variable académique.
 
-### 5. 🏗️ Marchés adjacents à surveiller
-- **AI for Sales Calls** : Mina pour demos SaaS, coaching en temps réel (Gong 2.0 ?)
-- **Voice AI B2B** : Vapi ($50M Series B) confirme l'infrastructure est prête — la couche application manque
-- **Code Intelligence SaaS** : Understand-Anything ouvre la porte à des outils de gestion de codebase pour équipes
+### 🔵 Tendance 5 — Open-source → SaaS wrapper comme go-to-market
+headroom (OS) + MoneyPrinterTurbo (78K stars) montrent que l'open-source **est** la stratégie d'acquisition. La monétisation vient après par le cloud ou les intégrations enterprise.
 
-## 💡 Insights Actionnables
-### 🎯 Pour Kyle (Voice AI + SaaS Expert)
+## 💡 Insights Actionnables pour Kyle
+### 🎯 Insight #1 — Kyle = Mina for [Vertical médical ou juridique]
+Mina prouve que le marché veut un **agent IA qui agit pendant la conversation**. Kyle a le stack voix pour le construire. L'angle : cibler un vertical réglementé (médecins, avocats, RH) où Mina ne peut pas aller vite à cause de la compliance. Temps estimé : 6-8 semaines pour un MVP, $300-500/mois par seat en B2B.
 
-**#1 — Opportunité immédiate : AI Meeting Agent pour un vertical précis**
-Mina est généraliste. L'opportunité est dans la spécialisation verticale : construire un agent de réunion pour un segment (ex : équipes commerciales SaaS, cabinets de recrutement, agences marketing). Expertise Kyle = moat réel. Stack : Vapi + LLM + intégrations CRM. Budget estimé : 3-4 mois, ~€30-50K dev.
+**Action** : Valider en 48h — contacter 10 médecins/avocats avec un mock demo de "Mina for your consultation". Si 3 veulent payer → build.
 
-**#2 — Signal Vapi à exploiter maintenant**
-Vapi ($50M Series B, 1B calls) est l'infrastructure. Les apps dessus manquent encore. Kyle peut construire la "killer app" verticale au-dessus de Vapi, bénéficier de leur traction infra, et rester léger sur la stack. Revenu cible : $50-200/mois/compte B2B.
+### 🎯 Insight #2 — Exposer son stack voix comme MCP server
+La tendance MCP (Databox MCP #3 PH) signifie qu'exposer les capacités voix de Kyle en MCP server lui donne de la distribution automatique dans tous les agents LLM. Coût : 1-2 jours de dev. ROI : intégration dans des centaines d'outils sans effort.
 
-**#3 — Watch list 30 jours**
-- Mina : annonce de levée ou chiffres MRR publics → validation marché pour un challenger vertical
-- Sesame : annonce monétisation → blueprint pricing pour les companions vocaux
-- Understand-Anything : tentative de SaaS → confirme l'opportunité layer enterprise au-dessus
+**Action** : Créer un `mcp-voice-transcribe` server open-source → crédibilité + leads.
 
-**#4 — Ne PAS faire**
-- Ne pas répliquer Sesame (barrière capital trop haute, war avec Big Tech)
-- Ne pas construire un généraliste (Mina est déjà là, Otter/Fireflies aussi)
-- Ne pas attendre 6 mois : la fenêtre pre-commoditisation voice AI B2B est courte
+### 🎯 Insight #3 — Compression tokens pour réduire les coûts de ses apps voix
+Si Kyle utilise des pipelines STT+LLM, les transcriptions sont verboses. headroom peut réduire ses propres coûts LLM de 60-95%. À tester en interne avant tout.
 
-**Sources clés :**
-- [Mina PH](https://www.producthunt.com/products/mina-meeting-assistant) · [Sesame TechCrunch](https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/) · [Vapi $50M](https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html) · [Understand-Anything GitHub](https://github.com/Lum1104/Understand-Anything) · [Wispr $10M ARR](https://getlatka.com/companies/wisprflow.ai)
+**Action** : Installer headroom en mode proxy sur le stack existant. Mesurer la réduction de tokens sur 1 semaine.
+
+### 🎯 Insight #4 — Ne pas copier Tabstack, mais s'en inspirer pour le pricing
+Tabstack prouve que les devs paient pour des **API fiables avec une abstraction claire**. Si Kyle a des fonctions voix récurrentes (transcription + résumé + action), les packager en API externe avec pricing à l'usage peut ouvrir un canal B2D (Business to Developer).
+
+**Action** : Identifier les 2-3 endpoints les plus utilisés dans ses apps → les documenter et monétiser séparément.
+
+### ⚡ Quick Wins (cette semaine)
+1. Tester headroom sur un projet existant → mesurer ROI tokens
+2. Regarder la démo de Mina → identifier ce qui manque pour un vertical médical/juridique
+3. Lire la doc MCP de Anthropic → évaluer le coût d'exposition de ses tools voix
