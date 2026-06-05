@@ -1,204 +1,210 @@
-# 🔥 Market Scan — 2026-06-04
+# 🔥 Market Scan — 2026-06-05
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8 (Product Hunt top juin, GitHub trending semaine)
-- Top potentiel : Mina Meeting Assistant, Tabstack Web Research, headroom
-- Opportunités immédiates (BUILD NOW) : 1 (Mina clone vertical)
+- Apps analysées : 3
+- Top potentiel : Wispr Flow
+- Opportunités immédiates (BUILD NOW) : 1 (Wispr adjacents)
 
-## 🏆 TOP APP #1 : Mina Meeting Assistant
+## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
-- **URL** : [producthunt.com/products/mina-meeting-assistant](https://www.producthunt.com/products/mina-meeting-assistant)
-- **Launch** : Mai 2026 | **Catégorie** : AI Meeting Agent / Voice AI SaaS
-- **Fondateurs** : Équipe UIComet (ex-Mozilla) | **Statut** : Payant, SOC2 Type 2 en cours
-- **Buzz** : #1 PH juin 2026 — 29 547 votes, 1 700+ followers PH
+- **Nom** : Wispr Flow | **URL** : [wisprflow.ai](https://wisprflow.ai)
+- **Lancement** : 2024 (v2 majeure Q4 2025, explosion en 2026)
+- **Fondateurs** : Tanay Dixit + équipe ex-Apple/Google
+- **Catégorie** : Voice AI · Dictation · Productivity
+- **Métriques buzz** :
+  - ~2,5M téléchargements (fin 2025 → début 2026)
+  - 270 entreprises Fortune 500 clientes (Nvidia, Amazon)
+  - Valorisation $2B (talks Bloomberg mai 2026), quasi-tripling en 6 mois
+  - $260M en cours de levée, lead Menlo Ventures
+  - 40% croissance MoM · 1 600+ recherches/mois
 
 ### 2. Proposition de valeur
-- **Problème** : Les outils de note de réunion (Otter, Fireflies) sont passifs — ils écoutent mais n'agissent pas
-- **Solution** : Mina rejoint Zoom/Meet/Teams comme participant IA, exécute des tâches en temps réel (recherche, CRM update, envoi d'email) pendant la réunion
-- **USP** : Mode proactif (agit sans être invoqué) + mode réactif ("Hey Mina")
-- **Target** : Équipes sales, CS, execs avec réunions fréquentes
-- **Pricing** : ~$30-50/mois estimé (non-public à date)
+- **Problème** : Taper est lent, Siri/Whisper web sont mauvais à la mise en forme contextuelle
+- **Solution** : Dictée voix native Mac/Windows qui "écrit dans votre style" dans toute app
+- **USP** : Auto-correction stylistique, mode commande, 100+ langues, 0 cloud obligatoire
+- **Target** : Knowledge workers, founders, executives anglophones
+- **Pricing** : ~$15/mois (freemium limité → pro illimité)
 
 ### 3. Stack technique
-- **Frontend** : Web app + SDK d'intégration Zoom/Meet/Teams
-- **Backend** : WebSocket temps réel, pipeline STT → LLM → action
-- **Infra** : Cloud (AWS/GCP probable), MCP pour intégrations
-- **APIs** : OpenAI / Claude pour reasoning, calendrier, CRM, email
+- Frontend : Electron (desktop-first, Mac App Store)
+- Backend : LLM fine-tuné sur style utilisateur + Whisper-class STT
+- Infra : Edge inference + on-device possible
+- APIs : OpenAI STT, LLM interne, intégrations natives OS
 
 ### 4. Psychologie
-- **Trigger** : Social proof ("votre concurrent l'utilise en réunion") + gain de statut
-- **JTBD** : "Je veux fermer des deals sans perdre d'infos pendant l'appel"
-- **Aha moment** : La première fois que Mina répond à une question factuellement pendant un call live
-- **Hook** : Chaque réunion utilisée = habitude → switching cost élevé
+- **Triggers** : Habitude (usage quotidien), Social proof (Fortune 500), identité ("parlez comme vous pensez")
+- **JTBD** : "Je veux écrire 3× plus vite sans perdre mon style"
+- **Aha moment** : Premier email dicté qui ressemble exactement à votre voix
 
 ### 5. Go-to-Market
-- **Canal principal** : Product Hunt (explosion) + bouche-à-oreille B2B
-- **Viral loop** : Les participants extérieurs voient "Mina" dans la room → curiosité → signup
-- **Stratégie** : Freemium limité (X réunions/mois) → upgrade équipe
-- **Communauté** : LinkedIn / Slack sales communities
+- Canaux : LinkedIn/X #buildinpublic, PH #1 du jour, bouche-à-oreille pros
+- Launch : Beta Mac exclusive → word-of-mouth knowledge workers
+- Viral loops : Partage de "stats de dictée", testimonials Fortune 500
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (pipeline voix temps réel, intégrations Zoom SDK)
-- **Verticaux adjacents** : Mina pour médecins (SOAP notes + ordonnances auto), Mina pour juristes (contrats cités en temps réel), Mina pour recruteurs
-- **Angle Kyle** : Kyle maîtrise le pipeline voix IA → construire "Mina for [vertical]" en 4-6 semaines
-- **Temps de dev** : 6-8 semaines pour un MVP vertical (ex: Mina for Sales Calls)
+- **Complexité** : 7/10 — STT fine-tuné + style transfer = non-trivial
+- **Verticaux adjacents** : Wispr for Customer Support (agents vocaux B2B), Wispr for Sales (pitch deck dictation), version française
+- **Angle Kyle** : Version voice AI B2B orientée support/CRM — son expertise directe
+- **Temps de dev** : 3-4 mois pour un MVP vertical sérieux
 
-## 🏆 TOP APP #2 : Tabstack Web Research
+## 🏆 TOP APP #2 : OpenClaw
 ### 1. Identification
-- **URL** : [producthunt.com/products/tabstack](https://www.producthunt.com/products/tabstack)
-- **Launch** : Juin 2026 | **Catégorie** : Web Research API / Dev Tool SaaS
-- **Fondateurs** : Ex-Mozilla | **Statut** : Payant (API), open-source dashboard demo
-- **Buzz** : #13 PH juin 2026 — 9 412 votes, featured leaderboard mensuel
+- **Nom** : OpenClaw | **URL** : [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
+- **Lancement** : Nov 2025 (Peter Steinberger) — explosion jan 2026
+- **Fondateurs** : Peter Steinberger (ex-PSPDFKit) → rejoint OpenAI ; projet passé en fondation indépendante
+- **Catégorie** : Personal AI Agent · Open Source · Local-first
+- **Métriques buzz** :
+  - 295 000 GitHub stars en <6 mois (record historique, dépasse React/Linux)
+  - 9 000 → 60 000 stars en quelques jours (viral wave jan 2026)
+  - 2 999+ skills communautaires (ClawHub)
+  - Trending HN 474 pts · articles TechCrunch/The New Stack
 
 ### 2. Proposition de valeur
-- **Problème** : Les scrapers cassent constamment (changements de DOM), maintenance = cauchemar
-- **Solution** : API unique — passe une URL + un schema JSON → reçois des données structurées fiables à chaque appel, sans scraper à maintenir
-- **USP** : Agent de recherche avec citations intégré en un seul appel API
-- **Target** : Devs / founders qui intègrent de la veille concurrentielle ou du data enrichment
-- **Pricing** : API à la consommation, estimé $0.01-0.05/appel + plans mensuels
+- **Problème** : Les AI assistants cloud lisent vos données privées et n'agissent pas vraiment
+- **Solution** : Agent IA local, multi-OS, multi-canal (WhatsApp, Slack, email, terminal, smart home…)
+- **USP** : 100% on-device, pas de cloud obligatoire, 20+ canaux natifs, marketplace de skills
+- **Target** : Développeurs, power users, privacy-conscious pros
+- **Pricing** : Gratuit / open source (MIT) — monétisation via ClawHub premium skills
 
 ### 3. Stack technique
-- **Frontend** : Docs API + dashboard demo open-source (React)
-- **Backend** : Headless browser automation + LLM pour structuration + cache intelligent
-- **Infra** : Cloud, navigateurs sandboxés, pas d'infra client nécessaire
-- **APIs** : LLM propriétaire pour parsing + extraction sémantique
+- Frontend : Natif multi-OS (Mac/Win/Linux/iOS/Android)
+- Backend : LLM local (Ollama/LM Studio compat.) + cloud optional
+- Infra : Tout tourne en local, zero data exfiltration par défaut
+- APIs : 20+ connecteurs de canaux, MCP-compatible, ClawHub SDK
 
 ### 4. Psychologie
-- **Trigger** : Frustration (scraper cassé) → résolution immédiate ("ça juste marche")
-- **JTBD** : "Je veux des données web fraîches sans gérer une infra de scraping"
-- **Aha moment** : Premier appel API qui retourne du JSON propre depuis une page complexe
-- **Hook** : Intégration dans le codebase → dépendance infra forte
+- **Triggers** : FOMO (record GitHub), liberté/vie privée, identité hacker
+- **JTBD** : "Je veux un assistant IA qui fonctionne dans mes outils, pas le contraire"
+- **Aha moment** : Première commande WhatsApp qui automatise un workflow local
 
 ### 5. Go-to-Market
-- **Canal principal** : Dev communities (HN, PH, Reddit r/programming)
-- **Viral loop** : Dashboard demo open-source → stars GitHub → découverte produit
-- **Stratégie** : Open-source honeypot (demo gratuite) → API payante pour la production
-- **Community** : Crédibilité ex-Mozilla, confiance technique immédiate
+- Canaux : GitHub viral (star → fork), HN/Reddit, YouTube devs
+- Launch : Weekend hack → viral tweet → fondation indépendante
+- Viral loops : Chaque skill ClawHub = contenu + stars → nouveaux skills
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (navigateur headless + LLM structuration, patterns bien documentés)
-- **Verticaux adjacents** : Tabstack for Real Estate (prix/dispo), Tabstack for Job Intelligence (offres d'emploi parsées), Veille presse IA
-- **Angle Kyle** : Construire une API de veille voix/podcast (transcription + structuration) en complément de Tabstack
-- **Temps de dev** : 4-6 semaines pour un MVP API vertical
+- **Complexité** : 6/10 — orchestration multi-canal complexe mais framework existant forkable
+- **Verticaux adjacents** : OpenClaw for Business (accès équipe sécurisé), vertical médical/juridique local
+- **Angle Kyle** : Construire un skill ClawHub pour voice AI B2B → distribution immédiate 295K users
+- **Temps de dev** : 2 semaines pour un skill, 2-3 mois pour un fork vertical
 
-## 🏆 TOP APP #3 : headroom
+## 🏆 TOP APP #3 : Corvera (YC W26)
 ### 1. Identification
-- **URL** : [github.com/chopratejas/headroom](https://github.com/chopratejas/headroom)
-- **Launch** : 2025 (viral juin 2026) | **Catégorie** : AI Infrastructure / Token Compression
-- **Fondateurs** : chopratejas | **Statut** : Open-source (Apache 2.0), pas de SaaS commercial actif
-- **Buzz** : 10 378 étoiles GitHub, +6 245 étoiles en une semaine, 684 forks
+- **Nom** : Corvera | **URL** : [YC W26](https://www.ycombinator.com/companies/corvera)
+- **Lancement** : Jan 2026 (YC W26 batch)
+- **Fondateurs** : Chris (2× founder, Forbes 30U30, ex-CEO Better Nature), Dirk (ex-Google Data & AI Lead), Matthew (ex-Head of Product Rosemark, Princeton MEng CS)
+- **Catégorie** : Vertical AI SaaS · CPG/Retail · MCP Data Layer
+- **Métriques buzz** :
+  - $0 → $33K MRR en 4 semaines, 130% croissance semaine/semaine
+  - $180K ARR en 11 jours post-lancement commercial
+  - 12 marques clientes (CPG retail)
+  - $6,2M levés (pre-seed $2M + seed $4,2M) — investors : YC, firstminute, 6 Degrees Capital, 20VC
 
 ### 2. Proposition de valeur
-- **Problème** : Les agents IA (Claude Code, Cursor, Codex) consomment des milliers de tokens inutiles sur des logs/fichiers verbeux → coûts et latence explosent
-- **Solution** : Couche de compression locale (library/proxy/MCP) qui réduit les tokens de 60-95% avant envoi au LLM, sans modifier le code existant
-- **USP** : 6 algorithmes spécialisés (JSON, code AST, conversation), modèle HuggingFace open-source
-- **Target** : Devs qui utilisent des agents IA intensivement, entreprises avec multi-agents
-- **Pricing** : Gratuit open-source, potentiel SaaS cloud non exploité
+- **Problème** : Les marques CPG ont des données dispersées inutilisables par les LLMs
+- **Solution** : Couche de contexte unifié (MCP) qui rend les données marque lisibles par tout outil AI
+- **USP** : Augmente les profits retail de 40% via optimisation AI des opérations supply chain
+- **Target** : Marques CPG mid-market ($10M-$500M revenue)
+- **Pricing** : Enterprise SaaS (estimé $2-5K/mois/marque)
 
 ### 3. Stack technique
-- **Frontend** : CLI + SDK Python/npm
-- **Backend** : Python (76.8%) + Rust (18.4%) pour performance
-- **Infra** : Local-first, 3 modes : library / proxy / MCP server
-- **Model** : Kompress-base (HuggingFace), entraîné sur des traces d'agents IA
+- Frontend : Dashboard web + API
+- Backend : MCP servers custom + data pipelines ETL
+- Infra : Cloud (AWS/GCP) + connecteurs ERP/WMS
+- APIs : MCP protocol, intégrations Shopify/SAP/Oracle
 
 ### 4. Psychologie
-- **Trigger** : Douleur économique directe (facture API LLM) → ROI mesurable immédiat
-- **JTBD** : "Je veux réduire ma facture Claude/OpenAI sans refactorer mon stack"
-- **Aha moment** : Premier run avec -70% de tokens et mêmes résultats
-- **Hook** : Une fois installé en proxy, difficile de revenir → dépendance infra
+- **Triggers** : ROI immédiat chiffrable (40% profit boost), autorité YC, social proof Fortune
+- **JTBD** : "Je veux que mes données métier alimentent mes outils AI sans friction"
+- **Aha moment** : Premier dashboard AI qui répond sur les stocks en langage naturel
 
 ### 5. Go-to-Market
-- **Canal principal** : GitHub (stars organiques) + HN + communautés agent IA
-- **Viral loop** : Les devs partagent leurs benchmarks de compression → FOMO
-- **Stratégie** : Open-source d'abord → cloud SaaS pour entreprises (pattern classique)
-- **Opportunité monétisation** : SaaS "Headroom Cloud" pour équipes multi-agents non exploité
+- Canaux : YC network, LinkedIn B2B, pilotes gratuits avec marques partenaires
+- Launch : YC Demo Day → 12 clients pilotes → seed round
+- Viral loops : ROI proof → référencement peer-to-peer chez les directeurs supply chain
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (ML model custom, optimisations Rust) pour reproduire exact
-- **Angle réaliste** : Wrapper SaaS autour d'headroom → "Compression-as-a-Service" pour les applis voice AI (Kyle paye déjà des tokens STT+LLM)
-- **Verticaux adjacents** : Compression pour voice agents (transcriptions verboses), compression pour RAG pipelines
-- **Temps de dev** : 2-3 semaines pour un SaaS wrapper, 3-4 mois pour un produit natif
+- **Complexité** : 8/10 — intégrations enterprise complexes, cycles de vente longs
+- **Verticaux adjacents** : Même modèle pour hôtellerie, e-commerce, agences marketing
+- **Angle Kyle** : Couche MCP voice AI pour CRM (connecter données CRM à agents vocaux)
+- **Temps de dev** : 4-6 mois pour un MVP enterprise viable
 
-## 💰 Unit Economics Deep Dive — Mina Meeting Assistant
-> ⚠️ Estimations basées sur benchmarks sectoriels — données publiques insuffisantes (non-coté, non-financé public)
+## 💰 Unit Economics Deep Dive — Wispr Flow
+*Sources : Bloomberg (mai 2026), Tracxn, Weesper Neon Flow Blog, wisprflow.ai*
 
-| Métrique | Estimation | Source / Hypothèse |
+| Métrique | Estimation | Confiance |
 |---|---|---|
-| **ARR** | ~$1-3M | 5-10K users payants, ARPU ~$300/an |
-| **ARPU** | ~$300/an (~$25/mois) | Pricing positioning vs Otter.ai ($16/mois) |
-| **Users actifs** | ~5 000-10 000 | 29 547 PH votes → conv. ~5-10% payants |
-| **CAC** | ~$30-80 | PH + viral (bot visible en room) → CAC bas |
-| **LTV** | ~$600-900 | Churn SaaS meeting ~30%/an → 3.3 ans |
-| **LTV/CAC** | ~8-15x | 🟢 Excellent (>3x = sain) |
-| **Payback** | ~2-3 mois | CAC bas, ARPU mensuel |
-| **Burn estimé** | ~$50-100K/mois | Équipe 5-8 personnes, infra LLM |
-| **Runway** | Inconnu (non-financé public) | Potentiellement bootstrapped |
-| **Rev/Employee** | ~$150-300K | Si 5-10 employés + $1.5M ARR |
-| **Rule of 40** | ~45-60 | Croissance >50% + marges LLM ~50% |
+| **Valorisation** | $2B (talks mai 2026) | 🟢 Bloomberg confirmé |
+| **ARR estimé** | ~$18-25M | 🟡 extrapolé ($15/mois × 100-140K subs actifs) |
+| **Users actifs payants** | ~100-150K | 🟡 basé sur 2,5M DL × ~5% conversion |
+| **ARPU** | ~$15/mois = $180/an | 🟢 pricing public |
+| **CAC estimé** | ~$30-50 (PLG dominant) | 🟡 word-of-mouth + PH, faible paid |
+| **LTV estimé** | ~$360-540 (24-36 mois rétention) | 🟡 outil quotidien = rétention élevée |
+| **LTV/CAC** | ~9-12× | 🟢 excellent |
+| **Payback** | ~2-4 mois | 🟢 très rapide |
+| **Total raised** | $81M (5 rounds) | 🟢 Tracxn |
+| **Burn estimé** | ~$2-4M/mois | 🟡 équipe ~30-50 personnes |
+| **Runway** | 24-36 mois post-raise $260M | 🟢 si round close |
+| **Rev/Employee** | ~$400-600K ARR/emp | 🟢 SaaS top quartile |
+| **Rule of 40** | ~60-80 (croissance 40% MoM + margin) | 🟢 |
 
-**Verdict santé : 🟢 SOLIDE**
-- Modèle freemium→payant avec viral loop intégrée (bot visible aux participants)
-- LTV/CAC exceptionnel si croissance organique maintenue
-- Risque principal : coûts LLM en temps réel (latence + tokens par réunion)
+**Verdict santé : 🟢 SAIN**
+Valorisation $2B sur $18-25M ARR = multiple 80-110× agressif mais justifié par 40% MoM growth, forte rétention (outil quotidien), et position de monopole sur voice dictation premium desktop.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Mina (clone vertical) | Tabstack (vertical API) | headroom (SaaS wrapper) |
+| Dimension (poids) | Wispr Flow Adjacent | OpenClaw Skill | Corvera Vertical |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — marché meeting AI >€1B | 7 — data API €500M+ | 6 — infra AI €300M+ |
-| ⚙️ Complexity inversé (15%) | 5 — pipeline voix temps réel | 7 — headless + LLM parsing | 8 — wrapper existant |
-| ⏱️ Time-to-Market (15%) | 5 — 6-8 semaines minimum | 7 — 4-6 semaines | 8 — 2-3 semaines |
-| 🏟️ Competition inversé (15%) | 7 — verticaux peu couverts | 6 — Apify, Firecrawl présents | 5 — espace émergent, entrants |
-| 💰 Revenue Potential (20%) | 9 — B2B récurrent, upsell équipe | 7 — API usage-based scalable | 6 — marché enterprise lent |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — voice AI + SaaS = bullseye | 6 — SaaS oui, scraping non | 5 — infra ML hors core |
+| 📊 Market Size (20%) | 8 — dictation B2B €500M+ | 7 — AI agents €1B+ | 6 — CPG SaaS €200M |
+| ⚙️ Complexité inv. (15%) | 5 — STT+style transfer dur | 8 — skill = 2 semaines | 4 — intégrations enterprise |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois MVP | 9 — 2 semaines (skill) | 3 — 6+ mois |
+| 🏟️ Compétition inv. (15%) | 7 — peu de concurrents FR/B2B | 8 — premier mover ClawHub | 5 — plusieurs YC similaires |
+| 💰 Revenue Potential (20%) | 8 — $50-100K MRR possible | 5 — monétisation indirecte | 7 — contrats enterprise |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 10 — voice AI = cœur de métier | 7 — dev/distribution fit | 5 — supply chain ≠ expertise |
 
-**Score pondéré :**
+| App | Score pondéré | Verdict |
+|---|---|---|
+| **Wispr Flow Adjacent** | **(8×0,20)+(5×0,15)+(5×0,15)+(7×0,15)+(8×0,20)+(10×0,15) = 7,35** | 🟡 **BUILD ADJACENT** |
+| **OpenClaw Skill** | **(7×0,20)+(8×0,15)+(9×0,15)+(8×0,15)+(5×0,20)+(7×0,15) = 7,10** | 🟡 **BUILD ADJACENT** |
+| **Corvera Vertical** | **(6×0,20)+(4×0,15)+(3×0,15)+(5×0,15)+(7×0,20)+(5×0,15) = 5,15** | 🟠 **WATCH** |
 
-| App | Calcul | **Score final** | Verdict |
-|---|---|---|---|
-| **Mina vertical** | 8×.20 + 5×.15 + 5×.15 + 7×.15 + 9×.20 + 9×.15 | **7.45** | 🟡 BUILD ADJACENT |
-| **Tabstack vertical** | 7×.20 + 7×.15 + 7×.15 + 6×.15 + 7×.20 + 6×.15 | **6.70** | 🟡 BUILD ADJACENT |
-| **headroom SaaS** | 6×.20 + 8×.15 + 8×.15 + 5×.15 + 6×.20 + 5×.15 | **6.30** | 🟡 BUILD ADJACENT |
-
-> **Note** : Aucun 🟢 BUILD NOW strict — le marché AI agents est trop encombré pour un clone direct. Le signal fort : Mina vertical **avec la voix comme avantage différenciant** (Kyle) frôle le BUILD NOW.
+> **Recommandation Kyle** : Construire un skill OpenClaw voice AI en 2 semaines = distribution immédiate 295K users et validation rapide. En parallèle, développer un produit Wispr-adjacent B2B FR sur 3-4 mois.
 
 ## 📈 Tendances Émergentes
-### 🔵 Tendance 1 — De l'IA passive à l'IA exécutrice en temps réel
-Mina illustre le shift majeur : les outils ne se contentent plus d'observer, ils **agissent pendant** l'interaction. La fenêtre d'action est le call en cours, pas l'après. Ce pattern (listen → reason → act in-session) va s'étendre : support client, coaching, vente.
+1. **Voice-first devient mainstream** : Wispr Flow à $2B montre que la dictée IA n'est plus un gadget. Le shift clavier → voix s'accélère chez les knowledge workers. Fenêtre de 12-18 mois avant saturation.
 
-### 🔵 Tendance 2 — L'infrastructure IA devient un produit en soi
-headroom (compression), Databox MCP (21 539 votes PH), Tabstack — les développeurs monétisent des **couches d'optimisation** plutôt que des apps finales. Chaque étape de la chaîne IA (input, reasoning, output, storage) devient un SaaS distinct.
+2. **Local-first AI explose** : OpenClaw et la tendance "on-device" (Stella, Mirowl, Miso TTS) reflètent une fatigue du cloud et une demande forte en confidentialité. Les entreprises exigent des garanties data souveraineté.
 
-### 🔵 Tendance 3 — MCP comme standard d'intégration
-Databox MCP (#3 PH juin avec 21 539 votes) signale que le protocole MCP (Model Context Protocol) s'impose comme le **"REST des agents IA"**. Les produits qui exposent des MCP servers gagnent de l'adoption par les agents LLM automatiquement.
+3. **MCP devient le protocole standard** : Corvera, Databox MCP, Paste MCP — le Model Context Protocol s'impose comme la "plomberie" de l'AI enterprise. Maîtriser MCP = avantage compétitif durable.
 
-### 🔵 Tendance 4 — Token compression = nouveau cost center
-Avec headroom +6 245 étoiles/semaine, la réduction des coûts LLM devient un sujet mainstream. Les founders commencent à traiter les tokens comme un budget infra, pas comme une variable académique.
+4. **Open source AI agent = nouvelle stratégie GTM** : OpenClaw prouve qu'un projet OSS bien positionné peut dépasser les réseaux de distribution payants. Construire en OSS puis monétiser via marketplace (ClawHub) = nouveau playbook.
 
-### 🔵 Tendance 5 — Open-source → SaaS wrapper comme go-to-market
-headroom (OS) + MoneyPrinterTurbo (78K stars) montrent que l'open-source **est** la stratégie d'acquisition. La monétisation vient après par le cloud ou les intégrations enterprise.
+5. **Vertical SaaS × AI = gold rush** : YC W26 est majoritairement du vertical AI SaaS (Corvera CPG, AgenticCalling sales, Frontdesk AI hospitality). Chaque vertical métier a un "Corvera" à construire.
+
+6. **Sécurité et trustworthiness en hausse** : HN trend forte sur l'audit trail, l'évaluation LLM, et le contrôle humain. Les prochains winners seront des AI tools avec gouvernance intégrée, pas des démos flashy.
 
 ## 💡 Insights Actionnables pour Kyle
-### 🎯 Insight #1 — Kyle = Mina for [Vertical médical ou juridique]
-Mina prouve que le marché veut un **agent IA qui agit pendant la conversation**. Kyle a le stack voix pour le construire. L'angle : cibler un vertical réglementé (médecins, avocats, RH) où Mina ne peut pas aller vite à cause de la compliance. Temps estimé : 6-8 semaines pour un MVP, $300-500/mois par seat en B2B.
+### 🎯 Pour Kyle — Actions immédiates (semaine 1-2)
 
-**Action** : Valider en 48h — contacter 10 médecins/avocats avec un mock demo de "Mina for your consultation". Si 3 veulent payer → build.
+**1. Construire un skill OpenClaw voice AI [2 semaines]**
+OpenClaw a 295K utilisateurs actifs et un SDK ouvert (ClawHub). Publier un skill "Voice CRM" ou "Voice Meeting Notes" = distribution gratuite immédiate + validation du besoin. C'est le meilleur test marché à coût zéro.
 
-### 🎯 Insight #2 — Exposer son stack voix comme MCP server
-La tendance MCP (Databox MCP #3 PH) signifie qu'exposer les capacités voix de Kyle en MCP server lui donne de la distribution automatique dans tous les agents LLM. Coût : 1-2 jours de dev. ROI : intégration dans des centaines d'outils sans effort.
+**2. Monitorer Wispr Flow comme benchmark absolu**
+Tracker le $260M round (annonce imminente). Observer leur expansion B2B : si Wispr lance une offre enterprise en 2026, la fenêtre pour un concurrent vertical FR se ferme en 6-9 mois.
 
-**Action** : Créer un `mcp-voice-transcribe` server open-source → crédibilité + leads.
+**3. Positionner autour du gap FR/EU**
+Wispr Flow est US-centric. Le marché FR/EU pour voice AI pro (RGPD-compliant, on-premise possible, interface française) est vierge. Un "Wispr Flow pour équipes françaises" avec hébergement EU serait différenciant dès aujourd'hui.
 
-### 🎯 Insight #3 — Compression tokens pour réduire les coûts de ses apps voix
-Si Kyle utilise des pipelines STT+LLM, les transcriptions sont verboses. headroom peut réduire ses propres coûts LLM de 60-95%. À tester en interne avant tout.
+**4. Intégrer MCP dans le stack voice AI actuel**
+MCP devient le standard. Tout futur produit voice AI qui expose un MCP server sera automatiquement compatible avec OpenClaw, Claude, et tout agent AI 2026. C'est une décision architecturale à prendre maintenant, pas plus tard.
 
-**Action** : Installer headroom en mode proxy sur le stack existant. Mesurer la réduction de tokens sur 1 semaine.
+### ⚠️ Risques à surveiller
+- **Wispr direct** : si Apple/Google copient (Speech → systémique), le marché disparaît
+- **OpenClaw gouvernance** : transition vers fondation = risque fork/abandon
+- **Corvera** : cycles de vente enterprise longs, risque cash avant PMF
 
-### 🎯 Insight #4 — Ne pas copier Tabstack, mais s'en inspirer pour le pricing
-Tabstack prouve que les devs paient pour des **API fiables avec une abstraction claire**. Si Kyle a des fonctions voix récurrentes (transcription + résumé + action), les packager en API externe avec pricing à l'usage peut ouvrir un canal B2D (Business to Developer).
-
-**Action** : Identifier les 2-3 endpoints les plus utilisés dans ses apps → les documenter et monétiser séparément.
-
-### ⚡ Quick Wins (cette semaine)
-1. Tester headroom sur un projet existant → mesurer ROI tokens
-2. Regarder la démo de Mina → identifier ce qui manque pour un vertical médical/juridique
-3. Lire la doc MCP de Anthropic → évaluer le coût d'exposition de ses tools voix
+### 📌 Sources principales
+- [Bloomberg — Wispr $2B](https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-funding-talks-at-2-billion-value)
+- [OpenClaw GitHub](https://github.com/openclaw/openclaw)
+- [Corvera YC W26](https://www.ycombinator.com/companies/corvera)
+- [Product Hunt June 2026](https://www.producthunt.com/leaderboard/daily/2026/6/1)
+- [HN Trends June 2026](https://blog.mean.ceo/hacker-news-trends-june-2026/)
