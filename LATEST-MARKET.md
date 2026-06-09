@@ -1,200 +1,194 @@
-# 🔥 Market Scan — 2026-06-08
+# 🔥 Market Scan — 2026-06-09
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Mina Meeting Assistant
-- Opportunités immédiates (BUILD NOW) : 1
+- Apps analysées : 6
+- Top potentiel : Fundraisly
+- Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : Mina Meeting Assistant
+## 🏆 TOP APP #1 : Fundraisly
 ### 1. Identification
-- **URL** : https://getmina.ai
-- **Catégorie** : AI Voice Agent / Meeting Intelligence
-- **Lancement** : 2025, relaunch majeur juin 2026 sur Product Hunt
-- **Fondateurs** : Non divulgués publiquement
-- **Métriques buzz** : 479 135 votes PH (all-time), #5 semaine du 1er juin 2026, 138 commentaires
-- **Critères validés** : ✅ PH traction ✅ Engagement communauté ✅ Médias (sector voice AI hot) ✅ Écosystème 200+ intégrations
+- **URL** : https://fundraisly.com / https://www.producthunt.com/products/fundraisly
+- **Launch** : Juin 2026 (Product Hunt #1 semaine du 1er juin)
+- **Fondateurs** : Anna (ex-analyste investment, VC fund $600M+ AUM, portfolio 10 unicorns)
+- **Catégorie** : AI Agent · Fundraising B2B SaaS
+- **Métriques buzz** : 1 027 261 votes PH · 3K+ appels VC générés en 6 mois · deals avec a16z, Sequoia, Index Ventures
 
-### 2. Proposition de Valeur
-- **Problème** : Les meetings sont passifs — l'IA transcrit, résume, mais n'agit pas pendant l'appel
-- **Solution** : Mina est un agent IA qui parle pendant vos appels, répond aux questions en live, exécute des tâches (mise à jour CRM, création tickets Jira, etc.) sans quitter le call
-- **USP** : Participant IA actif qui parle, ne transcrit pas juste — "Your AI Teammate now responds and executes during your calls"
-- **Target** : Sales teams, CS, project managers, équipes techniques
-- **Pricing** : Freemium + par siège (estimé $20-40/siège/mois) — non confirmé publiquement
+### 2. Proposition de valeur
+- **Problème** : Les fondateurs perdent 6-12 mois à identifier, scorer et contacter des investisseurs manuellement
+- **Solution** : Agent IA qui analyse 300K+ investisseurs, mappe les chemins chauds via le réseau, lance des campagnes cold outreach ciblées et book 20-40 réunions qualifiées en 90 jours
+- **USP** : Automatisation complète de la pipeline fundraising — de l'identification à la prise de RDV
+- **Target** : Fondateurs early-stage (pre-seed à Series A)
+- **Pricing** : Non public — probablement $500-2K/mois ou commission sur deals
 
-### 3. Stack Technique
-- **Frontend** : Web app + intégration native Zoom/Meet/Teams
-- **Backend** : LLM orchestration (probablement Claude/GPT-4o), WebRTC pour audio live
-- **Infra** : Cloud (AWS/GCP), architecture streaming bas latency
-- **APIs** : 200+ intégrations : Slack, HubSpot, Salesforce, Jira, Notion, GitHub, Linear, Google Meet, Zoom, Teams
+### 3. Stack technique (estimé)
+- **Frontend** : React/Next.js · Dashboard analytique
+- **Backend** : Python · LLM orchestration (GPT-4 / Claude) · scraping LinkedIn/Crunchbase
+- **Infra** : AWS · email deliverability (SendGrid/Postmark) · calendrier API (Google/Outlook)
+- **APIs** : Crunchbase, LinkedIn, OpenAI, Google Calendar
 
 ### 4. Psychologie & JTBD
-- **Triggers** : Urgence (concurrence répond pendant les calls, pas toi), Autorité (200+ intégrations = légitimité enterprise)
-- **JTBD** : "Quand j'ai un appel client, je veux que l'IA execute les tâches pendant que je parle, pour ne rien oublier et agir immédiatement"
-- **Aha moment** : Première fois que Mina dit "Je viens de créer le ticket Jira" pendant que tu parles toujours au client
+- **Trigger principal** : Peur de manquer des opportunités + frustration du cold outreach manuel
+- **JTBD** : "Aide-moi à lever ma prochaine round sans sacrifier 1 an de ma vie"
+- **Aha moment** : Premier email d'un VC de tier-1 qui répond positivement
+- **Social proof** : Anna crédible (10 unicorns en portfolio), stats 3K+ appels VC
 
 ### 5. Go-to-Market
-- **Canaux** : Product Hunt launch, LinkedIn B2B, bouche-à-oreille équipes sales
-- **Viral loops** : Chaque call avec Mina = le prospect entend l'IA → curiosité → adoption
-- **Stratégie** : Bottom-up (un user → toute l'équipe), intégrations natives = stickiness
+- **Canal principal** : Product Hunt (record absolu), LinkedIn founder communities, Twitter #buildinpublic
+- **Viral loop** : Les fondateurs partagent leurs success stories → preuve sociale → nouveaux signups
+- **Stratégie** : Launch explosif PH + personal brand fondatrice (ex-VC crédible)
 
-### 6. Réplication pour Kyle
-- **Complexité** : 7/10 — WebRTC + latency audio + LLM orchestration + intégrations
-- **Angle Kyle** : Kyle EST expert voice AI → il peut construire le moteur audio mieux/moins cher que Mina. Niche verticale possible : meetings commerciaux en français ou calls de support client
-- **Verticaux adjacents** : AI coach de vente live, assistant d'entretien RH, call center IA
-- **Temps de dev** : 3-4 mois pour MVP fonctionnel avec Vapi/Retell + Claude
+### 6. Réplication & Opportunité Kyle
+- **Complexité** : 7/10 — base de données investisseurs + scraping + LLM outreach
+- **Verticaux adjacents** : Même agent pour BD/partenariats SaaS · recrutement executive · sourcing clients B2B
+- **Angle Kyle** : Vertical "AI Fundraising for Voice AI / Vertical SaaS" — niche ultra-ciblée, réseau VC spécialisé tech vocal
+- **Temps de dev** : 3-4 mois MVP · 1 développeur backend + 1 data engineer
 
-## 🏆 TOP APP #2 : Vokal
+## 🏆 TOP APP #2 : OpenClaw
 ### 1. Identification
-- **URL** : https://vokal.app (à confirmer)
-- **Catégorie** : AI Collaboration / Agent Orchestration for Dev Teams
-- **Lancement** : Juin 2026 (Product Hunt)
-- **Fondateurs** : Zhen Han (ex-Meta, ex-Google)
-- **Métriques buzz** : 45 655 votes PH, traction dans la communauté dev AI agents
-- **Critères validés** : ✅ PH traction ✅ Profil fondateur fort ✅ Timing parfait (AI agents mainstream 2026)
+- **URL** : https://openclaw.ai · https://github.com/openclaw/openclaw
+- **Launch** : Novembre 2025 (Clawd) → Janvier 2026 (renommé OpenClaw après challenge légal Anthropic)
+- **Fondateur** : Peter Steinberger (fondateur PSPDFKit — produit bootstrappé $30M+ ARR)
+- **Catégorie** : Open-source · Personal AI Agent · Local-first
+- **Métriques buzz** : 346K+ GitHub stars · 70K forks · 1.6K contributors · 3.2M utilisateurs actifs · 38M visiteurs/mois · Plus de stars que React (~243K) en 5 mois
 
-### 2. Proposition de Valeur
-- **Problème** : Les équipes utilisent chacun leur propre agent IA (Claude Code, Codex, Hermes) mais sans espace partagé — contexte éparpillé, handoffs par copy-paste
-- **Solution** : Workspace collaboratif unique où humains + agents IA partagent le même contexte, assignent des tâches aux agents, supervisent le travail, et sauvegardent les outputs
-- **USP** : "La salle de réunion pour les humans + leurs agents IA" — pas un outil de plus, le hub central
-- **Target** : Dev teams (3-15 personnes) qui utilisent déjà des agents IA
-- **Pricing** : Estimé freemium + $15-25/user/mois
+### 2. Proposition de valeur
+- **Problème** : Les assistants IA cloud centralisés ne s'intègrent pas aux apps du quotidien, ne protègent pas la vie privée
+- **Solution** : Agent IA open-source local qui s'intègre nativement à WhatsApp, Telegram, Slack, Discord, Signal, iMessage — 50+ intégrations
+- **USP** : Vie privée totale + gratuité + self-hosted + extensible via "Skills" marketplace (ClawHub)
+- **Target** : Développeurs, early adopters tech, entreprises soucieuses de la confidentialité
+- **Pricing** : Gratuit/open-source · Coûts API LLM à la charge de l'utilisateur · Skills payants sur ClawHub ($10-50)
 
-### 3. Stack Technique
-- **Frontend** : Web app collaborative (type Notion/Linear meets AI)
-- **Backend** : Agent orchestration layer, context management, local + cloud (Codex local ou Claude cloud)
-- **APIs** : Claude Code, GitHub Copilot, Codex — agnostique au modèle
-- **Différenciateur** : Context persistence — les agents "se souviennent" entre les sessions
+### 3. Stack technique
+- **Frontend** : Electron (desktop) + interfaces web
+- **Backend** : Node.js / Python · Architecture modulaire plugins ("Skills")
+- **Infra** : Self-hosted (local ou VPS) · Tencent/Alibaba/Baidu one-click deploy
+- **APIs** : OpenAI, Anthropic, Gemini, Ollama (modèles locaux) · Connexions messaging apps
 
 ### 4. Psychologie & JTBD
-- **Triggers** : FOMO (ton concurrent a une équipe de 3 humains + 5 agents, toi juste 3 humains), Social proof (fondateur ex-Meta/Google)
-- **JTBD** : "Quand je dirige une équipe qui utilise l'IA, je veux que tout le monde et chaque agent partagent le même contexte, pour qu'on avance 10x plus vite sans chaos"
-- **Aha moment** : Premier sprint où un agent reprend exactement là où un collègue s'était arrêté, sans briefing
+- **Trigger** : Anxiété vie privée + coûts abonnements + désir d'un assistant "vraiment personnel"
+- **JTBD** : "Je veux un agent IA qui travaille pour moi dans mes apps sans envoyer mes données dans le cloud"
+- **Aha moment** : Première action autonome sur WhatsApp / Slack sans intervention
+- **Social proof** : 346K stars, adoption Microsoft (Scout), Tencent/Alibaba
 
 ### 5. Go-to-Market
-- **Canaux** : Twitter/X dev community, Product Hunt, LinkedIn founder story, GitHub distribution
-- **Viral loops** : Collaboration = multi-user → chaque invite = nouveau compte
-- **Stratégie** : PLG (Product-Led Growth), target early adopters AI-native dev teams
+- **Canal** : GitHub viral · HN frontpage · Tech Twitter · Meme-driven (branding "lobster" mémorable)
+- **Viral loop** : Open-source → contributors → médias → stars → contributors (flywheel)
+- **Financement** : Foundation sponsorships + ecosystem ($5-15M/mois estimé ecosystem total)
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 — Context management est le défi principal, UX collaborative complexe
-- **Angle Kyle** : Version spécialisée pour équipes Customer Success ou Sales — agents qui partagent le contexte client cross-teammates
-- **Verticaux adjacents** : Collaboration IA pour agences, consultants, équipes marketing AI-native
-- **Temps de dev** : 2-3 mois MVP (si focus sur 1 vertical précis)
+### 6. Réplication & Opportunité Kyle
+- **Complexité** : 9/10 — architecture multi-plateformes, maintenir 50+ intégrations, conformité légale
+- **Verticaux adjacents** : Agent IA dédié PME françaises · assistant vocal local (killer app pour Kyle)
+- **Angle Kyle** : Fork OpenClaw avec couche Voice AI native — "assistant vocal open-source auto-hébergé"
+- **Temps de dev** : 6-9 mois pour une vertical pertinente basée sur le framework
 
-## 🏆 TOP APP #3 : Leni
+## 🏆 TOP APP #3 : Mina Meeting Assistant
 ### 1. Identification
-- **URL** : Non trouvé publiquement (PH listing : producthunt.com/products/leni)
-- **Catégorie** : Vertical AI / Finance & Investment Intelligence
-- **Lancement** : Juin 2026 (semaine du 1er juin, #3 du classement)
-- **Fondateurs** : Non divulgués
-- **Métriques buzz** : 38 362 votes PH, top 3 semaine June 1 2026
-- **Critères validés** : ✅ PH traction ✅ Benchmarks vs GPT/Claude ✅ Niche à haute valeur
+- **URL** : https://www.producthunt.com/products/mina-meeting-assistant
+- **Launch** : Juin 2026 (PH #2 semaine du 1er juin)
+- **Catégorie** : AI Meeting · Voice AI · Productivity SaaS
+- **Métriques buzz** : 479 135 votes PH · 200+ intégrations (Slack, HubSpot, Salesforce, Jira, Zoom, Meet, Teams)
 
-### 2. Proposition de Valeur
-- **Problème** : Les LLMs généralistes (GPT, Claude) hallucinent sur des analyses financières — inacceptable quand des millions sont en jeu
-- **Solution** : IA spécialisée pour investisseurs et équipes finance/immobilier, construite sur 21 000+ decision traces, traitant 100M+ lignes/jour, avec outputs auditables (sources, timestamps, comps vérifiées)
-- **USP** : "Finance-grade accuracy" — surpasse GPT et Claude sur benchmarks finance indépendants
-- **Target** : Fonds d'investissement, équipes finance corporate, professionnels immobilier
-- **Pricing** : Enterprise (estimé $500-2000/mois/équipe) — segment premium
+### 2. Proposition de valeur
+- **Problème** : Les notetakers IA actuels (Otter, Fireflies) sont passifs — ils transcrivent mais n'agissent pas
+- **Solution** : Mina parle pendant les calls, répond en temps réel, exécute des actions (CRM update, ticket Jira, Slack message) pendant que la réunion se déroule
+- **USP** : Première IA qui est un vrai "participant actif" — deux modes : réactif ("Hey Mina") et proactif (toujours à l'écoute)
+- **Target** : Sales teams, managers, startups — utilisateurs de Zoom/Meet/Teams
+- **Pricing** : Freemium estimé · Mode proactif (premium) plus cher · Probablement $20-50/user/mois
 
-### 3. Stack Technique
-- **Frontend** : Web app enterprise, probablement dashboard analytics + chat
-- **Backend** : LLM fine-tuné sur data financière + RAG sur documents propriétaires
-- **Infra** : Cloud enterprise, audit trail complet, sécurité SOC2
-- **Data** : 21K+ traces de décisions, 100M+ lignes de données financières structurées
+### 3. Stack technique (estimé)
+- **Frontend** : Web app + intégration navigateur/Electron
+- **Backend** : Whisper STT · LLM (GPT-4/Claude) · webhooks vers 200+ outils
+- **Infra** : Cloud · streaming audio temps réel · faible latence critique
+- **APIs** : Google Meet, Zoom, Teams API · HubSpot, Salesforce, Jira, Notion, Linear
 
 ### 4. Psychologie & JTBD
-- **Triggers** : Autorité (benchmarks > GPT/Claude), Réduction du risque (auditabilité), FOMO (concurrents adoptent déjà l'IA finance)
-- **JTBD** : "Quand j'analyse un deal M&A, je veux des réponses vérifiables et sourcées, pour signer en confiance sans retravailler les chiffres à la main"
-- **Aha moment** : Première analyse avec sources cliquables et timestamps — zéro doute sur les chiffres
+- **Trigger** : Surcharge cognitive en réunion — on ne peut pas écouter ET prendre des notes ET agir
+- **JTBD** : "Sois mon chief-of-staff pendant mes calls — note, réponds, et envoie sans que j'aie à m'en occuper"
+- **Aha moment** : Mina update automatiquement le CRM et crée le ticket Jira pendant le call
+- **Social proof** : PH #2, 200+ intégrations = signal de confiance produit
 
 ### 5. Go-to-Market
-- **Canaux** : Réseau finance (LinkedIn, conférences), Product Hunt pour crédibilité, bouche-à-oreille dans les fonds
-- **Viral loops** : Faible (enterprise B2B) — compensé par contrats longs et LTV élevée
-- **Stratégie** : Sales-led, pilotes enterprise, cas d'usage ROI quantifiable
+- **Canal** : Product Hunt · B2B outbound vers sales teams · intégrations native (Zoom App Marketplace)
+- **Viral loop** : Les participants aux calls voient Mina → curiosité → adoption
+- **Différenciation** : Proactivité vs passivité des concurrents (Otter, Fireflies, Granola)
 
-### 6. Réplication pour Kyle
-- **Complexité** : 8/10 — fine-tuning sur données propriétaires + accréditations + ventes enterprise longues
-- **Angle Kyle** : Le pattern "vertical AI accuracy-first" est réplicable dans d'autres niches : legal AI, medical AI, support client technique. Kyle peut appliquer ce pattern en voice : "Voice AI accuracy-first pour call centers financiers"
-- **Verticaux adjacents** : Legal AI (même pattern), HR screening, compliance voice AI
-- **Temps de dev** : 6-9 mois (data propriétaire = le vrai moat)
+### 6. Réplication & Opportunité Kyle
+- **Complexité** : 8/10 — streaming audio, latence, intégrations multiples, fiabilité
+- **Verticaux adjacents** : Mina pour CS (support vocal) · Mina pour coaching (sports, therapy) · Mina pour médecins
+- **Angle Kyle** : Expertise Voice AI directement applicable — construire la couche "voice-active" que Mina propose mais pour un vertical B2B spécifique (ex : Mina for Sales en France)
+- **Temps de dev** : 4-5 mois pour un MVP vertical avec Whisper + Claude + 3 intégrations clés
 
-## 💰 Unit Economics Deep Dive — Mina Meeting Assistant
-### Mina Meeting Assistant — Estimations (données publiques limitées)
+## 💰 Unit Economics Deep Dive — Fundraisly
+> ⚠️ Estimations basées sur données publiques (PH, LinkedIn, reviews) — pas de données financières officielles disponibles
 
-> ⚠️ Métriques financières non divulguées publiquement. Estimations basées sur benchmarks sectoriels AI meeting tools (Fireflies, Otter, Grain) et taille/traction observée.
-
-| Métrique | Estimation | Source/Méthode |
+| Métrique | Estimation | Hypothèse |
 |---|---|---|
-| **ARR** | ~$2-5M | Early-stage, 100K+ PH votes = strong awareness |
-| **ARPU** | ~$25/mois/siège | Comparable Fireflies Pro ($18) + premium agent features |
-| **Users actifs** | ~8 000-20 000 | Conversion PH 2-4% sur 479K votes historiques |
-| **CAC** | ~$30-60 | PLG + Product Hunt / faible paid acquisition |
-| **LTV** | ~$300-600 | 12-24 mois retention × $25/mois |
-| **LTV/CAC** | ~8-12x | 🟢 Excellent |
-| **Payback period** | ~2-3 mois | Très court grâce au PLG |
-| **Burn estimé** | ~$150-300K/mois | Equipe 5-10 personnes + infra voice AI |
-| **Runway** | Inconnu | Pas de levée publique identifiée |
-| **Rev/Employee** | ~$200-500K ARR | Si 10 personnes, sain pour ce stade |
-| **Rule of 40** | ~40-60% | Growth élevée, marges SaaS typiques |
+| **ARR** | $1.2M–$3.6M | 200-600 clients actifs × $500/mois |
+| **ARPU** | $500–$2 000/mois | Pricing B2B early-stage founders |
+| **Utilisateurs actifs** | 200–600 | Post-launch PH, early traction |
+| **CAC** | $200–$400 | PH organic → très faible CAC launch |
+| **LTV** | $3 000–$12 000 | 6-12 mois rétention (cycle fundraising) |
+| **LTV/CAC** | 15x–30x | Excellent — modèle B2B outbound |
+| **Payback period** | <2 mois | Si CAC $300 × ARPU $500/mois |
+| **Équipe estimée** | 3–6 personnes | Petite équipe, forte automatisation |
+| **Rev / Employee** | $200K–$600K | Indicateur SaaS sain si vrai |
+| **Rule of 40** | 🟢 >80 (estimé) | Croissance explosive post-PH + marges SaaS |
 
-### Verdict Santé Financière : 🟡 PROMETTEUR MAIS PRÉCOCE
+**Sources** : Product Hunt (votes/traction), LinkedIn (taille équipe), PoweredByAI.app, SeedLegals fundraising benchmarks 2026
 
-**Points forts** : LTV/CAC excellent (PLG efficace), marché meeting AI en explosion, intégrations 200+ = stickiness élevée.
-
-**Risques** : Coûts infra voice AI élevés (STT/TTS temps réel), concurrence directe Otter AI, Fireflies, Notion AI — différenciation "agent actif" à défendre sur le long terme. Pas de levée de fonds publique connue = financement par revenus ou seed discret.
-
-**Sources consultées** : [Product Hunt](https://www.producthunt.com/products/mina-meeting-assistant) · [Tracxn Mina](https://tracxn.com/d/companies/mina) · [getmina.ai](https://getmina.ai) · Benchmarks sectoriels Fireflies/Otter/Grain 2026
+**Verdict santé** : 🟢 **SAIN** — Unit economics exceptionnels si les métriques sont confirmées. Le modèle B2B SaaS sur cycle fundraising (6-12 mois) garantit une LTV élevée. Risque principal : churn post-round (le client n'a plus besoin du service une fois levé).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Mina (Agent Meeting) | Vokal (AI Collab) | Leni (Finance AI) |
+| Dimension (poids) | Fundraisly | OpenClaw | Mina Meeting |
 |---|---|---|---|
-| 📊 Market Size (20%) | **8** — $10B+ meeting AI | **7** — $5B+ dev tools | **8** — $50B+ fintech/finance |
-| ⚙️ Complexité inversée (15%) | **4** — WebRTC + agents + 200 intégrations | **6** — context management difficile | **2** — fine-tuning data propriétaire |
-| ⏱️ Time-to-Market (15%) | **5** — 3-4 mois réaliste | **6** — 2-3 mois si scope réduit | **2** — 6-9 mois minimum |
-| 🏟️ Compétition inversée (15%) | **5** — Fireflies, Otter, Notion AI en place | **7** — espace agent collab encore ouvert | **6** — vertical finance AI peu de joueurs |
-| 💰 Revenue Potential (20%) | **8** — $50K+ MRR atteignable an 1 | **7** — $30K+ MRR si bonne exécution | **8** — ACV élevé mais sales long |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **9** — Expert voice AI = avantage direct | **6** — Dev tools, moins dans son core | **4** — Finance = domaine étranger |
+| 📊 Market Size (20%) | 8 — $5B+ fundraising market | 9 — $50B+ AI assistant | 8 — $10B+ meeting tools |
+| ⚙️ Complexity inversé (15%) | 5 — DB investisseurs + LLM outreach | 2 — 50+ intégrations, multi-OS | 4 — streaming temps réel |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois MVP réaliste | 2 — 6-9 mois minimum | 4 — 4-5 mois vertical MVP |
+| 🏟️ Competition inversé (15%) | 7 — peu de concurrents directs IA | 5 — OpenAI / Google dans la course | 4 — Otter/Fireflies/Granola déjà là |
+| 💰 Revenue Potential (20%) | 8 — $50K+ MRR réaliste en 6 mois | 4 — open-source, monétisation indirecte | 7 — $30K+ MRR modèle SaaS |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 6 — pas son coeur de métier | 8 — fork Voice AI = killer use case | 9 — expertise Voice AI directe |
 
-### Scores Pondérés
+| App | Score pondéré | Verdict |
+|---|---|---|
+| **Fundraisly** | **(0.2×8)+(0.15×5)+(0.15×5)+(0.15×7)+(0.2×8)+(0.15×6)** = **6.7** | 🟡 BUILD ADJACENT |
+| **OpenClaw** | **(0.2×9)+(0.15×2)+(0.15×2)+(0.15×5)+(0.2×4)+(0.15×8)** = **5.4** | 🟠 WATCH |
+| **Mina Meeting** | **(0.2×8)+(0.15×4)+(0.15×4)+(0.15×4)+(0.2×7)+(0.15×9)** = **6.5** | 🟡 BUILD ADJACENT |
 
-| App | Calcul | **Score final** | Verdict |
-|---|---|---|---|
-| **Mina (réplication)** | (8×0.20)+(4×0.15)+(5×0.15)+(5×0.15)+(8×0.20)+(9×0.15) | **6.55** | 🟡 BUILD ADJACENT |
-| **Vokal (réplication)** | (7×0.20)+(6×0.15)+(6×0.15)+(7×0.15)+(7×0.20)+(6×0.15) | **6.65** | 🟡 BUILD ADJACENT |
-| **Leni (pattern)** | (8×0.20)+(2×0.15)+(2×0.15)+(6×0.15)+(8×0.20)+(4×0.15) | **5.30** | 🟠 WATCH |
-
-> **Note** : Le score de Mina serait 🟢 BUILD NOW (≥7.5) si Kyle cible un vertical précis où il a déjà des contacts (ex : voice AI pour sales teams françaises). La complexité inversée pénalise une réplication générique, pas une verticale ciblée.
+**🏆 Recommandation #1 pour Kyle** : Mina-like pour une vertical B2B précise (ex: Sales Voice AI pour PME françaises) — score Founder-Fit maximal + marché sous-adressé en Europe francophone.
 
 ## 📈 Tendances Émergentes
-### 1. 🎙️ L'IA passe de "spectateur" à "participant actif"
-Mina en est l'exemple parfait : on passe de l'IA qui transcrit/résume après le meeting à l'IA qui parle, agit, et exécute pendant le meeting. Ce shift "passive → active" va toucher tous les workflows (support, sales, RH). Kyle est parfaitement positionné pour ce mouvement.
+### 1. 🤖 Les agents IA passent de l'assistance à l'action
+Fini les chatbots qui répondent. 2026 est l'année des agents qui *font* : Fundraisly book des réunions, Mina update des CRM, OpenClaw envoie des messages. Le marché paie pour les résultats, pas pour les conversations.
 
-### 2. 🤖 Les agents IA sont devenus des coéquipiers, pas des outils
-Vokal traduit la tendance GitHub (OpenClaw, 210K étoiles — assistant IA personnel sur tous vos devices) en espace de travail collaboratif. 2026 = l'année où les équipes onboardent leurs premiers "employés IA". Besoin d'infrastructure de collaboration humain-agent.
+### 2. 🏠 Local-first & Privacy-first comme différenciateur
+OpenClaw prouve que 3.2M d'utilisateurs préfèrent un agent self-hosted à un service cloud. Signale une fatigue des abonnements + sensibilité croissante à la vie privée. Opportunité réelle pour les agents voix "on-premise".
 
-### 3. 🎯 Vertical AI Accuracy-First — le nouveau moat
-Leni montre que "meilleur que GPT dans mon domaine" est un message fort qui convertit en B2B. Les LLMs généralistes ont créé l'attente de l'IA partout — les verticaux accuracy-first (finance, legal, médical) capturent les budgets enterprise car ils prouvent la précision. Pattern réplicable en voice AI spécialisé.
+### 3. 🎙️ Voice AI intégré aux workflows (pas standalone)
+Mina ne vend pas un assistant vocal — elle vend une action dans un workflow existant. Le voice n'est plus un produit en soi, c'est une couche d'interface sur des outils métier. Les meilleurs produits voice de 2026 s'intègrent (Zoom, Slack, CRM) plutôt que de remplacer.
 
-### 4. 🔌 MCP devient l'infrastructure invisible du SaaS
-Databox MCP (34K votes PH) et l'écosystème d'outils MCP (Smithery, PulseMCP) montrent que le Model Context Protocol d'Anthropic est adopté massivement. Les SaaS qui n'offrent pas de MCP server seront en retard dans 6 mois. Distribution via Claude/Cursor = nouveau canal d'acquisition.
+### 4. 🇫🇷 Gap Europe / marché FR sous-adressé
+Tous les produits viraux cette semaine sont US-first. La réglementation RGPD, la langue française, et les spécificités des PME européennes créent une opportunité pour des verticaux "AI agents made in Europe" — moins de concurrence, marché captif.
 
-### 5. 🏃 Solo founders et micro-équipes battent les grosses équipes
-Les outils AI coding (Claude Code, Codex) permettent à des fondateurs seuls de livrer en semaines ce qui prenait 6 mois. Compétition asymétrique = une personne avec le bon angle bât une équipe de 10 sans IA. OpenClaw : 0 à 210K étoiles en quelques mois, solo founder.
+### 5. 🔧 Écosystème > Produit
+OpenClaw le démontre : l'open-source crée un écosystème ($5-15M/mois) plus valuable que le produit lui-même. Les fondateurs futés construisent des plateformes extensibles avec marketplaces de skills/plugins dès le départ.
 
-## 💡 Insights Actionnables
-### 🔥 Insight #1 : Kyle = Mina en Vertical (à faire maintenant)
-Mina est généraliste. Kyle a l'expertise voice AI + réseau SaaS. L'opportunité = **reproduire le core de Mina sur un vertical précis en France/EU** : meetings commerciaux B2B en français, call center inbound, support client SaaS. Stack : Vapi/Retell pour l'orchestration voice, Claude pour le reasoning, Zapier/Make pour les intégrations. Avantage compétitif : langue française, conformité RGPD, réseau existant.
+## 💡 Insights Actionnables pour Kyle
+### 🎯 Insight #1 — BUILD : "Mina pour Sales FR" (6-8 semaines)
+**Le produit** : Un agent vocal qui rejoint les appels de démo/découverte des commerciaux français, parle si besoin, update le CRM (Hubspot/Pipedrive) en temps réel, et envoie le follow-up email automatiquement.
+**Pourquoi Kyle** : Tu as l'expertise Voice AI + réseau SaaS B2B francophone. Aucun concurrent sérieux en France. Prix cible : €49-99/user/mois.
+**Priorité** : 🔴 HIGH — fenêtre de 3-6 mois avant que Mina lance en Europe.
 
-**Action immédiate** : Identifier 5 entreprises dans son réseau qui font >50 calls/semaine et valider la douleur "l'IA n'agit pas pendant mes calls".
+### 🎯 Insight #2 — WATCH : Fork OpenClaw "Voice Layer"
+**Le produit** : Ajouter une couche voice-native sur OpenClaw — "parle à ton agent local via micro, il répond vocalement et agit dans tes apps".
+**Pourquoi Kyle** : Différenciation claire dans l'écosystème OpenClaw, potentiel de contribution open-source = distribution gratuite.
+**Priorité** : 🟡 MEDIUM — effort 2-3 mois, retour communautaire potentiellement viral.
 
-### 🔥 Insight #2 : MCP Server = Distribution Gratuite
-Construire un MCP server pour son produit = apparaître dans Claude Desktop, Cursor, n8n sans budget marketing. Le coût de dev = 1-2 jours. Le gain = distribution dans tous les outils AI des power users. **Action** : Si Kyle a déjà un produit, ajouter un MCP server en priorité sprint suivant.
+### 🎯 Insight #3 — ADJACENT : "Fundraisly pour le Marché FR/EU"
+**Le produit** : Même concept mais base d'investisseurs européens (Kima, Partech, Seedcamp, business angels FR), adapté au marché francophone, conforme RGPD.
+**Pourquoi Kyle** : Réseau startup FR, compréhension des dynamiques VC européennes, besoins différents des fondateurs EU vs US.
+**Priorité** : 🟠 LOW — marché plus petit, cycle de vente plus long.
 
-### 🔥 Insight #3 : "Active AI Participant" > "AI Notetaker" dans le pitch
-La différenciation messaging de Mina (agent qui parle vs transcripteur) génère 3x plus d'engagement. Pour tout produit voice AI, le pitch ne devrait plus jamais dire "transcription" ou "résumé" — dire "exécute", "répond", "agit". Implication directe pour le copywriting de toute landing page Kyle.
-
-### 📌 Signaux faibles à surveiller
-- **Wave** (voice-to-text local/cloud macOS) : modèle privacy-first qui montre que les users veulent contrôler où leurs données vocales sont traitées → leçon pour tout produit voice AI : offrir le choix local/cloud augmente la conversion
-- **OpenClaw** (210K étoiles GitHub) : assistant IA local + 50+ intégrations = template architectural pour un hub vocal personnel — à explorer pour un produit consumer voice AI
-- **TikTok pour papers scientifiques** (Show HN) : format "scroll vertical + contenu dense" appliqué à de nouveaux domaines — tendance de la verticalisation des formats de consommation de contenu
+### 📌 Action immédiate (cette semaine)
+1. Tester Mina Meeting Assistant en situation réelle — identifier les frictions dans le marché FR
+2. S'inscrire sur la waitlist OpenClaw + rejoindre Discord des contributors
+3. Interviewer 5 Sales Managers FR sur leur stack calls actuels (outil de recherche pour Insight #1)
