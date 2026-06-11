@@ -1,220 +1,192 @@
-# 🔥 Market Scan — 2026-06-10
+# 🔥 Market Scan — 2026-06-11
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (AethexAI, Mina Meeting Assistant, Vokal)
-- Top potentiel : AethexAI (voice AI marchés émergents, $3M levés juin 2026)
-- Opportunités immédiates (BUILD ADJACENT) : AethexAI 🟡 (6.65) · Mina Meeting 🟡 (6.55)
-- Recommandation principale : BUILD "Mina for FR" en 3–5 mois (lowest complexity, highest Kyle-fit)
+- Apps analysées : 3
+- Top potentiel : Wispr Flow (voice OS → $2B)
+- Opportunités immédiates (BUILD NOW) : 1 (Wispr vertical)
 
-## 🏆 TOP APP #1 : AethexAI
+## 🏆 TOP APP #1 : Wispr Flow
+### 1. Identification
+- **URL** : [wisprflow.ai](https://wisprflow.ai) | Launch : 2023, explosion 2026
+- **Fondateurs** : Tanay Dixit, Siddharth Sharma (ex-Notion, ex-Berkeley AI Lab)
+- **Catégorie** : Voice dictation / Voice OS
+- **Métriques buzz** : $25M levée nov. 2025, $2B valuation cible juin 2026 (Menlo Ventures), 2.5M downloads, 270 Fortune 500, 40% MoM growth, 80% rétention 6 mois
 
-**Identification**
-- **URL** : aethexai.com | **Launch** : juin 2026 (platform + pre-seed) | **Catégorie** : Voice AI Infrastructure B2B
-- **Fondateurs** : Mariama Diallo (ex-Goldman Sachs → ModelML) + Ayooluwa Odemuyiwa (Caltech CS, ex-Meta → Stanford GSB '26)
-- **Buzz** : TechCrunch, Gulf Business, Tech.eu, iAfrica, TechAfrica News — 8+ médias en 72h post-launch
-- **Financement** : $3M pre-seed led by 4DX Ventures + Enza Capital, Dorm Room Fund, Mojo Ventures, Stanford GSB 26 Fund
+### 2. Proposition de valeur
+- **Problème** : Le clavier est un frein cognitif — parler est 3× plus rapide
+- **Solution** : Dictée voix contextuelle dans *toutes* les apps (Slack, Gmail, Notion, code…), avec correction style automatique
+- **USP** : "Voice Operating System" — pas un outil, une nouvelle interface universelle
+- **Target** : Knowledge workers, fondateurs, executives, +25K apps supportées
+- **Pricing** : ~$12/mois consumer · enterprise deals six figures · 19% taux de paiement
 
-**Proposition de valeur**
-- **Problème** : Les modèles voice AI globaux (Whisper, ElevenLabs) coûtent $0.10+/min et échouent sur les dialectes africains/Moyen-Orient (anglais nigérian, Darija, Hausa, arabe leventin)
-- **Solution** : Modèles Kora (300M–1.7B params) entraînés sur call centers locaux, radio, contenus — optimisés bruit + accents
-- **USP** : 3× moins cher ($0.035/min), précision supérieure sur dialectes locaux, faible bande passante
-- **Target** : Enterprises, telecoms, call centers BPO en Afrique + Moyen-Orient (marché 1,5 Md personnes)
-- **Pricing** : $0.035/min (API) + SDK gratuit pour devs
+### 3. Stack technique
+- **Frontend** : macOS native app (Swift), extension navigateur
+- **Backend** : Whisper custom fine-tuned + modèles maison · cloud AWS/GCP
+- **APIs** : Deepgram (transcription temps-réel), LLM Claude/GPT-4 pour reformulation
+- **Infra** : Edge processing pour latence <200ms
 
-**Stack technique**
-- Kora 1 (modèles maison, 300M–1.7B params), couche orchestration custom
-- Datasets : call centers + radio + plateformes contenu sous licence
-- APIs REST + SDKs pour intégration enterprise
+### 4. Psychologie
+- **JTBD** : "J'ai trop à écrire, pas assez de temps" → parler = valeur immédiate
+- **Aha moment** : Premier email dicté en 30 secondes dans Gmail — sans changer d'app
+- **Triggers** : Urgence (productivité perdue), Social proof (270 Fortune 500), Autorité (ex-Notion founders)
+- **Rétention** : Muscle memory — une fois adopté, impossible de revenir au clavier
 
-**Psychologie du succès**
-- **Trigger** : Prix (3× sous marché) + Précision sur dialectes = combo imbattable
-- **JTBD** : "Automatiser mon call center en anglais nigérian sans payer une fortune ni obtenir des transcriptions inutilisables"
-- **Aha moment** : Premier appel transcrit correctement en Hausa ou Darija
-- **Autorité** : Pedigree Goldman + Meta + Stanford + investors Africa-first
+### 5. Go-to-market
+- **Canaux** : Influenceurs productivité YouTube/X · bouche-à-oreille viral · B2B via IT admins
+- **Launch** : Product Hunt #1 · newsletter morning brew · TechCrunch coverage
+- **Viral loop** : "Dicté avec Wispr Flow" signature automatique → signups organiques
 
-**Go-to-market**
-- TechCrunch comme PR catalyst au lancement → crédibilité instantanée
-- API freemium devs → enterprises adoptent → cas d'usage publiés (PLG bottom-up)
-- Partenariats cibles : MTN, Safaricom, call centers BPO
+### 6. Réplication
+- **Complexité** : 6/10 — whisper API existe, complexité = UX system-level + style learning
+- **Verticaux adjacents** : Voice-to-CRM (commercial), voice coding assistant, voice customer service script builder
+- **Angle Kyle** : Wispr vertical = voice dictation pour **agents de vente** → pipeline CRM auto-rempli par la voix après chaque appel
+- **Temps de dev** : 8-12 semaines MVP vertical, ~€15-25K budget infra
 
-**Réplication & angle Kyle**
-- **Complexité** : 8/10 (entraînement LM propre + datasets locaux = gros chantier)
-- **Verticaux adjacents** : Asie du Sud-Est (Bahasa, Tagalog), Amérique Latine (espagnol régional)
-- **Angle Kyle** : Construire "voice AI pour marché francophone africain" (Sénégal, CI, Cameroun) — fine-tuning Vapi/Hume AI sur accents FR-africains, pricing 3× sous Vapi global → blue ocean immédiate
-- **Temps de dev** : 8–14 mois (MVP avec fine-tuning modèles existants)
+## 🏆 TOP APP #2 : Vapi
+### 1. Identification
+- **URL** : [vapi.ai](https://vapi.ai) | Launch : 2023, Series B mai 2026
+- **Fondateurs** : Jordan Dearsley, Nikhil Gupta (ex-Scale AI)
+- **Catégorie** : Voice AI infrastructure / API platform
+- **Métriques buzz** : $50M Series B (Peak XV + Kleiner + Bessemer), $500M valuation, 1B+ calls processed, 1M+ developers, 10× enterprise ARR en 12 mois, Amazon Ring deal (100% inbound calls)
 
-## 🏆 TOP APP #2 : Mina Meeting Assistant
+### 2. Proposition de valeur
+- **Problème** : Construire un agent vocal coûte 6-12 mois (latence, interruptions, contexte)
+- **Solution** : API clé-en-main pour agents vocaux — orchestration LLM + STT + TTS + gestion d'interruptions en temps-réel
+- **USP** : Latence <500ms, gestion native des interruptions, 1M→1B developers en auto-scale
+- **Target** : Devs indie + entreprises (customer support, sales, Ring/IoT)
+- **Pricing** : Pay-per-minute (~$0.05/min) + enterprise plans six figures
 
-**Identification**
-- **URL** : getmina.ai | **Launch** : 2026 (PH launch récent) | **Catégorie** : AI Meeting Agent
-- **Fondateurs** : Sridhar Muppidi (co-founder, ex-[x]cube LABS, serial entrepreneur India/US)
-- **Buzz** : Product Hunt trending (score hunted.space : 479135), 47 upvotes PH, 200+ intégrations comme signal de crédibilité
-- **Financement** : Non divulgué (bootstrapped probable)
+### 3. Stack technique
+- **Frontend** : SDKs Web/Mobile/Python, dashboard no-code assistant builder
+- **Backend** : Orchestration propriétaire + Deepgram STT + ElevenLabs/Cartesia TTS + OpenAI/Anthropic LLM
+- **Infra** : Multi-cloud, edge PoPs pour latence globale
+- **APIs** : Webhooks, function calling, real-time transcription streaming
 
-**Proposition de valeur**
-- **Problème** : Les note-takers IA (Otter, Fireflies, Granola) transcrivent mais n'agissent pas — les équipes passent 30–60 min post-call à créer tickets, mettre à jour CRM, rédiger follow-ups
-- **Solution** : Mina rejoint l'appel, répond en temps réel, exécute des actions (tickets Jira, update HubSpot, propositions, summaries Notion) PENDANT l'appel
-- **USP** : Premier AI meeting assistant qui parle + agit live (vs. record/transcribe async)
-- **Target** : Sales teams, CS, PM, founders faisant 5+ calls/semaine
-- **Pricing** : Freemium + mode proactif premium (tarif non divulgué)
+### 4. Psychologie
+- **JTBD** : "Je veux déployer un agent vocal en 1 semaine, pas en 6 mois"
+- **Aha moment** : Premier appel live en 15 minutes via playground
+- **Triggers** : Autorité (Amazon Ring reference), FOMO (1B calls = preuve marché), Social proof (1M devs)
+- **Rétention** : Lock-in architectural — intégré dans CI/CD, impossible à sortir sans refacto
 
-**Stack technique**
-- 200+ intégrations (Slack, HubSpot, Salesforce, Jira, Notion, Google Meet, Zoom, Teams, Linear, GitHub)
-- Voice AI real-time + LLM multi-action
-- Architecture agents (exécution de skills mid-call)
+### 5. Go-to-market
+- **Canaux** : DevRel (Discord 50K+), YC network, enterprise direct sales
+- **Launch** : Developer community first → enterprise accounts upsell
+- **Viral loop** : "Powered by Vapi" dans les apps clients → signups devs
 
-**Psychologie du succès**
-- **JTBD** : "Je veux sortir d'un call avec 0 admin à faire"
-- **Trigger** : Gain de temps + urgence (live vs. async) + effet "wow" visible par tous les participants
-- **Aha moment** : Voir le ticket Jira créé et la fiche HubSpot mise à jour PENDANT l'appel, sans avoir rien fait
-- **Viral loop** : Un participant voit "Mina" rejoindre la réunion → curiosité → adoption Bottom-up B2B
-
-**Go-to-market**
-- Product Hunt + LinkedIn (demo vidéo courte — format 60s "before/after")
-- PLG : invitation de Mina dans une réunion → les collègues demandent ce que c'est
-- Onboarding en <2 min via lien de calendrier
-
-**Réplication & angle Kyle**
-- **Complexité** : 6/10 (APIs Zoom/Meet + LLM + webhooks intégrations = faisable solo/duo)
-- **Verticaux adjacents** : Sales calls B2B, interviews RH, customer support calls
-- **Angle Kyle** : "Mina pour le marché francophone" — même concept en français, intégrations Pipedrive + Notion + Pennylane, différenciateur multilingue FR/EN. Premier mover en France.
-- **Temps de dev** : 3–5 mois pour un MVP Zoom + 10 intégrations clés
+### 6. Réplication
+- **Complexité** : 9/10 — infra temps-réel ultra-complexe, 18+ mois min, pas pour indie solo
+- **Verticaux adjacents** : Vapi vertical = wrapper spécialisé (immobilier, médical, banque)
+- **Angle Kyle** : Ne pas répliquer Vapi — **construire dessus**. Exemple : agent vocal spécialisé real estate sur Vapi + CRM intégré → €2K/mois par agence
+- **Temps de dev** : 3-6 semaines pour un vertical wrapper sur Vapi
 
 ## 🏆 TOP APP #3 : Vokal
+### 1. Identification
+- **URL** : [vokal.team](https://vokal.team) | Launch : juin 2026 (PH)
+- **Fondateurs** : Zhen Han (ex-Meta, ex-Google)
+- **Catégorie** : AI team collaboration / Human-agent workspace
+- **Métriques buzz** : #2 PH du jour, ~45K upvotes semaine PH, 100+ teams signed up J+1, self-funded
 
-**Identification**
-- **URL** : vokal.team | **Launch** : fin mai / début juin 2026 (PH ~1 semaine avant scan) | **Catégorie** : AI Agent Collaboration Workspace
-- **Fondateurs** : Zhen (ex-Meta, ex-Google)
-- **Buzz** : Product Hunt trending récent, promo "1 mois gratuit" pour PH community, forte traction communauté agentique
-- **Financement** : Non divulgué (pre-seed probable)
+### 2. Proposition de valeur
+- **Problème** : Les agents AI (Claude Code, Codex, Hermes) tournent en silo — coordination humain-agent = chaos de copier-coller
+- **Solution** : Workspace partagé où agents et humains coexistent : rôles, mémoire, accès, logs visibles
+- **USP** : "Le Slack où vos agents ont aussi un seat" — collaboration asynchrone et synchrone unifiée
+- **Target** : Startups < 20 personnes, indie devs avec agents multiples, fondateurs solo augmentés
+- **Pricing** : Freemium (non confirmé) · probablement $20-50/user/mois
 
-**Proposition de valeur**
-- **Problème** : Les équipes utilisent Claude Code, Codex, Hermes en silos — aucune coordination, pas de mémoire partagée, pas de review en contexte. Le management d'agents est chaotique.
-- **Solution** : Workspace live où humains + agents partagent channels, tâches, docs, outils, mémoire et Knowledge Base. Les agents sont visibles, redirigibles, reviewables en temps réel.
-- **USP** : "Slack for teams + AI agents" — premier outil qui donne une vraie visibilité sur ce que font les agents
-- **Target** : Startups tech délégant du vrai travail à plusieurs agents IA (engineering, research, launch, support, ops)
-- **Pricing** : Freemium / per-seat (modèle à confirmer)
+### 3. Stack technique
+- **Frontend** : Web app React/Next.js
+- **Backend** : Node.js / Edge functions · intégrations Claude, Codex, Hermes API
+- **Infra** : Vercel/Supabase (stack typique indie)
+- **APIs** : Anthropic, OpenAI Codex, webhooks agents
 
-**Stack technique**
-- Compatible : Claude Code, Codex, Hermes, OpenCode, MCP, agents custom
-- Channels temps réel + task management + knowledge base intégrée
-- Monitoring agent live + redirect mid-flight
+### 4. Psychologie
+- **JTBD** : "J'ai 5 agents qui travaillent pour moi mais je ne vois pas ce qu'ils font ensemble"
+- **Aha moment** : Premier handoff agent→humain visible dans un thread partagé
+- **Triggers** : Timing (l'AI-native workplace est le moment), FOMO founder ("tous les 10x teams font ça")
+- **Rétention** : Mémoire des agents = lock-in fort, tout le contexte est dans Vokal
 
-**Psychologie du succès**
-- **JTBD** : "Je veux que mes agents IA travaillent ensemble sans que je perde le contrôle ou le contexte"
-- **Trigger** : FOMO (Claude Code + Codex explosent, la coordination reste non-résolue) + pedigree Meta/Google
-- **Aha moment** : Voir son agent engineering et son agent PM travailler sur la même tâche, en sync, dans un seul feed
-- **Timing** : Lancé exactement quand le besoin émerge (pic d'adoption agents dev en H1 2026)
+### 5. Go-to-market
+- **Canaux** : Product Hunt, X/Twitter #buildinpublic, bouche-à-oreille founders
+- **Launch** : PH Day 1 + founder sur X avec thread behind-the-scenes
+- **Viral loop** : "Rejoins notre workspace Vokal" → invitations organiques entre équipes
 
-**Go-to-market**
-- Product Hunt + Twitter/X #buildinpublic + communauté Claude Code
-- Viral loop : un dev invite le workspace → son équipe adopte → word-of-mouth tech
-- Timing parfait avec l'explosion de Claude Code et OpenAI Codex en 2026
+### 6. Réplication
+- **Complexité** : 5/10 — UI collaborative + intégrations API agents, pas de magie technique
+- **Verticaux adjacents** : Voice-first version de Vokal, Vokal pour freelances créatifs, Vokal vertical agences
+- **Angle Kyle** : Vokal + Voice = workspace où les agents *parlent* compte-rendu à voix haute après chaque tâche → différenciation forte, niche agences/consultants
+- **Temps de dev** : 4-8 semaines MVP si on construit sur Vapi + Supabase
 
-**Réplication & angle Kyle**
-- **Complexité** : 7/10 (coordination multi-agents + real-time sync + auth = non trivial)
-- **Verticaux adjacents** : Agences digitales, dev shops, équipes marketing multi-agents
-- **Angle Kyle** : Moins direct (pas voix), mais opportunité de construire "orchestration voice-first" — Vokal pour call centers avec agents voice. Niche très précise avec forte barrière à l'entrée.
-- **Temps de dev** : 6–9 mois
+## 💰 Unit Economics Deep Dive — Wispr Flow
+### Sources : TechCrunch, Latka, PRNewswire, wisprflow.ai
 
-## 💰 Unit Economics Deep Dive — AethexAI
+| Métrique | Estimation | Confiance |
+|---|---|---|
+| **ARR** | ~$15-20M (40% MoM growth depuis $10M Latka 2025) | 🟡 Moyen |
+| **Users payants** | ~120K-160K (19% taux paiement × 2.5M downloads) | 🟡 Moyen |
+| **ARPU** | ~$100-130/an (~$10-12/mois consumer avg) | 🟢 Élevé |
+| **CAC** | ~$8-15 (acquisition organique dominante, viral) | 🟡 Moyen |
+| **LTV** | ~$240-390 (80% rétention 6 mois → ~30-36 mois durée) | 🟡 Moyen |
+| **LTV/CAC** | **~20-30×** | 🟢 Excellent |
+| **Payback period** | < 2 mois | 🟢 Excellent |
+| **Funding total** | $81M (Series A $25M nov. 2025 + précédents) | 🟢 Confirmé |
+| **Valuation cible** | ~$2B (Menlo Ventures, talks 2026) | 🟢 Confirmé |
+| **Burn estimé** | ~$3-5M/mois (équipe ~80 personnes SF) | 🟡 Moyen |
+| **Runway** | ~18-24 mois avec $81M raised | 🟡 Moyen |
+| **Rev/Employee** | ~$190-250K ARR/employee (80 FTE) | 🟢 Bon |
+| **Rule of 40** | ~90+ (40% MoM growth + marges SaaS) | 🟢 Excellent |
 
-> Sources : TechCrunch (juin 2026), TechFundingNews, iAfrica.com, Tracxn, estimations modèle SaaS B2B infra
-
-**Métriques clés estimées**
-
-| Métrique | Estimation | Hypothèse |
-|----------|-----------|-----------|
-| ARR actuel | ~$0–50K | Launch phase, pilotes enterprises |
-| ARR potentiel Y2 | $2–5M | 50 enterprises @ $40–100K/an |
-| ARPU mensuel | $3K–10K | Enterprise SaaS API usage |
-| # Clients actuels | 5–20 pilotes | Phase de launch |
-| CAC estimé | $5K–15K | Sales enterprise direct/inbound |
-| LTV estimé | $36K–120K | Rétention 3 ans (infra = sticky) |
-| LTV/CAC | 5–8× | ✅ Excellent (seuil sain = 3×) |
-| Payback period | 6–18 mois | Standard B2B infra |
-| Burn mensuel | ~$150–200K | $3M / 18–24 mois runway |
-| Runway | 15–20 mois | Pré-revenue = mode urgence |
-| Rev/Employee | N/A | Équipe <5 personnes |
-| Rule of 40 | N/A | Trop tôt |
-
-**Analyse des revenus**
-
-Modèle à l'usage ($0.035/min) + potentiel contrats enterprise annuels :
-- Call center 100K min/mois → **$3,500/mois** → $42K ARR par client
-- Telecom partenaire 10M min/mois → **$350K/mois** → $4.2M ARR par deal
-- Un seul gros contrat telecom = breakeven potentiel
-
-**Verdict santé 🟡**
-
-Startup en phase pré-revenue mais avec thesis extrêmement solide :
-- ✅ Marché non-servi réel (1,5 Md personnes, 0 solution locale compétitive)
-- ✅ Pricing 3× sous le marché = adoption rapide si produit fonctionnel
-- ✅ Investors spécialisés Africa (4DX Ventures = top tier)
-- ⚠️ Risque : cycles de vente lents avec telecoms africains (6–18 mois)
-- ⚠️ Risque : infra faible bande passante → performance à prouver en prod
-- ⚠️ Runway 15–20 mois = pressure pour revenue rapide
+**Verdict santé financière : 🟢 EXCEPTIONNEL**
+LTV/CAC de 20-30× est best-in-class. La croissance organique (viral, word-of-mouth) maintient un CAC ultra-bas. Le risque = compétition Apple/Google intégrant dictée IA native dans iOS/macOS.
 
 ## 🎯 Opportunity Scorecard — Top 3
+| Dimension (poids) | Wispr Flow vertical | Vapi vertical wrapper | Vokal voice-first |
+|---|---|---|---|
+| 📊 Market Size (20%) | **9** — TAM voice input = $50B+ | **8** — Voice AI infra = $20B+ | **7** — Team collab = $15B+ |
+| ⚙️ Complexité inversé (15%) | **6** — Whisper API ok, UX difficile | **8** — Wrapper simple sur Vapi | **6** — Collab temps-réel non trivial |
+| ⏱️ Time-to-Market (15%) | **5** — 8-12 semaines | **8** — 3-6 semaines | **6** — 4-8 semaines |
+| 🏟️ Compétition inversé (15%) | **5** — Wispr/Dragon/Apple en place | **7** — Niches verticales sous-servies | **7** — Vokal vient de lancer |
+| 💰 Revenue Potential (20%) | **8** — €50K+ MRR en 12 mois réaliste | **8** — €20-80K MRR par vertical | **7** — €15-50K MRR |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Voice AI expert + SaaS | **10** — Voice AI expert + SaaS | **7** — SaaS fit, voice différenciant |
 
-| Dimension | Poids | AethexAI | Mina Meeting | Vokal |
-|-----------|:-----:|:--------:|:-----------:|:-----:|
-| 📊 Market Size | 20% | 8 | 7 | 6 |
-| ⚙️ Complexité inversée | 15% | 3 | 6 | 4 |
-| ⏱️ Time-to-Market | 15% | 3 | 7 | 4 |
-| 🏟️ Compétition inversée | 15% | 8 | 4 | 7 |
-| 💰 Revenue Potential | 20% | 8 | 7 | 6 |
-| 🧑‍💻 Founder-Fit Kyle | 15% | 9 | 8 | 5 |
-| **Score pondéré** | | **6.65** | **6.55** | **5.40** |
-| **Verdict** | | 🟡 BUILD ADJACENT | 🟡 BUILD ADJACENT | 🟠 WATCH |
+| App | Score pondéré | Verdict |
+|---|---|---|
+| **Wispr vertical (sales CRM)** | **(9×0.2)+(6×0.15)+(5×0.15)+(5×0.15)+(8×0.2)+(10×0.15) = 7.40** | 🟡 BUILD ADJACENT |
+| **Vapi vertical wrapper** | **(8×0.2)+(8×0.15)+(8×0.15)+(7×0.15)+(8×0.2)+(10×0.15) = 8.05** | 🟢 BUILD NOW |
+| **Vokal voice-first** | **(7×0.2)+(6×0.15)+(6×0.15)+(7×0.15)+(7×0.2)+(7×0.15) = 6.75** | 🟡 BUILD ADJACENT |
 
-**Notes de scoring**
-
-**AethexAI (6.65 🟡 BUILD ADJACENT)**
-- Fort sur market size + blue ocean + Kyle fit (voice AI expert)
-- Faible sur complexité (modèles propres) et time-to-market (8–14 mois)
-- L'angle "voice AI francophone Africa" reste accessible si on utilise fine-tuning vs. modèles maison
-
-**Mina Meeting Assistant (6.55 🟡 BUILD ADJACENT)**
-- Bon équilibre complexité/market — le plus rapide à builder pour Kyle
-- Compétition croissante (Otter, Fireflies, Granola) mais pas encore de leader en FR
-- Score Kyle fort : expertise voice AI + SaaS PLG = combo parfait
-
-**Vokal (5.40 🟠 WATCH)**
-- Bon timing mais marché de niche (devs avec multi-agents)
-- Pas de composante voice = fit Kyle moyen
-- À surveiller : si PLG s'emballe, l'extension "voice orchestration" devient intéressante
+**🏆 Recommandation #1 pour Kyle : Vapi Vertical Wrapper**
+Construire un agent vocal B2B spécialisé (ex: real estate, recrutement, service client PME) sur l'infrastructure Vapi. Time-to-market < 6 semaines. Kyle a l'expertise voice AI pour différencier sur la qualité et le prompt engineering verticalisé.
 
 ## 📈 Tendances Émergentes
+### 1. Voice devient une interface système (pas un feature)
+Wispr Flow ne vend pas "dictée", elle vend une couche OS. Vapi ne vend pas "un chatbot vocal", il vend de l'infra. La voix sort de la niche pour devenir *le* paradigme d'interaction B2B. Signal : 270 Fortune 500 sur Wispr, Amazon Ring sur Vapi.
 
-**1. Voice AI pour marchés non-servis — la prochaine vague**
-Les gros acteurs (OpenAI, ElevenLabs, Deepgram) ignorent les dialectes locaux. AethexAI valide qu'il existe un marché enterprise énorme dans les marchés émergents (Africa, Moyen-Orient, Asie du Sud-Est). Opportunité symétrique pour l'Europe francophone (accents régionaux, langues d'immigration).
+### 2. Human-Agent Collaboration = la prochaine catégorie SaaS
+Vokal, Linear, Cursor, Claude Code — tous convergent vers un workspace où agents AI et humains partagent le même contexte. La "chaise pour l'agent" est une métaphore produit qui résonne fort. Prochaine étape : facturation par agent-seat.
 
-**2. Shift "Record & Transcribe" → "Act in Real-Time"**
-Mina représente un pivot fondamental : le marché des AI meeting tools quitte la phase note-taking (Otter 2020–2024) pour entrer dans la phase action-in-context (2025–2026+). Qui sera le Salesforce de cette couche ? Pas encore décidé.
+### 3. Infrastructure AI open-source > propriétaire (dev tools)
+OpenClaw a battu React en stars GitHub (250K en 60 jours). Les devs veulent des outils locaux, compréhensibles, modifiables. Signal contre-cyclique dans un monde d'APIs closed-source.
 
-**3. AI Agent Collaboration Layer — nouveau segment**
-Vokal identifie un besoin qui n'existait pas il y a 12 mois : coordonner des équipes d'agents IA. Ce segment va exploser en H2 2026 à mesure que l'adoption de Claude Code, Codex, et agents spécialisés accélère. Le "Slack for agents" sera un outil critique.
+### 4. Verticalization de l'AI : fini les outils génériques
+Les winners 2026 sont verticaux. Granola (meetings seulement) → $1.5B. Vapi (voice API seulement) → $500M. Le marché punit le générique. Chaque catégorie AI mature se fragmente en 5-10 verticaux.
 
-**4. Pricing à l'usage > abonnement fixe pour l'infra AI**
-AethexAI ($0.035/min), Vapi, Deepgram — tous adoptent le pricing usage-based. Les clients B2B préfèrent payer à la valeur consommée pour les outils d'infrastructure. Signal fort pour tout produit voice AI/agent Kyle envisagerait de construire.
-
-**5. Distribution first, product second en 2026**
-AethexAI : 8 articles de presse en 72h sans budget pub. Mina : demo vidéo 60s sur PH. Le pattern gagnant est : construire une demo qui rend l'insight immédiat, puis distribution PR/PH simultanée au launch. Le produit seul ne suffit plus.
+### 5. GTM : Reddit + X >> Product Hunt pour traction organique
+Les fondateurs qui performent le mieux en 2026 ne comptent pas sur PH. Ils postent des journeys authentiques sur Reddit r/SideProject avec chiffres réels et échouent publiquement. Taux de conversion Reddit → paying = 3-8× Product Hunt.
 
 ## 💡 Insights Actionnables
+### Pour Kyle — Actions prioritaires cette semaine
 
-**🎯 #1 — BUILD : "Mina pour le marché francophone" (3–5 mois)**
-Le concept de meeting agent actif n'est pas encore saturé en français. Kyle peut livrer un MVP en 3–4 mois avec Zoom/Meet API + Vapi + LLM + 10 intégrations clés (HubSpot, Notion, Pipedrive, Jira). Niche prioritaire : agences/consultants français qui font 10+ appels clients/semaine et détestent l'admin post-call. Pricing suggéré : €29–79/mois, freemium 10 calls/mois.
+**🟢 ACTION #1 (48h) : Valider un vertical Vapi**
+Prends 10 appels avec des PME dans 2-3 secteurs (immobilier, recrutement, service client). Question unique : "Combien d'heures par semaine votre équipe passe-t-elle au téléphone pour des tâches répétitives ?" Si réponse > 5h → signal fort. Vapi charge ~$0.05/min, tu revends $0.20/min + setup fee.
 
-**🎯 #2 — VALIDATE : "Voice AI francophone Africa" (6–12 mois)**
-L'insight AethexAI est directement reproductible pour le marché francophone africain (Sénégal, Côte d'Ivoire, Cameroun, Maroc). Kyle a l'expertise voice AI, le réseau SaaS, et il peut fine-tuner Vapi/Hume AI sur accents FR-africains au lieu de construire des modèles maison. Prix cible : $0.02–0.04/min. Validation : 3 call centers pilotes avant de lever.
+**🟡 ACTION #2 (1 semaine) : Prototype Wispr vertical CRM**
+Construis un POC en 3 jours : dictée post-appel → résumé structuré → push vers HubSpot/Salesforce via webhook. Whisper API + Claude summarization + Zapier. Teste avec 3 commerciaux. Si gain de temps > 30 min/jour → pricing justifiable à €150/mois/user.
 
-**🎯 #3 — WATCH : Vokal (pour décision H2 2026)**
-Surveiller la traction Vokal sur les 3 prochains mois. Si >500 teams actives, considérer une version "voice orchestration for non-devs" — même concept mais pour équipes marketing/sales avec agents voice (calls automatisés + CRM). Kyle serait early mover sur ce segment.
+**🟡 ACTION #3 (2 semaines) : Monitore Vokal**
+Vokal vient de lancer. Signe-toi, teste. Si l'adoption monte (>1K teams en 30 jours), c'est le signe que le "AI-native workspace" décolle. Opportunité : construire le Vokal voice-first (agents qui se briefent mutuellement à la voix) avant qu'ils l'ajoutent comme feature.
 
-**🔑 #4 — Leçon Distribution : PR ciblé > contenu générique**
-AethexAI a eu 8 articles spécialisés (TechAfrica, Gulf Business, Tech.eu) sans budget pub visible. Pattern : identifier 3–5 journalistes couvrant exactement votre niche + embargo simultané au launch + angle "first of its kind in [marché]". À répliquer pour tout lancement de Kyle.
+**⚠️ Risque principal :**
+Apple intègre dictée AI native dans macOS Sequoia 3 → Wispr devient moins pertinent. Vapi reste infra-layer indépendant du device. Mis sur l'infra > les apps.
 
-**🔑 #5 — Pricing à l'usage dès le départ**
-Ne pas lancer avec un abonnement fixe pour un produit voice AI. Adopter un modèle usage-based (€/min ou €/call) dès le MVP — c'est ce que le marché attend en 2026, réduit la friction à l'adoption, et aligne revenus avec valeur délivrée.
+**📌 Règle du scan :**
+Ne build PAS ce que font les $500M. Build ce qu'ils *ne veulent pas* faire : les niches à €50-500K ARR, trop petites pour eux, parfaites pour un indie.
