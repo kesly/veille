@@ -1,202 +1,189 @@
-# 🔥 Market Scan — 2026-06-12
+# 🔥 Market Scan — 2026-06-13
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8 (Product Hunt, HN, GitHub Trending, Indie Hackers)
-- Top potentiel : 3 retenues (Wispr Flow, Granola, OpenClaw)
-- Opportunités immédiates (BUILD NOW) : 2
+- Apps analysées : 3
+- Top potentiel : OpenClaw
+- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow adjacent)
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : OpenClaw
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Launch** : 2022, momentum explosif depuis Q3 2024
-- **Fondateurs** : Tanay Kothari (CEO), équipe ex-Google/Apple
-- **Catégorie** : Voice AI / Productivity — macOS + iOS
-- **Buzz** : 2,5M downloads · 40% MoM growth · $260M levée en cours à ~$2B valuation · 270 Fortune 500
+- **URL** : github.com/psteinberger/openclaw (215K+ ⭐)
+- **Launch** : Janvier 2026 (explosion virale en 72h : +60K stars)
+- **Fondateur** : Peter Steinberger (ex-PSPDFKit) → rejoint OpenAI ; gouvernance transférée à un comité de 7 personnes
+- **Catégorie** : Assistant IA personnel, local-first, open-source
+- **Buzz** : 215K GitHub stars, top HN multiple fois, couverture DigitalOcean/TDS/Medium
 
-### 2. Proposition de Valeur
-- **Problème** : Taper est lent — la parole est 3x plus rapide mais les outils dictée sont nuls/robotiques
-- **Solution** : Dictée IA native dans TOUTES les apps, avec correction contextuelle et Command Mode (commandes vocales)
-- **USP** : S'intègre comme un clavier système, s'adapte à ton style d'écriture, 100+ langues
-- **Cible** : Knowledge workers, execs, créateurs de contenu, non-anglophones
-- **Pricing** : Free (2k mots/sem) · Pro $15/mo · Teams $12/user/mo · Enterprise custom
+### 2. Proposition de valeur
+- **Problème** : Les assistants IA cloud (ChatGPT, Claude) ne s'intègrent pas à vos apps perso ni à votre vie numérique
+- **Solution** : Agent IA tournant 100% local, se connecte à WhatsApp, Telegram, Slack, Discord, iMessage (24 canaux)
+- **USP** : Écrit ses propres skills → s'auto-améliore. Zéro abonnement, BYOK (Bring Your Own Key)
+- **Target** : Devs, power users, privacy-conscious, techies
+- **Pricing** : Gratuit / open-source (BYOK = coût LLM à la charge de l'utilisateur)
 
-### 3. Stack Technique
-- Frontend : Swift/SwiftUI (macOS natif) + React Native (iOS)
-- Backend : Python/FastAPI, infra AWS
-- AI : Modèles Whisper (STT) + LLM propriétaire pour correction contextuelle
-- Edge : Traitement local optionnel (Privacy Mode)
+### 3. Stack technique
+- **Frontend** : CLI + interface web locale
+- **Backend** : Node.js / Python hybride, orchestration d'agents
+- **Infra** : Local machine / auto-hébergé
+- **APIs** : Connecteurs messaging natifs, plugin ecosystem communautaire
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Quand je veux exprimer une idée complexe rapidement sans perdre le fil"
-- **Aha moment** : Première fois que Wispr corrige automatiquement une erreur de contexte sans toucher le clavier
-- **Triggers** : Social proof (Fortune 500) · Urgence (free tier limité) · Habitude forte (80% retention 6 mois)
-- **Rétention** : 50%+ des chars tapés via Wispr après 3 mois → lock-in comportemental
+### 4. Psychologie
+- **Triggers** : Autonomie (ownership data), autorité (ex-fondateur PSPDFKit + OpenAI), FOMO communautaire, proof sociale (215K stars)
+- **JTBD** : "Je veux un assistant IA qui connaît vraiment ma vie sans me facturer €20/mois"
+- **Aha moment** : Premier message WhatsApp géré automatiquement par l'agent
 
-### 5. Go-to-Market
-- **Canaux** : Word-of-mouth d'execs → viralité B2B organique · PH top charts · Twitter/LinkedIn demos
-- **Launch** : Freemium agressif → conversion paid via friction du free tier
-- **Viral loop** : Utilisateur montre la démo → collègue l'adopte → Teams tier
+### 5. Go-to-market
+- **Canal principal** : GitHub organique + HN launch → boucle virale devs
+- **Viral loop** : Stars → forks → plugins communautaires → plus de stars
+- **Stratégie** : Open-source + BYOK = zéro friction adoption, monétisation potentielle sur hosting/cloud
 
-### 6. Réplication (angle Kyle)
-- **Complexité** : 7/10 — STT temps réel + LLM correction = ingénierie non triviale
-- **Verticaux adjacents** : Voice-to-CRM · Voice coding assistant · Dictée médicale/légale
-- **Angle Kyle** : Kyle est expert Voice AI → builder une version verticalisée (ex: dictée pour commerciaux avec enrichissement CRM automatique) est parfaitement dans sa wheelhouse
-- **Temps dev** : 3-4 mois pour un MVP vertical crédible
+### 6. Réplication
+- **Complexité** : 7/10 (orchestration multi-canaux non triviale)
+- **Verticaux adjacents** : Version B2B (agent d'équipe), version voice-first (angle Kyle)
+- **Angle Kyle** : Plugin voice AI pour OpenClaw → assistant vocal local avec ses propres skills vocaux
+- **Temps dev** : 3-4 mois pour un fork spécialisé voix
 
-## 🏆 TOP APP #2 : Granola
+## 🏆 TOP APP #2 : Wispr Flow
 ### 1. Identification
-- **URL** : [granola.ai](https://granola.ai)
-- **Launch** : 2023, unicorn mars 2026
-- **Fondateurs** : Équipe ex-Figma/Meta
-- **Catégorie** : AI Meeting Notes → Enterprise AI Context Layer
-- **Buzz** : $125M Series C · $1.5B valuation · 250% revenue growth · clients Vanta, Asana, Cursor, Mistral
+- **URL** : wispr.flow
+- **Launch** : 2023 (mais explosion 2025-2026 : 40% MoM growth)
+- **Fondateurs** : équipe ex-Apple / ex-Google Voice
+- **Catégorie** : Voice dictation AI, productivité, cross-platform
+- **Buzz** : $81M levés (Menlo Ventures, Amazon, Nvidia, Vercel clients), 8 500+ ratings App Store 4.8/5, 1 600+ recherches/mois
 
-### 2. Proposition de Valeur
-- **Problème** : Les réunions génèrent de la connaissance qui disparaît — prise de notes manuelle = distraction + perte
-- **Solution** : Granola capture, structure et restitue les notes de réunion en contexte pour l'IA (MCP server)
-- **USP** : Pas un simple transcripteur — devient une mémoire d'entreprise requêtable par les LLMs
-- **Cible** : Teams B2B (startups tech → PME), en expansion entreprise
-- **Pricing** : Free (illimité, historique limité) · Business $14/user/mo · Enterprise $35+/user/mo
+### 2. Proposition de valeur
+- **Problème** : Taper est lent ; les outils de dictée existants sont rigides, monolingues, sans IA
+- **Solution** : Dictée vocale intelligente qui "écrit dans votre style", fonctionne dans TOUTES les apps (100+ langues, commandes vocales, auto-édition)
+- **USP** : Adapte le ton et le style à l'app (email formel vs Slack informel) automatiquement
+- **Target** : Professionnels, créateurs de contenu, devs, PME
+- **Pricing** : Freemium (2 000 mots/sem gratuit) → $15/mois Pro → $12/mois annuel
 
-### 3. Stack Technique
-- Frontend : Electron (macOS desktop) + React web
-- Backend : Node.js/Python, infra AWS
-- AI : Claude + GPT-4o pour résumés · Whisper pour transcription
-- Intégrations : Notion, Slack, HubSpot, Attio, Zapier, MCP server
+### 3. Stack technique
+- **Frontend** : macOS app native + iOS + Windows + Android
+- **Backend** : Modèles Whisper fine-tunés + LLM propriétaire pour reformulation
+- **Infra** : Cloud hybride (traitement local pour latence)
+- **APIs** : Hooks OS-level pour injection dans toutes les apps
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Après une réunion, je veux retrouver exactement ce qui a été décidé sans relire 40 min de transcript"
-- **Aha moment** : Premier résumé auto post-meeting avec action items précis et attribués
-- **Triggers** : FOMO ("tes concurrents l'utilisent") · Pain fort (réunions = temps perdu) · Social proof enterprise
-- **Rétention** : 50% toujours actifs à 10 semaines · 6 meetings/sem en moyenne par user
+### 4. Psychologie
+- **Triggers** : Gain de temps (2-3x plus rapide que le clavier), autorité (Amazon/Nvidia utilisateurs), social proof (8 500 avis)
+- **JTBD** : "Je veux produire plus de texte plus vite sans perdre ma voix naturelle"
+- **Aha moment** : Premier email dicté → reformaté automatiquement en ton professionnel en 3 secondes
 
-### 5. Go-to-Market
-- **Canaux** : Bottom-up PLG (un user convainc son équipe) → expansion top-down entreprise
-- **Viral loop** : Notes partagées en équipe → collègues adoptent → Teams/Entreprise
-- **Launch stratégie** : Mac-first pour early adopters tech → expansion Zoom/Meet integration
+### 5. Go-to-market
+- **Canaux** : Product Hunt (trending semaine 24/2026), Twitter techies, bouche-à-oreille enterprise
+- **Viral loop** : Essai gratuit → dépendance workflow → upgrade Pro + partage collègues
+- **Stratégie** : Land & expand en B2B via adoption individuelle → licences équipes
 
-### 6. Réplication (angle Kyle)
-- **Complexité** : 6/10 — transcription + résumé LLM = faisable · la différence = UX et intégrations
-- **Verticaux adjacents** : Meeting notes pour commerciaux + CRM auto-update · Réunions médicales
-- **Angle Kyle** : Granola Voice + CRM = combo parfait pour son profil · ou Granola-like pour un vertical précis (sales calls avec scoring automatique)
-- **Temps dev** : 2-3 mois MVP, différenciation via vertical
+### 6. Réplication
+- **Complexité** : 8/10 (fine-tuning ASR + intégration OS-level complexe)
+- **Verticaux adjacents** : Dictée médicale, juridique, customer support voice-to-ticket
+- **Angle Kyle** : Wispr Flow verticalisé pour sales (CRM voice-to-note) ou customer support (voice-to-ticket) → B2B SaaS voice AI
+- **Temps dev** : 6-8 mois pour un vertical B2B avec Vapi + Whisper
 
-## 🏆 TOP APP #3 : OpenClaw
+## 🏆 TOP APP #3 : Kampala (YC W26)
 ### 1. Identification
-- **URL** : [openclaw.ai](https://openclaw.ai) · [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
-- **Launch** : Novembre 2025 (sous le nom Warelay), viral janvier 2026
-- **Fondateurs** : Peter Steinberger (Autriche) — solo founder
-- **Catégorie** : Open-source AI Agent / Personal AI Assistant
-- **Buzz** : 350K+ GitHub stars · 2M visites repo en 7 jours · #1 GitHub Trending 2026
+- **URL** : zatanna.ai/kampala
+- **Launch** : 16 avril 2026 (YC W26 batch)
+- **Fondateurs** : Alex (web reverse engineering, 7-8 ans d'expérience intégrations) + Tarun
+- **Catégorie** : Developer tools, API automation, reverse engineering
+- **Buzz** : HN Launch avec discussion active, YC W26 badge, niche mais très fort signal B2B dev
 
-### 2. Proposition de Valeur
-- **Problème** : Les agents IA nécessitent des apps dédiées — friction énorme pour l'adoption quotidienne
-- **Solution** : Agent IA autonome qui tourne sur ta machine et communique via les apps de messagerie existantes (WhatsApp, Telegram, Slack, Discord...)
-- **USP** : Zéro nouvelle app à apprendre · Open-source · Tourne en local · 25+ plateformes de messagerie
-- **Cible** : Développeurs, power users, freelancers, PMEs — monde entier (open-source = adoption sans friction)
-- **Pricing** : Totalement gratuit (open-source MIT) · Revenus potentiels via cloud hosting payant
+### 2. Proposition de valeur
+- **Problème** : Construire des intégrations avec des apps sans API publique = des semaines de travail fragile (browser automation, Selenium, etc.)
+- **Solution** : Proxy MITM intelligent qui observe vos actions dans n'importe quelle app (web, mobile, desktop) et génère automatiquement une API propre
+- **USP** : "Faites l'action une fois manuellement → Kampala génère le script/API en 45 secondes"
+- **Target** : Devs, entreprises avec legacy apps, équipes automation/RPA, agents IA builders
+- **Pricing** : Non public (YC early stage, prob. usage-based ou seat-based)
 
-### 3. Stack Technique
-- Frontend : Aucun (interface = apps messagerie existantes)
-- Backend : Python, architecture agent + tool-use
-- AI : Compatible tous LLMs (OpenAI, Anthropic, Ollama local, etc.)
-- Intégrations : WhatsApp, Telegram, Slack, Discord, iMessage, 25+ plateformes · GitHub · Notion · browser
+### 3. Stack technique
+- **Frontend** : Interface proxy + dashboard web
+- **Backend** : MITM proxy (interception TLS), agent harness pour génération de code, MCP server
+- **Infra** : Self-hosted + cloud hosting option
+- **APIs** : Export scripts, intégration avec workflows d'agents IA
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Je veux un assistant IA toujours dispo dans mes outils existants, sans changer mes habitudes"
-- **Aha moment** : Première tâche automatisée via WhatsApp (ex: "résume ma boîte mail") exécutée sans ouvrir aucune nouvelle app
-- **Triggers** : Curiosité développeur · FOMO open-source · Autorité (350K stars = preuve sociale massive)
-- **Adoption** : Viralité GitHub + Twitter → developer-led → adoption mainstream
+### 4. Psychologie
+- **Triggers** : Pain fort (intégrations = cher et lent), autorité YC, JTBD très concret
+- **JTBD** : "Je veux automatiser n'importe quelle app existante sans attendre leur API"
+- **Aha moment** : Voir une app sans API transformée en endpoint REST en moins d'une minute
 
-### 5. Go-to-Market
-- **Canaux** : GitHub viral → HN/Reddit → Twitter dev community → médias tech
-- **Viral loop** : Chaque fork/star amplifie la visibilité · Contributions externes accélèrent les features
-- **Monétisation future** : Cloud hosting (OpenClaw Cloud) · API premium · Enterprise deployment
+### 5. Go-to-market
+- **Canaux** : HN Launch (public dev), YC network, bouche-à-oreille B2B intégrations
+- **Viral loop** : Devs partagent leurs "API Kampala" créées → curiosité → adoption
+- **Stratégie** : Bottom-up dev adoption → expansion équipes ops/automation
 
-### 6. Réplication (angle Kyle)
-- **Complexité** : 5/10 pour un MVP · Différenciation = hosting + UX + vertical spécifique
-- **Verticaux adjacents** : Agent vocal IA pour PMEs (commande via WhatsApp Voice) · Agent support client
-- **Angle Kyle** : Construire une version verticalisée avec voice AI en entrée + actions CRM/Sales = differentiation forte, capitalisant sur son expertise
-- **Temps dev** : 1-2 mois pour un fork vertical productisé avec onboarding no-code
+### 6. Réplication
+- **Complexité** : 9/10 (MITM TLS + génération de code fiable = très hard)
+- **Verticaux adjacents** : Audit de sécurité automatisé, test automation, migration legacy vers cloud
+- **Angle Kyle** : Utiliser Kampala pour brancher des voice agents Vapi sur des apps sans API (ex: CRM legacy) → pitch "voice AI pour n'importe quel logiciel"
+- **Temps dev** : Non réplicable facilement, mieux comme outil dans sa stack
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-*Sources : TechCrunch, Crunchbase, mlq.ai, wisprflow.ai/pricing*
+## 💰 Unit Economics Deep Dive — OpenClaw
+**Note** : OpenClaw est 100% open-source / gratuit. Pas de revenus directs → analyse repositionnée sur l'opportunité économique du modèle.
 
-| Métrique | Estimation | Commentaire |
+| Métrique | Estimation | Source / Méthode |
 |---|---|---|
-| **ARR** | ~$10-12M | $3.8M Jul24-Jul25 + 60% YoY + 40% MoM récent |
-| **Users total** | 2,5M downloads | Actifs estimés ~200-300K |
-| **Payants** | ~65-80K | 19% conversion rate déclaré sur base active |
-| **ARPU** | ~$150/an | Mix free/Pro $144/an + Teams $120/an |
-| **CAC** | ~$20-40 | Viral + word-of-mouth → CAC très faible |
-| **LTV** | ~$375-450 | ARPU / churn annuel ~35% (80% retention 6 mois) |
-| **LTV/CAC** | ~12-15x | 🟢 Excellent (>3x = sain) |
-| **Payback** | ~2-3 mois | 🟢 Très rapide |
-| **Funding** | $285M total | $25M Notable Capital + $30M Menlo + ~$260M en cours |
-| **Valuation** | ~$2B (cible) | ~167-200x ARR — prime hypercroissance voice AI |
-| **Rev/Employee** | ~$300-400K | Équipe estimée ~30-40 personnes |
-| **Rule of 40** | ~75+ | Croissance 60%+ YoY + marges SaaS > 15% |
+| **Modèle** | Open-source BYOK | Aucune monétisation directe actuelle |
+| **GitHub Stars** | 215 000+ | GitHub public |
+| **Utilisateurs actifs** | ~50 000–80 000 (estimation) | Ratio historique stars/users ~1:4 pour outils locaux |
+| **Forks actifs** | ~8 000+ | GitHub public |
+| **Coût infra Openclaw** | $0 (local) | Architecture local-first |
+| **Revenus actuels** | $0 (open-source pur) | Aucune info publique |
+| **Valeur potentielle cloud** | Si hosting SaaS à $10/mois × 10K users = **$100K MRR** | Hypothèse fork commercial |
+| **CAC (si cloud)** | ~$0–5 (organique GitHub) | Distribution 100% organique |
+| **LTV (si $10/mois, churn 5%)** | ~$200 | LTV = ARPU / Churn |
+| **LTV/CAC** | >40x | Exceptionnel si fork monétisé |
 
-**Verdict santé** : 🟢 **SAIN — Hypercroissance**
-- LTV/CAC 12-15x = economics solides
-- Rétention 80% sur 6 mois = product-market fit confirmé
-- Seul risque : valorisation $2B sur $10-12M ARR = paris sur continuation de la croissance explosive
-- Marché voice AI $22,5B en 2026, CAGR 34% → espace pour dominer
+**Verdict santé** : 🟡 — OpenClaw lui-même n'a pas de business model. Mais la communauté (215K stars) représente une opportunité de fork commercial ou de plugin payant estimée à **€500K–2M ARR potentiel** pour une offre cloud/hosting. Le risque : gouvernance communautaire floue depuis le départ du fondateur.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Granola | OpenClaw |
+| Dimension (poids) | OpenClaw | Wispr Flow | Kampala |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — marché $22B+ | 8 — $15B+ | 8 — marché agents IA $45B+ |
-| ⚙️ Complexité inv. (15%) | 5 — STT+LLM+OS level | 6 — transcription+résumé | 7 — fork open-source |
-| ⏱️ Time-to-Market (15%) | 4 — 3-4 mois MVP | 6 — 2-3 mois MVP | 8 — 1-2 mois fork vertical |
-| 🏟️ Compétition inv. (15%) | 5 — Otter, SuperWhisper, Apple | 4 — Fireflies, Otter, tl;dv | 7 — open-source = blue ocean hosting |
-| 💰 Revenue Pot. (20%) | 8 — $100K+ MRR atteignable | 8 — B2B $14-35/seat × teams | 6 — monétisation indirecte hosting |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 10 — Voice AI = expertise core | 7 — meeting AI, connectable | 8 — agent IA + voice = combo |
+| 📊 Market Size (20%) | 8 — marché IA perso >€1B | 9 — voice market €22B+ | 6 — RPA/automation €5B niche |
+| ⚙️ Complexité inversée (15%) | 4 — orchestration complexe | 3 — ASR fine-tuning difficile | 2 — MITM TLS = très dur |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois (fork) | 4 — 6-8 mois (vertical) | 8 — comme OUTIL (pas réplication) |
+| 🏟️ Concurrence inversée (15%) | 6 — marché saturé d'assistants IA | 6 — Superwhisper, Otter concurrents | 8 — quasi blue ocean dev tools |
+| 💰 Revenue Potential (20%) | 7 — fort potentiel si cloud fork | 9 — B2B vertical = €50K+ MRR possible | 6 — niche B2B dev, deal sizes élevés |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 8 — voice AI + local agents = fit fort | 9 — CŒUR DE MÉTIER voice AI + SaaS | 5 — pas son domaine principal |
 
-**Scores pondérés :**
-
-| App | Score | Verdict |
+| App | Score pondéré | Verdict |
 |---|---|---|
-| **Wispr Flow** | **(9×0.20)+(5×0.15)+(4×0.15)+(5×0.15)+(8×0.20)+(10×0.15) = 7.10** | 🟡 BUILD ADJACENT |
-| **Granola** | **(8×0.20)+(6×0.15)+(6×0.15)+(4×0.15)+(8×0.20)+(7×0.15) = 6.75** | 🟡 BUILD ADJACENT |
-| **OpenClaw** | **(8×0.20)+(7×0.15)+(8×0.15)+(7×0.15)+(6×0.20)+(8×0.15) = 7.25** | 🟡 BUILD ADJACENT |
+| **Wispr Flow** | **7.35** | 🟡 BUILD ADJACENT |
+| **OpenClaw** | **6.55** | 🟡 BUILD ADJACENT |
+| **Kampala** | **5.65** | 🟠 WATCH |
 
-> **Note** : Les 3 apps sont en "BUILD ADJACENT" — pas de clone direct, mais les verticaux dérivés atteignent 🟢 BUILD NOW. Voir Insights.
+> **Wispr Flow** : Le vertical B2B (sales, médical, support) est l'angle immédiat pour Kyle. Son expertise voice AI + Vapi lui donne 12-18 mois d'avance sur un concurrent généraliste.
+> **OpenClaw** : Fork cloud avec interface voice = opportunité €1M+ ARR mais 4-6 mois de dev.
+> **Kampala** : Outil à intégrer dans sa stack pour connecter voice agents à des apps sans API.
 
 ## 📈 Tendances Émergentes
-1. **Voice-first est mainstream** : Wispr Flow + le marché $22B+ confirment que la voix devient l'interface primaire post-clavier. Ce n'est plus un gadget — c'est une catégorie SaaS à part entière.
+1. **Local-first AI** : OpenClaw confirme la demande massive pour des agents IA qui tournent sur votre machine. Privacy + contrôle = différenciateur fort en 2026.
 
-2. **Agents IA omnicanal sans app dédiée** : OpenClaw valide massivement l'hypothèse "l'interface est déjà installée" (WhatsApp, Telegram). Les 350K stars en 4 mois = signal fort que les utilisateurs VEULENT des agents dans leurs apps existantes.
+2. **Voice comme interface universelle** : Wispr Flow (40% MoM) valide que la voix remplace le clavier. Le marché cherche des verticaux spécialisés (médical, juridique, sales) pas encore couverts.
 
-3. **Le "meeting" comme couche de mémoire d'entreprise** : Granola n'est plus un transcripteur — c'est une infrastructure de contexte IA. La vraie battle de 2026-27 sera la ownership de la mémoire organisationnelle.
+3. **Automatisation sans API** : Kampala illustre le besoin croissant de brancher des agents IA sur des logiciels legacy. Le "app layer" devient infrastructure.
 
-4. **Open-source → SaaS hosting premium** : Le pattern OpenClaw (open-source viral → cloud payant) s'accélère. La distribution gratuite = moat de distribution, la valeur = hébergement, maintenance, SLA.
+4. **Open-source → distribution virale** : Les projets OS avec BYOK capturent l'attention (215K stars) mais peinent à monétiser. La fenêtre pour des forks commerciaux est ouverte.
 
-5. **PLG bottom-up + expansion enterprise** : Les 3 apps suivent le même pattern. Un user adopte, convainc son équipe, l'IT signe un contrat. Le B2C est le canal d'acquisition, le B2B est le canal de revenus.
+5. **YC W26 = signal fort automation + agents** : Le batch W26 est dominé par des outils d'automatisation et d'agents IA. Confirmation que le marché cherche de l'exécution autonome, pas juste de la génération de texte.
 
-6. **Voice AI pour non-anglophones = marché sous-servi** : Wispr Flow révèle que 60% des dictées sont en langues non-anglaises. Énorme opportunité dans les marchés francophones, hispaniques, asiatiques.
+## 💡 Insights Actionnables
+### Pour Kyle — Actions immédiates
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Top 3 actions concrètes pour Kyle
+**1. 🎯 Build : Wispr Flow pour un vertical B2B** (priorité max)
+- **Quoi** : Dictée vocale IA spécialisée pour les équipes sales (voice-to-CRM) ou support (voice-to-ticket)
+- **Pourquoi maintenant** : Wispr Flow n'adresse pas le B2B vertical sérieusement. Kyle a l'infra Vapi, le savoir-faire ASR, et le réseau.
+- **Stack** : Vapi + Whisper fine-tuné + CRM webhook (HubSpot/Salesforce) + interface web légère
+- **Temps** : 6-8 semaines MVP → pricing €29-49/mois/user
+- **Signal validant** : Trouver 5 sales managers prêts à payer avant de coder
 
-**1. BUILD NOW — Agent vocal WhatsApp → CRM (score estimé : 8.2/10)**
-- Combine l'insight OpenClaw (interface messagerie) + expertise voice AI de Kyle
-- Pitch : commercial laisse un voice memo sur WhatsApp → agent transcrit, enrichit, pousse dans HubSpot/Salesforce
-- Différenciation : voice-native + vertical sales + FR/EU market
-- Stack : Whisper API + Claude + WhatsApp Business API + CRM webhook
-- Temps dev : 6 semaines MVP · Pricing : $49-99/user/mo · CAC estimé < $200 via LinkedIn
-- Potentiel : 500 users × $79/mo = $39.5K MRR en 12 mois
+**2. 🔌 Watch & Intégrer : OpenClaw plugin voice**
+- **Quoi** : Développer un plugin OpenClaw qui transforme n'importe quel channel (WhatsApp, iMessage) en interface vocale
+- **Pourquoi** : 215K utilisateurs = distribution gratuite. Si le plugin est bon → 10-50K installs organiques
+- **Risque** : Gouvernance communautaire instable depuis départ du fondateur
 
-**2. BUILD ADJACENT — Wispr Flow vertical : dictée pour consultants/juristes/médecins FR**
-- Wispr Flow US-focused → marché FR des professions à haute valeur texte sous-servi
-- Différenciation linguistique (français + terminologie métier) + RGPD/souveraineté données
-- Stack similaire (Swift/STT/LLM), mais avec modèle de langue spécialisé
-- Temps dev : 3 mois · Pricing : $25/mo · Niche defensible vs. Wispr global
+**3. 🔧 Outil : Tester Kampala pour connecter des agents Vapi à des CRM legacy**
+- **Quoi** : Utiliser Kampala pour reverse-engineer le CRM des prospects sans API → pitch différenciant
+- **Message commercial** : "Notre voice agent fonctionne avec votre logiciel actuel, sans intégration IT"
 
-**3. WATCH — Granola-like pour l'écosystème francophone**
-- Marché FR des outils de réunion IA encore peu pénétré
-- Jouer la carte RGPD + intégration outils FR (Sellsy, Pennylane) vs. outils US
-- Attendre 3-6 mois pour valider si Granola attaque vraiment le FR
-
-### ⚡ Signal critique
-> Les 3 trends convergent vers le même insight : **la prochaine killer app voice AI n'est pas une app de plus — c'est un agent invisible qui vit dans les outils que les gens utilisent déjà**. Kyle a 6 mois d'avance de compréhension sur 99% des fondateurs non-technique dans ce domaine.
+### Signal faible à surveiller
+- Concurrence sur Wispr Flow : **Superwhisper** ($9.99/mois) qui grignote le marché B2C → confirme l'urgence du pivot B2B vertical
+- OpenClaw : si un acteur VC fork le projet avec cloud hosting → fenêtre se ferme vite
