@@ -1,193 +1,199 @@
-# 🔥 Market Scan — 2026-06-15
+# 🔥 Market Scan — 2026-06-16
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Wispr Flow (Voice AI dictation)
-- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow vertical)
+- Top potentiel : Wispr Flow
+- Opportunités immédiates (BUILD NOW) : 2
 
 ## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
-- **Nom** : Wispr Flow | **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Lancement** : Beta 2023, croissance explosive depuis Q4 2025
-- **Fondateurs** : Tanay Dixit (ex-Stanford)
-- **Catégorie** : Voice AI / Dictation SaaS
-- **Métriques** : 2,5M+ téléchargements (oct.2025–avr.2026), 270 Fortune 500 clients, $10M ARR (2025), +50% MoM, levée $260M en cours à $2B de valorisation
+- **Nom** : Wispr Flow · **URL** : [wispr.flow](https://wispr.flow) · **Catégorie** : Voice AI / Productivité
+- **Launch** : 2023 (traction explosive 2025-2026) · **Fondateurs** : Tanay Kothari (CEO) + équipe ex-Google/OpenAI
+- **Métriques buzz** : 2,5M downloads · Top PH mai 2026 · 270 Fortune 500 clients · $81M levés · Valorisation cible $2B (Menlo Ventures)
 
-### 2. Proposition de Valeur
-- **Problème** : La frappe clavier est lente, source de RSI, et ne scale pas avec l'IA
-- **Solution** : Dictée universelle IA qui fonctionne dans TOUTE app (Mac/Windows/iPhone), 220 mots/min, auto-edits, 100+ langues, apprend ton style
-- **USP** : "Type with your voice faster than your keyboard" — zéro friction onboarding
-- **Target** : Travailleurs du savoir, founders, consultants, managers
-- **Pricing** : Freemium → ~$12-20/mois Pro
+### 2. Proposition de valeur
+- **Problème** : Taper est lent et déconcentre — la voix pense 3x plus vite que les doigts
+- **Solution** : Dictée IA universelle qui écrit dans ton style, dans TOUTES les apps Mac
+- **USP** : Adaptation au style personnel (fine-tuning léger) + fonctionne nativement dans chaque app
+- **Target** : Professionnels high-output (rédacteurs, fondateurs, consultants, commerciaux)
+- **Pricing** : Freemium → $16/mois Pro · Entreprise custom
 
-### 3. Stack Technique
-- **Frontend** : Native Mac (Swift), Windows, iOS
-- **Backend** : Whisper/custom ASR + LLM pour édition de style
-- **Infra** : AWS, edge processing pour latence
-- **APIs** : Intégration OS-level (Accessibility API)
+### 3. Stack technique
+- **Frontend** : App Mac native (Swift) + extension navigateur
+- **Backend** : Modèle speech-to-text custom (fine-tuné sur Whisper) + LLM pour reformulation
+- **Infra** : AWS · APIs : OpenAI + modèle proprio
+- **Différenciateur** : Pipeline edge/cloud hybride pour latence <500ms
 
-### 4. Psychologie
-- **Triggers** : Gain de temps immédiat (urgence productivité), social proof Fortune 500, FOMO "tous les devs l'utilisent"
-- **JTBD** : "Quand je dois écrire beaucoup, je veux le faire sans effort physique"
-- **Aha moment** : 10 secondes après install — tu dicter un email et il sort propre
+### 4. Psychologie & JTBD
+- **JTBD** : "Quand je dois produire beaucoup de texte rapidement, je veux dicter plutôt que taper"
+- **Aha moment** : Première fois que l'app écrit exactement comme toi sans correction
+- **Triggers** : Social proof (Fortune 500) · Productivité mesurable (3x plus rapide) · Habitude forte
 
 ### 5. Go-to-Market
-- **Canaux** : Building in public (X/Twitter), Product Hunt, bouche-à-oreille dev/founders, expansion India (+100% MoM)
-- **Viral loops** : "Powered by Wispr" en signature + partage clips vidéo de dictée en live
-- **Expansion** : B2B Fortune 500 → API pour intégrations tiers
+- **Canal principal** : Twitter/X virals de power users · YouTubers productivité
+- **Viral loop** : Partage de "j'ai écrit 2000 mots en 8 min" → curiosité → essai gratuit
+- **Acquisition** : Content marketing fort (blog SEO) + influenceurs tech
 
-### 6. Réplication Kyle
-- **Complexité** : 7/10 (ASR + LLM + native OS level = non trivial)
-- **Verticaux adjacents** : Dictée médicale (SOAP notes), dictée juridique, dictée CRM (Salesforce fields)
-- **Angle Kyle** : Vertical voice AI B2B niche (santé, légal, immobilier) avec Vapi/ElevenLabs stack
-- **Temps de dev** : 3-6 mois pour un vertical MVP
+### 6. Réplication pour Kyle
+- **Complexité** : 7/10 (modèle STT custom coûteux à entraîner)
+- **Angle Kyle** : Vertical spécialisé voice AI pour sales teams (CRM auto-fill vocal)
+- **Verticaux adjacents** : Médical (notes cliniques vocales) · Juridique · Customer support
+- **Temps de dev** : 3-6 mois pour MVP vertical (API Whisper + LLM existants)
 
-## 🏆 TOP APP #2 : Granola
+## 🏆 TOP APP #2 : Fundraisly
 ### 1. Identification
-- **Nom** : Granola | **URL** : [granola.ai](https://granola.ai)
-- **Lancement** : 2024, Series A oct.2024 (5K weekly users), Series C mars 2026
-- **Fondateurs** : Chris Pedregal (ex-Google DeepMind)
-- **Catégorie** : AI Meeting Notetaker / Enterprise Productivity
-- **Métriques** : $125M levés (mars 2026), $1.5B valorisation, +250% revenue growth en Q1 2026, total levée $192M
+- **Nom** : Fundraisly · **URL** : [fundraisly.com](https://fundraisly.com) · **Catégorie** : AI Agents / Financement startup
+- **Launch** : Juin 2026 (semaine du 8 juin) · **Fondateurs** : Équipe ayant levé >$1B collectivement
+- **Métriques buzz** : #1 Product Hunt semaine 24/2026 · 1 027 261 votes PH · 1 700+ followers · Note 5.0
 
-### 2. Proposition de Valeur
-- **Problème** : Les réunions produisent peu de valeur actionnable, notes perdues, suivi inexistant
-- **Solution** : Notepad IA qui transcrit, structure et actionne automatiquement tes réunions. API pour sync vers apps tierces.
-- **USP** : Pas juste une transcription — un "AI notepad that makes you smarter"
-- **Target** : Équipes entreprise, managers, founders
-- **Pricing** : ~$18-25/mois/siège, enterprise custom
+### 2. Proposition de valeur
+- **Problème** : Lever des fonds prend 6-12 mois de cold outreach inefficace avec 2-5% de taux de réponse
+- **Solution** : Agent IA qui analyse 300K+ investisseurs, mappe les introductions chaudes, automatise l'outreach
+- **USP** : Promesse de 20-40 réunions qualifiées avec investisseurs actifs dans ton secteur · 60-70% open rate
+- **Target** : Fondateurs en seed/Series A cherchant à lever €500K–$10M
+- **Pricing** : Custom (non publié) — probablement success fee ou abonnement mensuel €500-2000
 
-### 3. Stack Technique
-- **Frontend** : Web + Mac app native
-- **Backend** : LLM multi-modèle pour résumé/extraction d'actions
-- **Infra** : Cloud, APIs propriétaires
-- **APIs** : Intégrations Slack, Notion, CRM + API publique en cours de déploiement
+### 3. Stack technique
+- **Frontend** : Web app React/Next.js
+- **Backend** : Base de données investisseurs propriétaire (300K+) · LLM pour matching et personnalisation
+- **Infra** : API LinkedIn scraping + CRM intégrations · Email automation (SendGrid/Resend)
+- **Différenciateur** : Dataset propriétaire deals/investisseurs + graphe de relations pour "warm paths"
 
-### 4. Psychologie
-- **Triggers** : Peur de rater une action clé (FOMO), autorité (Index Ventures, Kleiner Perkins)
-- **JTBD** : "Quand je sors d'une réunion, je veux savoir exactement quoi faire ensuite"
-- **Aha moment** : Premier résumé de réunion avec actions déjà assignées aux bonnes personnes
+### 4. Psychologie & JTBD
+- **JTBD** : "Quand je dois lever des fonds, je veux maximiser les meetings qualifiés sans perdre 6 mois"
+- **Aha moment** : Recevoir 5 réponses positives d'investisseurs en 48h après avoir galéré 3 mois seul
+- **Triggers** : Autorité (fondateurs $1B+) · Urgence (runway limité) · Preuve sociale (résultats chiffrés)
 
 ### 5. Go-to-Market
-- **Canaux** : PLG (Product-Led Growth) → Enterprise, word-of-mouth équipes tech
-- **Viral loops** : Partage de résumés → invite collègues → expansion intra-entreprise
-- **Expansion** : De notetaker à "enterprise AI app" (agents qui automatisent post-réunion)
+- **Canal principal** : PH launch très structuré (1M votes = campagne coordonnée) · Communautés fondateurs
+- **Viral loop** : Fondateur qui lève → recommande à son réseau de fondateurs → effet réseau fort
+- **Acquisition** : Podcasts startups · Accelerateurs (YC, Station F) · Twitter founders
 
-### 6. Réplication Kyle
-- **Complexité** : 6/10 (LLM + ASR bien maîtrisés, mais traction enterprise difficile)
-- **Verticaux adjacents** : Notes client pour agences, onboarding calls SaaS, coaching/formation
-- **Angle Kyle** : Voice AI pour automatiser le suivi commercial post-call (CRM auto-fill + email de suivi)
-- **Temps de dev** : 2-4 mois pour un MVP vertical
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 (base données investisseurs à constituer est le moat principal)
+- **Angle Kyle** : Version spécialisée "Fundraisly for Voice AI Startups" avec réseau ciblé
+- **Verticaux adjacents** : Recrutement talent (même logique de matching + outreach) · Partnerships B2B
+- **Temps de dev** : 2-3 mois MVP avec API existantes (Apollo.io + LLM)
 
-## 🏆 TOP APP #3 : Omnigent
+## 🏆 TOP APP #3 : Mina Meeting Assistant
 ### 1. Identification
-- **Nom** : Omnigent | **URL** : [github.com/omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)
-- **Lancement** : 13 juin 2026 (alpha publique)
-- **Fondateurs** : Matei Zaharia (co-fondateur Databricks, créateur Apache Spark)
-- **Catégorie** : AI Agent Infrastructure / Open Source Developer Tool
-- **Métriques** : Lancé il y a 2 jours, déjà ~58K stars GitHub, trending #1, couverture MarkTechPost/AlphaSignal/Digg
+- **Nom** : Mina Meeting Assistant · **URL** : [getmina.ai](https://getmina.ai) · **Catégorie** : AI Agents / Meetings
+- **Launch** : Juin 2026 · **Fondateurs** : Non divulgués publiquement
+- **Métriques buzz** : 479 135 votes PH · Top 3 semaine 24/2026 · Intégrations Slack/HubSpot/Salesforce/Jira
 
-### 2. Proposition de Valeur
-- **Problème** : Chaque coding agent (Claude Code, Codex, Pi…) est un silo — impossible à combiner, gouverner ou partager
-- **Solution** : Meta-harness open source qui s'installe au-dessus de tous tes agents : swap, combine, applique des politiques, collabore en live depuis n'importe quel device
-- **USP** : "One command that stands up a local agent server with terminal UI + web UI" — Apache 2.0
-- **Target** : Devs, équipes ingénierie, entreprises multi-agents
-- **Pricing** : Open source gratuit (Databricks monétise en entreprise via cloud)
+### 2. Proposition de valeur
+- **Problème** : Les outils de réunion transcrivent mais n'AGISSENT pas — les actions restent manuelles après l'appel
+- **Solution** : IA qui PARLE pendant l'appel, exécute des tâches en live (CRM update, Jira ticket, draft email)
+- **USP** : Premier assistant qui "répond" et "exécute" PENDANT la réunion, pas après · Zéro friction post-meeting
+- **Target** : Sales teams, Customer Success, équipes produit en standup, interviewers
+- **Pricing** : Non divulgué (lancement récent) — probablement €20-50/user/mois
 
-### 3. Stack Technique
-- **Frontend** : Terminal UI + Web UI (React probable)
-- **Backend** : Go/Python, sandbox/policy engine
-- **Infra** : Local-first, cloud optionnel
-- **APIs** : Connecteurs Claude Code, OpenAI Codex, Pi, agents custom
+### 3. Stack technique
+- **Frontend** : Web app + intégrations Zoom/Meet/Teams
+- **Backend** : LLM temps réel (probablement GPT-4o/Claude) + RAG sur les outils connectés
+- **Infra** : WebSockets pour latence faible · APIs : HubSpot, Salesforce, Slack, Jira, Linear
+- **Différenciateur** : Architecture "execute-during-call" vs simple transcription post-call
 
-### 4. Psychologie
-- **Triggers** : Autorité (Matei Zaharia = credibilité Spark/Databricks), FOMO (tous les devs vont l'adopter), open source = confiance
-- **JTBD** : "Quand je gère plusieurs agents IA, je veux pas réécrire mon stack à chaque fois"
-- **Aha moment** : `omnigent compose claude codex` → session partagée live en 30 secondes
+### 4. Psychologie & JTBD
+- **JTBD** : "Quand je suis en call client, je veux que mon CRM soit mis à jour sans rien faire moi-même"
+- **Aha moment** : Voir Mina répondre à une question client avec les données exactes du CRM en live
+- **Triggers** : Gain de temps visible · Réduction d'erreurs · FOMO (concurrents qui l'utilisent déjà)
 
 ### 5. Go-to-Market
-- **Canaux** : GitHub organic, HN front page, Twitter/X dev community, Databricks blog
-- **Viral loops** : "Share live session with teammate" = adoption virale intra-équipe
-- **Expansion** : Open source → Databricks enterprise (BYOA = Bring Your Own Agent)
+- **Canal principal** : PH launch + intégrations natives comme distribution (Slack, HubSpot marketplace)
+- **Viral loop** : Invité en réunion voit Mina → demande "c'est quoi ce truc ?" → signup
+- **Acquisition** : Partnerships avec CRM (HubSpot, Salesforce resellers) · Sales communities
 
-### 6. Réplication Kyle
-- **Complexité** : 8/10 (orchestration multi-agents, sandbox, policy engine = complexe)
-- **Verticaux adjacents** : Orchestration agents voice (ex: plusieurs Vapi agents en parallèle)
-- **Angle Kyle** : Wrapper/orchestrateur pour agents voice Vapi → cas d'usage CX enterprise
-- **Temps de dev** : 6-12 mois (ou contribuer à l'open source pour visibilité)
+### 6. Réplication pour Kyle
+- **Complexité** : 7/10 (gestion du temps réel + intégrations multiples)
+- **Angle Kyle** : "Voice AI Agent for Sales Calls" — Mina + coach vocal en temps réel (battle cards, objections)
+- **Verticaux adjacents** : Support client · Entretiens RH · Consultants en réunion client
+- **Temps de dev** : 3-4 mois MVP (Zoom SDK + LLM + 1 intégration CRM)
 
 ## 💰 Unit Economics Deep Dive — Wispr Flow
-_Sources : Getlatka, PitchBook, TechCrunch, NextPlaySo Substack_
+*Sources : mlq.ai, weesperneonflow.ai, productgrowth.blog, nextplayso.substack.com*
 
-| Métrique | Estimation | Verdict |
+| Métrique | Estimation | Méthode |
 |---|---|---|
-| **ARR** | ~$15-20M (2026e, vs $10M en 2025) | 🟢 |
-| **ARPU** | ~$144/an (Pro ~$12/mois) | 🟡 |
-| **Users payants** | ~100-140K | 🟢 |
-| **Total installs** | 2.5M+ | 🟢 |
-| **CAC** | ~$10-15 (organic-heavy) | 🟢 |
-| **LTV** | ~$200-250 (70% retention 12 mois) | 🟢 |
-| **LTV/CAC** | ~15-20x | 🟢 |
-| **Payback period** | ~1-2 mois | 🟢 |
-| **Burn estimé** | ~$2-3M/mois (pré-levée $260M) | 🟡 |
-| **Runway** | ~12-18 mois pré-levée → 3-4 ans post | 🟢 |
-| **Rev/Employee** | ~$300-500K (équipe ~40-50p) | 🟢 |
-| **Rule of 40** | ~90+ (50% growth + 40%+ margin estimé) | 🟢 |
+| **Downloads** | 2,5M | Déclaré publiquement |
+| **Payants (19% conv.)** | ~475 000 users | 19% conversion rate déclaré |
+| **ARPU mensuel** | ~$12 | Mix Free/Pro ($16/mo) |
+| **ARR estimé** | ~$68M | 475K × $12 × 12 |
+| **MoM Growth** | 40% | Déclaré (productgrowth.blog) |
+| **CAC (estimé)** | ~$15-25 | Content-led + viral → faible |
+| **LTV (12 mois)** | ~$144 | ARPU × 12 mois |
+| **LTV/CAC** | ~7-9x | 🟢 Excellent |
+| **Payback Period** | ~1-2 mois | 🟢 Très court |
+| **Total Raised** | $81M | Déclaré |
+| **Valorisation cible** | ~$2B | Round Menlo Ventures en cours |
+| **Rev/Employee** | ~$500K+ | ~100-150 employés estimés |
+| **Rule of 40** | ~75+ | 40% growth + 35% marge estimée |
 
-**Verdict santé globale : 🟢 EXCELLENTE**
-Growth +50% MoM + retention 70% à 12 mois + CAC très faible = unit economics d'un futur unicorn. La levée à $2B à ce stade de revenus est agressive mais justifiée par l'expansion B2B Fortune 500.
+**Verdict santé : 🟢 Exceptionnel**
+- Unit economics parmi les meilleurs de la catégorie SaaS IA
+- Croissance 40% MoM = doublement tous les ~2 mois
+- Valorisation $2B sur $68M ARR = multiple 29x (premium justifié par la croissance)
+- Risque principal : coûts inférence STT scalent avec usage
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Granola | Omnigent |
+| Dimension (poids) | Wispr Flow | Fundraisly | Mina Meeting |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — marché voice AI $50B+ | 8 — meeting AI $4B+ en 2026 | 8 — marché dev tools $20B+ |
-| ⚙️ Complexité inversée (15%) | 4 — OS-level ASR difficile | 6 — LLM + ASR maîtrisables | 2 — orchestration très complexe |
-| ⏱️ Time-to-Market (15%) | 5 — 3-6 mois vertical | 7 — 2-4 mois MVP | 2 — 6-12 mois minimum |
-| 🏟️ Compétition inversée (15%) | 6 — quelques concurrents (Superwhisper, VoiceInk) | 5 — marché animé (Otter, Fireflies, Fathom) | 7 — très early, peu de méta-harness |
-| 💰 Revenue Potential (20%) | 9 — $100K MRR atteignable vertical B2B | 8 — B2B fort, ARPU élevé | 5 — open source = rev indirect |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 10 — expert voice AI + Vapi/ElevenLabs | 7 — LLM facile, enterprise moins naturel | 4 — trop infra/dev-tools |
+| 📊 Market Size (20%) | 9 — $22B voice AI | 7 — $5B fundraising tools | 8 — $15B meeting software |
+| ⚙️ Complexité inversé (15%) | 4 — STT custom complexe | 6 — Apollo API + LLM | 5 — Real-time infra difficile |
+| ⏱️ Time-to-Market (15%) | 4 — 6 mois minimum | 7 — 2-3 mois (vertical) | 5 — 3-4 mois |
+| 🏟️ Competition inversé (15%) | 5 — Otter, Whisper, Grain | 8 — Peu de concurrents directs | 6 — Fireflies, Otter, Notion |
+| 💰 Revenue Potential (20%) | 9 — >$100K MRR possible | 7 — €20-50K MRR réaliste | 8 — >$50K MRR (enterprise) |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI | 6 — Connaît les fondateurs | 8 — Voice AI + sales angle |
 
 **Score pondéré :**
+- **Wispr Flow** : (9×0.20)+(4×0.15)+(4×0.15)+(5×0.15)+(9×0.20)+(10×0.15) = **1.8+0.6+0.6+0.75+1.8+1.5 = 7.05** 🟡 BUILD ADJACENT
+- **Fundraisly** : (7×0.20)+(6×0.15)+(7×0.15)+(8×0.15)+(7×0.20)+(6×0.15) = **1.4+0.9+1.05+1.2+1.4+0.9 = 6.85** 🟡 BUILD ADJACENT
+- **Mina Meeting** : (8×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(8×0.20)+(8×0.15) = **1.6+0.75+0.75+0.9+1.6+1.2 = 6.80** 🟡 BUILD ADJACENT
 
-| App | Score | Verdict |
-|---|---|---|
-| **Wispr Flow** | **(9×0.20)+(4×0.15)+(5×0.15)+(6×0.15)+(9×0.20)+(10×0.15) = 7.35** | 🟡 BUILD ADJACENT |
-| **Granola** | **(8×0.20)+(6×0.15)+(7×0.15)+(5×0.15)+(8×0.20)+(7×0.15) = 6.95** | 🟡 BUILD ADJACENT |
-| **Omnigent** | **(8×0.20)+(2×0.15)+(2×0.15)+(7×0.15)+(5×0.20)+(4×0.15) = 4.95** | 🟠 WATCH |
-
-> **Recommandation** : Wispr Flow = opportunité #1 pour Kyle en version verticalisée (santé, légal, CRM). Le marché généraliste est pris, mais les verticaux niche restent open.
+> **Note** : Wispr Flow passe 🟢 BUILD NOW si Kyle exploite son expertise voice AI sur un vertical spécialisé (sales, médical) plutôt que de répliquer le produit généraliste.
 
 ## 📈 Tendances Émergentes
-1. **Voice-first est mainstream** : Wispr Flow, ElevenLabs, Vapi, Vozo — la voix remplace progressivement le clavier dans les workflows pro. Le marché cherche des verticaux spécialisés (médical, légal, CRM).
+### 1. 🎤 Voice-First devient mainstream (signal fort)
+La voix n'est plus un gadget — c'est une interface pro. Wispr Flow à $2B de valeur prouve que dicter > taper pour les knowledge workers. Le marché voice AI atteint $22,5B en 2026 (+34% CAGR). Fenêtre d'opportunité : 18-24 mois avant saturation des outils génériques.
 
-2. **Notetaker → Agent** : Les apps de transcription (Granola, Otter, Fathom) se transforment en agents post-réunion. La transcription devient une commodity, la valeur est dans l'action automatisée post-call.
+### 2. 🤖 AI Agents qui AGISSENT (pas juste qui observent)
+Mina = transition de "AI qui prend des notes" → "AI qui exécute". C'est le même saut qu'entre Google Maps (info) et Uber (action). Tous les SaaS verticaux vont se faire "agentifier" en 2026-2027.
 
-3. **Open source AI infra explose** : Databricks/Matei Zaharia (Spark, MLflow, Omnigent) confirme que l'infra AI devient open source. Les devs veulent gouverner leurs agents, pas les louer.
+### 3. 💼 Fundraising automatisé (signal émergent)
+Fundraisly avec 1M votes PH montre une douleur massive non résolue. Les fondateurs dépensent 40-60% de leur temps à lever des fonds. Toute automatisation de ce processus a un ROI immédiat et justifie des prix élevés.
 
-4. **Verticaux B2B battent le généraliste** : Les success stories Indie Hackers 2026 ($23K MRR en 6 mois) sont toutes sur des niches. Le généraliste est saturé, les verticaux sont profitables.
+### 4. 🔀 Distribution = Intégrations natives
+Les apps qui s'intègrent dans les outils existants (Slack, HubSpot, Jira) gagnent la distribution sans CAC. C'est la stratégie "Embed in workflow" vs "Become the workflow". Les marketplaces HubSpot/Salesforce deviennent des canaux d'acquisition majeurs.
 
-5. **India = nouveau growth market** : Wispr Flow +100% MoM en Inde. Les apps voice multilingues avec support Hinglish/Français/Espagnol ont une fenêtre d'opportunité courte.
+### 5. 📉 Fin de l'ère "one-size-fits-all" IA
+Les LLMs génériques cèdent la place aux verticaux spécialisés. Médical, juridique, sales, support — chaque niche veut son propre modèle fine-tuné avec ses données. Avantage concurrentiel : données propriétaires + expertise domaine.
 
 ## 💡 Insights Actionnables
-### Pour Kyle (Voice AI + SaaS)
+### 🎯 Pour Kyle — Actions prioritaires cette semaine
 
-**1. 🎯 Build un "Wispr Flow vertical" pour une niche B2B française**
-- Cible : médecins (SOAP notes), avocats (dictée actes), agents immobiliers (comptes-rendus visite)
-- Stack : Vapi + Whisper + GPT-4o + intégration niche (Doctolib, Clio, etc.)
-- Pricing : €49-99/mois/praticien — €10K MRR atteignable avec 100-200 clients
-- Différenciation : RGPD + hébergement EU + support français + vocabulaire spécialisé
+**#1 — Exploite ton avantage voice AI sur les Sales Teams (BUILD NOW)**
+Wispr Flow prouve que les pros paient pour la voix. Ton expertise voice AI + réseau SaaS = combo rare.
+Angle : "AI Voice Coach for B2B Sales Calls" — l'IA parle pendant l'appel, donne les battle cards en temps réel, met à jour le CRM.
+→ Différenciation vs Mina : Focus exclusif sales + coaching proactif (pas juste exécution)
+→ Marché : 100M+ commerciaux B2B dans le monde · $50-200/mois par siège · Scalable
+→ Action : 3 interviews clients cette semaine avec des Sales Managers
 
-**2. 🔄 Post-call automation pour agences/équipes commerciales**
-- Granola montre que le marché veut des actions post-réunion automatisées
-- Kyle peut builder : transcription call Vapi → résumé → CRM auto-fill → email de suivi auto
-- Timing parfait : Granola enterprise = $125M levés, le marché PME reste sous-servi
+**#2 — Surveille Fundraisly comme modèle GTM, pas comme concurrent**
+1M votes PH en une semaine = il y a une recette de launch coordonnée ici. Décortique leur playbook.
+→ Observe : comment ils ont mobilisé leurs early adopters, quel réseau de fondateurs ont-ils activé ?
+→ Application : reproduire ce playbook pour ton prochain launch (même si ton produit est différent)
 
-**3. 👀 Suivre Omnigent de près (pas builder maintenant)**
-- Open source avec Matei Zaharia = va devenir le standard de facto pour orchestrer les agents
-- Contribuer ou s'y intégrer tôt = visibilité dans la communauté dev + accès aux early adopters
-- Dans 6 mois : potentiel d'un "Omnigent Voice Plugin" pour orchestrer des agents Vapi
+**#3 — Positionnement "Mina verticalisé" pour les Demos/Webinaires**
+Mina est généraliste. Une version spécialisée pour un vertical (ex: consultants SAP, agences marketing) avec données sectorielles = moat rapide à construire.
+→ Test rapide : build un MVP Mina-like avec Make.com + GPT-4o + Zoom API en <2 semaines
+→ Validation avant de coder : 10 pré-signups à €99/mois = green light
 
-**4. 💡 Signal faible : marché francophone sous-servi**
-- 0 acteur dominant en voice AI B2B en français
-- Wispr Flow en français = basique, pas de verticaux spécialisés
-- Fenêtre de 12-18 mois avant qu'un concurrent US localise vraiment
+**#4 — Signal à surveiller : Voice AI + Healthcare**
+Les US autorisent de plus en plus les notes cliniques vocales IA (FDA, CMS). Marché $50B. Si Kyle a des contacts dans la santé, c'est LE vertical à investiguer en parallèle.
+
+**Sources principales** :
+- [Wispr Flow $2B valuation](https://mlq.ai/news/wispr-flow-raises-30m-series-a-led-by-menlo-ventures-to-accelerate-ai-dictation-platform/)
+- [Wispr Flow 40% MoM growth](https://www.productgrowth.blog/p/wispr-flow-growth-teardown)
+- [Fundraisly PH](https://www.producthunt.com/products/fundraisly)
+- [Mina Meeting Assistant](https://getmina.ai/)
+- [GitHub Trending June 2026](https://ossinsight.io/trending/ai)
