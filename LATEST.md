@@ -1,134 +1,142 @@
-# AI Watch — 2026-06-16 Matin
+# AI Watch — 2026-06-17 Matin
+
+> Veille générée le 2026-06-17 à 04:06 UTC
+
+---
 
 ## 🔥 Breaking
 
-> Releases majeures, annonces qui changent la donne
+### Ban Trump sur les modèles Anthropic : Fable 5 et Mythos 5 inaccessibles aux étrangers
+- **Quoi** : Le gouvernement Trump a émis le 13 juin un order d'export control bloquant l'accès aux modèles Fable 5 et Mythos 5 d'Anthropic pour tout ressortissant étranger — y compris les employés non-américains d'Anthropic eux-mêmes
+- **Lien** : https://www.washingtonpost.com/technology/2026/06/13/anthropic-shuts-down-newest-ai-model-after-us-bans-foreign-use/
+- **Pourquoi c'est important** : Premier cas de contrôle à l'exportation appliqué à un modèle d'IA frontier. Anthropic conteste l'ordre, arguant qu'il mettrait à l'arrêt tous les déploiements de modèles frontier à l'industrie. La décision a été prise après la découverte d'une technique de jailbreak sur Fable 5. Ça crée un précédent géopolitique majeur pour l'IA.
+- **Testable** : Non — les modèles sont inaccessibles pour les non-américains
 
-### Claude Fable 5 & Mythos 5 — Anthropic (lancé le 9 juin)
-- **Quoi** : Anthropic lance sa famille de modèles Mythos-class : Fable 5 (accès grand public) et Mythos 5 (accès restreint gouvernement/cybersécurité)
+### Claude Fable 5 — le modèle public le plus puissant d'Anthropic
+- **Quoi** : Sorti le 9 juin, Fable 5 est la version "sécurisée pour le grand public" de Mythos 5. Context window 1M tokens, 128K tokens d'output, état de l'art sur quasi tous les benchmarks testés (SWE-bench, coding, vision, science)
 - **Lien** : https://www.anthropic.com/news/claude-fable-5-mythos-5
-- **Pourquoi c'est important** : Fable 5 est le modèle le plus puissant jamais mis à disposition du public — état de l'art sur quasi tous les benchmarks (code, vision, recherche scientifique, agents). Mythos 5 a été **suspendu par ordre du gouvernement américain le 11 juin**, les équipes Anthropic sont à Washington pour résoudre le litige. Situation à suivre de près.
-- **Tarification** : $10/$50 par million de tokens input/output (2× Opus 4.8). Inclus sur les plans Pro/Max/Team/Enterprise jusqu'au 22 juin, ensuite crédits requis.
-- **Testable** : Oui — via claude.ai sur plans payants, API Anthropic, AWS Bedrock, Vertex AI, Microsoft Foundry
+- **Pourquoi c'est important** : 10%+ au-dessus de Claude Opus 4.8 sur plusieurs benchmarks. La gemme : deux produits sur un même modèle, séparés par des classifieurs de sécurité (Fable = grand public, Mythos = défense/infra critique). Pricing : $10/$50 per 1M tokens (moins de la moitié du Mythos Preview)
+- **Testable** : Oui (si accès US) — via claude.ai, API Anthropic, Bedrock, Vertex AI, Microsoft Foundry
 
-### OpenAI — Dépôt confidentiel S-1 pour IPO (8 juin)
-- **Quoi** : OpenAI a déposé un enregistrement S-1 confidentiel auprès de la SEC pour une introduction en bourse, avec Goldman Sachs et Morgan Stanley comme arrangeurs
-- **Lien** : https://cryptobriefing.com/openai-confidential-ipo-filing-2026-2/
-- **Pourquoi c'est important** : Valorisation cible ~1 trillion de dollars. $30B de revenus projetés pour 2026, mais $14B de pertes. Fenêtre de listing envisagée entre septembre et novembre 2026. Après l'Anthropic S-1 (juin 1er), les deux grands labs IA se préparent à entrer en bourse simultanément — événement historique pour l'industrie.
-- **Testable** : Non (événement financier)
+### OpenAI dépose son S-1 confidentiel à la SEC
+- **Quoi** : OpenAI a soumis un S-1 confidentiel à la SEC le 8 juin, visant une IPO en septembre 2026, avec Goldman Sachs et Morgan Stanley comme banques leads
+- **Lien** : https://openai.com/index/openai-submits-confidential-s-1/
+- **Pourquoi c'est important** : OpenAI (valorisé $852Md) est maintenant dépassé par Anthropic ($965Md post-money après un tour de $65Md). Deux des plus grosses IPO tech de l'histoire arrivent en même temps
+- **Testable** : Non
 
 ---
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Mistral Vibe — Agent IA unifié pour le travail et le code
-- **Quoi** : Mistral rebaptise Le Chat en « Vibe » et le réimagine comme plateforme agent unifiée avec Work Mode (tâches longues) et Code Mode (sessions cloud avec PR GitHub)
+### Microsoft Work IQ APIs — GA depuis hier (16 juin)
+- **Quoi** : APIs Microsoft 365 pour construire des agents d'entreprise avec accès sémantique aux emails, calendriers, réunions, chats, fichiers et systèmes métier. Facturation via Copilot Credits (consommation)
+- **Lien** : https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/
+- **Pourquoi c'est important** : Infrastructure MCP enterprise pour agents M365. Intègre aussi des MCP tools génériques + semantic index. C'est la couche de contexte organisationnel qui manquait aux agents d'entreprise
+- **Testable** : Oui — disponible en GA depuis le 16 juin pour les développeurs ayant M365
+
+### Mistral rebrand Le Chat → Vibe (plateforme agentique unifiée)
+- **Quoi** : Mistral a renommé Le Chat en "Vibe" et le repositionne comme plateforme agentique pour le travail et le code. Work Mode (tâches longues), Code Mode (coding + PRs), extension VS Code, CLI
 - **Lien** : https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai
-- **Pourquoi c'est important** : Extension VS Code + CLI intégrés ; jobs déclenchés depuis Slack prévu pour juin 2026. Mistral positionne Vibe pour concurrencer directement Claude Code et Cursor dans l'espace agent de développement.
-- **Tarification** : Free / Pro 14,99€/mois / Team 24,99€ par utilisateur / Enterprise sur devis
-- **Testable** : Oui — vibe.mistral.ai (plan gratuit disponible)
+- **Pourquoi c'est important** : Mistral se positionne directement contre Cursor/Devin sur le code et contre Notion/Copilot sur la productivité. Plans : Free, Pro (14,99€/mois), Team (24,99€/user), Enterprise
+- **Testable** : Oui — vibe.mistral.ai (Free tier disponible)
 
-### xAI Grok Build Plugin Marketplace (lancé le 11 juin, bêta)
-- **Quoi** : xAI ouvre son marketplace de plugins pour Grok Build avec MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare et Superpowers en partenaires de lancement
-- **Lien** : https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/
-- **Pourquoi c'est important** : Grok Build devient un concurrent direct de Claude Code pour les workflows développeurs. Chaque plugin est épinglé à un commit GitHub spécifique pour la traçabilité. Support pour publier ses propres plugins.
-- **Testable** : Oui — disponible pour les abonnés SuperGrok et X Premium Plus
+### Google Antigravity 2.0 — CLI Gemini shutdown le 18 juin
+- **Quoi** : Plateforme de développement agent-first lancée à Google I/O 2026 (mai). La Gemini CLI est remplacée par l'Antigravity CLI (en Go, plus rapide). Shutdown de Gemini CLI pour les usagers consumer le **18 juin demain**
+- **Lien** : https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/
+- **Pourquoi c'est important** : Antigravity 2.0 = desktop app + CLI + SDK + Managed Agents API + enterprise path. Accès gratuit pendant preview public à Claude Opus 4.5, Gemini et modèles OpenAI via interface unifiée. Plan AI Ultra à $100/mois
+- **Testable** : Oui — antigravity.google.dev (preview public)
 
-### Claude Agent SDK — Changement de facturation (15 juin)
-- **Quoi** : À partir du 15 juin, l'usage programmatique via le Claude Agent SDK et `claude -p` est facturé sur un crédit mensuel séparé, hors abonnement Claude
-- **Lien** : https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/
-- **Pourquoi c'est important** : Impact immédiat pour les développeurs qui utilisent Claude Code via GitHub Actions, des apps tiers ou des scripts automatisés. Crédit Pro : $20/mois, Max 5x : $100/mois. **À vérifier si vos automations sont affectées.**
-- **Testable** : Oui — visible dans le dashboard de facturation Anthropic
+### OpenAI Partner Network — $150M, lancement le 14 juin
+- **Quoi** : Programme de partenaires global en 3 tiers (Select / Advanced / Elite). Objectif : certifier 300 000 consultants d'ici fin 2026. Partenaires lancement : Accenture, Bain, BCG, McKinsey, PwC
+- **Lien** : https://openai.com/index/introducing-openai-partner-network/
+- **Pourquoi c'est important** : OpenAI parie $150M que l'implémentation prime sur la puissance du modèle. Mouvement stratégique pour verrouiller le marché enterprise face à Anthropic et Google
+- **Testable** : Non (programme B2B)
 
-### Gemini Code Assist — Fin du tier gratuit (18 juin)
-- **Quoi** : Google retire l'accès gratuit à Gemini Code Assist (IDE extensions + CLI) pour les utilisateurs individuels à partir du 18 juin. Migration vers **Antigravity CLI**.
-- **Lien** : https://inventivehq.com/blog/gemini-cli-deprecated-antigravity-cli-migration
-- **Pourquoi c'est important** : Les développeurs utilisant Gemini Code Assist gratuitement doivent migrer avant le 18 juin pour ne pas perdre l'accès. Les licences Enterprise Standard/Enterprise ne sont pas affectées.
-- **Testable** : Oui — Antigravity CLI disponible dès maintenant pour migration
+### Microsoft Scout — agent "Autopilot" always-on
+- **Quoi** : Annoncé à Build 2026 (2-3 juin), Scout est un agent autonome avec identité Entra gouvernée qui fonctionne sans attendre de prompt. Connecté à Teams, Outlook, OneDrive, SharePoint. Motorisé par OpenClaw
+- **Lien** : https://windowsforum.com/threads/build-2026-microsoft-makes-ai-agents-the-new-work-model-agent-mode-agent-365-local-ai.421349/
+- **Pourquoi c'est important** : Premier "Autopilot" enterprise d'envergure — les agents ne répondent plus aux prompts, ils opèrent en continu
+- **Testable** : Non (disponibilité enterprise progressive)
+
+### AWS MCP Server — GA
+- **Quoi** : Serveur MCP remote managé donnant aux agents IA un accès sécurisé et authentifié à tous les services AWS
+- **Lien** : https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/
+- **Pourquoi c'est important** : Plus de 10 000 serveurs MCP publics recensés sur GitHub/npm/PyPI. AWS rejoint l'écosystème avec une solution officielle managed
+- **Testable** : Oui — via AWS CLI / SDK
 
 ---
 
 ## 🧠 Mises à jour de Modèles
 
-### Claude Opus 4.8 — N°1 sur les leaderboards
-- **Quoi** : Claude Opus 4.8 prend la première place du leaderboard Artificial Analysis, dépassant GPT-5.5 sur les benchmarks coding, raisonnement multidisciplinaire et computer use
+### MiniMax 3 — multimodal à $0,53/1M tokens, 1528 Elo
+- **Quoi** : Modèle multimodal de Shanghai MiniMax, 1M tokens context, 1528 Elo sur les leaderboards, prix imbattable : $0,53/1M tokens
 - **Lien** : https://dev.to/vjswamy/latest-ai-model-releases-june-2026-roundup-49j5
-- **Pourquoi c'est important** : Référence du moment pour évaluer les autres modèles
-- **Testable** : Oui — disponible via API Anthropic et plans Max
+- **Pourquoi c'est important** : Les modèles chinois (MiniMax 3, Qwen 3.7 Max) matchent les modèles occidentaux tout en s'effondrant sur le prix. Ça redéfinit le "coût de l'intelligence"
+- **Testable** : Oui — API disponible
 
-### Gemini 3.5 Flash — Vitesse + performance
-- **Quoi** : Google confirme Gemini 3.5 Flash avec 284 tokens/seconde, Intelligence Index de 55, optimisé pour les workflows agentiques et le code
-- **Lien** : https://ai.google.dev/gemini-api/docs/changelog
-- **Pourquoi c'est important** : Excellent rapport performance/coût ($1.50/$9 par million de tokens). Les modèles gemini-3.1-flash-image-preview et gemini-3-pro-image-preview sont dépréciés et s'arrêtent le **25 juin**.
-- **Testable** : Oui — API Google AI Studio
-
-### Google Gemma 4 — Modèle open source pour agents
-- **Quoi** : Google lance Gemma 4, sa nouvelle série de modèles open source sous licence Apache 2.0, optimisée pour le raisonnement avancé et les workflows agentiques
-- **Lien** : https://www.crescendo.ai/news/latest-ai-news-and-updates
-- **Pourquoi c'est important** : Concurrent direct de Llama pour les déploiements locaux et on-premise
-- **Testable** : Oui — disponible sur Hugging Face (open source, gratuit)
+### Google Gemini 3.5 Flash — dans Search avec fonctionnalités agentiques
+- **Quoi** : Gemini 3.5 Flash déployé dans Google Search avec fonctionnalités agentiques complètes, preferred sources en global rollout
+- **Lien** : https://blog.google/products-and-platforms/products/search/search-io-2026/
+- **Pourquoi c'est important** : Google weaponise son moteur de recherche avec un LLM agentique directement intégré. L'AI Mode de Search devient un agent capable d'actions
+- **Testable** : Oui — google.com (déploiement progressif)
 
 ### NVIDIA Nemotron 3.5 Content Safety
-- **Quoi** : NVIDIA publie un modèle multimodal de sécurité personnalisable pour les applications IA enterprise à l'échelle mondiale
-- **Lien** : https://llm-stats.com/llm-updates
-- **Pourquoi c'est important** : Répond à la demande croissante de guardrails AI en production dans les secteurs régulés
-- **Testable** : Oui — via NVIDIA AI Enterprise
-
-### Kling 3.0 / Kling v3 — N°1 vidéo AI (arena score 2031)
-- **Quoi** : Kuaishou's Kling AI 3.0 domine le leaderboard vidéo avec 15s de durée, résolution 4K native, 60 FPS, lip-sync multilingue et génération audio native. 100 millions d'utilisateurs atteints.
-- **Lien** : https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be
-- **Pourquoi c'est important** : Dépasse Sora 2, Veo 3.1, Seedance 2.0 sur les benchmarks humains en aveugle. Standard de référence pour la génération vidéo.
-- **Testable** : Oui — klingai.com (plan gratuit limité, payant pour 4K)
+- **Quoi** : Modèle de sécurité multimodal customisable pour applications enterprise mondiales
+- **Lien** : https://blog.mean.ceo/new-ai-model-releases-news-june-2026/
+- **Pourquoi c'est important** : NVIDIA se positionne sur la couche de sécurité des pipelines IA enterprise
+- **Testable** : Via NVIDIA NIM API
 
 ---
 
 ## 🔬 Research
 
-### CVPR 2026 Best Paper — D4RT (Google DeepMind / UCL / Oxford)
-- **Quoi** : « Efficiently Reconstructing Dynamic Scenes One D4RT at a Time » remporte le Best Paper Award à CVPR 2026. D4RT reconstruit la géométrie et le mouvement de scènes dynamiques 4D à partir de vidéo.
-- **Lien** : https://www.newswise.com/articles/cvpr-2026-honors-the-year-s-most-innovative-computer-vision-and-ai-research
-- **Pourquoi c'est important** : Applications directes en réalité augmentée, robotique, production vidéo et simulation. Conférence du 5-6 juin 2026.
-- **Testable** : Non (recherche académique, pas encore de démo publique)
+### Premier cyberattaque live par agent LLM autonome (Sysdig)
+- **Quoi** : Sysdig a documenté la première attaque confirmée en production où un agent LLM autonome a exfiltré une base de données AWS en moins d'une heure, sans intervention humaine
+- **Lien** : https://www.buildfastwithai.com/blogs/ai-news-today-june-7-2026
+- **Pourquoi c'est important** : Ce n'est plus théorique. Les agents IA peuvent conduire des cyberattaques de bout en bout. À lire avec le ban Trump sur les modèles Anthropic : la menace justifie les contrôles à l'export
+- **Testable** : Non
 
-### Google TurboQuant — Compression KV Cache (ICLR 2026)
-- **Quoi** : TurboQuant réduit significativement l'overhead mémoire du KV cache via PolarQuant (rotation vectorielle) + Quantized Johnson-Lindenstrauss (compression)
-- **Lien** : https://www.crescendo.ai/news/latest-ai-news-and-updates
-- **Pourquoi c'est important** : Accélère la transition du scaling pur vers l'efficacité. Impact direct sur l'IA on-device et les coûts datacenter.
-- **Testable** : Non (paper académique)
+### Glasswing Mythos — 23 019 vulnérabilités dans l'open source IA
+- **Quoi** : L'outil Mythos de Glasswing a scanné 1 000+ projets open source et trouvé 23 019 vulnérabilités, dont 90,6% confirmées réelles sur échantillonnage indépendant
+- **Lien** : https://www.buildfastwithai.com/blogs/ai-news-today-june-7-2026
+- **Pourquoi c'est important** : L'écosystème open source IA (10 000+ repos MCP, frameworks agents) représente une surface d'attaque massive rarement auditée
+- **Testable** : Non (produit enterprise)
 
-### MCP Spec Juin 2026 — Stateless + Server-as-Agent
-- **Quoi** : La mise à jour de spécification MCP de juin 2026 introduit le protocole stateless et les capacités « server-as-agent » (MCP servers qui se connectent à d'autres MCP servers, composition récursive)
-- **Lien** : https://aaif.io/blog/mcp-is-growing-up/
-- **Pourquoi c'est important** : Franchissement de 200 implémentations de serveurs MCP. Fondation Linux prend MCP sous gouvernance ouverte. Base d'architecture pour les systèmes multi-agents.
-- **Testable** : Oui — spec disponible sur le repo MCP officiel (open source)
+### Benchmark expert-level : 65% accuracy pour les PhD (Nature)
+- **Quoi** : 448 questions multi-choix rédigées par des experts en biologie, physique et chimie — niveau tel que les PhD atteignent seulement 65% de précision en moyenne (publié le 4 juin)
+- **Lien** : https://www.nature.com/articles/s41586-025-09962-4
+- **Pourquoi c'est important** : Nouveau benchmark qui résiste à la saturation rapide des évaluations actuelles
+- **Testable** : Non
 
 ---
 
 ## 📝 À surveiller
 
-> Tendances émergentes, betas, rumeurs crédibles
+> Tendances émergentes, échéances et signaux faibles
 
-- **Anthropic Mythos 5 & gouvernement US** : Mythos 5 suspendu le 11 juin après un « ordre américain ». Des ingénieurs seniors Anthropic sont à Washington pour résoudre le différend. Issue critique pour les capacités cybersécurité de haut niveau.
-- **Anthropic S-1 (IPO)** : Dépôt confidentiel à la SEC le 1er juin. Valorisation $65B lors du Series H à $965B (selon certaines sources). Les deux labs IA majeurs (OpenAI + Anthropic) vers la bourse simultanément.
-- **OpenClaw dépasse 210 000 ⭐ sur GitHub** : Assistant IA personnel entièrement local, passerelle vers 50+ intégrations (WhatsApp, Slack, Signal…). Viral depuis janvier 2026. Projet open source à surveiller.
-- **Gemini File Search multimodal** : La File Search API supporte désormais la recherche d'images via gemini-embedding-2. Nouveau cas d'usage RAG multimodal.
-- **Claude Agent SDK** : Anthropic facture désormais les usages programmatiques sur un budget séparé (effectif 15 juin). Réveil potentiel pour les équipes qui n'ont pas encore lu les notes de version.
-- **Antigravity CLI (Google)** : Remplace le Gemini CLI retiré le 18 juin. Peu documenté pour l'instant, migration urgente pour les users Gemini Code Assist gratuits.
-- **Runware** : $50M Series A pour son "Sonic Inference Engine" — déploiement de 2M+ modèles Hugging Face d'ici fin 2026.
-- **Shield AI** : $1,5B en Series G (valorisation $12,7B) — signal de l'accélération des investissements IA défense.
+- **Colorado AI Act** : enforcement le **30 juin** — première loi IA US à fort impact réglementaire. Toutes les entreprises actives au Colorado sont concernées
+- **Gemini CLI shutdown** : demain **18 juin** pour les users consumer → migration vers Antigravity CLI
+- **OpenAI IPO** : cible septembre 2026. S-1 confidentiel déposé. Anthropic prépare aussi son IPO (Wilson Sonsini mandaté). Deux IPOs tech historiques en même temps
+- **Anthropic vs OpenAI** : Anthropic ($965Md) dépasse maintenant OpenAI ($852Md) en valorisation privée — la première fois de l'histoire
+- **GitHub Copilot billing** : passage aux AI Credits pour les requêtes agentiques premium → fort backlash développeurs. Le modèle flat-fee meurt
+- **Cognition (Devin)** : levée de $1Md à $26Md de valorisation — les AI coding agents sont la nouvelle licorne
+- **OpenClaw** (open source) : projet local IA personnel, 210 000 étoiles GitHub, le repo open source qui croit le plus vite de l'histoire
 
 ---
 
 ## 📊 Résumé
 
 - **Top 3 du jour** :
-  1. **Claude Fable 5** — modèle Anthropic le plus puissant disponible au public, avec Mythos 5 suspendu par le gouvernement US (situation à suivre)
-  2. **OpenAI IPO** — dépôt S-1 confidentiel le 8 juin, valorisation $1T, listing prévu fin 2026
-  3. **Mistral Vibe** — rebrand de Le Chat en agent IA unifié travail+code, concurrent direct de Claude Code
+  1. **Ban Trump sur Fable 5/Mythos 5** — premier contrôle export IA frontier, précédent géopolitique majeur
+  2. **Claude Fable 5** — meilleur modèle public disponible, architecture safety innovante (deux produits / un modèle)
+  3. **Microsoft Work IQ APIs GA** — infrastructure de contexte enterprise pour agents M365, disponible depuis hier
 
 - **À tester en priorité** :
-  - **Claude Fable 5** sur claude.ai (plans payants) — meilleur modèle du moment sur benchmarks
-  - **Gemma 4** sur Hugging Face — meilleur open source gratuit pour agents
-  - **Kling 3.0** sur klingai.com — génération vidéo 4K/60fps state-of-the-art
-  - **Mistral Vibe** sur vibe.mistral.ai — agent code + travail avec plan gratuit
-  - **Grok Build Plugin Marketplace** (si abonné X Premium Plus) — intégration MongoDB/Vercel/Sentry dans le terminal
+  - **Claude Fable 5** via claude.ai (si accès US) — le modèle public le plus puissant du marché actuellement
+  - **Google Antigravity 2.0** (preview public gratuit) — plateforme agent-first avec accès multi-modèles
+  - **Mistral Vibe** (free tier) — le nouvel agent de travail/code de Mistral
+  - **AWS MCP Server** (GA) — accès unifié à tous les services AWS pour agents
+
+---
+
+*Sources principales : [The Hacker News](https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html) · [Washington Post](https://www.washingtonpost.com/technology/2026/06/13/anthropic-shuts-down-newest-ai-model-after-us-bans-foreign-use/) · [Anthropic](https://www.anthropic.com/news/claude-fable-5-mythos-5) · [OpenAI](https://openai.com/index/introducing-openai-partner-network/) · [Microsoft](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/) · [VentureBeat](https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai) · [Google Developers](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/) · [AWS](https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/)*
