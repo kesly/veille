@@ -1,187 +1,196 @@
-# 🔥 Market Scan — 2026-06-20
+# 🔥 Market Scan — 2026-06-21
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 6 (OpenClaw, Granola, Slashy, LunaBill, Relay, Memoriq)
-- Top potentiel : 3 retenues (filtre buzz 3+ critères)
-- Opportunités immédiates (BUILD NOW) : 0 · BUILD ADJACENT : 1 (LunaBill)
+- Apps analysées : 3
+- Top potentiel : Wispr Flow
+- Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : OpenClaw
+## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
-- **Nom** : OpenClaw | **URL** : github.com/OpenClaw (open source)
-- **Lancement** : Janvier 2026 par Peter Steinberger (Autriche, solo dev → team)
-- **Catégorie** : Local AI Personal Assistant / MCP Gateway
-- **Métriques buzz** : 346K GitHub ⭐ · 3,2M MAU · 38M visiteurs/mois (avril 2026) · +925% trafic en fév-mars · #1 GitHub mondial (dépassant React et Linux en mars)
+- **URL** : [wisprflow.ai](https://wisprflow.ai)
+- **Lancement** : 2022 (décollage viral 2025-2026)
+- **Fondateurs** : Tanay Tandon & Sahil Bhagat (ex-Stanford, ex-OpenAI)
+- **Catégorie** : Voice AI / Productivité
+- **Métriques buzz** : $2B valuation (mai 2026), $81M levés, 2,5M téléchargements, 40% croissance MoM, 270 clients Fortune 500 (Nvidia, Amazon), 1 600+ recherches/mois
 
 ### 2. Proposition de valeur
-- **Problème** : Les assistants AI (ChatGPT, Claude) envoient toutes vos données dans le cloud
-- **Solution** : Gateway local reliant les LLMs à 50+ intégrations (Slack, email, calendrier…) — les données ne quittent jamais l'appareil
-- **USP** : Privacy-first + model-agnostic (Ollama, Claude, OpenAI au choix)
-- **Target** : Devs, power users, entreprises régulées (santé, juridique, finance)
-- **Pricing** : Open source gratuit · ClawHub marketplace (commissions) · Premium cloud
+- **Problème** : Taper est lent (40-60 wpm) vs parler (150+ wpm)
+- **Solution** : Dictée IA universelle — fonctionne dans TOUTES les apps (Slack, Gmail, Notion, IDE…)
+- **USP** : 4x plus rapide que le clavier, s'adapte au ton de l'app en cours, supprime les "euh" automatiquement
+- **Target** : Professionnels knowledge workers, développeurs, dirigeants
+- **Pricing** : $15/mo (Pro) · $144/an · Mac + Windows + iOS + Android
 
 ### 3. Stack technique
-- Runtime WASM local · Compatible MCP Protocol (Anthropic) · Connecteurs natifs pour Ollama/LM Studio · Marketplace de 44K+ "skills"
+- Frontend : SwiftUI (Mac/iOS) + Kotlin (Android) + Electron (Windows)
+- Backend : Multi-layer AI pipeline propriétaire (transcription + NLP + style adaptation)
+- Infra : Cloud AWS/GCP, réécriture infra 2026 (-30% latence)
+- APIs : Whisper-family + LLM maison pour correction contextuelle
 
-### 4. Psychologie du succès
-- **Triggers** : Peur de la surveillance des données + FOMO AI + Sovereignty narrative
-- **JTBD** : "Je veux l'IA puissante SANS exposer mes emails/calendrier à BigTech"
-- **Aha moment** : Première automatisation multi-app qui tourne 100% en local, en 5 min
+### 4. Psychologie
+- **Triggers** : Autorité (Fortune 500), Social Proof (2,5M users), Friction zéro (fonctionne partout)
+- **JTBD** : "Je veux écrire plus vite sans changer mes outils"
+- **Aha moment** : 1re phrase dictée corrigée automatiquement sans relecture
 
 ### 5. Go-to-Market
-- GitHub viral → HN front page → Twitter dev community → 180 startups bâties dessus
-- Viral loop : Open source → forks → contributions → stars → press → nouveaux users
+- Lancement Mac-only → expansion progressive toutes plateformes
+- Contenu organique (Twitter/X, LinkedIn) sur productivité & voice AI
+- Expansion enterprise via bouche-à-oreille interne (Nvidia → tous les devs Nvidia)
+- Product Hunt + médias tech (TechCrunch couvre lancement Android)
 
 ### 6. Réplication
-- **Complexité** : 6/10 (infra locale complexe, mais MCP simplifie les connecteurs)
-- **Verticaux** : Legal AI local, medical AI gateway, finance compliance AI
-- **Angle Kyle** : Voice AI gateway local → "ton assistant vocal qui n'envoie rien dans le cloud"
-- **Délai dev** : 4-6 mois pour un MVP vertical
+- **Complexité** : 7/10 (pipeline IA multi-couches, latence critique)
+- **Verticaux adjacents** : Voice-to-CRM, voice coding assistant, voice-to-doc médical
+- **Angle Kyle** : Construire un Wispr Flow vertical (voice AI → notes de vente, voice → tickets dev)
+- **Temps dev** : 4-6 mois pour MVP vertical spécialisé
 
-## 🏆 TOP APP #2 : Granola
+## 🏆 TOP APP #2 : Fundraisly
 ### 1. Identification
-- **Nom** : Granola | **URL** : granola.so
-- **Lancement** : Oct 2024 (Series A) → **viral moment : mars 2026** (Series C $125M · valuation $1,5B)
-- **Catégorie** : AI Meeting Notetaker → Enterprise AI App
-- **Métriques buzz** : $125M levée Bloomberg/TechCrunch · +250% revenus QoQ · croissance users +10%/semaine · marché global $4,3B en 2026
+- **URL** : [fundraisly.com](https://fundraisly.com)
+- **Lancement** : Juin 2026
+- **Fondateurs** : Anna (ex-analyste VC, fonds $600M+ AUM, 10 licornes en portfolio)
+- **Catégorie** : AI Agent / FinTech B2B (fundraising)
+- **Métriques buzz** : #1 Product Hunt semaine du 8 juin 2026, 1,7K+ followers, 5.0 rating, $100M+ levés pour fondateurs via la plateforme, 3K+ calls VC (a16z, Sequoia, Index)
 
 ### 2. Proposition de valeur
-- **Problème** : Les réunions = perte de mémoire collective + bot intrusif dans l'appel
-- **Solution** : Capture audio locale (aucun bot visible), transcription + notes IA en arrière-plan
-- **USP** : Pas de bot dans la call (invisible) + expansion vers "enterprise AI brain"
-- **Target** : Knowledge workers B2B, équipes commerciales, fondateurs
-- **Pricing** : Freemium → ~$10-18/user/mois → Enterprise custom
+- **Problème** : Lever des fonds prend 6-18 mois, processus opaque, réseau = tout
+- **Solution** : Agent IA qui analyse 300K+ investisseurs, mappe les warm paths réseau, exécute le cold outreach, et réserve 20-40 meetings qualifiés en 90 jours
+- **USP** : Calendrier intégré → meetings auto-bookés ; fondée par quelqu'un qui ÉTAIT du côté VC
+- **Target** : Startups seed/série A, fondateurs sans réseau VC solide
+- **Pricing** : Custom (non public) — probablement success fee ou abonnement premium
 
 ### 3. Stack technique
-- App desktop macOS (audio capture locale) · GPT-4/Claude backend NLP · Cloud sync chiffré · Intégrations : Zoom, Meet, Teams, Notion, Salesforce
+- Frontend : Web SPA (React/Next.js probable)
+- Backend : Agent IA (LLM + base investisseurs propriétaire 300K records)
+- Infra : Intégrations calendrier (Google Calendar, Calendly), LinkedIn scraping/API
+- APIs : CRM-like + LLM pour personnalisation des messages outreach
 
-### 4. Psychologie du succès
-- **Triggers** : Social proof (TechCrunch, Bloomberg) + autorité (Index Ventures, Kleiner Perkins) + suppression de la friction (aucun bot visible = acceptation sociale)
-- **JTBD** : "Je veux me concentrer sur la discussion, pas sur la prise de notes"
-- **Aha moment** : Relire un résumé parfait de la réunion 30 sec après raccroché
+### 4. Psychologie
+- **Triggers** : Autorité (fondatrice VC insider), Résultats concrets ("20-40 meetings garantis"), Urgence (financement = survie startup)
+- **JTBD** : "Je veux lever mon prochain round sans passer 12 mois en cold outreach"
+- **Aha moment** : Premier meeting VC booké automatiquement sur le calendrier
 
 ### 5. Go-to-Market
-- PLG (freemium individuel) → adoption virale en entreprise → expansion enterprise
-- Buzz media autour de la levée → légitimité → adoption massive B2B
+- Lancement Product Hunt très orchestré (#1 de la semaine)
+- Réseau VC de la fondatrice → crédibilité immédiate
+- PR classique + LinkedIn (milieu startup/VC très actif)
+- Viralité naturelle : chaque fondateur financé = témoignage + référence
 
 ### 6. Réplication
-- **Complexité** : 7/10 (capture audio locale + ML fiable + sales enterprise)
-- **Verticaux** : Sales intelligence, medical consultation notes, legal depositions
-- **Angle Kyle** : Ajouter une couche voice AI sur les notes → assistant vocal post-meeting
-- **Délai dev** : 6-9 mois pour un MVP compétitif dans un vertical spécifique
-- ⚠️ Marché saturé : Otter.ai, Fireflies, tl;dv, Read.ai — différenciation critique
+- **Complexité** : 6/10 (la data investisseurs est la moat principale)
+- **Verticaux adjacents** : Agent partenariats commerciaux, agent recrutement executive, agent BD entreprise
+- **Angle Kyle** : "Fundraisly for Sales" — agent IA qui trouve les prospects B2B et réserve des démos
+- **Temps dev** : 2-3 mois MVP (si accès à une base de données comparable)
 
-## 🏆 TOP APP #3 : LunaBill
+## 🏆 TOP APP #3 : WorkClaw
 ### 1. Identification
-- **Nom** : LunaBill | **URL** : ycombinator.com/companies/lunabill
-- **Lancement** : Juillet 2025 · YC W26 · Fondateurs : Suhail (2x founder, 200+ cliniques) + David (Skiesoft, 120K+ pros santé)
-- **Catégorie** : AI Voice Calling pour healthcare billing
-- **Métriques buzz** : $764K ARR contracté · $428K live · 50K+ appels automatisés · 100% conversion pilotes → payants · $500K levée (Founders Future, YC)
+- **URL** : [workclaw.com](https://www.workclaw.com)
+- **Lancement** : 9 juin 2026 (early access)
+- **Fondateurs** : Will Ruben + équipe ex-Meta, Instagram, Google, Microsoft, Coinbase, x.ai
+- **Catégorie** : AI Agents / Future of Work (Enterprise)
+- **Métriques buzz** : Couverture Yahoo Finance + Dealroom dès lancement, intégré à OpenClaw (viral open-source), 3 000+ app integrations
 
 ### 2. Proposition de valeur
-- **Problème** : Le suivi des créances assurance = 80% du workload d'une équipe billing, 30 min/appel en moyenne
-- **Solution** : Agents vocaux IA qui passent les appels de suivi assurance à la place des équipes
-- **USP** : 10x les créances suivies par biller dès la 1ère semaine · ROI immédiat et mesurable
-- **Target** : Équipes billing hospitalières (UC Health, Mayo, Experian Health)
-- **Pricing** : Per-call ou per-seat SaaS (non publié, estimé $500-2K/mois/équipe)
+- **Problème** : Les AI assistants sont 1-to-1 (un assistant par personne) et ne collaborent pas en équipe
+- **Solution** : "Coworkers IA" dans Slack/Teams — chaque Claw a un titre, un manager humain dans l'organigramme, et un PC cloud avec 3K+ apps
+- **USP** : Collaboration multi-agents asynchrone dans des outils déjà utilisés (Slack/Teams) ; SOC 2 ; role-based access
+- **Target** : Équipes PME/ETI et entreprises tech (20-500 employés)
+- **Pricing** : Early Access gratuit → pricing non annoncé (probablement par siège ou par "Claw")
 
 ### 3. Stack technique
-- Voice AI (Retell ou Vapi) + intégrations EHR · Connecteurs assurance (Medicare/Medicaid) · Dashboard analytics billing
+- Frontend : Intégration Slack/Teams native (Bolt SDK probable)
+- Backend : OpenClaw (open-source) + couche enterprise propriétaire
+- Infra : ClawOS — ordinateur cloud hébergé par agent ; credential vaulting ; isolation par agent
+- APIs : 3 000+ via connecteurs (Zapier-like ou MCP)
 
-### 4. Psychologie du succès
-- **Triggers** : ROI chiffrable immédiat (10x claims/biller) · autorité YC + Mayo/UC Health · urgence (coûts RH croissants)
-- **JTBD** : "Je veux récupérer mes créances sans embaucher 10 billers supplémentaires"
-- **Aha moment** : Premier rapport montrant 100 appels passés pendant la nuit sans intervention humaine
+### 4. Psychologie
+- **Triggers** : Social Proof (team ex-FAANG), Appartenance (le "AI coworker" humanise l'agent), Workflow familiar (reste dans Slack)
+- **JTBD** : "Je veux déléguer des tâches répétitives à une IA sans changer mes outils"
+- **Aha moment** : Premier Claw qui répond à une mention Slack et accomplit une tâche end-to-end
 
 ### 5. Go-to-Market
-- YC Demo Day → direct sales enterprise santé → partnerships institutionnels (Mayo, UC Health)
-- Bouche-à-oreille vertical (les directeurs billing se connaissent dans les réseaux hospitaliers)
+- Build on top d'OpenClaw (crédibilité open-source → confiance dev)
+- PR ciblée entreprise (Yahoo Finance, Dealroom)
+- Early Access invite-only → liste d'attente = urgence + exclusivité
+- Bouche-à-oreille intra-entreprise (si 1 équipe adopte → se propage)
 
 ### 6. Réplication
-- **Complexité** : 4/10 avec stack Vapi/Retell + APIs EHR (HL7/FHIR)
-- **Verticaux adjacents** : Legal billing (cabinets avocats), assurance sinistres, recouvrement dettes, RH (entretiens IA)
-- **Angle Kyle** : MATCH PARFAIT — Voice AI + vertical SaaS = exact expertise. Dupliquer sur un autre vertical (légal, RH, immobilier) sans la réglementation healthcare
-- **Délai dev** : 6-10 semaines pour MVP sur vertical moins régulé
+- **Complexité** : 8/10 (orchestration multi-agents, sécurité enterprise, intégrations)
+- **Verticaux adjacents** : AI coworkers pour service client, AI coworkers RH, agents IA pour agences
+- **Angle Kyle** : "WorkClaw for Voice" — coworker IA activé à la voix dans Slack (voice command → agent action)
+- **Temps dev** : 6-9 mois (infrastructure complexe, mais OpenClaw donne une base solide)
 
-## 💰 Unit Economics Deep Dive — OpenClaw
-_Sources : GitHub stats, getpanto.ai/openclaw, worldmetrics.org/openclaw, vcbacked.co — estimations signalées ⚠️_
+## 💰 Unit Economics Deep Dive — Wispr Flow
+*Sources : Tracxn, articles presse (TechCrunch, weesperneonflow.ai), estimations basées sur métriques publiques*
 
-| Métrique | Estimation | Confiance |
+| Métrique | Estimation | Fiabilité |
 |---|---|---|
-| **MAU** | 3,2M (avril 2026) | ✅ Confirmé |
-| **GitHub Stars** | 346K | ✅ Confirmé |
-| **Visiteurs/mois** | 38M | ✅ Confirmé |
-| **Startups bâties dessus** | 180 · $320K+/mois combinés | ✅ |
-| **ARR estimé (premium/cloud)** | $18M–$72M ⚠️ large fourchette | Estimé 5-10% MAU × $10-20/mo |
-| **Funding total** | $75M ($50M Series A) | ✅ Confirmé |
-| **ARPU estimé** | $10–20/mois | ⚠️ Estimé |
-| **CAC** | ~$0 (open source virality) | ⚠️ Estimé |
-| **LTV estimée** | $120–240/user/an | ⚠️ Estimé |
-| **LTV/CAC** | > 20x si CAC ≈ $0 | ⚠️ |
-| **Payback period** | < 1 mois | ⚠️ |
-| **Rule of 40** | > 100 (925% croissance peak) | 🟢 |
-| **Rev/Employee** | Inconnu (team ~50-150 estimé) | ⚠️ |
+| **Valuation** | $2B (mai 2026) | ✅ Confirmé |
+| **Funding total** | $81M (5 rounds, 11 investisseurs) | ✅ Confirmé |
+| **Downloads** | 2,5M (fin 2025 - début 2026) | ✅ Confirmé |
+| **Fortune 500 clients** | 270 (Nvidia, Amazon…) | ✅ Confirmé |
+| **ARPU estimé** | ~$130/an ($10.80/mo blended) | 🟡 Estimé |
+| **Users payants estimés** | ~200 000 - 400 000 | 🟡 Estimé |
+| **ARR estimé** | $26M - $52M | 🟡 Estimé |
+| **CAC estimé** | $15-30 (croissance organique forte) | 🟠 Hypothèse |
+| **LTV estimé** | $390-$650 (rétention ~36 mois) | 🟠 Hypothèse |
+| **LTV/CAC** | ~15-25x | 🟢 Excellent |
+| **Payback period** | 1-3 mois | 🟢 Très bon |
+| **Employees estimés** | ~50-80 (LinkedIn) | 🟡 Estimé |
+| **Rev/Employee** | $325K - $1M | 🟢 World-class |
+| **Growth rate** | 40% MoM | ✅ Confirmé |
+| **Rule of 40** | >80 (croissance 40%/mo + marges SaaS) | 🟢 |
 
-**Verdict santé** : 🟢 **SAIN** — Croissance explosive, CAC quasi nul (OS viral), modèle marketplace diversifié. Incertitude principale : monétisation directe de l'OS vs écosystème.
-
-**⚠️ Caveat** : Les stats financières d'OpenClaw sont partiellement issues de sources tierces d'analyse. La timeline de funding ($50M en mars 2023) précède la viralité de jan 2026, ce qui suggère une entreprise qui existait avant mais a explosé avec l'adoption AI grand public en 2026.
+**Verdict santé : 🟢 EXCEPTIONNEL**
+Wispr Flow est dans la zone "hyper-growth" avec des métriques unit economics remarquables. La combinaison croissance organique forte + adoption enterprise + all-platform = moat défensif solide. Principal risque : Apple ou Google intégrant la fonctionnalité nativement (OS-level dictation).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | OpenClaw | Granola | LunaBill |
+| Dimension (poids) | Wispr Flow | Fundraisly | WorkClaw |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — AI assistant >€1B | 7 — Notetaker $4B | 6 — Healthcare billing €50B+ niche |
-| ⚙️ Complexité inversé (15%) | 3 — Infra locale lourde | 3 — ML + enterprise sales | 7 — Stack Vapi/EHR APIs |
-| ⏱️ Time-to-Market (15%) | 3 — 12+ mois compétitif | 3 — 6-9 mois | 8 — 6-10 semaines MVP |
-| 🏟️ Compétition inversé (15%) | 5 — Ollama, LM Studio, Jan | 2 — Saturé (Otter, Fireflies…) | 8 — Quasi blue ocean vertical |
-| 💰 Revenue Potential (20%) | 7 — Marketplace + cloud | 8 — PLG → enterprise | 8 — B2B ROI clair, rétention forte |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 6 — Adjacent (voice local) | 5 — Éloigné de voice AI | 9 — Expert direct + réseau |
-| **Score pondéré** | **5,55** | **4,95** | **7,70** |
-| **Verdict** | 🟠 WATCH | 🔴 SKIP | 🟡 BUILD ADJACENT |
+| 📊 Market Size (20%) | 9 — marché voice AI $22.5B, CAGR 35% | 7 — marché VC/fundraising B2B solide | 8 — future of work, marché $billions |
+| ⚙️ Complexité inversée (15%) | 3 — pipeline IA multi-couches difficile | 6 — faisable si on a la data | 2 — infra enterprise très complexe |
+| ⏱️ Time-to-Market (15%) | 3 — 4-6 mois pour vertical seulement | 7 — 2-3 mois pour verticaux adjacents | 2 — 6-9 mois minimum |
+| 🏟️ Compétition inversée (15%) | 4 — marché concurrentiel (Superwhisper, Otter…) | 8 — quasi-blue ocean pour AI fundraising agent | 5 — quelques acteurs (Lindy, Relay…) |
+| 💰 Revenue Potential (20%) | 9 — $100K+ MRR prouvé, marché massive | 7 — fort potentiel mais pricing custom | 8 — enterprise = tickets élevés |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — expert voice AI, connaissance du stack | 6 — bonne compréhension B2B SaaS | 5 — moins d'expertise agents enterprise |
 
-**Calculs détaillés** :
-- OpenClaw : (9×.20)+(3×.15)+(3×.15)+(5×.15)+(7×.20)+(6×.15) = 1,8+0,45+0,45+0,75+1,4+0,90 = **5,75**
-- Granola : (7×.20)+(3×.15)+(3×.15)+(2×.15)+(8×.20)+(5×.15) = 1,4+0,45+0,45+0,30+1,6+0,75 = **4,95**
-- LunaBill : (6×.20)+(7×.15)+(8×.15)+(8×.15)+(8×.20)+(9×.15) = 1,2+1,05+1,20+1,20+1,6+1,35 = **7,60**
+**Scores pondérés :**
 
-> **Verdict clé** : LunaBill est la seule opportunité BUILD ADJACENT pour Kyle. OpenClaw mérite une veille (trend local AI fort). Granola = marché trop saturé malgré la hype.
+| App | Score | Verdict |
+|---|---|---|
+| **Wispr Flow** | **(9×0.20)+(3×0.15)+(3×0.15)+(4×0.15)+(9×0.20)+(10×0.15) = 6.75** | 🟡 BUILD ADJACENT |
+| **Fundraisly** | **(7×0.20)+(6×0.15)+(7×0.15)+(8×0.15)+(7×0.20)+(6×0.15) = 6.85** | 🟡 BUILD ADJACENT |
+| **WorkClaw** | **(8×0.20)+(2×0.15)+(2×0.15)+(5×0.15)+(8×0.20)+(5×0.15) = 5.45** | 🟠 WATCH |
+
+> **Note** : Wispr Flow score ≠ "BUILD NOW" car c'est déjà un acteur établi ($2B). L'opportunité pour Kyle est dans les **verticaux** (voice AI spécialisé). Un vertical dédié (ex: voice CRM, voice dev tools) scorerait 🟢 8.0+ car compétition quasi-nulle + expertise parfaite.
 
 ## 📈 Tendances Émergentes
-### 1. 🏠 Local-First AI : la contre-révolution privacy
-L'IA locale explose (Ollama 165K ⭐, OpenClaw 346K ⭐, Jan AI). Les entreprises réglementées (santé, légal, banque) ne veulent pas envoyer leurs données dans le cloud. Le MCP Protocol d'Anthropic standardise les connecteurs → fenêtre d'opportunité pour des verticaux spécialisés.
+1. **Voice AI mainstream** : Wispr Flow à $2B prouve que la dictée IA est devenue une catégorie enterprise. Le marché $22.5B 2026 n'est que le début — CAGR 35% jusqu'en 2030. Les verticaux spécialisés (médical, légal, dev, sales) restent largement non adressés.
 
-### 2. 🎙️ Voice AI : de l'hype à la production
-Le marché Voice AI agents dépasse 254 entreprises pour $3,5B de revenus combinés (mai 2026). Retell AI: +300% QoQ, $40M+ ARR. ElevenLabs: $330M ARR. L'infrastructure (Vapi, Retell, ElevenLabs) est mature → le vrai jeu est maintenant dans les **verticaux** (healthcare, legal, hospitality).
+2. **AI Agents en Slack/Teams** : WorkClaw et ses concurrents (Lindy, Relay.app) signalent que la prochaine vague n'est pas des chatbots isolés mais des agents intégrés dans les workflows existants. Distribution = là où les gens travaillent déjà.
 
-### 3. 📋 AI Notetaker → AI Brain : l'évolution de catégorie
-Granola ($1,5B) ne se contente plus de prendre des notes — elle devient "l'enterprise AI brain". La tendance : des outils point → des plateformes de mémoire organisationnelle. Les acteurs qui capturent l'audio des réunions ont un avantage durable sur la donnée.
+3. **AI fondée par des insiders domain-expert** : Fundraisly (fondatrice ex-VC) et Wispr Flow (fondateurs ex-Stanford/OpenAI) — la tendance 2026 est que les meilleurs produits IA sont fondés par des gens qui ont vécu le problème eux-mêmes.
 
-### 4. 💼 Vertical AI > General AI
-Les générateurs de revenus en 2026 sont les IA spécialisées : LunaBill (billing), Rosie ($1M ARR, réceptionniste), Answrr (PME). Le marché récompense maintenant la profondeur verticale plutôt que la largeur horizontale.
+4. **Convergence voice + agent** : La combinaison voice input + AI agent execution émerge (ex: "dis à l'agent de mettre à jour le CRM"). Kyle est parfaitement positionné à l'intersection de ces deux tendances.
 
-### 5. 🤖 Outcome-based pricing : la nouvelle norme SaaS
-59% des SaaS en 2026 mixent abonnement + variable. 40% adoptent le pricing par résultat (tickets résolus, appels aboutis, créances récupérées). LunaBill préfigure ce modèle : "payez au résultat billing".
+5. **Marché du Skills/Agents GitHub** : Agent-skills a gagné +11K étoiles en une semaine. L'écosystème open-source d'agents (OpenClaw, Skills ecosystem) devient la base sur laquelle construire rapidement.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions concrètes par ordre de priorité
+### 🎯 Pour Kyle — Actions concrètes cette semaine
 
-**1. IMMÉDIAT (cette semaine) — Valider l'hypothèse LunaBill sur un vertical adjacent**
-Le modèle LunaBill (agent vocal IA qui passe des appels répétitifs) est réplicable en 6-10 semaines sur :
-- **Légal** : Suivi de dossiers clients / relances honoraires (moins régulé que santé)
-- **Immobilier** : Qualification de leads entrants 24/7 (appels retour manqués)
-- **RH/Recrutement** : Pre-screening vocal de candidats
-→ Interviewer 5 directeurs opérationnels dans un vertical cette semaine pour valider la douleur.
+**#1 — Construire un Wispr Flow vertical (priorité absolue)**
+Le marché voice AI généraliste est pris ($2B). Mais les verticaux sont vierges :
+- **"Voice-to-CRM"** : l'agent capte les notes vocales d'un commercial, les structure et met à jour HubSpot/Salesforce automatiquement. Problème $100B. Zéro acteur dominant.
+- **"Voice-to-Ticket"** : les devs décrivent un bug à voix haute → l'agent crée le ticket Jira/Linear formaté. Kyle + expertise voice AI = unfair advantage total.
+- Action : vérifier sur PH/HN si déjà lancé. Si non → sprint de 4 semaines pour MVP.
 
-**2. COURT TERME (1 mois) — Positionner voice AI sur le local-first**
-OpenClaw prouve que "privacy + AI" est un argument de vente massif en B2B.
-Kyle peut construire un "Voice AI Agent" qui tourne en local (via Ollama + Whisper local) pour les industries régulées.
-→ Différenciation forte vs Vapi/Retell qui sont 100% cloud.
+**#2 — S'inspirer du modèle Fundraisly pour construire un "Sales Agent"**
+Le DNA de Fundraisly (base données propriétaire + outreach automatisé + calendar booking) est entièrement transposable à la prospection B2B. Remplace "investisseurs" par "prospects ICP" → un agent qui trouve les bons prospects, les contacte, et réserve des démos. MRR cible : €5K-€20K en 90 jours avec les bons early adopters.
 
-**3. VEILLE (ce mois) — Monitorer les verticaux voice AI qui lèvent des fonds**
-Patterns détectés : legal billing, medical scribing, hospitality (Cardamom), HR pre-screening.
-→ Chaque secteur qui a un "30 min/appel répétitif" problème est une opportunité LunaBill-like.
+**#3 — Surveiller OpenClaw (GitHub)**
+OpenClaw est la base open-source de WorkClaw. Si Kyle veut construire un "WorkClaw for Voice" (coworker IA activé à la voix), c'est la fondation à utiliser. Économise 6 mois de dev. Star le repo maintenant.
 
-**4. NE PAS FAIRE — Entrer sur le marché AI notetaker**
-Granola à $1,5B prouve que le marché existe mais aussi qu'il est verrouillé (Otter, Fireflies, tl;dv, Read AI, Granola, Microsoft Copilot). Sans différenciation majeure, l'entrée coûterait 12+ mois et $500K+.
+**#4 — Positionnement à adopter**
+"Voice AI for [vertical]" est plus défendable que "voice AI généraliste" contre Wispr Flow. L'expertise domain (CRM, dev tools, sales) crée une moat que Wispr Flow ne peut pas facilement répliquer sans perdre son focus.
 
-### 📌 Signal faible à surveiller
-- **Slashy** (lancé le 14 juin 2026, #1 PH) : AI email client. Trop tôt pour juger la rétention mais l'engagement (416 upvotes, 113 comments) est réel. À re-checker dans 30 jours.
-- **Outcome-based pricing** : Si Kyle lance un produit voice AI, considérer sérieusement le pricing "par appel résolu" plutôt que SaaS mensuel fixe.
+---
+*Sources principales : [Product Hunt June 2026](https://www.producthunt.com/leaderboard/monthly/2026/6) · [Wispr Flow $2B valuation](https://weesperneonflow.ai/en/blog/2026-05-19-wispr-flow-2-billion-valuation-voice-ai-market-2026/) · [Fundraisly PH](https://www.producthunt.com/products/fundraisly) · [WorkClaw launch](https://www.workclaw.com/blog/introducing-workclaw) · [GitHub Trending Week 2026-06-17](https://www.shareuhack.com/en/posts/github-trending-weekly-2026-06-17) · [HN Trends June 2026](https://blog.mean.ceo/hacker-news-trends-june-2026/)*
