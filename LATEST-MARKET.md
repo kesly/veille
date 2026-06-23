@@ -1,186 +1,200 @@
-# 🔥 Market Scan — 2026-06-22
+# 🔥 Market Scan — 2026-06-23
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Upstream (AI inbox YC + Xavier Niel)
-- Opportunités immédiates (BUILD NOW) : 2 (Upstream adjacent, Mina vertical)
+- Top potentiel : Headroom (#1), Palmier Pro (#2), OpenMontage (#3)
+- Opportunités immédiates (BUILD NOW) : 1
 
-## 🏆 TOP APP #1 : Upstream
+## 🏆 TOP APP #1 : Headroom
 ### 1. Identification
-- **URL** : [upstream.do](https://app.upstream.do) | **Launch** : juin 2026 (beta invite → public)
-- **Fondateurs** : Louis Lecat (ex-Head of Product Algolia, ARR $100M+) + Jonathan Tiret — 7 personnes, Station F Paris
-- **Catégorie** : AI Email Client / Inbox Agent
-- **Buzz** : #1 PH mensuel juin 2026 (~623K votes) · couverture Tech.eu, TFN · YC W26
+- **URL** : [github.com/chopratejas/headroom](https://github.com/chopratejas/headroom) · [headroomlabs.ai](https://headroomlabs.ai)
+- **Launch** : Janvier 2026 (open-source) · Pic viral : 2 juin 2026 (#1 GitHub Trending)
+- **Fondateurs** : Tejas Chopra (Senior Engineer Netflix)
+- **Catégorie** : Dev Tools / LLM Infra / AI Agent
+- **Métriques** : 18 000+ ⭐ GitHub · 1 100+ forks · $700K économisés pour les users · 200B tokens libérés · v0.26.0
 
 ### 2. Proposition de valeur
-- **Problème** : L'email reste le hub central du travail pro, mais les outils actuels n'intègrent pas les agents IA nativement.
-- **Solution** : Inbox où des agents IA trient, rédigent (dans ton style), planifient et relancent automatiquement — rien n'est envoyé sans approbation.
-- **USP** : Compatible MCP (Claude, Codex, agents perso) · sync Gmail · dispo web/desktop Mac+Win/iOS
-- **Cible** : Knowledge workers, founders, équipes 2-20 personnes
-- **Pricing** : Gratuit + Pro (AI étendu + fonctions équipe) — tarif non divulgué
+- **Problème** : Les agents IA brûlent des tokens inutilement sur des logs verbeux, outputs d'outils, chunks RAG
+- **Solution** : Couche de compression sémantique entre le contexte et le LLM — 60-95% de tokens en moins, mêmes réponses
+- **USP** : Library + Proxy + MCP server + CLI wrap — s'intègre en 1 ligne dans tout stack existant
+- **Target** : Devs qui pilotent Claude Code, Codex, Cursor, Copilot, Aider ; équipes IA en prod
+- **Pricing** : Open source Apache 2.0 — monétisation future probable via cloud/dashboard
 
-### 3. Stack technique (estimé)
-- Frontend : React/Next.js · Backend : Node.js/Python · Infra : AWS · Email : Gmail API → IMAP SMTP
-- IA : Claude/GPT-4o via API · Agents : MCP protocol · Auth : Google OAuth
+### 3. Stack technique
+- **Lang** : Python + TypeScript
+- **Deploy** : Library · Proxy (port configurable) · MCP server · `headroom wrap claude` CLI
+- **Benchmarks** : Code search 17 700 → 1 400 tokens (-92%) · SRE debug 65 694 → 5 118 tokens (-92%)
+- **Intégrations** : Claude/Codex/Cursor/Aider/Copilot/Mistral
 
-### 4. Psychologie
-- **JTBD** : "Aide-moi à gérer 200 emails/jour sans y passer 3h"
-- **Aha moment** : Premier email rédigé automatiquement dans TON style → envoyé en 1 clic
-- **Triggers** : Social proof (YC + Xavier Niel) · Autorité (ex-Algolia) · FOMO (waitlist fermée → ouverture publique)
+### 4. Psychologie & JTBD
+- **Trigger principal** : Douleur économique immédiate (factures OpenAI/Anthropic qui explosent)
+- **JTBD** : "Garde mon agent intelligent mais divise ma facture par 10"
+- **Aha moment** : Premier `headroom wrap claude` → voir les tokens drop en live dans le dashboard
+- **Social proof** : Netflix engineer (autorité) · "200B tokens freed" (preuve d'échelle)
 
-### 5. Go-to-market
-- Launch YC + Product Hunt simultané · Xavier Niel = signal crédibilité France
-- Distribution : 30+ opérateurs (Framer, Asana, Alan) comme early adopters et ambassadeurs
-- Viral loop : chaque email envoyé via Upstream expose la signature → acquisition organique
+### 5. Go-to-Market
+- **Canal #1** : GitHub Trending organique — #1 le 2 juin 2026
+- **Canal #2** : HN / Reddit devs se partagent les benchmarks (92% compression)
+- **Canal #3** : X #buildinpublic / AI agent Twitter
+- **Viral loop** : Dev essaie → économise → poste ses screenshots de savings → nouveaux devs arrivent
 
-### 6. Réplication
-- **Complexité** : 7/10 — protocole email + agents + UX email = stack lourde
-- **Verticaux adjacents** : Inbox IA vertical (juridique, recrutement, support client)
-- **Angle Kyle** : Construire le "Upstream for Voice" — inbox IA pour call centers/SDR qui traitent des conversations téléphoniques
-- **Temps de dev** : 4-6 mois MVP · 1 dev + 1 AI engineer
+### 6. Réplication pour Kyle
+- **Complexité** : 5/10 — compression sémantique bien documentée, mais benchmarks reproductibles = hard moat
+- **Verticaux adjacents** : Version spécialisée "Voice AI token compression" (transcripts vocaux très verbeux)
+- **Angle Kyle** : Plugin Headroom pour Vapi/ElevenLabs — compresser les logs d'appels voice avant analyse
+- **Temps de dev** : 3-6 semaines pour un MVP vertical voice
 
-## 🏆 TOP APP #2 : Goldfish
+## 🏆 TOP APP #2 : Palmier Pro
 ### 1. Identification
-- **URL** : [goldfish.sh](https://www.goldfish.sh) | **Launch** : mai-juin 2026 (alpha publique)
-- **Fondateur** : Joel Edholm (solo founder, building in public sur LinkedIn)
-- **Catégorie** : AI Productivity / Context Layer pour Mac
-- **Buzz** : #2 PH mensuel juin 2026 (~606K votes) · viral LinkedIn · rebuild complet en 2 jours
+- **URL** : [palmier.io](https://www.palmier.io) · [github.com/palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro)
+- **Launch** : 21 juin 2026 (public) · #1 GitHub Trending au lancement
+- **Fondateurs** : Marcos Rico Peng (ex-LinkedIn infra) + Harrison Tin (ex-Microsoft) — 2 personnes, SF
+- **Catégorie** : Creative Tools / AI Video Editor / MCP
+- **Métriques** : 3 500+ ⭐ · 291 forks · 15+ vidéos YC créées avant lancement public
 
 ### 2. Proposition de valeur
-- **Problème** : Tu réexpliques le même contexte projet à chaque outil IA que tu ouvres.
-- **Solution** : Mac app qui mémorise en privé tout ce que tu fais sur ton Mac → presse Option dans n'importe quel champ texte → IA avec contexte déjà chargé.
-- **USP** : "Contextmaxxing" — zéro friction, zéro prompt, rédige dans TON ton depuis n'importe quelle app
-- **Cible** : Indépendants, fondateurs, knowledge workers Mac-only
-- **Pricing** : Gratuit en alpha — modèle freemium prévu
+- **Problème** : Le workflow vidéo IA actuel est fragmenté — générer dans un outil, couper dans un autre
+- **Solution** : Éditeur vidéo macOS où la génération IA vit sur la timeline — générer, itérer, couper en un seul endroit
+- **USP** : MCP server natif → Claude Desktop / Cursor / Codex pilotent l'éditeur directement depuis le chat
+- **Target** : Créateurs de contenu IA, YC founders qui veulent des launch videos, devs qui vlogent
+- **Pricing** : Éditeur gratuit (open source) · Pro $29/mo (launch) → $49/mo · Max $69/mo · Crédits IA
 
-### 3. Stack technique (estimé)
-- Native macOS (Swift/AppKit) · Accessibility API pour capture contexte multi-apps
-- Backend cloud minimal (sync) · Modèle LLM : Claude/GPT-4o via API · Stockage local chiffré
+### 3. Stack technique
+- **Frontend** : macOS natif (Tahoe / macOS 26 minimum — grosse contrainte marché)
+- **Backend** : MCP server open source — expose des outils pour lire/écrire sur la timeline
+- **IA** : Génération vidéo/image via API closes (propres crédits) · Open source = éditeur + MCP
+- **Infra** : Electron/Swift natif + API generation cloud side
 
-### 4. Psychologie
-- **JTBD** : "Laisse-moi écrire vite sans changer de contexte mentalement"
-- **Aha moment** : Option → draft d'email en 3 sec qui sonne comme toi et mentionne ta réunion d'hier
-- **Triggers** : Curiosité (démo virale) · Habitude (raccourci Option = muscle memory rapide) · Building in public = authenticité
+### 4. Psychologie & JTBD
+- **Trigger** : "Je génère de l'IA mais le workflow est cassé" — frustration bien réelle
+- **JTBD** : "Crée ma vidéo de lancement YC sans quitter mon éditeur IA"
+- **Aha moment** : Taper dans Claude "crée une vidéo de 30s sur mon produit" → voir la timeline se remplir automatiquement
+- **Social proof** : 15 YC companies comme clients avant même le lancement public
 
-### 5. Go-to-market
-- Joel build in public sur LinkedIn/Instagram → démo vidéo virale
-- Waitlist puis alpha → FOMO organique
-- PH launch = amplification
+### 5. Go-to-Market
+- **Canal #1** : GitHub Trending #1 au lancement (pré-buzz construit)
+- **Canal #2** : Réseau YC (clients de référence = crédibilité immédiate)
+- **Canal #3** : MCP ecosystem — communauté Claude/Cursor très active en juin 2026
+- **Viral loop** : Créer une vidéo avec Palmier → partager → "fait avec Palmier Pro" watermark potentiel
 
-### 6. Réplication
-- **Complexité** : 5/10 — accès Accessibility macOS bien documenté, LLM API standard
-- **Verticaux adjacents** : Version Windows, version browser extension, vertical spécifique (dev, sales, support)
-- **Angle Kyle** : "Goldfish for Voice" — layer contexte qui charge l'historique client avant chaque appel → SDR/account manager
-- **Temps de dev** : 6-10 semaines MVP Mac · 1 dev iOS/macOS
+### 6. Réplication pour Kyle
+- **Complexité** : 8/10 — éditeur vidéo natif macOS = engineering très lourd
+- **Verticaux adjacents** : MCP server pour Descript / CapCut (sans refaire l'éditeur)
+- **Angle Kyle** : Intégrer Palmier Pro pour auto-générer des clips de démo voice AI à partir des transcripts
+- **Temps de dev** : 3-4 mois minimum pour un équivalent; mieux = s'associer / devenir intégrateur MCP
 
-## 🏆 TOP APP #3 : Mina Meeting Assistant
+## 🏆 TOP APP #3 : OpenMontage
 ### 1. Identification
-- **URL** : [getmina.ai](https://getmina.ai) | **Launch** : 3 juin 2026 (PH)
-- **Fondateurs** : "pixel_pilot" (pseudo PH) — équipe non publique
-- **Catégorie** : AI Meeting Assistant (actif, pas passif)
-- **Buzz** : #3 PH mensuel juin 2026 (~479K votes) · catégorie "AI Notetakers" leader
+- **URL** : [github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+- **Launch** : 22 juin 2026 · #2 GitHub Trending le lendemain
+- **Fondateurs** : calesthio (solo, identité non publique)
+- **Catégorie** : Open Source / AI Video / Agentic Workflow
+- **Métriques** : 8 600+ ⭐ GitHub · Trending top 3 · Multiples forks actifs (aliberson, dyanko89...)
 
 ### 2. Proposition de valeur
-- **Problème** : Les outils de réunion actuels (Otter, Fireflies) écoutent et transcrivent — mais ne font rien pendant l'appel.
-- **Solution** : Mina PARLE en réunion, répond en temps réel, exécute des tâches (CRM update, Jira ticket, email de suivi) avant que l'appel soit terminé.
-- **USP** : Premier meeting assistant vraiment actif — peut parler, utiliser des skills, générer des outputs live
-- **Cible** : Sales, recruteurs, customer success, PMs — équipes B2B
-- **Pricing** : Gratuit au lancement (modèle premium probable)
+- **Problème** : La production vidéo IA reste manuelle et fragmentée (script → assets → edit → render)
+- **Solution** : Système agentique complet — 12 pipelines de production, 52 outils, 500+ skills agents
+- **USP** : Zero-cost path (Piper TTS + Archive.org/NASA + FFmpeg/Remotion) — production vidéo pro sans frais API
+- **Target** : Développeurs IA, content creators techniques, chercheurs en vidéo générative
+- **Pricing** : 100% open source, auto-hébergé
 
-### 3. Stack technique (estimé)
-- WebRTC / SDK Zoom+Meet+Teams · STT : Deepgram / Whisper · TTS : ElevenLabs / Cartesia
-- LLM : Claude/GPT-4o · Intégrations : Slack, HubSpot, Salesforce, Jira, Linear (via API REST)
-- Backend : Node.js ou Python · Infra : AWS/GCP
+### 3. Stack technique
+- **Render** : FFmpeg + Remotion
+- **TTS** : Piper (local) ou APIs cloud
+- **Footage** : Archive.org, NASA (domaine public)
+- **Agent skills** : 500+ skills couvrant recherche, scripting, asset gen, editing, rendering
+- **Pipelines** : 12 pipelines spécialisés (ex: documentary, explainer, news, tutorial...)
 
-### 4. Psychologie
-- **JTBD** : "Fais les tâches admin post-call pendant que je reste focus sur la conversation"
-- **Aha moment** : Mina met à jour le CRM et envoie le follow-up email AVANT que la réunion se termine
-- **Triggers** : Wow effect (IA qui parle) · Gain temps concret · Social proof (intégrations pro reconnues)
+### 4. Psychologie & JTBD
+- **Trigger** : "Je veux automatiser la création vidéo sans payer des APIs à chaque clip"
+- **JTBD** : "Transforme mon agent IA en studio de production vidéo complet"
+- **Aha moment** : Passer une instruction à Claude Code → obtenir une vidéo complète rendue localement
+- **Social proof** : Forks explosifs dès J+1 = signal fort de la communauté dev
 
-### 5. Go-to-market
-- PH launch fort · Catégorie "meeting assistant" déjà validée (Otter, Fireflies = preuve marché)
-- Différenciation claire : actif vs passif
-- Distribution naturelle : chaque réunion = démo gratuite pour les participants
+### 5. Go-to-Market
+- **Canal unique** : GitHub Trending organique — sans marketing, sans budget
+- **Amplification** : Coverage instantanée sur AIToolly, PyShine, scriptbyai, aitoolnet
+- **Viral loop** : Open source → fork → amélioration communauté → nouveau trending cycle
+- **Risque** : Pas de monétisation visible, survie dépend de la communauté
 
-### 6. Réplication
-- **Complexité** : 8/10 — audio real-time + multi-intégrations + reliability en prod = stack complexe
-- **Verticaux adjacents** : Mina for Sales, Mina for Recrutement, Mina for Customer Support
-- **Angle Kyle** : DIRECTEMENT dans sa zone — voice AI + réunions B2B. Kyle peut construire "Mina for Sales Calls" avec latence <500ms via son expertise
-- **Temps de dev** : 2-3 mois MVP avec stack voice AI existante
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 — bien documenté, mais 500+ skills = effort de setup significatif
+- **Verticaux adjacents** : Pipeline "Voice AI demo video" automatisé à partir de transcripts d'appels
+- **Angle Kyle** : Utiliser OpenMontage comme backend de génération pour un SaaS "auto-démo voice AI"
+- **Temps de dev** : 2-4 semaines pour adapter un pipeline existant à un vertical voice
 
-## 💰 Unit Economics Deep Dive — Upstream
-> ⚠️ Upstream vient de lancer publiquement en juin 2026. Les chiffres ci-dessous sont des **estimations** basées sur le funding ($3M), la taille d'équipe (7), et les benchmarks YC B2B SaaS.
+## 💰 Unit Economics Deep Dive — Headroom
+> ⚠️ Headroom est open source sans revenus déclarés. Les estimations ci-dessous sont des projections basées sur des comparables (Raycast, Warp, Pieces.app).
 
 | Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **ARR** | ~$0–200K | Tout juste lancé publiquement |
-| **Users** | ~5K–20K | Waitlist + beta invite → public |
-| **ARPU** | ~$15–25/mois | Freemium + Pro plan typique |
-| **CAC** | ~$20–50 | YC + PH + word-of-mouth dominant |
-| **LTV** | ~$180–300 (12-18 mois) | Churn estimé 5-8%/mois early stage |
-| **LTV/CAC** | ~4–6x | Sain pour early stage B2B |
-| **Payback** | ~3–6 mois | Acceptable |
-| **Burn mensuel** | ~$80–120K | 7 personnes Paris, runway 2-3 ans |
-| **Runway** | ~24–36 mois | $3M levés |
-| **Rev / Employee** | <$30K ARR/emp | Normal pre-PMF |
-| **Rule of 40** | N/A (trop tôt) | — |
+| **ARR** | $0 direct (OSS) → $300K-1M an 2 si SaaS pivot | Comparable OSS → SaaS (PostHog, Infisical) |
+| **Users actifs** | ~12 000 devs | 18K stars × 65% actifs (benchmark OSS) |
+| **ARPU** (si SaaS) | $25-40/mo par dev | Benchmark dev tools (Raycast Pro $8, Warp $15+) |
+| **CAC** | ~$0 (organic GitHub) | Viral GitHub Trending = CAC near-zero |
+| **LTV** (si SaaS) | $300-480 (12-18 mo rétention dev tools) | Churn ~5-7%/mo dev tools |
+| **LTV/CAC** | ∞ → cible >10x si pivot | Meilleur ratio possible = organique pur |
+| **Payback** | <1 mois si monétisé | CAC ≈ 0 |
+| **Burn** | Quasi-nul (1 personne, side project Netflix) | Fondateur salarié Netflix |
+| **Runway** | Infini (bootstrapped) | Pas de VC, pas de burn |
+| **Rev/Employee** | N/A → potentiel $300K-1M/personne | 1 fondateur, OSS |
+| **Rule of 40** | N/A pour l'instant | Pas de revenus |
 
-**Verdict santé : 🟡 PRÉ-PMF**
-Upstream est dans la phase la plus risquée (juste post-launch) mais avec les meilleurs fondamentaux : équipe expérimentée, YC, $3M cash. La vraie question : rétention à 90 jours. Si >60% des users restent après 3 mois, la thèse tient.
+**Verdict santé : 🟡 OSS Traction Forte — Monétisation à construire**
 
-**Sources** : [Tech.eu](https://tech.eu/2026/06/03/upstream-raises-3m-to-launch-collaborative-ai-inbox-backed-by-yc-and-xavier-niel/) · [YC](https://www.ycombinator.com/companies/upstream) · benchmarks YC SaaS
+Le profil est celui d'un OSS fondateur-unique qui a capté une vraie douleur marché. La monétisation naturelle serait un tier cloud/dashboard (comme PostHog, Infisical). Avec 18K stars et $700K de savings utilisateurs documentés, le pricing power est réel. Risk : le fondateur est chez Netflix, donc disponibilité partielle.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Upstream | Goldfish | Mina Meeting |
+| Dimension (poids) | Headroom | Palmier Pro | OpenMontage |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — email = marché €10B+ | 6 — Mac only = niche | 8 — meeting AI = €5B+ |
-| ⚙️ Complexité inversée (15%) | 3 — email + agents = dur | 7 — macOS API accessible | 4 — real-time audio = dur |
-| ⏱️ Time-to-Market (15%) | 3 — 4-6 mois min | 7 — 6-10 semaines | 5 — 2-3 mois |
-| 🏟️ Compétition inversée (15%) | 5 — Gmail/Superhuman/Spark | 8 — peu de concurrents directs | 5 — Otter/Fireflies/Granola |
-| 💰 Revenue Potential (20%) | 8 — Pro B2B €20-50/user | 6 — freemium → €10-20/user | 9 — B2B €30-100/user/mois |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 5 — email ≠ core expertise | 4 — macOS dev ≠ expertise | **9** — voice AI = expertise #1 |
+| 📊 Market Size (20%) | 8 — Marché dev tools IA >$5B, tokens = coût structurel | 6 — Marché vidéo IA large mais macOS-only réduit l'adressable | 7 — Marché vidéo générative >$1B mais très fragmenté |
+| ⚙️ Complexité inversée (15%) | 7 — Bibliothèque de compression reproductible en 3-6 sem | 3 — Éditeur vidéo natif macOS = 6-12 mois min | 6 — 500 skills à setup mais pipelines réutilisables |
+| ⏱️ Time-to-Market (15%) | 7 — Vertical voice addon faisable en 4-6 sem | 3 — Équivalent = 4-6 mois min | 7 — Adapter un pipeline existant = 3-4 semaines |
+| 🏟️ Compétition inversée (15%) | 8 — Pas de leader clair en compression LLM context | 5 — Concurrence Descript, CapCut, Runway (gros acteurs) | 6 — Open source = pas de business model clair mais niche libre |
+| 💰 Revenue Potential (20%) | 7 — Si SaaS pivot : $50-500K MRR réaliste en 18 mois | 6 — Modèle crédits mais macOS-only cap le potentiel | 4 — OSS pur, monétisation très difficile |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — Voice AI génère des tokens massifs = fit parfait | 5 — Création vidéo tangentielle à voice AI | 7 — Pipelines IA + voice = bon overlap technique |
 
-| App | **Score pondéré** | Verdict |
+| App | Score Pondéré | Verdict |
 |---|---|---|
-| **Upstream** | **(8×.20)+(3×.15)+(3×.15)+(5×.15)+(8×.20)+(5×.15) = 5.90** | 🟠 WATCH |
-| **Goldfish** | **(6×.20)+(7×.15)+(7×.15)+(8×.15)+(6×.20)+(4×.15) = 6.15** | 🟡 BUILD ADJACENT |
-| **Mina Meeting** | **(8×.20)+(4×.15)+(5×.15)+(5×.15)+(9×.20)+(9×.15) = 6.80** | 🟡 BUILD ADJACENT |
-
-> **Winner pour Kyle : Mina Meeting** — le match expertise/marché est imbattable. Le score reste "adjacent" car la complexité temps-réel est réelle, mais Kyle a déjà la stack voice AI — ce qui fait passer le vrai score Kyle à ~7.5 🟢.
+| **Headroom** | **(0.20×8)+(0.15×7)+(0.15×7)+(0.15×8)+(0.20×7)+(0.15×9) = 7.70** | 🟢 **BUILD NOW** |
+| **OpenMontage** | **(0.20×7)+(0.15×6)+(0.15×7)+(0.15×6)+(0.20×4)+(0.15×7) = 6.05** | 🟡 **BUILD ADJACENT** |
+| **Palmier Pro** | **(0.20×6)+(0.15×3)+(0.15×3)+(0.15×5)+(0.20×6)+(0.15×5) = 4.80** | 🟠 **WATCH** |
 
 ## 📈 Tendances Émergentes
-### 1. 🤝 L'IA sort du chat box — elle agit
-Upstream et Mina partagent la même thèse : l'IA ne doit plus répondre à tes questions, elle doit **exécuter des tâches** à ta place. Le paradigme "chat assistant" est mort. L'ère des "AI Workers" arrive.
+**1. 🔧 L'infra IA devient le vrai marché**
+Les apps qui explosent en juin 2026 ne sont plus des "AI wrappers" de ChatGPT — ce sont des couches d'infrastructure qui rendent les agents *moins chers*, *plus fiables*, *plus intégrables*. Headroom (compression tokens), n8n (orchestration), Supabase (backend) : la plomberie IA est le meilleur business de 2026.
 
-### 2. 🧠 Le contexte comme moat
-Goldfish l'a compris avant tout le monde : la valeur n'est pas dans le LLM, c'est dans **le contexte persistant**. Celui qui possède le contexte utilisateur gagne. Mem0 (52K stars GitHub), Goldfish, Mina — tous misent là-dessus.
+**2. 🎬 Video-as-code : la timeline devient programmable**
+Palmier Pro et OpenMontage signalent une tendance majeure : la production vidéo sort des UIs graphiques pour entrer dans les agents. Dans 12-18 mois, générer une vidéo sera aussi simple qu'un appel API. Les early movers sur ce paradigme ont un avantage considérable.
 
-### 3. 📩 Rebundling des outils de communication
-Email (Upstream), Meetings (Mina), Calendar (Granola) — chaque brique de communication pro est en train d'être reconstruite avec IA native. La fenêtre d'opportunité = 12-18 mois avant que Google/Microsoft copient.
+**3. 🔌 MCP comme standard de distribution**
+Le Model Context Protocol (Anthropic) est en train de devenir le "npm des outils IA". Palmier Pro, Headroom, et des dizaines d'autres intègrent MCP comme premier canal d'adoption. Pour Kyle : chaque produit voice AI devrait avoir un MCP server en 2026.
 
-### 4. 🇫🇷 Paris = hub voice AI + YC
-Upstream (YC, Paris, Xavier Niel) confirme que l'écosystème Paris est en train de produire des breakouts YC. Vapi, Cartesia, Alan — la voice AI a une scène francophone forte. Signal fort pour Kyle.
+**4. 💸 Le coût des tokens = nouvelle douleur #1 des builders**
+Avec l'explosion des agents autonomes, la facture Anthropic/OpenAI explose. Headroom a sauvé $700K en quelques mois. C'est le signal que l'optimisation des coûts LLM est un marché massif et sous-servi, particulièrement pour les appels voice (transcription + analyse = beaucoup de tokens).
 
-### 5. ⚡ MCP = nouveau standard d'intégration
-Upstream, Mina, et de nombreux autres lancent avec **MCP compatibility** dès le jour 1. C'est devenu le "OAuth des agents IA" — ignorer MCP en 2026 = ignorer REST en 2012.
+**5. 🌐 GitHub Trending = nouveau Product Hunt**
+Les 3 apps analysées ce mois sont toutes arrivées via GitHub Trending, pas Product Hunt. Le développeur est devenu l'early adopter n°1 de 2026. Distribution-first via OSS = stratégie dominante pour les outils techniques.
 
-## 💡 Insights Actionnables pour Kyle
-### 🥇 Insight #1 — BUILD : "Mina for Sales Calls" vertical
-**Opportunité directe pour Kyle.** Mina prouve la demande pour les AI meeting assistants actifs. Kyle a déjà la stack voice (Vapi/Cartesia/ElevenLabs) + les connexions SaaS B2B. L'angle : se concentrer sur **Sales Calls uniquement** (SDR, AE) — intégration CRM native, real-time objection coaching, auto-update pipeline après chaque appel. Pricing cible : €50-150/siège/mois.
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions immédiates (7 jours)
 
-**Action immédiate** : contacter 5 équipes sales B2B, proposer une POC gratuite 2 semaines, valider la rétention avant de builder.
+**Action #1 — Tester Headroom sur ta stack voice IA** `[J+1]`
+Installe `pip install headroom-ai` et wrap ton Claude Code actuel. Mesure la réduction de tokens sur tes appels de dev. Si tu économises >60%, tu as un use case réel pour un produit dérivé vertical voice.
 
-### 🥈 Insight #2 — ADJACENT : "Contexte persistant" pour voice AI
-**Le vrai insight de Goldfish** : les gens réexpliquent le contexte à chaque outil. Ce problème est encore plus douloureux sur les **appels vocaux** (pas de copy-paste). Kyle peut construire une layer contexte qui charge l'historique client (CRM, emails, calls précédents) avant chaque appel téléphonique. Un "Goldfish for Voice".
+**Action #2 — Builder "VoiceHeadroom" : compression de transcripts voice IA** `[J+7 à J+30]`
+Niche claire : les transcripts d'appels Vapi/ElevenLabs sont verbeux. Une couche de compression sémantique spécialisée sur le voice (timestamps, filler words, segments silencieux) pourrait réduire les tokens d'analyse de 70-90%. Distribution naturelle : communauté Vapi, Bland.ai, Retell.
+- Stack : Fork de Headroom + fine-tuning compression voice
+- Pricing : $19-49/mo par workspace
+- Temps : 3-5 semaines pour MVP
 
-**Action immédiate** : prototyper en 1 semaine avec Vapi + extraction CRM + synthèse Claude.
+**Action #3 — Publier un MCP server pour ton produit voice IA principal** `[J+14]`
+La tendance MCP est irréversible. Même un MCP server minimal (3-5 outils) te positionne dans l'écosystème Claude/Cursor et génère des leads organiques.
 
-### 🥉 Insight #3 — WATCH : Distribution via réseaux YC/Xavier Niel
-**Observation stratégique** : Upstream a levé $3M avec 7 personnes en quelques mois grâce au réseau YC + opérateurs français (Algolia, Alan, Webflow). Kyle devrait activer YC Startup School ou un accélérateur FR pour la crédibilité ET la distribution — pas pour l'argent.
+**Action #4 — Surveiller OpenMontage** `[En veille]`
+Ne pas builder dessus maintenant (OSS sans monétisation), mais surveiller si un founder pivote vers un SaaS payant. Ce serait un signal d'acquisition/partenariat intéressant pour automatiser la création de démos voice AI.
 
-**Action immédiate** : appliquer YC S26 (deadline ~septembre 2026) ou Station F résidence.
-
-### ⚡ Insight #4 — TECH : Implémenter MCP maintenant
-Tout produit lancé sans MCP compatibility en 2026 parait déjà legacy. C'est une heure de dev qui ouvre la distribution sur tous les clients MCP (Claude, Cursor, Upstream, etc.).
-
-**Action immédiate** : ajouter un serveur MCP à tout produit voice AI existant de Kyle.
+### 📌 Signaux faibles à surveiller
+- **Headroom SaaS pivot** : si Tejas Chopra quitte Netflix ou annonce une levée → signal fort d'accélération
+- **Palmier Pro sur Windows/Linux** : si ils lèvent et expandent l'OS support → multiplier le marché adressable x5
+- **Concurrents de Headroom** : LangChain, LlamaIndex pourraient intégrer la compression nativement (risque de commoditisation en 6-12 mois)
