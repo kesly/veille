@@ -1,209 +1,199 @@
-# 🔥 Market Scan — 2026-06-24
+# 🔥 Market Scan — 2026-06-25
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8 (PH, HN, GitHub Trending, SaaS news)
-- Top potentiel : 3 retenues (Palmier Pro, Vaani, Fundraisly)
-- Opportunités immédiates (BUILD NOW) : 1 (Palmier Pro)
+- Apps analysées : 8
+- Top potentiel : Palmier Pro, Skybridge, OpenMontage
+- Opportunités immédiates (BUILD NOW) : 1 (Skybridge ecosystem)
 
 ## 🏆 TOP APP #1 : Palmier Pro
-**URL** : https://palmier.io | **GitHub** : github.com/palmier-io/palmier-pro
-**Launch** : juin 2026 | **Catégorie** : AI-Native Video Editor / Dev Tools
-**Fondateurs** : Marcos Rico Peng (ex-LinkedIn infra) + Harrison Tin (ex-Microsoft) — 2 personnes, SF
-**Buzz** : #1 GitHub Trending 19-22 juin 2026 · 4 700+ stars · 361 forks · YC W26 · $500K levé
+### 1. Identification
+- **URL** : [palmier.io](https://www.palmier.io/) | GitHub : [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro)
+- **Launch** : mi-juin 2026 (public) | Fondée 2024 (YC S24)
+- **Fondateurs** : Équipe Palmier-io (YC batch)
+- **Catégorie** : AI-native video editor, macOS
+- **Buzz** : #1 GitHub Trending (22 juin 2026), 3 500+ stars, 291 forks, couverture AIToolly/AgentStack/explainx.ai
 
-### Proposition de Valeur
-- **Problème** : Premiere Pro/DaVinci ont 30 ans de UX — aucun n'a été repensé pour le flux AI-first
-- **Solution** : Timeline vidéo macOS où toi ET un agent (Claude/Codex/Cursor via MCP) éditez ensemble
-- **USP** : Génère vidéos/images (Kling, Seedance) directement dans la timeline ; open source (Swift)
-- **Target** : Créateurs de contenu tech-savvy, développeurs qui produisent des démos/tutoriels
-- **Pricing** : Free (éditeur complet + MCP illimité), Pro $29/mo (5K crédits), Max $69/mo (12K crédits)
+### 2. Proposition de valeur
+- **Problème** : Les éditeurs vidéo (Premiere, Final Cut) ne sont pas conçus pour travailler avec des agents IA
+- **Solution** : Éditeur macOS où l'IA (Claude, Codex, Cursor via MCP) lit et édite la timeline comme un humain
+- **USP** : Open-source GPLv3 + génération payante (Seedance, Kling, Nano Banana Pro dans la timeline)
+- **Target** : Créateurs de contenu tech-savvy, solo founders, agences IA
+- **Pricing** : Éditeur gratuit (no login) · Pro $29/mo (5K crédits) · Max $69/mo (12K crédits)
 
-### Stack Technique
-- **Frontend/App** : Swift natif macOS (performance Apple Neural Engine)
-- **AI Génération** : Seedance, Kling, Nano Banana Pro via API
-- **Agent integration** : MCP (Model Context Protocol) → Claude, Codex, Cursor
-- **Infra** : Cloud hosting + API routing vers modèles vidéo
+### 3. Stack technique
+- **Frontend/App** : Swift natif macOS (construit from scratch)
+- **Génération** : Seedance, Kling, Nano Banana Pro (fermé, payant)
+- **Intégration agents** : MCP server open-source (Claude, Codex, Cursor)
+- **Backend** : Fermé (pipeline de génération propriétaire)
 
-### Psychologie du Succès
-- **Trigger principal** : Curiosité + FOMO dev ("mon agent peut éditer ma vidéo !")
-- **Social proof** : #1 GitHub Trending = validation immédiate par les pairs dev
-- **JTBD** : "Je veux produire du contenu vidéo sans passer 3h dans Premiere"
-- **Aha moment** : Premier prompt dans la timeline qui génère une clip en 30 secondes
+### 4. Psychologie
+- **Aha moment** : Voir Claude éditer ta timeline vidéo sans quitter l'éditeur
+- **JTBD** : "Je veux produire des vidéos AI-native sans jongler entre 5 outils"
+- **Triggers** : Curiosité (#1 GitHub trending = effet FOMO), social proof YC, gratuité de l'entrée
+- **Viral loop** : "Built with Palmier" watermark possible + MCP = distribution via Claude users
 
-### Go-to-Market
-- **Canal principal** : GitHub open source → viral organique dev Twitter/X
-- **Stratégie launch** : Repo public + README soigné = traction organique sans ads
-- **Viral loop** : Chaque vidéo générée peut mentionner Palmier · MCP ecosystem
+### 5. Go-to-market
+- **Canal principal** : GitHub (trending organique), Twitter/X dev community, newsletter AI
+- **Stratégie launch** : Open-source d'abord → YC network → Product Hunt à venir
+- **Viral loop** : Forks massifs (291 en quelques jours), articles tiers spontanés (6+ médias IA)
 
-### Réplication pour Kyle
-- **Complexité** : 7/10 (Swift macOS non trivial, mais modèles vidéo via API)
-- **Verticaux adjacents** : Audio-native editor (voix + podcast + SFX via agent)
-- **Angle Kyle** : Éditeur de contenu voice-first — générer des podcasts/voix avec agents
-- **Temps de dev** : 3-4 mois pour un MVP audio (compétence voice AI directement applicable)
+### 6. Réplication pour Kyle
+- **Complexité** : 8/10 (Swift natif macOS = niche technique forte)
+- **Angle Kyle** : Vertical voice AI → éditeur de podcast/audio avec agent IA qui édite la timeline audio
+- **Verticaux adjacents** : Éditeur de screencasts AI, éditeur de cours en ligne AI-native
+- **Temps dev** : 4-6 mois pour un MVP audio (moins complexe que video)
 
-## 🏆 TOP APP #2 : Vaani
-**URL** : https://vaani.media | **PH** : producthunt.com/products/vaani-2
-**Launch** : 8 juin 2026 (PH) | **Catégorie** : AI Dubbing / Voice AI / Créateurs
-**Fondateurs** : Abhinav Mohan — équipe de 4, Bangalore, Inde
-**Buzz** : 245 upvotes PH day 1 · #16 semaine du 8 juin · 359 upvotes total · presse AI spécialisée
+## 🏆 TOP APP #2 : Skybridge
+### 1. Identification
+- **URL** : [skybridge.tech](https://www.skybridge.tech/) | GitHub : [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge)
+- **Launch** : juin 2026 (Product Hunt #16 mensuel) | Société : Alpic AI (Pre-Seed)
+- **Fondateurs** : Harijoe, Fred Barthelet + équipe Alpic
+- **Catégorie** : Framework TypeScript fullstack pour MCP Apps & ChatGPT Apps
+- **Buzz** : 100K npm downloads/mois, 1K+ GitHub stars, recommandé dans la doc OpenAI, 10% des MCP apps Claude/ChatGPT
 
-### Proposition de Valeur
-- **Problème** : Doubler une vidéo dans 40+ langues prend des jours, coûte cher, perd la voix originale
-- **Solution** : Clone ta voix, traduit avec contexte de scène, lip sync frame-accurate — en quelques minutes
-- **USP** : Préservation identité voix + lip sync photo-réaliste + 40+ langues avec traduction scène-aware
-- **Target** : Créateurs YouTube/TikTok, agences marketing, studios, marques internationales
-- **Pricing** : Creator $49/mo · Studio $299/mo · Broadcast $1 499/mo · Enterprise custom
-  - Tarification à la minute : $1/min Indic, $2/min Global, $2/min lip sync
+### 2. Proposition de valeur
+- **Problème** : Construire des apps MCP (Model Context Protocol) est complexe et fragmenté
+- **Solution** : Framework React type-safe, platform-agnostic pour shipper des MCP apps en one-click via Alpic cloud
+- **USP** : Open-source + cloud propriétaire (Alpic) + présence dans les app stores Claude et ChatGPT
+- **Target** : Développeurs TypeScript/React qui veulent distribuer des apps dans l'écosystème Claude/ChatGPT
+- **Pricing** : OSS gratuit · Alpic cloud (tiered, non public)
 
-### Stack Technique
-- **Voice cloning** : Modèle propriétaire (inspiration ElevenLabs/Tortoise)
-- **Lip sync** : Computer vision frame-by-frame alignment (Wave2Lip style, amélioré)
-- **Traduction** : LLM scene-aware (contexte visuel → meilleure adaptation sémantique)
-- **Infra** : Cloud GPU (A100s) · processing asynchrone · API REST
+### 3. Stack technique
+- **Framework** : TypeScript, React, type-safe
+- **Infra** : Alpic cloud (build, deploy, monitor, distribute)
+- **Compatibilité** : Claude App Store, ChatGPT Plugin Store, MCP protocol
+- **Modèle** : Open-core (framework OSS + cloud propriétaire)
 
-### Psychologie du Succès
-- **Trigger** : "Je veux que mon contenu touche le monde entier avec MA voix"
-- **Social proof** : Démos virales sur X — vidéo originale vs dubbing indiscernable
-- **JTBD** : "Je veux multiplier ma portée sans créer de nouveau contenu"
-- **Aha moment** : Entendre sa propre voix parler parfaitement en espagnol ou hindi
+### 4. Psychologie
+- **Aha moment** : Shipper une MCP app dans Claude Store en une commande CLI
+- **JTBD** : "Je veux distribuer mon app IA à des millions d'utilisateurs Claude/ChatGPT sans gérer l'infra"
+- **Triggers** : Autorité (recommandé par OpenAI), réseau (10% des apps MCP = effet dominant), FOMO (early mover dans un store qui explose)
+- **Viral loop** : Chaque app shippée = nouveau dev qui découvre le framework
 
-### Go-to-Market
-- **Canal** : PH launch + créateurs YouTube niche (tutoriels, vlog) + bouche-à-oreille
-- **Viral loop** : Les vidéos doublées exposent le produit à l'audience de la vidéo
-- **Partenariats** : Studios de formation, agences brand content
+### 5. Go-to-market
+- **Canal principal** : Dev communities (npm, GitHub), doc OpenAI, Product Hunt, Alpic blog
+- **Stratégie** : Infrastructure-first → capture le marché avant que les stacks MCP se standardisent
+- **Network effect** : Plus d'apps dans le store → plus de visibilité → plus de devs → plus d'apps
 
-### Réplication pour Kyle
-- **Complexité** : 8/10 (lip sync en temps réel = R&D intense)
-- **Angle Kyle direct** : Dubbing voix AI intégré dans un builder de cours ou podcast multilingue
-- **Verticaux** : E-learning B2B (cours en français → 10 langues auto), publicités localisées
-- **Temps de dev** : 4-6 mois pour un MVP sans lip sync · 12 mois avec lip sync
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 (framework, pas un produit end-user)
+- **Angle Kyle** : Construire une voice AI app MCP avec Skybridge → distribution immédiate à tous les users Claude
+- **Verticaux adjacents** : MCP app de scheduling vocal, assistant de meeting voice-to-action
+- **Temps dev** : 2-4 semaines pour une voice MCP app basique avec Skybridge
 
-## 🏆 TOP APP #3 : Fundraisly
-**URL** : https://fundraisly.com | **PH** : producthunt.com/products/fundraisly
-**Launch** : 2 juin 2026 (PH) | **Catégorie** : AI Agent / Fundraising B2B
-**Fondateurs** : Équipe anonyme — "founders who raised over $1B" (pas de profils publics)
-**Buzz** : #1 Product Hunt MENSUEL juin 2026 (1M+ votes) · 2 200+ followers PH · rating 5.0 · $100M raised pour clients
+## 🏆 TOP APP #3 : OpenMontage
+### 1. Identification
+- **URL** : GitHub : [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+- **Launch** : 22 juin 2026 | Créateur : calesthio (solo developer)
+- **Catégorie** : Agentic video production system, open-source
+- **Buzz** : #2 GitHub Trending, 8 600+ stars (3 000 en 1 seul jour), couverture Medium/nerdzap/AIToolly
 
-### Proposition de Valeur
-- **Problème** : Les fondateurs passent 6+ mois à chercher des investisseurs manuellement
-- **Solution** : Agent AI qui scanne 300K+ investisseurs, map les chemins chauds via ton réseau, envoie des cold outreach ciblées
-- **USP** : Combine discovery + warm intro mapping + outreach automation en un seul flux
-- **Target** : Fondateurs en early stage (pré-seed à Series A), accélérateurs
-- **Pricing** : Custom (pas de tarif public → indice d'un prix élevé >$500/mo)
-- **Résultats** : 20-40 meetings qualifiés en 90j, 60-70% open rates, 3K+ VC calls historique
+### 2. Proposition de valeur
+- **Problème** : Production vidéo = processus long, coûteux, multi-outils
+- **Solution** : 12 pipelines + 52 outils + 500+ skills qui transforment Claude Code/Cursor/Codex en studio vidéo complet
+- **USP** : Open-source, coût production ~$1.33 pour une vidéo 60s avec narration+musique+captions
+- **Target** : Développeurs utilisant des agents IA (Claude Code, Cursor, Codex)
+- **Pricing** : Gratuit (OSS) · Coûts API selon usage · Path zero-key (Piper TTS + Archive.org + FFmpeg local)
 
-### Stack Technique
-- **Data** : Scraping/APIs Crunchbase, LinkedIn, Pitchbook (300K+ investors)
-- **Graph** : Mapping réseau warm paths (probablement Neo4j ou graph embeddings)
-- **Outreach** : LLM personnalisation + automation email (SendGrid, Apollo style)
-- **Agent** : Orchestration multi-step avec feedback loop sur réponses
+### 3. Stack technique
+- **Orchestration** : Claude Code / Cursor / Codex (via MCP ou native)
+- **Rendu** : FFmpeg, Remotion
+- **TTS** : Piper TTS (local) ou API payantes
+- **Assets** : Archive.org, NASA (zero-cost) ou APIs génération payantes
+- **Format** : Markdown comme script de direction (le Markdown "fait" la réalisation)
 
-### Psychologie du Succès
-- **Trigger** : Autorité ("founders qui ont levé $1B") + résultats concrets ("$100M raised")
-- **Social proof** : #1 PH mensuel = signal communautaire fort pour les fondateurs
-- **JTBD** : "Je veux des meetings VC sans perdre 6 mois en cold outreach"
-- **Aha moment** : Premier meeting bookédautomatiquement avec un partenaire a16z
+### 4. Psychologie
+- **Aha moment** : Écrire un script Markdown et voir ton agent produire une vidéo complète pour $1.33
+- **JTBD** : "Je veux créer des vidéos de contenu sans toucher à Premiere ni payer une agence"
+- **Triggers** : Curiosité extrême (concept inédit), chiffre choc ($1.33/vidéo), open-source = adoption sans friction
+- **Viral loop** : Chaque vidéo produite = démonstration du tool → partage organique
 
-### Go-to-Market
-- **Canal** : PH launch massif + bouche-à-oreille fondateurs + accélérateurs partenaires
-- **Viral loop** : Chaque fondateur qui lève parle de l'outil à son réseau
-- **Partnership** : YC, Techstars, Station F — les accel pourraient être distributeurs
+### 5. Go-to-market
+- **Canal principal** : GitHub trending (organique), Twitter dev community, newsletters IA
+- **Stratégie** : Drop GitHub + vitesse de croissance stars = effet boule de neige médias
+- **Moat** : Communauté contributors (déjà des forks multiples en 3 jours)
 
-### Réplication pour Kyle
-- **Complexité** : 6/10 (data publique + APIs existantes, mais base de données à construire)
-- **Angle Kyle** : Version pour agences SaaS cherchant des partenaires/distributeurs (pas VCs)
-- **Verticaux** : Partenaires revendeurs B2B · recrutement tech · BD enterprise
-- **Founder-fit** : Faible (éloigné du voice AI)
+### 6. Réplication pour Kyle
+- **Complexité** : 5/10 (assemblage d'outils existants, pas de code proprio)
+- **Angle Kyle** : Version spécialisée "Podcast to Video" ou "Voice memo to short-form video"
+- **Verticaux adjacents** : Newsletter → vidéo, blog post → Reel, rapport → présentation animée
+- **Temps dev** : 3-6 semaines pour un vertical spécialisé monetisable (SaaS wrapper d'OpenMontage)
 
 ## 💰 Unit Economics Deep Dive — Palmier Pro
-> Sources : GitHub stars, pricing page, YC profile, Tracxn, Crunchbase (toutes estimations)
+*Données : launch mi-juin 2026, YC S24, open-source + SaaS. Estimations basées sur GitHub stars, pricing public, taille marché.*
 
-| Métrique | Valeur Estimée | Source / Méthode |
+| Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **ARR** | ~$30K–60K | 500–1 500 payants × ARPU $40 × 12 |
-| **ARPU** | ~$40/mo | Mix Free/Pro $29/Max $69 |
-| **Users totaux** | ~8 000–15 000 | 4 700 stars → ratio 2-3x install |
-| **Payants** | ~500–1 500 | Conversion open source ~5-10% |
-| **CAC** | ~$5–15 | Quasi 100% organique (GitHub/Twitter) |
-| **LTV** | ~$480 | 12 mois × $40 ARPU |
-| **LTV/CAC** | ~32:1 | Excellent (benchmark SaaS : >3:1) |
-| **Payback period** | < 1 mois | Organique = coût quasi nul |
-| **Burn estimé** | ~$40–60K/mo | 2 personnes SF + cloud/API vidéo |
-| **Runway** | ~8–12 mois | $500K levé / burn |
-| **Rev/Employee** | ~$15–30K ARR | 2 employés (très early stage) |
-| **Rule of 40** | ~70–90 | Croissance explosive + marge brute >70% |
+| **MRR estimé** | ~$15K–40K | Launch récent (~10 jours), early adopters YC network |
+| **ARR projeté (12m)** | $500K–2M | Hypothèse : 5x MRR actuel × croissance organique |
+| **Users actifs** | 2 000–5 000 | 3 500 stars → ~10–15% conversion download gratuit |
+| **Paying users** | 300–800 | Freemium → ~10–15% conversion Pro/Max |
+| **ARPU** | $35–45/mo | Mix Pro ($29) / Max ($69), moyenne pondérée |
+| **CAC** | ~$0 | Distribution GitHub organique + YC network |
+| **LTV (estimé)** | $420–720 | Churn ~5–8%/mo → LTV = ARPU × 1/churn |
+| **LTV/CAC** | ∞ (CAC≈0) | Distribution organique → ratio exceptionnel |
+| **Payback period** | <1 mois | CAC quasi nul |
+| **Équipe** | 4–6 personnes | YC S24 standard team |
+| **Rev/Employee** | $40K–80K ARR | Cohérent early-stage YC |
+| **Rule of 40** | ~70+ | Croissance forte + marges élevées (SaaS) |
 
-### 🏥 Verdict Santé Financière : 🟡 EARLY-STAGE SOLIDE MAIS SOUS PRESSION
+**Verdict santé : 🟢 SAIN** — CAC quasi nul grâce à GitHub + YC, LTV/CAC excellent, modèle freemium bien structuré (editor free → crédits payants). Seul risque : dépendance APIs génération tierces (marges variables). YC backing = runway assuré ~18 mois.
 
-**Points forts** : LTV/CAC phénoménal · coût d'acquisition quasi zéro · Rule of 40 fort
-**Risques** : Runway court (<12 mois) · 2 personnes seulement · compétition Premiere/DaVinci massive
-**Signal positif** : YC backing + GitHub traction = levée Serie A probable dans 6-9 mois
-**Recommandation** : Modèle économique sain si ils conservent l'organique. Le vrai risque est la distribution post-dev community.
+*Sources : [palmier.io/pricing](https://www.palmier.io/pricing), [GitHub repo](https://github.com/palmier-io/palmier-pro), [AIToolly launch article](https://aitoolly.com/ai-news/article/2026-06-21-palmier-pro-a-new-ai-native-video-editing-solution-specifically-designed-for-macos-users)*
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Palmier Pro | Vaani | Fundraisly |
+| Dimension (poids) | Palmier Pro | Skybridge | OpenMontage |
 |---|---|---|---|
-| 📊 Market Size (20%) | 7 → 1.40 | 7 → 1.40 | 5 → 1.00 |
-| ⚙️ Complexité inversée (15%) | 5 → 0.75 | 3 → 0.45 | 5 → 0.75 |
-| ⏱️ Time-to-Market (15%) | 6 → 0.90 | 4 → 0.60 | 6 → 0.90 |
-| 🏟️ Compétition inversée (15%) | 7 → 1.05 | 5 → 0.75 | 7 → 1.05 |
-| 💰 Revenue Potential (20%) | 7 → 1.40 | 8 → 1.60 | 6 → 1.20 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 6 → 0.90 | 9 → 1.35 | 3 → 0.45 |
-| **TOTAL** | **6.40** | **6.15** | **5.35** |
-| **Verdict** | 🟡 BUILD ADJACENT | 🟡 BUILD ADJACENT | 🟠 WATCH |
+| 📊 Market Size (20%) | 7 — Marché vidéo AI €5B | 9 — Infra MCP = OS layer futur | 6 — Vidéo contenu AI €3B |
+| ⚙️ Complexité inversée (15%) | 3 — Swift macOS natif, dur | 7 — TypeScript React, accessible | 8 — Assembly d'outils OSS |
+| ⏱️ Time-to-Market (15%) | 4 — 4-6 mois minimum | 8 — 2-4 semaines (voice app) | 7 — 3-6 semaines (SaaS wrapper) |
+| 🏟️ Compétition inversée (15%) | 6 — CapCut/Premiere = titans | 8 — Early mover MCP stores | 7 — Pas de concurrent direct OSS |
+| 💰 Revenue Potential (20%) | 7 — $50-200K MRR à 12 mois | 8 — B2D + SaaS cloud, high ACV | 5 — OSS difficile à monétiser |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 5 — Voice adjacent, Swift = non | 9 — Voice MCP app = fit parfait | 6 — Intéressant mais pas core |
+| **Score pondéré** | **5.6** | **8.3** | **6.4** |
+| **Verdict** | 🟠 WATCH | 🟢 BUILD NOW | 🟡 BUILD ADJACENT |
 
-### Notes de scoring
-
-**Palmier Pro (6.40 🟡)** : Market réel, traction GitHub prouvée, mais complexité Swift macOS et compétition des grands éditeurs. L'angle audio-native est plus accessible pour Kyle.
-
-**Vaani (6.15 🟡)** : Founder-fit Kyle maximal (voice AI), revenue potential élevé (studios payent cher), mais complexité lip sync prohibitive et compétition (HeyGen, ElevenLabs) croissante. L'angle e-learning multilingue = BUILD ADJACENT immédiat.
-
-**Fundraisly (5.35 🟠)** : Signal PH fort mais pricing opaque, founder-fit minimal pour Kyle, marché de niche (les startups qui lèvent = segment étroit).
+### Détail calculs
+- **Palmier Pro** : (7×0.20)+(3×0.15)+(4×0.15)+(6×0.15)+(7×0.20)+(5×0.15) = 1.4+0.45+0.6+0.9+1.4+0.75 = **5.50** → 🟠 WATCH
+- **Skybridge** : (9×0.20)+(7×0.15)+(8×0.15)+(8×0.15)+(8×0.20)+(9×0.15) = 1.8+1.05+1.2+1.2+1.6+1.35 = **8.20** → 🟢 BUILD NOW
+- **OpenMontage** : (6×0.20)+(8×0.15)+(7×0.15)+(7×0.15)+(5×0.20)+(6×0.15) = 1.2+1.2+1.05+1.05+1.0+0.9 = **6.40** → 🟡 BUILD ADJACENT
 
 ## 📈 Tendances Émergentes
-### 1. 🤖 L'éditeur AI-native remplace l'éditeur traditionnel + AI
+### 1. MCP = nouveau App Store (signal fort 🔴)
+Le Model Context Protocol s'impose comme la couche de distribution des apps IA. Claude et ChatGPT ont leurs "stores" d'apps MCP. Skybridge en est l'infrastructure. C'est l'équivalent de l'App Store iOS en 2008 — être early = avantage massif. La fenêtre d'opportunité est ouverte *maintenant*.
 
-Palmier Pro et Framer 3.0 (lancé le 16 juin, #1 PH) confirment la même thèse : les outils créatifs sont en train d'être refaits de zéro autour des agents, pas seulement dotés de boutons AI. La prochaine génération d'outils = timeline/canvas où l'agent est un collaborateur, pas un plugin.
+### 2. "AI-native" ≠ AI-assisted (signal fort 🔴)
+Palmier Pro et OpenMontage représentent une nouvelle catégorie : des outils *conçus* pour être contrôlés par des agents, pas juste des outils avec un bouton IA. Les agents peuvent lire la timeline, écrire des scripts, orchestrer la production. Ce paradigme va s'étendre à l'audio, au code, à la data.
 
-### 2. 🎙️ Voice AI devient infrastructure, pas feature
+### 3. Open-source as go-to-market (signal récurrent 🟡)
+OpenMontage et Palmier Pro utilisent GitHub trending comme canal d'acquisition primaire. 8K stars en 1 jour sans budget marketing. Le repo *est* le funnel. Pour les dev-tools, ce modèle supplante Product Hunt.
 
-Le marché du dubbing AI (Vaani, Rask AI, HeyGen voice) représente une vague d'infrastructure : la voix devient un asset multilingue automatiquement scalable. Le voice AI n'est plus "cool feature" — c'est un canal de distribution pour tout créateur de contenu.
+### 4. Agents IA + MCP + voice = convergence (signal pour Kyle 🎯)
+Les trois tendances convergent vers un futur proche où un agent vocal contrôle des apps MCP en temps réel. Kyle est positionné à l'intersection exacte : voice AI (expertise) + MCP (distribution) + SaaS (monétisation). La fenêtre est de 6-12 mois avant que le marché se sature.
 
-### 3. 🔧 MCP (Model Context Protocol) = nouveau middleware AI
+### 5. Coûts de production AI s'effondrent (signal économique 🟡)
+OpenMontage le quantifie : $1.33 pour une vidéo 60s complète. Ce mouvement dévalue tous les services créatifs humains répétitifs (montage basique, voix off générique, sous-titrage). Les nouveaux gagnants sont ceux qui créent les *workflows* et les *distributions*, pas ceux qui exécutent.
 
-Palmier Pro construit son agent sur MCP. OpenClaw (210K+ stars) également. MCP s'impose comme la couche de connexion entre agents et apps. Opportunité : construire des MCP servers pour des verticaux métier spécifiques (voice workflow, podcast edition, etc.).
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions immédiates (72h)
 
-### 4. 🏗️ Open Source → GitHub → Monetize
+**#1 — Construis une voice MCP app avec Skybridge [BUILD NOW]**
+Le store MCP de Claude est ouvert. Skybridge réduit le time-to-ship à 2-4 semaines. Kyle peut construire une voice AI app (ex: "Vocal Meeting Assistant" — enregistre, transcrit, actionne via Claude) et la distribuer dans le Claude App Store. Premier entrant dans le vertical voice = position dominante.
+→ Action : Fork skybridge, lire la doc Alpic, prototyper en 1 semaine.
 
-Le playbook Palmier (open source → GitHub trending → convertir en SaaS) devient le GTM standard pour les outils dev. Coût d'acquisition quasi nul, validation instantanée. Ce modèle s'applique parfaitement aux outils voice AI.
+**#2 — Ouvre un GitHub repo pour ton prochain projet voice AI [GRATUIT]**
+La distribution par GitHub trending est réelle et gratuite. Un repo bien positionné ("Voice AI MCP App Starter" ou similaire) peut atteindre 1K+ stars en une semaine si le timing et le nom sont bons. Cela nourrit aussi le funnel Alpic/Skybridge.
+→ Action : Créer repo public avec README soigné + demo GIF avant tout autre canal.
 
-### 5. 🌍 Localisation de contenu = marché $50B
+**#3 — Surveille Palmier Pro pour un partenariat audio [WATCH]**
+Palmier Pro a l'infra (Swift macOS + MCP) mais pas d'expertise voice AI. Kyle pourrait proposer un partenariat : intégrer une couche de traitement vocal intelligente dans la timeline Palmier. YC networking = approche directe possible.
+→ Action : Contacter l'équipe Palmier sur GitHub/Twitter dans 30 jours si le repo continue de croître.
 
-La demande de dubbing/traduction AI explose avec la globalisation des créateurs. TikTok, YouTube, LinkedIn — chaque créateur veut toucher 10 marchés sans refaire son contenu. C'est un marché pluriannuel avec forte rétention.
+**#4 — Ne pas builder OpenMontage, mais l'utiliser**
+OpenMontage est OSS et mature pour wrapping. Kyle peut lancer un SaaS "PodcastToVideo.ai" basé sur OpenMontage en 4-6 semaines, avec pricing $19-49/mo pour automatiser la conversion podcast → short-form video (Reels, TikTok, YouTube Shorts). Niche claire, CAC potentiellement bas via créateurs.
+→ Action : Valider la demande via un tweet / page landing avant de coder.
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Insight #1 — L'éditeur audio AI-native est l'équivalent Palmier Pro pour le podcast/voix
-
-**Signal** : Palmier Pro (#1 GitHub trending) a prouvé qu'un éditeur AI-native peut exploser organiqu ement. Il n'existe pas d'équivalent pour l'audio/podcast.
-**Action** : Construire un éditeur audio open source (macOS ou web) où un agent voice AI édite, nettoie, traduit, chapitrise ton podcast. Brique MCP pour Claude = traction dev immédiate.
-**Avantage Kyle** : Expertise voice AI existante. Stack Swift ou Electron. Modèle freemium identique à Palmier.
-**Timeline** : MVP en 3 mois · Launch GitHub + PH · Monétiser via crédits voix
-
-### 🎯 Insight #2 — Le dubbing AI e-learning B2B = verticale sous-servie par Vaani
-
-**Signal** : Vaani cible créateurs grand public. Les plateformes e-learning B2B (formations corporate, LMS) paient 5-10x plus pour localiser leurs cours en 10 langues auto.
-**Action** : Construire une API/widget de dubbing voix pour plateformes LMS (Teachable, Thinkific, Moodle). SaaS B2B, pricing $299-999/mo par client, faible churn.
-**Avantage Kyle** : Voice AI + SaaS = combo parfait. Pas besoin du lip sync (audio suffit pour e-learning).
-**Timeline** : 4-5 mois · Approcher 10 clients LMS pour pilote
-
-### 🎯 Insight #3 — MCP server voice pour l'écosystème agent
-
-**Signal** : MCP devient l'API de référence pour les agents AI. Il n'existe pas de MCP server qualitatif pour la voix (génération, clonage, transcription avancée).
-**Action** : Publier un MCP server open source "voice-tools" : text-to-speech, voice cloning, transcription, speaker diarization. Monétiser via API derrière.
-**Avantage Kyle** : Positionnement expert dans l'écosystème AI, traction dev community gratuite.
-**Timeline** : 2-3 semaines pour un MVP · distribution via Anthropic MCP registry
-
-### ⚠️ À éviter
-- Dupliquer Vaani (lip sync = R&D de 12+ mois, compétition bien financée)
-- Entrer sur Fundraisly (marché niche, loin du core voice AI)
-- Attendre : la fenêtre MCP/voice AI est ouverte maintenant (6-18 mois avant saturation)
+### 📌 Veille à maintenir
+- [alpic.ai](https://alpic.ai/) — blog Skybridge skills (nouvelles capabilities MCP hebdomadaires)
+- [trendshift.io](https://trendshift.io/) — GitHub trending daily (détecter le prochain OpenMontage)
+- [producthunt.com/leaderboard/monthly/2026/6](https://www.producthunt.com/leaderboard/monthly/2026/6) — top mensuel PH
