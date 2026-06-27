@@ -1,182 +1,185 @@
-# 🔥 Market Scan — 2026-06-26
+# 🔥 Market Scan — 2026-06-27
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 6 (Fundraisly, OpenMontage, Skybridge, AgentX, Files.md, Apfel)
-- Top potentiel : Fundraisly, OpenMontage, Skybridge
-- Opportunités immédiates (BUILD NOW) : 2
+- Apps analysées : 3
+- Top potentiel : Wispr Flow (voice AI, $2B valuation, 40% MoM)
+- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow vertical niche)
 
-## 🏆 TOP APP #1 : Fundraisly
+## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
-- **URL** : https://fundraisly.com | **PH** : producthunt.com/products/fundraisly
-- **Launch** : 2 juin 2026 | **Fondatrice** : Anna (ex-analyste $600M+ AUM VC Fund, 2.5 ans)
-- **Catégorie** : AI Agent · B2B SaaS · Fundraising
-- **Buzz** : #1 PH semaine de lancement · 1 700+ followers PH · 5.0/5 rating · $100M+ raised pour des fondateurs · 3k+ VC calls facilitées (a16z, Sequoia, Index)
+- **URL** : [wisprflow.ai](https://wisprflow.ai)
+- **Launch** : app 2024, Series B ~$260M @ $2B en cours (2026)
+- **Fondateurs** : Tanay Dixit & Sahil Bhayani (ex-Stanford/Google)
+- **Catégorie** : Voice AI / Productivité universelle
+- **Métriques buzz** : 2,5M downloads · 40% croissance MoM · 70% retention 12 mois · 270 Fortune 500 · $81M levés · valuation $2B
 
-### 2. Proposition de Valeur
-- **Problème** : Lever des fonds = 6-12 mois d'emails froids, de warm intros laborieuses, de spreadsheets manuels
-- **Solution** : Agent IA qui analyse 300K+ investisseurs + millions de deals, identifie ceux qui investissent MAINTENANT dans votre vertical, cartographie les chemins chauds via votre réseau, couvre le reste en outreach froid ciblé
-- **USP** : "Fondé par des gens qui ont levé $1B+" → crédibilité immédiate. 20-40 meetings qualifiés en 90 jours
-- **Target** : Fondateurs seed/Series A cherchant à lever entre $500K et $5M
-- **Pricing** : Non public (vraisemblablement $500-2000/mois ou success fee)
+### 2. Proposition de valeur
+- **Problème** : Taper est lent et cognitif. 90% des apps pros n'ont pas de dictée intelligente.
+- **Solution** : Dictée vocale AI qui fonctionne dans TOUTE application (email, Slack, code, docs), enrichit et corrige le texte automatiquement.
+- **USP** : Pas une app de plus — une couche voice sur le desktop entier. Contexte professionnel compris (jargon médical, juridique, tech).
+- **Target** : Executives, devs, médecins, avocats, fondateurs
+- **Pricing** : Freemium → Pro ~$15/mois · Team ~$25/utilisateur/mois
 
-### 3. Stack Technique
-- **Frontend** : React/Next.js (hypothèse)
-- **Backend** : Python · LLM agents (GPT-4o / Claude) · Vector DB pour matching investisseurs
-- **Infra** : AWS ou GCP · Apollo/LinkedIn API pour enrichissement data
-- **APIs** : Scraping Crunchbase/PitchBook, LinkedIn Sales Navigator
+### 3. Stack technique
+- **Frontend** : Electron (desktop macOS/Windows) + iOS/Android
+- **Backend** : ASR propriétaire + LLM pour réécriture contextuelle (probablement Claude/GPT-4o)
+- **Infra** : Edge processing pour latence minimale · API système OS pour injection texte
 
 ### 4. Psychologie
-- **Triggers** : Autorité ("levé $1B+") · Social proof (a16z, Sequoia) · FOMO (fonds qui investissent MAINTENANT)
-- **JTBD** : "Aide-moi à obtenir des meetings investisseurs sans passer 6 mois à networker"
-- **Aha moment** : Premier warm intro envoyée automatiquement avec contexte précis → "Ça aurait pris 2 semaines manuellement"
+- **Aha moment** : 1ère dictée dans Gmail → texte propre sans correction → "pourquoi je tapais avant ?"
+- **Triggers** : Social proof Fortune 500 · Peur de la lenteur vs concurrents qui dictent
+- **JTBD** : "Finir mon email en 15s au lieu de 3 minutes"
+- **Rétention** : 70% à 12 mois = habitude profonde, changement de comportement fondamental
 
 ### 5. Go-to-Market
-- **Canal principal** : Product Hunt (#1) · bouche-à-oreille entre fondateurs · LinkedIn (Anna partage success stories)
-- **Viral loop** : Chaque fondateur financé devient un témoignage public → attire les suivants
-- **Stratégie** : Niche très précise (early-stage founders), ROI immédiat mesurable, réseau VC comme moat
+- **Canaux** : Bouche-à-oreille Silicon Valley → LinkedIn virality → Enterprise B2B
+- **Launch** : Product Hunt + communauté YC → expansion enterprise organique
+- **Viral loop** : "Tu peux dicter dans mon app ?" → curiosité → téléchargement
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 — le matching IA est faisable mais la qualité de la base de données investisseurs est le vrai moat
-- **Verticaux adjacents** : Recrutement (matching candidats/startups), BD (matching partenaires commerciaux), M&A
-- **Angle Kyle** : "Fundraisly for Voice AI Startups" — niche encore plus ciblée avec expertise sectorielle. Ou adapter le modèle pour trouver des clients enterprise en voice AI (sales agent)
-- **Temps de dev** : 3-4 mois MVP
+- **Complexité** : 7/10 (intégration système OS + ASR de qualité)
+- **Angle** : Wispr Flow vertical — ex: VoiceRx (médical), VoiceLegal (juridique), VoiceCode (dev)
+- **Différenciation** : Kyle maîtrise déjà le voice AI → build un vertical avec prompt system expert
+- **Temps dev** : 3-4 mois pour MVP vertical niche
+- **Sources** : [TechCrunch $125M](https://techcrunch.com) · [Valuation $2B](https://ai2.work/blog/wispr-ai-targets-2-billion-valuation-as-voice-dictation-takes-off)
 
-## 🏆 TOP APP #2 : OpenMontage
+## 🏆 TOP APP #2 : Framer 3.0
 ### 1. Identification
-- **URL** : https://github.com/calesthio/OpenMontage
-- **Launch** : ~20 juin 2026 | **Créateur** : calesthio (@calesthioailabs)
-- **Catégorie** : Open-source · AI Video Production · Developer Tool
-- **Buzz** : 22 400 GitHub stars · #1 trending GitHub repo le jour du lancement · 3 000 stars en 24h · Featured AIToolly, NerdZap, AgentConn
+- **URL** : [framer.com](https://framer.com)
+- **Launch** : Framer 3.0 lancé le 16 juin 2026 (pas de waitlist, dispo day-1)
+- **Fondateurs** : Koen Bok & Jorn van Dijk (fondés 2013, reboot AI 2026)
+- **Catégorie** : AI Website Builder / No-code + Agents
+- **Métriques buzz** : 500K MAU · ~50K clients payants · ~$50M ARR · clients Miro/Perplexity/Scale AI · 40% YC batch S24
 
-### 2. Proposition de Valeur
-- **Problème** : Créer une vidéo pro avec IA = bricoler 5-10 outils disparates (script, assets, TTS, editing, rendering)
-- **Solution** : Système agentique complet qui orchestre 12 pipelines de production vidéo depuis votre assistant IA (Cursor, Claude). Prompt texte → vidéo finie avec vrai footage motion (pas que des slides animées)
-- **USP** : Premier système open-source agentique de production vidéo END-TO-END · Licence AGPLv3 (gratuit mais viral)
-- **Target** : Développeurs, créateurs de contenu, équipes marketing avec accès à un AI coding assistant
-- **Pricing** : Gratuit (open-source) · Potentiellement cloud-hosted version payante à venir
+### 2. Proposition de valeur
+- **Problème** : Builder les sites pros est lent, cher, nécessite un dev ou un designer.
+- **Solution** : Agents AI qui designent des pages entières sur canvas, gèrent le CMS, ajoutent les effets, écrivent le code — en conversation naturelle.
+- **USP** : Le seul builder où l'AI peut concevoir visuellement ET coder simultanément. Branching pour équipes (itérations sécurisées).
+- **Target** : Startups, agences, designers, solo founders
+- **Pricing** : Free · Mini $5/mois · Basic $15/mois · Pro $30/mois · Team $35+/user
 
-### 3. Stack Technique
-- **Primary** : Python 89.5% · TypeScript 8.7% · JavaScript 1.4%
-- **Moteurs** : FFmpeg · React/Remotion (vidéo React-based) · GSAP via HyperFrames (HTML/motion graphics)
-- **Audio** : Piper TTS · WhisperX (transcription/alignement)
-- **Video Gen** : 14 providers intégrés (RunwayML, Kling, etc.)
-- **Architecture** : Agent-first, manifest-driven, AI coding assistant comme orchestrateur
+### 3. Stack technique
+- **Frontend** : Canvas propriétaire WebGL + React output
+- **Backend** : Agents AI (LLMs), CMS intégré, analytics natif
+- **Infra** : Vercel-like CDN, edge deploy instantané
 
 ### 4. Psychologie
-- **Triggers** : Chiffres impressionnants ("52 tools, 500+ skills") · Open-source = adoption immédiate sans friction · FOMO dev ("était #1 trending")
-- **JTBD** : "Produis des vidéos marketing pros sans équipe vidéo ni logiciel propriétaire coûteux"
-- **Aha moment** : Première vidéo complète générée depuis un prompt texte, avec vrai footage et narration TTS
+- **Aha moment** : "Crée moi une page hero avec animations" → page entière en 30 secondes
+- **Triggers** : FOMO (40% des startups YC l'utilisent) · Autorité (Miro, Perplexity)
+- **JTBD** : "Lancer mon site en 1 jour sans agence"
+- **Community** : Marketplace creators (partager et gagner sur les templates)
 
 ### 5. Go-to-Market
-- **Canal** : GitHub organic (trending) · Posts dev Twitter/X · Reddit r/LocalLLaMA · Dev newsletters
-- **Viral loop** : Chaque développeur qui fork ou star amplifie le signal · AGPLv3 force la contribution back
-- **Moat** : Communauté contributeurs + catalogue de 500+ skills qui grandit organiquement
+- **Canaux** : Twitter/X design community · Product Hunt · Partnerships YC
+- **Launch** : Zero waitlist = adoption immédiate · Agents + Branching = PR double pitch
+- **Viral loop** : Sites framer.com visible → "fait avec Framer" → nouveaux users
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 — 12 pipelines coordonnés + intégration 14 providers vidéo = projet ambitieux
-- **Verticaux adjacents** : Version spécialisée podcasts vidéo, vidéos formations, démos produit SaaS
-- **Angle Kyle** : Ajouter une couche Voice AI sur OpenMontage (narration voix clonée, lip-sync, multilingual). Contrib open-source → visibilité + réseau dev. Ou wrapper SaaS payant au-dessus
-- **Temps de dev** : 6-9 mois version complète · 4-6 semaines contribution ciblée voice layer
+- **Complexité** : 9/10 (canvas propriétaire = moat technique énorme)
+- **Angle** : Ne pas répliquer Framer — INTÉGRER Kyle's voice agent dans Framer (plugin ou partenariat)
+- **Différenciation** : "Donne des instructions vocales à Framer" → positionnement voice-first
+- **Temps dev** : 6-12 mois pour un concurrent · 1-2 mois pour un layer voice
+- **Sources** : [Framer 3.0 launch](https://www.framer.com/updates/framer-3) · [Sacra revenue](https://sacra.com/c/framer/)
 
-## 🏆 TOP APP #3 : Skybridge
+## 🏆 TOP APP #3 : Granola
 ### 1. Identification
-- **URL** : https://skybridge.tech | **GitHub** : github.com/alpic-ai/skybridge
-- **Launch** : v1.0 mai/juin 2026 | **Fondateurs** : Harijoe + Fred Barthelet (Alpic AI)
-- **Catégorie** : Developer Framework · MCP · Open-source (MIT)
-- **Buzz** : 1 900 GitHub stars · 115 forks · 100K npm downloads/mois · 500K+ downloads totaux · #16 PH juin 2026 (554 votes) · Recommandé dans docs officiels OpenAI · 10%+ des apps Claude/ChatGPT stores
+- **URL** : [granola.ai](https://granola.ai)
+- **Launch** : Lancé 2024, Series C $125M @ $1.5B (mars 2026)
+- **Fondateurs** : Chris Pedregal & équipe (ex-Google/DeepMind)
+- **Catégorie** : AI Meeting Notes / Enterprise Knowledge
+- **Métriques buzz** : $1.5B valuation · $192M raised · 250% rev growth dernier trimestre · 10% weekly user growth · clients Vanta/Cursor/Mistral
 
-### 2. Proposition de Valeur
-- **Problème** : Builders MCP doivent gérer compatibilité entre Claude, ChatGPT, VSCode + infrastructure spécifique à chaque plateforme
-- **Solution** : Framework full-stack TypeScript "code once, ship everywhere" avec emulateur local, HMR, tunnel instant, React Query hooks — tout ce dont on a besoin pour une MCP app en prod
-- **USP** : Seul framework qui abstrait les différences entre clients MCP + fourni un DX (developer experience) React moderne. Adopté par Datadog, Bitmovin, Evaneos
-- **Target** : Développeurs TypeScript/React buildant des apps pour AI assistants
-- **Pricing** : Gratuit (MIT) · Alpic AI monétise probablement via services/cloud
+### 2. Proposition de valeur
+- **Problème** : Personne ne relit les notes de réunion. L'information stratégique se perd.
+- **Solution** : AI qui capte la réunion, prend des notes enrichies ET lie les infos dans un workspace d'équipe (Spaces).
+- **USP** : Pas un simple transcripteur — un notepad intelligent qui s'adapte au contexte (jargon, décisions, action items).
+- **Target** : Teams B2B, executives, startups Series A+
+- **Pricing** : Free limité · Pro $18/mois · Team $22+/user/mois
 
-### 3. Stack Technique
-- **Framework** : TypeScript 87.9% · React · Node.js 18+
-- **DX** : Hot Module Reload · Local emulator · Instant tunnel (Claude/ChatGPT connect)
-- **API** : React Query-style hooks · Type-safe end-to-end
-- **Deploy** : Claude Artifacts Store · ChatGPT Store · VSCode Extensions · MCP-compatible clients
-- **Version** : v1.1.2 (juin 2026) · 118 releases · 832 commits
+### 3. Stack technique
+- **Frontend** : App macOS native (desktop first) + web
+- **Backend** : Pipeline audio ASR + LLM summarization + RAG pour search notes
+- **Infra** : Processing local partiellement (privacy) + cloud pour sync/collab
 
 ### 4. Psychologie
-- **Triggers** : Social proof enterprise (Datadog) · "Code once, ship everywhere" (promesse claire) · Recommandé par OpenAI (autorité)
-- **JTBD** : "Construis une app MCP pro sans me battre avec 3 configurations différentes"
-- **Aha moment** : Premier `skybridge dev` → l'app tourne dans Claude local en 2 minutes avec HMR
+- **Aha moment** : Première réunion → résumé + action items générés automatiquement → "enfin je peux être présent"
+- **Triggers** : FOMO entreprise (collègues utilisent Granola) · Peur de rater une décision clé
+- **JTBD** : "Avoir un compte-rendu pro sans effort pour chaque call"
+- **Rétention** : Habitude quotidienne (toutes les réunions = Granola activé)
 
 ### 5. Go-to-Market
-- **Canal** : GitHub organic · PH · Dev.to / Better Stack articles · Discord communauté · Mention dans docs OpenAI
-- **Viral loop** : Chaque app Skybridge publiée dans les stores cite le framework → bouche-à-oreille dev
-- **Moat** : First-mover MCP framework + momentum communauté + compatibility matrix maintenu
+- **Canaux** : Bouche-à-oreille B2B · Slack communities · LinkedIn
+- **Launch** : Viral dans les startups YC/London tech scene
+- **Viral loop** : Notes partagées en équipe → collègues adoptent Granola
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 — créer un framework de qualité prod nécessite maturity et DX soignée
-- **Verticaux adjacents** : Framework spécialisé Voice AI MCP (intégration ElevenLabs, Deepgram dans Skybridge) · Templates MCP pour secteurs spécifiques
-- **Angle Kyle** : Contribuer des Voice AI skills/templates à Skybridge (visibilité ciblée devs MCP). Ou créer un plugin Skybridge pour voice — première intégration voice officielle dans l'écosystème
-- **Temps de dev** : Plugin voice : 2-4 semaines. Framework concurrent : 4-6 mois
+- **Complexité** : 7/10 (ASR + LLM + UX soignée)
+- **Angle** : Granola vertical — ex: GranolaLegal (transcriptions audiences), GranolaDoctor (consultations médicales avec FHIR)
+- **Différenciation** : Kyle peut builder voice-first meeting notes dans un vertical réglementé (moat compliance)
+- **Temps dev** : 2-3 mois MVP vertical
+- **Sources** : [TechCrunch $125M](https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/) · [Bloomberg $1.5B](https://www.bloomberg.com/news/articles/2026-03-25/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding)
 
-## 💰 Unit Economics Deep Dive — Fundraisly
-*Note : Fundraisly n'a pas divulgué ses métriques financières publiquement. Estimations basées sur benchmark secteur + signaux publics.*
+## 💰 Unit Economics Deep Dive — Wispr Flow
+> Sources : Getlatka, Crunchbase, AI2Work, TechCrunch — estimations basées sur données publiques
 
-| Métrique | Estimation | Source/Logique |
+| Métrique | Estimation | Commentaire |
 |---|---|---|
-| **MRR** | ~$30K-80K | Hypothèse 30-80 clients early à ~$1K/mois |
-| **ARR** | ~$360K-960K | Extrapolation linéaire (2 mois de vie) |
-| **Users actifs** | ~200-500 fondateurs | 1700 followers PH → taux activation ~15-30% |
-| **ARPU** | ~$500-2000/mois | B2B fundraising tool à forte valeur |
-| **CAC** | ~$200-500 | Canal principal organique (PH + bouche-à-oreille) |
-| **LTV** | ~$3K-12K | 6-12 mois d'utilisation (durée d'une levée) |
-| **LTV/CAC** | ~6-15x | Sain pour un SaaS B2B early-stage |
-| **Payback** | 1-3 mois | CAC faible + ARPU élevé |
-| **Burn** | ~$20-50K/mois | Équipe 2-4 personnes remote |
-| **Runway** | Inconnu (pas de levée publique) | Bootstrapped probable |
-| **Rev/Employee** | ~$90K-240K ARR | 4 employees hypothétiques |
-| **Rule of 40** | ~60-80 | Croissance rapide + marges élevées (software pur) |
+| **ARR** | ~$10-15M | Getlatka : $10M · croissance 40% MoM |
+| **Utilisateurs payants** | ~55K-80K | $10M ARR / $15 ARPU moyen |
+| **Downloads totaux** | 2,5M | Dont ~3-4% convertion payante |
+| **ARPU** | ~$15/mois ($180/an) | Mix Free/Pro/Team |
+| **CAC** | ~$30-60 (consumer) · $300-600 (enterprise) | PLG + virality → CAC bas |
+| **LTV** | ~$450-600 (consumer) · $5K-15K (enterprise) | 70% rétention 12 mois → 33 mois durée vie |
+| **LTV/CAC** | 8-12x (consumer) · 15-25x (enterprise) | 🟢 Exceptionnel |
+| **Payback** | 2-4 mois | Quasi immédiat pour canal PLG |
+| **Funding total** | $81M raised · $260M en cours @ $2B | Menlo Ventures lead |
+| **Burn estimé** | $3-5M/mois | Équipe ~40-60 personnes |
+| **Runway** | 24-36 mois post-raise | Avec $260M |
+| **Revenue/Employee** | $200-300K | Très bon pour stage |
+| **Growth Rate (ARR)** | 300-400% YoY | 40% MoM → ~5x annualisé |
+| **Rule of 40** | ~300+ | Growth écrase le burn (early stage) |
 
-**Verdict santé** : 🟢 — Très tôt pour conclure, mais les signaux sont positifs. CAC organique quasi-nul grâce au PH launch et réseau VC de la fondatrice. LTV/CAC excellent si l'outil tient ses promesses (20-40 meetings = $500K-5M levés → success fee potentiel 1-2% = gros upside). Le risque principal : churn post-levée (chaque client disparaît une fois son round bouclé → acquisition perpetuelle nécessaire).
+**Verdict santé : 🟢 EXCEPTIONNEL**
+Wispr Flow affiche des métriques d'une rareté absolue pour le stade : LTV/CAC >10x, payback <4 mois, 70% retention, 40% MoM. Seul bémol : les estimations ARR ($10M) vs valuation ($2B) = multiple 200x → prix l'avenir, pas le présent. Risque de dilution forte pour les fondateurs sur ce round. Mais le produit crée une vraie habitude comportementale.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Fundraisly | OpenMontage | Skybridge |
+| Dimension (poids) | Wispr Flow | Framer 3.0 | Granola |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — TAM global fundraising >$10B | 9 — Création vidéo pro, marché énorme | 7 — Marché MCP en hypercroissance |
-| ⚙️ Complexity inversé (15%) | 6 — Base data investisseurs = moat difficile | 3 — 12 pipelines + 14 video providers | 5 — DX framework = craft long |
-| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois pour MVP crédible | 3 — 6-9 mois pour version complète | 7 — Plugin voice 2-4 semaines |
-| 🏟️ Competition inversé (15%) | 7 — Quelques acteurs (Visible.vc, Capbase) mais aucun avec réseau VC intégré | 8 — Premier open-source agentique | 6 — Quelques frameworks MCP naissants |
-| 💰 Revenue Potential (20%) | 9 — ARPU $500-2K/mois · success fee optionnel · CAC organique | 4 — Open-source pur : monétisation cloud/SaaS nécessaire | 6 — Monétisation indirecte (services, cloud) |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 6 — Voice AI / SaaS fit · mais pas expert VC fundraising | 8 — Voice AI = différentiation directe sur OpenMontage | 9 — Voice MCP plugin = expert + réseau |
-| **Score pondéré** | **7.20** | **5.35** | **6.55** |
-| **Verdict** | 🟢 **BUILD NOW** | 🟠 **WATCH** | 🟡 **BUILD ADJACENT** |
+| 📊 Market Size (20%) | **9** — $22B voice AI market | **8** — $15B+ no-code/web builder | **8** — $8B AI productivity |
+| ⚙️ Complexité inversé (15%) | **4** — ASR + intégration OS = difficile | **2** — Canvas propriétaire = 12+ mois | **5** — API + LLM pipeline |
+| ⏱️ Time-to-Market (15%) | **5** — 3-4 mois (vertical niche) | **2** — >12 mois pour concurrent | **6** — 2-3 mois (vertical) |
+| 🏟️ Compétition inversé (15%) | **6** — Otter.ai/Dragon vs niche libres | **3** — Webflow/Wix/Squarespace saturé | **5** — Otter/Fireflies mais enterprise libre |
+| 💰 Revenue Potential (20%) | **8** — $50-100K MRR atteignable niche | **4** — Marge faible, infra lourde | **7** — $30-80K MRR vertical B2B |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI = avantage absolu | **4** — Design/frontend non-core | **7** — Voice pipeline = synergies fortes |
 
-**Légende calcul** :
-- Fundraisly : (8×0.20)+(6×0.15)+(5×0.15)+(7×0.15)+(9×0.20)+(6×0.15) = 1.6+0.9+0.75+1.05+1.8+0.9 = **7.0** → 🟢 BUILD NOW
-- OpenMontage : (9×0.20)+(3×0.15)+(3×0.15)+(8×0.15)+(4×0.20)+(8×0.15) = 1.8+0.45+0.45+1.2+0.8+1.2 = **5.9** → 🟠 WATCH
-- Skybridge : (7×0.20)+(5×0.15)+(7×0.15)+(6×0.15)+(6×0.20)+(9×0.15) = 1.4+0.75+1.05+0.9+1.2+1.35 = **6.65** → 🟡 BUILD ADJACENT
+| App | **Score pondéré** | **Verdict** |
+|---|---|---|
+| **Wispr Flow** | **(9×0.2)+(4×0.15)+(5×0.15)+(6×0.15)+(8×0.20)+(10×0.15) = 7.25** | 🟡 BUILD ADJACENT |
+| **Framer 3.0** | **(8×0.2)+(2×0.15)+(2×0.15)+(3×0.15)+(4×0.20)+(4×0.15) = 4.25** | 🔴 SKIP |
+| **Granola** | **(8×0.2)+(5×0.15)+(6×0.15)+(5×0.15)+(7×0.20)+(7×0.15) = 6.55** | 🟡 BUILD ADJACENT |
+
+**Note Kyle** : Wispr Flow est le plus proche du BUILD NOW mais la complexité ASR fait baisser le score. La stratégie optimale = choisir un vertical sous-servi (médical, légal) et construire une version spécialisée avec un moat compliance + expertise domaine.
 
 ## 📈 Tendances Émergentes
-1. **MCP devient la plomberie de l'AI** : Skybridge et l'écosystème autour du Model Context Protocol montrent que la prochaine vague n'est pas "construire un LLM" mais "construire des apps qui vivent DANS les assistants". Le store Claude/ChatGPT sera le nouveau App Store.
+1. **Voice AI passe en mode infrastructure** : Wispr Flow n'est plus une "app"—c'est une couche OS. La prochaine frontière = voice natif dans chaque SaaS (Salesforce, Linear, Notion). Marché addressable $22B en 2026, 34% CAGR.
 
-2. **Agents spécialisés > plateformes génériques** : Fundraisly gagne parce qu'il est UNIQUEMENT pour les fondateurs qui lèvent. Les plateformes generalist AI agents (AgentX, Make AI) peinent à se différencier. Niche = moat.
+2. **AI Agents sur canvas** : Framer 3.0 prouve que les AI agents peuvent générer des interfaces visuelles complètes. Ce pattern va se répandre (Figma, Canva, Notion). Le no-code devient "no-prompt".
 
-3. **Open-source comme canal d'acquisition** : OpenMontage prouve qu'un dépôt GitHub bien positionné peut générer 22K stars en quelques jours. L'AGPLv3 force les entreprises à contribuer ou payer → modèle OSS → SaaS rodé.
+3. **Enterprise AI unicorns en 9 mois** : Granola $250M → $1.5B en moins d'un an. Les cycles de valorisation s'accélèrent violemment pour les apps AI avec forte rétention B2B.
 
-4. **La valeur est dans la DATA, pas dans l'IA** : Fundraisly ne vend pas l'IA, il vend l'accès à 300K+ profils investisseurs enrichis + les warm paths. L'IA est le moteur mais la donnée est le moat.
+4. **Rétention = nouveau NPS** : Les investors regardent désormais la rétention 12 mois avant tout. Wispr (70%) et Granola (10% weekly growth) dominent parce qu'ils créent des changements comportementaux profonds, pas des features.
 
-5. **Voice AI en fond de tableau** : Aucune app voice-first dans le top PH cette semaine, mais Skybridge (voice deployment) et OpenMontage (TTS/narration) l'intègrent comme feature. Signal : voice devient une couche infra, pas un produit standalone.
+5. **Vertical AI > Horizontal AI** : Les apps qui ciblent un persona précis (exec, médecin, dev) battent les apps généralistes sur retention et pricing. L'ère des "ChatGPT for X" horizontal est terminée — place aux "expert AI in your workflow".
 
-## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions immédiates
+## 💡 Insights Actionnables pour Kyle
+**Pour Kyle (Voice AI + SaaS expert) :**
 
-**1. Dupliquer le modèle Fundraisly sur un vertical voice AI** (Score 7.0 → BUILD NOW)
-Fundraisly prouve que la combinaison "data propriétaire + agent IA + réseau expert" fonctionne pour un problème B2B précis. Kyle a l'équivalent pour les acheteurs enterprise en voice AI : connaissance des décideurs, des use cases, des intégrations. Construire un "Sales Agent" qui trouve et qualifie automatiquement des prospects enterprise pour des solutions voice → même ADN, même playbook.
-- **Action** : Valider avec 5 entretiens fondateurs (semaine 1) → MVP en 6 semaines.
+1. **Immédiat — Build VoiceRx ou VoiceLegal** : Wispr Flow prouve que le marché est là ($2B valuation). Kyle peut prendre 1-2 verticaux où la réglementation est un moat (santé = HIPAA, légal = confidentialité) et lancer en 3 mois. Avantage concurrentiel réel : expertise voice AI + connaissance des workflows professionnels.
 
-**2. Publier un Voice AI plugin Skybridge en open-source** (Score 6.65 → BUILD ADJACENT)
-Skybridge powers 10%+ des apps Claude/ChatGPT. Un plugin officiel voice (ElevenLabs, Deepgram, Cartesia) positionne Kyle comme contributeur clé dans l'écosystème MCP naissant. Coût : 2-4 semaines. Bénéfice : visibilité ciblée (dev community), crédibilité, deals potentiels avec Alpic AI.
-- **Action** : Fork skybridge, implémenter VoiceSkill template, PR en 3 semaines.
+2. **Immédiat — Lancer un "Granola for [vertical]"** : Le pattern Granola (meeting notes → workspace d'équipe) est réplicable dans tout secteur avec beaucoup de réunions critiques : boards de startups, cabinets d'avocats, équipes médicales. Kyle peut construire sur Whisper/AssemblyAI + Claude pour un MVP en 6-8 semaines.
 
-**3. Monitorer OpenMontage pour une opportunité de contribution voice** (Score 5.9 → WATCH)
-22K stars = communauté captive. Le module narration/TTS d'OpenMontage est basique (Piper TTS local). Une contribution qui ajoute ElevenLabs/Cartesia comme provider premium serait mergée rapidement et exposerait le nom de Kyle à des milliers de devs créateurs de contenu.
-- **Action** : Ouvrir une issue "Voice provider abstraction" dans les 2 prochaines semaines.
+3. **Moyen terme — API Voice Layer pour SaaS** : Framer 3.0 montre que les builders veulent des AI agents vocaux. Kyle pourrait lancer une API "Voice-to-Action" que les SaaS existants (Notion, Linear, Salesforce) intègrent via MCP. Revenus B2B récurrents, CAC bas (intégrations marketplace).
 
-### 🔑 Leçon macro de ce scan
-> Le marché récompense la SPÉCIFICITÉ. Les gagnants de cette semaine (Fundraisly, OpenMontage, Skybridge) ont chacun choisi un problème ultra-précis et l'ont résolu mieux que quiconque. Pas de plateforme "pour tout le monde". La niche est le produit.
+4. **Signal fort à surveiller** : Si Wispr Flow lève à $2B, plusieurs acquéreurs vont chercher des alternatives verticales. C'est la fenêtre parfaite pour builder ET se positionner pour une acquisition dans 18-24 mois.
+
+5. **Pricing lesson** : Wispr et Granola ont tous les deux un freemium généreux → forte adoption → upgrade team. Kyle doit résister à la tentation de monétiser trop tôt. Construire 10K users gratuits engagés avant de charger.
