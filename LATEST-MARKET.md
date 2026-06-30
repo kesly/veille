@@ -1,203 +1,192 @@
-# 🔥 Market Scan — 2026-06-29
+# 🔥 Market Scan — 2026-06-30
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (sélectionnées sur 15+ candidats)
-- Top potentiel : Asmi AI (Voice Agent) — score 7.85/10
-- Opportunités immédiates (BUILD NOW) : 1 — SDR Voice Agent B2B (fork Asmi AI)
-- Sources : Product Hunt, Hacker News, GitHub Trending, Reddit, Twitter, BetaList
+- Apps analysées : 3
+- Top potentiel : Wispr Flow (voice AI — vertical de Kyle)
+- Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : Asmi AI
-
+## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
-- **URL :** https://www.asmiai.com | [PH](https://www.producthunt.com/products/asmi-ai)
-- **Lancement :** Semaine du 8 juin 2026 (Product Hunt)
-- **Catégorie :** Voice AI / Agent d'appel automatisé
-- **Métriques :** 482 upvotes PH, #6 semaine du 8 juin, 50+ langues supportées
+- **URL** : wisprflow.ai | **Launch** : 2023 (pivote voice AI 2024) | **Fondateurs** : Tanay Dixit, Edward Jung
+- **Catégorie** : Voice AI / Dictée intelligente | **Modèle** : Freemium → $16.67/mo
+- **Métriques buzz** : 2,5M downloads (oct 2025–avr 2026) · 270 entreprises Fortune 500 · 50% croissance mensuelle · $2B valuation en discussion · $81M levés
 
-### 2. Proposition de valeur
-- **Problème :** Tâches téléphoniques chronophages (RDV, SVI, attentes, langues)
-- **Solution :** Agent vocal qui appelle à votre place, navigue les SVI, attend en ligne, négocie en 50+ langues
-- **USP :** Délégation totale — zéro interaction humaine post-demande
-- **Target :** Professionnels, expatriés, personnes avec barrière linguistique
-- **Pricing :** Early access freemium (pricing non public)
+### 2. Proposition de Valeur
+- **Problème** : Taper lentement tue la productivité des knowledge workers — 40 WPM clavier vs 150 WPM voix
+- **Solution** : Dictée vocale universelle alimentée par un LLM qui corrige, reformate, adapte le ton
+- **USP** : Fonctionne dans TOUTE app (email, Slack, Notion…) — transcription contextualisée, pas seulement verbatim
+- **Target** : Professionnels high-value (VCs, avocats, médecins, managers) · enterprise Fortune 500
+- **Pricing** : Gratuit limité · Pro $16.67/mo · Enterprise custom
 
-### 3. Stack technique
-- STT/TTS via modèles LLM, intégration SVI, téléphonie API (supposé Twilio/Vapi)
-- Orchestrateur d'appels + LLM multi-langues + voice synthèse naturelle
+### 3. Stack Technique
+- **Frontend** : App native macOS / Windows · extensions navigateur
+- **Backend** : Whisper-like ASR + LLM propriétaire pour reformatage
+- **Infra** : Edge processing (faible latence) + cloud pour sync
+- **APIs** : Intégrations OS-level (clipboard injection)
 
 ### 4. Psychologie
-- **Trigger :** Délégation cognitive, FOMO ("mon agent le fait pendant que je dors")
-- **JTBD :** "Quand j'ai des tâches phone répétitives → je veux les confier sans friction"
-- **Aha moment :** Premier appel terminé sans avoir décroché
+- **Triggers** : Productivité visible (3× plus vite), Social proof Fortune 500, Aha moment en <30 sec
+- **JTBD** : "Quand je dois répondre vite à un email, je veux parler plutôt que taper"
+- **Boucle virale** : Usage multiple fois/jour → habitude → recommande aux collègues
 
-### 5. Go-to-market
-- **Canaux :** PH launch, Twitter démos vidéo (avant/après), bouche-à-oreille
-- **Viral loop :** "Mon IA a appelé le médecin à ma place" → partage organique naturel
+### 5. Go-to-Market
+- **Canaux** : Bottom-up enterprise (un employé → toute l'équipe) · Twitter tech community · Product Hunt
+- **Launch** : Soft launch → croissance organique → PR TechCrunch sur la série A
+- **Viral loops** : Mention "dictated via Wispr" en signature email (comme Superhuman)
 
-### 6. Réplication pour Kyle
-- **Complexité :** 6/10 (voice infra dispo Vapi/ElevenLabs, SVI = challenge)
-- **Verticaux adjacents :** SDR automatisé B2B, relances clients, support entrant
-- **Angle Kyle :** Expert voice AI → version B2B (prospection commerciale automatisée)
-- **Temps de dev :** 4-8 semaines MVP B2B sur infra Vapi
+### 6. Réplication (angle Kyle)
+- **Complexité** : 8/10 (ASR propriétaire coûteux à égaler)
+- **Verticaux adjacents** : Voice AI médical · voice CRM · voice coding assistant
+- **Angle Kyle** : Wispr se concentre sur la dictée générale — Kyle peut attaquer un vertical voix ultra-spécialisé (sales calls, support client, coding voice) avec son expertise Vapi/ElevenLabs
+- **Temps de dev** : MVP vertical : 6-8 semaines avec API tiers (Deepgram + GPT-4)
 
-## 🏆 TOP APP #2 : Fundraisly
-
+## 🏆 TOP APP #2 : Granola
 ### 1. Identification
-- **URL :** https://fundraisly.ai | [PH](https://www.producthunt.com/products/fundraisly)
-- **Lancement :** 1er juin 2026 (Product Hunt)
-- **Fondateurs :** Anna Mastykina (ex-analyste VC, portefeuille 10 licornes, $600M+ AUM)
-- **Catégorie :** AI Agent / Fundraising B2B
-- **Métriques :** #1 PH juin 2026 overall, 1 700+ followers, note 5.0/5
+- **URL** : granola.so | **Launch** : mai 2024 | **Fondateurs** : Sam Haveson, Chris Pedregal (ex-Google DeepMind)
+- **Catégorie** : AI Notetaker / Meeting Intelligence | **Modèle** : Freemium → $18/mo/siège
+- **Métriques buzz** : $1,5B valuation (mars 2026) · $125M Series C (Index Ventures) · 250% croissance revenus T4 2025 · 10% weekly active user growth
 
-### 2. Proposition de valeur
-- **Problème :** Lever des fonds = processus opaque, chronophage, basé sur le réseau
-- **Solution :** Agent IA analysant 300K+ investisseurs, identifie les actifs pertinents, mappe les chemins chauds via le réseau, gère l'outreach
-- **USP :** Construit par des fondateurs ayant levé >$1B collectivement
-- **Target :** Startups en phase seed à série A
-- **Pricing :** Non divulgué (waitlist → premium supposé)
+### 2. Proposition de Valeur
+- **Problème** : Les notes de réunion sont soit absentes, soit trop chronophages à prendre
+- **Solution** : Tourne silencieusement en background, capture l'audio local (sans bot intrusif dans le call), génère des notes structurées post-meeting
+- **USP** : Pas de robot rejoignant le call — discret, natif macOS, qualité résumés exceptionnelle
+- **Target** : VCs, founders, consultants (segment premium high-ARPU) → extension enterprise
+- **Pricing** : Plan gratuit · $18/mo/siège · Enterprise custom
 
-### 3. Stack technique
-- Base de données investisseurs propriétaire (300K+), LLM pour matching et personnalisation, graph réseau pour warm paths, CRM outreach intégré
+### 3. Stack Technique
+- **Frontend** : App native macOS (Electron puis Swift natif)
+- **Backend** : Whisper pour ASR + modèles fine-tunés pour résumés réunion
+- **Infra** : Traitement local (audio capturé en local, LLM cloud pour summarization)
+- **APIs** : Intégration Calendar (Google/Outlook), Notion, Slack
 
 ### 4. Psychologie
-- **Trigger :** Autorité ("fait par des fondateurs qui ont levé $1B"), FOMO (investisseurs actifs limités)
-- **JTBD :** "Quand je cherche du financement → je veux éviter les cold outreach infructueux"
-- **Aha moment :** Premier meeting qualifié généré par l'agent
+- **Triggers** : FOMO professionnel ("les VCs l'utilisent tous"), autorité (Bloomberg/Forbes), zéro friction
+- **JTBD** : "Quand je sors d'un meeting, je veux avoir les actions clairement listées sans effort"
+- **Aha moment** : Premier résumé de réunion lu en 30 sec → conversion immédiate
+- **Viral loop** : Les résumés partagés aux équipes = publicité passife (logo Granola visible)
 
-### 5. Go-to-market
-- **Canaux :** PH launch viral, founders communities, LinkedIn, YC network
-- **Viral loop :** Success stories publiques ("j'ai levé $X grâce à Fundraisly") → FOMO
+### 5. Go-to-Market
+- **Canaux** : Bouche-à-oreille VC/tech ecosystem, Product Hunt, coverage Bloomberg/TechCrunch
+- **Stratégie** : Conquêter d'abord les VCs (prescripteurs, forte influence sur startups portfolio)
+- **Viral loops** : Partage de notes Granola → découverte par les autres participants
 
-### 6. Réplication pour Kyle
-- **Complexité :** 7/10 (base de données investisseurs = moat difficile à construire)
-- **Verticaux adjacents :** Agent de partenariats B2B, agent recrutement executive, agent BD
-- **Angle Kyle :** Appliquer la même logique à l'acquisition clients → "Sales Agent" voix
-- **Temps de dev :** 6-10 semaines MVP (sans base propriétaire)
+### 6. Réplication (angle Kyle)
+- **Complexité** : 7/10 (différenciation sur qualité LLM + UX native)
+- **Verticaux adjacents** : Sales calls intelligence · support client · consultants juridiques
+- **Angle Kyle** : Granola est généraliste — opportunité de faire la version "voice AI + CRM" pour commerciaux (post-call summary + CRM auto-update via Vapi/Retell)
+- **Temps de dev** : MVP voice sales assistant : 4-6 semaines (Deepgram + GPT-4 + Salesforce API)
 
-## 🏆 TOP APP #3 : Palmier Pro
-
+## 🏆 TOP APP #3 : Framer 3.0
 ### 1. Identification
-- **URL :** https://github.com/palmier-io/palmier-pro | [AIToolly](https://aitoolly.com/ai-news/article/2026-06-25-palmier-pro)
-- **Lancement :** Juin 2026 (open-source, macOS)
-- **Catégorie :** AI-Native Creative Tool / Video Editor macOS
-- **Métriques :** #1 GitHub Trending (22 juin 2026), 655+ stars en quelques jours, croissance explosive
+- **URL** : framer.com | **Launch v3.0** : 17 juin 2026 | **Fondateurs** : Koen Bok, Jorn van Dijk
+- **Catégorie** : No-Code Website Builder / AI Design Tool | **Modèle** : Freemium → $20-$40/mo
+- **Métriques buzz** : #1 Product Hunt 17 juin 2026 · 400+ upvotes jour J · +5K membres Discord en 1 semaine · 14K Discord total
 
-### 2. Proposition de valeur
-- **Problème :** Les éditeurs vidéo actuels traitent l'IA comme un plugin externe, pas un collaborateur
-- **Solution :** Premier éditeur vidéo macOS natif conçu pour la co-édition humain-IA directement dans la timeline
-- **USP :** Open-source + Swift natif macOS, IA = first-class citizen (pas un add-on)
-- **Target :** Créateurs de contenu Mac, développeurs, équipes marketing
-- **Pricing :** Open-source (gratuit), monétisation future supposée (pro features)
+### 2. Proposition de Valeur
+- **Problème** : Créer un site pro demande soit du code, soit des compromis visuels (Webflow complexe, Wix cheap)
+- **Solution** : Builder no-code premium avec IA intégrée sur le canvas — l'agent rédige, design, organise
+- **USP** : Agents IA travaillant directement sur le canvas de design + Branching (preview avant publish) + Community rémunérée
+- **Target** : Designers, freelancers, startups, agences — utilisateurs premium qui payent pour la qualité
+- **Pricing** : Free (sous-domaine Framer) · Mini $5/mo · Basic $20/mo · Pro $40/mo · Enterprise
 
-### 3. Stack technique
-- Swift natif macOS, architecture timeline IA-first, intégration agents IA pour génération/édition
-- Open-source : contribution communautaire, Premiere Pro comme référence UX
+### 3. Stack Technique
+- **Frontend** : App web React + canvas propriétaire
+- **Backend** : Serveurs propriétaires pour hosting, LLMs API (Claude/GPT) pour agents
+- **Infra** : CDN global pour sites publiés
+- **APIs** : Intégrations Figma, CMS headless, animations CSS
 
 ### 4. Psychologie
-- **Trigger :** Innovation de catégorie ("premier de son genre"), open-source = trust
-- **JTBD :** "Quand j'édite de la vidéo → je veux que l'IA soit dans ma timeline, pas dans un chat"
-- **Aha moment :** Première edit générée directement dans la timeline par l'agent
+- **Triggers** : Beauté des outputs (social proof virale sur Twitter), communauté aspirationnelle
+- **JTBD** : "Quand je veux lancer mon portfolio / landing page, je veux un résultat beau sans coder"
+- **Aha moment** : Premier site publié en <10 minutes avec un résultat impressionnant
+- **Viral loop** : "Made with Framer" badge → découverte par visiteurs
 
-### 5. Go-to-market
-- **Canaux :** GitHub Trending organique, communauté open-source, Twitter créateurs
-- **Viral loop :** Star + fork + contributions → algorithme GitHub Trending → visibilité
+### 5. Go-to-Market
+- **Canaux** : Design community (Twitter, Dribbble), Product Hunt, YouTube tutorials
+- **Stratégie** : Conquérir la communauté design → word-of-mouth → expansion enterprise
+- **Viral loops** : Sites créés avec Framer = showcases publicitaires · community marketplace
 
-### 6. Réplication pour Kyle
-- **Complexité :** 8/10 (dev macOS natif Swift + pipeline vidéo = expertise rare)
-- **Verticaux adjacents :** Audio editor IA-natif, podcast editor co-piloté IA
-- **Angle Kyle :** Moins pertinent (hors voice AI SaaS) — sauf si voix + video clips
-- **Temps de dev :** 12-20 semaines (stack Swift spécialisée)
+### 6. Réplication (angle Kyle)
+- **Complexité** : 9/10 (canvas propriétaire = années de dev)
+- **Verticaux adjacents** : Builder spécialisé landing pages voice AI · générateur de sites pour agences vocales
+- **Angle Kyle** : Difficile à répliquer directement. Meilleur angle : créer des templates Framer spécialisés voice AI SaaS et les vendre sur la nouvelle Framer Community
+- **Temps de dev** : Template pack : 1-2 semaines
 
-## 💰 Unit Economics Deep Dive — Asmi AI
+## 💰 Unit Economics Deep Dive — Wispr Flow
+*Sources : TechCrunch (mai 2026), GetLatka, Weesper Neon Flow Blog*
 
-> ⚠️ App en early access — données estimées (sources : PH comments, similarweb, linkedin, crunchbase)
-
-| Métrique | Estimation | Source / Méthode |
+| Métrique | Valeur estimée | Commentaire |
 |---|---|---|
-| **ARR** | ~$0 (early access) → $50K-$200K potentiel 12mo | PH traction + marché voice AI |
-| **ARPU** | $15-$30/mois estimé | Comparables (Otter.ai, Reclaim) |
-| **Users actifs** | ~2 000-5 000 (early access) | 482 PH upvotes × taux conversion 5-10x |
-| **CAC** | ~$5-15 (PLG PH-driven) | Canal principal = PH + viral |
-| **LTV** | ~$180-$360 (12 mois rétention) | ARPU × churn estimé 20%/mo |
-| **LTV/CAC** | 12x-72x | Très sain si rétention tient |
-| **Payback** | 1-2 mois | CAC faible / PLG |
-| **Burn** | Estimé $30K-$80K/mois | Équipe 3-5 + infra voice |
-| **Runway** | Inconnu (pas de funding public) | Bootstrapped supposé |
-| **Rev/Employee** | $10K-$40K ARR/emploi | Stade très early |
-| **Rule of 40** | Non mesurable (pré-revenue) | — |
+| **ARR** | ~$15-20M | Rev $3,8M (juil 24–juil 25) · 40-50% MoM growth |
+| **Users actifs** | ~500K–700K | 2,5M downloads · ~19% payment rate observé |
+| **Users payants** | ~95K–133K | 19% conversion free→paid (exceptionnel pour freemium) |
+| **ARPU mensuel** | ~$13–16 | Mix free/pro · enterprise pousse l'ARPU vers le haut |
+| **CAC** | ~$8–15 | Forte viralité organique, bottom-up enterprise |
+| **LTV** | ~$240–400 | 80% retention 6 mois · durée abonnement ~18-24 mois |
+| **LTV/CAC** | ~20–30x | **Excellent** (>3x = sain, >10x = exceptionnel) |
+| **Payback Period** | <2 mois | CAC très bas grâce à l'organique |
+| **Burn** | ~$3–5M/mo | 81M levés, scaling agressif engineering + sales |
+| **Runway** | ~18–24 mois | Levée $260M annoncée = runway 5+ ans si conclue |
+| **Rev/Employee** | ~$200–350K | Estimation ~60-80 employés (LinkedIn) |
+| **Rule of 40** | ~90+ | Croissance 40-50%/mo + marge positive = >40 ✅ |
 
-### Verdict Santé : 🟡 (Early Stage Prometteur)
-- **Points forts :** CAC quasi-nul (PLG), marché voice AI en explosion, timing parfait
-- **Risques :** Burn vs runway inconnu, pricing non établi, rétention à prouver
-- **Signal positif :** 50+ langues = moat international, niche non saturée B2C → B2B
+**Verdict santé : 🟢 EXCELLENT**
+- LTV/CAC de 20-30x = machine à croissance extrêmement efficace
+- Rétention 80% sur 6 mois = produit indispensable (sticky habit)
+- 19% payment rate = conversion freemium en tête de secteur (moyenne : 2-5%)
+- Risque : valorisation $2B sans ARR confirmé >$20M = multiple 100x → pression execution massive
 
 ## 🎯 Opportunity Scorecard — Top 3
+| Dimension | Poids | Wispr Flow | Granola | Framer 3.0 |
+|---|---|---|---|---|
+| 📊 Market Size | 20% | 9 (>$10B TAM voice AI) | 8 ($5B meeting intel) | 7 ($2B no-code) |
+| ⚙️ Complexité inversée | 15% | 3 (ASR proprio = difficile) | 4 (LLM meeting = copyable) | 2 (canvas impossible) |
+| ⏱️ Time-to-Market | 15% | 4 (6-8 semaines MVP) | 6 (4-6 semaines MVP) | 8 (1-2 sem templates) |
+| 🏟️ Compétition inversée | 15% | 5 (Otter.ai, Fireflies...) | 5 (saturé notetakers) | 3 (Webflow, Squarespace) |
+| 💰 Revenue Potential | 20% | 9 (>$100K MRR vertical) | 8 ($50-100K MRR niche) | 5 (templates limité) |
+| 🧑‍💻 Founder-Fit Kyle | 15% | 10 (expert voice AI) | 7 (SaaS + AI, pas voix) | 4 (pas son terrain) |
 
-| Dimension (poids) | Asmi AI | Fundraisly | Palmier Pro |
-|---|---|---|---|
-| 📊 Market Size (20%) | 8 — Marché voice AI $50B+ | 6 — Niche fundraising €5B | 7 — Video creation $25B |
-| ⚙️ Complexité inversé (15%) | 7 — Vapi/EL simplifie | 5 — DB propriétaire difficile | 3 — Swift natif dur |
-| ⏱️ Time-to-Market (15%) | 7 — 4-8 sem sur Vapi | 5 — 6-10 sem | 2 — 12-20 sem |
-| 🏟️ Compétition inversé (15%) | 8 — Peu de vrais concurrents | 6 — Apollo/Clay en face | 7 — Catégorie vierge |
-| 💰 Revenue Potential (20%) | 8 — B2B SDR = $500+ MRR/client | 7 — SaaS premium startup | 5 — Open-source / mono |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — Expert voice AI exact | 5 — Hors expertise core | 3 — Hors expertise |
+**Score pondéré :**
 
-| | **Score pondéré** | **Verdict** |
+| App | Score | Verdict |
 |---|---|---|
-| **Asmi AI** | **7.8 / 10** | 🟢 BUILD NOW |
-| **Fundraisly** | **5.8 / 10** | 🟠 WATCH |
-| **Palmier Pro** | **4.7 / 10** | 🟠 WATCH |
+| **Wispr Flow** (angle vertical) | **(9×0.20)+(3×0.15)+(4×0.15)+(5×0.15)+(9×0.20)+(10×0.15) = 6.90** | 🟡 BUILD ADJACENT |
+| **Granola** (angle sales voice) | **(8×0.20)+(4×0.15)+(6×0.15)+(5×0.15)+(8×0.20)+(7×0.15) = 6.55** | 🟡 BUILD ADJACENT |
+| **Framer 3.0** (templates) | **(7×0.20)+(2×0.15)+(8×0.15)+(3×0.15)+(5×0.20)+(4×0.15) = 4.90** | 🟠 WATCH |
 
-### Calculs détaillés
-- **Asmi AI :** (8×0.20)+(7×0.15)+(7×0.15)+(8×0.15)+(8×0.20)+(9×0.15) = 1.6+1.05+1.05+1.2+1.6+1.35 = **7.85**
-- **Fundraisly :** (6×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(7×0.20)+(5×0.15) = 1.2+0.75+0.75+0.9+1.4+0.75 = **5.75**
-- **Palmier Pro :** (7×0.20)+(3×0.15)+(2×0.15)+(7×0.15)+(5×0.20)+(3×0.15) = 1.4+0.45+0.3+1.05+1.0+0.45 = **4.65**
+> **Note** : Le vrai BUILD NOW pour Kyle n'est pas de copier ces apps — c'est d'en extraire l'angle vertical voice AI + sales intelligence (cf. Insights)
 
 ## 📈 Tendances Émergentes
+### 1. 🎙️ Voice AI entre dans la phase de mass market
+Wispr Flow à $2B de valorisation et 2,5M de téléchargements prouve que la dictée vocale intelligente n'est plus un gadget. La convergence Whisper-class ASR + LLM (qualité reformatage) + UX OS-native crée une catégorie de productivité à part entière. Les verticaux métier (médical, juridique, sales) sont encore peu adressés.
 
-### 1. 🎙️ Voice AI : de l'outil au délégué
-Vapi ($500M valuation, Amazon Ring), ElevenLabs ($11B, $500M ARR), Wispr Flow ($2B valuation) — le marché consolide autour d'agents vocaux qui **agissent** (appellent, négocient, signent) pas juste qui parlent. Signal fort : 1 milliard d'appels traités par Vapi en 2026.
+### 2. 🤖 Meeting Intelligence → Enterprise AI Platform
+Granola ($1,5B) illustre la trajectoire : commencer comme notetaker, devenir la mémoire institutionnelle d'une organisation. Le marché se divise entre généralistes (Granola, Otter) et spécialistes verticaux (Gong pour les sales, Dovetail pour l'UX research). Les niche players montrent souvent des multiples de revenus plus élevés.
 
-### 2. 🤖 Agents autonomes : l'IA passe du chat à l'action
-Asmi AI (appelle à ta place), Mina (parle en réunion), Bond (gère ton agenda) — les produits gagnants ne demandent plus à l'utilisateur de "prompter" : ils agissent en tâche de fond. Paradigme = **"set and forget"**.
+### 3. 🏗️ AI-native builders : l'IA travaille SUR le produit, plus seulement EN dessous
+Framer 3.0 place l'agent IA directement sur le canvas de design. Ce pattern "AI co-worker visible" (vs "AI en coulisse") se généralise : Cursor, Lovable, Replit font pareil pour le code. Prochain domaine à disruption : les builders CRM, les builders workflow (n8n), les builders de sites marketing.
 
-### 3. 🏗️ Infra open-source comme GTM
-OpenClaw (355K stars GitHub en 5 mois), OpenCode (7.5M MAU), Palmier Pro (#1 trending) — l'open-source n'est plus un modèle économique mais une **stratégie d'acquisition**. Stars = notoriété = B2B pipeline.
+### 4. 📱 India + Emerging Markets = nouveau vecteur de croissance
+Wispr Flow croît à 100% MoM en Inde (14% des installs). Même pattern observé sur d'autres outils AI. Les fondateurs qui ignorent ces marchés laissent une opportunité massive sur la table, surtout pour des apps voix (usage mobile-first).
 
-### 4. 📊 Marché App Store en rebond +60-104% YoY
-Q1 2026 voit une explosion des nouvelles apps. L'IA réduit le coût de dev → plus de fondateurs solo → plus de niches couvertes. Les barrières d'entrée s'effondrent mais la **distribution reste le moat**.
+### 5. 🔒 Shift vers Trust & Security en AI
+HN trends juin 2026 : les devs se méfient des agents trop autonomes. La demande monte pour des AI "controlled" avec audit trail, permissions granulaires, pas de fuite données. Les prochaines killer apps AI seront celles qui combinent puissance ET compliance.
 
-### 5. 🎬 Creative Tools IA-natifs : nouvelle catégorie émergente
-Palmier Pro inaugure une catégorie où l'IA est **dans** l'outil créatif (timeline, canvas, DAW) et non en surcouche. Attendre des équivalents en audio, design, et writing.
+## 💡 Insights Actionnables pour Kyle
+### 🎯 Insight #1 — L'angle que Wispr Flow ne prend pas
+Wispr est horizontal (tous les knowledge workers). Kyle peut faire le vertical **"Voice AI for Sales Teams"** : un outil qui dicte, mais qui aussi met à jour automatiquement le CRM, génère le suivi email post-call, et analyse le sentiment de la conversation. Stack : Deepgram + GPT-4 + Salesforce/HubSpot API. Différenciateur : intégration CRM native qu'aucun dictation tool n'offre vraiment.
 
-## 💡 Insights Actionnables
+### 🎯 Insight #2 — Granola = template pour un "Sales Call Intelligence" tool
+Granola a prouvé qu'un notetaker discret (sans bot dans le call) peut atteindre $1,5B de valeur. Même pattern applicable au domaine sales calls via Vapi/Retell. Produit cible : post-call summary structuré → auto-sync CRM → coaching suggestions pour le commercial. Kyle possède déjà les briques (Vapi expertise).
 
-### 🟢 Pour Kyle — Actions immédiates
+### 🎯 Insight #3 — Community + Marketplace comme moat
+Framer 3.0 lance une Community où les créateurs monétisent leurs templates. Kyle peut exploiter ce canal maintenant : créer 5-10 templates Framer ultra-soignés pour le marché "Voice AI SaaS landing pages" et les vendre sur la marketplace. Faible effort, génération de leads qualifiés pour ses vrais produits.
 
-**1. Construire un SDR Voice Agent B2B (fork d'Asmi AI concept)**
-- Asmi AI prouve la demande B2C (appels personnels). Kyle a l'infra Vapi/ElevenLabs.
-- Pivot naturel : agent vocal qui prospecte en B2B, appelle des leads, qualifie, booke.
-- Différentiation : français natif + 50 langues + CRM sync (HubSpot/Attio).
-- Score Kyle-Fit : 9/10. Délai MVP : 4-8 semaines.
+### 🎯 Insight #4 — La fenêtre India est ouverte maintenant
+Wispr Flow vient de s'y lancer avec 100% MoM. Pour un produit voice AI français/multilingue, attaquer un pays francophone émergent (Maroc, Sénégal, Côte d'Ivoire) avec localisation langue maternelle = blue ocean réel. Coût d'acquisition 10× inférieur à l'Europe.
 
-**2. Étudier Fundraisly comme playbook de distribution**
-- Le moat de Fundraisly n'est pas l'IA mais la **base de données propriétaire** (300K investisseurs).
-- Leçon : construire un data moat dans un vertical voice AI (ex : liste de décideurs qui acceptent les calls IA).
-- Action : identifier quel dataset propriétaire Kyle peut assembler qui vaut $10K+/mois.
+### 🎯 Insight #5 — Le signal HN : Security + Trust = moat pour agents AI
+Les prochaines killer apps d'agents IA gagneront sur la confiance (pas uniquement les fonctionnalités). Si Kyle intègre dès le départ : logging d'audit, permissions par rôle, zero-data-retention option → argument enterprise massif contre les concurrents qui ajouteront ça en retard.
 
-**3. Monitorer Palmier Pro comme signal de catégorie**
-- Premier éditeur "IA-natif" pour la vidéo. Dans 12-18 mois, une app similaire existera pour le podcast/audio.
-- Opportunity : "Palmier Pro pour la voix" = éditeur audio IA-natif avec voice cloning, script-to-audio, etc.
-- Score Kyle-Fit : 7/10 (si pivot vers audio). Délai : 10-14 semaines.
-
-### 📌 Signaux à surveiller la semaine prochaine
-- Pricing reveal d'Asmi AI (convertit-il en payant ?)
-- Funding Wispr Flow Series B ($260M) → impact sur concurrence voice dictation
-- OpenClaw : entreprise ou rester open ? (business model signal)
-
-### 🔗 Sources principales
-- https://www.producthunt.com/leaderboard/monthly/2026/6
-- https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/
-- https://github.com/palmier-io/palmier-pro
-- https://www.asmiai.com
-- https://fundraisly.ai
+---
+*Sources : [TechCrunch Wispr](https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/) · [Bloomberg Granola](https://www.bloomberg.com/news/articles/2026-03-25/ai-notetaker-granola-hits-1-5-billion-value-in-125-million-funding) · [Framer PH](https://www.producthunt.com/products/framer/launches) · [HN Trends juin 2026](https://blog.mean.ceo/hacker-news-trends-june-2026/)*
