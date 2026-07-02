@@ -1,208 +1,208 @@
-# 🔥 Market Scan — 2026-07-01
+# 🔥 Market Scan — 2026-07-02
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Wispr Flow
-- Opportunités immédiates (BUILD NOW) : 2 (Wispr Flow angle B2B, Retell AI vertical)
+- Top potentiel : Wispr Flow (Voice OS, $2B valuation)
+- Opportunités immédiates (BUILD NOW) : 2
 
 ## 🏆 TOP APP #1 : Wispr Flow
-
 ### 1. Identification
 - **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Launch** : fin 2024 — explosion 2025-2026
-- **Fondateurs** : Tanay Kothari (CEO), Sahaj Garg (CTO)
-- **Catégorie** : Voice dictation / Productivity
-- **Métriques** : 2,5M downloads, 40% MoM growth, 270 Fortune 500 clients, valorisation $2B en négociation (mai 2026), 80% retention à 6 mois
-- **Sources** : [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-funding-talks-at-2-billion-value) · [TechCrunch](https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/)
+- **Launch** : Beta 2024, Android Feb 2026, Voice OS pivot 2026
+- **Fondateurs** : Tanay Tandon (CEO), équipe ex-Stanford/MIT
+- **Catégorie** : Voice AI / Dictation OS
+- **Métriques buzz** : 2,5M+ téléchargements · 270 Fortune 500 · 125 nouveaux clients entreprise/semaine · 40% MoM growth · $81M levés · $2B valuation en négociation
 
 ### 2. Proposition de valeur
-- **Problème** : taper au clavier est lent, fatiguant, contre-productif pour les knowledge workers
-- **Solution** : dictée vocale IA universelle — fonctionne dans 70+ apps (Gmail, Slack, Notion, VS Code…)
-- **USP** : NLP ultra-précis, correction contextuelle automatique, vitesse 3x vs clavier
-- **Target** : professionnels, executives, développeurs, créatifs (B2C + B2B)
-- **Pricing** : $15/mois Pro · $144/an · Enterprise custom
+- **Problème** : Taper est lent, fatigant, génère de la friction cognitive
+- **Solution** : Dictée IA en temps réel dans n'importe quelle app — le texte arrive propre, sans "euh", grammaticalement correct, adapté au ton de l'app
+- **USP** : Le seul outil qui s'adapte au contexte de chaque app (ton Slack ≠ ton email ≠ ton code)
+- **Target** : Knowledge workers, managers, entrepreneurs — 60% en langues non-anglaises
+- **Pricing** : Free (2000 mots/semaine) · Pro $15/mois ou $12/mois annuel · Enterprise contact
 
 ### 3. Stack technique
-- Frontend : macOS app native (Swift)
-- Backend : Python/ML pour transcription + correction contextuelle
-- Infra : AWS + custom models fine-tunés sur usages pros
-- APIs : whisper-class models + LLM pour correction intelligente
+- **Frontend** : App macOS, Windows, iOS, Android (overlay système)
+- **STT** : Whisper-based (custom fine-tune)
+- **LLM cleanup** : Llama fine-tuné pour nettoyage fillers, ponctuation, tone-shifting
+- **Infra** : AWS + Baseten (inférence) + Cerebras (speed) + OpenAI/Anthropic APIs
+- **Architecture** : Hotkey → capture mic → STT pipeline → LLM cleanup → inject cursor
 
 ### 4. Psychologie
-- **Aha moment** : première phrase dictée → texte parfait dans n'importe quelle app en <1s
-- **JTBD** : "Permettre-moi d'écrire 3x plus vite sans effort cognitif"
-- **Triggers** : productivité visible immédiatement (preuve chiffrée : 72% des chars écrits à la voix après 6 mois), adoption par Nvidia/Amazon (autorité), 40% growth (FOMO)
-- **Rétention** : habitude profonde — une fois qu'on dicte, retour clavier impossible
+- **JTBD** : "Je veux écrire plus vite sans perdre en qualité"
+- **Aha moment** : Première dictée propre — immédiat, sans correction manuelle
+- **Triggers** : Productivité sociale (les collègues voient la différence), intégration invisible (pas de friction onboarding), 50% des chars dictés après 3 mois (addiction progressive)
+- **Biais cognitif** : Loss aversion après essai gratuit — revenir au clavier semble régressif
 
-### 5. Go-to-Market
-- **Canaux** : bouche-à-oreille viral (les collègues voient l'écran, demandent c'est quoi), LinkedIn B2B, Product Hunt
-- **Launch** : silencieux → word-of-mouth organique → explosion médias mai 2026
-- **Viral loop** : chaque utilisateur visible en train de dicter = publicité passive pour ses collègues
-- **Enterprise** : 125 nouveaux clients enterprise/semaine début 2026
+### 5. Go-to-market
+- **Canal principal** : Word-of-mouth B2B (un manager convaincu → équipe entière)
+- **Launch** : Product Hunt + newsletter tech + Twitter/X #buildingpublic
+- **Viral loop** : Shared docs montrant la vitesse → curiosité collègues → adoption virale interne
+- **Enterprise** : PLG → Enterprise upsell (270 Fortune 500 via employees)
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (ML + latence critique)
-- **Angle Kyle** : Wispr Flow vertical "voice AI for sales/support teams" — dictée contextuelle avec CRM intégration automatique
-- **Verticaux adjacents** : médecins (dictée ordonnances), juristes (dictée contrats), code review vocal
-- **Temps dev MVP** : 3-4 mois (utiliser Whisper API + Claude pour correction, macOS app)
+- **Complexité** : 6/10 — STT en temps réel est bien documenté, le diff est le LLM cleanup + intégration OS
+- **Verticaux adjacents** : Voice-to-CRM (commercial), Voice-to-ticket (support), Voice-to-code (devs)
+- **Angle Kyle** : Version Voice-to-CRM verticalisée pour les équipes sales francophones — pipeline Vapi/ElevenLabs + cleanup LLM
+- **Temps dev** : 2-3 mois MVP · 6 mois V1 stable
 
-## 🏆 TOP APP #2 : Retell AI
-
+## 🏆 TOP APP #2 : OpenClaw
 ### 1. Identification
-- **URL** : [retellai.com](https://www.retellai.com)
-- **Launch** : 2024 — $60M ARR atteint en 2026
-- **Fondateurs** : Evie Wang, Zexia Zhang, Todd Li, Bing Wu, Weijia Yu
-- **Catégorie** : Voice AI Platform / B2B SaaS
-- **Métriques** : $60M ARR (x3 en 12 mois), 55M appels/mois, $4.6M total levé, ~25 personnes, profitable
-- **Sources** : [TipRanks](https://www.tipranks.com/news/private-companies/retell-ai-triples-arr-to-60-million-as-voice-agent-adoption-surges) · [GlobeNewswire](https://www.globenewswire.com/news-release/2026/01/29/3228780/0/en/)
+- **URL** : [openclaw.ai](https://openclaw.ai)
+- **Launch** : Jan 2026 (viral GitHub) · iOS/Android : 30 juin 2026
+- **Fondateurs** : Peter Steinberger (ex-founder PSPDFKit, serial entrepreneur)
+- **Catégorie** : Open-source AI Agent Framework (local-first)
+- **Métriques buzz** : 350K+ stars GitHub · millions d'utilisateurs · 9K→60K stars en quelques jours (jan 2026) · 129 startups construites dessus
 
 ### 2. Proposition de valeur
-- **Problème** : les call centers coûtent cher, les agents humains sont scalabilité-limités
-- **Solution** : plateforme no-code pour déployer des agents vocaux IA (sales, support, SMS, email)
-- **USP** : $4.6M levé pour $60M ARR = capital efficiency record dans le secteur. Appels temps réel <300ms latence
-- **Target** : PME et enterprises (call centers, sales teams)
-- **Pricing** : $0.07-0.31/min selon stack (LLM + TTS + téléphonie)
+- **Problème** : Les agents IA cloud sont chers, opaques et violent la vie privée
+- **Solution** : Agent IA personnel local avec 100+ skills, tourne sur votre machine, se connecte à votre LLM préféré
+- **USP** : Open source, data 100% locale, model-agnostic (Claude, GPT-4, DeepSeek, Ollama)
+- **Target** : Développeurs, power users, makers, entreprises privacy-first
+- **Pricing** : Self-hosted gratuit (VPS $5-20/mois + API keys) · Cloud $49/mois ou $39/mois annuel
 
 ### 3. Stack technique
-- Frontend : React + no-code builder
-- Backend : TypeScript + Python ML
-- Infra : cloud multi-provider pour latence minimale
-- APIs : GPT 5.x, Claude Sonnet 4.6, voix ElevenLabs/Deepgram, Twilio/Plivo
+- **Frontend** : Dashboard web + apps natives iOS/Android (QR pairing)
+- **Backend** : Node.js / Python, architecture skills modulaire
+- **Infra** : Self-hosted (Docker) ou OpenClaw Cloud
+- **Intégrations** : Telegram, Discord, WhatsApp, Slack, iMessage
+- **LLMs** : Claude, GPT-4, DeepSeek, Ollama (local), tout modèle compatible
 
 ### 4. Psychologie
-- **Aha moment** : premier appel IA déployé en <30 min → conversion réelle
-- **JTBD** : "Scaler mon équipe commerciale sans recruter"
-- **Triggers** : ROI immédiat (remplace $5K/mois agent humain par $0.20/appel), social proof Fortune 500, 55M appels/mois (preuve d'échelle)
-- **Rétention** : lock-in fort (workflows custom, intégrations CRM)
+- **JTBD** : "Je veux un agent IA qui travaille pour moi sans me surveiller"
+- **Aha moment** : Premier workflow automatisé qui tourne seul pendant 1h sans intervention
+- **Triggers** : Privacy anxiety (post-GDPR europe), hacker pride (self-hosted), FOMO (350K GitHub stars), low-cost vs ChatGPT Plus
+- **Communauté** : Subreddit actif, Discord, contributeurs open source = flywheel viralité
 
-### 5. Go-to-Market
-- **Canaux** : dev-led growth (API-first), Product Hunt, LinkedIn B2B, contenus techniques
-- **Launch** : developer community first → enterprise sales
-- **Viral loop** : agences revendent la plateforme en marque blanche (partenaires multiplient la distribution)
-- **Enterprise** : migration des call centers traditionnels = marché établi + budget existant
+### 5. Go-to-market
+- **Canal principal** : GitHub virality → HN front page → Twitter/X tech
+- **Launch** : Release GitHub spontanée → 9K→210K stars sans marketing payant
+- **Viral loop** : Stars GitHub → blog posts → YouTube tutos → makers → enterprises
+- **Monétisation** : Cloud hosted pour non-devs (margin élevée sur infra low-cost)
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (infra voice temps réel critique mais APIs matures)
-- **Angle Kyle** : vertical spécialisé France/EU (RGPD-compliant, FR hébergé) ou niche (immobilier, santé, juridique)
-- **Verticaux adjacents** : relance devis auto, booking médical, suivi patient post-op
-- **Temps dev MVP** : 6-8 semaines avec Vapi/Retell comme base + vertical overlay
+- **Complexité** : 7/10 — le framework existe déjà (fork possible) mais différenciation nécessaire
+- **Verticaux adjacents** : Agent voice-first (OpenClaw + Vapi), Agent support client, Agent SDR vocal
+- **Angle Kyle** : Construire un agent vertical voice sur OpenClaw — ex. agent commercial IA qui appelle, qualifie, relance sans code
+- **Temps dev** : 1 mois (sur OpenClaw existant) pour un vertical spécialisé
 
 ## 🏆 TOP APP #3 : Sesame AI
-
 ### 1. Identification
 - **URL** : [sesame.com](https://www.sesame.com)
-- **Launch** : iOS public — 28 mai 2026 (preview 2025)
-- **Fondateurs** : Brendan Iribe (ex-CEO Oculus), Ankit Kumar (ex-CTO Ubiquity6), Nate Mitchell (ex-CPO Oculus)
-- **Catégorie** : Consumer Voice AI / AI Companion
-- **Métriques** : 1M+ users premières semaines, 5M+ minutes de conversation, $250M levés (Sequoia + Spark Capital), valorisation >$1B
-- **Sources** : [TechCrunch](https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/) · [Aibase](https://www.aibase.com/news/22157)
+- **Launch** : Research Preview mars 2025 · iOS app 28 mai 2026 (39 pays)
+- **Fondateurs** : Brendan Iribe (Oculus co-founder/ex-CEO) + Nate Mitchell (Oculus co-founder/CPO) + Ankit Kumar (ex-CTO Ubiquity6)
+- **Catégorie** : Conversational AI Companions / Voice Agents
+- **Métriques buzz** : 1M+ users en research preview · $307M levés (Sequoia, Spark) · Couverture TechCrunch, The Verge, Wired
 
 ### 2. Proposition de valeur
-- **Problème** : les assistants vocaux IA (Siri, Alexa) sont froids, sans personnalité, sans mémoire
-- **Solution** : 4 compagnons IA avec personnalité distincte (Maya, Miles, Simone, Charlie), voix ultra-naturelle, mémoire longue
-- **USP** : CSM (Conversational Speech Model) propriétaire — emotion dans la voix, pauses naturelles, interruptions fluides
-- **Target** : grand public, utilisateurs daily AI, futurs porteurs de smart glasses
-- **Pricing** : gratuit au lancement (39 pays iOS)
+- **Problème** : Les IA actuelles sonnent comme des robots — pas d'émotion, pas de mémoire, pas de personnalité cohérente
+- **Solution** : Agents vocaux ultra-réalistes avec personnalité propre, mémoire cross-session, <300ms latence, inflexion émotionnelle
+- **USP** : CSM (Conversational Speech Model) entraîné sur 1M heures d'audio — le plus humain du marché
+- **Target** : Grand public (companionship), puis eyewear/hardware 2027
+- **Pricing** : Gratuit en preview · modèle freemium attendu
 
 ### 3. Stack technique
-- Frontend : iOS app native (Swift)
-- Backend : LLM propriétaire + CSM (Conversational Speech Model) maison
-- Infra : cloud scale (Sequoia-backed, $250M pour scaler)
-- APIs : RAG pour knowledge à jour, parallel search pendant la parole
+- **Modèle voix** : CSM propriétaire 1B-27B paramètres (Conversational Speech Model)
+- **STT** : Whisper + Deepgram (multi-modal)
+- **Latence** : <300ms first byte sur streaming
+- **Frontend** : App iOS native (39 pays), Android à venir
+- **Vision** : Intégration lunettes connectées 2027
 
 ### 4. Psychologie
-- **Aha moment** : première conversation — la voix *semble humaine*, avec hésitations et émotions réelles
-- **JTBD** : "Un compagnon intelligent disponible 24/7 qui me comprend vraiment"
-- **Triggers** : fondateurs iconiques d'Oculus (autorité massive), voix émotionnelle (différenciation viscérale), gratuit (zéro friction à l'essai)
-- **Rétention** : mémoire cross-session + personnalité = attachment émotionnel
+- **JTBD** : "Je veux une IA avec qui parler vraiment, pas un chatbot robotique"
+- **Aha moment** : Quand l'agent répond avec une vraie émotion — rire, curiosité, empathie
+- **Triggers** : Fondateurs crédibles (Oculus = Meta acquisition $2B), 1M users = social proof massif, FOMO premium (accès preview)
+- **Personas** : Maya, Miles, Simone, Charlie — différenciation par personnalité
 
-### 5. Go-to-Market
-- **Canaux** : médias tech (TechCrunch), réseaux sociaux (démos virales de la voix), App Store
-- **Launch** : 39 pays simultanément, gratuit = FOMO + adoption massive immédiate
-- **Viral loop** : partage de clips audio "écoute comme l'IA réagit" = demo naturelle
-- **Vision hardware** : smart glasses = plateforme long terme (vision Meta Ray-Ban mais AI-first)
+### 5. Go-to-market
+- **Canal principal** : PR/media (TechCrunch, Wired), YouTube demos virales, influenceurs tech
+- **Launch** : Research preview Mars 2025 → buzz organic → iOS Mai 2026
+- **Viral loop** : Clips voice demos partagés sur TikTok/X → curiosité → téléchargement
+- **Futur** : Eyewear 2027 = hardware lock-in comme AirPods
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 9/10 (modèle speech propriétaire = R&D lourde)
-- **Angle Kyle** : NON à la réplication directe. En revanche : intégrer CSM/Sesame API (si publique) dans produit B2B existant pour voice UX différenciant
-- **Verticaux adjacents** : compagnon IA pour personnes âgées, coach IA vocal, tuteur vocal enfants
-- **Temps dev clone** : 12+ mois, $5M+ — trop lourd. Watcher/partenaire plutôt que builder
+- **Complexité** : 8/10 — modèle vocal propriétaire difficile à répliquer, mais la couche applicative est accessible via ElevenLabs/Vapi
+- **Verticaux adjacents** : Companion IA pour seniors, coach mental vocal, tuteur vocal enfants
+- **Angle Kyle** : Vertical B2B — agent voice companion pour support SaaS (onboarding vocal, support émotionnel client) via API ElevenLabs + Vapi
+- **Temps dev** : 3-4 mois sur APIs existantes pour un vertical spécialisé
 
 ## 💰 Unit Economics Deep Dive — Wispr Flow
+> Sources : TechCrunch, Tracxn, interviews fondateurs, estimations marché
 
-| Métrique | Estimation | Source / Méthode |
+| Métrique | Estimation | Hypothèse |
 |---|---|---|
-| **ARR** | ~$20-25M | Rev $3.8M juil24-juil25 × croissance 40%/mois × 12 |
-| **ARPU** | ~$144/an | Pricing annuel Pro ($144) — taux paiement 19% |
-| **Utilisateurs payants** | ~140-175K | ARR / ARPU |
-| **Total utilisateurs** | ~750K-920K | payants / taux conversion 19% |
-| **CAC** | ~$5-15 | Viral word-of-mouth dominant, quasi-zero paid |
-| **LTV** | ~$288-432 | ARPU × durée moy 2-3 ans (retention 80% à 6 mois) |
-| **LTV/CAC** | ~30-50x | Exceptionnel — best-in-class SaaS |
-| **Payback period** | <1 mois | LTV/CAC élevé + virabilité |
-| **Burn** | Minimal | $25M levés nov 2025, croissance organique forte |
-| **Runway** | 18-24 mois | Avant tour $260M (en négociation) |
-| **Rev/Employee** | ~$500K-800K | Équipe estimée 25-40 personnes |
-| **Rule of 40** | ~120%+ | Growth 40%/mois = ~480% annualisé + marges SaaS |
+| **Users totaux** | 2,5M downloads | Confirmé public |
+| **Users payants (Pro)** | ~125K | Conversion 5% freemium typique SaaS consumer |
+| **ARPU mensuel** | ~$13 | Mix $15 mensuel / $12 annuel |
+| **ARR estimé** | ~$19M ARR | 125K × $13 × 12 |
+| **Croissance MoM** | 40% | Confirmé public |
+| **CAC** | ~$8-15 | PLG + word-of-mouth dominant |
+| **LTV** | ~$156 | 12 mois retention × $13 (SaaS consumer churn ~8%/mois) |
+| **LTV/CAC** | ~12-19x | Très sain pour consumer SaaS |
+| **Payback Period** | <2 mois | CAC faible, ARPU immédiat |
+| **Burn estimé** | $3-5M/mois | 81M levés, team ~50-80 personnes |
+| **Runway** | 18-24 mois | Avant prochain tour ($260M en négociation) |
+| **Rev/Employee** | ~$238K | ~80 employés, $19M ARR |
+| **Rule of 40** | ~120+ | 40% growth MoM + margins SaaS |
 
-**Verdict santé : 🟢 EXCEPTIONNEL**
-Wispr Flow présente un profil rare : croissance explosive + rétention structurelle forte + capital efficiency élevée. Le tour $260M à $2B valorisation confirme que les institutionnels valident le modèle. Le seul risque : Apple/Microsoft qui pourraient intégrer une feature native dans l'OS.
-
-*Sources : [Tracxn](https://tracxn.com/d/companies/wispr-flow/) · [TechCrunch](https://techcrunch.com/2025/11/20/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-12/) · [ProductGrowth](https://www.productgrowth.blog/p/wispr-flow-growth-teardown)*
+**Verdict santé : 🟢 EXCELLENT**
+- Croissance explosive (40% MoM), CAC très faible (PLG), LTV/CAC sain >10x
+- La négociation $260M à $2B valuation confirme la confiance des investisseurs
+- Risque : dépendance modèles tiers (OpenAI/Anthropic), compétition Apple Dictation native
 
 ## 🎯 Opportunity Scorecard — Top 3
-
-| Dimension (Poids) | Wispr Flow | Retell AI | Sesame AI |
+| Dimension (poids) | Wispr Flow | OpenClaw | Sesame AI |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — marché global knowledge workers | 9 — call centers = $400B global | 8 — AI companion = marché naissant massive |
-| ⚙️ Complexité inversée (15%) | 5 — ML latence critique | 6 — APIs matures, infra voice complexe | 2 — CSM propriétaire, R&D lourde |
-| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois MVP vertical | 8 — 6-8 semaines sur Vapi/Retell | 2 — 12+ mois pour approcher |
-| 🏟️ Compétition inversée (15%) | 6 — quelques concurrents (Superwhisper, Otter) | 7 — Vapi seul concurrent sérieux EU | 4 — OpenAI Advanced Voice, Hume AI en face |
-| 💰 Revenue Potential (20%) | 8 — $100K+ MRR vertical B2B réalisable | 9 — revenus usage = scalable naturellement | 5 — freemium consumer = monétisation incertaine |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — expert voice AI + SaaS + réseau | 9 — cœur de métier, réseau direct | 5 — consumer/hardware hors core |
+| 📊 Market Size (20%) | 9 — $22B voice AI | 8 — $50B+ AI agent | 8 — $22B voice AI |
+| ⚙️ Complexité inversée (15%) | 6 — STT+LLM+OS intégration | 7 — fork open source | 4 — modèle proprio difficile |
+| ⏱️ Time-to-Market (15%) | 5 — 6 mois MVP réaliste | 8 — 1 mois sur OpenClaw | 4 — 4+ mois minimum |
+| 🏟️ Compétition inversée (15%) | 6 — Superwhisper, Apple Dictation | 7 — few verticals done | 5 — ElevenLabs, Hume AI |
+| 💰 Revenue Potential (20%) | 8 — PLG + Enterprise | 7 — Cloud + vertical SaaS | 6 — freemium + future HW |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — Voice AI expertise direct | 8 — tech + maker fit | 7 — voice AI, B2B moins clair |
 
-| App | **Score Pondéré** | Verdict |
-|---|---|---|
-| **Wispr Flow** | **(9×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(8×0.20)+(9×0.15) = 7.35** | 🟡 BUILD ADJACENT |
-| **Retell AI** | **(9×0.20)+(6×0.15)+(8×0.15)+(7×0.15)+(9×0.20)+(9×0.15) = 7.95** | 🟢 BUILD NOW |
-| **Sesame AI** | **(8×0.20)+(2×0.15)+(2×0.15)+(4×0.15)+(5×0.20)+(5×0.15) = 4.75** | 🟠 WATCH |
+**Score pondéré :**
+- **Wispr Flow vertical** : `(9×0.20)+(6×0.15)+(5×0.15)+(6×0.15)+(8×0.20)+(9×0.15)` = **7.45 🟡 BUILD ADJACENT**
+- **OpenClaw vertical voice** : `(8×0.20)+(7×0.15)+(8×0.15)+(7×0.15)+(7×0.20)+(8×0.15)` = **7.55 🟢 BUILD NOW**
+- **Sesame AI vertical B2B** : `(8×0.20)+(4×0.15)+(4×0.15)+(5×0.15)+(6×0.20)+(7×0.15)` = **5.90 🟠 WATCH**
 
-**🥇 Retell AI** : le vertical EU/FR RGPD-compliant manque dans l'écosystème. Kyle peut builder une plateforme voice agent spécialisée France/EU avec hosting local + compliance native = différenciation immédiate vs Retell US.
-
-**🥈 Wispr Flow** : angle "dictée vocale verticalisée B2B" (médical, juridique, commercial) = build adjacent, pas clone frontal. MVP réalisable en 8-10 semaines.
+> **Recommandation pour Kyle** : Construire un agent voice vertical sur OpenClaw (layer app) ou forker le concept Wispr Flow vers un vertical B2B francophone (Voice-to-CRM, Voice-to-Ticket).
 
 ## 📈 Tendances Émergentes
+1. **Voice OS comme plateforme** — Wispr Flow et ses rivaux ne se définissent plus comme des apps de dictée mais comme un OS vocal. La voix devient la nouvelle interface universelle qui s'injecte dans toutes les apps existantes.
 
-**1. La voix remplace le clavier (horizontale)**
-Wispr Flow à $2B de valorisation pour une app de dictée est le signal le plus fort de la semaine. La voix devient interface universelle — pas juste pour les assistants, mais pour TOUTES les apps. La prochaine vague : dictée contextuelle + actions (dicter "envoie un email à Pierre avec ce résumé" → action directe).
+2. **Local-first + privacy** — OpenClaw et ses 350K stars illustrent une demande massive pour des agents IA sans cloud obligatoire. Régulation GDPR + sentiment anti-Big Tech alimente ce segment.
 
-**2. Voice B2B agents : marché en consolidation rapide**
-Retell AI $60M ARR avec 25 personnes montre que le modèle usage-based ($/minute) est le winner. Les plateformes génériques (Vapi, Retell) vont dominer le horizontal. La fenêtre pour les verticaux spécialisés se ferme dans 12-18 mois.
+3. **Open source → Cloud upsell** — Le playbook Hashicorp/GitLab appliqué aux agents IA : gratuit en self-hosted, monétisation via cloud managed. OpenClaw Cloud à $49/mois illustre la conversion.
 
-**3. Capital efficiency comme signal de product-market-fit**
-2026 voit des ratios rares : Retell AI $60M ARR / $4.6M levés = 13x ARR/capital. Wispr Flow retention 80% à 6 mois. Ce sont les signaux que cherchent les VCs — les fondateurs solo qui shipent vite et restent lean captent l'attention.
+4. **Voice agents avec personnalité** — Sesame AI prouve que les utilisateurs veulent de l'émotion, pas juste de la performance. Le "uncanny valley" de la voix AI est franchi — les prochains agents seront indiscernables.
 
-**4. Consumer AI companion : le marché existe mais monétisation floue**
-Sesame AI 1M users en quelques semaines avec un produit gratuit = adoption réelle. Mais la conversion en revenus reste inconnue. Le risque OpenAI (Advanced Voice Mode) et Hume AI pèse fort.
+5. **PLG → Enterprise B2B** — Wispr Flow scale en enterprise via PLG (1 employé → équipe → Fortune 500). Pattern réplicable dans tous les verticaux B2B.
 
-**5. Distribution > Building**
-Le nombre d'apps indiehackers a triplé depuis 2020. La contrainte est la distribution, pas le code. Les apps qui explosent ont toutes un mécanisme de visibilité naturelle (dictée visible par les collègues pour Wispr, 55M appels tracés pour Retell, voix émotionnelle partageable pour Sesame).
+6. **Agents mobiles** — OpenClaw iOS/Android (30 juin 2026) marque un tournant : les agents quittent le desktop pour le smartphone. Interface vocale mobile = next frontier.
 
 ## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions immédiates
 
-**Pour Kyle — Actions immédiates :**
+**1. BUILD NOW : Voice-to-CRM Agent (OpenClaw vertical)**
+- Construire sur OpenClaw : agent qui écoute les appels commerciaux (via Vapi), extrait les données CRM, crée/met à jour les fiches Salesforce/HubSpot automatiquement
+- Marché : 4M+ commerciaux en France + DACH + Benelux, peu de solutions vocales natives francophones
+- Stack : OpenClaw + Vapi + ElevenLabs + Whisper + intégration CRM
+- Pricing suggéré : $49-99/mois par commercial · CAC cible <$200 · LTV >$600
+- Temps : 1 mois pour POC, 3 mois pour V1
 
-**① Vertical Voice Agent EU/FR (Retell clone adapté) → BUILD NOW**
-Le gap évident : aucun concurrent EU sérieux avec hosting RGPD-natif. Retell AI est US-only. Construire une plateforme voice agent orientée compliance EU (médical, assurance, banque) avec hébergement France = positioning immédiat. Stack : Vapi ou Retell comme base + layer compliance + sales EU. CAC faible car Kyle a déjà le réseau. Temps MVP : 6-8 semaines.
+**2. BUILD ADJACENT : Wispr Flow vertical francophone B2B**
+- Clone Wispr Flow avec focus France/Europe + intégration apps entreprises locales (Notion, Linear, Jira en français)
+- Différenciation : modèles French-first (Mistral-powered cleanup), GDPR-native, support en français
+- Le marché EU est sous-servi — Wispr est en anglais dominant (60% non-anglais mais focus US)
+- Timing : partir maintenant = 12 mois d'avance sur copycats locaux
 
-**② Dictée vocale verticale santé/juridique → BUILD ADJACENT**
-Wispr Flow prouve la demande (40% MoM). Mais la verticale santé (ordonnances, comptes-rendus médecins) et juridique (minutes de réunion, contrats) ont des besoins spécifiques (vocabulaire métier, confidentialité RGPD, formats structurés). Wispr Flow n'y va pas car trop niche. Kyle peut builder en 8-10 semaines un MVP focus médecins français avec terminologie médicale fine-tunée. Pricing possible : $99-199/mois/praticien.
+**3. WATCH : Sesame API pour onboarding vocal SaaS**
+- Quand l'API Sesame sera publique, l'utiliser pour construire un agent onboarding vocal pour les SaaS — remplace les tours guidés ennuyeux par une conversation vocale
+- Pas urgent — surveiller Q3 2026
 
-**③ Surveiller Sesame AI API (signal faible)**
-Si Sesame ouvre une API voix (probable dans 6-12 mois vu $250M de cash), c'est la base pour upgrader n'importe quel produit voice AI existant avec une UX émotionnelle différenciante. Mettre une alerte et être dans les premiers à builder dessus.
+### 📌 Signal faible à monitorer
+- **nanochat** (55K stars GitHub) : nano-framework chat IA, potentiel de verticalisation rapide
+- **Flux** (agents iMessage) : si Apple ouvre les APIs Messages — opportunité colossale
+- **Sesame API** : dès ouverture, potentiel énorme pour voice companions B2B
 
-**④ Pricing à retenir**
-Le marché valide : $15/mois B2C (Wispr), $0.07-0.31/min usage-based B2B (Retell), $99-499/mois verticale premium. Ne pas underprimer. Le voice AI est perçu comme high-value — commencer à $99+/mois.
-
-**⑤ Signal indiehacker : distribution d'abord**
-Avant de coder, identifier le canal qui crée de la visibilité naturelle (comme les collègues qui voient dicter pour Wispr). Pour un product voice agent EU : partenariats avec intégrateurs Salesforce/HubSpot FR, association loi 1901 des DSI français = distribution gratuite.
+---
+*Sources principales : [TechCrunch Sesame](https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/) · [TechCrunch Vapi](https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/) · [Wispr $25M](https://techcrunch.com/2025/11/20/as-its-voice-dectation-app-takes-off-wispr-secures-25m-from-notable-capital/) · [Wispr Android](https://techcrunch.com/2026/02/23/wispr-flow-launches-an-android-app-for-ai-powered-dictation/) · [OpenClaw KDnuggets](https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026) · [Wispr $2B](https://ai2.work/blog/wispr-ai-targets-2-billion-valuation-as-voice-dictation-takes-off)*
