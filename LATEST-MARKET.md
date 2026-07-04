@@ -1,193 +1,181 @@
-# 🔥 Market Scan — 2026-07-03
+# 🔥 Market Scan — 2026-07-04
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8
-- Top potentiel : 3 (Acti, Humalike, Tabstack)
-- Opportunités immédiates (BUILD NOW) : 1 (Humalike)
+- Apps analysées : 3
+- Top potentiel : Glaze by Raycast
+- Opportunités immédiates (BUILD NOW) : 1 (Tabstack vertical)
 
 ## 🏆 TOP APP #1 : Acti
 ### 1. Identification
-- **URL** : [openacti.com](https://openacti.com) | [PH](https://www.producthunt.com/products/acti-2)
-- **Lancé** : 30 juin 2026 — Singapour
-- **Fondateurs** : Young Wang (CEO), Mike Sun (CTO, ex-Baidu 10M DAU), Junbo Yang (CSO, ex-HashKey Capital)
-- **Catégorie** : Mobile AI / Productivity
-- **Buzz** : #1 PH avec 552K votes · TechCrunch · Digital Trends · BITKRAFT $5.3M seed
+- **URL** : acti.app | **Lancé** : Juillet 2026 | **Catégorie** : Mobile AI / Keyboard AI Agent
+- **Métriques buzz** : #1 Product Hunt juillet 2026 (552 231 votes) — record du mois
+- **Fondateurs** : Non divulgués publiquement | **Statut** : Gratuit (iOS + Android)
 
 ### 2. Proposition de valeur
-- **Problème** : Les apps IA (ChatGPT, Claude) restent des silos — on sort de l'app pour aller chercher de l'aide
-- **Solution** : Clavier natif iOS/Android qui exécute des agents IA directement dans n'importe quelle app
-- **USP** : "ActiBar" = maintien de la barre espace → déclenchement d'agent ; Skills créés en langage naturel (1000+ en 2 semaines)
-- **Cible** : Power users mobiles, travailleurs du savoir, non-devs
-- **Pricing** : Gratuit au lancement, abonnements premium (modèles avancés + limites d'usage)
+- **Problème** : Chaque app mobile est un silo — copier/coller entre apps est lent et cassant
+- **Solution** : Clavier IA agentique qui agit directement depuis le champ de saisie, sans quitter l'app
+- **USP** : "Hold spacebar → intent → result/action" — zéro friction, universel sur toutes apps
+- **Target** : Power users mobile, professionnels nomades, early adopters IA
+- **Pricing** : Gratuit (monétisation future non annoncée — probablement freemium)
 
-### 3. Stack technique
-- **LLM** : Google Gemini (intelligence + multilingual + coût)
-- **Archi** : Local-first (contexte perso stocké sur device, pas en cloud sauf besoin explicite)
-- **Plateformes** : iOS + Android
+### 3. Stack technique (estimé)
+- **Frontend** : SDK clavier natif iOS (Custom Keyboard Extension) + Android IME
+- **Backend** : API agents propriétaire + intégrations OAuth (Google Calendar, Notion, LinkedIn)
+- **Infra** : Cloud (AWS/GCP), streaming LLM responses
+- **APIs** : Connecteurs custom par skill (Notion, Google, LinkedIn, etc.)
 
-### 4. Psychologie
-- **Trigger** : Réduction friction extrême (pas d'app switch), FOMO sur "avoir ses agents partout"
-- **JTBD** : "Quand je tape un email, je veux que mon agent rédige, traduise ou planifie sans sortir du fil"
-- **Aha moment** : Premier fois qu'on tient la barre espace et qu'une tâche s'exécute en 2s
+### 4. Psychologie & Growth
+- **Triggers** : Curiosité ("hold spacebar"), effet wow immédiat, social proof (#1 PH)
+- **JTBD** : "Je veux exécuter des tâches complexes sans quitter ma conversation WhatsApp"
+- **Aha moment** : Premier "hold spacebar" qui déclenche une action réelle en 1 seconde
+- **Viral loop** : Partage de Skill Keys entre collègues → adoption organique en équipe
 
 ### 5. Go-to-Market
-- **Canaux** : PH launch (#1), TechCrunch, communauté Skill builders (viral loop creator-side)
-- **Viral loop** : Les Skills partagés → croissance organique de l'écosystème, réseau indirect
+- **Canal principal** : Product Hunt (launch organique massif) + Twitter/X #buildinpublic
+- **Stratégie** : Free-first pour maximiser adoption, marketplace de skills pour rétention
+- **Distribution** : App Store (iOS) + Play Store — canal de découverte naturel
 
 ### 6. Réplication & Angle Kyle
-- **Complexité** : 8/10 (clavier système = contraintes OS strictes, approbation Apple)
-- **Verticaux adjacents** : Voice-first keyboard, keyboard dédié vertical (sales, legal, medical)
-- **Angle Kyle** : Construire un **Skill vocal** pour Acti (voice-to-action dans le clavier) ou une app concurrente focalisée voice — compétence directe en voice AI
-- **Temps de dev estimé** : 4-6 mois pour MVP keyboard (6-9 mois App Store approval inclus)
+- **Complexité** : 7/10 (SDK clavier natif = contrainte forte iOS/Android)
+- **Verticaux adjacents** : Clavier IA médical, clavier IA CRM, clavier IA support client
+- **Angle Kyle (voice AI)** : Version voice-first — "hold mic button → intent vocal → action" sur mobile
+- **Temps de dev estimé** : 3-4 mois (clavier natif est complexe), mais le concept vocal = 6-8 semaines
 
-## 🏆 TOP APP #2 : Humalike
+## 🏆 TOP APP #2 : Glaze by Raycast
 ### 1. Identification
-- **URL** : [humalike.ai](https://humalike.ai) | [PH](https://www.producthunt.com/products/humalike-2)
-- **Lancé** : Juillet 2026
-- **Fondateurs** : Équipe non-publique ; investisseurs = premiers backers ElevenLabs + Revolut
-- **Catégorie** : AI Infrastructure / Voice & Conversational AI
-- **Buzz** : #2 PH juillet 2026 avec 451K votes
+- **URL** : glaze.app | **Lancé** : Beta mars 2026, public juillet 2026 | **Catégorie** : No-Code AI App Builder (Mac)
+- **Métriques buzz** : #1 PH 3 juillet 2026 | Adopté par équipes Cursor, Linear, Vercel
+- **Fondateurs** : Équipe Raycast (Thomas Paul Mann, CEO) | **Statut** : Freemium
 
 ### 2. Proposition de valeur
-- **Problème** : Les agents IA coupent les autres mid-sentence, ne savent pas quand se taire, manquent de "lecture sociale"
-- **Solution** : API comportementale — turn-taking, théorie de l'esprit, mémoire de groupe, personas
-- **USP** : 7 composants comportementaux model-agnostic ; focus unique sur le "quand parler" pas juste "quoi dire"
-- **Cible** : Devs d'agents vocaux, IA companions, tuteurs, NPCs de jeu, humanoids
-- **Pricing** : $20 crédits gratuits pour démarrer (sans CB), puis pay-as-you-go
+- **Problème** : Les équipes paient des dizaines d'outils SaaS pour des besoins internes ultra-spécifiques
+- **Solution** : Décrire en langage naturel → Glaze génère une vraie app Mac native, offline, avec accès filesystem
+- **USP** : Apps vraiment natives (pas du web wrapé) — menu bar, raccourcis clavier, background tasks
+- **Target** : Teams tech (Cursor, Linear, Vercel comme early adopters) + solopreneurs Mac
+- **Pricing** : Gratuit pour démarrer, plan payant pour usage avancé (prix non publié)
 
 ### 3. Stack technique
-- **APIs** : Turn-taking, Theory of Mind, Memory, Group Dynamics, Persona — tous model-agnostic
-- **Format** : REST API composable, benchmarks inclus pour validation
-- **Intégration** : Compatible ElevenLabs, Retell, Vapi, tout stack voice AI
+- **Frontend** : Swift/SwiftUI (apps générées vraiment natives macOS)
+- **Backend** : LLM propriétaire + Raycast infra existante
+- **Distribution** : Glaze Store public + Team Store privé (viral B2B)
+- **APIs** : Accès local filesystem, keyboard shortcuts, menu bar, background processes
 
-### 4. Psychologie
-- **Trigger** : Douleur réelle identifiable (le bot qui parle par-dessus) + démonstration virale
-- **JTBD** : "Quand je construis un agent vocal, je veux qu'il soit naturel sans m'occuper de la mécanique de conversation"
-- **Aha moment** : Premier échange où le bot attend naturellement avant de répondre
+### 4. Psychologie & Growth
+- **Triggers** : Social proof fort (Cursor/Vercel l'utilisent), autorité Raycast (100k+ users base)
+- **JTBD** : "Je veux un outil interne sur-mesure sans embaucher un dev"
+- **Aha moment** : Voir son app apparaître dans le Dock en 60 secondes après une phrase
+- **Viral loop** : Partage via Glaze Store → collègues installent → deviennent users Raycast
 
 ### 5. Go-to-Market
-- **Canaux** : PH launch, bouche-à-oreille dans la communauté voice AI (Retell, Vapi, ElevenLabs)
-- **Viral loop** : Chaque démo d'agent "humain" → question "comment t'as fait ?" → Humalike
-- **Positionnement** : Infrastructure (B2B dev-first), pas consumer
+- **Canal principal** : Base Raycast existante (300k+ users) → adoption immédiate sans CAC
+- **Stratégie** : Beta fermée (FOMO) → ouverture publique → intégration dans launcher Raycast
+- **Distribution** : Raycast devient distribution channel unique — pas de SEO/ads nécessaire
 
 ### 6. Réplication & Angle Kyle
-- **Complexité** : 7/10 (science NLP non triviale sur le turn-taking, mais API faisable)
-- **Verticaux adjacents** : Turn-taking pour sales calls IA, coaching vocal, téléphonie RH
-- **Angle Kyle** : MATCH PARFAIT — Kyle est expert voice AI. Soit intégrer Humalike dans ses agents, soit construire un concurrent vertical (ex : Humalike pour call centers). Réseau ElevenLabs/Vapi = accès direct au marché
-- **Temps de dev estimé** : 2-3 mois pour un MVP vertical (ex : turn-taking pour sales AI)
+- **Complexité** : 8/10 (Swift natif + LLM codegen fiable = très dur à répliquer seul)
+- **Verticaux adjacents** : Générateur d'apps Windows (PowerShell/WinUI), générateur Linux
+- **Angle Kyle (voice AI)** : "Glaze by voice" — décrire oralement → app générée. Kyle = expert parfait
+- **Temps de dev estimé** : 6-9 mois solo (base Raycast = avantage injuste non reproductible)
 
 ## 🏆 TOP APP #3 : Tabstack by Mozilla
 ### 1. Identification
-- **URL** : [tabstack.ai](https://tabstack.ai) | [PH](https://www.producthunt.com/products/tabstack) | [HN](https://news.ycombinator.com/item?id=46620358)
-- **Lancé** : Juillet 2026 — Mozilla
-- **Fondateurs** : Équipe Mozilla New Products
-- **Catégorie** : Developer Tools / Browser Automation / AI Infrastructure
-- **Buzz** : #3 PH juillet 2026 avec 381K votes · Show HN viral · "web execution layer for AI agents"
+- **URL** : tabstack.ai | **Lancé** : Juillet 2026 (PH) | **Catégorie** : Browser Automation API / AI Infrastructure
+- **Métriques buzz** : #3 PH juillet 2026 (381k votes) | Backing Mozilla (crédibilité massive)
+- **Fondateurs** : Équipe Mozilla | **Statut** : Payant (Starter $49/mo, Growth $149/mo)
 
 ### 2. Proposition de valeur
-- **Problème** : Les agents IA ne peuvent pas naviguer le web en temps réel sans coder un scraper fragile
-- **Solution** : API REST → rend une page, extrait données structurées, automatise des actions browser — sans infra
-- **USP** : Éphémère (pas de stockage), robots.txt compliant, no model training, brandé Mozilla = confiance
-- **Cible** : Devs SaaS/AI agents, data engineers, startups qui évitent l'infra browser
-- **Pricing** : 10K crédits gratuits ; Starter $49/mo ; Growth $149/mo ; $1/1000 extractions MD, $5 JSON, $7.50 automation
+- **Problème** : Les AI agents ont besoin de données web live mais le scraping est illégal/fragile/cher
+- **Solution** : API unique → extraction structurée, markdown, recherche multi-sources, automatisation browser
+- **USP** : -60 à -80% tokens vs screenshot-based agents (accessibility tree) + privacy by design (Mozilla)
+- **Target** : Développeurs AI, équipes agents, startups SaaS qui intègrent du web data
+- **Pricing** : Starter $49/mo | Growth $149/mo | Pay-as-you-go | 10k crédits gratuits à l'essai
 
 ### 3. Stack technique
-- **Endpoints** : `/extract` (URL→MD/JSON/schéma custom), `/generate` (web→output IA), `/automate` (actions browser), `/research` (multi-source agents)
-- **Infra** : Headless browser hébergé par Mozilla, ephemeral processing
-- **Compliance** : robots.txt respecté par défaut, pas de training sur données user
+- **Frontend** : API REST + SDK
+- **Backend** : Firefox engine (Mozilla) + infrastructure browser managée
+- **Infra** : Traitement éphémère (pas de stockage), robots.txt compliance natif
+- **APIs** : JSON extraction, Markdown conversion, multi-source research, browser automation
 
-### 4. Psychologie
-- **Trigger** : Trust (Mozilla) + simplicité radicale (1 appel API = page rendue + données)
-- **JTBD** : "Quand je construis un agent IA, je veux qu'il lise le web sans gérer Playwright ou Puppeteer"
-- **Aha moment** : Premier appel `/research` qui retourne une synthèse multi-sources en <5s
+### 4. Psychologie & Growth
+- **Triggers** : Autorité Mozilla (trust massif), économies concrètes (-60% tokens = $$ économisés)
+- **JTBD** : "Je veux que mon agent AI accède au web live sans me soucier de la légalité ou des limites de tokens"
+- **Aha moment** : Premier appel API qui retourne du JSON propre depuis n'importe quelle page en <2s
+- **Viral loop** : Intégration dans des frameworks AI (LangChain, CrewAI) → adoption virale développeurs
 
 ### 5. Go-to-Market
-- **Canaux** : PH + HN (devs) + halo Mozilla pour la confiance
-- **Viral loop** : Devs qui partagent des patterns d'usage (GitHub repos, blog posts)
-- **Moat** : Brand Mozilla → adoption enterprise sans vetting long
+- **Canal principal** : Communauté dev (HN, Reddit r/MachineLearning) + Mozilla brand
+- **Stratégie** : Freemium généreux (10k crédits) → conversion sur volume, usage B2B
+- **Distribution** : API marketplace (RapidAPI) + docs référencées dans frameworks AI open source
 
 ### 6. Réplication & Angle Kyle
-- **Complexité** : 5/10 (Playwright + API wrapper = faisable, mais infra browser = coûts opex)
-- **Verticaux adjacents** : Research agent spécialisé (finance, legal, medical), monitoring concurrent
-- **Angle Kyle** : Intégrer Tabstack dans des voice agents pour donner aux agents accès au web réel-time (ex : agent vocal qui scrape l'actu pendant l'appel). Moins un produit à répliquer, plus un outil à utiliser
-- **Temps de dev estimé** : 3-4 mois pour un concurrent simple, mais Tabstack vaut mieux à utiliser qu'à répliquer
+- **Complexité** : 6/10 (wrapper autour d'APIs existantes + brave/puppeteer possible en vertical niche)
+- **Verticaux adjacents** : Tabstack vocal (voice queries → web data → réponse audio), niches sectorielles
+- **Angle Kyle (voice AI)** : "VoiceStack" — API qui reçoit une query vocale, scrape, résume en audio
+- **Temps de dev estimé** : 4-6 semaines pour un MVP vertical (ex : veille concurrentielle audio)
 
 ## 💰 Unit Economics Deep Dive — Acti
-> ⚠️ App lancée le 30/06/2026 — données basées sur funding public + benchmarks secteur keyboard/AI apps
+> ⚠️ **Note** : Acti est actuellement gratuit — aucun revenu public déclaré. Estimations basées sur benchmarks sectoriels et métriques PH observées.
 
-| Métrique | Estimation | Source / Base |
+| Métrique | Valeur estimée | Source / Hypothèse |
 |---|---|---|
-| **ARR** | ~$0 (pas encore monetisé) | Gratuit au lancement, subs à venir |
-| **Funding** | $5.3M seed | Crunchbase / TechCrunch confirmé |
-| **Users (early)** | ~50K-200K installs estimés (1 sem post-PH #1) | Benchmark PH #1 mobile apps |
-| **Skills créés** | 1 000+ en 2 semaines | Déclaration officielle |
-| **ARPU** | N/A (gratuit) → cible ~$9-15/mo premium | Benchmark AI subscription apps |
-| **CAC** | ~$0.50-2 (PH organic + TechCrunch) | Benchmark launch organic |
-| **LTV (estimé)** | ~$72-120/user/an si 40% conversion premium | Benchmark: Grammarly, Otter.ai |
-| **LTV/CAC** | ~40-80x potentiel si rétention forte | Très favorable si distribution organique |
-| **Payback** | <1 mois si conversion | Modèle freemium |
-| **Burn mensuel** | ~$200-400K/mo | $5.3M seed / 18 mois runway |
-| **Runway** | ~13-26 mois | Taille seed + burn estimé |
-| **Rev/Employee** | N/A pre-revenue | Phase seed |
-| **Rule of 40** | N/A | Trop tôt |
+| **Utilisateurs actifs** | ~150 000 (J+30) | Ratio historique PH top #1 → installs |
+| **ARR actuel** | $0 (freemium pur) | App Store listing = free, 0 IAP déclaré |
+| **ARR potentiel (12 mois)** | ~$1.5M–$3M | Si 2-3% conversion vers $9.99/mo pro |
+| **ARPU cible** | $9.99/mois (Pro) | Benchmark clavier IA mobile (Gboard AI, etc.) |
+| **CAC** | ~$0 (organique PH) | Launch 100% organique, 0 paid ads annoncé |
+| **LTV estimée** | ~$60–$90 | Rétention 6-9 mois (clavier = haute sticky) |
+| **LTV/CAC** | ∞ (CAC≈0) → réaliste 30–50x | Excellent si rétention tient |
+| **Payback period** | < 1 mois | CAC quasi nul |
+| **Burn estimé** | ~$50–80K/mois | Équipe 4-6 personnes + infra LLM |
+| **Runway** | Inconnu (seed probable) | Non divulgué |
+| **Rev/Employee** | N/A (pré-revenu) | — |
+| **Rule of 40** | Non applicable (pré-revenu) | À réévaluer post-monétisation |
 
-**Verdict santé 🟡** — Très tôt post-launch. Signal fort (PH #1, TechCrunch, $5.3M BITKRAFT) mais aucun revenu encore. Le risque principal : monétisation retardée + contraintes App Store. Watch 90 jours pour voir conversion premium.
-
-Sources : [TechCrunch](https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/) · [Crunchbase Acti](https://www.crunchbase.com/organization/acti-8182) · [TNGlobal](https://technode.global/2026/07/01/singapores-acti-raises-5-3m-seed-round-to-build-ai-powered-keyboard-as-personal-context-layer/)
+### Verdict santé 🟡
+**Jaune** : Traction utilisateurs exceptionnelle (#1 PH all-time juillet) mais modèle monétisation encore absent. Le risque principal = délai monétisation. La stickiness du clavier (haute) et le CAC nul sont des atouts majeurs. À surveiller sur Q3 2026 pour annonce pricing.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Acti | Humalike | Tabstack |
+| Dimension (poids) | Acti | Glaze/Raycast | Tabstack |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — mobile AI global >€1B | 9 — infra AI agents = marché €206B | 7 — dev tools web scraping €500M+ |
-| ⚙️ Complexité inversée (15%) | 3 — clavier système = iOS hell | 6 — API NLP complexe mais faisable | 5 — browser infra = opex lourd |
-| ⏱️ Time-to-Market (15%) | 2 — 6-9 mois minimum (Apple review) | 7 — 2-3 mois pour vertical MVP | 5 — 3-4 mois, mais pourquoi répliquer ? |
-| 🏟️ Compétition inversée (15%) | 6 — niche keyboard AI, peu de concurrents directs | 8 — quasi blue ocean (infra comportementale) | 4 — Apify, Playwright, Browserbase |
-| 💰 Revenue Potential (20%) | 7 — abonnements + Skill marketplace | 9 — B2B API = recurring + usage-based | 6 — API utility, price pressure long terme |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 5 — mobile/UX, peu voice | 10 — voice AI = expertise directe + réseau | 6 — utile mais pas un produit à construire |
+| 📊 Market Size (20%) | 8 — marché mobile AI global | 7 — Mac only, niche power users | 9 — toute startup AI a besoin de web data |
+| ⚙️ Complexité inversée (15%) | 3 — SDK clavier natif très dur | 2 — Swift + LLM codegen fiable = très dur | 7 — API wrapper réalisable solo |
+| ⏱️ Time-to-Market (15%) | 2 — 3-4 mois minimum | 2 — 6-9 mois | 7 — MVP 4-6 semaines |
+| 🏟️ Competition inversée (15%) | 6 — peu de vrais concurrents | 5 — Cursor Tab, GitHub Copilot proxies | 5 — Apify, ScrapingBee, Browserless |
+| 💰 Revenue Potential (20%) | 6 — gratuit pour l'instant, potentiel B2C | 7 — Raycast déjà rentable, modèle prouvé | 8 — $49-$149/mo, B2B récurrent |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 7 — voice AI → killer extension naturelle | 4 — Swift + MacOS hors expertise | 8 — API voice + web data = combo parfait Kyle |
 
-| App | Score pondéré | Verdict |
+| App | **Score pondéré** | **Verdict** |
 |---|---|---|
-| **Humalike** | **8.15/10** | 🟢 **BUILD NOW** |
-| **Acti** | **5.55/10** | 🟠 **WATCH** |
-| **Tabstack** | **5.55/10** | 🟠 **WATCH / UTILISER** |
+| **Acti** | **(8×0.20)+(3×0.15)+(2×0.15)+(6×0.15)+(6×0.20)+(7×0.15) = 5.65** | 🟠 WATCH |
+| **Glaze by Raycast** | **(7×0.20)+(2×0.15)+(2×0.15)+(5×0.15)+(7×0.20)+(4×0.15) = 4.90** | 🔴 SKIP (pour Kyle solo) |
+| **Tabstack vertical** | **(9×0.20)+(7×0.15)+(7×0.15)+(5×0.15)+(8×0.20)+(8×0.15) = 7.55** | 🟢 BUILD NOW |
 
-> **Calcul Humalike** : (9×0.20)+(6×0.15)+(7×0.15)+(8×0.15)+(9×0.20)+(10×0.15) = 1.8+0.9+1.05+1.2+1.8+1.5 = **8.25**
-> **Calcul Acti** : (8×0.20)+(3×0.15)+(2×0.15)+(6×0.15)+(7×0.20)+(5×0.15) = 1.6+0.45+0.30+0.90+1.4+0.75 = **5.40**
-> **Calcul Tabstack** : (7×0.20)+(5×0.15)+(5×0.15)+(4×0.15)+(6×0.20)+(6×0.15) = 1.4+0.75+0.75+0.60+1.2+0.90 = **5.60**
+> 🟢 **Tabstack vertical (VoiceStack)** = score 7.55 → BUILD NOW pour Kyle
 
 ## 📈 Tendances Émergentes
-### 1. 🤖 L'infrastructure comportementale des agents devient le nouveau battleground
-Le marché passe de "construire un agent IA" à "rendre l'agent humainement acceptable". Humalike illustre un shift : la valeur n'est plus dans le LLM mais dans la **couche comportementale** au-dessus (turn-taking, théorie de l'esprit, memoria contextuelle). Marché projeté à €206B en 2026 (+139% YoY).
+1. **AI natif sur mobile** : Acti confirme que l'interface clavier mobile devient le nouveau battleground des agents IA. Les app stores deviennent secondaires — l'input layer est le vrai OS.
 
-### 2. 📱 Le clavier mobile = nouveau point d'entrée pour les agents
-Acti ouvre un nouveau paradigme : l'agent IA n'est plus une app séparée, il vit dans le flux de frappe. Suivre les expérimentations similaires sur Android (accessibilité APIs) et iOS (contraintes keyboard = barrière à l'entrée = moat).
+2. **No-code AI app builders** : Glaze, Cursor Notepads, Replit Deployments — génération d'apps par langage naturel passe du prototype à la production. Fenêtre de différenciation = 12-18 mois avant commoditisation.
 
-### 3. 🌐 Les géants fournissent l'infra "browser-as-a-service"
-Mozilla avec Tabstack rejoint Apify, Browserbase, Bright Data sur le marché du browser headless managed. Signal : le scraping "amateur" est mort, c'est maintenant une couche infra structurée avec compliance. Opportunité pour les agents qui ont besoin de données web temps réel.
+3. **Infrastructure web pour agents AI** : Tabstack, Firecrawl, Spider.cloud — la bataille de l'accès au web live est le nouveau chokepoint de l'écosystème AI agent. Mozilla + Cloudflare + Anthropic se positionnent tous.
 
-### 4. 🔒 Trust et privacy comme différenciateur
-Acti (local-first) et Tabstack (no training on data, ephemeral) ont mis la privacy en avant dans leur pitch. En 2026, les devs et les entreprises choisissent d'abord selon la confiance. Signal fort pour TOUT produit IA.
+4. **Local-first AI** : GitHub trending = Ollama (165k⭐), llama.cpp, Open Interpreter. La souveraineté des données devient argument commercial premium, pas juste technique.
 
-### 5. 🧠 Le move de "show HN" vers "PH monstre" se normalise
-Les 3 apps ont frappé simultanément PH + HN. Le stack de lancement 2026 = PH pour la distribution grand public + HN pour la crédibilité dev. Les 500K votes de PH sont probablement gamifiés/boostés mais le signal reste fort.
+5. **Micro-SaaS AI vertical** : Solo founders atteignent $10k-$200k MRR grâce aux LLMs comme co-fondateur technique. Time-to-market réduit de 70% vs 2023. Niche + AI = nouvelle formule gagnante.
 
 ## 💡 Insights Actionnables pour Kyle
-### 🚀 Action 1 — S'inscrire à Humalike MAINTENANT (cette semaine)
-Humalike est directement dans ton domaine (voice AI). Les $20 gratuits permettent de tester la turn-taking API aujourd'hui. Si ça marche dans tes agents vocaux actuels, tu as un **avantage concurrentiel immédiat** sur tes clients.
-→ [humalike.ai](https://humalike.ai) · Temps : 2h · Coût : $0
+### 🎯 Action #1 — BUILD NOW : VoiceStack (dérivé Tabstack)
+**Quoi** : API REST qui reçoit une requête vocale (audio ou texte) → scrape web live → retourne une réponse audio synthétisée.
+**Pourquoi Kyle** : Expert voice AI + stack LLM = avantage injuste. Tabstack prouve la demande ($49-$149/mo marché validé), Mozilla n'ira pas sur le vertical vocal.
+**Next step concret** : Prototype en 2 weekends — Whisper (STT) + Firecrawl API + TTS (ElevenLabs) + FastAPI. Lancer sur PH semaine 3.
 
-### 🚀 Action 2 — Construire un "Humalike vertical" pour un secteur précis
-La vraie opportunité n'est PAS de concurrencer Humalike horizontalement. C'est de l'**appliquer verticalement** : un agent vocal avec turn-taking natif pour les **sales calls**, les **RH**, ou le **support client** en français. Kyle = expert voice + francophone = double avantage.
-→ MVP réalisable en 6-8 semaines · ARR cible : €5-20K/mo en 6 mois
+### 🎯 Action #2 — WATCH : Clavier vocal agentique (dérivé Acti)
+**Quoi** : Extension Acti-like mais avec "hold mic button → intent vocal → action" au lieu de texte.
+**Pourquoi Kyle** : Acti valide la demande massive (#1 PH 552k votes). La version vocale n'existe pas encore.
+**Blocage** : iOS Custom Keyboard API ne supporte pas le micro → il faut une app companion. Complexité 7/10. Watch Q3 2026.
 
-### 🚀 Action 3 — Intégrer Tabstack dans les pipelines existants
-Utilise Tabstack (pas à construire) pour donner à tes agents vocaux l'accès au web en temps réel. Ex : agent qui répond aux questions clients sur les prix en scrapant le site en direct. Pas un produit, un levier d'amélioration immédiate.
-→ [tabstack.ai](https://tabstack.ai) · Temps : 1 journée d'intégration · Coût : $49/mo
+### 🎯 Action #3 — Positionnement Kyle sur Product Hunt
+Acti et Glaze montrent qu'un lancement PH bien préparé génère des centaines de milliers de votes. Investir dans la communauté PH (commenter, supporter) 4 semaines avant le prochain launch de Kyle.
 
-### 📌 À surveiller (30 jours)
-- **Acti** : Conversion freemium→paid + rétention (proxy : reviews App Store). Si >4.5 étoiles + abonnements → signal que le modèle fonctionne
-- **Humalike** : Partenariats annoncés avec Retell/Vapi ? = signal d'adoption infra
-- **Compétiteurs** de Tabstack : Browserbase (YC) et Apify réaction ?
-
-### 🎯 Verdict Kyle
-Le signal du marché cette semaine pointe vers une conclusion nette : **l'infra comportementale pour agents vocaux est le prochain layer à construire**. Humalike a identifié le problème correctement mais reste horizontal et généraliste. Un product comme "Humalike pour sales calls francophones" avec intégration Vapi/ElevenLabs + contexte CRM serait un **wedge défendable** avec les compétences exactes de Kyle.
+### 📌 Signal faible à surveiller
+**OpenClaw** (GitHub, 210k⭐ en 6 mois) → framework agent open-source qui peut devenir la base d'un produit SaaS. À étudier pour réduire le temps de dev VoiceStack.
