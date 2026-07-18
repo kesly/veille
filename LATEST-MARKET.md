@@ -1,182 +1,214 @@
-# 🔥 Market Scan — 2026-07-17
+# 🔥 Market Scan — 2026-07-18
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8 (PH, HN, GitHub Trending, Reddit, BetaList)
-- Top potentiel : 3 retenues (Wispr Flow, Meetily, Context.dev)
-- Opportunités immédiates (BUILD NOW) : 2
+- Apps analysées : 10+ (Product Hunt, HN, GitHub Trending, Reddit)
+- Top potentiel : River (voice AI × B2B sales)
+- Opportunités immédiates (BUILD NOW) : 0 — 1 BUILD ADJACENT fort (River vertical)
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : River
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai) | **Launch** : 2023 (hypercroissance 2026)
-- **Fondateurs** : Tanay Dixit (ex-Meta), Sahaj Garg — San Francisco
-- **Catégorie** : Voice AI / Productivity — Mac desktop app
-- **Buzz** : $2B valuation target · 2,5M downloads · 270 Fortune 500 clients · 100x YoY
+- **URL** : rivereditor.com (launch Vercel Day, 16 juillet 2026)
+- **Fondateurs** : Équipe xAI alumni, backée par fondateurs de Ramp, Kalshi, Lean
+- **Catégorie** : Sales AI / Voice AI / Audio
+- **Buzz** : #1 Product Hunt 17 juillet 2026 (Vercel Day contest) · mentions presse Yahoo Finance, Bloomberg
 
 ### 2. Proposition de valeur
-- **Problème** : Taper ralentit la pensée ; les outils de dictée existants sont rigides et génériques
-- **Solution** : Dictée voix universelle (fonctionne dans TOUTE app) + "écrit dans ton style"
-- **USP** : Style personnel appris + Command mode + 100+ langues + auto-édition
-- **Target** : Knowledge workers, fondateurs, médecins, juristes
-- **Pricing** : Freemium · Pro ~$19/mo · Enterprise custom
+- **Problème** : Les leads B2B attendent 48h+ le calendrier d'un AE. Taux de no-show : 30-50%.
+- **Solution** : Un AI Account Executive rejoint le call en live dès qu'un lead envoie un message — démo, gestion d'objections, close. Zéro attente.
+- **USP** : "Never let a lead wait for a rep's calendar"
+- **Cible** : PME/ETI B2B, équipes sales 5-50 personnes, SaaS mid-market
+- **Pricing** : Non public (early access). Modèle probable : per seat ($500-1500/mo) ou success fee sur deals closés.
 
 ### 3. Stack technique
-- **Frontend** : Electron (Mac-first) → bientôt Windows
-- **Backend** : LLM propriétaire fine-tuné sur style utilisateur, Whisper-based ASR
-- **Infra** : AWS, traitement hybride local/cloud
-- **APIs** : Intégration native OS (Accessibility API macOS)
+- **Frontend** : Vercel (lancé Vercel Day), Next.js probable
+- **Voice AI** : LLM + TTS/STT temps réel (type ElevenLabs / Deepgram)
+- **Orchestration** : Agents LLM avec mémoire de session, CRM sync (Salesforce/HubSpot)
+- **Infra** : Vercel Edge pour faible latence call
 
-### 4. Psychologie
-- **Triggers** : Identité ("écrit comme toi") + Social proof Fortune 500 + FOMO vitesse 3x
-- **JTBD** : "Quand je veux exprimer une idée complexe rapidement sans friction clavier"
-- **Aha moment** : Premier email dicté qui sonne exactement comme toi, sans relecture
+### 4. Psychologie & JTBD
+- **Trigger principal** : Urgence + Social Proof (backed by Ramp founders = crédibilité B2B)
+- **JTBD** : "Quand un lead arrive, close-le maintenant, pas dans 3 jours"
+- **Aha moment** : Premier call fermé sans intervention humaine
+- **Biais** : FOMO concurrentiel (si mon concurrent a River, il répond 24/7)
 
 ### 5. Go-to-market
-- **Canaux** : PH #1 · Twitter/X #buildinpublic · Podcasts tech · Bottom-up entreprise
-- **Viral loop** : Partage du "style" → curiosité → téléchargement
-- **Launch** : Série A $25M (Notable Capital) → visibilité presse + bouche-à-oreille B2B
+- **Canal principal** : Vercel Day (audience dev/founder captive) + LinkedIn (fondateurs credibles)
+- **Viral loop** : Le prospect qui reçoit le call AI en est impressionné → en parle → inbound
+- **Launch strategy** : Contest PH (#1), early access waitlist, démos live
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (ASR + style learning + OS integration)
-- **Verticaux adjacents** : Voice AI for customer support · Medical dictation · Legal notes
-- **Angle Kyle** : Construire une couche "voice style" sur VAPI/Deepgram pour agents vocaux
-- **Temps dev** : 3-5 mois MVP (API-first, sans client desktop)
+- **Complexité** : 7/10 (voice AI temps réel + intégration CRM + gestion objections)
+- **Angle Kyle** : Kyle est expert voice AI → il possède déjà la brique critique (le moteur vocal). Le différentiel : verticaliser par secteur (immo, finance, SaaS).
+- **Verticaux adjacents** : Real estate AI agent, Insurance broker AI, Recrutement AI
+- **Temps de dev** : 3-5 mois MVP (avec stack voice AI existante de Kyle → 2 mois)
+- **Avantage concurrentiel** : Kyle peut builder 3× plus vite que quelqu'un qui part de zéro
 
-## 🏆 TOP APP #2 : Meetily
+## 🏆 TOP APP #2 : JustVibe
 ### 1. Identification
-- **URL** : [github.com/Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
-- **Fondateurs** : Equipe Zackriya Solutions (Pakistan) — projet open-source
-- **Catégorie** : AI Meeting Assistant — Desktop (Mac/Windows) local-first
-- **Buzz** : #1 GitHub Weekly Trending · 23 853 stars · +8 020 stars en 1 semaine
+- **URL** : justvibe.com
+- **Fondateurs** : Lianghao Chen — ex-ML Lead Pinterest & The Yes (acquis par Pinterest)
+- **Date** : #1 Product Hunt 12 juillet 2026 — 563 upvotes, 88 comments · #8 Weekly Leaderboard W28
+- **Catégorie** : AI Search / Generative Apps / No-code
+- **Buzz** : Newsletter PH "Never click a link again", couverture DailyAIWorld, Dynamic Business
 
 ### 2. Proposition de valeur
-- **Problème** : Otter.ai, Fireflies etc. envoient audio + transcriptions vers le cloud → risque RGPD, cost
-- **Solution** : Transcription + résumé IA 100% locale, zéro cloud, zéro abonnement
-- **USP** : Rust + Parakeet (4x plus rapide que Whisper standard) + Ollama pour LLM local
-- **Target** : Avocats, médecins, journalistes, entreprises avec données sensibles
-- **Pricing** : 100% gratuit open-source (modèle futur : cloud opt-in premium)
+- **Problème** : Google retourne des liens → l'utilisateur doit naviguer, compiler, calculer lui-même.
+- **Solution** : Tapez "divise les frais du ski trip en 5" → JustVibe génère une app interactive fonctionnelle. Pas de liens, une app.
+- **USP** : Search engine for *doing*, pas pour *lire*
+- **Cible** : Grand public, early adopters, étudiants, travailleurs du savoir
+- **Pricing** : 100% gratuit, sans compte. Modèle monétisation : inconnu (Google Gemini API en dessous).
 
 ### 3. Stack technique
-- **Frontend** : React / Tauri (Rust desktop wrapper)
-- **Backend** : Rust, modèle ASR Parakeet (NVIDIA), Whisper (fallback)
-- **LLM** : Ollama (Llama 3 / Mistral) — 100% local
-- **Infra** : Aucune (self-hosted sur machine utilisateur)
+- **LLM** : Google Gemini (modèles sous la surface)
+- **Exécution** : Apps générées dans un environnement sandbox navigateur (iframe sécurisé)
+- **Frontend** : UI minimaliste, zero-signup UX
+- **GTM** : Programmatic SEO via Publer pour Pinterest/LinkedIn
 
-### 4. Psychologie
-- **Triggers** : Privacy anxiety (post-scandal Zoom/Teams) + Gratuité + Hacker prestige
-- **JTBD** : "Quand j'ai une réunion sensible et ne veux PAS que mes données partent ailleurs"
-- **Aha moment** : Première réunion transcrite et résumée sans aucun compte, en 30 secondes
+### 4. Psychologie & JTBD
+- **Trigger** : Frictionlessness (aucun compte, aucun click superflu)
+- **JTBD** : "Aide-moi à *faire* quelque chose, pas à lire comment le faire"
+- **Aha moment** : La première app générée en 30 secondes qui résout réellement votre problème
+- **Biais** : Effet de surprise ("ça marche vraiment ?") → partage social immédiat
 
 ### 5. Go-to-market
-- **Canaux** : GitHub organic · HN "Show HN" · Reddit r/SideProject · Twitter tech
-- **Viral loop** : Star → fork → contribution → PR → notoriété → nouvelles stars
-- **Launch** : Zéro budget marketing, croissance 100% organique communauté dev
+- **Canal** : Product Hunt + bouche-à-oreille (shareable app outputs)
+- **Viral loop** : L'app générée est partageable → "regarde ce que j'ai créé en 10 secondes"
+- **Faiblesses** : Pas de monétisation visible → risque de shutdown si coût API explose
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 5/10 (libs open-source disponibles, le vrai défi = packaging desktop)
-- **Verticaux adjacents** : Teleconsultation médicale · Dépositions légales · Journalisme
-- **Angle Kyle** : Meetily-as-a-Service : API B2B qui expose transcription locale via VAPI
-- **Temps dev** : 4-6 semaines MVP (fork + couche API REST + dashboard SaaS)
+- **Complexité** : 6/10 (LLM orchestration + sandbox sécurisé + UX)
+- **Angle Kyle** : Vertical voice — "JustVibe mais vocal" : parlez votre besoin, obtenez un mini-outil
+- **Verticaux adjacents** : Secteur juridique (gen contracts on-demand), RH (onboarding tools)
+- **Temps de dev** : 2-3 mois MVP sans sandbox custom, 4-5 mois avec
+- **Risque** : Monétisation floue, concurrence OpenAI / Perplexity imminente
 
-## 🏆 TOP APP #3 : Context.dev
+## 🏆 TOP APP #3 : Miora
 ### 1. Identification
-- **URL** : [context.dev](https://www.context.dev) | **Launch PH** : 7 juillet 2026 (#2 du jour, 1 027 upvotes)
-- **Fondateur** : Yahia Bakour (ex-Amazon, ex-StockAlarm.io acquis) — Solo founder, YC S26
-- **Catégorie** : Developer Tool / Web Data API for AI Agents
-- **Buzz** : #1 PH top juillet 2026 · 5 000+ clients API · Mintlify, Daily.dev, SimilarWeb
+- **URL** : miora.design
+- **Fondateurs** : Tencent AI (labo international) — Igor Babuschkin (xAI co-fondateur) mentionné séparément
+- **Date** : #1 Product Hunt 12 juillet 2026 · #16 Monthly Leaderboard juillet 2026
+- **Catégorie** : AI Creative Studio / Design Tools / Marketing AI
+- **Buzz** : Tweet viral Tencent AI News · annonce beta internationale
 
 ### 2. Proposition de valeur
-- **Problème** : Scraping web = infrastructure fragile + bans + JS rendering + coûts → bloque les agents IA
-- **Solution** : API universelle : scrape, enrichit et structure n'importe quelle page web en markdown LLM-ready
-- **USP** : Stealth proxies + JS rendering inclus sans surcoût · Brand Intelligence API · Screenshot API
-- **Target** : Devs construisant agents IA, startups data, growth hackers, BI teams
-- **Pricing** : Free (500 crédits) · Dev $25/mo · Pro $149/mo · Scale $499/mo · Enterprise custom
+- **Problème** : Les créatifs switchent entre 6-10 outils (Figma, Midjourney, Runway, etc.). Contexte perdu à chaque switch.
+- **Solution** : Un canvas unique où des agents IA spécialisés génèrent images, vidéo, UI/UX, 3D — tout au même endroit avec mémoire partagée.
+- **USP** : "Memory-as-editable-rules" — la mémoire de marque est visible et modifiable (≠ black box)
+- **Cible** : Agences créatives, marketers, studios de contenu
+- **Pricing** : Beta gratuite (modèle freemium annoncé)
 
 ### 3. Stack technique
-- **Frontend** : Dashboard Next.js
-- **Backend** : Node.js / Python, cloud infra distribuée
-- **APIs** : REST API, endpoints classification NAICS/SIC, Brand Intelligence
-- **Infra** : Proxy réseau propriétaire anti-détection, cloud-native
+- **Multi-agents** : Orchestrateur LLM + agents spécialisés (image, video, 3D, UI/UX)
+- **Canvas** : Interface collaborative type Figma + génération IA inline
+- **Mémoire** : Système de règles éditables (brand memory → style consistency)
+- **Infra** : Tencent Cloud (avantage coût GPU significatif)
 
-### 4. Psychologie
-- **Triggers** : Autorité YC + Proof (5K clients dont SimilarWeb) + Simplicité vs concurrents
-- **JTBD** : "Quand je veux que mon agent IA accède à n'importe quel site sans me soucier des bans"
-- **Aha moment** : Première requête API qui retourne du markdown propre depuis un site JavaScript-heavy
+### 4. Psychologie & JTBD
+- **Trigger** : Unification (1 outil vs 6) + Autorité (Tencent derrière)
+- **JTBD** : "Génère une campagne complète (script, storyboard, vidéo, 3D) en une session"
+- **Aha moment** : La mémoire de marque appliquée automatiquement sur le prochain asset
+- **Biais** : Effect Ikea (les règles mémoire éditables donnent sentiment de contrôle et ownership)
 
 ### 5. Go-to-market
-- **Canaux** : Product Hunt · HN · Dev Twitter · YC network · comparatifs vs Firecrawl/Apify
-- **Viral loop** : Devs intègrent l'API → bots/agents publient des analyses → visibilité
-- **Launch** : YC batch Summer 2026 → Demo Day exposure + PH coordonné
+- **Canal** : Product Hunt + Twitter/X (audience créatifs) + Tencent distribution Asia
+- **Viral loop** : Assets de campagne partagés avec watermark Miora
+- **Risque** : Tencent = friction perçue côté occidental (données, confidentialité)
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (infra proxy réseau = moat technique majeur, long à construire)
-- **Verticaux adjacents** : Veille concurrentielle IA · Data enrichment CRM · Price intelligence
-- **Angle Kyle** : Intégrer Context.dev dans agents vocaux pour répondre en temps réel avec data web
-- **Temps dev** : 6-9 mois pour concurrencer (wrapper au-dessus = 2 semaines)
+- **Complexité** : 9/10 (multi-agent orchestration multimodale = mois de R&D)
+- **Angle Kyle** : Non recommandé à répliquer. Observer les patterns UX de memory-as-rules pour les réutiliser dans un product voice AI.
+- **Temps de dev** : 12+ mois avec équipe senior
+- **Verdict** : Surveiller, ne pas builder
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-> Sources : [Crunchbase](https://www.crunchbase.com/organization/wispr-ai) · [Yahoo Finance](https://finance.yahoo.com/news/voice-dectation-app-takes-off-150000718.html) · [AI2Work](https://ai2.work/blog/wispr-ai-targets-2-billion-valuation-as-voice-dictation-takes-off)
+## 💰 Unit Economics Deep Dive — River
+> ⚠️ River vient de lancer (Vercel Day, 16 juillet 2026). Pas de métriques publiques. Estimations basées sur comparables du secteur (11x.ai, Artisan AI, AiSDR).
 
-| Métrique | Valeur estimée | Source / Note |
+| Métrique | Estimation | Hypothèse |
 |---|---|---|
-| **ARR** | ~$5-8M | Rev $3.8M (Jul24-Jul25) + 40% MoM → extrapolé |
-| **Users payants** | ~25 000-40 000 | 2.5M downloads, conv. ~1-2% |
-| **ARPU** | ~$180-200/an | Mix free/pro/enterprise |
-| **CAC** | ~$15-30 | Bottom-up B2C + bouche-à-oreille dominant |
-| **LTV** | ~$360-600 | Rétention 70% sur 12 mois · 2-3 ans moyen |
-| **LTV/CAC** | ~15-25x | Excellent (>3x = sain) |
-| **Payback Period** | ~2-4 mois | CAC faible, conversion rapide |
-| **Total Funding** | $81M | Série A $25M Notable Capital + rounds précédents |
-| **Valuation cible** | $2B | Round $260M en cours (Menlo Ventures lead) |
-| **Rev/Employee** | ~$200-400K | ~20-40 employés estimés |
-| **Rule of 40** | ~130+ | Croissance 100%+ YoY + marges SaaS > 30% |
+| **ARR actuel** | ~€0 (pre-revenue / early access) | Launch < 72h |
+| **ARPU cible** | €800-1500/mo par équipe | Benchmark 11x.ai ($1K/mo), Artisan ($1.5K/mo) |
+| **Clients Y1 cible** | 50-200 teams | Typical B2B AI sales SaaS Y1 |
+| **ARR Y1 projeté** | €480K-€3.6M | Fourchette large, dépend GTM |
+| **CAC estimé** | €2K-5K | Sales-led B2B, faible self-serve attendu |
+| **LTV estimé** | €14K-27K | ARPU × 18 mois churn moyen B2B AI |
+| **LTV/CAC** | 5-7× | Sain si ≥3× |
+| **Payback period** | 3-6 mois | Bon pour SaaS B2B |
+| **Burn estimé** | ~€200-400K/mo | Petite équipe + voice AI infra coûteuse |
+| **Runway** | 12-24 mois | Si seed $3-5M |
+| **Rev/Employee** | N/A (trop tôt) | — |
+| **Rule of 40** | N/A | — |
 
-**Verdict santé : 🟢 EXCEPTIONNELLE**
-- Rule of 40 largement dépassé
-- LTV/CAC class mondiale (venture benchmarks > 3x suffisant, ici >15x)
-- Rétention 70% sur 12 mois = product-market fit confirmé
-- Seul risque : valuation $2B agressive pour ~$6M ARR → multiple x300 ARR (euphorie IA)
+**Sources comparables** : 11x.ai (raised $24M), Artisan AI (raised $11M), AiSDR, Aire.
+**Verdict santé** : 🟡 Trop tôt pour juger. Sains fondamentaux (LTV/CAC estimé correct) mais burn voice AI infra est élevé. Watch closely Q4 2026.
+
+**Signaux d'alarme à surveiller** : Pricing public non annoncé (risque freemium trap), concurrence Salesforce Agentforce qui pousse sur le même marché.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Meetily | Context.dev |
+| Dimension (poids) | River /10 | JustVibe /10 | Miora /10 |
 |---|---|---|---|
-| 📊 Market Size (20%) | **9** — Voice AI global >$50B | **7** — Meeting tools $15B+ | **8** — Web data/scraping $8B |
-| ⚙️ Complexité inversée (15%) | **4** — ASR+style learning dur | **7** — Libs open-source dispo | **3** — Infra proxy = moat dur |
-| ⏱️ Time-to-Market (15%) | **4** — Desktop + OS integ | **7** — Fork + API en 4-6 sem | **3** — 6-9 mois pour concurrencer |
-| 🏟️ Competition inversée (15%) | **6** — Otter/Whisper/Speechify | **8** — Privacy-local = niche libre | **5** — Firecrawl/Apify solides |
-| 💰 Revenue Potential (20%) | **9** — $19/mo mass market | **6** — Open-source, moné difficile | **8** — $25-499/mo B2B récurrent |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Voice AI = cœur métier | **7** — Audio/IA oui, Rust non | **6** — API oui, scraping non |
-| **Score pondéré** | **🟢 7.45** | **🟡 7.15** | **🟠 5.55** |
-| **Verdict** | **BUILD NOW** | **BUILD ADJACENT** | **WATCH** |
+| 📊 Market Size (20%) | **8** (B2B sales >$50B) | **7** (AI search large) | **7** (creative tools) |
+| ⚙️ Complexity inversé (15%) | **5** (voice AI complexe) | **6** (sandbox + LLM) | **2** (multi-agent multimodal) |
+| ⏱️ Time-to-Market (15%) | **6** (2-3 mois si stack voice existante) | **5** (3-4 mois) | **2** (12+ mois) |
+| 🏟️ Competition inversé (15%) | **5** (Artisan, 11x, Salesforce Agentforce) | **4** (OpenAI/Perplexity imminents) | **4** (Canva, Adobe) |
+| 💰 Revenue Potential (20%) | **8** (B2B SaaS $1K+/mo) | **4** (gratuit, monétisation floue) | **7** (agences créatives) |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **9** (voice AI expert, réseau SaaS) | **5** (ML/search distant) | **3** (créatif, hors scope) |
+| **Score pondéré** | **🟡 6.55** | **🟠 5.20** | **🔴 4.10** |
+| **Verdict** | 🟡 BUILD ADJACENT | 🟠 WATCH | 🔴 SKIP |
 
-**Notes :**
-- Wispr : score porté par Founder-Fit parfait Kyle + market size énorme. Blocage = complexité OS
-- Meetily : opportunité de SaaSifier la version open-source ou build vertical (médical/légal)
-- Context.dev : trop de moat infra, meilleur comme tool à intégrer que comme concurrent direct
+**Calculs détaillés** :
+- River : (8×.20)+(5×.15)+(6×.15)+(5×.15)+(8×.20)+(9×.15) = 1.6+0.75+0.9+0.75+1.6+1.35 = **6.95** → 🟡 BUILD ADJACENT
+- JustVibe : (7×.20)+(6×.15)+(5×.15)+(4×.15)+(4×.20)+(5×.15) = 1.4+0.9+0.75+0.6+0.8+0.75 = **5.20** → 🟠 WATCH
+- Miora : (7×.20)+(2×.15)+(2×.15)+(4×.15)+(7×.20)+(3×.15) = 1.4+0.3+0.3+0.6+1.4+0.45 = **4.45** → 🔴 SKIP
+
+**Recommandation clé** : River à 6.95 est le seul candidate BUILD ADJACENT. L'angle pour Kyle : ne pas répliquer River, mais builder un **vertical voice AI sales agent ciblé** (ex: immo, fintech, santé) où River ne peut pas aller avec un produit généraliste.
 
 ## 📈 Tendances Émergentes
-1. **Privacy-first AI = nouveau différenciateur majeur** — Meetily explose car les utilisateurs sont fatigués du cloud. "Local-first" devient un argument commercial premium, pas juste geek. Le RGPD amplifie en Europe.
+### 1. 🤖 L'agent prend le téléphone (Voice AI Sales)
+River n'est pas isolé. 11x.ai, Artisan, AiSDR — tous convergent vers l'idée qu'un AE AI peut closer des deals. La semaine Vercel Day a boosté la catégorie "AI Audio/Sales" sur PH. Signal fort : Salesforce Agentforce devient grand public → le marché est validé, la niche reste à prendre.
 
-2. **Voice comme interface universelle** — Wispr Flow valide que la voix n'est plus un gadget : c'est le prochain layer d'interaction post-clavier. Les apps qui intègrent la voix naturellement (pas via un bouton "micro") gagnent en rétention.
+### 2. 🔍 Search → Do (Zero-Click Apps)
+JustVibe incarne un shift : les utilisateurs ne veulent plus de liens. Ils veulent de l'action. Perplexity a commencé, JustVibe va plus loin. OpenAI va certainement lancer quelque chose de similaire dans SearchGPT. Fenêtre courte pour les challengers.
 
-3. **Solo founders + YC = signal qualité** — Context.dev (solo, YC S26) et OpenKnowledge (Inkeep, YC) confirment que YC reste le meilleur label de qualité pour les outils dev. Un seul fondateur + YC = distribution immédiate.
+### 3. 🎨 Canvas IA Unifié (Memory + Multimodal)
+Miora (Tencent), mais aussi Figma AI, Framer Agents (lancé Vercel Day également) — tous poussent vers un canvas unique. La tendance "memory-as-editable-rules" de Miora est une UX breakthrough à surveiller pour tout produit AI.
 
-4. **GitHub stars comme métrique de traction B2B** — Meetily 8K stars/semaine génère plus de confiance B2B que n'importe quelle campagne publicitaire. Le star count est devenu le nouveau "testimonials Fortune 500".
+### 4. ⚡ Vercel Day = Nouveau Product Hunt pour Dev Tools
+Le contest Vercel Day a propulsé River, Framer AI, et Glaze by Raycast en tête de PH simultanément. Pattern à mémoriser : les "platform days" (Vercel Day, Stripe Sessions, GitHub Universe) sont désormais des launches events premium pour les startups AI. S'y plugger = distribution garantie.
 
-5. **AI agents consomment du web data** — Context.dev révèle un besoin massif : les agents IA ont besoin d'accès web structuré. Tout SaaS qui "nourrit" les agents IA est en position de force pour 2026-2027.
+### 5. 📦 GitHub Trending : Open-Source AI Agent Infra
+Les repos les plus étoilés du moment : Orca/herdr (coordination agents), OpenClaw (AI personnel local), Langflow/Dify/Flowise (visual AI builder). Signal : l'infra pour builder des agents se commoditise rapidement → les moats seront sur la verticale et l'expérience utilisateur, pas la techno.
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Pour Kyle (Voice AI + SaaS Expert)
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions concrètes cette semaine
 
-**Priorité #1 — BUILD NOW : Voice Style Layer**
-Wispr Flow valide le marché à $2B. L'angle différenciant : construire une couche "voice style personnalisé" **au-dessus de VAPI/Deepgram** pour les agents vocaux B2B. Pas un client desktop — une API SaaS qui apprend le style vocal de chaque utilisateur et l'applique à la synthèse vocale des agents. Time-to-market : 2-3 mois API-first. Cible : équipes CS et sales utilisant des agents vocaux.
+**1. Analyse River en profondeur (priorité #1)**
+- Teste River en tant que prospect fictif d'une démo
+- Identifie les lacunes : gestion d'objections industrie-spécifiques ? Intégration CRM ? Latence voice ?
+- Ces lacunes = ton opportunité de verticaliser
 
-**Priorité #2 — BUILD ADJACENT : Meetily SaaS Vertical**
-Forker Meetily (MIT-adjacent license) et en faire un SaaS B2B vertical-focused : "AI Meeting Intelligence for Healthcare" ou "Legal Deposition AI". Wrapper cloud opt-in avec compliance HIPAA/RGPD comme upsell. Le code de base existe, la monétisation manque. MRR potentiel : $10-50K en 6 mois.
+**2. Valide le marché vocal B2B en 48h**
+- Poste sur LinkedIn/Twitter : "Votre équipe sales utilise un AI pour closer des deals ? Répondez"
+- 5 appels discovery avec directeurs commerciaux PME (immo, fintech, SaaS)
+- Question clé : "Combien paieriez-vous pour ne jamais perdre un lead faute de disponibilité ?"
 
-**Opportunité rapide — Intégration Context.dev dans agents vocaux**
-Les agents vocaux de Kyle ont besoin de données web en temps réel ? Context.dev = plug-and-play. Intégrer l'API en 2 semaines pour donner aux agents la capacité de "googler" en live pendant une conversation. Différenciateur immédiat sans build from scratch.
+**3. Benchmark concurrents directs de River**
+- 11x.ai · Artisan AI · AiSDR · Aire · Regie.ai
+- Matrice : pricing / démo quality / CRM integration / latence / verticaux couverts
+- Trouve le gap non couvert → c'est ta beachhead
 
-**Signal à surveiller (30 jours)**
-- Wispr Flow : annonce du round $260M → momentum médiatique → fenêtre de positionnement
-- Meetily : si team annonce une version SaaS payante → valide la monétisation du local-first
-- Context.dev Demo Day YC → possible acquisition par Firecrawl ou Apify → surveiller
+**4. JustVibe : surveiller, ne pas builder**
+- Modèle gratuit sans monétisation = piège. Mais l'UX "zero-click search" va influencer tous les produits AI. Intégrer cette UX logic dans tes produits voice AI.
+
+**5. Miora : pattern mémoire à voler**
+- "Memory-as-editable-rules" est une UX brillante que tu peux adapter pour un voice AI agent : l'utilisateur voit et édite les règles de comportement de son agent → sentiment de contrôle → rétention.
+
+**6. Participer à la prochaine plateforme event**
+- GitHub Universe (oct 2026), Vercel Day suivant → prépare un launch timing autour de ces events pour maximiser la distribution organique.
+
+### 📌 KPIs à suivre
+| Signal | Outil | Fréquence |
+|---|---|---|
+| River levée de fonds | Crunchbase | Hebdo |
+| 11x.ai / Artisan pricing change | Leurs sites | Bi-mensuel |
+| JustVibe monétisation annonce | PH / Twitter | Alert |
+| GitHub stars OpenClaw / Langflow | Star-history.com | Mensuel |
