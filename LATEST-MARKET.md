@@ -1,214 +1,210 @@
-# 🔥 Market Scan — 2026-07-18
+# 🔥 Market Scan — 2026-07-19
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 10+ (Product Hunt, HN, GitHub Trending, Reddit)
-- Top potentiel : River (voice AI × B2B sales)
-- Opportunités immédiates (BUILD NOW) : 0 — 1 BUILD ADJACENT fort (River vertical)
+- Apps analysées : 8+ (Product Hunt, HN, GitHub Trending, Reddit, Twitter)
+- Top potentiel retenu : 3
+- Opportunités immédiates (BUILD NOW) : 1
 
-## 🏆 TOP APP #1 : River
+## 🏆 TOP APP #1 : JustVibe
+
 ### 1. Identification
-- **URL** : rivereditor.com (launch Vercel Day, 16 juillet 2026)
-- **Fondateurs** : Équipe xAI alumni, backée par fondateurs de Ramp, Kalshi, Lean
-- **Catégorie** : Sales AI / Voice AI / Audio
-- **Buzz** : #1 Product Hunt 17 juillet 2026 (Vercel Day contest) · mentions presse Yahoo Finance, Bloomberg
+- **URL** : [justvibe.com](https://justvibe.com)
+- **Lancement** : Juillet 2026 (semaine 28)
+- **Fondateur** : Lianghao Chen (ex-ML Lead Pinterest & The Yes)
+- **Catégorie** : Search / No-Code / AI Apps
+- **Buzz** : #1 PH du jour (462 upvotes), #8 PH weekly leaderboard semaine 28
+- **Sources** : [Product Hunt](https://www.producthunt.com/products/justvibe) · [DynamicBusiness](https://dynamicbusiness.com/ai-tools/justvibe-ai-powered-custom-application-generator.html) · [DailyAIWorld](https://dailyaiworld.com/blogs/justvibe-search-engine-apps-review-2026)
 
-### 2. Proposition de valeur
-- **Problème** : Les leads B2B attendent 48h+ le calendrier d'un AE. Taux de no-show : 30-50%.
-- **Solution** : Un AI Account Executive rejoint le call en live dès qu'un lead envoie un message — démo, gestion d'objections, close. Zéro attente.
-- **USP** : "Never let a lead wait for a rep's calendar"
-- **Cible** : PME/ETI B2B, équipes sales 5-50 personnes, SaaS mid-market
-- **Pricing** : Non public (early access). Modèle probable : per seat ($500-1500/mo) ou success fee sur deals closés.
+### 2. Proposition de Valeur
+- **Problème** : Google retourne des liens à lire. Personne n'a le temps.
+- **Solution** : Tape une requête → JustVibe génère une vraie app interactive (trip planner, mood board, recettes, simulateur…)
+- **USP** : Pas de résultats = une app fonctionnelle prête à l'emploi, shareable en 1 lien, zéro code
+- **Cible** : Toute personne qui veut FAIRE quelque chose, pas seulement lire
+- **Pricing** : 100% gratuit, sans compte, pas de tier payant annoncé (phase croissance)
 
-### 3. Stack technique
-- **Frontend** : Vercel (lancé Vercel Day), Next.js probable
-- **Voice AI** : LLM + TTS/STT temps réel (type ElevenLabs / Deepgram)
-- **Orchestration** : Agents LLM avec mémoire de session, CRM sync (Salesforce/HubSpot)
-- **Infra** : Vercel Edge pour faible latence call
+### 3. Stack Technique (estimé)
+- **Frontend** : React/Next.js, rendu dynamique par requête
+- **Backend** : LLM (probablement GPT-4o ou Claude) + code execution sandbox
+- **Infra** : Cloud (AWS/GCP), streaming UI
+- **APIs** : LLM inference + générateur de micro-apps
 
 ### 4. Psychologie & JTBD
-- **Trigger principal** : Urgence + Social Proof (backed by Ramp founders = crédibilité B2B)
-- **JTBD** : "Quand un lead arrive, close-le maintenant, pas dans 3 jours"
-- **Aha moment** : Premier call fermé sans intervention humaine
-- **Biais** : FOMO concurrentiel (si mon concurrent a River, il répond 24/7)
+- **Triggers** : Gratification instantanée (app en 5s), wow effect viral, partage social
+- **JTBD** : "Quand je cherche comment faire X, je veux la solution, pas 10 articles"
+- **Aha moment** : La première app générée qui fonctionne vraiment (ex : trip planner Tokyo complet)
+- **Viral loop** : Chaque app = un lien shareable → trafic organique récursif
 
-### 5. Go-to-market
-- **Canal principal** : Vercel Day (audience dev/founder captive) + LinkedIn (fondateurs credibles)
-- **Viral loop** : Le prospect qui reçoit le call AI en est impressionné → en parle → inbound
-- **Launch strategy** : Contest PH (#1), early access waitlist, démos live
+### 5. Go-to-Market
+- **Canaux** : Product Hunt launch (organique), Twitter demos viraux, bouche à oreille
+- **Stratégie** : Gratuit d'abord → audience massive → monétisation API/Pro
+- **Viral loops** : Apps partagées = publicité naturelle avec attribution JustVibe
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (voice AI temps réel + intégration CRM + gestion objections)
-- **Angle Kyle** : Kyle est expert voice AI → il possède déjà la brique critique (le moteur vocal). Le différentiel : verticaliser par secteur (immo, finance, SaaS).
-- **Verticaux adjacents** : Real estate AI agent, Insurance broker AI, Recrutement AI
-- **Temps de dev** : 3-5 mois MVP (avec stack voice AI existante de Kyle → 2 mois)
-- **Avantage concurrentiel** : Kyle peut builder 3× plus vite que quelqu'un qui part de zéro
+- **Complexité** : 7/10 (LLM + sandboxing d'exécution = non trivial)
+- **Verticaux adjacents** : JustVibe for Voice (générer des apps vocales), JustVibe for Sales (générer des scripts d'appel live)
+- **Angle Kyle** : Niche Voice AI — "Décris ton cas d'usage, reçois un agent vocal fonctionnel"
+- **Temps de dev estimé** : 3-6 mois pour un MVP vertical
 
-## 🏆 TOP APP #2 : JustVibe
+## 🏆 TOP APP #2 : Miora
+
 ### 1. Identification
-- **URL** : justvibe.com
-- **Fondateurs** : Lianghao Chen — ex-ML Lead Pinterest & The Yes (acquis par Pinterest)
-- **Date** : #1 Product Hunt 12 juillet 2026 — 563 upvotes, 88 comments · #8 Weekly Leaderboard W28
-- **Catégorie** : AI Search / Generative Apps / No-code
-- **Buzz** : Newsletter PH "Never click a link again", couverture DailyAIWorld, Dynamic Business
+- **URL** : [miora.ai](https://miora.ai) (à confirmer)
+- **Lancement** : 12 juillet 2026
+- **Fondateurs** : Non publiés
+- **Catégorie** : AI Creative Studio / Design Tools / AI Agents
+- **Buzz** : #1 PH du jour (125 upvotes, 574 comments), 1M+ abonnés pre-launch
+- **Sources** : [Product Hunt](https://www.producthunt.com/products/miora-2) · [UIComet](https://launches.uicomet.com/products/miora-9r6HM)
 
-### 2. Proposition de valeur
-- **Problème** : Google retourne des liens → l'utilisateur doit naviguer, compiler, calculer lui-même.
-- **Solution** : Tapez "divise les frais du ski trip en 5" → JustVibe génère une app interactive fonctionnelle. Pas de liens, une app.
-- **USP** : Search engine for *doing*, pas pour *lire*
-- **Cible** : Grand public, early adopters, étudiants, travailleurs du savoir
-- **Pricing** : 100% gratuit, sans compte. Modèle monétisation : inconnu (Google Gemini API en dessous).
+### 2. Proposition de Valeur
+- **Problème** : Créer une campagne complète (vidéo, UI, storyboard, 3D, branding) nécessite une équipe entière
+- **Solution** : Canvas IA multi-agents avec mémoire persistante = studio créatif IA complet pour 1 personne
+- **USP** : La "mémoire agent" apprend ton style → chaque création reste cohérente avec ta marque
+- **Cible** : Créateurs solo, freelances, petites agences, content marketers
+- **Pricing** : Non divulgué publiquement (freemium probable vu le 1M abonnés pre-launch)
 
-### 3. Stack technique
-- **LLM** : Google Gemini (modèles sous la surface)
-- **Exécution** : Apps générées dans un environnement sandbox navigateur (iframe sécurisé)
-- **Frontend** : UI minimaliste, zero-signup UX
-- **GTM** : Programmatic SEO via Publer pour Pinterest/LinkedIn
+### 3. Stack Technique (estimé)
+- **Frontend** : Canvas interactif (type Figma + chat), WebGL possible
+- **Backend** : Multi-agent orchestration, vector store pour la mémoire style
+- **Infra** : Cloud GPU pour génération vidéo/3D
+- **APIs** : Text-to-video, image gen, TTS, LLM orchestration
 
 ### 4. Psychologie & JTBD
-- **Trigger** : Frictionlessness (aucun compte, aucun click superflu)
-- **JTBD** : "Aide-moi à *faire* quelque chose, pas à lire comment le faire"
-- **Aha moment** : La première app générée en 30 secondes qui résout réellement votre problème
-- **Biais** : Effet de surprise ("ça marche vraiment ?") → partage social immédiat
+- **Triggers** : Empowerment ("une personne = une agence entière"), exclusivité (1M abonnés waitlist)
+- **JTBD** : "Quand je veux lancer une campagne, je veux tout en un lieu sans briefer 5 freelances"
+- **Aha moment** : Première campagne complète générée en 15 min (vidéo + visuels + copy cohérents)
+- **Social proof** : 574 commentaires PH = taux d'engagement exceptionnel, 4.7/5 rating
 
-### 5. Go-to-market
-- **Canal** : Product Hunt + bouche-à-oreille (shareable app outputs)
-- **Viral loop** : L'app générée est partageable → "regarde ce que j'ai créé en 10 secondes"
-- **Faiblesses** : Pas de monétisation visible → risque de shutdown si coût API explose
+### 5. Go-to-Market
+- **Canaux** : Waitlist 1M+ (email), PH launch, démos Twitter/LinkedIn
+- **Stratégie** : Build-up de liste avant lancement → activation séquencée → FOMO
+- **Viral loops** : Assets générés partagés = watermark/attribution Miora implicite
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (LLM orchestration + sandbox sécurisé + UX)
-- **Angle Kyle** : Vertical voice — "JustVibe mais vocal" : parlez votre besoin, obtenez un mini-outil
-- **Verticaux adjacents** : Secteur juridique (gen contracts on-demand), RH (onboarding tools)
-- **Temps de dev** : 2-3 mois MVP sans sandbox custom, 4-5 mois avec
-- **Risque** : Monétisation floue, concurrence OpenAI / Perplexity imminente
+- **Complexité** : 9/10 (multi-agent + génération vidéo + mémoire = stack très lourde)
+- **Verticaux adjacents** : Studio vocal IA (scripts + voix + musique pour podcasts/publicités)
+- **Angle Kyle** : Composant "mémoire voix" isolé = SaaS niche (brand voice persistante pour agents)
+- **Temps de dev estimé** : 8-12 mois minimum
 
-## 🏆 TOP APP #3 : Miora
+## 🏆 TOP APP #3 : River GTM
+
 ### 1. Identification
-- **URL** : miora.design
-- **Fondateurs** : Tencent AI (labo international) — Igor Babuschkin (xAI co-fondateur) mentionné séparément
-- **Date** : #1 Product Hunt 12 juillet 2026 · #16 Monthly Leaderboard juillet 2026
-- **Catégorie** : AI Creative Studio / Design Tools / Marketing AI
-- **Buzz** : Tweet viral Tencent AI News · annonce beta internationale
+- **URL** : [rivergtm.com](https://www.rivergtm.com)
+- **Lancement** : 2026 (Q2-Q3)
+- **Fondateurs** : Non publiés
+- **Catégorie** : AI Sales / Voice AI Agents / B2B GTM
+- **Buzz** : Listé PH AI Agents (catégorie hot), mentions multiples Forbes + salesmotion.io
+- **Sources** : [RiverGTM](https://www.rivergtm.com) · [Forbes](https://www.forbes.com/councils/forbesbusinessdevelopmentcouncil/2026/06/09/how-ai-is-reshaping-b2b-sales-and-why-humans-still-close-the-deal/) · [Product Hunt AI Agents](https://www.producthunt.com/categories/ai-agents)
 
-### 2. Proposition de valeur
-- **Problème** : Les créatifs switchent entre 6-10 outils (Figma, Midjourney, Runway, etc.). Contexte perdu à chaque switch.
-- **Solution** : Un canvas unique où des agents IA spécialisés génèrent images, vidéo, UI/UX, 3D — tout au même endroit avec mémoire partagée.
-- **USP** : "Memory-as-editable-rules" — la mémoire de marque est visible et modifiable (≠ black box)
-- **Cible** : Agences créatives, marketers, studios de contenu
-- **Pricing** : Beta gratuite (modèle freemium annoncé)
+### 2. Proposition de Valeur
+- **Problème** : Les AE humains coûtent €80-150K/an, font peu de démos, ne scalent pas
+- **Solution** : Agent IA qui démo le produit et close les deals SMB en autonomie 24/7
+- **USP** : Premier à combiner démo interactive + closing autonome (pas juste SDR/prospection)
+- **Cible** : Éditeurs SaaS B2B SMB, équipes sales sous-staffées
+- **Pricing** : Non public (estimé : abonnement mensuel €500-2000/agent IA)
 
-### 3. Stack technique
-- **Multi-agents** : Orchestrateur LLM + agents spécialisés (image, video, 3D, UI/UX)
-- **Canvas** : Interface collaborative type Figma + génération IA inline
-- **Mémoire** : Système de règles éditables (brand memory → style consistency)
-- **Infra** : Tencent Cloud (avantage coût GPU significatif)
+### 3. Stack Technique (estimé)
+- **Frontend** : Interface démo dynamique, screen share ou UI démo simulée
+- **Backend** : LLM conversationnel + voice AI (Vapi/ElevenLabs probable) + CRM intégrations
+- **Infra** : Cloud, faible latence voix
+- **APIs** : Voice AI (Vapi/Retell), LLM, Salesforce/HubSpot webhooks
 
 ### 4. Psychologie & JTBD
-- **Trigger** : Unification (1 outil vs 6) + Autorité (Tencent derrière)
-- **JTBD** : "Génère une campagne complète (script, storyboard, vidéo, 3D) en une session"
-- **Aha moment** : La mémoire de marque appliquée automatiquement sur le prochain asset
-- **Biais** : Effect Ikea (les règles mémoire éditables donnent sentiment de contrôle et ownership)
+- **Triggers** : ROI immédiat calculable (1 agent = 3 AE humains), urgence (deals ratés = cash perdu)
+- **JTBD** : "Quand j'ai un pipeline immense mais peu d'AE, je veux qualifier et closer sans embaucher"
+- **Aha moment** : Premier deal closé par l'agent sans intervention humaine
+- **Autorité** : Citations Forbes + témoignages de fondateurs SaaS → crédibilité B2B
 
-### 5. Go-to-market
-- **Canal** : Product Hunt + Twitter/X (audience créatifs) + Tencent distribution Asia
-- **Viral loop** : Assets de campagne partagés avec watermark Miora
-- **Risque** : Tencent = friction perçue côté occidental (données, confidentialité)
+### 5. Go-to-Market
+- **Canaux** : LinkedIn B2B, cold email (ironie), partenariats CRM/Salesforce
+- **Stratégie** : Pilot gratuit sur 30 jours → conversion au full contract
+- **Viral loops** : Acheteurs deviennent vendeurs ("mon agent a closé pour moi") = bouche-à-oreille B2B
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 9/10 (multi-agent orchestration multimodale = mois de R&D)
-- **Angle Kyle** : Non recommandé à répliquer. Observer les patterns UX de memory-as-rules pour les réutiliser dans un product voice AI.
-- **Temps de dev** : 12+ mois avec équipe senior
-- **Verdict** : Surveiller, ne pas builder
+- **Complexité** : 5/10 (voix + LLM + CRM = dans ses cordes directes)
+- **Verticaux adjacents** : Agent vocal pour onboarding client SaaS, agent de renouvellement de contrats
+- **Angle Kyle** : PARFAIT — voice AI expert + SaaS = peut construire en 4-8 semaines un MVP vertical niche
+- **Temps de dev estimé** : 6-10 semaines pour un MVP
 
-## 💰 Unit Economics Deep Dive — River
-> ⚠️ River vient de lancer (Vercel Day, 16 juillet 2026). Pas de métriques publiques. Estimations basées sur comparables du secteur (11x.ai, Artisan AI, AiSDR).
+## 💰 Unit Economics Deep Dive — JustVibe
 
-| Métrique | Estimation | Hypothèse |
+> ⚠️ JustVibe est en phase gratuite sans modèle de revenus annoncé. Les estimations ci-dessous sont des projections basées sur des benchmarks sectoriels comparables (Perplexity, Bolt, Lovable).
+
+| Métrique | Estimation | Source / Méthode |
 |---|---|---|
-| **ARR actuel** | ~€0 (pre-revenue / early access) | Launch < 72h |
-| **ARPU cible** | €800-1500/mo par équipe | Benchmark 11x.ai ($1K/mo), Artisan ($1.5K/mo) |
-| **Clients Y1 cible** | 50-200 teams | Typical B2B AI sales SaaS Y1 |
-| **ARR Y1 projeté** | €480K-€3.6M | Fourchette large, dépend GTM |
-| **CAC estimé** | €2K-5K | Sales-led B2B, faible self-serve attendu |
-| **LTV estimé** | €14K-27K | ARPU × 18 mois churn moyen B2B AI |
-| **LTV/CAC** | 5-7× | Sain si ≥3× |
-| **Payback period** | 3-6 mois | Bon pour SaaS B2B |
-| **Burn estimé** | ~€200-400K/mo | Petite équipe + voice AI infra coûteuse |
-| **Runway** | 12-24 mois | Si seed $3-5M |
-| **Rev/Employee** | N/A (trop tôt) | — |
-| **Rule of 40** | N/A | — |
+| **Trafic mensuel** | ~500K-2M visites/mois | Proxy: score PH #1, mentions virales |
+| **MAU** | ~300K-1M utilisateurs actifs | Conv. trafic→session ~40% |
+| **ARR actuel** | ~€0 (gratuit) | Pas de monétisation annoncée |
+| **ARR potentiel (12 mois)** | €2M-8M | Hypothèse: 2-5% conversion Pro à €20/mois |
+| **ARPU Pro (estimé)** | €20-50/mois | Benchmark Perplexity Pro ($20), Bolt ($25) |
+| **CAC** | ~€0 actuel | Distribution 100% organique PH + partage |
+| **LTV (estimé Pro)** | €180-600 | Retention 9-12 mois × ARPU |
+| **LTV/CAC** | N/A → très favorable si CAC reste ~€0 | |
+| **Payback Period** | < 1 mois (si CAC organique) | |
+| **Equipe (estimée)** | 2-5 personnes | Projet solo/micro-team typique |
+| **Rev/Employee** | N/A → potentiel €1M+ si Pro lancé | |
+| **Rule of 40** | Non applicable (pré-revenus) | |
 
-**Sources comparables** : 11x.ai (raised $24M), Artisan AI (raised $11M), AiSDR, Aire.
-**Verdict santé** : 🟡 Trop tôt pour juger. Sains fondamentaux (LTV/CAC estimé correct) mais burn voice AI infra est élevé. Watch closely Q4 2026.
+### Verdict Santé 🟡
+**JustVibe est en phase de croissance pure** — zéro revenu, croissance explosive. Le modèle économique à venir (API payante pour devs, Pro tier, ou partenariats embed) est crédible. Risque principal : les grands (Google, Perplexity) copient le concept. Runway dépend de levée de fonds non confirmée.
 
-**Signaux d'alarme à surveiller** : Pricing public non annoncé (risque freemium trap), concurrence Salesforce Agentforce qui pousse sur le même marché.
+**Comparable le plus proche** : Perplexity (€0 → €50M ARR en 18 mois via Pro + API). Si Lianghao Chen monétise avec la même playbook, JustVibe peut atteindre €5-20M ARR d'ici mi-2027.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | River /10 | JustVibe /10 | Miora /10 |
+
+| Dimension (poids) | JustVibe | Miora | River GTM |
 |---|---|---|---|
-| 📊 Market Size (20%) | **8** (B2B sales >$50B) | **7** (AI search large) | **7** (creative tools) |
-| ⚙️ Complexity inversé (15%) | **5** (voice AI complexe) | **6** (sandbox + LLM) | **2** (multi-agent multimodal) |
-| ⏱️ Time-to-Market (15%) | **6** (2-3 mois si stack voice existante) | **5** (3-4 mois) | **2** (12+ mois) |
-| 🏟️ Competition inversé (15%) | **5** (Artisan, 11x, Salesforce Agentforce) | **4** (OpenAI/Perplexity imminents) | **4** (Canva, Adobe) |
-| 💰 Revenue Potential (20%) | **8** (B2B SaaS $1K+/mo) | **4** (gratuit, monétisation floue) | **7** (agences créatives) |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **9** (voice AI expert, réseau SaaS) | **5** (ML/search distant) | **3** (créatif, hors scope) |
-| **Score pondéré** | **🟡 6.55** | **🟠 5.20** | **🔴 4.10** |
-| **Verdict** | 🟡 BUILD ADJACENT | 🟠 WATCH | 🔴 SKIP |
+| 📊 Market Size (20%) | 9 — Search = €100B+ | 8 — Creative tools = €20B+ | 7 — AI Sales = €5-15B |
+| ⚙️ Complexité inversée (15%) | 4 — LLM sandbox difficile | 2 — Multi-agent + vidéo lourd | 7 — Voice+LLM = faisable |
+| ⏱️ Time-to-Market (15%) | 4 — 3-6 mois MVP | 2 — 8-12 mois minimum | 8 — 6-10 semaines MVP |
+| 🏟️ Compétition inversée (15%) | 5 — Google/Perplexity arrivent | 5 — Adobe Firefly, Canva, etc. | 8 — Niche très peu peuplée |
+| 💰 Revenue Potential (20%) | 7 — Massif mais pré-revenus | 7 — Freemium → Pro scalable | 9 — B2B SaaS ticket élevé |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 5 — ML/Search = pas son cœur | 3 — Creative = hors zone | 9 — Voice AI + SaaS = bullseye |
 
-**Calculs détaillés** :
-- River : (8×.20)+(5×.15)+(6×.15)+(5×.15)+(8×.20)+(9×.15) = 1.6+0.75+0.9+0.75+1.6+1.35 = **6.95** → 🟡 BUILD ADJACENT
-- JustVibe : (7×.20)+(6×.15)+(5×.15)+(4×.15)+(4×.20)+(5×.15) = 1.4+0.9+0.75+0.6+0.8+0.75 = **5.20** → 🟠 WATCH
-- Miora : (7×.20)+(2×.15)+(2×.15)+(4×.15)+(7×.20)+(3×.15) = 1.4+0.3+0.3+0.6+1.4+0.45 = **4.45** → 🔴 SKIP
+### Scores Pondérés
 
-**Recommandation clé** : River à 6.95 est le seul candidate BUILD ADJACENT. L'angle pour Kyle : ne pas répliquer River, mais builder un **vertical voice AI sales agent ciblé** (ex: immo, fintech, santé) où River ne peut pas aller avec un produit généraliste.
+| App | Score /10 | Verdict |
+|---|---|---|
+| **JustVibe** | **(9×0.20)+(4×0.15)+(4×0.15)+(5×0.15)+(7×0.20)+(5×0.15) = 6.20** | 🟡 BUILD ADJACENT |
+| **Miora** | **(8×0.20)+(2×0.15)+(2×0.15)+(5×0.15)+(7×0.20)+(3×0.15) = 5.05** | 🟠 WATCH |
+| **River GTM** | **(7×0.20)+(7×0.15)+(8×0.15)+(8×0.15)+(9×0.20)+(9×0.15) = **7.95**** | 🟢 BUILD NOW |
 
 ## 📈 Tendances Émergentes
-### 1. 🤖 L'agent prend le téléphone (Voice AI Sales)
-River n'est pas isolé. 11x.ai, Artisan, AiSDR — tous convergent vers l'idée qu'un AE AI peut closer des deals. La semaine Vercel Day a boosté la catégorie "AI Audio/Sales" sur PH. Signal fort : Salesforce Agentforce devient grand public → le marché est validé, la niche reste à prendre.
 
-### 2. 🔍 Search → Do (Zero-Click Apps)
-JustVibe incarne un shift : les utilisateurs ne veulent plus de liens. Ils veulent de l'action. Perplexity a commencé, JustVibe va plus loin. OpenAI va certainement lancer quelque chose de similaire dans SearchGPT. Fenêtre courte pour les challengers.
+1. **Search → Do** : JustVibe symbolise un pivot majeur — on ne cherche plus d'infos, on déclenche des actions. Les moteurs de recherche deviennent des moteurs d'exécution.
 
-### 3. 🎨 Canvas IA Unifié (Memory + Multimodal)
-Miora (Tencent), mais aussi Figma AI, Framer Agents (lancé Vercel Day également) — tous poussent vers un canvas unique. La tendance "memory-as-editable-rules" de Miora est une UX breakthrough à surveiller pour tout produit AI.
+2. **Agent Memory as a Moat** : Miora et d'autres misent sur la mémoire persistante comme avantage concurrentiel. La vraie différenciation n'est plus le modèle IA, mais la continuité contextuelle.
 
-### 4. ⚡ Vercel Day = Nouveau Product Hunt pour Dev Tools
-Le contest Vercel Day a propulsé River, Framer AI, et Glaze by Raycast en tête de PH simultanément. Pattern à mémoriser : les "platform days" (Vercel Day, Stripe Sessions, GitHub Universe) sont désormais des launches events premium pour les startups AI. S'y plugger = distribution garantie.
+3. **AI Sales Workers mainstream** : River GTM, Clay, Apollo IA — le poste d'AE humain est challengé. Les outils IA de closing (pas juste de prospection) émergent fortement en 2026.
 
-### 5. 📦 GitHub Trending : Open-Source AI Agent Infra
-Les repos les plus étoilés du moment : Orca/herdr (coordination agents), OpenClaw (AI personnel local), Langflow/Dify/Flowise (visual AI builder). Signal : l'infra pour builder des agents se commoditise rapidement → les moats seront sur la verticale et l'expérience utilisateur, pas la techno.
+4. **Vibe Coding Economy** : Lovable à $500M ARR, Bolt croissant → l'écosystème "code sans coder" génère des milliards. JustVibe est la couche consumer par-dessus.
 
-## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions concrètes cette semaine
+5. **Open Source comme stratégie d'acquisition** : OpenClaw (acquis OpenAI) → GitHub trending comme canal de distribution marketing. 210K stars = zéro budget pub.
 
-**1. Analyse River en profondeur (priorité #1)**
-- Teste River en tant que prospect fictif d'une démo
-- Identifie les lacunes : gestion d'objections industrie-spécifiques ? Intégration CRM ? Latence voice ?
-- Ces lacunes = ton opportunité de verticaliser
+6. **Solo Founder Renaissance** : Reddit génère 3-8x plus de signups que PH pour les indie hackers. Les fondateurs solo à €10K-200K MRR se multiplient grâce aux AI coding tools.
 
-**2. Valide le marché vocal B2B en 48h**
-- Poste sur LinkedIn/Twitter : "Votre équipe sales utilise un AI pour closer des deals ? Répondez"
-- 5 appels discovery avec directeurs commerciaux PME (immo, fintech, SaaS)
-- Question clé : "Combien paieriez-vous pour ne jamais perdre un lead faute de disponibilité ?"
+## 💡 Insights Actionnables pour Kyle
 
-**3. Benchmark concurrents directs de River**
-- 11x.ai · Artisan AI · AiSDR · Aire · Regie.ai
-- Matrice : pricing / démo quality / CRM integration / latence / verticaux couverts
-- Trouve le gap non couvert → c'est ta beachhead
+### 🔴 Action Prioritaire : Cloner River GTM sur une niche verticale
 
-**4. JustVibe : surveiller, ne pas builder**
-- Modèle gratuit sans monétisation = piège. Mais l'UX "zero-click search" va influencer tous les produits AI. Intégrer cette UX logic dans tes produits voice AI.
+River GTM prouve que les "AI account executives" sont un marché réel et peu saturé. Kyle a l'expertise voice AI + SaaS pour construire la version niche en 6-10 semaines :
 
-**5. Miora : pattern mémoire à voler**
-- "Memory-as-editable-rules" est une UX brillante que tu peux adapter pour un voice AI agent : l'utilisateur voit et édite les règles de comportement de son agent → sentiment de contrôle → rétention.
+**Niche recommandée** : Agent vocal d'onboarding/renouvellement pour SaaS B2B français
+- Le marché FR/EU est sous-adressé (River GTM est US-centré)
+- Ticket potentiel : €500-1500/mois par client
+- Distribution : LinkedIn + partenariats intégrateurs CRM
+- Différenciation : voix naturelle en français + conformité RGPD
 
-**6. Participer à la prochaine plateforme event**
-- GitHub Universe (oct 2026), Vercel Day suivant → prépare un launch timing autour de ces events pour maximiser la distribution organique.
+### 🟡 Signal à surveiller : JustVibe Pro
 
-### 📌 KPIs à suivre
-| Signal | Outil | Fréquence |
-|---|---|---|
-| River levée de fonds | Crunchbase | Hebdo |
-| 11x.ai / Artisan pricing change | Leurs sites | Bi-mensuel |
-| JustVibe monétisation annonce | PH / Twitter | Alert |
-| GitHub stars OpenClaw / Langflow | Star-history.com | Mensuel |
+Quand JustVibe annonce son tier Pro (probable Q4 2026), noter le pricing et le positionnement. Opportunité de "JustVibe for Voice" : requête → agent vocal fonctionnel instantané. Kyle pourrait être le premier à ce croisement.
+
+### 📌 Framework à réutiliser : "Memory Layer" de Miora
+
+La mémoire de style/marque persistante de Miora est extractable. Dans le contexte voice AI : "Brand Voice Memory" — une API qui stocke la tonalité, le vocabulaire, les objections d'une entreprise, et injecte ce contexte dans chaque appel de l'agent vocal. C'est un SaaS API-first de niche.
+
+### ⚡ Quick Win : Reddit comme canal de distribution
+
+Reddit génère 3-8x plus de leads que PH pour les indie hackers. Kyle devrait poster dans r/SaaS et r/AIagents avec des démos de son produit vocal → traction organique sans budget pub.
+
+---
+*Sources principales : [Product Hunt Leaderboard July 2026](https://www.producthunt.com/leaderboard/monthly/2026/7) · [JustVibe PH](https://www.producthunt.com/products/justvibe) · [Miora PH](https://www.producthunt.com/products/miora-2) · [RiverGTM](https://www.rivergtm.com) · [BestOfShowHN July 2026](https://bestofshowhn.com/2026/7) · [OpenClaw stats](https://www.getpanto.ai/blog/openclaw-ai-platform-statistics)*
