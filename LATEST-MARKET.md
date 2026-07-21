@@ -1,195 +1,216 @@
-# 🔥 Market Scan — 2026-07-20
+# 🔥 Market Scan — 2026-07-21
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : AgentKey
-- Opportunités immédiates (BUILD NOW) : 1
+- Top potentiel : Wispr Flow (Voice AI OS)
+- Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : AgentKey
+## 🏆 TOP APP #1 : Wispr Flow
 ### 1. Identification
-- **Nom** : AgentKey — [agentkey.app](https://agentkey.app)
-- **Launch** : 13 juillet 2026 — #1 Product Hunt du jour
-- **Fondateurs** : Chainbase Labs (blockchain data infra)
-- **Catégorie** : AI Agent Infrastructure / Live Data Marketplace
-- **Métriques buzz** : #1 PH jour, relayé KuCoin, GitHub open-source (agentkey-dev/agentkey)
+- **URL** : [wisprflow.ai](https://wisprflow.ai) | Lancé : 2023, explosion 2025-2026
+- **Fondateurs** : Tanay Dixit, Sahaj Garg (ex-Google Brain, ex-Meta AI)
+- **Catégorie** : Voice AI / Dictation OS
+- **Métriques** : 2.5M téléchargements, 40% MoM growth, 270 Fortune 500 clients, $2B valuation (mai 2026)
+- **Funding** : $315M total — Series B de $260M (Menlo Ventures, 2026)
+- **Buzz** : #1 Product Hunt juillet 2026, couverture TechCrunch/Forbes post-levée
 
-### 2. Proposition de Valeur
-- **Problème** : Les agents IA raisonnent bien mais sont aveugles au web en temps réel (pas d'accès live aux APIs sociales, financières, on-chain)
-- **Solution** : Un plugin MCP unique (une install, une clé) qui expose ~1 800 outils en 8 catégories : web, réseaux sociaux, finance, e-commerce, crypto, business data
-- **USP** : Zéro gestion d'APIs tierces, zéro multi-abonnements — un seul endpoint, coût à l'usage
-- **Target** : Développeurs d'agents IA (Claude Code, Codex, OpenClaw, tout MCP-compatible)
-- **Pricing** : Usage-based (fractions de centime/requête) + abonnement mensuel credit pool
+### 2. Proposition de valeur
+- **Problème** : Taper est lent et douloureux pour les knowledge workers — 40 mots/min vs 150+ en dictée
+- **Solution** : Dictée vocale IA universelle sur Mac/Windows/iOS/Android, apprend ton style, fonctionne dans toute app
+- **USP** : Pas juste STT — le modèle réécrit en ton style personnel, avec auto-édits et command mode vocal
+- **Target** : Executives, consultants, avocats, médecins, développeurs
+- **Pricing** : Freemium (2K mots/sem) → Pro $12/mo (annuel) → Enterprise (contact)
 
-### 3. Stack Technique
-- **Frontend** : Web dashboard (React probable)
-- **Backend** : Node.js/TypeScript, architecture MCP-server
-- **Infra** : Chainbase (blockchain data), APIs agrégées, sandbox sécurisé
-- **APIs** : X/Twitter, Reddit, YouTube, Binance, web search, data e-commerce…
+### 3. Stack technique
+- Frontend : Electron (Mac/Windows), React Native (iOS/Android)
+- Backend : Modèles propriétaires fine-tunés sur chaque utilisateur (personalization layer)
+- Infra : AWS, modèles hébergés privément (Privacy Mode = zero data retention)
+- APIs : Intégrations natives keyboard-level (intercepte toutes les text inputs)
 
 ### 4. Psychologie
-- **Trigger principal** : Frustration (agents puissants mais borgnes) → soulagement immédiat
-- **JTBD** : "Quand je code un agent, je veux qu'il voie le web comme moi"
-- **Aha moment** : Première requête live qui retourne des données réelles en <500ms
-- **Social proof** : #1 PH, +mentions Hacker News, adoption visible dans la communauté Claude Code
+- **Triggers** : Autorité (270 Fortune 500), social proof (2.5M users), urgence (freemium limité)
+- **JTBD** : "Je veux écrire 3x plus vite sans effort cognitif supplémentaire"
+- **Aha moment** : Première dictée dans Slack/Gmail où ça écrit mieux que ce qu'on aurait tapé
+- **Retention hook** : Le modèle apprend ton style → switching cost énorme après 2 semaines
 
-### 5. Go-to-Market
-- **Canal principal** : Developer community (Product Hunt, HN, Discord Claude/Cursor)
-- **Viral loop** : Chaque agent qui consomme AgentKey génère des logs publics → cas d'usage → nouveau dev
-- **Stratégie** : Open-source core (governance) + SaaS monétisé (data credits)
-- **Distribution** : Marketplace MCP Claude + Cursor extensions store
+### 5. Go-to-market
+- **Canaux** : Bouche-à-oreille (Slack/Teams montrent à leurs collègues), LinkedIn viral loops
+- **Launch** : PH + HN + presse tech à chaque levée, programme enterprise direct
+- **Viral loop** : "Powered by Wispr" watermark optionnel en version gratuite
 
-### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (agrégation APIs = travail de sape, mais architecture MCP bien documentée)
-- **Verticaux adjacents** : AgentKey Voice — données live pour agents vocaux (météo, stocks, agenda en temps réel)
-- **Angle Kyle** : Construire un "AgentKey vertical Voice AI" : 50-100 sources spécialisées call center/CRM/agenda — niche précise, moins de concurrence
-- **Temps de dev** : 3-4 mois MVP (2 devs)
+### 6. Réplication
+- **Complexité** : 7/10 (models fine-tuning par user, latence temps réel, multi-OS)
+- **Verticaux adjacents** : Voice-to-code (dictée de code), Voice CRM (notes de vente auto)
+- **Angle Kyle** : Kyle EST expert voice AI → build le Wispr vertical pour les équipes commerciales FR/EU
+- **Temps de dev** : 3-4 mois MVP (whisper.cpp + GPT-4o + Electron wrapper)
 
-## 🏆 TOP APP #2 : JustVibe
+## 🏆 TOP APP #2 : Strix
 ### 1. Identification
-- **Nom** : JustVibe — [justvibe.com](https://justvibe.com)
-- **Launch** : Juillet 2026 — #1 PH du jour (462 upvotes), #8 leaderboard semaine 28
-- **Fondateurs** : Lianghao Chen (ex-ML Lead Pinterest & The Yes)
-- **Catégorie** : AI Search / No-Code App Generation
-- **Métriques buzz** : 462 upvotes PH, #8 semaine, articles Daily AI World, Dynamic Business
+- **URL** : [strix.ai](https://www.strix.ai) | GitHub : [usestrix/strix](https://github.com/usestrix/strix)
+- **Lancé** : Début 2026 — explosion début juillet 2026 (#1 GitHub Trending le 3 juillet)
+- **Catégorie** : AI Security / Pentesting autonome
+- **Métriques** : 39.4K GitHub stars, 4K forks, +7-10K stars/semaine en juillet 2026
+- **Funding** : Open-source (non confirmé), cloud payant en cours
 
-### 2. Proposition de Valeur
-- **Problème** : La recherche web retourne des liens — pas des outils. Planifier un voyage = 12 onglets ouverts.
-- **Solution** : Saisissez une requête → JustVibe génère une app interactive fonctionnelle directement dans le navigateur (trip planner, scheduler, simulateur…)
-- **USP** : Gratuit, sans compte, apps persistantes ("forever yours"), 12 catégories, live data (prix hôtels, cours boursiers)
-- **Target** : Grand public non-technique, early adopters "vibe coders"
-- **Pricing** : 100% gratuit (modèle freemium futur supposé, monétisation via Gemini API cost + ads éventuels)
+### 2. Proposition de valeur
+- **Problème** : Les scanners legacy (Burp Suite, OWASP ZAP) noient les équipes en faux positifs
+- **Solution** : Agent IA autonome qui fait du vrai pentest — chain exploits, valide chaque vuln avec PoC, génère des patchs
+- **USP** : Agit comme un red teamer humain, pas juste un scanner → 0 faux positif non validé
+- **Target** : Security engineers, startups, DevSecOps teams
+- **Pricing** : Open-source CLI gratuit → Cloud Pro (à venir, estimé $49-99/mo)
 
-### 3. Stack Technique
-- **Frontend** : Sandbox navigateur (iframe sécurisé), React probable
-- **Backend** : Google Gemini (génération code/UI), sandboxed execution
-- **Infra** : Google Cloud (partenariat Gemini implicite)
-- **APIs** : Live data fetching pour prix/stocks/météo en temps réel
+### 3. Stack technique
+- Frontend : CLI + TUI terminal
+- Backend : Multi-agents (orchestrateur LLM + agents spécialisés par vecteur d'attaque)
+- Infra : Local par défaut, HTTP proxy intégré, browser exploitation via Playwright
+- APIs : Intégration CI/CD (GitHub Actions, GitLab), Python sandbox pour PoC execution
 
 ### 4. Psychologie
-- **Trigger** : Magie instantanée — voir une app naître en secondes depuis une phrase
-- **JTBD** : "Quand j'ai besoin d'un outil spécifique, je veux le voir apparaître sans coder"
-- **Aha moment** : Premier résultat interactif (trip planner Tokyo personnalisé en <10s)
-- **Viral loop** : Partage de l'app générée = recrutement passif d'utilisateurs
+- **Triggers** : FOMO sécurité ("vous avez des vulns non détectées"), autorité (PoC = preuve réelle)
+- **JTBD** : "Trouver et fixer mes vulns AVANT les hackers, sans embaucher un expert"
+- **Aha moment** : Premier rapport avec exploit validé + patch généré en < 10 minutes
+- **Viral loop** : Les stars GitHub → presse sécu → plus d'entreprises → case studies → plus de stars
 
-### 5. Go-to-Market
-- **Canal principal** : Product Hunt + Twitter viralité (demos visuelles)
-- **Stratégie** : "Never click a link again" (newsletter PH) — message anti-Google percutant
-- **Viral loop** : Chaque app partagée porte l'URL justvibe.com → new users
-- **Différenciation** : Vs Perplexity (liens) / ChatGPT (texte) → JustVibe = expérience
+### 5. Go-to-market
+- **Canaux** : GitHub Trending organique, Reddit r/netsec, conférences sécu (DEF CON, Black Hat)
+- **Launch** : Open-source first → social proof massif → monétisation cloud
+- **Viralité** : Les CVE discoveries partagées sur Twitter amplifient massivement
 
-### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (sandboxed execution + LLM fiable = difficile à parfaire)
-- **Verticaux adjacents** : "VoiceVibe" — requête vocale → app interactive générée en temps réel
-- **Angle Kyle** : Combiner voice AI + génération d'app : l'utilisateur parle, une app apparaît. Différenciateur fort vs interfaces texte.
-- **Temps de dev** : 4-6 mois MVP (nécessite partenariat LLM solide)
+### 6. Réplication
+- **Complexité** : 8/10 (orchestration multi-agents, exploitation sécurisée, sandboxing)
+- **Verticaux adjacents** : Pentest vocal (audit des voice bots), API Security Scanner
+- **Angle Kyle** : Moins direct — mais un "Strix pour Voice AI APIs" (audit des intégrations vocales) pourrait être niche
+- **Temps de dev** : 6-8 mois pour un MVP crédible (exige expertise sécu réelle)
 
 ## 🏆 TOP APP #3 : OpenKnowledge
 ### 1. Identification
-- **Nom** : OpenKnowledge — [GitHub: open-knowledge](https://github.com/inkeep/open-knowledge)
-- **Launch** : 27 juin 2026 (Show HN), article TechTimes 28 juin 2026
-- **Fondateurs** : Inkeep (YC-backed, documentation AI startup)
-- **Catégorie** : Knowledge Management / AI-First Editor
-- **Métriques buzz** : ~1 856 GitHub stars au 5 juillet 2026, Show HN notable
+- **URL** : [GitHub openknowledge](https://github.com/inkeep/openknowledge) | Par [Inkeep](https://inkeep.com) (YC-backed)
+- **Lancé** : 27 juin 2026 — viral semaine du 30 juin
+- **Catégorie** : AI Knowledge Management / Second Brain
+- **Métriques** : 1,856 GitHub stars (J+8), 1.4K signups en 24h, #1 PH + HN au lancement
+- **Funding** : Open-source, Inkeep levé ~$5-10M (YC + angels)
 
-### 2. Proposition de Valeur
-- **Problème** : Obsidian manque d'un vrai WYSIWYG + intégration native Claude/Codex. Notion = propriétaire et cher.
-- **Solution** : Éditeur markdown WYSIWYG local, GPL-3.0, avec Claude Code / Codex / Cursor intégrés nativement + CLI agents
-- **USP** : 100% local first, open-source, synchronisation CRDT (yjs + ProseMirror), graph viewer, terminal UI intégré
-- **Target** : Développeurs, solo founders, knowledge workers qui travaillent avec des agents IA
-- **Pricing** : Gratuit (open-source GPL-3.0) — modèle de monétisation : Inkeep cloud hosting
+### 2. Proposition de valeur
+- **Problème** : Obsidian manque d'IA native; Notion est cloud-only et lent pour devs avec agents IA
+- **Solution** : Éditeur markdown WYSIWYG local-first avec intégrations MCP natives (Claude Code, Codex, Cursor)
+- **USP** : Dual-observer CRDT (WYSIWYG + raw markdown en sync temps réel), GPL-3.0, 100% local
+- **Target** : Développeurs, AI builders, knowledge workers techniques
+- **Pricing** : Gratuit open-source (GPL-3.0) → futur SaaS cloud/sync probable
 
-### 3. Stack Technique
-- **Frontend** : TypeScript, ProseMirror (WYSIWYG), yjs CRDT
-- **Backend** : Local-first (filesystem), CLI, macOS app + web UI
-- **IA intégrée** : Claude Code MCP, OpenAI Codex, Cursor — via plugin natif
-- **Licence** : GPL-3.0
+### 3. Stack technique
+- Frontend : Electron + yjs CRDT pour sync temps réel
+- Backend : Local files (pas de serveur requis)
+- Infra : Local-first, partage team via MCP server
+- APIs : Claude Code MCP, OpenAI Codex, Cursor — intégrations first-party
 
 ### 4. Psychologie
-- **Trigger** : Frustration Obsidian (plugins bricolés) + ras-le-bol Notion (pricing, cloud)
-- **JTBD** : "Quand je gère ma base de connaissances, je veux que mon agent IA puisse lire/écrire dedans directement"
-- **Aha moment** : Premier agent qui écrit dans vos notes localement, en temps réel
-- **Communauté** : HN + dev Twitter + r/Obsidian migration
+- **Triggers** : Open-source (confiance), local-first (privacy), intégrations IA natives (FOMO)
+- **JTBD** : "Je veux un second brain qui collabore avec mes agents IA sans quitter mon terminal"
+- **Aha moment** : Première note écrite via Claude Code directement dans l'éditeur via MCP
+- **Retention hook** : Tes fichiers locaux = ton data → pas de lock-in → trust élevé
 
-### 5. Go-to-Market
-- **Canal principal** : Show HN + GitHub stars organique + YC network (Inkeep)
-- **Stratégie** : Open-source pour l'adoption, cloud Inkeep pour la monétisation
-- **Viral loop** : Chaque template partagé = lien GitHub → étoile → visibility
-- **Distribution** : Obsidian community, r/PKM, dev newsletters
+### 5. Go-to-market
+- **Canaux** : HN Show + Product Hunt + Twitter dev community
+- **Launch** : YC network + Inkeep blog + repos GitHub des fondateurs
+- **Viral loop** : Contributions open-source → GitHub stars → presse tech → nouvelles contributions
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (stack connue TS + ProseMirror, mais CRDT = complexité)
-- **Verticaux adjacents** : Voice Knowledge Base — dicter ses notes, agent les structure automatiquement
-- **Angle Kyle** : Intégrer voice AI dans OpenKnowledge ou fork — "parlez, votre second cerveau se met à jour"
-- **Temps de dev** : 2-3 mois pour un fork vertical (déjà open-source)
+### 6. Réplication
+- **Complexité** : 5/10 (CRDT est le seul vrai défi technique)
+- **Verticaux adjacents** : CRM vocal local-first, Documentation AI pour équipes SaaS
+- **Angle Kyle** : "Voice Notes pour agents IA" — notes dictées → enrichies par agents → partagées via MCP
+- **Temps de dev** : 6-8 semaines pour un fork ciblé vertical
 
-## 💰 Unit Economics Deep Dive — AgentKey
-*Sources : Blog Chainbase, agentkey.app/pricing, GitHub chainbase-labs/Agentkey, KuCoin article*
-*Données publiques limitées (J+7 post-launch) — estimations fondées sur analogues MCP marketplace*
+## 💰 Unit Economics Deep Dive — Wispr Flow
+*Sources : Latka, Tracxn, LinkedIn headcount, SimilarWeb, presse*
 
-| Métrique | Estimation | Confiance |
+| Métrique | Valeur estimée | Confiance |
 |---|---|---|
-| **ARR** | ~$120K–$360K (J+90 projeté) | 🟡 Faible |
-| **ARPU** | ~$29–$99/mois (dev solo à équipe) | 🟡 Moyen |
-| **Users actifs** | ~500–2 000 devs (J+7) | 🟡 Faible |
-| **CAC** | ~$0 (PH viral, dev word-of-mouth) | 🟢 Élevé |
-| **LTV** | ~$350–$1 200 (12-24 mois rétention dev) | 🟡 Moyen |
-| **LTV/CAC** | >10x estimé (CAC proche de zéro) | 🟢 Excellent |
-| **Payback** | <1 mois | 🟢 Excellent |
-| **Burn** | Non public (Chainbase Labs financement crypto) | ⚫ Inconnu |
-| **Runway** | Couvert par Chainbase (levée crypto antérieure) | 🟡 Moyen |
-| **Rev/Employee** | Non calculable (équipe non divulguée) | ⚫ Inconnu |
-| **Rule of 40** | Non applicable (trop tôt) | ⚫ — |
+| **ARR** | ~$25-50M | 🟡 moyen |
+| **Users payants** | ~80K-150K | 🟡 estimé |
+| **ARPU annuel** | ~$144-200 (Pro $12-15/mo) | 🟢 public |
+| **CAC** | ~$15-30 (PLG viral) | 🟡 estimé |
+| **LTV** | ~$250-400 (70% rétention 12mo) | 🟡 estimé |
+| **LTV/CAC** | ~10-15x | 🟢 excellent |
+| **Payback** | <3 mois | 🟢 excellent |
+| **Burn mensuel** | ~$3-5M (94 employees) | 🟡 estimé |
+| **Runway** | 50+ mois ($260M levés) | 🟢 solide |
+| **Rev/Employee** | ~$265K-530K | 🟢 très sain |
+| **Rule of 40** | ~50-70 (40% growth + ~15-20% margin) | 🟢 top tier |
 
-**⚠️ Biais crypto** : AgentKey est porté par Chainbase (data blockchain). Le modèle économique est hybride : revenus SaaS dev + potentiel token économie. Surveiller si un token est introduit (dégrade la thèse SaaS pure).
+**Verdict santé globale : 🟢 EXCELLENT**
+- LTV/CAC > 10x = croissance saine avec PLG
+- Retention 70% 12mo = produit habituellement utilisé
+- $2B valuation à ~$30-50M ARR = multiple 40-60x → bet sur le Voice OS futur
+- Risque : Apple/Google pourraient intégrer dictée native avancée
 
-**Verdict santé : 🟡 TROP TÔT** — métriques insuffisantes à J+7. Recheck dans 60 jours.
+**Hypothèses** : 2.5M downloads, ~5-8% conversion freemium→payant (typique PLG), churn mensuel ~2.5%
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | AgentKey | JustVibe | OpenKnowledge |
+| Dimension (poids) | Wispr Flow | Strix | OpenKnowledge |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — marché AI infra >$10B | 9 — search = marché massif | 6 — PKM niché mais croissant |
-| ⚙️ Complexité inv. (15%) | 4 — 1 800 APIs à agréger | 3 — sandbox + LLM fiable dur | 6 — fork open-source possible |
-| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois MVP | 4 — 4-6 mois, dépend LLM | 7 — 2-3 mois (fork) |
-| 🏟️ Compétition inv. (15%) | 6 — quelques concurrents (Composio, Zapier AI) | 5 — Perplexity, ChatGPT, Google | 7 — Obsidian / Notion ne bougent pas vite |
-| 💰 Rev. Potential (20%) | 8 — $50-100K MRR réaliste à 12 mois | 5 — gratuit → monétisation floue | 6 — open-source = rev. indirecte |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — voice AI agents + données live = fit parfait | 7 — voice query + app gen = innovation | 6 — knowledge mgmt utile mais périphérique |
-| **Score pondéré** | **6.75** | **5.50** | **6.30** |
-| **Verdict** | 🟡 BUILD ADJACENT | 🟠 WATCH | 🟡 BUILD ADJACENT |
+| 📊 Market Size (20%) | 9 — >$1B (Voice AI global) | 8 — Cybersec $300B+ | 7 — PKM/Notes $5B |
+| ⚙️ Complexité inv. (15%) | 4 — Fine-tuning par user | 3 — Multi-agent sécu | 7 — CRDT + local |
+| ⏱️ Time-to-Market (15%) | 3 — 3-4 mois min | 2 — 6-8 mois + expertise | 7 — 6-8 semaines |
+| 🏟️ Compétition inv. (15%) | 4 — Marché qui se forme (Superwhisper, Otter) | 5 — Peu d'AI-native (Burp monopole) | 6 — Niche devs AI encore vide |
+| 💰 Revenue Potential (20%) | 8 — >€50K MRR atteignable (vertical enterprise) | 6 — Monétisation lente open-source | 5 — Freemium difficile à convertir |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI + réseau FR/EU | 4 — Exige expertise sécu | 7 — AI builder, bonne fit |
+| **Score pondéré** | **6.6** | **4.4** | **6.5** |
+| **Verdict** | 🟡 BUILD ADJACENT | 🔴 SKIP | 🟡 BUILD ADJACENT |
 
-### Recommandation
-**AgentKey** est l'opportunité la plus solide pour Kyle : construire un MCP marketplace vertical "Voice AI Data" (CRM, agenda, real-time call data) répond à un besoin existant dans l'écosystème vocal qu'AgentKey ne couvre pas encore spécifiquement.
+**Calculs détaillés :**
+- Wispr : (9×0.20)+(4×0.15)+(3×0.15)+(4×0.15)+(8×0.20)+(10×0.15) = 1.8+0.6+0.45+0.6+1.6+1.5 = **6.55**
+- Strix : (8×0.20)+(3×0.15)+(2×0.15)+(5×0.15)+(6×0.20)+(4×0.15) = 1.6+0.45+0.3+0.75+1.2+0.6 = **4.90**
+- OpenKnowledge : (7×0.20)+(7×0.15)+(7×0.15)+(6×0.15)+(5×0.20)+(7×0.15) = 1.4+1.05+1.05+0.9+1.0+1.05 = **6.45**
 
-**OpenKnowledge** offre un chemin plus rapide (fork) vers une niche voice-first knowledge base.
-
-**JustVibe** est à surveiller : si leur modèle de monétisation émerge, la verticale "voice → app" devient très attractive.
+> **Note** : Aucune app ne score BUILD NOW seule — mais la **combinaison** Voice AI (Kyle) + distribution verticale FR = BUILD NOW imminent.
 
 ## 📈 Tendances Émergentes
-1. **MCP devient le standard d'interopérabilité agents** : AgentKey, Grok Build, OpenKnowledge — tous s'appuient sur MCP. Le protocole Anthropic s'impose comme le "USB des agents IA". Implication : construire MCP-first = distribution gratuite.
+### 1. Voice AI → Voice OS (Signal fort 🔴)
+Wispr Flow n'est plus un "dictation app" — les investisseurs le pitchent comme **Voice OS**, la couche d'interface entre l'humain et ses apps. Précédent : clavier → touch → voice. Le timing est maintenant (modèles STT sub-100ms, LLMs de style).
 
-2. **Shift de la recherche vers l'action** : JustVibe incarne le passage de "lire des résultats" à "interagir avec des outils". Google est challengé non par un meilleur moteur de recherche mais par une interface radicalement différente.
+### 2. Agents IA = Nouvelle catégorie de sécu (Signal fort 🔴)
+Strix est le signe que les agents autonomes attaquent les marchés "reserved experts only". Pentest était $500/h consultants → maintenant CLI à $49/mo. Pattern réplicable : **toute profession avec un processus répétitif et technique**.
 
-3. **Agents verticaux > agents généralistes** : GitHub Trending montre Strix (pentest), Vibe-Trading (finance), et AgentKey (data). Les agents spécialisés captent de la traction là où les généralistes saturent.
+### 3. Local-first + AI-native = nouvelle génération d'outils dev (Signal moyen 🟡)
+OpenKnowledge représente une tendance : les devs veulent leurs données locales ET des agents IA dessus. Le cloud SaaS est challengé par local-first + MCP. Opportunité pour des outils verticaux (CRM local-first, docs techniques IA-native).
 
-4. **Open-source comme acquisition channel** : OpenKnowledge (GPL-3), AgentKey (core open-source), Strix — tous parient sur GitHub stars → communauté → SaaS premium. C'est le nouveau PLG (Product-Led Growth).
+### 4. Open-source → traction → monétisation cloud (Pattern dominant)
+Strix et OpenKnowledge suivent le même playbook : open-source pour la viralité GitHub → cloud payant pour la rétention. Ce pattern bat le B2C pur pour les outils techniques.
 
-5. **Voice AI + Action** : L'écosystème voice AI est mûr pour la jonction avec les agents actifs. Les pièces existent (voice recognition, LLM, MCP) mais personne n'a encore packagé "je parle → l'agent agit dans mes outils". Fenêtre d'opportunité ouverte ~12 mois.
+### 5. Founder-market fit > idea-market fit (Meta-tendance)
+Les 3 apps de ce scan ont des fondateurs qui VIVENT le problème. Wispr = chercheurs ML qui détestaient taper. Strix = ex-pentesters. OpenKnowledge = équipe Inkeep qui vit dans la doc. La leçon : le domaine d'expertise > l'idée originale.
 
 ## 💡 Insights Actionnables
-### Pour Kyle — Actions classées par urgence
+### 🎯 Pour Kyle — Actions immédiates
 
-**🔴 Cette semaine**
-- Tester AgentKey (install MCP dans Claude Code) : comprendre le DX, identifier les gaps voice AI
-- Star + fork OpenKnowledge : évaluer si un fork "voice-first" est réalisable en sprint
+**#1 — BUILD : "Wispr Flow pour Sales Teams FR/EU" (priorité maximale)**
+- Wispr Flow est à $2B valuation mais ignore le marché francophone et les verticaux sales/CRM
+- Kyle a l'expertise voice AI + le réseau → avantage compétitif réel
+- MVP : dictée vocale → note CRM auto-structurée (Hubspot/Pipedrive) + résumé email
+- Stack : Whisper.cpp + GPT-4o + Electron + intégration Hubspot API
+- Délai : 6-8 semaines pour un beta, 3 mois pour un SaaS vendable
+- Pricing cible : €29/mo/user enterprise → €1K+ MRR avec 35 users = viable
 
-**🟡 Ce mois**
-- Sketcher "AgentKey Voice" : un MCP vertical avec 30-50 sources critiques pour agents vocaux (Calendly, HubSpot, Twilio, météo, agenda) — valider la demande en 3 tweets #buildinpublic
-- Mapper les intégrations JustVibe manquantes pour le marché voice : si leur API devient publique, pivoter dessus
+**#2 — MONITOR : Strix (ne pas builder, mais surveiller)**
+- Trop complexe pour Kyle seul, mais le pattern "agent IA qui remplace l'expert" est à reproduire
+- Question à se poser : "Quel processus expert en voice AI / SaaS peut être automatisé ainsi ?"
+- Exemple : audit automatique de chatbots vocaux (conformité, qualité, hallucinations) → agent Strix-like
 
-**🟢 Dans 60-90 jours**
-- MVP "Voice Data Connector" : un MCP server qui donne aux agents vocaux accès au CRM + agenda + call logs en temps réel — pricing $29-99/mois
-- Recheck AgentKey métriques (users, MRR public, GitHub stars) : décision BUILD ou WATCH
+**#3 — INSPIRATION : Adopter le playbook open-source d'OpenKnowledge**
+- Si Kyle lance un nouvel outil dev, considérer open-source pour traction initiale + cloud payant
+- La vitesse d'itération avec MCP (Claude Code + Cursor) est un accélérateur réel à intégrer
 
-### Signal à surveiller
-- AgentKey lève des fonds ou dépasse 5K GitHub stars → accélération de la catégorie = fenêtre se ferme
-- JustVibe annonce une API ou monétisation → opportunité voice query + instant app
-- Google ou Anthropic lance une fonctionnalité similaire à JustVibe nativement → category killer
+**#4 — SIGNAL MARCHÉ à surveiller**
+- Wispr Flow levée Series C ? → Signal que le marché voice AI est en train de se structurer → agir avant
+- Apple/Google copie Wispr ? → Moment de pivoter sur des verticaux enterprise FR (ils n'iront pas là)
+- Strix atteint 50K stars ? → Le pattern "agent sécu" sera répliqué dans tous les verticaux tech
+
+### 📌 Sources clés
+- [Wispr Flow funding](https://wisprflow.ai/new-funding)
+- [Wispr $2B valuation](https://weesperneonflow.ai/en/blog/2026-05-19-wispr-flow-2-billion-valuation-voice-ai-market-2026/)
+- [Strix GitHub](https://github.com/usestrix/strix)
+- [Strix growth teardown](https://www.coddykit.com/pages/blog-detail?id=512896)
+- [OpenKnowledge HN](https://news.ycombinator.com/item?id=48675435)
+- [OpenKnowledge vs Obsidian](https://andreihirvi.com/answers-openknowledge-vs-notion-vs-obsidian-ai-second-brain-founders/)
+- [Product Hunt July 2026](https://www.producthunt.com/leaderboard/monthly/2026/7)
+- [GitHub Trending July 2026](https://geekfence.com/top-10-trending-ai-github-repositories-in-july-2026/)
