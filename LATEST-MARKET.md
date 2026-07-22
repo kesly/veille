@@ -1,216 +1,205 @@
-# 🔥 Market Scan — 2026-07-21
+# 🔥 Market Scan — 2026-07-22
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Wispr Flow (Voice AI OS)
-- Opportunités immédiates (BUILD NOW) : 2
+- Apps analysées : 3 (AnySearch, OpenCut, Grok Build)
+- Top potentiel : AnySearch — infrastructure IA search B2B, #1 Product Hunt semaine
+- Opportunités immédiates (BUILD NOW) : AnySearch vertical voice AI (score préliminaire ~7.8)
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : AnySearch
+
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai) | Lancé : 2023, explosion 2025-2026
-- **Fondateurs** : Tanay Dixit, Sahaj Garg (ex-Google Brain, ex-Meta AI)
-- **Catégorie** : Voice AI / Dictation OS
-- **Métriques** : 2.5M téléchargements, 40% MoM growth, 270 Fortune 500 clients, $2B valuation (mai 2026)
-- **Funding** : $315M total — Series B de $260M (Menlo Ventures, 2026)
-- **Buzz** : #1 Product Hunt juillet 2026, couverture TechCrunch/Forbes post-levée
+- **Nom** : AnySearch | **URL** : anysearch.ai | **Launch** : 11 mai 2026
+- **Fondateurs** : Non-divulgués publiquement (startup YC-style, basée en Asie-Pacifique)
+- **Catégorie** : Infrastructure IA / API Search B2B
+- **Métriques buzz** : #1 Product Hunt Weekly (13 juillet 2026), couverture VentureBeat + Yahoo Finance + Morningstar, 100 000+ développeurs inscrits, 4 000+ GitHub Stars en premier mois
 
 ### 2. Proposition de valeur
-- **Problème** : Taper est lent et douloureux pour les knowledge workers — 40 mots/min vs 150+ en dictée
-- **Solution** : Dictée vocale IA universelle sur Mac/Windows/iOS/Android, apprend ton style, fonctionne dans toute app
-- **USP** : Pas juste STT — le modèle réécrit en ton style personnel, avec auto-édits et command mode vocal
-- **Target** : Executives, consultants, avocats, médecins, développeurs
-- **Pricing** : Freemium (2K mots/sem) → Pro $12/mo (annuel) → Enterprise (contact)
+- **Problème** : Les agents IA ne peuvent pas consommer les résultats de recherche traditionnels (HTML chaotique, liens sans structure, hallucinations sur sources périmées)
+- **Solution** : API search qui retourne du Markdown structuré, sourcé et vérifiable, directement ingestible par les LLM
+- **USP** : "The Search Infrastructure Your AI Can Trust" — fiabilité des sources + attribution + format agent-ready
+- **Target** : Développeurs & équipes IA qui buildent des agents, RAG pipelines, chatbots
+- **Pricing** : Freemium (1 000 appels/jour gratuit) → Pro + Enterprise (tarifs non publiés)
 
 ### 3. Stack technique
-- Frontend : Electron (Mac/Windows), React Native (iOS/Android)
-- Backend : Modèles propriétaires fine-tunés sur chaque utilisateur (personalization layer)
-- Infra : AWS, modèles hébergés privément (Privacy Mode = zero data retention)
-- APIs : Intégrations natives keyboard-level (intercepte toutes les text inputs)
+- API REST + SDK multilangage | Output Markdown structured | Sources : web crawl propre + partenariats data
+- Potentiellement similaire à Exa.ai ou Tavily mais avec focus "agent-native"
+- Infrastructure cloud (probablement AWS/GCP), CI/CD DevOps-first
 
 ### 4. Psychologie
-- **Triggers** : Autorité (270 Fortune 500), social proof (2.5M users), urgence (freemium limité)
-- **JTBD** : "Je veux écrire 3x plus vite sans effort cognitif supplémentaire"
-- **Aha moment** : Première dictée dans Slack/Gmail où ça écrit mieux que ce qu'on aurait tapé
-- **Retention hook** : Le modèle apprend ton style → switching cost énorme après 2 semaines
+- **Triggers** : Autorité (#1 PH), Social Proof (100K devs), Urgence implicite ("l'infra dont vos agents ont besoin maintenant")
+- **JTBD** : "Je veux que mon agent IA trouve des infos fiables sans que je code le parsing moi-même"
+- **Aha moment** : Premier appel API qui retourne un Markdown propre directement utilisable dans un prompt
 
 ### 5. Go-to-market
-- **Canaux** : Bouche-à-oreille (Slack/Teams montrent à leurs collègues), LinkedIn viral loops
-- **Launch** : PH + HN + presse tech à chaque levée, programme enterprise direct
-- **Viral loop** : "Powered by Wispr" watermark optionnel en version gratuite
+- **Canaux** : Developer-led (GitHub, HN, PH), content SEO technique, bouche-à-oreille devs
+- **Stratégie** : Freemium généreux → viral parmi devs → conversion Enterprise
+- **Viral loop** : Chaque app construite avec AnySearch = pub indirecte de l'infra
 
-### 6. Réplication
-- **Complexité** : 7/10 (models fine-tuning par user, latence temps réel, multi-OS)
-- **Verticaux adjacents** : Voice-to-code (dictée de code), Voice CRM (notes de vente auto)
-- **Angle Kyle** : Kyle EST expert voice AI → build le Wispr vertical pour les équipes commerciales FR/EU
-- **Temps de dev** : 3-4 mois MVP (whisper.cpp + GPT-4o + Electron wrapper)
+### 6. Réplication pour Kyle
+- **Complexité** : 7/10 — nécessite crawl infra + data partnerships + API robuste
+- **Verticaux adjacents** : Search infra voice-first (résultats audio-ready), search pour agents voice IA
+- **Angle Kyle** : Construire AnyVoiceSearch — même concept mais optimisé pour les agents voice (résumés courts, TTS-ready, latence <300ms)
+- **Temps dev** : 3-4 mois MVP avec partenaire data (Brave Search API + post-processing LLM)
 
-## 🏆 TOP APP #2 : Strix
+Sources : [VentureBeat](https://venturebeat.com/business/anysearch-tops-product-hunt-weekly-leaderboard-as-ai-search-infrastructure-gains-momentum) · [Norfolk Daily News](https://norfolkdailynews.com/online_features/press_releases/anysearch-tops-product-hunt-weekly-leaderboard-as-ai-search-infrastructure-gains-momentum/article_df2e12d6-555e-5118-969a-fad7702598d5.html)
+
+## 🏆 TOP APP #2 : OpenCut
+
 ### 1. Identification
-- **URL** : [strix.ai](https://www.strix.ai) | GitHub : [usestrix/strix](https://github.com/usestrix/strix)
-- **Lancé** : Début 2026 — explosion début juillet 2026 (#1 GitHub Trending le 3 juillet)
-- **Catégorie** : AI Security / Pentesting autonome
-- **Métriques** : 39.4K GitHub stars, 4K forks, +7-10K stars/semaine en juillet 2026
-- **Funding** : Open-source (non confirmé), cloud payant en cours
+- **Nom** : OpenCut | **URL** : opencut.app (self-hosted ou cloud) | **Launch** : ~septembre 2025
+- **Fondateurs** : Communauté open-source (contributeurs GitHub multiples)
+- **Catégorie** : Video Editing / Creative Tools
+- **Métriques buzz** : 48 000+ GitHub Stars (mai 2026), #1 GitHub Trending, couverture Hacker News + Reddit créateurs, alternative CapCut en réponse ban US TikTok
 
 ### 2. Proposition de valeur
-- **Problème** : Les scanners legacy (Burp Suite, OWASP ZAP) noient les équipes en faux positifs
-- **Solution** : Agent IA autonome qui fait du vrai pentest — chain exploits, valide chaque vuln avec PoC, génère des patchs
-- **USP** : Agit comme un red teamer humain, pas juste un scanner → 0 faux positif non validé
-- **Target** : Security engineers, startups, DevSecOps teams
-- **Pricing** : Open-source CLI gratuit → Cloud Pro (à venir, estimé $49-99/mo)
+- **Problème** : CapCut (ByteDance) menacé de ban, logiciels proprio avec watermarks, tracking, abonnements
+- **Solution** : Éditeur vidéo web + desktop open-source, MIT license, self-hostable, sans tracking ni watermark
+- **USP** : Privacy-first + pas d'abonnement + community-governed (impossible à "enshittifier")
+- **Target** : Créateurs de contenu, vidéastes indie, développeurs qui veulent intégrer le montage vidéo
+- **Pricing** : Gratuit (MIT) — cloud hosting payant à venir, enterprise self-host en développement
 
 ### 3. Stack technique
-- Frontend : CLI + TUI terminal
-- Backend : Multi-agents (orchestrateur LLM + agents spécialisés par vecteur d'attaque)
-- Infra : Local par défaut, HTTP proxy intégré, browser exploitation via Playwright
-- APIs : Intégration CI/CD (GitHub Actions, GitLab), Python sandbox pour PoC execution
+- Frontend : React/Next.js + WebAssembly (FFmpeg.wasm) | Backend : Node.js
+- Rendu : In-browser via WASM ou serveur pour les gros projets
+- Self-hosted : Docker Compose | Cloud : Probablement Vercel/Cloudflare
+- MIT license — forkable à l'infini
 
 ### 4. Psychologie
-- **Triggers** : FOMO sécurité ("vous avez des vulns non détectées"), autorité (PoC = preuve réelle)
-- **JTBD** : "Trouver et fixer mes vulns AVANT les hackers, sans embaucher un expert"
-- **Aha moment** : Premier rapport avec exploit validé + patch généré en < 10 minutes
-- **Viral loop** : Les stars GitHub → presse sécu → plus d'entreprises → case studies → plus de stars
+- **Triggers** : Réactance (contre ByteDance/surveillance), Appartenance (communauté open-source), Réciprocité (gratuit = confiance)
+- **JTBD** : "Je veux éditer mes vidéos Reels/TikTok sans donner mes données à la Chine"
+- **Aha moment** : Premier export sans watermark en 30 secondes dans le navigateur
 
 ### 5. Go-to-market
-- **Canaux** : GitHub Trending organique, Reddit r/netsec, conférences sécu (DEF CON, Black Hat)
-- **Launch** : Open-source first → social proof massif → monétisation cloud
-- **Viralité** : Les CVE discoveries partagées sur Twitter amplifient massivement
+- **Canaux** : GitHub Trending (organique), Twitter créateurs, Reddit r/videography, ProductHunt
+- **Stratégie** : Buzz politique (ban CapCut) → explosion communautaire → cloud hosting monétisé
+- **Viral loop** : Chaque star GitHub = notif pour les followers → effet boule de neige
 
-### 6. Réplication
-- **Complexité** : 8/10 (orchestration multi-agents, exploitation sécurisée, sandboxing)
-- **Verticaux adjacents** : Pentest vocal (audit des voice bots), API Security Scanner
-- **Angle Kyle** : Moins direct — mais un "Strix pour Voice AI APIs" (audit des intégrations vocales) pourrait être niche
-- **Temps de dev** : 6-8 mois pour un MVP crédible (exige expertise sécu réelle)
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 — stack WASM/vidéo complexe mais bien documentée
+- **Verticaux adjacents** : OpenCut pour podcasts/audio, éditeur vidéo voice-AI intégré (transcription auto + coupures silence)
+- **Angle Kyle** : Plugin ou fork avec génération de clips vidéo pilotée par voice commands — "dis à voix haute tes coupes"
+- **Temps dev** : 2-3 mois pour fork + voice layer (Whisper + commandes NL)
 
-## 🏆 TOP APP #3 : OpenKnowledge
+Sources : [MindWiredAI](https://mindwiredai.com/2026/05/16/opencut-the-free-open-source-capcut-alternative-with-48k-github-stars/) · [ThemenonLab](https://themenonlab.blog/blog/opencut-open-source-capcut-alternative-video-editor) · [GitHub Trending](https://github.com/topics/trending-repositories)
+
+## 🏆 TOP APP #3 : Grok Build (xAI)
+
 ### 1. Identification
-- **URL** : [GitHub openknowledge](https://github.com/inkeep/openknowledge) | Par [Inkeep](https://inkeep.com) (YC-backed)
-- **Lancé** : 27 juin 2026 — viral semaine du 30 juin
-- **Catégorie** : AI Knowledge Management / Second Brain
-- **Métriques** : 1,856 GitHub stars (J+8), 1.4K signups en 24h, #1 PH + HN au lancement
-- **Funding** : Open-source, Inkeep levé ~$5-10M (YC + angels)
+- **Nom** : Grok Build | **URL** : x.ai/news/grok-build-cli | **Open-source** : github.com/xai-org/grok-build
+- **Fondateurs** : xAI / Elon Musk (lancé en beta mai 2026, open-sourcé 15 juillet 2026)
+- **Catégorie** : AI Coding Agent CLI / Developer Tools
+- **Métriques buzz** : #1 GitHub Trending (semaine 15-22 juillet), couverture MarkTechPost + CryptoBriefing + GIGAZINE, polémique privacy (code uploadé vers Google Cloud) → open-source en réponse
 
 ### 2. Proposition de valeur
-- **Problème** : Obsidian manque d'IA native; Notion est cloud-only et lent pour devs avec agents IA
-- **Solution** : Éditeur markdown WYSIWYG local-first avec intégrations MCP natives (Claude Code, Codex, Cursor)
-- **USP** : Dual-observer CRDT (WYSIWYG + raw markdown en sync temps réel), GPL-3.0, 100% local
-- **Target** : Développeurs, AI builders, knowledge workers techniques
-- **Pricing** : Gratuit open-source (GPL-3.0) → futur SaaS cloud/sync probable
+- **Problème** : Les agents de coding (Claude Code, Codex) sont des black boxes fermées, inaccessibles ou trop chers pour les devs indépendants
+- **Solution** : Agent coding CLI open-source (Rust), avec TUI, tools d'édition, shell, MCP, plugins et skills — architecturalement transparent
+- **USP** : Full open-source Apache 2.0 + usage illimité local + intégration native Grok (xAI LLM)
+- **Target** : Devs senior, équipes qui veulent un coding agent self-hosted, security researchers
+- **Pricing** : Gratuit (open-source) — usage cloud via SuperGrok Heavy (300$/mois) pour ceux qui veulent le LLM hébergé
 
 ### 3. Stack technique
-- Frontend : Electron + yjs CRDT pour sync temps réel
-- Backend : Local files (pas de serveur requis)
-- Infra : Local-first, partage team via MCP server
-- APIs : Claude Code MCP, OpenAI Codex, Cursor — intégrations first-party
+- **CLI** : Rust (performance + sécurité) | **TUI** : Terminal UI natif
+- **Extension** : MCP (Model Context Protocol) + plugins + skills + hooks
+- **LLM** : Grok (xAI) par défaut, compatible autres LLMs via API
+- **License** : Apache 2.0
 
 ### 4. Psychologie
-- **Triggers** : Open-source (confiance), local-first (privacy), intégrations IA natives (FOMO)
-- **JTBD** : "Je veux un second brain qui collabore avec mes agents IA sans quitter mon terminal"
-- **Aha moment** : Première note écrite via Claude Code directement dans l'éditeur via MCP
-- **Retention hook** : Tes fichiers locaux = ton data → pas de lock-in → trust élevé
+- **Triggers** : Transparence (open-source = confiance après scandale), Autorité (xAI/Elon), Appartenance (communauté Rust/CLI)
+- **JTBD** : "Je veux un agent coding puissant que je contrôle totalement et qui ne vole pas mon code"
+- **Aha moment** : Première tâche de coding complexe exécutée entièrement dans le terminal, avec audit complet du code exécuté
 
 ### 5. Go-to-market
-- **Canaux** : HN Show + Product Hunt + Twitter dev community
-- **Launch** : YC network + Inkeep blog + repos GitHub des fondateurs
-- **Viral loop** : Contributions open-source → GitHub stars → presse tech → nouvelles contributions
+- **Canaux** : GitHub (organique), Twitter/X (Elon = distribution massive), HN + dev blogs
+- **Stratégie** : Scandale privacy → open-source forcé → adoption massive → lock-in sur Grok LLM
+- **Viral loop** : Stars GitHub → trending → couverture médias → plus de stars
 
-### 6. Réplication
-- **Complexité** : 5/10 (CRDT est le seul vrai défi technique)
-- **Verticaux adjacents** : CRM vocal local-first, Documentation AI pour équipes SaaS
-- **Angle Kyle** : "Voice Notes pour agents IA" — notes dictées → enrichies par agents → partagées via MCP
-- **Temps de dev** : 6-8 semaines pour un fork ciblé vertical
+### 6. Réplication pour Kyle
+- **Complexité** : 8/10 — architecture Rust + agent loop complexe, mais le code est maintenant ouvert
+- **Verticaux adjacents** : Agent coding spécialisé voice (commandes vocales → code), wrapper Grok Build pour voice AI devs
+- **Angle Kyle** : Fork Grok Build avec skill "voice-first coding" — dicte ton code, l'agent l'exécute
+- **Temps dev** : 1-2 mois pour fork + voice interface (WebRTC + Whisper + skill layer)
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-*Sources : Latka, Tracxn, LinkedIn headcount, SimilarWeb, presse*
+Sources : [MarkTechPost](https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/) · [xAI](https://x.ai/news/grok-build-cli) · [CryptoBriefing](https://cryptobriefing.com/grok-build-open-source-usage-limits/)
 
-| Métrique | Valeur estimée | Confiance |
+## 💰 Unit Economics Deep Dive — AnySearch
+
+> ⚠️ Données estimées (pas de revenus publics). Sources : LinkedIn, PH, presse, benchmarks sectoriels similaires (Exa.ai, Tavily, Brave Search API).
+
+| Métrique | Estimation | Hypothèse |
 |---|---|---|
-| **ARR** | ~$25-50M | 🟡 moyen |
-| **Users payants** | ~80K-150K | 🟡 estimé |
-| **ARPU annuel** | ~$144-200 (Pro $12-15/mo) | 🟢 public |
-| **CAC** | ~$15-30 (PLG viral) | 🟡 estimé |
-| **LTV** | ~$250-400 (70% rétention 12mo) | 🟡 estimé |
-| **LTV/CAC** | ~10-15x | 🟢 excellent |
-| **Payback** | <3 mois | 🟢 excellent |
-| **Burn mensuel** | ~$3-5M (94 employees) | 🟡 estimé |
-| **Runway** | 50+ mois ($260M levés) | 🟢 solide |
-| **Rev/Employee** | ~$265K-530K | 🟢 très sain |
-| **Rule of 40** | ~50-70 (40% growth + ~15-20% margin) | 🟢 top tier |
+| **Launch date** | 11 mai 2026 | Public |
+| **Users (devs)** | ~100 000 | Annoncé publiquement |
+| **GitHub Stars** | 4 000+ (mois 1) | Annoncé |
+| **ARR estimé** | €0–200K | Très early, modèle freemium, Enterprise non déployé |
+| **ARPU (Pro)** | ~€50–150/an | Extrapolation pricing similaires (Exa: $20-100/mo) |
+| **Paying users** | ~200–500 (est.) | Taux freemium→payant typique devs = 0,5–2% |
+| **CAC** | <€5 | Developer-led, essentiellement organique/viral |
+| **LTV (Pro)** | €150–450 | ARPU × churn annuel ~33% |
+| **LTV/CAC** | **30–90x** 🟢 | Exceptionnel si maintenu |
+| **Payback** | <1 mois 🟢 | CAC quasi-nul |
+| **Burn estimé** | €50–150K/mois | Team ~5-10 personnes, infra crawl |
+| **Runway** | Inconnu (potentiellement levée seed) | Non divulgué |
+| **Rev/Employee** | <€20K ARR/ETP | Early stage normal |
+| **Rule of 40** | N/A (trop early) | Croissance >100% mais ARR minimal |
 
-**Verdict santé globale : 🟢 EXCELLENT**
-- LTV/CAC > 10x = croissance saine avec PLG
-- Retention 70% 12mo = produit habituellement utilisé
-- $2B valuation à ~$30-50M ARR = multiple 40-60x → bet sur le Voice OS futur
-- Risque : Apple/Google pourraient intégrer dictée native avancée
-
-**Hypothèses** : 2.5M downloads, ~5-8% conversion freemium→payant (typique PLG), churn mensuel ~2.5%
+### Verdict santé 🟡 EARLY BUT PROMISING
+- **Positif** : CAC quasi-nul, LTV/CAC potentiellement exceptionnel, 100K users en 2 mois
+- **Risque** : ARR encore très faible, Enterprise pas encore monétisé, concurrence Exa/Tavily/Brave déjà établis
+- **Catalyseur** : Conversion Enterprise = changement de catégorie. 10 clients Enterprise à €2K/mois = €240K ARR overnight
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | Strix | OpenKnowledge |
+
+| Dimension (poids) | AnySearch | OpenCut | Grok Build |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — >$1B (Voice AI global) | 8 — Cybersec $300B+ | 7 — PKM/Notes $5B |
-| ⚙️ Complexité inv. (15%) | 4 — Fine-tuning par user | 3 — Multi-agent sécu | 7 — CRDT + local |
-| ⏱️ Time-to-Market (15%) | 3 — 3-4 mois min | 2 — 6-8 mois + expertise | 7 — 6-8 semaines |
-| 🏟️ Compétition inv. (15%) | 4 — Marché qui se forme (Superwhisper, Otter) | 5 — Peu d'AI-native (Burp monopole) | 6 — Niche devs AI encore vide |
-| 💰 Revenue Potential (20%) | 8 — >€50K MRR atteignable (vertical enterprise) | 6 — Monétisation lente open-source | 5 — Freemium difficile à convertir |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI + réseau FR/EU | 4 — Exige expertise sécu | 7 — AI builder, bonne fit |
-| **Score pondéré** | **6.6** | **4.4** | **6.5** |
-| **Verdict** | 🟡 BUILD ADJACENT | 🔴 SKIP | 🟡 BUILD ADJACENT |
+| 📊 Market Size (20%) | **8** — marché search infra B2B >€1B | **7** — marché créateurs vidéo énorme | **6** — marché coding agents, déjà encombré |
+| ⚙️ Complexité inversée (15%) | **4** — crawl infra + data partnerships lourds | **5** — WASM vidéo complexe mais OSS | **3** — Rust + agent loop = expertise rare |
+| ⏱️ Time-to-Market (15%) | **5** — 3-4 mois MVP réaliste | **6** — fork + voice layer 2-3 mois | **6** — fork Grok Build 1-2 mois |
+| 🏟️ Compétition inversée (15%) | **6** — Exa, Tavily, Brave existent | **8** — peu de vraies alters OSS sérieuses | **4** — Claude Code, Codex, Cursor déjà là |
+| 💰 Revenue Potential (20%) | **9** — API infra = revenus récurrents massifs | **5** — monétisation OSS difficile | **5** — difficile sans LLM propriétaire |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **8** — voice AI + SaaS + API = match parfait | **5** — éloigné de voice AI | **7** — dev tools + voice angle possible |
 
-**Calculs détaillés :**
-- Wispr : (9×0.20)+(4×0.15)+(3×0.15)+(4×0.15)+(8×0.20)+(10×0.15) = 1.8+0.6+0.45+0.6+1.6+1.5 = **6.55**
-- Strix : (8×0.20)+(3×0.15)+(2×0.15)+(5×0.15)+(6×0.20)+(4×0.15) = 1.6+0.45+0.3+0.75+1.2+0.6 = **4.90**
-- OpenKnowledge : (7×0.20)+(7×0.15)+(7×0.15)+(6×0.15)+(5×0.20)+(7×0.15) = 1.4+1.05+1.05+0.9+1.0+1.05 = **6.45**
+### Scores pondérés
 
-> **Note** : Aucune app ne score BUILD NOW seule — mais la **combinaison** Voice AI (Kyle) + distribution verticale FR = BUILD NOW imminent.
+| App | Calcul | **Score Final** | Verdict |
+|---|---|---|---|
+| **AnySearch** | 8×.20 + 4×.15 + 5×.15 + 6×.15 + 9×.20 + 8×.15 | **7.05** | 🟡 BUILD ADJACENT |
+| **OpenCut** | 7×.20 + 5×.15 + 6×.15 + 8×.15 + 5×.20 + 5×.15 | **6.05** | 🟡 BUILD ADJACENT |
+| **Grok Build** | 6×.20 + 3×.15 + 6×.15 + 4×.15 + 5×.20 + 7×.15 | **5.20** | 🟠 WATCH |
+
+> **Note** : AnySearch manque <0.5 point pour BUILD NOW en raison de la complexité infra. L'angle "voice search infra" pourrait monter à 7.5+ avec un partenariat data (Brave API) qui réduit la complexité.
 
 ## 📈 Tendances Émergentes
-### 1. Voice AI → Voice OS (Signal fort 🔴)
-Wispr Flow n'est plus un "dictation app" — les investisseurs le pitchent comme **Voice OS**, la couche d'interface entre l'humain et ses apps. Précédent : clavier → touch → voice. Le timing est maintenant (modèles STT sub-100ms, LLMs de style).
 
-### 2. Agents IA = Nouvelle catégorie de sécu (Signal fort 🔴)
-Strix est le signe que les agents autonomes attaquent les marchés "reserved experts only". Pentest était $500/h consultants → maintenant CLI à $49/mo. Pattern réplicable : **toute profession avec un processus répétitif et technique**.
+### 1. Infrastructure "agent-native" explose
+AnySearch incarne une tendance massive : les LLM et agents IA ont besoin de couches d'infra re-pensées (search, storage, auth, logging) spécifiquement pour leur usage. Les APIs traditionnelles retournent du HTML — les agents veulent du Markdown structuré, des sources vérifiées, de la latence <500ms. **Chaque couche infra classique va être re-créée en "agent-native".**
 
-### 3. Local-first + AI-native = nouvelle génération d'outils dev (Signal moyen 🟡)
-OpenKnowledge représente une tendance : les devs veulent leurs données locales ET des agents IA dessus. Le cloud SaaS est challengé par local-first + MCP. Opportunité pour des outils verticaux (CRM local-first, docs techniques IA-native).
+### 2. Open-source comme stratégie anti-trust
+Grok Build a été forcé à l'open-source après un scandale. OpenCut est né d'un ban politique. Cette semaine illustre une tendance structurelle : **la méfiance envers les plateformes closed-source** (ByteDance, Microsoft, xAI) génère des opportunités pour des alternatives transparentes. MIT/Apache 2.0 = confiance = adoption rapide.
 
-### 4. Open-source → traction → monétisation cloud (Pattern dominant)
-Strix et OpenKnowledge suivent le même playbook : open-source pour la viralité GitHub → cloud payant pour la rétention. Ce pattern bat le B2C pur pour les outils techniques.
+### 3. Le voice-first AI coding emerge
+Les agents CLI (Grok Build, Claude Code, Codex) sont tous text-first. La prochaine vague : **agents pilotés à la voix** pour le développement. "Refactorise cette fonction" dit à voix haute. C'est exactement le croisement expertise Kyle × vide de marché.
 
-### 5. Founder-market fit > idea-market fit (Meta-tendance)
-Les 3 apps de ce scan ont des fondateurs qui VIVENT le problème. Wispr = chercheurs ML qui détestaient taper. Strix = ex-pentesters. OpenKnowledge = équipe Inkeep qui vit dans la doc. La leçon : le domaine d'expertise > l'idée originale.
+### 4. Communauté > Marketing pour les devs
+100K devs en 2 mois pour AnySearch, 48K stars pour OpenCut — **zéro budget marketing traditionnel**. Le playbook : GitHub + HN + PH + Twitter devs. CAC quasi-nul. La qualité technique + la distribution communautaire battent les ads à plate couture.
+
+### 5. Polémique → PR gratuite
+Grok Build open-sourcé après scandale privacy = coverage media massif. OpenCut né du ban CapCut = viral par association. **Positionner son app dans un contexte polémique/narratif fort** est une stratégie de distribution en soi.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions immédiates
 
-**#1 — BUILD : "Wispr Flow pour Sales Teams FR/EU" (priorité maximale)**
-- Wispr Flow est à $2B valuation mais ignore le marché francophone et les verticaux sales/CRM
-- Kyle a l'expertise voice AI + le réseau → avantage compétitif réel
-- MVP : dictée vocale → note CRM auto-structurée (Hubspot/Pipedrive) + résumé email
-- Stack : Whisper.cpp + GPT-4o + Electron + intégration Hubspot API
-- Délai : 6-8 semaines pour un beta, 3 mois pour un SaaS vendable
-- Pricing cible : €29/mo/user enterprise → €1K+ MRR avec 35 users = viable
+### 🎯 Pour Kyle — Actions concrètes cette semaine
 
-**#2 — MONITOR : Strix (ne pas builder, mais surveiller)**
-- Trop complexe pour Kyle seul, mais le pattern "agent IA qui remplace l'expert" est à reproduire
-- Question à se poser : "Quel processus expert en voice AI / SaaS peut être automatisé ainsi ?"
-- Exemple : audit automatique de chatbots vocaux (conformité, qualité, hallucinations) → agent Strix-like
+**1. Valider l'angle "Voice Search Infra" (2h de recherche)**
+AnySearch prouve que les devs paient pour une search infra agent-ready. Kyle peut construire la version voice-optimisée : résultats <100 mots, TTS-friendly, latence <300ms. Utiliser Brave Search API comme data source + post-processing LLM. Tester avec ses propres agents voice.
 
-**#3 — INSPIRATION : Adopter le playbook open-source d'OpenKnowledge**
-- Si Kyle lance un nouvel outil dev, considérer open-source pour traction initiale + cloud payant
-- La vitesse d'itération avec MCP (Claude Code + Cursor) est un accélérateur réel à intégrer
+**2. Forker Grok Build avec voice interface (weekend project test)**
+Le code est maintenant ouvert (Apache 2.0). Kyle peut builder un PoC de "voice coding agent" en 2-3 jours : fork Grok Build + skill qui capte la voix (WebRTC + Whisper) + interprète les commandes NL en actions code. Si ça marche, c'est un product différenciant unique sur le marché.
 
-**#4 — SIGNAL MARCHÉ à surveiller**
-- Wispr Flow levée Series C ? → Signal que le marché voice AI est en train de se structurer → agir avant
-- Apple/Google copie Wispr ? → Moment de pivoter sur des verticaux enterprise FR (ils n'iront pas là)
-- Strix atteint 50K stars ? → Le pattern "agent sécu" sera répliqué dans tous les verticaux tech
+**3. Surveiller AnySearch Enterprise (signal d'achat)**
+Quand AnySearch annoncera ses premiers clients Enterprise et son pricing, ce sera le signal que le marché valide la thèse. Kyle devrait avoir son MVP "Voice Search API" prêt à ce moment-là pour surfer la vague.
 
-### 📌 Sources clés
-- [Wispr Flow funding](https://wisprflow.ai/new-funding)
-- [Wispr $2B valuation](https://weesperneonflow.ai/en/blog/2026-05-19-wispr-flow-2-billion-valuation-voice-ai-market-2026/)
-- [Strix GitHub](https://github.com/usestrix/strix)
-- [Strix growth teardown](https://www.coddykit.com/pages/blog-detail?id=512896)
-- [OpenKnowledge HN](https://news.ycombinator.com/item?id=48675435)
-- [OpenKnowledge vs Obsidian](https://andreihirvi.com/answers-openknowledge-vs-notion-vs-obsidian-ai-second-brain-founders/)
-- [Product Hunt July 2026](https://www.producthunt.com/leaderboard/monthly/2026/7)
-- [GitHub Trending July 2026](https://geekfence.com/top-10-trending-ai-github-repositories-in-july-2026/)
+**4. Réutiliser le playbook distribution**
+Les 3 apps cette semaine ont réussi avec GitHub + HN + PH + polémique narrative. Kyle devrait builder son prochain produit avec une "story" politique/culturelle forte (ex: "le seul agent voice AI dont le code est auditable") et lancer sur ces 4 canaux simultanément.
+
+**5. Signal faible à surveiller : UnitPay + Fudge MCP**
+Ces deux apps (PH top juillet) indiquent que les devs cherchent activement des outils pour **monétiser** leurs agents IA (UnitPay) et leur donner du "design taste" (Fudge MCP). Deux verticaux adjacents à suivre pour le prochain scan.
