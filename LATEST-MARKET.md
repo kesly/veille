@@ -1,205 +1,198 @@
-# 🔥 Market Scan — 2026-07-22
+# 🔥 Market Scan — 2026-07-23
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (AnySearch, OpenCut, Grok Build)
-- Top potentiel : AnySearch — infrastructure IA search B2B, #1 Product Hunt semaine
-- Opportunités immédiates (BUILD NOW) : AnySearch vertical voice AI (score préliminaire ~7.8)
+- Apps analysées : 6 (filtrage sur critères buzz + âge)
+- Top potentiel : Jockey/TwelveLabs, CreateOS Sandbox, OfficeCLI
+- Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : AnySearch
-
+## 🏆 TOP APP #1 : Jockey by TwelveLabs
 ### 1. Identification
-- **Nom** : AnySearch | **URL** : anysearch.ai | **Launch** : 11 mai 2026
-- **Fondateurs** : Non-divulgués publiquement (startup YC-style, basée en Asie-Pacifique)
-- **Catégorie** : Infrastructure IA / API Search B2B
-- **Métriques buzz** : #1 Product Hunt Weekly (13 juillet 2026), couverture VentureBeat + Yahoo Finance + Morningstar, 100 000+ développeurs inscrits, 4 000+ GitHub Stars en premier mois
+- **URL** : [twelvelabs.io/jockey](https://www.twelvelabs.io/jockey)
+- **Launch** : juillet 2026 (PH #2 le 22/07/2026) — TwelveLabs fondée 2021
+- **Fondateurs** : Jae Lee (CEO), Yoon Kim (CTO) — San Francisco
+- **Catégorie** : Video AI / Agents / Media Intelligence
+- **Métriques buzz** : $100M Series B (1er juillet 2026), PH top day, 20K+ mentions Twitter, partenariats Amazon/NEA/NAVER/Index Ventures
 
 ### 2. Proposition de valeur
-- **Problème** : Les agents IA ne peuvent pas consommer les résultats de recherche traditionnels (HTML chaotique, liens sans structure, hallucinations sur sources périmées)
-- **Solution** : API search qui retourne du Markdown structuré, sourcé et vérifiable, directement ingestible par les LLM
-- **USP** : "The Search Infrastructure Your AI Can Trust" — fiabilité des sources + attribution + format agent-ready
-- **Target** : Développeurs & équipes IA qui buildent des agents, RAG pipelines, chatbots
-- **Pricing** : Freemium (1 000 appels/jour gratuit) → Pro + Enterprise (tarifs non publiés)
+- **Problème** : Les bibliothèques vidéo d'entreprise sont cherchables uniquement par métadonnées manuelles (titres, tags) — le contenu réel reste opaque aux agents
+- **Solution** : Agent conversationnel qui comprend la sémantique vidéo (qui parle, quel moment, quel contexte) via multimodal AI
+- **USP** : "Describe a moment in plain English → Jockey finds the exact clip, not the folder"
+- **Target** : Médias, publicité, éducation, entreprises avec gros volumes vidéo
+- **Pricing** : Freemium API (free tier) + pay-as-you-go + enterprise contracts
+- **Open-source** : Oui (LangGraph + TwelveLabs APIs)
 
 ### 3. Stack technique
-- API REST + SDK multilangage | Output Markdown structured | Sources : web crawl propre + partenariats data
-- Potentiellement similaire à Exa.ai ou Tavily mais avec focus "agent-native"
-- Infrastructure cloud (probablement AWS/GCP), CI/CD DevOps-first
+- **Frontend** : Web app + API REST
+- **Backend** : LangGraph (orchestration multi-agent), TwelveLabs APIs (Marengo/Pegasus)
+- **Infra** : AWS, MCP server pour Claude/ChatGPT integration
+- **APIs** : Video embedding, multimodal search, entity resolution, ingestion configurable
 
-### 4. Psychologie
-- **Triggers** : Autorité (#1 PH), Social Proof (100K devs), Urgence implicite ("l'infra dont vos agents ont besoin maintenant")
-- **JTBD** : "Je veux que mon agent IA trouve des infos fiables sans que je code le parsing moi-même"
-- **Aha moment** : Premier appel API qui retourne un Markdown propre directement utilisable dans un prompt
+### 4. Psychologie du succès
+- **Triggers** : Autorité ($100M backing), Social proof (Amazon/NEA), FOMO (exclusive Series B)
+- **JTBD** : "Trouve-moi ce clip de réunion où le client a dit NON sans que je cherche pendant 2h"
+- **Aha moment** : Première recherche en langage naturel qui retourne le bon clip en <2s
 
-### 5. Go-to-market
-- **Canaux** : Developer-led (GitHub, HN, PH), content SEO technique, bouche-à-oreille devs
-- **Stratégie** : Freemium généreux → viral parmi devs → conversion Enterprise
-- **Viral loop** : Chaque app construite avec AnySearch = pub indirecte de l'infra
+### 5. Go-to-Market
+- **Canaux** : Product Hunt, developer communities, enterprise sales, partenariat MCP
+- **Launch strategy** : Open-source d'abord → API payante → enterprise → acquisition par les builders
+- **Viral loop** : Builders intègrent Jockey dans leurs apps → chaque app est un cas d'usage public
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 — nécessite crawl infra + data partnerships + API robuste
-- **Verticaux adjacents** : Search infra voice-first (résultats audio-ready), search pour agents voice IA
-- **Angle Kyle** : Construire AnyVoiceSearch — même concept mais optimisé pour les agents voice (résumés courts, TTS-ready, latence <300ms)
-- **Temps dev** : 3-4 mois MVP avec partenaire data (Brave Search API + post-processing LLM)
+- **Complexité** : 7/10 (multimodal AI + infra vidéo = heavy)
+- **Verticaux adjacents** : Voice memory AI (podcast search), meeting intelligence, cours e-learning
+- **Angle Kyle** : **Voice → Video** : si TwelveLabs fait Jockey pour la vidéo, Kyle peut faire "Jockey for Audio" — même architecture, cible podcasts/meetings/call centers
+- **Temps de dev estimé** : 3-4 mois (MVP avec Whisper + LangGraph + PH launch)
 
-Sources : [VentureBeat](https://venturebeat.com/business/anysearch-tops-product-hunt-weekly-leaderboard-as-ai-search-infrastructure-gains-momentum) · [Norfolk Daily News](https://norfolkdailynews.com/online_features/press_releases/anysearch-tops-product-hunt-weekly-leaderboard-as-ai-search-infrastructure-gains-momentum/article_df2e12d6-555e-5118-969a-fad7702598d5.html)
-
-## 🏆 TOP APP #2 : OpenCut
-
+## 🏆 TOP APP #2 : CreateOS Sandbox
 ### 1. Identification
-- **Nom** : OpenCut | **URL** : opencut.app (self-hosted ou cloud) | **Launch** : ~septembre 2025
-- **Fondateurs** : Communauté open-source (contributeurs GitHub multiples)
-- **Catégorie** : Video Editing / Creative Tools
-- **Métriques buzz** : 48 000+ GitHub Stars (mai 2026), #1 GitHub Trending, couverture Hacker News + Reddit créateurs, alternative CapCut en réponse ban US TikTok
+- **URL** : [createos.sh](https://createos.sh)
+- **Launch** : 22 juillet 2026 — **PH #1 du jour**
+- **Catégorie** : AI Infrastructure / Developer Tools / Agent Sandboxing
+- **Métriques buzz** : PH #1 (22/07), intégration Claude plugin le même jour, free tier sans carte
 
 ### 2. Proposition de valeur
-- **Problème** : CapCut (ByteDance) menacé de ban, logiciels proprio avec watermarks, tracking, abonnements
-- **Solution** : Éditeur vidéo web + desktop open-source, MIT license, self-hostable, sans tracking ni watermark
-- **USP** : Privacy-first + pas d'abonnement + community-governed (impossible à "enshittifier")
-- **Target** : Créateurs de contenu, vidéastes indie, développeurs qui veulent intégrer le montage vidéo
-- **Pricing** : Gratuit (MIT) — cloud hosting payant à venir, enterprise self-host en développement
+- **Problème** : Les AI agents qui exécutent du code arbitraire sont dangereux — escape sandbox, réseau non contrôlé, coûts imprévisibles
+- **Solution** : Sandbox hardware-isolé (kernel séparé) en ~30ms (p90), avec eBPF egress enforcement depuis l'extérieur du sandbox — code compromis ne peut pas contourner
+- **USP** : Pause-to-zero automatique (tu ne paies que l'usage actif), reprise d'état en quelques ms, 50+ exemples SDK
+- **Target** : Builders d'agents AI, DevTools teams, entreprises AI-first
+- **Pricing** : $0 free tier (sans carte) · $0.0504/vCPU-h · $0.0162/GiB-h · 0 frais d'egress
 
 ### 3. Stack technique
-- Frontend : React/Next.js + WebAssembly (FFmpeg.wasm) | Backend : Node.js
-- Rendu : In-browser via WASM ou serveur pour les gros projets
-- Self-hosted : Docker Compose | Cloud : Probablement Vercel/Cloudflare
-- MIT license — forkable à l'infini
+- **Isolation** : Hardware VM (guest kernel séparé) — plus fort que Docker
+- **Networking** : eBPF egress enforcement kernel-level
+- **SDKs** : CLI + SDK Python/JS, 50+ exemples réels, plugin Claude Code natif
+- **Infra** : Démarrage cold <30ms p90, pause/resume avec état persistant
+- **Comparatif** : Plus rapide et moins cher que Modal, E2B, Daytona
 
-### 4. Psychologie
-- **Triggers** : Réactance (contre ByteDance/surveillance), Appartenance (communauté open-source), Réciprocité (gratuit = confiance)
-- **JTBD** : "Je veux éditer mes vidéos Reels/TikTok sans donner mes données à la Chine"
-- **Aha moment** : Premier export sans watermark en 30 secondes dans le navigateur
+### 4. Psychologie du succès
+- **Triggers** : Peur (agents compromis = catastrophe) + facilité (free tier 0 carte)
+- **JTBD** : "Je veux que mon agent exécute du code sans mettre le feu à mon infra"
+- **Aha moment** : Premier `sandbox.run("rm -rf /")` qui ne détruit rien et coûte €0
 
-### 5. Go-to-market
-- **Canaux** : GitHub Trending (organique), Twitter créateurs, Reddit r/videography, ProductHunt
-- **Stratégie** : Buzz politique (ban CapCut) → explosion communautaire → cloud hosting monétisé
-- **Viral loop** : Chaque star GitHub = notif pour les followers → effet boule de neige
+### 5. Go-to-Market
+- **Canaux** : Product Hunt, Claude plugin ecosystem, Twitter dev community
+- **Launch strategy** : Plugin Claude officiel lancé le même jour = distribution immédiate via Claude user base
+- **Viral loop** : Chaque builder publie son agent Claude → mentionne CreateOS dans son demo
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 — stack WASM/vidéo complexe mais bien documentée
-- **Verticaux adjacents** : OpenCut pour podcasts/audio, éditeur vidéo voice-AI intégré (transcription auto + coupures silence)
-- **Angle Kyle** : Plugin ou fork avec génération de clips vidéo pilotée par voice commands — "dis à voix haute tes coupes"
-- **Temps dev** : 2-3 mois pour fork + voice layer (Whisper + commandes NL)
+- **Complexité** : 9/10 (infra kernel-level, hardware isolation = non-réplicable sans équipe syskernel)
+- **Verticaux adjacents** : Voice agent sandboxing (exécuter code téléphonique en sécurité), audit trails pour agents
+- **Angle Kyle** : Ne pas répliquer l'infra — **intégrer CreateOS** comme brique dans un voice agent builder SaaS
+- **Temps de dev** : N/A (partenariat > réplication)
 
-Sources : [MindWiredAI](https://mindwiredai.com/2026/05/16/opencut-the-free-open-source-capcut-alternative-with-48k-github-stars/) · [ThemenonLab](https://themenonlab.blog/blog/opencut-open-source-capcut-alternative-video-editor) · [GitHub Trending](https://github.com/topics/trending-repositories)
-
-## 🏆 TOP APP #3 : Grok Build (xAI)
-
+## 🏆 TOP APP #3 : OfficeCLI
 ### 1. Identification
-- **Nom** : Grok Build | **URL** : x.ai/news/grok-build-cli | **Open-source** : github.com/xai-org/grok-build
-- **Fondateurs** : xAI / Elon Musk (lancé en beta mai 2026, open-sourcé 15 juillet 2026)
-- **Catégorie** : AI Coding Agent CLI / Developer Tools
-- **Métriques buzz** : #1 GitHub Trending (semaine 15-22 juillet), couverture MarkTechPost + CryptoBriefing + GIGAZINE, polémique privacy (code uploadé vers Google Cloud) → open-source en réponse
+- **URL** : [github.com/iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)
+- **Launch** : 2025, dernière release majeure 6 juillet 2026
+- **Catégorie** : Open Source / AI Agent Tooling / Productivity Automation
+- **Métriques buzz** : **20 300+ GitHub stars** (passé de 10 800 à 20 300 en quelques mois), trending GitHub juillet 2026, intégrations automatiques Claude Code/Cursor/Windsurf/Copilot
 
 ### 2. Proposition de valeur
-- **Problème** : Les agents de coding (Claude Code, Codex) sont des black boxes fermées, inaccessibles ou trop chers pour les devs indépendants
-- **Solution** : Agent coding CLI open-source (Rust), avec TUI, tools d'édition, shell, MCP, plugins et skills — architecturalement transparent
-- **USP** : Full open-source Apache 2.0 + usage illimité local + intégration native Grok (xAI LLM)
-- **Target** : Devs senior, équipes qui veulent un coding agent self-hosted, security researchers
-- **Pricing** : Gratuit (open-source) — usage cloud via SuperGrok Heavy (300$/mois) pour ceux qui veulent le LLM hébergé
+- **Problème** : Les agents AI ne peuvent pas lire/écrire nativement Word, Excel, PowerPoint sans Microsoft Office installé
+- **Solution** : Binaire CLI unique qui lit, édite, automatise .docx/.xlsx/.pptx — rend les formats Office aussi accessibles que le texte brut pour les agents
+- **USP** : Single binary, aucune dépendance Office, HTML rendering haute-fidélité (docx → HTML/PNG), auto-détection et installation du skill dans les agents populaires
+- **Target** : Builders d'agents AI, teams no-code/low-code, entreprises automatisant des workflows documentaires
+- **Pricing** : Gratuit, open-source (MIT ou similaire)
 
 ### 3. Stack technique
-- **CLI** : Rust (performance + sécurité) | **TUI** : Terminal UI natif
-- **Extension** : MCP (Model Context Protocol) + plugins + skills + hooks
-- **LLM** : Grok (xAI) par défaut, compatible autres LLMs via API
-- **License** : Apache 2.0
+- **Binary** : Go (probablement) — single binary cross-platform
+- **Parsing** : Open XML standards (OOXML) — pas de dépendance COM/Office
+- **Rendering** : Moteur HTML interne pour .docx/.xlsx/.pptx → HTML + PNG
+- **Intégrations** : MCP-compatible, auto-skill install dans Claude Code, Cursor, Windsurf, Copilot
 
-### 4. Psychologie
-- **Triggers** : Transparence (open-source = confiance après scandale), Autorité (xAI/Elon), Appartenance (communauté Rust/CLI)
-- **JTBD** : "Je veux un agent coding puissant que je contrôle totalement et qui ne vole pas mon code"
-- **Aha moment** : Première tâche de coding complexe exécutée entièrement dans le terminal, avec audit complet du code exécuté
+### 4. Psychologie du succès
+- **Triggers** : Utilité immédiate (résout un blocage précis), social proof (20K stars = légitimité), zero-friction (free + single binary)
+- **JTBD** : "Mon agent doit remplir un rapport Word sans que j'installe Office sur mon serveur"
+- **Aha moment** : `officecli read rapport.docx` → output Markdown propre lisible par l'agent en 1 commande
 
-### 5. Go-to-market
-- **Canaux** : GitHub (organique), Twitter/X (Elon = distribution massive), HN + dev blogs
-- **Stratégie** : Scandale privacy → open-source forcé → adoption massive → lock-in sur Grok LLM
-- **Viral loop** : Stars GitHub → trending → couverture médias → plus de stars
+### 5. Go-to-Market
+- **Canaux** : GitHub organic (trending), HN Show HN, auto-intégration silencieuse dans les outils dev populaires
+- **Launch strategy** : Open-source → adoption organique → monétisation possible via cloud API ou enterprise support
+- **Viral loop** : Auto-installe son skill dans Claude Code → chaque utilisateur Claude Code devient un utilisateur potentiel
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 — architecture Rust + agent loop complexe, mais le code est maintenant ouvert
-- **Verticaux adjacents** : Agent coding spécialisé voice (commandes vocales → code), wrapper Grok Build pour voice AI devs
-- **Angle Kyle** : Fork Grok Build avec skill "voice-first coding" — dicte ton code, l'agent l'exécute
-- **Temps dev** : 1-2 mois pour fork + voice interface (WebRTC + Whisper + skill layer)
+- **Complexité** : 5/10 (open XML parsing = documenté, mais rendering haute-fidélité prend du temps)
+- **Verticaux adjacents** : **VoiceCLI** — même concept mais pour fichiers audio/vidéo (transcription, résumé, chapitrage) accessible aux agents AI
+- **Angle Kyle** : "OfficeCLI for Audio/Voice" — binaire CLI qui transcrit, résume, chapite des fichiers .mp3/.mp4/.wav pour les agents, avec auto-skill install
+- **Temps de dev** : 4-6 semaines (MVP avec Whisper + ffmpeg + MCP)
 
-Sources : [MarkTechPost](https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/) · [xAI](https://x.ai/news/grok-build-cli) · [CryptoBriefing](https://cryptobriefing.com/grok-build-open-source-usage-limits/)
+## 💰 Unit Economics Deep Dive — Jockey / TwelveLabs
+_Sources : GlobeNewswire (Series B annonce), Tracxn, PitchBook, TwelveLabs blog_
 
-## 💰 Unit Economics Deep Dive — AnySearch
-
-> ⚠️ Données estimées (pas de revenus publics). Sources : LinkedIn, PH, presse, benchmarks sectoriels similaires (Exa.ai, Tavily, Brave Search API).
-
-| Métrique | Estimation | Hypothèse |
+| Métrique | Valeur | Commentaire |
 |---|---|---|
-| **Launch date** | 11 mai 2026 | Public |
-| **Users (devs)** | ~100 000 | Annoncé publiquement |
-| **GitHub Stars** | 4 000+ (mois 1) | Annoncé |
-| **ARR estimé** | €0–200K | Très early, modèle freemium, Enterprise non déployé |
-| **ARPU (Pro)** | ~€50–150/an | Extrapolation pricing similaires (Exa: $20-100/mo) |
-| **Paying users** | ~200–500 (est.) | Taux freemium→payant typique devs = 0,5–2% |
-| **CAC** | <€5 | Developer-led, essentiellement organique/viral |
-| **LTV (Pro)** | €150–450 | ARPU × churn annuel ~33% |
-| **LTV/CAC** | **30–90x** 🟢 | Exceptionnel si maintenu |
-| **Payback** | <1 mois 🟢 | CAC quasi-nul |
-| **Burn estimé** | €50–150K/mois | Team ~5-10 personnes, infra crawl |
-| **Runway** | Inconnu (potentiellement levée seed) | Non divulgué |
-| **Rev/Employee** | <€20K ARR/ETP | Early stage normal |
-| **Rule of 40** | N/A (trop early) | Croissance >100% mais ARR minimal |
+| **ARR estimé** | ~$14.7M | Revenu annuel TwelveLabs (toutes lignes) |
+| **Total funding** | $207M | 6 rounds, 26 investisseurs |
+| **Dernier round** | $100M Series B (juil. 2026) | Co-led NEA + NAVER, +Amazon, Index, Red Bull |
+| **Valorisation** | Non publique | Series B ~$500M-1B estimé (ratio industry) |
+| **Employees** | ~80-120 (estimé LinkedIn) | Série B tech = scaling rapide |
+| **Rev/Employee** | ~$120K-$180K | Raisonnable pour AI infra B2B |
+| **ARPU estimé** | $2K-$10K/an (enterprise) | API pay-as-you-go + contrats |
+| **Users/clients** | Médias, pubs, éducation — non publié | Focus enterprise, sales-led |
+| **CAC estimé** | $3K-$15K (enterprise sales) | SDR + démo + POC = coûteux |
+| **LTV estimé** | $30K-$100K+ (contrats pluriannuels) | Haute rétention si intégré dans workflow |
+| **LTV/CAC** | ~5-10x | ✅ Sain pour B2B enterprise |
+| **Payback** | 18-24 mois | Typique enterprise AI |
+| **Burn estimé** | $6-10M/mois post-Series B | Build infra + go-to-market aggressive |
+| **Runway** | 10-15 mois (avant prochain round) | Dépend vitesse d'exécution |
+| **Rule of 40** | ~40-50% estimé | ARR growth rapide + marges AI API correctes |
 
-### Verdict santé 🟡 EARLY BUT PROMISING
-- **Positif** : CAC quasi-nul, LTV/CAC potentiellement exceptionnel, 100K users en 2 mois
-- **Risque** : ARR encore très faible, Enterprise pas encore monétisé, concurrence Exa/Tavily/Brave déjà établis
-- **Catalyseur** : Conversion Enterprise = changement de catégorie. 10 clients Enterprise à €2K/mois = €240K ARR overnight
+### 🟡 Verdict Santé Financière
+**Ambivalent** : Très bien financé, métriques LTV/CAC solides, mais burn élevé et modèle enterprise long-cycle. TwelveLabs parie sur la video superintelligence avant que le marché consolide. Risque : les big tech (Google, Meta, Apple) peuvent répliquer vite sur la vidéo consumer.
+
+> ⚠️ Jockey spécifiquement est encore en early monetization — les chiffres ci-dessus reflètent TwelveLabs globalement.
 
 ## 🎯 Opportunity Scorecard — Top 3
-
-| Dimension (poids) | AnySearch | OpenCut | Grok Build |
+| Dimension (poids) | Jockey/TwelveLabs | CreateOS Sandbox | OfficeCLI |
 |---|---|---|---|
-| 📊 Market Size (20%) | **8** — marché search infra B2B >€1B | **7** — marché créateurs vidéo énorme | **6** — marché coding agents, déjà encombré |
-| ⚙️ Complexité inversée (15%) | **4** — crawl infra + data partnerships lourds | **5** — WASM vidéo complexe mais OSS | **3** — Rust + agent loop = expertise rare |
-| ⏱️ Time-to-Market (15%) | **5** — 3-4 mois MVP réaliste | **6** — fork + voice layer 2-3 mois | **6** — fork Grok Build 1-2 mois |
-| 🏟️ Compétition inversée (15%) | **6** — Exa, Tavily, Brave existent | **8** — peu de vraies alters OSS sérieuses | **4** — Claude Code, Codex, Cursor déjà là |
-| 💰 Revenue Potential (20%) | **9** — API infra = revenus récurrents massifs | **5** — monétisation OSS difficile | **5** — difficile sans LLM propriétaire |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **8** — voice AI + SaaS + API = match parfait | **5** — éloigné de voice AI | **7** — dev tools + voice angle possible |
+| 📊 Market Size (20%) | 8 — Marché vidéo enterprise >$10B | 7 — AI infra en pleine expansion | 6 — Productivité office déjà mature |
+| ⚙️ Complexity inversé (15%) | 3 — Multimodal AI + infra vidéo lourde | 2 — Kernel-level isolation = très hard | 6 — Open XML + CLI = accessible |
+| ⏱️ Time-to-Market (15%) | 4 — 3-4 mois pour MVP audio adjacent | 2 — Non-réplicable, partenariat seulement | 7 — 4-6 semaines pour VoiceCLI MVP |
+| 🏟️ Competition inversé (15%) | 5 — Google/Meta/Apple = menace réelle | 4 — E2B, Modal, Daytona déjà en place | 7 — Aucun concurrent open source crédible |
+| 💰 Revenue Potential (20%) | 7 — Enterprise AI video = gros tickets | 6 — Infra pay-as-you-go scalable | 5 — Open source = rev indirecte seulement |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **9** — Voice→Video, même DNA, expert AI | 2 — Infra kernel = hors scope | **8** — Voice CLI adjacent parfait |
 
-### Scores pondérés
+| App | Score pondéré | Verdict |
+|---|---|---|
+| **Jockey/TwelveLabs** | **(8×0.20)+(3×0.15)+(4×0.15)+(5×0.15)+(7×0.20)+(9×0.15) = 6.2** | 🟡 BUILD ADJACENT |
+| **CreateOS Sandbox** | **(7×0.20)+(2×0.15)+(2×0.15)+(4×0.15)+(6×0.20)+(2×0.15) = 4.35** | 🔴 SKIP (réplication) — INTÉGRER |
+| **OfficeCLI** | **(6×0.20)+(6×0.15)+(7×0.15)+(7×0.15)+(5×0.20)+(8×0.15) = 6.5** | 🟡 BUILD ADJACENT → **angle VoiceCLI = 🟢 BUILD NOW** |
 
-| App | Calcul | **Score Final** | Verdict |
-|---|---|---|---|
-| **AnySearch** | 8×.20 + 4×.15 + 5×.15 + 6×.15 + 9×.20 + 8×.15 | **7.05** | 🟡 BUILD ADJACENT |
-| **OpenCut** | 7×.20 + 5×.15 + 6×.15 + 8×.15 + 5×.20 + 5×.15 | **6.05** | 🟡 BUILD ADJACENT |
-| **Grok Build** | 6×.20 + 3×.15 + 6×.15 + 4×.15 + 5×.20 + 7×.15 | **5.20** | 🟠 WATCH |
-
-> **Note** : AnySearch manque <0.5 point pour BUILD NOW en raison de la complexité infra. L'angle "voice search infra" pourrait monter à 7.5+ avec un partenariat data (Brave API) qui réduit la complexité.
+> **Recommandation** : L'angle VoiceCLI (OfficeCLI for audio/voice agents) score 🟢 BUILD NOW quand appliqué à l'expertise Kyle. Faible complexité, TTM <6 semaines, marché nascent.
 
 ## 📈 Tendances Émergentes
+### 🔴 Méga-tendance : L'agent AI comme utilisateur, pas l'humain
+Les 3 apps cette semaine sont des **outils pour agents**, pas pour humains. OfficeCLI "s'auto-installe" dans les agents. CreateOS sandbox est invisible pour l'end-user. Jockey répond à des agents via MCP. Le paradigme a basculé : les builders construisent pour les agents, pas pour les gens.
 
-### 1. Infrastructure "agent-native" explose
-AnySearch incarne une tendance massive : les LLM et agents IA ont besoin de couches d'infra re-pensées (search, storage, auth, logging) spécifiquement pour leur usage. Les APIs traditionnelles retournent du HTML — les agents veulent du Markdown structuré, des sources vérifiées, de la latence <500ms. **Chaque couche infra classique va être re-créée en "agent-native".**
+### 🟠 L'infra AI se commoditise à vitesse record
+CreateOS, E2B, Modal, Daytona — 4 acteurs sérieux sur le sandbox AI en 12 mois. Ce qui était différenciant en 2025 (cold start <100ms) est maintenant la baseline. La prochaine couche de valeur sera la **gouvernance + audit trail** des actions agents.
 
-### 2. Open-source comme stratégie anti-trust
-Grok Build a été forcé à l'open-source après un scandale. OpenCut est né d'un ban politique. Cette semaine illustre une tendance structurelle : **la méfiance envers les plateformes closed-source** (ByteDance, Microsoft, xAI) génère des opportunités pour des alternatives transparentes. MIT/Apache 2.0 = confiance = adoption rapide.
+### 🟡 Video AI = Audio AI + 6-12 mois de décalage
+TwelveLabs lève $100M pour l'intelligence vidéo. Whisper/Deepgram ont accompli cela pour l'audio il y a 2-3 ans. Pattern historique : les techniques se transfèrent du texte → audio → vidéo avec 12-18 mois de lag. Opportunité : aller sur vidéo avec des techniques prouvées audio.
 
-### 3. Le voice-first AI coding emerge
-Les agents CLI (Grok Build, Claude Code, Codex) sont tous text-first. La prochaine vague : **agents pilotés à la voix** pour le développement. "Refactorise cette fonction" dit à voix haute. C'est exactement le croisement expertise Kyle × vide de marché.
+### 🟢 Open-source comme stratégie d'acquisition, pas comme modèle
+OfficeCLI (MIT) et Jockey (open-source) ne monétisent pas directement leur code. Ils utilisent l'open-source pour **s'installer dans les workflows** des devs, puis vendent l'API, le cloud, ou l'enterprise support. C'est le nouveau GTM : be the default, then charge for scale.
 
-### 4. Communauté > Marketing pour les devs
-100K devs en 2 mois pour AnySearch, 48K stars pour OpenCut — **zéro budget marketing traditionnel**. Le playbook : GitHub + HN + PH + Twitter devs. CAC quasi-nul. La qualité technique + la distribution communautaire battent les ads à plate couture.
-
-### 5. Polémique → PR gratuite
-Grok Build open-sourcé après scandale privacy = coverage media massif. OpenCut né du ban CapCut = viral par association. **Positionner son app dans un contexte polémique/narratif fort** est une stratégie de distribution en soi.
-
-## 💡 Insights Actionnables
-
+## 💡 Insights Actionnables pour Kyle
 ### 🎯 Pour Kyle — Actions concrètes cette semaine
 
-**1. Valider l'angle "Voice Search Infra" (2h de recherche)**
-AnySearch prouve que les devs paient pour une search infra agent-ready. Kyle peut construire la version voice-optimisée : résultats <100 mots, TTS-friendly, latence <300ms. Utiliser Brave Search API comme data source + post-processing LLM. Tester avec ses propres agents voice.
+**1. 🟢 Lancer VoiceCLI (angle direct OfficeCLI)**
+> *"OfficeCLI for audio/voice"* — binaire CLI open-source qui transcrit, résume, chapite des fichiers .mp3/.mp4/.wav pour les agents AI. Auto-installe un skill dans Claude Code, Cursor, Windsurf.
+> - Stack : Whisper API + ffmpeg + Go/Python CLI + MCP server
+> - TTM : 3-5 semaines jusqu'au PH launch
+> - GTM : GitHub open-source → trending → API payante pour gros volumes
+> - Monétisation : Cloud API avec pricing usage-based (Whisper coût + margin)
 
-**2. Forker Grok Build avec voice interface (weekend project test)**
-Le code est maintenant ouvert (Apache 2.0). Kyle peut builder un PoC de "voice coding agent" en 2-3 jours : fork Grok Build + skill qui capte la voix (WebRTC + Whisper) + interprète les commandes NL en actions code. Si ça marche, c'est un product différenciant unique sur le marché.
+**2. 🟡 Étudier le MCP de Jockey comme modèle d'intégration**
+> TwelveLabs expose Jockey via MCP pour Claude/ChatGPT. Kyle peut faire la même chose pour ses voice agents : publier un MCP server qui connecte ses capacités voice AI aux workflows des builders.
+> - Action : Lire [twelvelabs.io/jockey](https://www.twelvelabs.io/jockey) + tester leur MCP en 2h
+> - Outcome : Comprendre le pattern distribution MCP = canal d'acquisition gratuit
 
-**3. Surveiller AnySearch Enterprise (signal d'achat)**
-Quand AnySearch annoncera ses premiers clients Enterprise et son pricing, ce sera le signal que le marché valide la thèse. Kyle devrait avoir son MVP "Voice Search API" prêt à ce moment-là pour surfer la vague.
+**3. 🟠 Surveiller CreateOS comme brique d'infra**
+> Ne pas répliquer. Intégrer. Si Kyle construit des voice agents qui exécutent du code (TTS, STT, traitements audio), CreateOS Sandbox offre l'isolation dont il a besoin.
+> - Action : Tester le free tier [createos.sh](https://createos.sh) cette semaine
+> - Outcome : Décision intégrer/ignorer en 1h de test
 
-**4. Réutiliser le playbook distribution**
-Les 3 apps cette semaine ont réussi avec GitHub + HN + PH + polémique narrative. Kyle devrait builder son prochain produit avec une "story" politique/culturelle forte (ex: "le seul agent voice AI dont le code est auditable") et lancer sur ces 4 canaux simultanément.
-
-**5. Signal faible à surveiller : UnitPay + Fudge MCP**
-Ces deux apps (PH top juillet) indiquent que les devs cherchent activement des outils pour **monétiser** leurs agents IA (UnitPay) et leur donner du "design taste" (Fudge MCP). Deux verticaux adjacents à suivre pour le prochain scan.
+**4. 📌 Signal faible à surveiller : "Voice Superintelligence"**
+> TwelveLabs parle de "Video Superintelligence" — le framing voice AI équivalent n'existe pas encore. Premier à poser ce territoire avec un produit + narrative = avantage de marque durable.
+> - Action : Réserver le domaine + commencer à utiliser ce framing sur Twitter/LinkedIn
