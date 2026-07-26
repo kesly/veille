@@ -1,176 +1,180 @@
-# 🔥 Market Scan — 2026-07-25
+# 🔥 Market Scan — 2026-07-26
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 7
-- Top potentiel : Screenpipe, Sim, PlugThis
-- Opportunités immédiates (BUILD NOW) : 1 (Sim-adjacent)
+- Apps analysées : 6 (OpenClaw, Jockey/TwelveLabs, CreateOS Sandbox, Wispr Flow, CartAI, Context.dev)
+- Top potentiel : OpenClaw
+- Opportunités immédiates (BUILD NOW) : 2 (OpenClaw vertical, Jockey vertical)
 
-## 🏆 TOP APP #1 : Screenpipe
-**URL :** https://screenpipe.com | **Launch :** Juillet 2026 (YC S26) | **Catégorie :** Productivité / AI Agents
-**Fondateurs :** Ansh Grover + équipe Mediar Inc. (SF, 6 personnes)
-**Métriques buzz :** 20 000+ GitHub ⭐ · HN front page · viral X · YC S26 batch
+## 🏆 TOP APP #1 : OpenClaw
+**URL :** https://openclaw.ai | **Launch :** Janvier 2026 | **Catégorie :** Personal AI Agent
+**Fondateur :** Peter Steinberger (rejoint OpenAI post-lancement) → projet transféré à une fondation open-source
+**Buzz :** 350K+ GitHub stars, 2M visiteurs en une semaine, 710 stars/heure au pic, front page HN
 
-### Proposition de valeur
-- **Problème :** Les travailleurs répètent les mêmes tâches sans mémoire contextuelle entre sessions.
-- **Solution :** Enregistre écran + audio 24/7 en local, construit une mémoire structurée, génère des agents IA (standups auto, tickets depuis meetings, SOPs).
-- **USP :** 100 % local & privé (zéro cloud), cross-platform Mac/Win/Linux, hackable via "Pipes" (agents markdown).
-- **Cible :** Devs, fondateurs, knowledge workers productivité-obsédés.
-- **Pricing :** Gratuit (perso/éducation) · Pro $150/siège/mois (commercial) — pivot licence juin 2026.
+### Proposition de Valeur
+- **Problème :** Les assistants IA cloud imposent envoi de données sensibles à des serveurs tiers
+- **Solution :** Agent IA local, tourne sur votre machine, connecté à 50+ intégrations (WhatsApp, Slack, iMessage, Discord...)
+- **USP :** Privacy-first + voice & video calls natifs + RAG intégré — tout en local
+- **Target :** Power users, devs, PME soucieuses de la confidentialité
+- **Pricing :** Gratuit/open-source ; coût réel = API calls (~$20-100/mois d'usage)
 
-### Stack technique
-- **Backend :** Rust (performance + mémoire sûre)
-- **Desktop :** Tauri v2 (cross-platform natif)
-- **Frontend :** React / Next.js
-- **Storage :** SQLite local + FTS5 full-text search
-- **Plugins :** "Pipes" = agents schedulés en markdown · MCP server · 100+ connecteurs
+### Stack Technique
+Frontend : React | Backend : Python | Infra : local/on-prem | LLMs : multi-provider (DeepSeek, Claude, GPT)
+Voice : speech-to-text/TTS multi-provider | Browser automation intégrée
 
-### Psychologie & GTM
-- **Triggers :** Privacy (vs Microsoft Recall) · Open-source trust · "vos habitudes de travail → agents"
-- **JTBD :** "Je veux automatiser mes tâches répétitives sans uploader mes données."
-- **Aha moment :** Premier standup généré automatiquement depuis les enregistrements.
-- **GTM :** Dev-led open-source flywheel → stars GitHub → crédibilité YC → monétisation licence.
-- **Viral loop :** OSS partageable + intégrations MCP = réseau d'effet croissant.
+### Psychologie & JTBD
+- **Triggers :** Privacy anxiety (peur des fuites data) + FOMO communauté GitHub + autorité (710 stars/h)
+- **JTBD :** "Avoir un Jarvis personnel sans sacrifier ma vie privée"
+- **Aha moment :** Premier message reçu via WhatsApp sans quitter l'app, traité localement
 
-### Réplication pour Kyle
-- **Complexité :** 7/10 (Rust + Tauri non-trivial, mais Pipes = MVP rapide)
-- **Verticaux adjacents :** Voice AI memory layer · Sales call intelligence · Customer success automation
-- **Angle Kyle :** Construire la couche "voice memory" pour ses clients voice AI → Screenpipe + LLM pour calls = produit différencié
-- **Temps de dev (MVP vertical) :** 4-6 semaines avec Screenpipe comme base OSS
-
-## 🏆 TOP APP #2 : Sim
-**URL :** https://sim.ai | **Launch :** Juillet 2026 (YC X25) | **Catégorie :** AI Agent Orchestration
-**Fondateurs :** Emir Karabeg (CEO) + Waleed Latif (CTO)
-**Métriques buzz :** 28 400 GitHub ⭐ · 595 PH upvotes · $7M Series A · 100K+ builders
-
-### Proposition de valeur
-- **Problème :** Construire des workflows d'agents IA requiert du code complexe (LangGraph, n8n) avec UX développeur-only.
-- **Solution :** Canvas visuel (Figma-like) pour créer, tester et déployer des agents IA multi-LLM avec 1 000+ outils intégrés.
-- **USP :** Open-source + multi-LLM (OpenAI, Anthropic, Gemini, Groq, DeepSeek) + multiplayer + human-in-the-loop + env dev/qa/prod.
-- **Cible :** Équipes tech et équipes business qui veulent des agents sans code bas-niveau.
-- **Pricing :** Free (1K crédits/mois) · Pro $25/user/mo · Max $100/user/mo · Enterprise self-hosted.
-
-### Stack technique
-- **Frontend :** Next.js + Bun + Turborepo
-- **Open-source :** 100 % sur GitHub
-- **Intégrations :** 1 000+ outils, tous les LLM majeurs
-- **Infra :** SOC2 compliant, env promotion (dev/qa/prod)
-
-### Psychologie & GTM
-- **Triggers :** Open-source trust · "10 minutes pour un agent" · FOMO enterprise (Rivian, Russell Investments).
-- **JTBD :** "Je veux déployer des agents IA en production sans recruter des ingénieurs ML."
-- **Aha moment :** Premier workflow déployé en < 10 minutes avec canvas drag-and-drop.
-- **GTM :** OSS flywheel → YC réseau → HN/PH launch → enterprise upsell (self-hosted).
-- **Funding :** $7M Series A · Standard Capital, Paul Graham, Perplexity, SV Angel.
+### Go-to-Market
+- Launch : GitHub README viral → HN front page → Twitter cascade → Product Hunt
+- Viral loop : chaque démo = screenshot partagé → nouveau star → nouveau user
+- Canaux : GitHub (organique), YouTube tutoriels, communauté Discord 40K+ membres
 
 ### Réplication pour Kyle
-- **Complexité :** 8/10 (plateforme agent multi-LLM complète, concurrence forte)
-- **Verticaux adjacents :** Agent vocal spécialisé (call center, support) · Vertical SaaS agents
-- **Angle Kyle :** Utiliser Sim comme infra pour créer des workflows voice AI pour clients → partenariat/intégration plutôt que compétition
-- **Temps de dev (vertical voice) :** 2-3 mois pour un cas d'usage voice précis sur Sim
+- **Complexité :** 6/10 — infra locale complexe mais SDK bien documenté
+- **Verticaux adjacents :** Voice AI agent pour PME (CRM vocal), onboarding IA vocal pour SaaS B2B
+- **Angle Kyle :** Construire un OpenClaw vertical pour une industrie précise (ex : agents vocaux pour agences immo)
+- **Temps dev :** 4-8 semaines pour un MVP vertical
 
-## 🏆 TOP APP #3 : PlugThis
-**URL :** https://plugthis.ai | **Launch :** 10 juillet 2026 | **Catégorie :** No-Code / Browser Tools
-**Fondateurs :** Non divulgués publiquement
-**Métriques buzz :** 515 PH upvotes · Trending r/SideProject · viral indie hackers
+## 🏆 TOP APP #2 : Jockey by TwelveLabs
+**URL :** https://twelvelabs.io/jockey | **Launch :** Juillet 2026 (PH) | **Catégorie :** Video AI Agent
+**Fondateur/Équipe :** TwelveLabs (~178 employés en juin 2026)
+**Buzz :** 208 upvotes PH, $100M Series B (1er juillet 2026), co-led NEA + NAVER Ventures, total ~$150M levés
 
-### Proposition de valeur
-- **Problème :** Créer une extension Chrome requiert de maîtriser Manifest V3, les APIs de navigation, et JS/HTML.
-- **Solution :** Décris en langage naturel l'extension souhaitée → code Manifest V3 production-ready + backend Supabase optionnel + export ZIP.
-- **USP :** Code source appartient à l'utilisateur (pas de lock-in) · Free tier généreux · "Hire a Human" pour builds complexes.
-- **Cible :** Créateurs no-code, solopreneurs, marketeurs, PMEs.
-- **Pricing :** Free (1 projet) · ~$20/mois (3 projets + intégrations OpenAI/Gemini) · $25/module pour builds humains.
+### Proposition de Valeur
+- **Problème :** Les librairies vidéo d'entreprise sont impossibles à chercher/exploiter (des TB de footage inexploité)
+- **Solution :** Agent conversationnel qui comprend et indexe toute votre librairie média par personne, moment, contexte
+- **USP :** Modèles Marengo (perception) + Pegasus (reasoning) — jusqu'à 2h de contexte vidéo en une requête
+- **Target :** Éditeurs média, studios, équipes marketing, enterprises avec gros volumes vidéo
+- **Pricing :** API au usage + tiers enterprise (non public)
 
-### Stack technique
-- **Frontend :** Browser-based, zéro installation
-- **Output :** Manifest V3 extensions + Supabase backend optionnel
-- **Stack interne :** Non divulguée (probablement Next.js + LLM API)
+### Stack Technique
+Frontend : web app + API | Backend : LangGraph + TwelveLabs API | Modèles : Marengo/Pegasus propriétaires
+Open-source : Jockey (MIT) | Infra : cloud TwelveLabs
 
-### Psychologie & GTM
-- **Triggers :** Urgence "je veux juste cette extension" · Ownership (code source = le vôtre) · Zero setup.
-- **JTBD :** "Je veux automatiser mon workflow Chrome sans apprendre à coder."
-- **Aha moment :** Extension fonctionnelle téléchargeable en < 5 minutes.
-- **GTM :** SEO content strategy ("chrome extension builder 2026") · PH launch · Free tier viral · "Hire a Human" upsell organique.
-- **Concurrent :** bolt.new, Plasmo, Manus, Kromio — mais PlugThis = le plus simple sur browser.
+### Psychologie & JTBD
+- **Triggers :** Légitimité ($100M Series B annoncé) + démo impressionnante (chercher "moment où X parle de Y")
+- **JTBD :** "Retrouver n'importe quel passage dans mes 10 000 heures de vidéos sans visionner"
+- **Aha moment :** Requête "trouve tous les moments où le CEO mentionne le chiffre d'affaires" → résultat en 3s
+
+### Go-to-Market
+- Annonce $100M Series B = couverture TechCrunch + Twitter tech
+- Open-source Jockey = adoption devs → pipeline enterprise
+- Canaux : dev relations, conferences, media/entertainment verticals
 
 ### Réplication pour Kyle
-- **Complexité :** 3/10 (wrapper LLM → code template bien défini)
-- **Verticaux adjacents :** Extension voice note → transcription · Extension CRM enrichment · Extension sales intelligence
-- **Angle Kyle :** "PlugThis for voice" = génère des extensions qui capturent/transcrivent l'audio en 1 chat → vente aux équipes sales
-- **Temps de dev MVP :** 1-2 semaines (LLM + template Manifest V3 voice API)
+- **Complexité :** 8/10 — modèles vidéo propres très coûteux à entraîner
+- **Verticaux adjacents :** Recherche audio/voice dans podcasts & calls (plus accessible que vidéo)
+- **Angle Kyle :** Agent vocal qui indexe et cherche dans les enregistrements de calls clients (CRM + voice AI)
+- **Temps dev :** 3-6 semaines avec API TwelveLabs ou assembly AI
 
-## 💰 Unit Economics Deep Dive — Screenpipe
-**Source :** GitHub (20K ⭐), YC S26, licence commerciale juin 2026, équipe 6 personnes.
-⚠️ *Pas de chiffres ARR publics — estimations conservatives basées sur pricing affiché et taille d'équipe.*
+## 🏆 TOP APP #3 : CreateOS Sandbox
+**URL :** https://createos.sh | **Launch :** 22 juillet 2026 (#1 Product Hunt) | **Catégorie :** AI Agent Infrastructure
+**Fondateur :** Équipe CreateOS
+**Buzz :** #1 PH jour du lancement, +182 ranking change, 70+ upvotes le jour J
 
-| Métrique | Estimation | Raisonnement |
+### Proposition de Valeur
+- **Problème :** Les AI agents ont besoin d'environnements d'exécution isolés, rapides et sécurisés
+- **Solution :** Sandboxes hardware-isolés en ~30ms (p90) pour builders d'agents IA
+- **USP :** Démarrage ultra-rapide + intégration native Claude/ComputeSDK + 50+ exemples SDK réels
+- **Target :** Développeurs d'agents IA, startups agentic, équipes enterprise AI
+- **Pricing :** Free tier $0 (sans CB) + tiers payants (non publics)
+
+### Stack Technique
+Frontend : CLI + SDK | Backend : virtualisation hardware légère | Intégrations : Claude plugins, ComputeSDK
+Languages : multi-language SDK | Infra : cloud propriétaire
+
+### Psychologie & JTBD
+- **Triggers :** Gratuité totale (no card) + performance tangible (30ms) + timing parfait (boom agentic AI)
+- **JTBD :** "Builder des agents IA sans gérer l'infra d'exécution isolée"
+- **Aha moment :** Premier sandbox spinup en 30ms vs 3-5 secondes avec Docker traditionnel
+
+### Go-to-Market
+- Lancement PH orchestré → #1 du jour → attention communauté agentic AI
+- Free tier agressif = adoption rapide chez les devs
+- Canaux : Product Hunt, Twitter dev community, intégration Claude/Anthropic ecosystem
+
+### Réplication pour Kyle
+- **Complexité :** 9/10 — infra de virtualisation nécessite expertise système profonde
+- **Verticaux adjacents :** Sandbox pour voice AI agents (test/staging d'agents vocaux)
+- **Angle Kyle :** Utiliser CreateOS comme infra pour ses propres agents vocaux (BUILD ON vs BUILD)
+- **Temps dev :** Non recommandé à répliquer — mieux utiliser comme brique infra
+
+## 💰 Unit Economics Deep Dive — OpenClaw
+_Sources : getpanto.ai, openclaw.ai, GitHub metrics, communauté Discord_
+
+| Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **Users total** | ~50 000 | 20K stars → ratio stars/users ~0.4 typique OSS |
-| **Users payants** | ~300-500 | 1-3 % conversion free→paid typique OSS |
-| **ARPU estimé** | ~$600/an | Mix $150/siège/mois × 1.2 sièges moyen + rabais early |
-| **ARR estimé** | ~$200K-$300K | 350 clients × $700 ARPU moyen |
-| **CAC** | ~$50-100 | Dev-led OSS = quasi-zéro media spend |
-| **LTV** | ~$1 800 | Churn B2B ~30%/an → LTV = ARPU / 0.3 |
-| **LTV/CAC** | **18-36x** | Excellent pour OSS commercial |
-| **Payback** | < 2 mois | CAC très faible |
-| **Burn estimé** | ~$80-100K/mois | 6 personnes SF + infra |
-| **Runway** | 12-18 mois | Estimation YC standard deal $500K + revenus |
-| **Rev/Employee** | ~$40-50K | Stade early, normal |
-| **Rule of 40** | 🟡 ~55+ | Croissance rapide compense marge faible |
+| **ARR** | ~$500K | $42K MRR × 12 |
+| **ARPU** | ~$1/mois | Open-source gratuit, revenus = donations + services |
+| **Users actifs** | ~500K installs actifs | ~500K systèmes déclarés en fonctionnement |
+| **GitHub Stars** | 350K+ | Données publiques GitHub (avril 2026) |
+| **CAC** | ~$0 | Croissance 100% organique / viral |
+| **LTV** | ~$12 | ARPU × 12 mois (durée vie estimée) |
+| **LTV/CAC** | ∞ (CAC~$0) | Modèle open-source = pas de paid acquisition |
+| **Payback** | Immédiat | Pas de CAC réel |
+| **Burn** | Inconnu | Fondation open-source, non divulgué |
+| **Rev/Employee** | ~$50K | ~10 contributeurs core estimés |
+| **Rule of 40** | N/A | Croissance explosive mais revenus très faibles |
 
-**Verdict santé : 🟢 SAIN**
-LTV/CAC exceptionnel grâce au modèle OSS developer-led. Risque principal : complexité du pricing enterprise ($150/siège) à prouver vs alternatives open-source gratuites. Pivot licence = signal de monétisation sérieux post-YC.
+### Verdict Santé Financière : 🟡 Attention
+
+**Forces :** Croissance organique extraordinaire, CAC nul, adoption virale massive, réservoir de users énorme.
+**Faiblesses :** Monétisation quasi-inexistante pour le projet core. Le vrai business = services autour (consulting, cloud hosting, verticaux payants par des tiers).
+**Signal :** OpenClaw est moins une startup classique qu'une plateforme open-source. La valeur économique est capturée par les builders de verticals (comme Kyle pourrait le faire).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Screenpipe | Sim | PlugThis |
+| Dimension (Poids) | OpenClaw | Jockey/TwelveLabs | CreateOS Sandbox |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 · €10B+ (AI productivity) | 9 · €50B+ (enterprise agents) | 6 · €2B (browser tools) |
-| ⚙️ Complexité inversée (15%) | 3 · Rust+Tauri = 3-4 mois | 2 · Plateforme complète = 6+ mois | 8 · Template + LLM = 2 semaines |
-| ⏱️ Time-to-Market (15%) | 4 · 2-3 mois vertical | 3 · 3-4 mois vertical | 9 · < 1 mois MVP |
-| 🏟️ Compétition inversée (15%) | 6 · Microsoft Recall + LUCI | 4 · n8n, Langflow, Zapier | 7 · bolt.new mais UX différent |
-| 💰 Revenue Potential (20%) | 8 · $150/siège prouvé | 9 · $25-100/user + enterprise | 6 · $20/mo mais ARPU faible |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 · Voice AI + local AI = natif | 7 · Agents = bon fit mais plateforme | 7 · Voice extension = angle rapide |
+| 📊 Market Size (20%) | 9 — marché AI agent >$25B | 8 — video AI $5B+ | 7 — infra agent ~$3B |
+| ⚙️ Complexité inversée (15%) | 5 — stack locale complexe | 3 — modèles vidéo maison | 2 — infra système |
+| ⏱️ Time-to-Market (15%) | 6 — 4-8 semaines vertical | 7 — 3-6 sem avec API | 2 — non réplicable |
+| 🏟️ Compétition inversée (15%) | 6 — espace local AI bondé | 7 — video AI peu concurrencé | 5 — E2B/Modal concurrents |
+| 💰 Revenue Potential (20%) | 8 — vertical SaaS €10K+ MRR | 7 — API + enterprise deals | 3 — BUILD ON plutôt |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — voice AI = cœur de métier | 7 — adjacent, learning curve | 4 — infra, pas son expertise |
+| **Score Pondéré** | **7.35** | **6.35** | **3.60** |
+| **Verdict** | 🟡 BUILD ADJACENT | 🟡 BUILD ADJACENT | 🔴 SKIP |
 
-| App | Score pondéré | Verdict |
-|---|---|---|
-| **Screenpipe** | **(8×0.20)+(3×0.15)+(4×0.15)+(6×0.15)+(8×0.20)+(9×0.15)** = **6.5** | 🟡 BUILD ADJACENT |
-| **Sim** | **(9×0.20)+(2×0.15)+(3×0.15)+(4×0.15)+(9×0.20)+(7×0.15)** = **6.2** | 🟡 BUILD ADJACENT |
-| **PlugThis** | **(6×0.20)+(8×0.15)+(9×0.15)+(7×0.15)+(6×0.20)+(7×0.15)** = **7.0** | 🟡 BUILD ADJACENT → quasi 🟢 |
-
-**Recommandation :** PlugThis est le plus rapide à répliquer (< 1 mois MVP), avec un angle voice unique pour Kyle. Screenpipe offre le meilleur fit expertise mais demande plus d'effort. Sim = meilleur potentiel marché mais compétition établie.
+**Notes calcul OpenClaw :** (9×0.20)+(5×0.15)+(6×0.15)+(6×0.15)+(8×0.20)+(9×0.15) = 1.80+0.75+0.90+0.90+1.60+1.35 = **7.30**
+**Notes calcul Jockey :** (8×0.20)+(3×0.15)+(7×0.15)+(7×0.15)+(7×0.20)+(7×0.15) = 1.60+0.45+1.05+1.05+1.40+1.05 = **6.60**
+**Notes calcul CreateOS :** (7×0.20)+(2×0.15)+(2×0.15)+(5×0.15)+(3×0.20)+(4×0.15) = 1.40+0.30+0.30+0.75+0.60+0.60 = **3.95**
 
 ## 📈 Tendances Émergentes
-### 1. 🤖 Agents passifs > Agents actifs
-Le shift dominant de juillet 2026 : les meilleurs produits (Screenpipe, Sim) ne demandent plus à l'utilisateur d'initier. Ils capturent passivement le contexte et génèrent des livrables automatiquement. L'interface devient invisible.
+### 1. 🤖 L'Agent IA Local comme Standard de Confidentialité
+OpenClaw prouve que "local-first AI" n'est plus un niche geek mais une demande mainstream. Les enterprises veulent des agents qui ne quittent pas leur périmètre. Tendance structurelle 2026-2028.
 
-### 2. 🔒 Local-first comme avantage concurrentiel
-Screenpipe, Colibri (744B MoE sur 25 Go RAM) : la privacy et le contrôle des données sont devenus un USP, pas une contrainte. Post-Meta/Limitless acquisition, les utilisateurs fuient vers le local. Opportunité pour tout SaaS "sensitive data".
+### 2. 🎬 La Vidéo devient un Format de Données Requêtable
+TwelveLabs/Jockey symbolise le passage de "la vidéo comme contenu" à "la vidéo comme base de données". Prochaine vague : même chose pour l'audio/voix.
 
-### 3. 🔧 No-code → "Chat-to-X"
-PlugThis, Glaze by Raycast : le paradigme évolue de drag-and-drop vers chat naturel pour générer des outils complets (extensions, apps, workflows). La courbe d'apprentissage s'efface.
+### 3. ⚡ Infrastructure Agentic = Nouveau Cloud
+CreateOS Sandbox s'inscrit dans une tendance lourde : 20.7% des deals VC 2026 vont à l'infra d'agents (sandboxes, runtimes, observabilité). La "Agentic Infrastructure Layer" est le nouveau AWS S3.
 
-### 4. 📦 OSS + licence commerciale = modèle SaaS hybride
-Screenpipe, Sim : open-source pour la croissance organique, licence commerciale ou self-hosted payant pour la monétisation. Le VC comprend maintenant ce modèle mieux que le SaaS pur. Frein à l'entrée : 20K+ stars = fossé réputationnel.
+### 4. 🌊 Open-Source comme GTM Dominant
+Les projets les plus viraux (OpenClaw, 350K stars) utilisent GitHub comme canal d'acquisition principal. Le modèle "open-source core + services payants" domine le go-to-market 2026.
 
-### 5. 🎙️ Voice AI infrastructure en dessous du radar
-Contexte.dev (#1 PH juillet avec 1 186 upvotes) = "One API to scrape, enrich, and extract". Signal : les développeurs veulent des APIs robustes pour enrichir et structurer des données non-structurées — dont l'audio/voix. La couche infrastructure voice est sous-construite.
+### 5. 🎙️ Voice AI : Explosion de la Valorisation
+Wispr Flow valorisé $2B après $260M Series B, 50% croissance MoM. La voice AI sort du "nice to have" pour devenir mission-critical en enterprise. Signal fort pour Kyle.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle (Voice AI + SaaS)
+### 🎯 Action #1 — Construire un vertical OpenClaw pour Voice AI B2B
+**Quoi :** Forker/wrapper OpenClaw avec un vertical précis : agent vocal pour agences immobilières, cabinets juridiques, ou équipes commerciales. Local-first + voice + CRM intégré.
+**Pourquoi Kyle :** Expertise voice AI directement applicable. OpenClaw = infra gratuite, Kyle = distribution + packaging.
+**KPIs cible :** €5K MRR en 90 jours sur 50 clients à €99/mois.
+**Temps :** 4-6 semaines MVP, 8 semaines avec intégration CRM.
 
-**1. Forker Screenpipe pour le vertical voice** *(semaines 1-4)*
-Screenpipe capture déjà l'audio. Kyle peut construire un "Screenpipe for Sales Teams" : capture des calls, mémoire structurée, agents post-call (CRM update, follow-up email, coaching). Complexité : modéré. Différenciation : clair.
+### 🎯 Action #2 — "Jockey pour les Calls" : Indexation Audio de Meetings/Calls Clients
+**Quoi :** SaaS qui indexe et rend requêtable tous les enregistrements de calls clients (Zoom, Meet, Teams). "Trouve-moi tous les calls où un client a mentionné le prix."
+**Pourquoi Kyle :** Adjacent à son expertise, APIs disponibles (AssemblyAI, TwelveLabs Audio), marché enterprise clair.
+**KPIs cible :** €8K MRR en 6 mois. Pricing : €49-199/mois selon volume.
+**Temps :** 3-5 semaines MVP avec AssemblyAI + Pinecone.
 
-**2. PlugThis Voice Extension** *(1-2 semaines)*
-Créer un concurrent PlugThis mais spécialisé : génère des extensions Chrome pour capturer/transcrire l'audio du navigateur (meet, zoom, loom). Cible : solopreneurs, équipes sales. Monétisation : freemium $15/mois. Temps de dev : < 2 semaines. Test de marché rapide.
+### 🎯 Action #3 — Surveiller Wispr Flow pour Partnership/Acquisition Signal
+**Quoi :** Wispr Flow est valorisé $2B mais reste centré Mac/desktop. Gap identifié : pas d'offre voice AI B2B on-premise.
+**Pourquoi Kyle :** Positionnement comme alternative enterprise/privacy-first pourrait attirer des partenariats ou un exit.
+**Signal à surveiller :** Annonce d'une API publique Wispr Flow = opportunité de build on top.
 
-**3. Positionner son offre voice comme "agent passif"**
-Le messaging qui marche en juillet 2026 : "vos appels → agents automatiques". Kyle devrait pivoter son pitch de "voice AI" vers "votre équipe sales parle, les agents s'occupent du reste" — en ligne avec le paradigme Screenpipe/Sim.
-
-**4. Surveiller Context.dev** *(signal fort)*
-#1 PH mensuel avec 1 186 upvotes : "One API to scrape, enrich, and extract the internet". Potentiellement un partenaire infrastructure pour enrichir les transcriptions voice avec données web en temps réel.
-
-**5. À éviter cette semaine**
-- Ne pas rebuild une plateforme agent (Sim a levé $7M avec Paul Graham → impossible à concurrencer frontalement)
-- Ne pas lancer dans le local-AI hardware (Colibri = trop technique, trop bas-niveau)
-
-**📌 Prochaine veille :** Surveiller le OpenAI Day PH (26 juillet) — 401 launches en attente. Fort risque d'un breakthrough voice ou agent tool qui change la donne.
+### ⚠️ Watch List (30 jours)
+- **CreateOS Sandbox** : surveiller si pricing public annoncé (signal de monétisation)
+- **Wispr Flow API** : annonce d'API publique = explosive opportunité pour Kyle
+- **OpenClaw Foundation** : premier tour de financement institutionnel = validation du marché vertical
