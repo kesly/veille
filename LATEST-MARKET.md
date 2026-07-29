@@ -1,187 +1,206 @@
-# 🔥 Market Scan — 2026-07-28
+# 🔥 Market Scan — 2026-07-29
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
 - Top potentiel : Glaze by Raycast
-- Opportunités immédiates (BUILD NOW) : 1 (angle vocal)
+- Opportunités immédiates (BUILD NOW) : 1
 
 ## 🏆 TOP APP #1 : Glaze by Raycast
 ### 1. Identification
-- **URL** : raycast.com/glaze · **Launch** : 1 juillet 2026 (GA) · **PH** : #1 le 03/07 (574 upvotes)
-- **Fondateurs** : équipe Raycast (Thomas Paul Mann & Petr Nikolaev, fondés 2020)
-- **Catégorie** : AI App Builder — Desktop Native
-- **Buzz** : 574 upvotes PH · utilisé en interne par Cursor, Linear, Vercel
+- **URL** : [raycast.com/glaze](https://www.raycast.com/blog/introducing-glaze)
+- **Lancement** : Beta mars 2026 → Public **3 juillet 2026**
+- **Fondateurs** : Petr Nikolaev & Thomas Paul Mann (Raycast, Berlin)
+- **Catégorie** : No-code AI app builder (desktop natif macOS)
+- **Métriques buzz** : #1 PH avec 574 upvotes · $47,8M levés (Atomico, Accel, Coatue)
 
 ### 2. Proposition de valeur
-- **Problème** : créer une app Mac native demande Swift + Xcode + semaines de dev
-- **Solution** : décrire l'app en langage naturel → l'IA génère une vraie app macOS native en minutes
-- **USP** : apps locales (pas de browser tab), accès système complet (fichiers, raccourcis, menu bar)
-- **Target** : power users Mac, équipes ops/support/produit, solo devs
-- **Pricing** : Free (120 crédits) · Pro $20/mo · Team $30/siège/mo
+- **Problème** : Créer une app desktop native demande des mois de dev Swift/Electron
+- **Solution** : Tu décris ton app en langage naturel → agent AI (Claude Code / Codex) génère une vraie app native qui vit dans le Dock, fonctionne offline, accède au système de fichiers
+- **USP** : Apps 100% locales, pas un wrapper web — raccourcis clavier, menu bar, fichiers, processus background
+- **Target** : Mac power users, solopreneurs, petites équipes tech
+- **Pricing** : Free (120 crédits) · Pro $20/mois · Team $30/siège/mois
 
-### 3. Stack Technique
-- **Frontend** : SwiftUI (apps générées natives macOS)
-- **Backend** : Claude Code (Anthropic) + Codex (OpenAI) en orchestration
-- **Infra** : local-first — apps tournent sur la machine de l'utilisateur
-- **Prérequis** : macOS Tahoe + Apple Silicon (limitation importante)
+### 3. Stack technique
+- **Frontend** : SwiftUI (macOS Tahoe, Apple Silicon only)
+- **Backend** : Agent AI local (Claude Code ou OpenAI Codex sous le capot)
+- **Distribution** : App store communautaire Glaze + partage privé équipe
+- **Infra** : Pas de serveur pour les apps générées — 100% on-device
 
-### 4. Psychologie
-- **JTBD** : "Je veux automatiser mon workflow Mac sans apprendre Swift"
-- **Aha moment** : voir sa première app native tourner 3 minutes après la description
-- **Triggers** : autorité (Raycast = outil de référence devs) · social proof (Cursor/Linear/Vercel l'utilisent) · effet WOW immédiat
-- **Urgence** : beta fermée → waitlist → FOMO
+### 4. Psychologie & JTBD
+- **Trigger** : Frustration du "ça prend 3 semaines juste pour avoir un script avec une UI"
+- **JTBD** : "Quand j'ai une idée d'outil perso, je veux la builder en 10 min sans coder"
+- **Aha moment** : Voir son app apparaître dans le Dock après 2 prompts
+- **Social proof** : #1 PH, store communautaire (viral loop d'apps partagées)
 
 ### 5. Go-to-Market
-- **Canal principal** : communauté Raycast existante (>1M users) → distribution gratuite
-- **Launch** : PH #1 · Twitter viral (démos vidéo d'apps générées en temps réel)
-- **Viral loop** : chaque app partagée = promo organique de Glaze
-- **Owned media** : newsletter Raycast, changelog, Discord 50K+
+- **Canal principal** : PH launch + X/Twitter (communauté Raycast existante ~500K users)
+- **Viral loop** : App store public → chaque app partagée = pub gratuite pour Glaze
+- **Stratégie** : Raycast avait déjà une base massive → lancement chaud garanti
 
-### 6. Réplication
-- **Complexité** : 7/10 (nécessite orchestration LLM + runtime SwiftUI + sandbox)
-- **Verticaux adjacents** : Windows native (Electron/WinUI) · Linux apps · Mobile (React Native)
-- **Angle Kyle** : Voice-first app builder — builder d'apps Mac **à la voix** (Glaze + Vapi/Bland)
-- **Temps dev** : 4-6 mois pour un MVP voice → apps Mac
+### 6. Réplication pour Kyle
+- **Complexité** : 7/10 — nécessite compétences Swift ou solide wrapper
+- **Angle** : Builder le pendant **Windows/Linux** (Glaze = macOS seulement), ou vertical voice AI : app builder avec interface vocale
+- **Verticaux adjacents** : Builder d'apps mobiles par prompt, builder d'outils internes no-code
+- **Temps de dev estimé** : 4-8 mois (MVP) pour un équivalent cross-platform
 
-## 🏆 TOP APP #2 : BitChat
+## 🏆 TOP APP #2 : Superpowers
 ### 1. Identification
-- **URL** : github.com/permissionlesstech/bitchat · **Launch** : juillet 2025 (annonce) · GA iOS v1.7.0 juillet 2026
-- **Fondateurs** : Jack Dorsey (co-fondateur Twitter/Square)
-- **Catégorie** : Messagerie décentralisée hors-ligne / Mesh networking
-- **Buzz** : #1 GitHub Trending juillet 2026 · 29K+ stars · 1 720 stars/jour · open source MIT
+- **URL** : [github.com/obra/superpowers](https://github.com/obra/superpowers)
+- **Lancement** : Octobre 2025 (open source)
+- **Fondateur** : Jesse Vincent (aka obra) — vétéran open source (RT::Extension, keyboard.io)
+- **Catégorie** : Agent skills framework (Claude Code, Cursor, Codex, Gemini CLI)
+- **Métriques buzz** : **250 000 stars GitHub** (juillet 2026) · 7 000 stars/semaine au pic · 1 528 stars dans les 24h initiales
 
 ### 2. Proposition de valeur
-- **Problème** : les apps de messagerie nécessitent internet + compte + serveur centralisé
-- **Solution** : messagerie chiffrée via Bluetooth Low Energy mesh entre appareils voisins, sans internet
-- **USP** : zéro infrastructure, zéro compte, fonctionne pendant les coupures internet et crises civiles
-- **Target** : activistes, zones sinistrées, pays à censure, techies privacy-first
-- **Pricing** : 100% gratuit · open source · freemium enterprise envisagé
+- **Problème** : Les agents AI coding réinventent la roue à chaque session — pas de discipline TDD, pas de mémoire des bonnes pratiques
+- **Solution** : Fichiers de skills Markdown auto-déclenchés par contexte, qui encodent la discipline d'ingénierie pro (TDD, revues, patterns) dans l'agent
+- **USP** : Agnostique (Claude Code, Cursor, Codex, Gemini CLI) · Zero config · Open source
+- **Target** : Développeurs utilisant des agents AI pour coder
+- **Pricing** : 100% gratuit, open source (MIT)
 
-### 3. Stack Technique
-- **iOS** : Swift · **Android** : port communautaire (5 600+ stars séparé)
-- **Protocol** : BLE mesh + Nostr relays (fallback internet)
-- **Chiffrement** : E2E par défaut · architecture zéro-serveur
-- **Open source** : MIT License
+### 3. Stack technique
+- **Format** : Fichiers Markdown avec frontmatter YAML (triggers, contexte)
+- **Intégration** : Hook natif dans Claude Code via `.claude/skills/`, Cursor via `.cursorrules`, etc.
+- **Infra** : Aucune — pur côté client, zéro serveur
+- **Monétisation** : Indirecte via notoriété / consulting (pas encore)
 
-### 4. Psychologie
-- **JTBD** : "Je veux communiquer même quand le gouvernement coupe internet"
-- **Aha moment** : envoyer un message à quelqu'un sans WiFi ni 4G devant ses yeux
-- **Triggers** : crainte (surveillance/censure) · news de crises mondiales = spikes de téléchargements
-- **Autorité** : Jack Dorsey = créateur de Twitter → légitimité maximale
+### 4. Psychologie & JTBD
+- **Trigger** : L'agent qui fait une bêtise répétitive que tu aurais pu éviter
+- **JTBD** : "Je veux que mon agent AI code comme un dev senior, pas comme un stagiaire"
+- **Aha moment** : Premier test TDD que l'agent écrit tout seul sans qu'on lui demande
+- **Viral loop** : Chaque dev qui partage son setup → bouche-à-oreille technique exponentiel
 
 ### 5. Go-to-Market
-- **Canal** : tweet de Jack Dorsey → viral immédiat · GitHub → communauté dev
-- **Viral loop** : utilisation en groupe (besoin d'autres utilisateurs proches) = recrutement organique
-- **Médias** : Entrepreneur, TechCrunch, Sacra, Wikipedia déjà
+- **Canal principal** : HN Show HN + X/Twitter communauté Claude Code
+- **Flywheel** : Open source → contribueurs → forks → ecosystem de skills communautaires
+- **Momentum** : 250K stars = légitimité instantanée, top 5-6 repos GitHub de tous les temps
 
-### 6. Réplication
-- **Complexité** : 9/10 (BLE mesh + crypto + protocole Nostr — très spécialisé)
-- **Verticaux adjacents** : communication d'urgence enterprise · IoT mesh · tourisme zones blanches
-- **Angle Kyle** : SDK voice sur mesh (guiding vocal hors-ligne en zone sinistrée) — niche très verticale
-- **Temps dev** : 12-18 mois minimum pour un concurrent sérieux
+### 6. Réplication pour Kyle
+- **Complexité** : 3/10 — créer une collection de skills voice AI spécialisés
+- **Angle** : **Skills pack "Voice AI"** pour Claude Code (Vapi, Retell, ElevenLabs, Twilio) — Kyle est l'expert absolu
+- **Verticaux adjacents** : Skills pack par secteur (legal, médical, e-commerce)
+- **Temps de dev** : 2-4 semaines pour un MVP, potentiel monétisation via abonnement ou consulting
 
-## 🏆 TOP APP #3 : Framer AI Agents (Framer 3.0)
+## 🏆 TOP APP #3 : Upstream
 ### 1. Identification
-- **URL** : framer.com · **Launch** : Framer 3.0 le 16 juin 2026 · #1 PH jour du lancement
-- **Fondateurs** : Koen Bok & Jorn van Dijk (NL, fondés 2014)
-- **Catégorie** : AI Website Builder / No-code Design Platform
-- **Buzz** : 188 000 entreprises · 364M visiteurs/mois · 4M+ sites publiés · $2B valuation
+- **URL** : [upstream.email](https://upstream.email) (YC S26)
+- **Lancement** : Juin-juillet 2026
+- **Fondateurs** : Équipe YC Summer 2026
+- **Catégorie** : Email client redesigné pour agents AI
+- **Métriques buzz** : **876 upvotes PH** (meilleur score mensuel email) · YC-backed · $3M seed
 
 ### 2. Proposition de valeur
-- **Problème** : les outils IA génèrent des mockups déconnectés du code production
-- **Solution** : agents IA qui opèrent directement dans le canvas Framer live — édition, CMS, SEO, publish
-- **USP** : "AI native dans le canvas" vs outils qui exportent du code cassé
-- **Target** : équipes produit, agences web, startups, 40% du dernier batch YC
-- **Pricing** : Free · Basic $10/mo · Pro $30/mo · Scale $100/mo + crédits IA
+- **Problème** : Gmail/Outlook sont conçus pour des humains — les agents AI peinent à lire, trier, répondre efficacement aux emails
+- **Solution** : Interface email native AI-first : les agents peuvent lire, trier, répondre, archiver avec des règles et déclencheurs structurés
+- **USP** : Seul client email pensé pour collaboration humain + agent AI
+- **Target** : Fondateurs, growth hackers, execs avec fort volume email
+- **Pricing** : Non encore public (freemium probable) · $3M seed
 
-### 3. Stack Technique
-- **Frontend** : React (Framer Motion) · canvas propriétaire
-- **Backend** : agents IA sur infrastructure cloud Framer
-- **CDN** : 300+ locations · hébergement intégré
-- **AI** : intégration LLM propriétaire (modèle non divulgué)
+### 3. Stack technique
+- **Frontend** : Web app + API REST pour agents
+- **Backend** : Intégration Gmail/Outlook IMAP · pipeline LLM pour classification
+- **Infra** : Cloud (probablement AWS/GCP) · webhooks pour agents externes
+- **APIs** : Compatible agents Claude, GPT, et outils no-code (Zapier, Make)
 
-### 4. Psychologie
-- **JTBD** : "Je veux mettre à jour mon site sans toucher au code ni passer par le dev"
-- **Aha moment** : voir l'agent modifier la nav + CMS + SEO d'un seul prompt
-- **Triggers** : social proof massif (YC batch, grandes marques) · économie de temps immédiate
-- **Branching** : nouveau — versions parallèles comme Git pour les designs
+### 4. Psychologie & JTBD
+- **Trigger** : L'email est le dernier bastion non-AI de la stack pro
+- **JTBD** : "Je veux que mon agent AI gère mes emails comme je le ferais moi-même"
+- **Aha moment** : Voir l'agent traiter 50 emails en 30 secondes avec zéro erreur
+- **Social proof** : YC backing + 876 votes = crédibilité institutionnelle
 
 ### 5. Go-to-Market
-- **Canal** : communauté designers existante (4M+ sites) · PH #1 · YouTube tutorials
-- **Viral loop** : "Made with Framer" badge sur tous les sites gratuits · templates marketplace
-- **Funding** : Series D $100M (Meritech + Atomico, août 2025) à $2B valuation
-- **ARR** : $50M ARR (2025) → objectif $100M fin 2026
+- **Canal** : YC Demo Day · PH launch · réseaux fondateurs YC alumni
+- **Viral loop** : Chaque user invite son équipe → adoption B2B organique
+- **Timing** : Parfait — agents AI matures mais email client AI-native encore vierge
 
-### 6. Réplication
-- **Complexité** : 10/10 (plateforme complète avec 12 ans de dev · impossible à répliquer)
-- **Verticaux adjacents** : voice-first site builder · builder de landing pages par voix
-- **Angle Kyle** : intégration Vapi/ElevenLabs dans Framer pour sites parlants (widget voice AI sur sites Framer)
-- **Temps dev** : 1-2 mois pour un widget voice AI compatible Framer (angle complémentaire vs concurrent)
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 — intégrations email complexes mais patterns bien connus
+- **Angle** : **Email agent vocal** — Upstream pour la voix : "dis-moi mes 5 emails importants" via voice AI
+- **Verticaux adjacents** : Inbox AI pour Slack, WhatsApp Business, SMS
+- **Temps de dev** : 2-3 mois pour MVP avec Vapi/ElevenLabs + IMAP
 
 ## 💰 Unit Economics Deep Dive — Glaze by Raycast
-**Note** : Glaze est lancé depuis <30 jours (GA 1er juillet 2026). Les chiffres ci-dessous sont des estimations basées sur Raycast global + benchmarks marché. Toutes les valeurs sont indicatives.
+> ⚠️ Glaze a 4 semaines d'existence. Chiffres = estimations basées sur Raycast total + benchmarks no-code AI.
 
-| Métrique | Estimation | Source / Hypothèse |
+| Métrique | Estimation | Source / Note |
 |---|---|---|
-| **ARR Raycast global** | ~$15-20M | Raycast a dépassé $10M ARR en 2024, croissance 50%+/an |
-| **ARR Glaze (estimé)** | ~$1-3M d'ici fin 2026 | Si 5-10% des users Pro passent Glaze |
-| **ARPU** | $240/an (Pro) · $360/an (Team) | Plans publics |
-| **Users actifs estimés** | 50 000-100 000 (Raycast total ~1M) | % conversion beta |
-| **CAC** | ~$0-5 | Distribution via base Raycast existante |
-| **LTV** | ~$720-1 440 (3-6 ans · $240/an) | Rétention SaaS dev tools élevée |
-| **LTV/CAC** | >100x | CAC quasi nul sur base existante |
-| **Payback period** | <1 mois | Distribution organique |
-| **Burn estimé** | $3-5M/an (équipe ~30 personnes) | LinkedIn Raycast |
-| **Rev/Employee** | ~$500K-700K | Référence SaaS dev tools |
-| **Rule of 40** | >60 | Croissance forte + marges SaaS |
+| **ARR Glaze** | ~$500K–$1,5M | Raycast $6,5M ARR total · Glaze = produit flagship |
+| **Users payants** | ~3 000–7 500 | Taux conversion PH typique 2-5% · base Raycast 500K |
+| **ARPU** | ~$240/an | Mix Free/Pro $20/mois / Team $30/siège |
+| **CAC** | ~$15–30 | Communauté Raycast existante = CAC très bas |
+| **LTV** | ~$480–720 | Rétention SaaS dev tools typique 24-36 mois |
+| **LTV/CAC** | **16-48x** 🟢 | Excellent — base communautaire chauffe |
+| **Payback period** | ~1-2 mois | CAC très faible, conversion rapide |
+| **Burn mensuel** | ~$400–600K | Équipe Raycast ~40 personnes (Berlin) |
+| **Runway** | ~7 ans | $47,8M levés, burn estimé |
+| **Rev/Employee** | ~$162K | 40 employés · ARR total Raycast $6,5M |
+| **Rule of 40** | ~50+ | Croissance forte post-launch + marges élevées SaaS |
 
-**Verdict santé** : 🟢 **SAIN** — avantage distribution massif (base Raycast), CAC nul sur la communauté existante, pricing clair. Principal risque : limitation Apple Silicon + macOS Tahoe = marché adressable réduit à court terme.
+**Verdict santé : 🟢 SAINE**
+Raycast est une machine bien huilée. Glaze est un produit additionnel sur base installée massive. Le vrai risque : dépendance macOS/Apple Silicon (Windows exclu au lancement).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Glaze by Raycast | BitChat | Framer AI Agents |
-|---|---|---|---|
-| 📊 Market Size (20%) | 8 — AI dev tools >$5B | 6 — messaging niche censure | 9 — web builder >$10B |
-| ⚙️ Complexité inversé (15%) | 5 — LLM + SwiftUI runtime | 2 — BLE mesh + crypto | 1 — 12 ans de plateforme |
-| ⏱️ Time-to-Market (15%) | 5 — 4-6 mois MVP | 2 — 12-18 mois minimum | 7 — angle complémentaire 1-2 mois |
-| 🏟️ Compétition inversé (15%) | 7 — Mac native = blue ocean partiel | 5 — Briar/Meshtastic existent | 3 — marché saturé (Webflow/Wix/Squarespace) |
-| 💰 Revenue Potential (20%) | 7 — $20-30/mo, large cible devs | 2 — zéro modèle actuel | 8 — $50M ARR prouvé sur la plateforme |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 6 — voice + Mac = angle pertinent | 2 — BLE mesh éloigné voice AI | 7 — widget voice AI sur Framer = fit direct |
+| Dimension (poids) | Glaze | Superpowers | Upstream |
+|---|:---:|:---:|:---:|
+| 📊 Market Size (20%) | 7 | 8 | 8 |
+| ⚙️ Complexity inversé (15%) | 3 | 9 | 5 |
+| ⏱️ Time-to-Market (15%) | 2 | 9 | 5 |
+| 🏟️ Competition inversé (15%) | 5 | 7 | 6 |
+| 💰 Revenue Potential (20%) | 8 | 4 | 8 |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 5 | 9 | 8 |
+| **Score pondéré** | **5,55** | **7,50** | **6,65** |
+| **Verdict** | 🟠 WATCH | 🟢 BUILD NOW | 🟡 BUILD ADJACENT |
 
-**Scores pondérés :**
-- **Glaze** : (8×0,20)+(5×0,15)+(5×0,15)+(7×0,15)+(7×0,20)+(6×0,15) = **6,45** 🟡 BUILD ADJACENT
-- **BitChat** : (6×0,20)+(2×0,15)+(2×0,15)+(5×0,15)+(2×0,20)+(2×0,15) = **3,45** 🔴 SKIP
-- **Framer AI Agents** : (9×0,20)+(1×0,15)+(7×0,15)+(3×0,15)+(8×0,20)+(7×0,15) = **6,20** 🟡 BUILD ADJACENT
-
-> **Gagnant surprise** : l'angle BUILD NOW pour Kyle = widget **Voice AI pour sites Framer** (1-2 mois de dev, distribution via 4M sites existants).
+**Notes :**
+- **Glaze** : Trop lié à macOS/Swift pour Kyle → difficile à répliquer sans équipe iOS. Compétition directe de Raycast (grosse boîte). Score honnête : 5,55 → 🟠 WATCH
+- **Superpowers** : Kyle peut créer un skills pack "Voice AI" en 2-4 semaines. Huge credibility boost + monetization via abonnement. Score : 7,50 → 🟢 BUILD NOW
+- **Upstream** : L'angle "email vocal" est pertinent pour Kyle. Marché large, mais intégrations email complexes. Score : 6,65 → 🟡 BUILD ADJACENT
 
 ## 📈 Tendances Émergentes
-1. **"Local-first AI"** : les utilisateurs veulent de l'IA qui tourne sur leur machine, pas dans le cloud (Glaze, LM Studio, Ollama tous en croissance). La vie privée et la latence zéro sont les drivers.
+**1. L'ère du "Prompt-to-App" natif**
+Glaze symbolise un shift : on passe de "vibe coding web" (Lovable, Bolt) à des apps desktop natives générées par AI. La prochaine étape sera mobile-native. Marché encore vierge.
 
-2. **Agents IA dans l'outil existant** : fin des "exporters AI" — les agents opèrent directement dans le canvas/IDE/app (Framer Agents, GitHub Copilot Workspace, Cursor). L'UX native > les intégrations bolted-on.
+**2. Frameworks d'agents > LLMs eux-mêmes**
+Superpowers à 250K stars prouve que l'infrastructure autour des agents (skills, mémoire, discipline) est plus désirable que les modèles bruts. L'attention se déplace : moins "quel modèle" et plus "comment le cadrer".
 
-3. **Infrastructure décentralisée anti-censure** : BitChat + Signal + Nostr → montée en puissance des outils de communication sans tiers de confiance. Corrélé aux tensions géopolitiques et aux coupures internet.
+**3. Stacks pro remodelées pour l'AI**
+Upstream préfigure une vague de "X redesigned for AI agents" : email, calendrier, CRM, téléphonie. Les verticaux qui n'ont pas encore eu leur Upstream sont nombreux.
 
-4. **Voice AI comme layer UI** : ElevenLabs, Vapi, Bland.ai explosent. Le voice est en train de devenir le nouveau "dark mode" — une feature attendue sur tout produit numérique d'ici 12 mois.
+**4. Voice AI : de l'expérimentation à la production**
+ElevenLabs à $500M ARR, Retell à $40M ARR, marché voice AI à $22,5B en 2026 (+34,8% CAGR). La maturité est là — c'est maintenant que les verticaux voice se construisent.
 
-5. **Mac native revival** : avec Apple Silicon + macOS Tahoe, les apps Mac natives reviennent après 10 ans d'Electron. Glaze en est le signal fort — le web ne peut pas tout.
+**5. Open Source comme moteur de distribution**
+Les repos ultra-viraux (Superpowers 250K, d'autres à 100K+) prouvent que l'open source est devenu le meilleur canal d'acquisition B2B dev. La monétisation vient après la notoriété.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle (Voice AI + SaaS) — Actions prioritaires
+### 🟢 Action immédiate — Voice AI Skills Pack (Superpowers-style)
 
-**#1 — BUILD NOW : Widget Voice AI pour Framer (1-2 mois)**
-- Framer = 4M+ sites · 188K entreprises · agents IA natifs en place
-- Créer un widget embed "Ask by Voice" pour sites Framer : un visiteur parle → l'IA répond (Vapi/ElevenLabs + RAG sur le contenu du site)
-- Distribution : Framer Marketplace + newsletter Framer → CAC quasi nul
-- Pricing : $29-99/mo SaaS · premier client en 30 jours possible
+**Quoi** : Créer une collection open source de skills Claude Code spécialisés voice AI (Vapi, Retell, ElevenLabs, Deepgram, Twilio). Publier sur GitHub, lancer sur HN Show HN + X.
 
-**#2 — WATCH : Voice layer sur Glaze**
-- Glaze permet de créer des apps Mac à partir de texte → Kyle peut proposer une app Mac "voice-first" builder
-- Attendre que Glaze sorte de beta + ouvre une API tierce (Q4 2026 probable)
+**Pourquoi maintenant** : Superpowers prouve que les skill packs viralisent. Le vertical voice AI n'a pas encore son "Superpowers". Kyle = l'expert idéal.
 
-**#3 — Signal fort à surveiller**
-- La tendance "local-first + voice" va s'accélérer : une app Mac native qui prend des commandes vocales pour automatiser le workflow = produit naturel pour Kyle
-- Surveiller : Whisper v4 (transcription locale), MLX (Apple Silicon inference)
+**Effort** : 2-4 semaines de contenu · zéro infra · open source
 
-**#4 — Ne pas construire**
-- BitChat : trop loin du core Kyle, complexité extrême, zéro monétisation claire
-- Un Framer concurrent : impossible, 12 ans d'avance + $100M en caisse
+**Monétisation** : Notoriété → consulting, cours, abonnement premium skills, sponsors
+
+---
+
+### 🟡 À 3-6 mois — "Upstream for Voice" (inbox vocal)
+
+**Quoi** : App qui lit, trie et répond aux emails via un agent vocal. "Dis-moi mes 3 emails urgents" → résumé vocal → réponse dictée.
+
+**Angle Kyle** : Il maîtrise Vapi/Retell + SaaS → combinaison parfaite. Stack : Vapi + IMAP + Claude + ElevenLabs.
+
+**Effort** : 2-3 mois MVP · $5-15K/mois potentiel à 6 mois
+
+---
+
+### 📌 Signal à surveiller — Glaze Windows/Linux
+
+Glaze est macOS-only. Si Raycast annonce Windows support → confirme le marché. Si non → opportunité de builder l'équivalent cross-platform (Electron + Claude Code API).
+
+---
+
+### 💡 Méta-insight
+
+Le marché en juillet 2026 récompense deux profils : (1) les **infra builders** (frameworks, skills, APIs) et (2) les **vertical AI apps** (email, voice, calendrier) sur une strate d'agents mûrs. Kyle est positionné sur les deux — il doit choisir où concentrer son energie cette semaine.
