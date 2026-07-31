@@ -1,191 +1,185 @@
-# 🔥 Market Scan — 2026-07-30
+# 🔥 Market Scan — 2026-07-31
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8 (Product Hunt, HN, GitHub Trending, Reddit)
-- Top potentiel : 3 retenues (filtres passés)
-- Opportunités immédiates (BUILD NOW) : 1
+- Apps analysées : 3
+- Top potentiel : Teable 3.0 (adjacent voice CRM)
+- Opportunités immédiates (BUILD NOW) : 1 — Voice AI Skills Pack (pivot superpowers)
 
-## 🏆 TOP APP #1 : Wispr Flow
-**Identification**
-- URL : [wisprflow.ai](https://wisprflow.ai) | Lancé : 2022, hypergrowth 2025-2026
-- Fondateur : Tanay Kothari | Catégorie : Voice AI / Productivity
-- Métriques buzz : $315M levés, $2B valuation (Series B 2026), 150x revenus en 1 an, 200x users, 2.5M downloads, 270 Fortune 500 clients, 40%+ MoM growth début 2026
+## 🏆 TOP APP #1 : Teable 3.0
+### 1. Identification
+- **URL** : [teable.ai](https://teable.ai) · [github.com/teableio/teable](https://github.com/teableio/teable)
+- **Launch v3.0** : 23 juillet 2026 (OpenAI Day Contest, Product Hunt)
+- **Catégorie** : AI Productivity / No-Code Database / Business Workspace
+- **Métriques buzz** : #1 OpenAI Day PH (470 upvotes, 136 commentaires), 21K+ GitHub stars, open source
 
-**Proposition de valeur**
-- Problème : dicter sur Mac = expérience horrible (mauvaise reconnaissance, aucune correction, aucun contexte)
-- Solution : dictée vocale intelligente qui écrit "dans ton style", dans toute app, avec auto-correction + mode commande
-- USP : adaptation au style personnel + 100+ langues + commandes vocales cross-app
-- Target : knowledge workers, exécutifs, professionnels santé
-- Pricing : Free (2K mots/sem) → Pro $15/mois ou $144/an → Teams $10/user/mois
+### 2. Proposition de valeur
+- **Problème** : Airtable/Notion = boîtes noires chères, aucune IA native, données propriétaires
+- **Solution** : Spreadsheet AI-native open source avec agents GPT-5.6 intégrés nativement
+- **USP** : Self-hosted possible + ISO 27001 + agents qui migrent, créent workflows et apps via langage naturel
+- **Target** : PME tech, équipes ops, devs qui veulent contrôler leurs données + puissance IA
+- **Pricing** : Freemium (community open source) + Enterprise (SSO, support)
 
-**Stack technique**
-- Frontend : app Mac native (Swift) + iOS
-- Backend : cloud processing uniquement (audio envoyé serveurs)
-- APIs : speech-to-text custom + modèles LLM pour correction stylistique
-- HIPAA BAA disponible, Privacy Mode inclus
+### 3. Stack technique
+- Frontend : TypeScript / React
+- Backend : Node.js
+- Infra : Docker, déploiement self-hosted ou cloud
+- APIs : GPT-5.6 (OpenAI), connecteurs universels
 
-**Psychologie**
-- Trigger principal : urgence de productivité ("tu perds 2h/jour à taper")
-- Social proof : Fortune 500, témoignages vidéo de CEOs connus
-- JTBD : "Quand je veux capturer des idées rapidement sans friction"
-- Aha moment : première phrase dictée parfaitement corrigée dans ton style, dans Gmail
+### 4. Psychologie du succès
+- **Triggers** : Open source (ownership), souveraineté données (peur lock-in Airtable), autorité (certifications enterprise)
+- **JTBD** : "Remplacer mon Airtable hors de prix par un outil IA que je maîtrise"
+- **Aha moment** : L'agent migre une base Airtable complète en < 60 secondes via chat
 
-**Go-to-market**
-- Canaux : SEO fort ("voice dictation mac"), bouche-à-oreille organique, influenceurs YT tech
-- Launch : Product Hunt + Twitter tech community
-- Viral loop : partage de stats personnelles ("j'écris 3x plus vite") → curiosité
-- Zero cold outreach : growth 100% inbound + WOM
+### 5. Go-to-Market
+- **Canaux** : GitHub trending, Product Hunt (#1 PH OpenAI Day), Twitter/X, r/selfhosted, r/nocode
+- **Stratégie launch** : Bon timing sur la vague GPT-5.6 (OpenAI Day contest)
+- **Viral loop** : Open source → contributors → articles tech → GitHub stars → enterprise leads
 
-**Réplication pour Kyle**
-- Complexité : 6/10 (STT APIs existent, le différenciant c'est le fine-tuning style)
-- Verticals adjacents : voice CRM notes, voice meeting summaries, voice email composer
-- **Angle Kyle** : Wispr Flow = layer UI ; Kyle peut construire le moteur voice AI en-dessous (B2B API)
-- Temps de dev MVP : ~3 mois pour un vertical spécifique (ex : voice notes médecin)
+### 6. Réplication pour Kyle
+- **Complexité** : 2/10 — Des mois de dev pour recréer (Airtable killer = chantier titanesque)
+- **Verticaux adjacents** : Voice team CRM, Call analytics workspace, AI-native SIRH
+- **Angle Kyle** : Construire un "Teable pour voice AI" — base de données structurée pour agents vocaux, historique des appels, analytics conversationnels
+- **Temps de dev** : 3-4 mois (fork de Teable + layer voice analytics)
 
-## 🏆 TOP APP #2 : Prelint
-**Identification**
-- URL : [prelint.com](https://prelint.com) | Lancé : juillet 2026
-- Fondateur : Wojtek (et équipe) | Catégorie : DevTools / AI Code Review
-- Métriques buzz : #1 Product Hunt 29 juillet 2026, 40% des issues pre-merge catchées, adoption rapide équipes AI-first
+## 🏆 TOP APP #2 : TwelveLabs
+### 1. Identification
+- **URL** : [twelvelabs.io](https://twelvelabs.io)
+- **Événement** : Series B $100M levée — 1er juillet 2026 (co-led NEA + NAVER Ventures, Amazon investisseur direct)
+- **Catégorie** : Video AI / Enterprise Intelligence
+- **Métriques** : $100M levée, >$200M total cumulé, 178 employés (3x en 1 an), partenariat AWS exclusif
 
-**Proposition de valeur**
-- Problème : les agents IA génèrent du code qui "dérive" des specs produit — bugs logiques invisibles aux linters classiques
-- Solution : review automatique de chaque PR contre ADRs, docs et décisions passées stockés dans GitHub
-- USP : le seul outil qui fait de la "product review" (spec drift) vs "code review" (erreurs techniques)
-- Target : équipes produit/dev utilisant Cursor, Copilot, Claude pour coder
-- Pricing : **$1 par review complétée** — pay-as-you-go, aucun siège ni abonnement
+### 2. Proposition de valeur
+- **Problème** : Des milliards d'heures de vidéo enterprise sont des données non structurées inexploitables
+- **Solution** : API video intelligence — recherche sémantique, structuration automatique, analyse temporelle sur vidéo
+- **USP** : Marengo 3.0 (compréhension audio+speech+motion) + Pegasus 1.5 (structuration en data)
+- **Target** : Médias, gouvernements, sport, publicité, sécurité
+- **Pricing** : API usage-based + contrats enterprise
 
-**Stack technique**
-- Intégration GitHub native (webhooks PR)
-- LLMs pour analyse sémantique contre docs produit
-- Stockage contexte produit : fichiers Markdown dans le repo GitHub du client
+### 3. Stack technique
+- Frontend : API-first / SDK
+- Backend : Modèles ML propriétaires (Marengo, Pegasus)
+- Infra : AWS Trainium (chips custom)
+- APIs : REST API video intelligence
 
-**Psychologie**
-- Trigger : peur de déployer du code IA qui viole les specs ("next $1M production incident")
-- Autorité : données chiffrées (40% issues catchées, 2.75x improvement doc quality)
-- JTBD : "Quand mon agent de code écrit 10x plus vite que mon équipe peut reviewer"
-- Aha moment : voir Prelint flagger un bug de spec que le code review humain avait raté
+### 4. Psychologie du succès
+- **Triggers** : Légitimité AWS (social proof institutionnel), FOMO enterprise (Google/Meta ont déjà leurs outils)
+- **JTBD** : "Rendre mes 10 000 heures d'archives vidéo cherchables et exploitables par IA en temps réel"
+- **Aha moment** : Requête "montre-moi tous les moments où X logo apparaît" → résultats en secondes sur 1 TB vidéo
 
-**Go-to-market**
-- Launch Product Hunt ciblé, communauté AI coding sur X/Twitter
-- Viral loop : les développeurs partagent les "catches" de Prelint sur Twitter
-- Positionnement timing parfait : explosion de Cursor/Claude engineers en 2026
+### 5. Go-to-Market
+- **Canaux** : Enterprise sales, AWS Marketplace, presse spécialisée (GlobeNewswire, TechCrunch)
+- **Stratégie** : $100M PR très médiatisé, AWS comme mega-distributeur
+- **Viral loop** : Cas clients enterprise → articles de presse → nouveaux enterprise leads
 
-**Réplication pour Kyle**
-- Complexité : 5/10 (webhook GitHub + LLM call + interface légère)
-- Verticals adjacents : compliance review (RGPD, sécurité), API contract drift, voice app spec drift
-- **Angle Kyle** : "Prelint pour voice apps" — vérifier que les agents vocaux respectent les scripts/politiques définies
-- Temps de dev MVP : 4-6 semaines
+### 6. Réplication pour Kyle
+- **Complexité** : 2/10 — Infrastructure ML video = capital et temps prohibitifs pour un indie
+- **Verticaux adjacents** : Voice call intelligence (transcription + sentiment), podcast analytics, meeting AI
+- **Angle Kyle** : Ne pas répliquer TwelveLabs mais s'inspirer du modèle "API intelligence" pour la voix — faire pour les calls ce que TwelveLabs fait pour la vidéo
+- **Temps de dev** : 2-3 mois (wrapper sur Whisper/Deepgram + LLM pour analyse calls)
 
-## 🏆 TOP APP #3 : OpenClaw
-**Identification**
-- URL : [GitHub OpenClaw](https://github.com/openclaw) | Lancé : fin 2025, explosion 2026
-- Fondateurs : communauté open-source | Catégorie : Personal AI Agent / Local-first
-- Métriques buzz : 247K GitHub stars (plus rapide que React), millions d'users, trending GitHub #1 juillet 2026
+## 🏆 TOP APP #3 : superpowers
+### 1. Identification
+- **URL** : [github.com/topics/superpowers](https://github.com/topics/superpowers) (Jesse Vincent / obra)
+- **Milestone** : 250 000 GitHub stars — 9 juillet 2026 (lancé oct. 2025)
+- **Catégorie** : Developer Tools / AI Agent Skills Framework
+- **Métriques** : 250K stars (top 5 GitHub tout temps), Anthropic Claude Code Marketplace, traduit en 10+ langues
 
-**Proposition de valeur**
-- Problème : les assistants IA (ChatGPT, Claude) ne savent pas qui tu es ni n'ont accès à tes outils perso
-- Solution : agent IA local connecté à tes fichiers + 50+ intégrations (WhatsApp, Discord, Notion, GitHub, mail, calendrier)
-- USP : privacy-first, auto-hébergeable, automatise 80-90% des workflows routine
-- Target : développeurs, power users, équipes techniques
-- Pricing : 100% gratuit open-source (MIT) + Cloud optionnel $59/mois (tu couvres tes propres API LLM ~$5-20/mois)
+### 2. Proposition de valeur
+- **Problème** : Les coding agents AI (Claude Code, Cursor, Codex) sont brillants mais non-disciplinés — pas de TDD, pas de code review systématique
+- **Solution** : 14 skills composables (markdown) encodant la discipline ingénierie professionnelle : TDD, sub-agent review, brainstorm, etc.
+- **USP** : Auto-trigger par contexte + compatible tous les agents majeurs + adoptable en 2 minutes
+- **Target** : Développeurs solo, indie hackers, startups utilisant AI coding agents
+- **Pricing** : Open source / Gratuit (marketplace Claude Code)
 
-**Stack technique**
-- Backend : Python, local-first
-- Intégrations : 50+ via MCP et APIs directes
-- LLM : agnostique (OpenAI, Anthropic, Ollama)
-- 100+ AgentSkills préconfiguables
+### 3. Stack technique
+- Frontend : Fichiers Markdown (.md skills files)
+- Backend : N/A (s'intègre dans le contexte de l'agent)
+- Infra : GitHub
+- APIs : Agnostique — Claude Code, Codex, Cursor, Gemini CLI, Copilot CLI
 
-**Psychologie**
-- Trigger : contrôle et vie privée ("ton IA qui tourne chez toi, pas sur leurs serveurs")
-- Social proof : 247K étoiles GitHub, comparaison React star count
-- JTBD : "Quand je veux un assistant IA qui connaît vraiment ma vie numérique"
-- Aha moment : WhatsApp message lu et répondu automatiquement selon tes préférences
+### 4. Psychologie du succès
+- **Triggers** : Social proof massif (250K stars = "tout le monde l'utilise"), FOMO dev community, bénéfice immédiat visible
+- **JTBD** : "Transformer mon agent IA en co-développeur discipliné qui ne régresse pas"
+- **Aha moment** : Agent fait du TDD automatiquement sans être promopté, sous-agent review détecte un bug avant merge
 
-**Go-to-market**
-- Viral loop GitHub : star → fork → contribution → promotion
-- HN Show HN viral, Reddit r/selfhosted, communauté privacy
-- Croissance zéro paid : 100% communauté open-source
+### 5. Go-to-Market
+- **Canaux** : GitHub trending (viral organique), Twitter #buildinpublic, r/ClaudeAI, r/cursor, articles Medium
+- **Stratégie** : Croissance organique pure — zero budget marketing
+- **Viral loop** : Dev l'essaie → blog "j'ai donné un cerveau à Claude" → 1528 stars en 24h au lancement
 
-**Réplication pour Kyle**
-- Complexité : 8/10 (reproduire OpenClaw entier = trop complexe)
-- **Angle Kyle** : construire une AgentSkill voice pour OpenClaw — distribution immédiate sur base 247K stars
-- Alternative : vertical B2B de l'OpenClaw (ex : agent IA pour équipes sales avec intégration CRM + voice notes)
-- Temps de dev contribution : 2-4 semaines pour une skill voice de qualité
+### 6. Réplication pour Kyle
+- **Complexité** : 9/10 — 2-4 semaines pour une niche voice AI (écriture de skills spécialisés)
+- **Verticaux adjacents** : Voice AI dev skills, security review skills, product management skills, data pipeline skills
+- **Angle Kyle** : Créer un "superpowers voice AI" — skills Claude Code spécialisés pour builder des agents vocaux (prompting patterns, testing voice agents, ElevenLabs/Deepgram integration skills)
+- **Temps de dev** : 2-4 semaines · Monétisation : premium skills pack $29/mois ou lead gen pour consulting
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-Sources : TechCrunch, GetLatka, Weesper Neon Flow Blog, Postbeam
+## 💰 Unit Economics Deep Dive — Teable 3.0
+*Note : Teable est open source. Données financières non publiques. Estimation basée sur modèles SaaS PLG comparables (Supabase, NocoDB)*
 
-| Métrique | Estimation | Source / Note |
+| Métrique | Estimation | Méthode |
 |---|---|---|
-| ARR | ~$25-50M | GetLatka + industry estimates |
-| Valuation | $2B (Series B 2026) | Postbeam, TechCrunch |
-| Total Raised | $315M (3 rounds) | GetLatka |
-| Users actifs | ~1-2M (sur 2.5M downloads) | Estimé 60-80% rétention |
-| ARPU | ~$120/an (mix Free/Pro) | $15/mois Pro, ~20% conversion |
-| CAC | ~$5-15 | Inbound-only, zéro cold outreach |
-| LTV (3 ans) | ~$360 | $120/an × 3 ans rétention estimée |
-| LTV/CAC | **24-72x** 🟢 | Exceptionnel |
-| Payback | <1 mois | CAC ultra-faible |
-| Équipe | ~60 personnes (mi-2026) | Postbeam (7 → 60 en 1 an) |
-| Rev/Employee | ~$400-800K/an | Benchmark SaaS top quartile |
-| Rule of 40 | >80 🟢 | Growth >40%/mois + marges SaaS |
+| **ARR** | ~$1.5-3M | 21K stars → ~2% conversion enterprise → ~420 équipes × $3-7K/an |
+| **ARPU** | ~$3,500/an | Mix SMB ($1.2K) + Enterprise ($15K) |
+| **Users payants** | ~500-1,000 équipes | Benchmark PLG open source (NocoDB: ~1K paying) |
+| **CAC** | ~$50-150 | PLG organique GitHub, zero outbound |
+| **LTV** | ~$8,000-15,000 | Durée vie 3-4 ans × ARPU |
+| **LTV/CAC** | **~60-150x** 🟢 | Excellent (PLG model) |
+| **Payback Period** | < 1 mois | CAC faible + ARPU > CAC |
+| **Burn** | ~$200-400K/mois | ~15-20 ETP (équipe China-based, coûts réduits) |
+| **Runway** | Inconnu | Pas de funding public identifié |
+| **Rev/Employee** | ~$75-200K | Si 15 ETP — raisonnable pour PLG early stage |
+| **Rule of 40** | ~85-120 | Croissance rapide + marges élevées PLG |
 
-**Verdict santé : 🟢 EXCEPTIONNEL**
-- LTV/CAC >20x = unit economics parmi les meilleurs du marché SaaS
-- Growth 150x revenus en 1 an = rare même pour AI startups
-- Risque : dépendance Apple (Mac-only), concurrence Big Tech (Apple Intelligence, Google)
-- Moat : style personnalisé = switching cost élevé après 6 mois d'usage
+**Verdict santé : 🟡 Prometteur mais opaque**
+- Points forts : LTV/CAC exceptionnel, CAC quasi nul, enterprise ISO validé
+- Risques : Pas de funding visible = bootstrap ou pré-seed non disclosé, concurrence Airtable/Notion massive
+- Signal positif : #1 PH OpenAI Day = validation marché claire
+- Sources : [Product Hunt](https://www.producthunt.com/products/teable-4) · [GitHub](https://github.com/teableio/teable) · [teable.ai](https://teable.ai)
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow Clone | Prelint Adjacent | OpenClaw Skill |
-|---|---|---|---|
-| 📊 Market Size (20%) | 8 — marché voice AI $50B+ | 6 — DevTools AI croissant | 7 — agent AI platform |
-| ⚙️ Complexité inv. (15%) | 4 — STT+LLM+Mac app complexe | 8 — webhook+LLM simple | 8 — skill isolée |
-| ⏱️ Time-to-Market (15%) | 4 — 6-12 mois réaliste | 8 — 4-6 semaines | 9 — 2-4 semaines |
-| 🏟️ Compétition inv. (15%) | 4 — Wispr leader + Apple | 8 — quasi blue ocean spec drift | 6 — beaucoup de skills |
-| 💰 Revenue Potential (20%) | 7 — $10K+ MRR si vertical B2B | 6 — pay-per-use limité | 5 — monétisation difficile OSS |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — expert voice AI + SaaS | 7 — dev background utile | 6 — communauté à construire |
-| **Score pondéré** | **6.45 🟡 BUILD ADJACENT** | **7.55 🟢 BUILD NOW** | **6.95 🟡 BUILD ADJACENT** |
+*Évaluation de l'OPPORTUNITÉ ADJACENTE pour Kyle (voice AI + SaaS), pas clone direct*
 
-**Recommandation prioritaire :**
-1. 🟢 **BUILD NOW — Prelint vertical voice** : "Prelint pour agents vocaux" — vérifie que les scripts/politiques des voice bots sont respectés dans le code. Kyle = expert + marché émergent + 4-6 sem de dev.
-2. 🟡 **BUILD ADJACENT — Voice API B2B** : construire la couche voice AI que Wispr Flow utilise, vendue en B2B API à d'autres startups SaaS.
-3. 🟡 **BUILD ADJACENT — OpenClaw Voice Skill** : distribution gratuite sur 247K stars, bon pour notoriété + leads.
+| Dimension (poids) | Teable 3.0 | TwelveLabs | superpowers |
+|---|---|---|---|
+| 📊 Market Size (20%) | 7 — CRM voice teams €50M+ | 8 — Video+Voice AI €10B+ | 4 — Niche dev tools €5M |
+| ⚙️ Complexity inv (15%) | 5 — 3-4 mois (fork) | 3 — 6-12 mois (ML) | **9** — 2-4 semaines |
+| ⏱️ Time-to-Market (15%) | 5 — 3-6 mois | 3 — 6-12 mois | **10** — < 1 mois |
+| 🏟️ Competition inv (15%) | 6 — Pas de voice CRM AI | 4 — ElevenLabs/Deepgram | **9** — Blue ocean skills |
+| 💰 Revenue Potential (20%) | 7 — B2B €50-500/mois | 7 — API enterprise | 3 — Open source difficile |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 8 — Voice + SaaS parfait | 8 — Voice AI angle clair | **9** — Expert voice + dev |
+
+| App | **Score final** | **Verdict** |
+|---|---|---|
+| Teable 3.0 → Voice CRM | **(7×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(7×0.20)+(8×0.15) = 6.4** | 🟡 BUILD ADJACENT |
+| TwelveLabs → Call AI API | **(8×0.20)+(3×0.15)+(3×0.15)+(4×0.15)+(7×0.20)+(8×0.15) = 5.8** | 🟠 WATCH |
+| superpowers → Voice Skills | **(4×0.20)+(9×0.15)+(10×0.15)+(9×0.15)+(3×0.20)+(9×0.15) = 6.9** | 🟡 BUILD ADJACENT |
+
+**Meilleure opportunité immédiate pour Kyle : Créer un "Voice AI Skills Pack" pour Claude Code / coding agents**
+→ Semaines 1-4 : Publier 5-10 skills voice AI sur marketplace Claude Code · Objectif : 1K+ users → lead gen consulting
 
 ## 📈 Tendances Émergentes
-**1. Voice-first input remplace le clavier** (Signal fort 🔴)
-Wispr Flow à $2B prouve que la dictée intelligente est mainstream. Apple Intelligence intègre voice mais reste générique. Le marché B2B vertical (médecin, avocat, commercial) reste ouvert.
+1. **AI-native > AI-wrapper** : Les produits qui construisent nativement avec GPT-5.6 (Teable, etc.) battent les wrappers. La barre monte : intégration profonde des agents dans les workflows, pas un bouton "Summarize"
 
-**2. AI drift & compliance comme nouveau marché** (Signal fort 🔴)
-Prelint révèle un besoin massif : les équipes vibe-coding produisent du code qui dérive des specs. Ce problème existe pour voice bots (scripts non respectés), pour RGPD, pour API contracts. Marché naissant, 0 acteur dominant.
+2. **Infrastructure agent explose** : GitHub trending dominé par agent frameworks, MCP servers, AI gateways. L'agent coding est mainstream — superpowers à 250K stars en est la preuve chiffrée
 
-**3. Local-first AI contre cloud** (Signal moyen 🟡)
-OpenClaw à 247K stars montre que la vie privée + contrôle local est un désir croissant. Mais la monétisation reste difficile. Opportunité : proposer une version cloud B2B avec SLA pour les entreprises.
+3. **Multimodalité = nouveau front** : TwelveLabs ($100M) confirme que la vidéo est le "nouveau texte". Le voice suit la même courbe — les models voice (ElevenAgents, Deepgram) montent en puissance et en qualité
 
-**4. Agents GitHub comme canal de distribution** (Signal moyen 🟡)
-Les outils DevTools qui s'intègrent à GitHub (comme Prelint) bénéficient du workflow naturel des devs. Distribution quasi gratuite, adoption organique forte.
+4. **PLG open source vs enterprise** : Teable illustre une tendance : open source sur GitHub pour la base communautaire + certifications enterprise pour upsell. Le modèle supporte des LTV/CAC de 50-150x
 
-**5. Concentration infrastructure AI** (Signal fond 🟢)
-Langflow (146K stars), Dify (136K), Flowise (51K) : le no-code AI agent builder est en train de se standardiser. La valeur migre vers les verticaux spécialisés plutôt que les plateformes génériques.
+5. **Verticaux "ennuyeux" gagnent** : Tax, compliance, RH, analytics — les produits proches des budgets et des deadlines convertissent mieux que les apps lifestyle. Signal fort pour voice AI ciblant les call centers, SDR, support client
 
 ## 💡 Insights Actionnables
-**Pour Kyle — Actions concrètes cette semaine :**
+**Pour Kyle — Actions concrètes classées par effort/impact :**
 
-🎯 **Action #1 (urgente) — Valider l'idée Prelint Voice**
-Contacter 5 équipes qui développent des voice bots et leur poser : "Est-ce que ton agent vocal respecte toujours ton script/politique ?" Si 3/5 disent non + ils payeraient $1/review → go.
-→ Effort : 2h de DMs LinkedIn/X
+**🚀 Court terme (< 1 mois)**
+- **Créer 5 skills Claude Code pour voice AI** : patterns de prompting, testing agents ElevenLabs, intégration Deepgram, debug de latence vocale. Publier sur le marketplace Claude Code → 0 CAC, lead gen instantané. Modèle : superpowers mais niche voice. *Effort : 2-3 semaines*
 
-🎯 **Action #2 — Analyser le pricing Wispr Flow**
-Le plan Pro à $15/mois avec 0 cold outreach et LTV/CAC de 24-72x valide que le voice AI peut être vendu en self-serve. Kyle peut appliquer ce modèle à un vertical B2B (ex : voice notes CRM à $29/mois).
-→ Effort : builder une landing page en 1 journée pour tester la demande
+**⚡ Moyen terme (1-3 mois)**
+- **"TwelveLabs du voice"** : API d'intelligence pour calls — transcription + analyse sentiment + extraction d'insights par NLP. B2B SaaS, €500-2K/mois/client. Angle différenciant : focus PME/SDR, pas enterprise. *Effort : 2-3 mois*
 
-🎯 **Action #3 — Contribuer une Voice Skill OpenClaw**
-Distribution gratuite sur 247K devs. Une skill "voice command processor" ou "voice CRM note" bien construite = 1K étoiles en 1 semaine + leads inbound.
-→ Effort : 2-4 semaines de dev, contribution gratuite
+**🔭 Long terme (3-6 mois)**
+- **Voice CRM AI-native** : Dans le sillage de Teable 3.0, construire un workspace structuré pour équipes voice AI — stockage des appels, analytics conversationnels, CRM pour agents vocaux. Fork Teable + layer voice. *Effort : 4-6 mois*
 
-**Pattern clé identifié :**
-Le marché ne veut plus des "apps voice génériques" — il veut des solutions voice **verticales** avec un problème précis résolu parfaitement. Wispr = dictée tous styles. Prelint = spec drift. Le prochain gagnant = voice + vertical B2B spécifique (santé, legal, sales).
+**Principe directeur** : Le marché valide clairement que l'infrastructure AI-native (pas les wrappers) et les verticaux B2B proches des budgets gagnent. Kyle a un avantage compétitif réel sur la verticalisation voice — aucun des 3 acteurs scannés ne l'adresse directement.
 
-**Signal d'alarme :**
-Apple Intelligence + Google + Microsoft investissent massivement dans la voice. La fenêtre pour les startups indépendantes = 12-24 mois avant que ces features soient natives dans les OS. Kyle doit se positionner maintenant sur un vertical où Apple ne peut pas aller (compliance, B2B, multilangue spécialisé).
+Sources principales : [Product Hunt July 2026](https://www.producthunt.com/leaderboard/monthly/2026/7) · [hunted.space](https://hunted.space/top-products/monthly/2026/July) · [bestofshowhn.com](https://bestofshowhn.com/2026/7) · [GlobeNewswire TwelveLabs](https://www.globenewswire.com/news-release/2026/07/01/3320545/0/en/twelvelabs-raises-100-million-in-series-b-funding-to-build-video-superintelligence.html) · [Medium superpowers 250K](https://medium.com/@lssmj2014/the-quarter-million-superpowers-joins-githubs-most-elite-tier-8636a2f90962)
