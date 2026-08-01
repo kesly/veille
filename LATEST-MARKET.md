@@ -1,185 +1,183 @@
-# 🔥 Market Scan — 2026-07-31
+# 🔥 Market Scan — 2026-08-01
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Teable 3.0 (adjacent voice CRM)
-- Opportunités immédiates (BUILD NOW) : 1 — Voice AI Skills Pack (pivot superpowers)
+- Apps analysées : 6 (VoiceBox, OmniRoute, Sim.ai, AgentKey, ElevenLabs Conv. AI 2.0, Context.dev)
+- Top potentiel : 3 retenues (VoiceBox, OmniRoute, Sim.ai)
+- Opportunités immédiates (BUILD NOW) : 1 (VoiceBox)
 
-## 🏆 TOP APP #1 : Teable 3.0
+## 🏆 TOP APP #1 : VoiceBox
 ### 1. Identification
-- **URL** : [teable.ai](https://teable.ai) · [github.com/teableio/teable](https://github.com/teableio/teable)
-- **Launch v3.0** : 23 juillet 2026 (OpenAI Day Contest, Product Hunt)
-- **Catégorie** : AI Productivity / No-Code Database / Business Workspace
-- **Métriques buzz** : #1 OpenAI Day PH (470 upvotes, 136 commentaires), 21K+ GitHub stars, open source
+- **URL** : [github.com/jamiepine/voicebox](https://github.com/jamiepine/voicebox)
+- **Launch** : avril 2026 · **Fondateur** : Jamie Pine (dev solo, Canada)
+- **Catégorie** : Voice AI / Local-first desktop
+- **Buzz** : 46 000+ ⭐ GitHub · Trending #1 semaine du 27 juillet · Articles DEV.to, TechTimes, CoddyKit
 
 ### 2. Proposition de valeur
-- **Problème** : Airtable/Notion = boîtes noires chères, aucune IA native, données propriétaires
-- **Solution** : Spreadsheet AI-native open source avec agents GPT-5.6 intégrés nativement
-- **USP** : Self-hosted possible + ISO 27001 + agents qui migrent, créent workflows et apps via langage naturel
-- **Target** : PME tech, équipes ops, devs qui veulent contrôler leurs données + puissance IA
-- **Pricing** : Freemium (community open source) + Enterprise (SSO, support)
+- **Problème** : La stack voice I/O est fragmentée entre ElevenLabs (TTS cloud, cher) et WisprFlow (dictée cloud)
+- **Solution** : Un seul outil desktop open-source qui fait les deux + voice cloning local en 3 secondes d'audio
+- **USP** : 100% local, zéro cloud, zéro abonnement, 7 moteurs TTS, 23 langues, hotkey dictée globale
+- **Cible** : Devs, power users privacy-first, créateurs de contenu, builders d'agents AI
+- **Pricing** : Gratuit / Open-source (MIT) — monétisation via token Solana $VOICEBOX (controversé)
 
 ### 3. Stack technique
-- Frontend : TypeScript / React
-- Backend : Node.js
-- Infra : Docker, déploiement self-hosted ou cloud
-- APIs : GPT-5.6 (OpenAI), connecteurs universels
+- **Frontend** : Desktop Electron/Tauri · **Backend** : Local (no server)
+- **TTS** : Qwen3-TTS + 6 autres moteurs · **Voice cloning** : Local XTTS / Coqui
+- **Infra** : Auto-hébergé ou Docker · **LLM local** : bundlé pour refinement
 
-### 4. Psychologie du succès
-- **Triggers** : Open source (ownership), souveraineté données (peur lock-in Airtable), autorité (certifications enterprise)
-- **JTBD** : "Remplacer mon Airtable hors de prix par un outil IA que je maîtrise"
-- **Aha moment** : L'agent migre une base Airtable complète en < 60 secondes via chat
+### 4. Psychologie & JTBD
+- **Triggers** : Gratuité radicale vs ElevenLabs (~$22/mo), scarcité de la privacy, FOMO GitHub star burst
+- **JTBD** : "Donner une voix à mes agents AI sans dépendre d'un SaaS" / "Dicter dans n'importe quelle app sans envoyer mes données"
+- **Aha moment** : Cloner sa propre voix en 3 secondes → entendre l'agent parler comme soi
 
-### 5. Go-to-Market
-- **Canaux** : GitHub trending, Product Hunt (#1 PH OpenAI Day), Twitter/X, r/selfhosted, r/nocode
-- **Stratégie launch** : Bon timing sur la vague GPT-5.6 (OpenAI Day contest)
-- **Viral loop** : Open source → contributors → articles tech → GitHub stars → enterprise leads
+### 5. Go-to-market
+- **Canaux** : GitHub organic (dev community) → DEV.to → Reddit r/LocalLLaMA → Twitter
+- **Launch strategy** : Star burst organique → trending → boucle virale dev-to-dev
+- **Viral loop** : "Essaie, dis à tes potes" + open-source = forkabilité infinie
 
-### 6. Réplication pour Kyle
-- **Complexité** : 2/10 — Des mois de dev pour recréer (Airtable killer = chantier titanesque)
-- **Verticaux adjacents** : Voice team CRM, Call analytics workspace, AI-native SIRH
-- **Angle Kyle** : Construire un "Teable pour voice AI" — base de données structurée pour agents vocaux, historique des appels, analytics conversationnels
-- **Temps de dev** : 3-4 mois (fork de Teable + layer voice analytics)
+### 6. Réplication
+- **Complexité** : 6/10 (wrapper sur des modèles open-source, mais UX desktop compte)
+- **Verticaux adjacents** : Voice API pour agents B2B (payant), studio podcast self-hosted, accessibilité
+- **Angle Kyle** : Killer — Kyle est expert voice AI. Construire la couche API payante au-dessus = business model viable là où VoiceBox ne monétise pas
+- **Temps de dev** : MVP API wrapper ~3-4 semaines · UI desktop ~8-12 semaines
 
-## 🏆 TOP APP #2 : TwelveLabs
+## 🏆 TOP APP #2 : OmniRoute
 ### 1. Identification
-- **URL** : [twelvelabs.io](https://twelvelabs.io)
-- **Événement** : Series B $100M levée — 1er juillet 2026 (co-led NEA + NAVER Ventures, Amazon investisseur direct)
-- **Catégorie** : Video AI / Enterprise Intelligence
-- **Métriques** : $100M levée, >$200M total cumulé, 178 employés (3x en 1 an), partenariat AWS exclusif
+- **URL** : [github.com/diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+- **Launch** : février 2026 · **Fondateur** : Diego Souza + 500+ contributeurs
+- **Catégorie** : AI Infrastructure / LLM Gateway
+- **Buzz** : 33 900+ ⭐ GitHub · Trending #2 GitHub (juillet 2026) · Articles Pinggy, CoddyKit, ExplainX
 
 ### 2. Proposition de valeur
-- **Problème** : Des milliards d'heures de vidéo enterprise sont des données non structurées inexploitables
-- **Solution** : API video intelligence — recherche sémantique, structuration automatique, analyse temporelle sur vidéo
-- **USP** : Marengo 3.0 (compréhension audio+speech+motion) + Pegasus 1.5 (structuration en data)
-- **Target** : Médias, gouvernements, sport, publicité, sécurité
-- **Pricing** : API usage-based + contrats enterprise
+- **Problème** : Les devs jonglent entre des dizaines de providers LLM (Claude, GPT, Gemini, DeepSeek…) avec des clés API, limites de quota et formats incompatibles
+- **Solution** : Un endpoint OpenAI-compatible unique qui agrège 290+ providers (90+ gratuits) et route intelligemment
+- **USP** : 18 stratégies de routing, compression tokens 15-95% (RTK+Caveman), fallback automatique, MCP/A2A support
+- **Cible** : Devs AI, power users Claude Code/Cursor/Cline, startups AI cost-conscious
+- **Pricing** : 100% gratuit MIT — pas de monétisation directe
 
 ### 3. Stack technique
-- Frontend : API-first / SDK
-- Backend : Modèles ML propriétaires (Marengo, Pegasus)
-- Infra : AWS Trainium (chips custom)
-- APIs : REST API video intelligence
+- **Frontend** : Desktop PWA · **Backend** : Local gateway (Node/Python)
+- **Providers** : 516 modèles, 290+ providers · **Compression** : RTK+Caveman algo (custom)
+- **Infra** : Self-hosted ou docker · **Release** : v3.8.48 (13 juillet 2026)
 
-### 4. Psychologie du succès
-- **Triggers** : Légitimité AWS (social proof institutionnel), FOMO enterprise (Google/Meta ont déjà leurs outils)
-- **JTBD** : "Rendre mes 10 000 heures d'archives vidéo cherchables et exploitables par IA en temps réel"
-- **Aha moment** : Requête "montre-moi tous les moments où X logo apparaît" → résultats en secondes sur 1 TB vidéo
+### 4. Psychologie & JTBD
+- **Triggers** : "Ne plus jamais être bloqué par un quota" + économies ($0 vs $200+/mo OpenRouter) + réseau de 500+ devs contributeurs
+- **JTBD** : "Coder sans interruption même si un provider est down ou que je dépasse mon quota"
+- **Aha moment** : Passer Claude Code sur OmniRoute → 80% de tokens économisés → coder 3x plus longtemps gratuitement
 
-### 5. Go-to-Market
-- **Canaux** : Enterprise sales, AWS Marketplace, presse spécialisée (GlobeNewswire, TechCrunch)
-- **Stratégie** : $100M PR très médiatisé, AWS comme mega-distributeur
-- **Viral loop** : Cas clients enterprise → articles de presse → nouveaux enterprise leads
+### 5. Go-to-market
+- **Canaux** : GitHub organic → Claude Code community → Reddit r/LocalLLaMA → Twitter devs
+- **Launch strategy** : Intégration documentée avec Claude Code, Cursor, Cline = distribution par l'outil existant
+- **Viral loop** : Chaque nouveau model supported = nouveau user segment
 
-### 6. Réplication pour Kyle
-- **Complexité** : 2/10 — Infrastructure ML video = capital et temps prohibitifs pour un indie
-- **Verticaux adjacents** : Voice call intelligence (transcription + sentiment), podcast analytics, meeting AI
-- **Angle Kyle** : Ne pas répliquer TwelveLabs mais s'inspirer du modèle "API intelligence" pour la voix — faire pour les calls ce que TwelveLabs fait pour la vidéo
-- **Temps de dev** : 2-3 mois (wrapper sur Whisper/Deepgram + LLM pour analyse calls)
+### 6. Réplication
+- **Complexité** : 5/10 (proxy LiteLLM existe déjà, la diff est l'UX et la compression)
+- **Verticaux adjacents** : Offre cloud managed OmniRoute (SaaS), plugin entreprise avec analytics, marketplace de presets
+- **Angle Kyle** : Intégrer OmniRoute dans ses agents voice pour zero-downtime et cost control
+- **Temps de dev** : Fork + customisation ~2-3 semaines · SaaS managed ~6-8 semaines
 
-## 🏆 TOP APP #3 : superpowers
+## 🏆 TOP APP #3 : Sim.ai
 ### 1. Identification
-- **URL** : [github.com/topics/superpowers](https://github.com/topics/superpowers) (Jesse Vincent / obra)
-- **Milestone** : 250 000 GitHub stars — 9 juillet 2026 (lancé oct. 2025)
-- **Catégorie** : Developer Tools / AI Agent Skills Framework
-- **Métriques** : 250K stars (top 5 GitHub tout temps), Anthropic Claude Code Marketplace, traduit en 10+ langues
+- **URL** : [sim.ai](https://sim.ai) · [github.com/simstudioai/sim](https://github.com/simstudioai/sim)
+- **Launch** : nov. 2024 (YC W25) · **Fondateurs** : Adi Srinivas + Mahesh Murag (UC Berkeley)
+- **Catégorie** : AI Workflow / Agent Builder
+- **Buzz** : 28 800+ ⭐ GitHub · $7M Series A (Paul Graham, Perplexity, SV Angel) · 100K+ builders
 
 ### 2. Proposition de valeur
-- **Problème** : Les coding agents AI (Claude Code, Cursor, Codex) sont brillants mais non-disciplinés — pas de TDD, pas de code review systématique
-- **Solution** : 14 skills composables (markdown) encodant la discipline ingénierie professionnelle : TDD, sub-agent review, brainstorm, etc.
-- **USP** : Auto-trigger par contexte + compatible tous les agents majeurs + adoptable en 2 minutes
-- **Target** : Développeurs solo, indie hackers, startups utilisant AI coding agents
-- **Pricing** : Open source / Gratuit (marketplace Claude Code)
+- **Problème** : Construire des agents AI complexes reste trop technique (LangChain) ou trop générique (n8n)
+- **Solution** : Canvas visuel pour orchestrer des workflows d'agents AI, avec "Mothership" (NL control plane) depuis mars 2026
+- **USP** : Plus AI-native que n8n, plus visuel que LangChain, open-source + cloud, backed by Paul Graham
+- **Cible** : Builders AI (technical non-devs), startups AI, enterprise automation
+- **Pricing** : Free open-source + cloud tiers (freemium)
 
 ### 3. Stack technique
-- Frontend : Fichiers Markdown (.md skills files)
-- Backend : N/A (s'intègre dans le contexte de l'agent)
-- Infra : GitHub
-- APIs : Agnostique — Claude Code, Codex, Cursor, Gemini CLI, Copilot CLI
+- **Frontend** : React canvas + drag-and-drop · **Backend** : Node + Postgres
+- **Infra** : Vercel + cloud DB · **Intégrations** : 50+ connecteurs LLM/APIs
+- **Mothership** : NL interface → orchestration automatique de workflows
 
-### 4. Psychologie du succès
-- **Triggers** : Social proof massif (250K stars = "tout le monde l'utilise"), FOMO dev community, bénéfice immédiat visible
-- **JTBD** : "Transformer mon agent IA en co-développeur discipliné qui ne régresse pas"
-- **Aha moment** : Agent fait du TDD automatiquement sans être promopté, sous-agent review détecte un bug avant merge
+### 4. Psychologie & JTBD
+- **Triggers** : Légitimité Paul Graham (signal fort), FOMO "tout le monde construit des agents", simplification radicale
+- **JTBD** : "Construire et déployer un agent AI complex en 1 heure sans coder"
+- **Aha moment** : Premier workflow agent fonctionnel en < 10 min via canvas drag-and-drop
 
-### 5. Go-to-Market
-- **Canaux** : GitHub trending (viral organique), Twitter #buildinpublic, r/ClaudeAI, r/cursor, articles Medium
-- **Stratégie** : Croissance organique pure — zero budget marketing
-- **Viral loop** : Dev l'essaie → blog "j'ai donné un cerveau à Claude" → 1528 stars en 24h au lancement
+### 5. Go-to-market
+- **Canaux** : YC network → HN → GitHub → Twitter dev community
+- **Launch strategy** : YC Demo Day → investor clout → dev community adoption → enterprise upsell
+- **Viral loop** : Templates partagés + open-source = adoption organique + contribution
 
-### 6. Réplication pour Kyle
-- **Complexité** : 9/10 — 2-4 semaines pour une niche voice AI (écriture de skills spécialisés)
-- **Verticaux adjacents** : Voice AI dev skills, security review skills, product management skills, data pipeline skills
-- **Angle Kyle** : Créer un "superpowers voice AI" — skills Claude Code spécialisés pour builder des agents vocaux (prompting patterns, testing voice agents, ElevenLabs/Deepgram integration skills)
-- **Temps de dev** : 2-4 semaines · Monétisation : premium skills pack $29/mois ou lead gen pour consulting
+### 6. Réplication
+- **Complexité** : 8/10 (marché compétitif, réseau d'intégrations difficile à répliquer)
+- **Verticaux adjacents** : Voice agent workflows (parfait pour Kyle), workflow automation verticalisé (legal, sales, support)
+- **Angle Kyle** : Construire un Sim.ai verticalisé voice AI — orchestrateur d'agents vocaux avec canvas
+- **Temps de dev** : MVP ~12-16 semaines · Traction compétitive difficile seul
 
-## 💰 Unit Economics Deep Dive — Teable 3.0
-*Note : Teable est open source. Données financières non publiques. Estimation basée sur modèles SaaS PLG comparables (Supabase, NocoDB)*
+## 💰 Unit Economics Deep Dive — VoiceBox
+> ⚠️ **Note** : VoiceBox est 100% open-source gratuit, sans SaaS ni abonnement. Les estimations ci-dessous sont prospectives — elles modélisent l'opportunité commerciale d'une "VoiceBox Pro" ou d'une API voix payante construite au-dessus.
 
-| Métrique | Estimation | Méthode |
+| Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **ARR** | ~$1.5-3M | 21K stars → ~2% conversion enterprise → ~420 équipes × $3-7K/an |
-| **ARPU** | ~$3,500/an | Mix SMB ($1.2K) + Enterprise ($15K) |
-| **Users payants** | ~500-1,000 équipes | Benchmark PLG open source (NocoDB: ~1K paying) |
-| **CAC** | ~$50-150 | PLG organique GitHub, zero outbound |
-| **LTV** | ~$8,000-15,000 | Durée vie 3-4 ans × ARPU |
-| **LTV/CAC** | **~60-150x** 🟢 | Excellent (PLG model) |
-| **Payback Period** | < 1 mois | CAC faible + ARPU > CAC |
-| **Burn** | ~$200-400K/mois | ~15-20 ETP (équipe China-based, coûts réduits) |
-| **Runway** | Inconnu | Pas de funding public identifié |
-| **Rev/Employee** | ~$75-200K | Si 15 ETP — raisonnable pour PLG early stage |
-| **Rule of 40** | ~85-120 | Croissance rapide + marges élevées PLG |
+| **ARR (actuel)** | ~€0 (OSS) | Monétisation crypto uniquement |
+| **ARR (scénario commercial)** | ~€800K–€2M | 46K users × 5% conversion × €29/mo |
+| **ARPU** | ~€29–€49/mo | Benchmark ElevenLabs Starter |
+| **Users actifs** | ~46K+ (GitHub stars proxy) | Stars ≠ DAU, ratio ~10:1 estimé |
+| **Paying users (estimé)** | ~2 300 (5% of 46K) | SaaS OSS freemium benchmark |
+| **CAC** | ~€0 (100% organique) | GitHub viral, zero paid acquisition |
+| **LTV** | ~€348 (12mo @ €29) | Churn ~8%/mo pour tools dev |
+| **LTV/CAC** | ∞ (CAC ≈ 0) | Avantage OSS radical |
+| **Payback period** | < 1 mois | CAC quasi nul |
+| **Burn mensuel** | ~€2-5K (dev solo) | 1 dev Canada, infra quasi nulle |
+| **Runway** | Fonds par crypto token | Non conventionnel |
+| **Rev/Employee** | N/A → €800K+ si commercial | Solo founder potentiel exceptionnel |
+| **Rule of 40** | N/A → cible 80+ si commercial | Croissance organique forte |
 
-**Verdict santé : 🟡 Prometteur mais opaque**
-- Points forts : LTV/CAC exceptionnel, CAC quasi nul, enterprise ISO validé
-- Risques : Pas de funding visible = bootstrap ou pré-seed non disclosé, concurrence Airtable/Notion massive
-- Signal positif : #1 PH OpenAI Day = validation marché claire
-- Sources : [Product Hunt](https://www.producthunt.com/products/teable-4) · [GitHub](https://github.com/teableio/teable) · [teable.ai](https://teable.ai)
+**Verdict santé** : 🟡 Projet brillant techniquement, monétisation non résolue.
+**Opportunité Kyle** : 🟢 Construire la couche payante (API cloud, enterprise, voice agents) = business à €2M ARR accessible en 12 mois avec l'expertise voice AI de Kyle.
+
+**Sources** : [GitHub trendshift.io](https://trendshift.io/repositories/21213) · [CoddyKit analysis](https://www.coddykit.com) · Benchmarks SaaS OSS (GitLab, n8n, Supabase)
 
 ## 🎯 Opportunity Scorecard — Top 3
-*Évaluation de l'OPPORTUNITÉ ADJACENTE pour Kyle (voice AI + SaaS), pas clone direct*
-
-| Dimension (poids) | Teable 3.0 | TwelveLabs | superpowers |
+| Dimension (poids) | 🎙️ VoiceBox | 🔀 OmniRoute | 🤖 Sim.ai |
 |---|---|---|---|
-| 📊 Market Size (20%) | 7 — CRM voice teams €50M+ | 8 — Video+Voice AI €10B+ | 4 — Niche dev tools €5M |
-| ⚙️ Complexity inv (15%) | 5 — 3-4 mois (fork) | 3 — 6-12 mois (ML) | **9** — 2-4 semaines |
-| ⏱️ Time-to-Market (15%) | 5 — 3-6 mois | 3 — 6-12 mois | **10** — < 1 mois |
-| 🏟️ Competition inv (15%) | 6 — Pas de voice CRM AI | 4 — ElevenLabs/Deepgram | **9** — Blue ocean skills |
-| 💰 Revenue Potential (20%) | 7 — B2B €50-500/mois | 7 — API enterprise | 3 — Open source difficile |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 8 — Voice + SaaS parfait | 8 — Voice AI angle clair | **9** — Expert voice + dev |
+| 📊 Market Size (20%) | **8** — voice AI > €5B 2026 | **7** — AI infra > €3B | **9** — agent builder > €10B |
+| ⚙️ Complexity inversé (15%) | **7** — desktop app, modèles OSS | **8** — proxy + routing | **3** — réseau d'intégrations lourd |
+| ⏱️ Time-to-Market (15%) | **8** — MVP vocal API 3-4 sem | **8** — fork + config 2 sem | **3** — 12-16 sem minimum |
+| 🏟️ Competition inversé (15%) | **7** — ElevenLabs dominant mais cher | **6** — LiteLLM/OpenRouter existent | **4** — n8n, Make, Zapier saturé |
+| 💰 Revenue Potential (20%) | **8** — API voice enterprise €100K+ MRR | **5** — cloud managed possible | **7** — freemium + enterprise |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — expert voice AI = avantage absolu | **6** — infra pas son core | **6** — workflow, compétences génériques |
 
-| App | **Score final** | **Verdict** |
-|---|---|---|
-| Teable 3.0 → Voice CRM | **(7×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(7×0.20)+(8×0.15) = 6.4** | 🟡 BUILD ADJACENT |
-| TwelveLabs → Call AI API | **(8×0.20)+(3×0.15)+(3×0.15)+(4×0.15)+(7×0.20)+(8×0.15) = 5.8** | 🟠 WATCH |
-| superpowers → Voice Skills | **(4×0.20)+(9×0.15)+(10×0.15)+(9×0.15)+(3×0.20)+(9×0.15) = 6.9** | 🟡 BUILD ADJACENT |
-
-**Meilleure opportunité immédiate pour Kyle : Créer un "Voice AI Skills Pack" pour Claude Code / coding agents**
-→ Semaines 1-4 : Publier 5-10 skills voice AI sur marketplace Claude Code · Objectif : 1K+ users → lead gen consulting
+**Scores pondérés :**
+- 🎙️ **VoiceBox** : 8×0.20 + 7×0.15 + 8×0.15 + 7×0.15 + 8×0.20 + 10×0.15 = **7.95** 🟢 **BUILD NOW**
+- 🔀 **OmniRoute** : 7×0.20 + 8×0.15 + 8×0.15 + 6×0.15 + 5×0.20 + 6×0.15 = **6.55** 🟡 **BUILD ADJACENT**
+- 🤖 **Sim.ai** : 9×0.20 + 3×0.15 + 3×0.15 + 4×0.15 + 7×0.20 + 6×0.15 = **5.65** 🟠 **WATCH**
 
 ## 📈 Tendances Émergentes
-1. **AI-native > AI-wrapper** : Les produits qui construisent nativement avec GPT-5.6 (Teable, etc.) battent les wrappers. La barre monte : intégration profonde des agents dans les workflows, pas un bouton "Summarize"
+1. **Local-first AI bat le cloud** : VoiceBox (46K stars) et le mouvement LocalLLaMA signalent une lassitude des abonnements cloud et une sensibilité privacy croissante. Les utilisateurs veulent le contrôle.
 
-2. **Infrastructure agent explose** : GitHub trending dominé par agent frameworks, MCP servers, AI gateways. L'agent coding est mainstream — superpowers à 250K stars en est la preuve chiffrée
+2. **L'ère des AI Gateways** : OmniRoute, LiteLLM, OpenRouter convergent vers un pattern : un proxy unifié qui abstrait la complexité multi-provider. Infrastructure play massivement adopté par les devs.
 
-3. **Multimodalité = nouveau front** : TwelveLabs ($100M) confirme que la vidéo est le "nouveau texte". Le voice suit la même courbe — les models voice (ElevenAgents, Deepgram) montent en puissance et en qualité
+3. **OSS comme canal d'acquisition** : Les 3 apps top passent par GitHub comme canal principal. Stars → articles → Reddit → adoption. CAC proche de zéro mais monétisation difficile.
 
-4. **PLG open source vs enterprise** : Teable illustre une tendance : open source sur GitHub pour la base communautaire + certifications enterprise pour upsell. Le modèle supporte des LTV/CAC de 50-150x
+4. **Agents AI = nouveau CRM** : Sim.ai et AgentKey indiquent que l'orchestration d'agents AI devient une catégorie produit à part entière. Le canvas visuel est le nouveau paradigme d'interface.
 
-5. **Verticaux "ennuyeux" gagnent** : Tax, compliance, RH, analytics — les produits proches des budgets et des deadlines convertissent mieux que les apps lifestyle. Signal fort pour voice AI ciblant les call centers, SDR, support client
+5. **Voice AI entre en phase mainstream** : ElevenLabs Conv. AI 2.0 ($500M ARR), VoiceBox, et les 250K+ agents conversationnels déployés signalent que la voice AI passe du POC au prod à grande échelle.
+
+**Signal faible à surveiller** : OmniRoute version 3.8.48 en juillet → adoption dev tools signifie que les providers payants (ElevenLabs, OpenAI) vont perdre des revenus au profit du gratuit. Opportunité : être la couche monétisée au-dessus de l'OSS gratuit.
 
 ## 💡 Insights Actionnables
-**Pour Kyle — Actions concrètes classées par effort/impact :**
+### Pour Kyle — Actions immédiates
 
-**🚀 Court terme (< 1 mois)**
-- **Créer 5 skills Claude Code pour voice AI** : patterns de prompting, testing agents ElevenLabs, intégration Deepgram, debug de latence vocale. Publier sur le marketplace Claude Code → 0 CAC, lead gen instantané. Modèle : superpowers mais niche voice. *Effort : 2-3 semaines*
+**🎯 Priorité 1 (cette semaine)** — Fork VoiceBox + construire "VoiceBox Cloud"
+> VoiceBox résout le problème technique, mais ne monétise pas. Kyle peut construire la couche managed cloud au-dessus : API REST payante, enterprise SSO, analytics, garanties SLA. Pricing : €29–€99/mo. Potentiel : €500K–€2M ARR en 12 mois. Son expertise voice AI est l'avantage compétitif clé.
 
-**⚡ Moyen terme (1-3 mois)**
-- **"TwelveLabs du voice"** : API d'intelligence pour calls — transcription + analyse sentiment + extraction d'insights par NLP. B2B SaaS, €500-2K/mois/client. Angle différenciant : focus PME/SDR, pas enterprise. *Effort : 2-3 mois*
+**🎯 Priorité 2 (ce mois)** — Intégrer OmniRoute dans tout son stack
+> Utiliser OmniRoute comme LLM router interne → économies immédiates sur les coûts d'API → plus de budget pour accélérer le product dev. Zero CAC, setup en 2 jours.
 
-**🔭 Long terme (3-6 mois)**
-- **Voice CRM AI-native** : Dans le sillage de Teable 3.0, construire un workspace structuré pour équipes voice AI — stockage des appels, analytics conversationnels, CRM pour agents vocaux. Fork Teable + layer voice. *Effort : 4-6 mois*
+**🎯 Priorité 3 (ce trimestre)** — Étudier Sim.ai pour une vertical voice
+> Sim.ai prouve que le canvas d'orchestration d'agents AI est un besoin réel. Kyle pourrait construire "Sim.ai for voice AI" — un canvas d'orchestration de voice agents spécialisé call center / customer success. Différenciation : voice-first là où Sim est générique.
 
-**Principe directeur** : Le marché valide clairement que l'infrastructure AI-native (pas les wrappers) et les verticaux B2B proches des budgets gagnent. Kyle a un avantage compétitif réel sur la verticalisation voice — aucun des 3 acteurs scannés ne l'adresse directement.
+### Insight stratégique
+Le pattern gagnant en 2026 : **OSS viral → cloud managed payant**. VoiceBox fait l'OSS. OmniRoute fait l'OSS. Personne ne fait le cloud managed de qualité entreprise. Kyle peut être ce pont — construire le SaaS au-dessus des meilleurs OSS voice AI.
 
-Sources principales : [Product Hunt July 2026](https://www.producthunt.com/leaderboard/monthly/2026/7) · [hunted.space](https://hunted.space/top-products/monthly/2026/July) · [bestofshowhn.com](https://bestofshowhn.com/2026/7) · [GlobeNewswire TwelveLabs](https://www.globenewswire.com/news-release/2026/07/01/3320545/0/en/twelvelabs-raises-100-million-in-series-b-funding-to-build-video-superintelligence.html) · [Medium superpowers 250K](https://medium.com/@lssmj2014/the-quarter-million-superpowers-joins-githubs-most-elite-tier-8636a2f90962)
+### Métriques à suivre la semaine prochaine
+- VoiceBox : dépasse-t-il 50K stars ? Un concurrent lance-t-il un fork commercial ?
+- OmniRoute : annonce-t-il une offre cloud payante ?
+- Sim.ai : nouveau fundraise ou pivot annoncé ?
