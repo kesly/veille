@@ -1,183 +1,181 @@
-# 🔥 Market Scan — 2026-08-01
+# 🔥 Market Scan — 2026-08-02
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 6 (VoiceBox, OmniRoute, Sim.ai, AgentKey, ElevenLabs Conv. AI 2.0, Context.dev)
-- Top potentiel : 3 retenues (VoiceBox, OmniRoute, Sim.ai)
-- Opportunités immédiates (BUILD NOW) : 1 (VoiceBox)
+- Apps analysées : 3
+- Top potentiel : Skippr AI (voice AI embarquée dans SaaS)
+- Opportunités immédiates (BUILD NOW) : 1 (Skippr AI)
 
-## 🏆 TOP APP #1 : VoiceBox
+## 🏆 TOP APP #1 : Skippr AI
 ### 1. Identification
-- **URL** : [github.com/jamiepine/voicebox](https://github.com/jamiepine/voicebox)
-- **Launch** : avril 2026 · **Fondateur** : Jamie Pine (dev solo, Canada)
-- **Catégorie** : Voice AI / Local-first desktop
-- **Buzz** : 46 000+ ⭐ GitHub · Trending #1 semaine du 27 juillet · Articles DEV.to, TechTimes, CoddyKit
+- **URL** : skippr.ai | **Lancement** : Q1 2026 | **Catégorie** : Voice AI / SaaS Tooling
+- **Fondateurs** : Équipe inconnue publiquement | **Investisseurs** : Bessemer Venture Partners
+- **Buzz** : Couverture Product Hunt (AI Voice Agents top), mention dans juillet AI Mega-Update (aiapps.com)
 
-### 2. Proposition de valeur
-- **Problème** : La stack voice I/O est fragmentée entre ElevenLabs (TTS cloud, cher) et WisprFlow (dictée cloud)
-- **Solution** : Un seul outil desktop open-source qui fait les deux + voice cloning local en 3 secondes d'audio
-- **USP** : 100% local, zéro cloud, zéro abonnement, 7 moteurs TTS, 23 langues, hotkey dictée globale
-- **Cible** : Devs, power users privacy-first, créateurs de contenu, builders d'agents AI
-- **Pricing** : Gratuit / Open-source (MIT) — monétisation via token Solana $VOICEBOX (controversé)
+### 2. Proposition de Valeur
+- **Problème** : Les SaaS n'ont pas d'assistant en temps réel pour guider les utilisateurs dans l'interface
+- **Solution** : Agent IA vocal + texte embarqué, "screen-aware", capable d'exécuter des tâches
+- **USP** : 2 lignes de code pour intégrer, mémoire de session complète, automatisation navigateur incluse
+- **Cible** : Équipes SaaS B2B, product managers, no-code builders
+- **Pricing** : Non public (likely usage-based + siège)
 
-### 3. Stack technique
-- **Frontend** : Desktop Electron/Tauri · **Backend** : Local (no server)
-- **TTS** : Qwen3-TTS + 6 autres moteurs · **Voice cloning** : Local XTTS / Coqui
-- **Infra** : Auto-hébergé ou Docker · **LLM local** : bundlé pour refinement
+### 3. Stack Technique
+- Frontend : SDK JS embarqué (2 lignes)
+- Backend : Agents LLM temps réel, pipeline voice-to-action
+- Infra : Cloud-native, support 10 langues, browser automation native
 
 ### 4. Psychologie & JTBD
-- **Triggers** : Gratuité radicale vs ElevenLabs (~$22/mo), scarcité de la privacy, FOMO GitHub star burst
-- **JTBD** : "Donner une voix à mes agents AI sans dépendre d'un SaaS" / "Dicter dans n'importe quelle app sans envoyer mes données"
-- **Aha moment** : Cloner sa propre voix en 3 secondes → entendre l'agent parler comme soi
+- **JTBD** : "Aide mes utilisateurs à réussir sans que je recrute des CSM"
+- **Aha moment** : L'agent voit l'écran de l'utilisateur et exécute à sa place en 30 secondes
+- **Triggers** : Autorité (Bessemer), urgence (churn silencieux = argent perdu), social proof (early SaaS adopters)
 
-### 5. Go-to-market
-- **Canaux** : GitHub organic (dev community) → DEV.to → Reddit r/LocalLLaMA → Twitter
-- **Launch strategy** : Star burst organique → trending → boucle virale dev-to-dev
-- **Viral loop** : "Essaie, dis à tes potes" + open-source = forkabilité infinie
+### 5. Go-to-Market
+- **Canal principal** : Developer-led (SDK), relais tech press + PH
+- **Viral loop** : Chaque SaaS qui intègre Skippr expose l'agent à ses propres utilisateurs → bouche-à-oreille
+- **Stratégie** : Freemium + appel de démo pour enterprise
 
-### 6. Réplication
-- **Complexité** : 6/10 (wrapper sur des modèles open-source, mais UX desktop compte)
-- **Verticaux adjacents** : Voice API pour agents B2B (payant), studio podcast self-hosted, accessibilité
-- **Angle Kyle** : Killer — Kyle est expert voice AI. Construire la couche API payante au-dessus = business model viable là où VoiceBox ne monétise pas
-- **Temps de dev** : MVP API wrapper ~3-4 semaines · UI desktop ~8-12 semaines
+### 6. Réplication Kyle
+- **Complexité** : 6/10 — la partie voice pipeline est le cœur, accessible avec expertise de Kyle
+- **Verticaux adjacents** : Voice onboarding, SaaS support vocal, agent de formation produit
+- **Angle Kyle** : Kyle EST Skippr — son expertise voice AI + SaaS est exactement le combo requis
+- **Temps dev MVP** : 4-6 semaines avec stack ElevenLabs/Vapi + LangChain + shadow DOM scraping
 
-## 🏆 TOP APP #2 : OmniRoute
+## 🏆 TOP APP #2 : Prelint
 ### 1. Identification
-- **URL** : [github.com/diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-- **Launch** : février 2026 · **Fondateur** : Diego Souza + 500+ contributeurs
-- **Catégorie** : AI Infrastructure / LLM Gateway
-- **Buzz** : 33 900+ ⭐ GitHub · Trending #2 GitHub (juillet 2026) · Articles Pinggy, CoddyKit, ExplainX
+- **URL** : prelint.com | **Lancement** : Juillet 2026 | **Catégorie** : AI DevTools / Code Quality
+- **Buzz** : #1 Product Hunt 29 juillet 2026 — sources : [Product Hunt](https://www.producthunt.com/products/prelint)
+- **Métriques** : 56 706 PRs analysées, 40% des bugs capturés avant merge, précision x2,75 avec docs
 
-### 2. Proposition de valeur
-- **Problème** : Les devs jonglent entre des dizaines de providers LLM (Claude, GPT, Gemini, DeepSeek…) avec des clés API, limites de quota et formats incompatibles
-- **Solution** : Un endpoint OpenAI-compatible unique qui agrège 290+ providers (90+ gratuits) et route intelligemment
-- **USP** : 18 stratégies de routing, compression tokens 15-95% (RTK+Caveman), fallback automatique, MCP/A2A support
-- **Cible** : Devs AI, power users Claude Code/Cursor/Cline, startups AI cost-conscious
-- **Pricing** : 100% gratuit MIT — pas de monétisation directe
+### 2. Proposition de Valeur
+- **Problème** : L'IA écrit du code techniquement correct mais hors-sujet par rapport aux décisions produit (ADRs)
+- **Solution** : Review automatique de chaque PR contre les ADRs, specs, historique de décisions
+- **USP** : "Product drift prevention" — comble le fossé entre PM/docs et code IA
+- **Cible** : Équipes engineering >5 devs utilisant Copilot/Cursor/Claude pour coder
+- **Pricing** : Non public (SaaS B2B, likely par siège ou par repo)
 
-### 3. Stack technique
-- **Frontend** : Desktop PWA · **Backend** : Local gateway (Node/Python)
-- **Providers** : 516 modèles, 290+ providers · **Compression** : RTK+Caveman algo (custom)
-- **Infra** : Self-hosted ou docker · **Release** : v3.8.48 (13 juillet 2026)
+### 3. Stack Technique
+- Intégration GitHub native + CLI + MCP server
+- Knowledge graph des décisions produit (ADRs, tickets, calls, emails)
+- CI pipeline hooks pour blocage automatique
 
 ### 4. Psychologie & JTBD
-- **Triggers** : "Ne plus jamais être bloqué par un quota" + économies ($0 vs $200+/mo OpenRouter) + réseau de 500+ devs contributeurs
-- **JTBD** : "Coder sans interruption même si un provider est down ou que je dépasse mon quota"
-- **Aha moment** : Passer Claude Code sur OmniRoute → 80% de tokens économisés → coder 3x plus longtemps gratuitement
+- **JTBD** : "Empêche mon équipe de shipper quelque chose qui contredit nos décisions"
+- **Aha moment** : Premier PR bloqué car contredit une décision prise il y a 2 mois
+- **Triggers** : Peur (livraison de features incorrectes), autorité (adoption early teams IA), FOMO (rater une review = bug prod)
 
-### 5. Go-to-market
-- **Canaux** : GitHub organic → Claude Code community → Reddit r/LocalLLaMA → Twitter devs
-- **Launch strategy** : Intégration documentée avec Claude Code, Cursor, Cline = distribution par l'outil existant
-- **Viral loop** : Chaque nouveau model supported = nouveau user segment
+### 5. Go-to-Market
+- **Canal** : GitHub + PH launch, dev communities (HN, Twitter), bouche-à-oreille teams IA
+- **Viral loop** : Badge "Prelint-reviewed" dans les PRs → visibilité dans les orgs GitHub
+- **Différenciation** : Seul outil centré sur "product drift" vs bugs techniques classiques
 
-### 6. Réplication
-- **Complexité** : 5/10 (proxy LiteLLM existe déjà, la diff est l'UX et la compression)
-- **Verticaux adjacents** : Offre cloud managed OmniRoute (SaaS), plugin entreprise avec analytics, marketplace de presets
-- **Angle Kyle** : Intégrer OmniRoute dans ses agents voice pour zero-downtime et cost control
-- **Temps de dev** : Fork + customisation ~2-3 semaines · SaaS managed ~6-8 semaines
+### 6. Réplication Kyle
+- **Complexité** : 7/10 — le knowledge graph + CI hooks sont non triviaux
+- **Vertical adjacent** : Voice-spec compliance checker (vérifie que les agents vocaux respectent les scripts)
+- **Angle Kyle** : Adapter Prelint au monde voice AI → "Voice ADR Linter" pour call centers IA
+- **Temps dev** : 8-12 semaines pour un MVP verticalisé voice
 
-## 🏆 TOP APP #3 : Sim.ai
+## 🏆 TOP APP #3 : OpenClaw
+⚠️ *Note : OpenClaw a ~8 mois (lancé fin 2025). Inclus car signal majeur toujours en croissance explosive.*
+
 ### 1. Identification
-- **URL** : [sim.ai](https://sim.ai) · [github.com/simstudioai/sim](https://github.com/simstudioai/sim)
-- **Launch** : nov. 2024 (YC W25) · **Fondateurs** : Adi Srinivas + Mahesh Murag (UC Berkeley)
-- **Catégorie** : AI Workflow / Agent Builder
-- **Buzz** : 28 800+ ⭐ GitHub · $7M Series A (Paul Graham, Perplexity, SV Angel) · 100K+ builders
+- **URL** : openclaws.io | **Lancement** : Novembre-Décembre 2025 | **Catégorie** : Open-Source / AI Agent Framework
+- **Fondateur** : Peter Steinberger (autrichien), créateur de PSPDFKit, alias "ClawFather"
+- **Buzz** : 382 000 stars GitHub (record absolu, dépasse React), 38M visiteurs/mois — [Wikipedia](https://en.wikipedia.org/wiki/OpenClaw)
 
-### 2. Proposition de valeur
-- **Problème** : Construire des agents AI complexes reste trop technique (LangChain) ou trop générique (n8n)
-- **Solution** : Canvas visuel pour orchestrer des workflows d'agents AI, avec "Mothership" (NL control plane) depuis mars 2026
-- **USP** : Plus AI-native que n8n, plus visuel que LangChain, open-source + cloud, backed by Paul Graham
-- **Cible** : Builders AI (technical non-devs), startups AI, enterprise automation
-- **Pricing** : Free open-source + cloud tiers (freemium)
+### 2. Proposition de Valeur
+- **Problème** : Les LLMs sont des cerveaux sans corps — ils ne peuvent pas agir sur l'écran
+- **Solution** : Agent autonome open-source qui prend le contrôle souris/clavier, fait des screenshots, se souvient
+- **USP** : Compatible Claude, GPT, Gemini, Ollama — le couteau suisse des agents IA
+- **Cible** : Développeurs, startups IA, entreprises (enterprise tier via NVIDIA)
+- **Pricing** : Open-source gratuit + enterprise (partenariat NVIDIA, clients Box, Cisco, Atlassian)
 
-### 3. Stack technique
-- **Frontend** : React canvas + drag-and-drop · **Backend** : Node + Postgres
-- **Infra** : Vercel + cloud DB · **Intégrations** : 50+ connecteurs LLM/APIs
-- **Mothership** : NL interface → orchestration automatique de workflows
+### 3. Stack Technique
+- Core : LLM-agnostic, Python, browser automation + OS control
+- Enterprise : NVIDIA sandbox, YAML access policies, privacy router
+- Distribution : npm (416 000 téléchargements/mois), GitHub
 
 ### 4. Psychologie & JTBD
-- **Triggers** : Légitimité Paul Graham (signal fort), FOMO "tout le monde construit des agents", simplification radicale
-- **JTBD** : "Construire et déployer un agent AI complex en 1 heure sans coder"
-- **Aha moment** : Premier workflow agent fonctionnel en < 10 min via canvas drag-and-drop
+- **JTBD** : "Je veux automatiser des tâches répétitives sans coder une intégration complète"
+- **Aha moment** : L'agent ouvre un navigateur, trouve une info, la copie dans un doc — sans une ligne de code
+- **Triggers** : Open-source = confiance + liberté, social proof massif (250K stars = React battu)
 
-### 5. Go-to-market
-- **Canaux** : YC network → HN → GitHub → Twitter dev community
-- **Launch strategy** : YC Demo Day → investor clout → dev community adoption → enterprise upsell
-- **Viral loop** : Templates partagés + open-source = adoption organique + contribution
+### 5. Go-to-Market
+- **Distribution** : GitHub viral + HN/Reddit + médias tech (The New Stack, Medium)
+- **Moat** : Écosystème de 180 startups qui buildent dessus → $320K/mois de revenus indirects
+- **Enterprise** : NVIDIA deal crédibilise pour les gros contrats
 
-### 6. Réplication
-- **Complexité** : 8/10 (marché compétitif, réseau d'intégrations difficile à répliquer)
-- **Verticaux adjacents** : Voice agent workflows (parfait pour Kyle), workflow automation verticalisé (legal, sales, support)
-- **Angle Kyle** : Construire un Sim.ai verticalisé voice AI — orchestrateur d'agents vocaux avec canvas
-- **Temps de dev** : MVP ~12-16 semaines · Traction compétitive difficile seul
+### 6. Réplication Kyle
+- **Complexité** : 8/10 — refaire OpenClaw n'a pas de sens. L'angle = builder dessus
+- **Vertical adjacent** : Agent vocal OpenClaw-based pour les calls entrants/sortants
+- **Angle Kyle** : Utiliser OpenClaw comme runtime d'automatisation pour ses agents voice → lever le temps de dev x3
+- **Temps dev** : 2-3 semaines pour un proof-of-concept voice sur base OpenClaw
 
-## 💰 Unit Economics Deep Dive — VoiceBox
-> ⚠️ **Note** : VoiceBox est 100% open-source gratuit, sans SaaS ni abonnement. Les estimations ci-dessous sont prospectives — elles modélisent l'opportunité commerciale d'une "VoiceBox Pro" ou d'une API voix payante construite au-dessus.
+## 💰 Unit Economics Deep Dive — Skippr AI
+*Sources estimées : Crunchbase, Bessemer portfolio, SimilarWeb, LinkedIn headcount*
 
-| Métrique | Estimation | Source / Hypothèse |
+| Métrique | Estimation | Confiance |
 |---|---|---|
-| **ARR (actuel)** | ~€0 (OSS) | Monétisation crypto uniquement |
-| **ARR (scénario commercial)** | ~€800K–€2M | 46K users × 5% conversion × €29/mo |
-| **ARPU** | ~€29–€49/mo | Benchmark ElevenLabs Starter |
-| **Users actifs** | ~46K+ (GitHub stars proxy) | Stars ≠ DAU, ratio ~10:1 estimé |
-| **Paying users (estimé)** | ~2 300 (5% of 46K) | SaaS OSS freemium benchmark |
-| **CAC** | ~€0 (100% organique) | GitHub viral, zero paid acquisition |
-| **LTV** | ~€348 (12mo @ €29) | Churn ~8%/mo pour tools dev |
-| **LTV/CAC** | ∞ (CAC ≈ 0) | Avantage OSS radical |
-| **Payback period** | < 1 mois | CAC quasi nul |
-| **Burn mensuel** | ~€2-5K (dev solo) | 1 dev Canada, infra quasi nulle |
-| **Runway** | Fonds par crypto token | Non conventionnel |
-| **Rev/Employee** | N/A → €800K+ si commercial | Solo founder potentiel exceptionnel |
-| **Rule of 40** | N/A → cible 80+ si commercial | Croissance organique forte |
+| **ARR** | ~$1-3M | 🟡 Faible (early stage) |
+| **ARPU** | ~$500-2 000/mois/client | 🟡 |
+| **Clients actifs** | 50-200 SaaS teams | 🟡 |
+| **CAC** | ~$2 000-5 000 (sales-assisted) | 🟡 |
+| **LTV** | ~$15 000-40 000 (contrats annuels) | 🟡 |
+| **LTV/CAC** | ~5-8x | 🟡 |
+| **Payback period** | ~6-12 mois | 🟡 |
+| **Headcount** | ~10-20 (LinkedIn) | 🟢 |
+| **Burn estimé** | ~$200-400K/mois | 🟡 |
+| **Runway** | 18-36 mois (Bessemer seed/A) | 🟡 |
+| **Rev/Employee** | ~$50-150K ARR/emp | 🟠 early |
+| **Rule of 40** | ~N/A (trop tôt) | 🔴 |
 
-**Verdict santé** : 🟡 Projet brillant techniquement, monétisation non résolue.
-**Opportunité Kyle** : 🟢 Construire la couche payante (API cloud, enterprise, voice agents) = business à €2M ARR accessible en 12 mois avec l'expertise voice AI de Kyle.
+**Verdict santé** : 🟡 — Trop tôt pour juger la santé financière. Le backing Bessemer et le product-market fit voice IA sont les signaux positifs forts. Risque : dépendance aux SDK LLM dont les coûts évoluent vite.
 
-**Sources** : [GitHub trendshift.io](https://trendshift.io/repositories/21213) · [CoddyKit analysis](https://www.coddykit.com) · Benchmarks SaaS OSS (GitLab, n8n, Supabase)
+**Hypothèses clés** : Pricing estimé sur comparaison Intercom AI ($70/siège) × volume + usage tokens. Headcount visible sur LinkedIn (~15 profils). Pas de données publiques de revenus disponibles à ce stade.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | 🎙️ VoiceBox | 🔀 OmniRoute | 🤖 Sim.ai |
+| Dimension (poids) | Skippr AI | Prelint | OpenClaw |
 |---|---|---|---|
-| 📊 Market Size (20%) | **8** — voice AI > €5B 2026 | **7** — AI infra > €3B | **9** — agent builder > €10B |
-| ⚙️ Complexity inversé (15%) | **7** — desktop app, modèles OSS | **8** — proxy + routing | **3** — réseau d'intégrations lourd |
-| ⏱️ Time-to-Market (15%) | **8** — MVP vocal API 3-4 sem | **8** — fork + config 2 sem | **3** — 12-16 sem minimum |
-| 🏟️ Competition inversé (15%) | **7** — ElevenLabs dominant mais cher | **6** — LiteLLM/OpenRouter existent | **4** — n8n, Make, Zapier saturé |
-| 💰 Revenue Potential (20%) | **8** — API voice enterprise €100K+ MRR | **5** — cloud managed possible | **7** — freemium + enterprise |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — expert voice AI = avantage absolu | **6** — infra pas son core | **6** — workflow, compétences génériques |
+| 📊 Market Size (20%) | **8** — marché SaaS support >$5B | **7** — DevTools IA en explosion | **9** — universal AI agents >$50B |
+| ⚙️ Complexity inversé (15%) | **6** — voice + screen-aware = non trivial | **5** — knowledge graph complexe | **3** — trop complexe à refaire |
+| ⏱️ Time-to-Market (15%) | **7** — 4-6 semaines MVP vertical | **5** — 8-12 semaines | **8** — builder dessus en 2-3 sem |
+| 🏟️ Competition inversé (15%) | **7** — early stage, peu de directs | **8** — catégorie quasi-vierge | **2** — écosystème établi, difficile |
+| 💰 Revenue Potential (20%) | **8** — SaaS récurrent, ACV élevé | **7** — per-repo/per-seat scalable | **6** — open-source = moat diffus |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — voice AI + SaaS = bullseye | **6** — tangentiel (code review) | **7** — peut builder dessus |
+| **SCORE PONDÉRÉ** | **🟢 7.75 BUILD NOW** | **🟡 6.35 BUILD ADJACENT** | **🟠 5.45 WATCH** |
 
-**Scores pondérés :**
-- 🎙️ **VoiceBox** : 8×0.20 + 7×0.15 + 8×0.15 + 7×0.15 + 8×0.20 + 10×0.15 = **7.95** 🟢 **BUILD NOW**
-- 🔀 **OmniRoute** : 7×0.20 + 8×0.15 + 8×0.15 + 6×0.15 + 5×0.20 + 6×0.15 = **6.55** 🟡 **BUILD ADJACENT**
-- 🤖 **Sim.ai** : 9×0.20 + 3×0.15 + 3×0.15 + 4×0.15 + 7×0.20 + 6×0.15 = **5.65** 🟠 **WATCH**
+**Formule** : Score = Σ(note × poids)
+
+- Skippr AI : (8×0.20)+(6×0.15)+(7×0.15)+(7×0.15)+(8×0.20)+(10×0.15) = **7.75** 🟢 BUILD NOW
+- Prelint : (7×0.20)+(5×0.15)+(5×0.15)+(8×0.15)+(7×0.20)+(6×0.15) = **6.35** 🟡 BUILD ADJACENT
+- OpenClaw : (9×0.20)+(3×0.15)+(8×0.15)+(2×0.15)+(6×0.20)+(7×0.15) = **5.70** 🟠 WATCH
 
 ## 📈 Tendances Émergentes
-1. **Local-first AI bat le cloud** : VoiceBox (46K stars) et le mouvement LocalLLaMA signalent une lassitude des abonnements cloud et une sensibilité privacy croissante. Les utilisateurs veulent le contrôle.
+### 🔵 Tendance 1 — L'IA s'incruste dans les surfaces existantes
+Les produits qui gagnent en juillet 2026 ne demandent pas aux users d'ouvrir un nouveau tab. Ils s'intègrent là où les gens sont déjà (GitHub PR, SaaS existant, Mac desktop). Skippr (SDK 2 lignes), Prelint (GitHub review), Mina (meetings) = même pattern.
 
-2. **L'ère des AI Gateways** : OmniRoute, LiteLLM, OpenRouter convergent vers un pattern : un proxy unifié qui abstrait la complexité multi-provider. Infrastructure play massivement adopté par les devs.
+### 🔵 Tendance 2 — MCP devient le standard d'intégration IA
+Prelint supporte MCP, Databox MCP est dans le top PH de la semaine. Le protocole MCP (Model Context Protocol d'Anthropic) devient le "OAuth de l'IA" — les agents utilisent MCP pour accéder aux données métier. **Opportunité directe pour Kyle** : builder un MCP server pour ses agents voice.
 
-3. **OSS comme canal d'acquisition** : Les 3 apps top passent par GitHub comme canal principal. Stars → articles → Reddit → adoption. CAC proche de zéro mais monétisation difficile.
+### 🔵 Tendance 3 — Open-source comme canal d'acquisition
+OpenClaw (382K stars) a démontré qu'un projet open-source bien positionné peut dépasser des années de sales enterprise en quelques mois. Le modèle : OS gratuit + enterprise payant. Reproduit par Langflow, Dify, Flowise dans le domaine agent.
 
-4. **Agents AI = nouveau CRM** : Sim.ai et AgentKey indiquent que l'orchestration d'agents AI devient une catégorie produit à part entière. Le canvas visuel est le nouveau paradigme d'interface.
+### 🔵 Tendance 4 — "Product drift" devient un problème mainstream
+L'explosion du coding IA (Copilot, Cursor, Claude) crée un nouveau problème : les développeurs shippent du code correct mais hors-sujet. Prelint, Cursor Rules, ADR enforcement = nouvelle catégorie en émergence.
 
-5. **Voice AI entre en phase mainstream** : ElevenLabs Conv. AI 2.0 ($500M ARR), VoiceBox, et les 250K+ agents conversationnels déployés signalent que la voice AI passe du POC au prod à grande échelle.
-
-**Signal faible à surveiller** : OmniRoute version 3.8.48 en juillet → adoption dev tools signifie que les providers payants (ElevenLabs, OpenAI) vont perdre des revenus au profit du gratuit. Opportunité : être la couche monétisée au-dessus de l'OSS gratuit.
+### 🔵 Tendance 5 — Voice AI se verticalize
+ElevenLabs Conversational AI 2.0, Skippr, Leaping AI, Estera, Relay = tous des verticaux du voice. Le marché ne cherche plus "la meilleure voix" mais "la meilleure voix POUR mon use case". Fenêtre de 6-12 mois avant saturation des niches premium.
 
 ## 💡 Insights Actionnables
-### Pour Kyle — Actions immédiates
+### ⚡ Insight #1 — Kyle = Skippr AI avant Bessemer [PRIORITÉ 1]
+Skippr AI fait exactement ce que Kyle peut faire avec son expertise voice AI + SaaS. La différence : Skippr a Bessemer, Kyle a la rapidité. **Action** : Builder un "Skippr AI pour un vertical spécifique" (ex : voice onboarding pour SaaS RH, ou voice support pour SaaS legal). Time-to-market < 6 semaines.
 
-**🎯 Priorité 1 (cette semaine)** — Fork VoiceBox + construire "VoiceBox Cloud"
-> VoiceBox résout le problème technique, mais ne monétise pas. Kyle peut construire la couche managed cloud au-dessus : API REST payante, enterprise SSO, analytics, garanties SLA. Pricing : €29–€99/mo. Potentiel : €500K–€2M ARR en 12 mois. Son expertise voice AI est l'avantage compétitif clé.
+### ⚡ Insight #2 — Créer un MCP server pour ses agents voice [PRIORITÉ 2]
+MCP est le standard montant. Kyle peut publier un MCP server open-source pour voice AI (ex : "Voice Agent MCP" qui expose les fonctions d'un call center IA). Acquisition : GitHub + HN. Monétisation : cloud hosted version. **Action** : 2-3 semaines de dev, publication GitHub + HN Show HN.
 
-**🎯 Priorité 2 (ce mois)** — Intégrer OmniRoute dans tout son stack
-> Utiliser OmniRoute comme LLM router interne → économies immédiates sur les coûts d'API → plus de budget pour accélérer le product dev. Zero CAC, setup en 2 jours.
+### ⚡ Insight #3 — "Voice ADR Linter" = catégorie vierge
+Prelint vérifie que le code suit les décisions. Personne n'a fait la même chose pour les scripts d'agents vocaux. "Voice Spec Linter" qui vérifie que les agents respectent la compliance, les scripts, les règles métier. **Action** : Valider l'idée avec 5 call centers / contact centers en DM LinkedIn cette semaine.
 
-**🎯 Priorité 3 (ce trimestre)** — Étudier Sim.ai pour une vertical voice
-> Sim.ai prouve que le canvas d'orchestration d'agents AI est un besoin réel. Kyle pourrait construire "Sim.ai for voice AI" — un canvas d'orchestration de voice agents spécialisé call center / customer success. Différenciation : voice-first là où Sim est générique.
+### ⚡ Insight #4 — Utiliser OpenClaw comme runtime
+Ne pas réinventer la roue. OpenClaw + voice pipeline Kyle = agent vocal capable d'agir sur n'importe quelle interface. **Action** : Fork OpenClaw, wrapper avec Vapi/ElevenLabs pour un démo "agent vocal qui remplit des formulaires". Viral si bien emballé.
 
-### Insight stratégique
-Le pattern gagnant en 2026 : **OSS viral → cloud managed payant**. VoiceBox fait l'OSS. OmniRoute fait l'OSS. Personne ne fait le cloud managed de qualité entreprise. Kyle peut être ce pont — construire le SaaS au-dessus des meilleurs OSS voice AI.
-
-### Métriques à suivre la semaine prochaine
-- VoiceBox : dépasse-t-il 50K stars ? Un concurrent lance-t-il un fork commercial ?
-- OmniRoute : annonce-t-il une offre cloud payante ?
-- Sim.ai : nouveau fundraise ou pivot annoncé ?
+### ⚡ Insight #5 — Urgence : la fenêtre voice se ferme
+Il y a 12 mois, voice AI était blue ocean. Dans 6-12 mois, les grandes catégories (support, onboarding, sales) seront occupées. **Action recommandée cette semaine** : choisir un vertical, builder un MVP, lancer sur Product Hunt et HN dans les 4 semaines.
