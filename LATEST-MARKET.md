@@ -1,181 +1,188 @@
-# 🔥 Market Scan — 2026-08-02
+# 🔥 Market Scan — 2026-08-03
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Skippr AI (voice AI embarquée dans SaaS)
-- Opportunités immédiates (BUILD NOW) : 1 (Skippr AI)
+- Apps analysées : 8 (filtrées à 3)
+- Top potentiel : NudgeForMe
+- Opportunités immédiates (BUILD NOW) : 2
 
-## 🏆 TOP APP #1 : Skippr AI
+## 🏆 TOP APP #1 : NudgeForMe
 ### 1. Identification
-- **URL** : skippr.ai | **Lancement** : Q1 2026 | **Catégorie** : Voice AI / SaaS Tooling
-- **Fondateurs** : Équipe inconnue publiquement | **Investisseurs** : Bessemer Venture Partners
-- **Buzz** : Couverture Product Hunt (AI Voice Agents top), mention dans juillet AI Mega-Update (aiapps.com)
+- **URL** : nudgeforme.com | [Product Hunt](https://www.producthunt.com/products/nudgeforme)
+- **Launch** : 1er août 2026 | **Fondateurs** : Équipe Snoooz (serial founders email-SaaS)
+- **Catégorie** : AI Email / Productivity
+- **Buzz** : 31 465 upvotes PH (3x le #2) — record semaine, viralité organique confirmée
 
-### 2. Proposition de Valeur
-- **Problème** : Les SaaS n'ont pas d'assistant en temps réel pour guider les utilisateurs dans l'interface
-- **Solution** : Agent IA vocal + texte embarqué, "screen-aware", capable d'exécuter des tâches
-- **USP** : 2 lignes de code pour intégrer, mémoire de session complète, automatisation navigateur incluse
-- **Cible** : Équipes SaaS B2B, product managers, no-code builders
-- **Pricing** : Non public (likely usage-based + siège)
+### 2. Proposition de valeur
+- **Problème** : Emails envoyés sans réponse (propositions, factures, intros) = argent perdu
+- **Solution** : Scanne le dossier Envoyés, détecte les threads sans réponse, rédige des relances → dépose en Brouillons (jamais envoie automatiquement)
+- **USP** : "Draft mode by default" — adresse directement la peur des AI-agents autonomes
+- **Target** : Freelances, sales, PME, consultants — tout le monde qui oublie de relancer
+- **Pricing** : Freemium SaaS (estimé €9-29/mois). Support Gmail, Outlook, IMAP, iCloud
 
-### 3. Stack Technique
-- Frontend : SDK JS embarqué (2 lignes)
-- Backend : Agents LLM temps réel, pipeline voice-to-action
-- Infra : Cloud-native, support 10 langues, browser automation native
+### 3. Stack technique
+- Backend : Node.js/Python + IMAP/Gmail API + Outlook Graph API
+- AI : GPT-4o ou Claude pour génération de relances contextuelles
+- Infra : cloud (AWS/Vercel) — pas de données locales
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Aide mes utilisateurs à réussir sans que je recrute des CSM"
-- **Aha moment** : L'agent voit l'écran de l'utilisateur et exécute à sa place en 30 secondes
-- **Triggers** : Autorité (Bessemer), urgence (churn silencieux = argent perdu), social proof (early SaaS adopters)
+### 4. Psychologie
+- **Trigger** : Peur de manquer une opportunité (FOMO inversé — relances = CA perdu)
+- **JTBD** : "Quand j'ai trop d'emails, aide-moi à récupérer les opportunités perdues sans risque"
+- **Aha moment** : Voir la première relance drafted — "c'est exactement ce que j'aurais écrit"
+- **Social proof** : 31K upvotes en 72h = validation massive de la communauté
 
 ### 5. Go-to-Market
-- **Canal principal** : Developer-led (SDK), relais tech press + PH
-- **Viral loop** : Chaque SaaS qui intègre Skippr expose l'agent à ses propres utilisateurs → bouche-à-oreille
-- **Stratégie** : Freemium + appel de démo pour enterprise
+- **Canal principal** : Product Hunt launch orchestré (réseau Snoooz + email list existante)
+- **Viral loop** : Les relances générées mentionnent l'outil → prise de conscience chez destinataires
+- **Distribution** : Intégration Gmail/Outlook native = adoption sans friction
 
-### 6. Réplication Kyle
-- **Complexité** : 6/10 — la partie voice pipeline est le cœur, accessible avec expertise de Kyle
-- **Verticaux adjacents** : Voice onboarding, SaaS support vocal, agent de formation produit
-- **Angle Kyle** : Kyle EST Skippr — son expertise voice AI + SaaS est exactement le combo requis
-- **Temps dev MVP** : 4-6 semaines avec stack ElevenLabs/Vapi + LangChain + shadow DOM scraping
+### 6. Réplication pour Kyle
+- **Complexité** : 5/10 — IMAP + LLM + UI = stack connue, pas de magie
+- **Angle voix** : Version voicemails non suivis d'appel de retour → relances SMS/email auto
+- **Verticals adjacents** : Recrutement (candidats sans réponse), support client, agency
+- **Temps de dev** : 4-8 semaines MVP complet
 
-## 🏆 TOP APP #2 : Prelint
+## 🏆 TOP APP #2 : Port22
 ### 1. Identification
-- **URL** : prelint.com | **Lancement** : Juillet 2026 | **Catégorie** : AI DevTools / Code Quality
-- **Buzz** : #1 Product Hunt 29 juillet 2026 — sources : [Product Hunt](https://www.producthunt.com/products/prelint)
-- **Métriques** : 56 706 PRs analysées, 40% des bugs capturés avant merge, précision x2,75 avec docs
+- **URL** : tryport22.com | [Product Hunt](https://www.producthunt.com/products/port22)
+- **Launch** : Fin juillet 2026 | **Catégorie** : Developer Tools / AI Agent Infrastructure
+- **Buzz** : 24 532 upvotes PH — #2 semaine, communauté dev très engagée
 
-### 2. Proposition de Valeur
-- **Problème** : L'IA écrit du code techniquement correct mais hors-sujet par rapport aux décisions produit (ADRs)
-- **Solution** : Review automatique de chaque PR contre les ADRs, specs, historique de décisions
-- **USP** : "Product drift prevention" — comble le fossé entre PM/docs et code IA
-- **Cible** : Équipes engineering >5 devs utilisant Copilot/Cursor/Claude pour coder
-- **Pricing** : Non public (SaaS B2B, likely par siège ou par repo)
+### 2. Proposition de valeur
+- **Problème** : Les agents AI coding (Claude Code, Codex, Aider) tournent en autonomie mais nécessitent des approbations — impossible à gérer sans être devant son Mac
+- **Solution** : App iOS/Android qui reçoit le token stream en temps réel + buzze à chaque permission request → tap pour approuver depuis n'importe où
+- **USP** : Remote control universel (LAN + relay chiffré hors réseau) pour TOUS les agents AI
+- **Target** : Développeurs utilisant des agents AI en arrière-plan
+- **Pricing** : Freemium estimé (relay payant au-delà du quota)
 
-### 3. Stack Technique
-- Intégration GitHub native + CLI + MCP server
-- Knowledge graph des décisions produit (ADRs, tickets, calls, emails)
-- CI pipeline hooks pour blocage automatique
+### 3. Stack technique
+- iOS app native + Mac agent daemon
+- WebSocket streaming de tokens
+- Relay chiffré E2E pour accès hors-réseau
+- Compatible : Claude Code, Codex, OpenCode, Aider
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Empêche mon équipe de shipper quelque chose qui contredit nos décisions"
-- **Aha moment** : Premier PR bloqué car contredit une décision prise il y a 2 mois
-- **Triggers** : Peur (livraison de features incorrectes), autorité (adoption early teams IA), FOMO (rater une review = bug prod)
+### 4. Psychologie
+- **Trigger** : Anxiété de perdre le contrôle d'un agent autonome + FOMO sur productivité
+- **JTBD** : "Quand mon agent tourne, laisse-moi superviser sans être cloué à mon bureau"
+- **Aha moment** : Premier buzz de permission reçu sur téléphone, approuvé en 1 tap
+- **Social proof** : Timing parfait — wave AI coding agents au sommet en 2026
 
 ### 5. Go-to-Market
-- **Canal** : GitHub + PH launch, dev communities (HN, Twitter), bouche-à-oreille teams IA
-- **Viral loop** : Badge "Prelint-reviewed" dans les PRs → visibilité dans les orgs GitHub
-- **Différenciation** : Seul outil centré sur "product drift" vs bugs techniques classiques
+- **Canal** : Communautés dev (HN, r/ClaudeAI, r/LocalLLaMA, Discord Claude)
+- **Distribution** : Product Hunt + word-of-mouth organique développeurs
+- **Viral loop** : Partage de screenshots "je contrôle mon agent depuis la plage"
 
-### 6. Réplication Kyle
-- **Complexité** : 7/10 — le knowledge graph + CI hooks sont non triviaux
-- **Vertical adjacent** : Voice-spec compliance checker (vérifie que les agents vocaux respectent les scripts)
-- **Angle Kyle** : Adapter Prelint au monde voice AI → "Voice ADR Linter" pour call centers IA
-- **Temps dev** : 8-12 semaines pour un MVP verticalisé voice
+### 6. Réplication pour Kyle
+- **Complexité** : 7/10 — streaming temps réel + infra relay = plus technique
+- **Angle voix** : Contrôle vocal des agents depuis mobile — "Approve" / "Stop" par voix
+- **Verticals** : Agents de support client, agents de marketing automation
+- **Temps de dev** : 2-4 mois (infra relay = point dur)
 
-## 🏆 TOP APP #3 : OpenClaw
-⚠️ *Note : OpenClaw a ~8 mois (lancé fin 2025). Inclus car signal majeur toujours en croissance explosive.*
-
+## 🏆 TOP APP #3 : Screenpipe
 ### 1. Identification
-- **URL** : openclaws.io | **Lancement** : Novembre-Décembre 2025 | **Catégorie** : Open-Source / AI Agent Framework
-- **Fondateur** : Peter Steinberger (autrichien), créateur de PSPDFKit, alias "ClawFather"
-- **Buzz** : 382 000 stars GitHub (record absolu, dépasse React), 38M visiteurs/mois — [Wikipedia](https://en.wikipedia.org/wiki/OpenClaw)
+- **URL** : github.com/screenpipe/screenpipe | [HN Launch](https://news.ycombinator.com/item?id=49024620)
+- **Launch** : Juillet 2026 | **Investisseurs** : YC S26 | **Catégorie** : AI Agent Memory / Open Source
+- **Buzz** : YC batch + HN launch + 100+ intégrations actives — traction communauté forte
 
-### 2. Proposition de Valeur
-- **Problème** : Les LLMs sont des cerveaux sans corps — ils ne peuvent pas agir sur l'écran
-- **Solution** : Agent autonome open-source qui prend le contrôle souris/clavier, fait des screenshots, se souvient
-- **USP** : Compatible Claude, GPT, Gemini, Ollama — le couteau suisse des agents IA
-- **Cible** : Développeurs, startups IA, entreprises (enterprise tier via NVIDIA)
-- **Pricing** : Open-source gratuit + enterprise (partenariat NVIDIA, clients Box, Cisco, Atlassian)
+### 2. Proposition de valeur
+- **Problème** : Les agents AI sont aveugles — ils ne savent pas comment VOUS travaillez, vos habitudes, vos process
+- **Solution** : Capture continue (screen + audio) en local → mémoire structurée searchable → génère automatiquement les SOPs pour vos agents à partir de vos patterns observés
+- **USP** : 100% local (pas de cloud), open-source, transforme vos habitudes en instructions d'agent
+- **Target** : Développeurs power users, early adopters AI agents
+- **Pricing** : Open-source gratuit + offre cloud/managed estimée
 
-### 3. Stack Technique
-- Core : LLM-agnostic, Python, browser automation + OS control
-- Enterprise : NVIDIA sandbox, YAML access policies, privacy router
-- Distribution : npm (416 000 téléchargements/mois), GitHub
+### 3. Stack technique
+- Rust (performance, faible empreinte mémoire)
+- Modèles locaux pour transcription audio + OCR screen
+- Vector DB locale (Qdrant ou similaire)
+- Intégrations : OpenClaw, Hermes, 100+ apps
 
-### 4. Psychologie & JTBD
-- **JTBD** : "Je veux automatiser des tâches répétitives sans coder une intégration complète"
-- **Aha moment** : L'agent ouvre un navigateur, trouve une info, la copie dans un doc — sans une ligne de code
-- **Triggers** : Open-source = confiance + liberté, social proof massif (250K stars = React battu)
+### 4. Psychologie
+- **Trigger** : Frustration de devoir tout réexpliquer à chaque agent
+- **JTBD** : "Quand j'utilise des agents, fais-les comprendre comment JE travaille sans configuration"
+- **Aha moment** : Premier workflow généré automatiquement depuis observation — "il a appris comment je fais ça"
+- **Privacy** : Tout local = argument fort post-scandales cloud AI 2025
 
 ### 5. Go-to-Market
-- **Distribution** : GitHub viral + HN/Reddit + médias tech (The New Stack, Medium)
-- **Moat** : Écosystème de 180 startups qui buildent dessus → $320K/mois de revenus indirects
-- **Enterprise** : NVIDIA deal crédibilise pour les gros contrats
+- **Canal** : GitHub stars organiques + YC réseau + HN community
+- **Distribution** : Open-source first → upsell cloud ou managed
+- **Viral loop** : Contributions communauté = nouvelles intégrations = plus d'adoption
 
-### 6. Réplication Kyle
-- **Complexité** : 8/10 — refaire OpenClaw n'a pas de sens. L'angle = builder dessus
-- **Vertical adjacent** : Agent vocal OpenClaw-based pour les calls entrants/sortants
-- **Angle Kyle** : Utiliser OpenClaw comme runtime d'automatisation pour ses agents voice → lever le temps de dev x3
-- **Temps dev** : 2-3 semaines pour un proof-of-concept voice sur base OpenClaw
+### 6. Réplication pour Kyle
+- **Complexité** : 8/10 — Rust + modèles locaux + privacy = stack exigeante
+- **Angle voix** : Kyle est expert voice AI → composant audio (transcription continue) = force directe
+- **Verticaux** : Sales calls memory, support agent training, meeting intelligence
+- **Temps de dev** : 3-6 mois (open-source = possible fork partiel)
 
-## 💰 Unit Economics Deep Dive — Skippr AI
-*Sources estimées : Crunchbase, Bessemer portfolio, SimilarWeb, LinkedIn headcount*
+## 💰 Unit Economics Deep Dive — NudgeForMe
+*Sources : Product Hunt metrics, Indie Hackers comps, SimilarWeb estimations, benchmarks email SaaS 2026*
 
 | Métrique | Estimation | Confiance |
 |---|---|---|
-| **ARR** | ~$1-3M | 🟡 Faible (early stage) |
-| **ARPU** | ~$500-2 000/mois/client | 🟡 |
-| **Clients actifs** | 50-200 SaaS teams | 🟡 |
-| **CAC** | ~$2 000-5 000 (sales-assisted) | 🟡 |
-| **LTV** | ~$15 000-40 000 (contrats annuels) | 🟡 |
-| **LTV/CAC** | ~5-8x | 🟡 |
-| **Payback period** | ~6-12 mois | 🟡 |
-| **Headcount** | ~10-20 (LinkedIn) | 🟢 |
-| **Burn estimé** | ~$200-400K/mois | 🟡 |
-| **Runway** | 18-36 mois (Bessemer seed/A) | 🟡 |
-| **Rev/Employee** | ~$50-150K ARR/emp | 🟠 early |
-| **Rule of 40** | ~N/A (trop tôt) | 🔴 |
+| ARR estimé (6 mois post-launch) | €180K–€360K | 🟡 Faible — pas de données publiques |
+| Users actifs | 3 000–8 000 | 🟡 Basé sur ratio PH upvotes × 0.1–0.25 |
+| ARPU mensuel | €15–€25 | 🟢 Standard email SaaS freemium |
+| CAC (canal PH + viral) | €8–€20 | 🟢 PH launch = CAC très bas |
+| LTV (churn ~3%/mois estimé) | €500–€830 | 🟡 Dépend rétention |
+| LTV/CAC ratio | 25x–40x | 🟢 Excellent si churn tenu |
+| Payback period | < 1 mois | 🟢 CAC bas + SaaS récurrent |
+| Équipe estimée | 2–4 personnes (Snoooz team) | 🟡 Estimation |
+| Rev/Employee | €45K–€90K ARR | 🟢 Bon pour early-stage |
+| Rule of 40 | +70–+90 (growth >100%) | 🟢 Exceptionnel si maintenu |
 
-**Verdict santé** : 🟡 — Trop tôt pour juger la santé financière. Le backing Bessemer et le product-market fit voice IA sont les signaux positifs forts. Risque : dépendance aux SDK LLM dont les coûts évoluent vite.
-
-**Hypothèses clés** : Pricing estimé sur comparaison Intercom AI ($70/siège) × volume + usage tokens. Headcount visible sur LinkedIn (~15 profils). Pas de données publiques de revenus disponibles à ce stade.
+**Verdict santé : 🟢 SAIN**
+Modèle freemium email classique, CAC ultra-bas grâce au lancement Product Hunt, équipe réduite = efficacité forte. Le risque principal est la rétention : si les relances générées sont trop génériques, le churn s'accélère. La fondation (ex-Snoooz = team email expérimentée) réduit ce risque.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Skippr AI | Prelint | OpenClaw |
-|---|---|---|---|
-| 📊 Market Size (20%) | **8** — marché SaaS support >$5B | **7** — DevTools IA en explosion | **9** — universal AI agents >$50B |
-| ⚙️ Complexity inversé (15%) | **6** — voice + screen-aware = non trivial | **5** — knowledge graph complexe | **3** — trop complexe à refaire |
-| ⏱️ Time-to-Market (15%) | **7** — 4-6 semaines MVP vertical | **5** — 8-12 semaines | **8** — builder dessus en 2-3 sem |
-| 🏟️ Competition inversé (15%) | **7** — early stage, peu de directs | **8** — catégorie quasi-vierge | **2** — écosystème établi, difficile |
-| 💰 Revenue Potential (20%) | **8** — SaaS récurrent, ACV élevé | **7** — per-repo/per-seat scalable | **6** — open-source = moat diffus |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — voice AI + SaaS = bullseye | **6** — tangentiel (code review) | **7** — peut builder dessus |
-| **SCORE PONDÉRÉ** | **🟢 7.75 BUILD NOW** | **🟡 6.35 BUILD ADJACENT** | **🟠 5.45 WATCH** |
+| Dimension (poids) | NudgeForMe | Port22 | Screenpipe |
+|---|:---:|:---:|:---:|
+| 📊 Market Size (20%) | 8 — email SaaS €5B+ | 7 — dev tools €2B+ | 7 — agent infra €3B+ |
+| ⚙️ Complexité inversée (15%) | 8 — stack connue | 4 — relay = difficile | 3 — Rust + local |
+| ⏱️ Time-to-Market (15%) | 8 — 4-8 semaines | 4 — 3-4 mois | 3 — 4-6 mois |
+| 🏟️ Compétition inversée (15%) | 6 — Boomerang, Mixmax existent | 8 — quasi blue ocean | 7 — peu de concurrents locaux |
+| 💰 Revenue Potential (20%) | 8 — €50-100K MRR atteignable | 6 — marché dev = price sensitive | 7 — open-source + upsell |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 7 — angle voice email fort | 5 — dev tools, pas voice | 9 — voice AI = core expertise |
 
-**Formule** : Score = Σ(note × poids)
+| App | Score Pondéré | Verdict |
+|---|:---:|:---:|
+| **NudgeForMe** | **7.6** | 🟢 **BUILD NOW** |
+| **Screenpipe** | **6.3** | 🟡 **BUILD ADJACENT** |
+| **Port22** | **5.8** | 🟠 **WATCH** |
 
-- Skippr AI : (8×0.20)+(6×0.15)+(7×0.15)+(7×0.15)+(8×0.20)+(10×0.15) = **7.75** 🟢 BUILD NOW
-- Prelint : (7×0.20)+(5×0.15)+(5×0.15)+(8×0.15)+(7×0.20)+(6×0.15) = **6.35** 🟡 BUILD ADJACENT
-- OpenClaw : (9×0.20)+(3×0.15)+(8×0.15)+(2×0.15)+(6×0.20)+(7×0.15) = **5.70** 🟠 WATCH
+**Calculs :**
+- NudgeForMe : (8×0.2)+(8×0.15)+(8×0.15)+(6×0.15)+(8×0.2)+(7×0.15) = 1.6+1.2+1.2+0.9+1.6+1.05 = **7.55**
+- Screenpipe : (7×0.2)+(3×0.15)+(3×0.15)+(7×0.15)+(7×0.2)+(9×0.15) = 1.4+0.45+0.45+1.05+1.4+1.35 = **6.10**
+- Port22 : (7×0.2)+(4×0.15)+(4×0.15)+(8×0.15)+(6×0.2)+(5×0.15) = 1.4+0.6+0.6+1.2+1.2+0.75 = **5.75**
 
 ## 📈 Tendances Émergentes
-### 🔵 Tendance 1 — L'IA s'incruste dans les surfaces existantes
-Les produits qui gagnent en juillet 2026 ne demandent pas aux users d'ouvrir un nouveau tab. Ils s'intègrent là où les gens sont déjà (GitHub PR, SaaS existant, Mac desktop). Skippr (SDK 2 lignes), Prelint (GitHub review), Mina (meetings) = même pattern.
+**1. Micro-verticaux > assistants généraux**
+NudgeForMe et SyncStaq (Stripe→Sheets) prouvent qu'une solution ultra-spécifique à un workflow douloureux bat les super-apps. Le marché a absorbé la leçon : narrow wins.
 
-### 🔵 Tendance 2 — MCP devient le standard d'intégration IA
-Prelint supporte MCP, Databox MCP est dans le top PH de la semaine. Le protocole MCP (Model Context Protocol d'Anthropic) devient le "OAuth de l'IA" — les agents utilisent MCP pour accéder aux données métier. **Opportunité directe pour Kyle** : builder un MCP server pour ses agents voice.
+**2. Agent infrastructure = la nouvelle "plomberie" AI**
+Port22, Screenpipe, Zinley — tous dans la même vague : créer les briques autour des agents autonomes (contrôle, mémoire, identité). Ce layer est aussi sous-estimé que les middlewares cloud en 2012.
 
-### 🔵 Tendance 3 — Open-source comme canal d'acquisition
-OpenClaw (382K stars) a démontré qu'un projet open-source bien positionné peut dépasser des années de sales enterprise en quelques mois. Le modèle : OS gratuit + enterprise payant. Reproduit par Langflow, Dify, Flowise dans le domaine agent.
+**3. Privacy-first comme différenciation réelle**
+"100% local" n'est plus un feature, c'est un pitch. Zen Whisper (dictée locale) et Screenpipe (capture locale) surfent la fatigue des scandales cloud. Signal fort : les users paient pour ça.
 
-### 🔵 Tendance 4 — "Product drift" devient un problème mainstream
-L'explosion du coding IA (Copilot, Cursor, Claude) crée un nouveau problème : les développeurs shippent du code correct mais hors-sujet. Prelint, Cursor Rules, ADR enforcement = nouvelle catégorie en émergence.
+**4. Draft-mode AI = antidote à l'anxiété d'autonomie**
+Le positionnement "je propose, tu décides" (NudgeForMe Drafts, Port22 approbations) résout le frein psychologique #1 à l'adoption des agents. Design pattern à copier systématiquement.
 
-### 🔵 Tendance 5 — Voice AI se verticalize
-ElevenLabs Conversational AI 2.0, Skippr, Leaping AI, Estera, Relay = tous des verticaux du voice. Le marché ne cherche plus "la meilleure voix" mais "la meilleure voix POUR mon use case". Fenêtre de 6-12 mois avant saturation des niches premium.
+**5. One-time pricing vs abonnement = différenciation PH**
+TerminalWidget ($19.99 one-time) a généré 13K upvotes en partie grâce au pricing. Sur un marché saturé d'abonnements, le paiement unique déclenche un signal émotionnel fort.
 
 ## 💡 Insights Actionnables
-### ⚡ Insight #1 — Kyle = Skippr AI avant Bessemer [PRIORITÉ 1]
-Skippr AI fait exactement ce que Kyle peut faire avec son expertise voice AI + SaaS. La différence : Skippr a Bessemer, Kyle a la rapidité. **Action** : Builder un "Skippr AI pour un vertical spécifique" (ex : voice onboarding pour SaaS RH, ou voice support pour SaaS legal). Time-to-market < 6 semaines.
+### 🎯 Pour Kyle — Actions Prioritaires
 
-### ⚡ Insight #2 — Créer un MCP server pour ses agents voice [PRIORITÉ 2]
-MCP est le standard montant. Kyle peut publier un MCP server open-source pour voice AI (ex : "Voice Agent MCP" qui expose les fonctions d'un call center IA). Acquisition : GitHub + HN. Monétisation : cloud hosted version. **Action** : 2-3 semaines de dev, publication GitHub + HN Show HN.
+**[IMMÉDIAT] Cloner NudgeForMe pour les voicemails**
+L'exact même problème existe pour les appels vocaux : voicemails laissés sans rappel = CA perdu. Kyle a l'expertise voice AI pour construire la version "NudgeForMe for phone calls" en 4-6 semaines. Angle : "VoiceNudge — détecte les appels sans retour, génère un script de rappel, dépose en draft SMS/email". CAC ultra-bas (PH launch + réseau voice AI Kyle).
 
-### ⚡ Insight #3 — "Voice ADR Linter" = catégorie vierge
-Prelint vérifie que le code suit les décisions. Personne n'a fait la même chose pour les scripts d'agents vocaux. "Voice Spec Linter" qui vérifie que les agents respectent la compliance, les scripts, les règles métier. **Action** : Valider l'idée avec 5 call centers / contact centers en DM LinkedIn cette semaine.
+**[COURT TERME] Ajouter le layer voix à Screenpipe**
+Le composant audio local de Screenpipe est exactement dans la zone d'expertise de Kyle. Fork le repo, ajouter une couche de transcription vocale optimisée (Whisper local fine-tuné) + extraction d'intentions depuis les calls. Contribuer en open-source = crédibilité + lead gen B2B naturel.
 
-### ⚡ Insight #4 — Utiliser OpenClaw comme runtime
-Ne pas réinventer la roue. OpenClaw + voice pipeline Kyle = agent vocal capable d'agir sur n'importe quelle interface. **Action** : Fork OpenClaw, wrapper avec Vapi/ElevenLabs pour un démo "agent vocal qui remplit des formulaires". Viral si bien emballé.
+**[PATTERN À ADOPTER] "Draft-mode AI" dans tout nouveau produit**
+Systématiser le design pattern : l'AI propose toujours, l'humain valide. Réduire la friction d'adoption de 60%. Appliquer à tous les futurs projets dès la phase de spec.
 
-### ⚡ Insight #5 — Urgence : la fenêtre voice se ferme
-Il y a 12 mois, voice AI était blue ocean. Dans 6-12 mois, les grandes catégories (support, onboarding, sales) seront occupées. **Action recommandée cette semaine** : choisir un vertical, builder un MVP, lancer sur Product Hunt et HN dans les 4 semaines.
+**[VEILLE] Zinley — concurrent direct potentiel**
+Zinley (AI avec son propre numéro de téléphone + email) est dans la même sphère que les projets voice AI de Kyle. Surveiller de près : soit concurrent, soit partenaire/acquisition cible si reach scale.
+
+**[SIGNAL FAIBLE] One-time pricing**
+Tester un produit Kyle avec pricing one-time ($29-99) pour capter l'audience "abonnement-fatiguée". Excellent test A/B pour la prochaine release.
