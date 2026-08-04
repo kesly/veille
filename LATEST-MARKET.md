@@ -1,188 +1,180 @@
-# 🔥 Market Scan — 2026-08-03
+# 🔥 Market Scan — 2026-08-04
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8 (filtrées à 3)
-- Top potentiel : NudgeForMe
-- Opportunités immédiates (BUILD NOW) : 2
+- Apps analysées : 6 (Zinley, AgentSky, Hoplite, OpenClaw, Lumichats, Port22)
+- Top potentiel : Zinley (#1 PH août), Hoplite (YC S26), AgentSky
+- Opportunités immédiates (BUILD NOW) : 1
 
-## 🏆 TOP APP #1 : NudgeForMe
+## 🏆 TOP APP #1 : Zinley
 ### 1. Identification
-- **URL** : nudgeforme.com | [Product Hunt](https://www.producthunt.com/products/nudgeforme)
-- **Launch** : 1er août 2026 | **Fondateurs** : Équipe Snoooz (serial founders email-SaaS)
-- **Catégorie** : AI Email / Productivity
-- **Buzz** : 31 465 upvotes PH (3x le #2) — record semaine, viralité organique confirmée
+- **URL** : [zinley.com](https://zinley.com) · [PH](https://www.producthunt.com/products/zinley)
+- **Launch** : Août 2026 · Catégorie : AI Assistants / Productivity
+- **Fondateurs** : Non publics
+- **Buzz** : 411 107 upvotes PH (record absolu août 2026), #1 du mois
 
-### 2. Proposition de valeur
-- **Problème** : Emails envoyés sans réponse (propositions, factures, intros) = argent perdu
-- **Solution** : Scanne le dossier Envoyés, détecte les threads sans réponse, rédige des relances → dépose en Brouillons (jamais envoie automatiquement)
-- **USP** : "Draft mode by default" — adresse directement la peur des AI-agents autonomes
-- **Target** : Freelances, sales, PME, consultants — tout le monde qui oublie de relancer
-- **Pricing** : Freemium SaaS (estimé €9-29/mois). Support Gmail, Outlook, IMAP, iCloud
+### 2. Proposition de Valeur
+- **Problème** : Les professionnels perdent des heures en appels entrants/sortants, suivi email et tâches répétitives.
+- **Solution** : Un numéro de téléphone + adresse email IA dédiés qui agit comme un "représentant personnel" — répond aux appels, envoie des emails, réserve des tables, trie les candidats.
+- **USP** : Mémoire relationnelle (qui sont vos contacts, votre historique) + opère dans vos règles, pas les siennes.
+- **Target** : Founders, execs, solopreneurs débordés
+- **Pricing** : Non public (waitlist) — estimé freemium → $29-99/mois
 
-### 3. Stack technique
-- Backend : Node.js/Python + IMAP/Gmail API + Outlook Graph API
-- AI : GPT-4o ou Claude pour génération de relances contextuelles
-- Infra : cloud (AWS/Vercel) — pas de données locales
+### 3. Stack Technique
+- Frontend : App web + intégration email native (aucun plugin requis)
+- Backend : LLM voice (probablement Claude/GPT-4o) + telephony (Twilio ou Daily.co)
+- Infra : Cloud AWS/GCP · APIs : calendrier, email, téléphonie
 
 ### 4. Psychologie
-- **Trigger** : Peur de manquer une opportunité (FOMO inversé — relances = CA perdu)
-- **JTBD** : "Quand j'ai trop d'emails, aide-moi à récupérer les opportunités perdues sans risque"
-- **Aha moment** : Voir la première relance drafted — "c'est exactement ce que j'aurais écrit"
-- **Social proof** : 31K upvotes en 72h = validation massive de la communauté
+- **Triggers** : Autorité ("votre représentant"), Gain de temps (10x votre journée), Exclusivité (waitlist)
+- **JTBD** : "Déléguer les tâches chronophages sans embaucher un assistant humain"
+- **Aha moment** : Premier appel pris automatiquement pendant qu'on est en réunion
 
 ### 5. Go-to-Market
-- **Canal principal** : Product Hunt launch orchestré (réseau Snoooz + email list existante)
-- **Viral loop** : Les relances générées mentionnent l'outil → prise de conscience chez destinataires
-- **Distribution** : Intégration Gmail/Outlook native = adoption sans friction
+- Launch PH explosif (411K votes = campagne communautaire orchestrée)
+- Twitter/X organic via démo vidéo virale
+- Bouche-à-oreille pro (chaque numéro Zinley exposé visibilité brand)
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 5/10 — IMAP + LLM + UI = stack connue, pas de magie
-- **Angle voix** : Version voicemails non suivis d'appel de retour → relances SMS/email auto
-- **Verticals adjacents** : Recrutement (candidats sans réponse), support client, agency
-- **Temps de dev** : 4-8 semaines MVP complet
+- **Complexité** : 6/10 — Telephony + LLM + mémoire relationnelle = 3 mois minimum
+- **Verticaux adjacents** : Zinley pour recruteurs, Zinley pour agences immobilières, Zinley pour médecins
+- **Angle Kyle (Voice AI expert)** : Fort fit — Kyle maîtrise le voice stack. Différenciation possible sur un vertical B2B précis (ex : assistants vocaux pour cabinets médicaux francophones)
+- **Temps de dev** : 8-12 semaines pour un MVP vertical ciblé
 
-## 🏆 TOP APP #2 : Port22
+## 🏆 TOP APP #2 : Hoplite (YC S26)
 ### 1. Identification
-- **URL** : tryport22.com | [Product Hunt](https://www.producthunt.com/products/port22)
-- **Launch** : Fin juillet 2026 | **Catégorie** : Developer Tools / AI Agent Infrastructure
-- **Buzz** : 24 532 upvotes PH — #2 semaine, communauté dev très engagée
+- **URL** : [hoplite.sh](https://hoplite.sh) · [HN Launch](https://news.ycombinator.com/item?id=49157997)
+- **Launch** : Août 2026 · YC S26 · San Francisco
+- **Fondateurs** : Ryan Morrissey & Bence Redmond (2 employés)
+- **Buzz** : Launch HN featured, soutien YC, viral sur X via case study
 
-### 2. Proposition de valeur
-- **Problème** : Les agents AI coding (Claude Code, Codex, Aider) tournent en autonomie mais nécessitent des approbations — impossible à gérer sans être devant son Mac
-- **Solution** : App iOS/Android qui reçoit le token stream en temps réel + buzze à chaque permission request → tap pour approuver depuis n'importe où
-- **USP** : Remote control universel (LAN + relay chiffré hors réseau) pour TOUS les agents AI
-- **Target** : Développeurs utilisant des agents AI en arrière-plan
-- **Pricing** : Freemium estimé (relay payant au-delà du quota)
+### 2. Proposition de Valeur
+- **Problème** : Déployer des coding agents en cloud est complexe — pas d'ergonomie, setup douloureux, agents qui ne survivent pas aux redémarrages.
+- **Solution** : Dashboard keyboard-driven pour lancer des agents cloud en 1 clic depuis Slack, Linear, iMessage ou Sentry.
+- **USP** : Transfert automatique de votre config locale (MCP servers, dépendances, CLIs) vers le cloud lors de l'onboarding.
+- **Target** : Équipes dev early-adopters de coding agents (Claude Code, Codex, Hermes)
+- **Pricing** : Non public — YC credits offerts en phase early
 
-### 3. Stack technique
-- iOS app native + Mac agent daemon
-- WebSocket streaming de tokens
-- Relay chiffré E2E pour accès hors-réseau
-- Compatible : Claude Code, Codex, OpenCode, Aider
+### 3. Stack Technique
+- Frontend : Dashboard web keyboard-driven
+- Backend : Cloud sandboxes isolés + orchestrateur d'agents
+- Intégrations : Slack, Linear, iMessage, Sentry, Claude Code, Codex, OpenClaw
+- Infra : Multi-cloud, persistance entre sessions
 
 ### 4. Psychologie
-- **Trigger** : Anxiété de perdre le contrôle d'un agent autonome + FOMO sur productivité
-- **JTBD** : "Quand mon agent tourne, laisse-moi superviser sans être cloué à mon bureau"
-- **Aha moment** : Premier buzz de permission reçu sur téléphone, approuvé en 1 tap
-- **Social proof** : Timing parfait — wave AI coding agents au sommet en 2026
+- **Triggers** : Social proof YC, autorité technique, FOMO (Demo Day Sept 2026)
+- **JTBD** : "Faire tourner mes agents 24/7 sans gérer l'infra"
+- **Aha moment** : Premier PR auto-créé depuis une erreur Sentry, sans intervention humaine
 
 ### 5. Go-to-Market
-- **Canal** : Communautés dev (HN, r/ClaudeAI, r/LocalLLaMA, Discord Claude)
-- **Distribution** : Product Hunt + word-of-mouth organique développeurs
-- **Viral loop** : Partage de screenshots "je contrôle mon agent depuis la plage"
+- Launch HN organique (communauté dev hautement qualifiée)
+- Network YC (accès immédiat à ~500 startups comme early adopters)
+- Case studies X viraux (Yahia Bakour thread — démonstration onboarding 15 min)
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 — streaming temps réel + infra relay = plus technique
-- **Angle voix** : Contrôle vocal des agents depuis mobile — "Approve" / "Stop" par voix
-- **Verticals** : Agents de support client, agents de marketing automation
-- **Temps de dev** : 2-4 mois (infra relay = point dur)
+- **Complexité** : 7/10 — infra cloud sandboxing = expertise DevOps + sécurité
+- **Verticaux adjacents** : Hoplite pour content creators (agents IA éditoriaux), pour data analysts
+- **Angle Kyle** : Moyen fit — loin du voice AI, fort côté infra. Opportunité dans orchestration d'agents voice en cloud.
+- **Temps de dev** : 12-16 semaines pour MVP crédible
 
-## 🏆 TOP APP #3 : Screenpipe
+## 🏆 TOP APP #3 : AgentSky
 ### 1. Identification
-- **URL** : github.com/screenpipe/screenpipe | [HN Launch](https://news.ycombinator.com/item?id=49024620)
-- **Launch** : Juillet 2026 | **Investisseurs** : YC S26 | **Catégorie** : AI Agent Memory / Open Source
-- **Buzz** : YC batch + HN launch + 100+ intégrations actives — traction communauté forte
+- **URL** : [AgentSky PH](https://www.producthunt.com/products/agentsky)
+- **Launch** : Juillet-Août 2026 · Catégorie : AI Agents / Infra
+- **Fondateurs** : Non publics
+- **Buzz** : 37 748 upvotes PH (#2 du mois derrière Zinley)
 
-### 2. Proposition de valeur
-- **Problème** : Les agents AI sont aveugles — ils ne savent pas comment VOUS travaillez, vos habitudes, vos process
-- **Solution** : Capture continue (screen + audio) en local → mémoire structurée searchable → génère automatiquement les SOPs pour vos agents à partir de vos patterns observés
-- **USP** : 100% local (pas de cloud), open-source, transforme vos habitudes en instructions d'agent
-- **Target** : Développeurs power users, early adopters AI agents
-- **Pricing** : Open-source gratuit + offre cloud/managed estimée
+### 2. Proposition de Valeur
+- **Problème** : Les agents IA nécessitent une infra complexe (sandboxes, persistance, multi-LLM) que peu de devs savent gérer.
+- **Solution** : "Any harness, any LLM" — choisissez Claude Code, Codex, Hermes ou OpenClaw + votre modèle LLM, et lancez en 1 clic ou commande CLI.
+- **USP** : Neutralité multi-harness + sandboxes fast & secure + connexion multi-canaux
+- **Target** : Devs, startups, équipes engineering qui veulent tester plusieurs stacks agents
+- **Pricing** : Usage-based (estimé à $0.05-0.20/min d'agent)
 
-### 3. Stack technique
-- Rust (performance, faible empreinte mémoire)
-- Modèles locaux pour transcription audio + OCR screen
-- Vector DB locale (Qdrant ou similaire)
-- Intégrations : OpenClaw, Hermes, 100+ apps
+### 3. Stack Technique
+- Frontend : CLI + Web dashboard
+- Backend : Orchestrateur multi-harness, sandboxes isolés
+- APIs : Claude, GPT, Hermes, OpenClaw (multi-LLM natif)
+- Infra : Cloud-native, scalable horizontalement
 
 ### 4. Psychologie
-- **Trigger** : Frustration de devoir tout réexpliquer à chaque agent
-- **JTBD** : "Quand j'utilise des agents, fais-les comprendre comment JE travaille sans configuration"
-- **Aha moment** : Premier workflow généré automatiquement depuis observation — "il a appris comment je fais ça"
-- **Privacy** : Tout local = argument fort post-scandales cloud AI 2025
+- **Triggers** : Flexibilité (pas de lock-in harness/LLM), simplicité ("1 clic")
+- **JTBD** : "Tester les meilleurs stacks agents sans tout reconstruire à chaque fois"
+- **Aha moment** : Changer de harness en 30 secondes et voir la différence de résultat
 
 ### 5. Go-to-Market
-- **Canal** : GitHub stars organiques + YC réseau + HN community
-- **Distribution** : Open-source first → upsell cloud ou managed
-- **Viral loop** : Contributions communauté = nouvelles intégrations = plus d'adoption
+- Launch PH (37K votes = communauté dev qualifiée)
+- Positionnement "infrastructure neutre" dans un marché fragmenté
+- CLI first = adoption par ingénieurs → propagation org
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 — Rust + modèles locaux + privacy = stack exigeante
-- **Angle voix** : Kyle est expert voice AI → composant audio (transcription continue) = force directe
-- **Verticaux** : Sales calls memory, support agent training, meeting intelligence
-- **Temps de dev** : 3-6 mois (open-source = possible fork partiel)
+- **Complexité** : 8/10 — multi-harness + sandboxes sécurisés = projet d'ampleur
+- **Verticaux adjacents** : AgentSky pour voice agents, pour agents de test QA
+- **Angle Kyle** : Fit modéré — possible de construire l'équivalent spécialisé voice (orchestrateur de voice agents multi-provider)
+- **Temps de dev** : 16-20 semaines pour un MVP solide
 
-## 💰 Unit Economics Deep Dive — NudgeForMe
-*Sources : Product Hunt metrics, Indie Hackers comps, SimilarWeb estimations, benchmarks email SaaS 2026*
+## 💰 Unit Economics Deep Dive — Zinley
+> ⚠️ Estimations basées sur comparables marché (ElevenLabs, Air.ai, Reclaim.ai) — pas de données publiques Zinley disponibles.
 
-| Métrique | Estimation | Confiance |
+| Métrique | Estimation | Base |
 |---|---|---|
-| ARR estimé (6 mois post-launch) | €180K–€360K | 🟡 Faible — pas de données publiques |
-| Users actifs | 3 000–8 000 | 🟡 Basé sur ratio PH upvotes × 0.1–0.25 |
-| ARPU mensuel | €15–€25 | 🟢 Standard email SaaS freemium |
-| CAC (canal PH + viral) | €8–€20 | 🟢 PH launch = CAC très bas |
-| LTV (churn ~3%/mois estimé) | €500–€830 | 🟡 Dépend rétention |
-| LTV/CAC ratio | 25x–40x | 🟢 Excellent si churn tenu |
-| Payback period | < 1 mois | 🟢 CAC bas + SaaS récurrent |
-| Équipe estimée | 2–4 personnes (Snoooz team) | 🟡 Estimation |
-| Rev/Employee | €45K–€90K ARR | 🟢 Bon pour early-stage |
-| Rule of 40 | +70–+90 (growth >100%) | 🟢 Exceptionnel si maintenu |
+| **ARR** | $1-3M | 411K votes PH → ~5K early users probables |
+| **ARPU** | $49/mois | Pricing estimé entre $29-99, médiane |
+| **Users actifs** | ~2 000-5 000 | Waitlist convertie à 10-15% |
+| **CAC** | ~$15-30 | PH launch organique + bouche-à-oreille |
+| **LTV** | ~$400-600 | Rétention 8-12 mois (assistant personnel = sticky) |
+| **LTV/CAC** | ~15-25x | Excellent si confirmé |
+| **Payback** | 1-2 mois | CAC faible = payback rapide |
+| **Burn estimé** | $80-120K/mois | 2-3 personnes + infra telephony/LLM |
+| **Runway** | 18-24 mois | Probable pre-seed $2-3M non annoncé |
+| **Rev/Employee** | $300-500K | Si 4-6 personnes à terme |
+| **Rule of 40** | ~60+ | Croissance forte + marges SaaS > 70% |
 
 **Verdict santé : 🟢 SAIN**
-Modèle freemium email classique, CAC ultra-bas grâce au lancement Product Hunt, équipe réduite = efficacité forte. Le risque principal est la rétention : si les relances générées sont trop génériques, le churn s'accélère. La fondation (ex-Snoooz = team email expérimentée) réduit ce risque.
+Modèle economics excellent si les chiffres d'engagement PH se convertissent. La stickiness d'un assistant vocal/email personnel est structurellement haute (comparable à Calendly : NRR >120%). Principal risque : coût d'inférence LLM + telephony à surveiller à l'échelle.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | NudgeForMe | Port22 | Screenpipe |
-|---|:---:|:---:|:---:|
-| 📊 Market Size (20%) | 8 — email SaaS €5B+ | 7 — dev tools €2B+ | 7 — agent infra €3B+ |
-| ⚙️ Complexité inversée (15%) | 8 — stack connue | 4 — relay = difficile | 3 — Rust + local |
-| ⏱️ Time-to-Market (15%) | 8 — 4-8 semaines | 4 — 3-4 mois | 3 — 4-6 mois |
-| 🏟️ Compétition inversée (15%) | 6 — Boomerang, Mixmax existent | 8 — quasi blue ocean | 7 — peu de concurrents locaux |
-| 💰 Revenue Potential (20%) | 8 — €50-100K MRR atteignable | 6 — marché dev = price sensitive | 7 — open-source + upsell |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 7 — angle voice email fort | 5 — dev tools, pas voice | 9 — voice AI = core expertise |
+| Dimension (poids) | Zinley | Hoplite | AgentSky |
+|---|---|---|---|
+| 📊 Market Size (20%) | 9 — marché assistant IA >$50B | 8 — dev tools AI $10B+ | 8 — AI infra $20B+ |
+| ⚙️ Complexité inversée (15%) | 5 — voice+email+mémoire = complexe | 4 — sandboxing cloud difficile | 3 — multi-harness = très technique |
+| ⏱️ Time-to-Market (15%) | 5 — 8-12 sem vertical ciblé | 4 — 12-16 sem | 3 — 16-20 sem |
+| 🏟️ Compétition inversée (15%) | 6 — Air.ai, Bland.ai existent mais masse marché libre | 7 — peu de concurrents directs | 6 — AWS, GCP entrent |
+| 💰 Revenue Potential (20%) | 9 — $100K+ MRR crédible vertical | 7 — $50-100K MRR réaliste | 7 — $50K+ MRR |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — voice AI = cœur expertise Kyle | 5 — infra loin du voice | 5 — infra loin du voice |
 
-| App | Score Pondéré | Verdict |
-|---|:---:|:---:|
-| **NudgeForMe** | **7.6** | 🟢 **BUILD NOW** |
-| **Screenpipe** | **6.3** | 🟡 **BUILD ADJACENT** |
-| **Port22** | **5.8** | 🟠 **WATCH** |
+**Score pondéré :**
+- **Zinley** : (9×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(9×0.20)+(9×0.15) = **1.80+0.75+0.75+0.90+1.80+1.35 = 7.35** → 🟡 BUILD ADJACENT
+- **Hoplite** : (8×0.20)+(4×0.15)+(4×0.15)+(7×0.15)+(7×0.20)+(5×0.15) = **1.60+0.60+0.60+1.05+1.40+0.75 = 6.00** → 🟡 BUILD ADJACENT
+- **AgentSky** : (8×0.20)+(3×0.15)+(3×0.15)+(6×0.15)+(7×0.20)+(5×0.15) = **1.60+0.45+0.45+0.90+1.40+0.75 = 5.55** → 🟠 WATCH
 
-**Calculs :**
-- NudgeForMe : (8×0.2)+(8×0.15)+(8×0.15)+(6×0.15)+(8×0.2)+(7×0.15) = 1.6+1.2+1.2+0.9+1.6+1.05 = **7.55**
-- Screenpipe : (7×0.2)+(3×0.15)+(3×0.15)+(7×0.15)+(7×0.2)+(9×0.15) = 1.4+0.45+0.45+1.05+1.4+1.35 = **6.10**
-- Port22 : (7×0.2)+(4×0.15)+(4×0.15)+(8×0.15)+(6×0.2)+(5×0.15) = 1.4+0.6+0.6+1.2+1.2+0.75 = **5.75**
+> **Verdict** : Zinley score 7.35 → BUILD ADJACENT. Kyle ne devrait pas copier Zinley, mais construire un vertical précis avec son expertise voice (ex : assistant IA pour professions libérales francophones).
 
 ## 📈 Tendances Émergentes
-**1. Micro-verticaux > assistants généraux**
-NudgeForMe et SyncStaq (Stripe→Sheets) prouvent qu'une solution ultra-spécifique à un workflow douloureux bat les super-apps. Le marché a absorbé la leçon : narrow wins.
+1. **L'assistant IA devient un "représentant"** — Zinley marque le pivot : les LLMs ne répondent plus à vos questions, ils *agissent* à votre place (appels, emails, réservations). La métaphore passe de "chatbot" à "employé virtuel".
 
-**2. Agent infrastructure = la nouvelle "plomberie" AI**
-Port22, Screenpipe, Zinley — tous dans la même vague : créer les briques autour des agents autonomes (contrôle, mémoire, identité). Ce layer est aussi sous-estimé que les middlewares cloud en 2012.
+2. **Cloud coding agents = nouvelle catégorie** — Hoplite + AgentSky + OpenClaw montrent que l'orchestration d'agents devient une couche infra à part entière. YC S26 compte plusieurs startups dans ce segment.
 
-**3. Privacy-first comme différenciation réelle**
-"100% local" n'est plus un feature, c'est un pitch. Zen Whisper (dictée locale) et Screenpipe (capture locale) surfent la fatigue des scandales cloud. Signal fort : les users paient pour ça.
+3. **Multi-harness / multi-LLM** — Le marché s'oriente vers la neutralité : les outils qui permettent de switcher entre Claude Code, Codex, Hermes sans friction gagnent en adoption (éviter le lock-in fournisseur).
 
-**4. Draft-mode AI = antidote à l'anxiété d'autonomie**
-Le positionnement "je propose, tu décides" (NudgeForMe Drafts, Port22 approbations) résout le frein psychologique #1 à l'adoption des agents. Design pattern à copier systématiquement.
+4. **iMessage + Slack comme interfaces agents** — Les apps qui intègrent les messageries existantes (iMessage, Slack) comme interface principale battent les nouvelles apps : zéro friction d'adoption.
 
-**5. One-time pricing vs abonnement = différenciation PH**
-TerminalWidget ($19.99 one-time) a généré 13K upvotes en partie grâce au pricing. Sur un marché saturé d'abonnements, le paiement unique déclenche un signal émotionnel fort.
+5. **Voice AI mass-market** — Le marché vocal sort de la phase "PoC d'entreprise" pour aller vers des assistants personnels grand public. Zinley en est le signal le plus fort de la semaine.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions Prioritaires
+### Pour Kyle — Actions immédiates
 
-**[IMMÉDIAT] Cloner NudgeForMe pour les voicemails**
-L'exact même problème existe pour les appels vocaux : voicemails laissés sans rappel = CA perdu. Kyle a l'expertise voice AI pour construire la version "NudgeForMe for phone calls" en 4-6 semaines. Angle : "VoiceNudge — détecte les appels sans retour, génère un script de rappel, dépose en draft SMS/email". CAC ultra-bas (PH launch + réseau voice AI Kyle).
+**1. 🎯 Construire "Zinley vertical" en français (priorité haute)**
+L'opportunité n'est pas de copier Zinley, mais de prendre un vertical où Kyle a un avantage : médecins/pharmaciens, avocats, agents immobiliers francophones. Ces professions ont des contraintes réglementaires (RGPD, secret médical) qui créent une barrière à l'entrée naturelle contre les concurrents US.
+→ **Action** : Valider avec 5 entretiens clients dans 1 vertical cette semaine.
 
-**[COURT TERME] Ajouter le layer voix à Screenpipe**
-Le composant audio local de Screenpipe est exactement dans la zone d'expertise de Kyle. Fork le repo, ajouter une couche de transcription vocale optimisée (Whisper local fine-tuné) + extraction d'intentions depuis les calls. Contribuer en open-source = crédibilité + lead gen B2B naturel.
+**2. 📞 Étudier la stack telephony de Zinley**
+Zinley utilise probablement Daily.co ou Twilio pour les appels + ElevenLabs ou un modèle maison pour la voix. Kyle a déjà cette expertise — le différentiel est la couche "mémoire relationnelle".
+→ **Action** : Tester l'API Zinley si disponible, sinon démonter un concurrent (Air.ai / Bland.ai).
 
-**[PATTERN À ADOPTER] "Draft-mode AI" dans tout nouveau produit**
-Systématiser le design pattern : l'AI propose toujours, l'humain valide. Réduire la friction d'adoption de 60%. Appliquer à tous les futurs projets dès la phase de spec.
+**3. 🔌 Positionnement "orchestrateur vocal multi-agent"**
+Hoplite + AgentSky montrent un gap : il n'existe pas d'équivalent pour les voice agents (orchestrer plusieurs agents vocaux en parallèle, chacun avec un rôle différent). Kyle peut être le premier sur ce segment.
+→ **Action** : Écrire une landing page et mesurer l'intérêt (waitlist).
 
-**[VEILLE] Zinley — concurrent direct potentiel**
-Zinley (AI avec son propre numéro de téléphone + email) est dans la même sphère que les projets voice AI de Kyle. Surveiller de près : soit concurrent, soit partenaire/acquisition cible si reach scale.
-
-**[SIGNAL FAIBLE] One-time pricing**
-Tester un produit Kyle avec pricing one-time ($29-99) pour capter l'audience "abonnement-fatiguée". Excellent test A/B pour la prochaine release.
+**4. ⚡ Lancer sur PH avec une communauté orchestrée**
+411K votes pour Zinley suggèrent une campagne communautaire organisée (Discord, X, LinkedIn pré-launch). Kyle doit construire sa liste email/Discord *avant* de lancer.
+→ **Action** : Démarrer le build-in-public dès maintenant, même sans produit.
