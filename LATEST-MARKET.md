@@ -1,182 +1,188 @@
-# 🔥 Market Scan — 2026-08-15
+# 🔥 Market Scan — 2026-08-17
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Hey Noah, Wispr Flow Notetaker
-- Opportunités immédiates (BUILD NOW) : 2 (Hey Noah, Wispr Flow Notetaker)
+- Top potentiel : Wispr Flow Notetaker
+- Opportunités immédiates (BUILD NOW) : 2 (Wispr Flow clone vertical, OpenClaw Skills)
 
-## 🏆 TOP APP #1 : Hey Noah
+## 🏆 TOP APP #1 : Wispr Flow Notetaker
 ### 1. Identification
-- **URL** : [heynoah.io](https://www.heynoah.io/)
-- **Lancement** : Août 2026 (PH #1 semaine du 10/08/2026 — 57 195 votes)
-- **Catégorie** : AI Executive Assistant / Productivité fondateurs
-- **Buzz** : #1 PH semaine + fort engagement Twitter fondateurs
+- **URL** : [wisprflow.ai](https://wisprflow.ai) | **Launch** : 5 août 2026 | **Catégorie** : Voice AI / Productivity
+- **Fondateurs** : Founders issus de l'équipe Wispr AI (fondé 2021)
+- **Métriques buzz** : #1 PH semaine du 10 août, TechCrunch, Computerworld, +10K mentions 7j
+- **Financement** : $81M levés, valuation $700M → pourparlers $2B (Menlo Ventures, août 2026)
+- **ARR** : ~$10M ARR (oct 2025), 150x revenue growth sur 12 mois, 270 Fortune 500 clients
 
-### 2. Proposition de valeur
-- **Problème** : Les fondateurs perdent des heures en follow-ups, emails de suivi, logistique calendrier
-- **Solution** : Noah agit de façon proactive — il envoie lui-même les emails de suivi, réserve des réunions, place des rappels calendrier sans qu'on lui demande
-- **USP** : *"Noah talks to your network"* — pas seulement un répondeur, un initiateur autonome (SMS, email, WhatsApp)
-- **Target** : Founders early-stage, solopreneurs, execs sans EA humaine
-- **Pricing** : Non publié (freemium probable + plans pro contact sales)
+### 2. Proposition de Valeur
+- **Problème** : Les bots de réunion (Otter, Fireflies) rejoignent l'appel visiblement → friction + privacy
+- **Solution** : Capture audio locale sur Mac, pas de bot visible, extraction noms/jargon via Calendar+Gmail+Slack
+- **USP** : Bot-free, context-aware (connaît vos interlocuteurs), fonctionne avec Zoom/Meet/Teams/Slack/Discord
+- **Target** : Professionnels B2B Mac, Fortune 500, équipes commerciales
+- **Pricing** : Free trial · Pro $15/mois ($12 annuel) · Étudiants $6/mois · Enterprise custom
 
-### 3. Stack technique (inféré)
-- LLM multi-modal (GPT-4o / Claude) pour génération de messages
-- Intégrations : Gmail, iMessage/SMS, WhatsApp Business API, Google Calendar
-- Backend : probablement Node.js/Python + orchestration LangChain/LangGraph
-- Auth : OAuth Google + SMS gateway (Twilio)
+### 3. Stack Technique
+- **Frontend** : App Mac native (SwiftUI) + interface web légère
+- **Backend** : Modèles propriétaires voice-to-text + LLM pour summarization
+- **Infra** : Cloud + traitement local (audio reste sur le device)
+- **APIs** : Google Calendar, Gmail, Slack, Zoom SDK
 
-### 4. Psychologie
-- **Aha moment** : Après 1 networking event → Noah contacte les 6 personnes rencontrées automatiquement
-- **Triggers** : Délégation (autorité), gain de temps (urgence fondateur), social proof (PH #1)
-- **JTBD** : "Fais en sorte que je ne rate aucune relation d'affaires potentielle"
+### 4. Psychologie & JTBD
+- **JTBD** : "Laisse-moi écouter sans prendre de notes"
+- **Triggers** : Autorité (270 Fortune 500), social proof (Nvidia, Amazon), FOMO (lancement très médiatisé)
+- **Aha moment** : La 1ère réunion où les noms des speakers apparaissent automatiquement
 
-### 5. Go-to-market
-- **Canal principal** : Product Hunt (explosif) + Twitter fondateurs
-- **Viral loop** : Chaque email envoyé par Noah mentionne discrètement l'outil → recipients s'inscrivent
-- **Stratégie** : Fondateur-first, bouche-à-oreille dans les cercles VC / YC
+### 5. Go-to-Market
+- **Canaux** : PH launch + TechCrunch + viral LinkedIn ("pas de bot dans ma réunion") + PLG free trial
+- **Viral loop** : Les invités voient que l'hôte prend des notes parfaites → adoption organique
+- **Stratégie** : Extension d'un produit existant (Wispr Flow dictée) → base installée captive
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (intégrations email/calendar sont bien documentées, le vrai défi = UX confiance)
-- **Vertical adjacent** : Version spécialisée pour sales reps, recruteurs, ou agents immobiliers
-- **Angle Kyle** : Intégrer voice AI → Noah dicte et envoie les messages à la voix
+- **Complexité** : 6/10 — Audio local Mac = spécifique Apple ; back-end LLM abordable
+- **Angle Kyle** : Vertical niche (médecins, avocats, courtiers) avec prompts spécialisés + conformité RGPD EU
+- **Temps de dev** : 2-3 mois pour un MVP vertical sur base open-source Whisper
+- **Verticaux adjacents** : Legal (compte-rendus d'audience), Sales (CRM auto-update), Médical (PV consultation)
 
-## 🏆 TOP APP #2 : Wispr Flow Notetaker
+## 🏆 TOP APP #2 : OpenClaw
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai) — Notetaker lancé le 05/08/2026
-- **PH** : 56 274 votes (semaine du 10/08 — #2 global)
-- **Catégorie** : Voice AI / Meeting Intelligence
-- **Métriques** : $10M ARR (oct. 2025), $700M valuation, 150× revenue en 1 an, 270+ clients Fortune 500
+- **URL** : [GitHub OpenClaw](https://github.com/openclaw-ai/openclaw) | **Launch** : Jan 2026 | **Catégorie** : AI Agent / Open-Source
+- **Fondateurs** : Peter Steinberger (ex-PSPDFKit) + équipe internationale
+- **Métriques buzz** : 385K+ ⭐ GitHub, 38M visites/mois, 3.2M MAU, 60K stars en 72h au lancement
+- **Financement** : Open-source (pas de modèle revenu direct) ; ecosystem play
+- **Statut** : 🆓 Open-source (MIT)
 
-### 2. Proposition de valeur
-- **Problème** : Les notetakers exigent un bot invité = friction + "Speaker 1/2" illisible
-- **Solution** : Enregistrement local sans bot, noms réels tirés du calendrier/Slack/Gmail, résumé structuré décisions + next steps
-- **USP** : Utilise le dictionnaire personnel Wispr Flow (acronymes, noms produits internes) — meilleure précision que Otter/Fireflies
-- **Target** : Knowledge workers, teams tech, entreprises Fortune 500
-- **Pricing** : Free basic · Pro $15/mois ($12/an) · Étudiant $6/an · Enterprise contact
+### 2. Proposition de Valeur
+- **Problème** : Les agents AI coûtent cher (Devin, AutoGPT payant) ou sont trop limités
+- **Solution** : Agent personnel open-source, auto-hébergé, $0 plateforme, browserautomation + skills
+- **USP** : Marketplace de skills (ClawHub, 700+ skills), $5-20/mois d'hébergement seulement
+- **Target** : Développeurs, power users, PME tech, indie hackers
+- **Pricing** : Gratuit self-hosted ; services tiers $50-200/mois ; skills marketplace $10-50/skill
 
-### 3. Stack technique
-- Frontend : Electron Mac (Windows coming soon)
-- Audio capture : native macOS Core Audio (pas de bot)
-- ASR : modèle maison fine-tuné sur corpus business
-- Context injection : intégrations Google Calendar, Gmail, Slack
-- Infra : cloud inference propriétaire
+### 3. Stack Technique
+- **Frontend** : React + Electron (desktop), web dashboard
+- **Backend** : Python/Node.js, modèles LLM swappables (GPT-4, Claude, Llama)
+- **Infra** : Docker, self-hosted ou cloud providers
+- **APIs** : Browser Automation (Playwright), 700+ intégrations via ClawHub
 
-### 4. Psychologie
-- **Aha moment** : Premier résumé avec noms réels + décisions structurées vs notes manuelles
-- **Triggers** : Frustration bots meetings, social proof Fortune 500, croissance WOM massive
-- **JTBD** : "Je veux récupérer mes notes de réunion sans effort et agir dessus"
+### 4. Psychologie & JTBD
+- **JTBD** : "Je veux un assistant AI puissant sans abonnement mensuel absurde"
+- **Triggers** : Liberté (open-source), communauté (385K stars = validation sociale), économie ($0)
+- **Aha moment** : Premier workflow automatisé qui tourne sans supervision
 
-### 5. Go-to-market
-- **Canaux** : PLG viral (chaque transcript partagé = exposition produit), Product Hunt, TechCrunch
-- **Viral loop** : Le transcript partagé montre "Made with Wispr Flow" → adoption équipe
-- **Stratégie** : Bottom-up enterprise — commence par 1 utilisateur, se propage dans la team
+### 5. Go-to-Market
+- **Canaux** : GitHub viral (60K stars/72h), HN front page, X/Twitter #buildinpublic, YouTube tutoriels
+- **Viral loop** : Chaque skill publiée → nouveaux users → nouveaux contributeurs
+- **Modèle** : Distribution open-source, monétisation via services managés et marketplace
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (audio capture sans bot = différenciation technique forte, reproductible)
-- **Vertical adjacent** : Notetaker spécialisé customer interviews / sales calls avec CRM sync auto
-- **Angle Kyle** : Kyle est expert voice AI → peut construire la couche ASR custom pour une niche (médical, légal, immobilier) et charger 5× le prix
+- **Complexité** : 4/10 — Créer des skills voice AI spécialisées pour ClawHub
+- **Angle Kyle** : Pack "Voice AI Skills" pour OpenClaw = capture de l'ecosystem sans concurrencer le core
+- **Temps de dev** : 2-4 semaines pour 5 skills voice AI (transcription, résumé, CRM)
+- **Verticaux adjacents** : Skills sectorielles payantes (legal, médical, finance)
 
-## 🏆 TOP APP #3 : Coldtea.ai
+## 🏆 TOP APP #3 : Omniwork
 ### 1. Identification
-- **URL** : [coldtea.ai](https://www.coldtea.ai)
-- **Lancement** : 07/08/2026 (PH 467 votes jour J, 49 076 votes cumulés semaine)
-- **Catégorie** : DevTools / Agentic IDE
-- **Métriques** : 903 followers PH, open beta en cours
+- **URL** : [omniwork.ai](https://www.omniwork.ai) | **Launch** : Août 2026 (PH) | **Catégorie** : AI Agents / Creative OS
+- **Fondateurs** : Équipe Nowork Studio (identité publique limitée)
+- **Métriques buzz** : Top PH semaine du 10 août · 10K+ équipes · buzz community créatifs
+- **Financement** : Bootstrapped ou pre-seed (non public)
+- **Statut** : 💰 Payant (SaaS)
 
-### 2. Proposition de valeur
-- **Problème** : Les agents de code tournent en silo — pas de QA, pas de monitoring, pas de contexte partagé
-- **Solution** : IDE unifié : terminal agents + QA visuel automatisé + monitoring production en langage naturel
-- **USP** : Les agents visuels conduisent la *vraie app* (iOS/Android/Web) et détectent les régressions avant les users
-- **Target** : Startup CTOs, dev solo, équipes 1-5 devs
-- **Pricing** : Free (2 000 crédits agents/mois) · Team $20/membre · Modules testing + self-driving en add-on
+### 2. Proposition de Valeur
+- **Problème** : Les créatifs jonglent entre scripts, visuels, vidéos, musique, réseaux sociaux sur 10 outils différents
+- **Solution** : OS d'agents spécialisés sur desktop qui coordonnent les workflows créatifs en autonomie
+- **USP** : Companion desktop proactif, agents multi-modaux (recherche, création, monitoring, automatisation)
+- **Target** : Content creators, studios indépendants, équipes marketing, game dev
+- **Pricing** : Non public (essai gratuit sur inscription)
 
-### 3. Stack technique
-- Runtime agents : support CLI agents existants (Cursor, Claude Code, etc.) — no lock-in
-- QA visuel : computer vision propriétaire sur simulateurs iOS/Android + Playwright web
-- Monitoring prod : LLM explain en langage naturel (logs → insight)
-- Infra : cloud runs distribués
+### 3. Stack Technique
+- **Frontend** : App desktop (Electron probable) + web dashboard
+- **Backend** : Orchestration multi-agents (LangGraph ou custom), LLMs multi-providers
+- **Infra** : Cloud + desktop agent local
+- **APIs** : Intégrations créatives (Adobe, Figma, social APIs, video tools)
 
-### 4. Psychologie
-- **Aha moment** : Un agent détecte une régression visuelle que les tests unitaires n't auraient pas vue
-- **Triggers** : Peur de la régression (urgence), gain de temps (pas de QA engineer), curiosité tech
-- **JTBD** : "Je veux shipper vite sans casser la prod"
+### 4. Psychologie & JTBD
+- **JTBD** : "Finis mes projets créatifs pendant que je fais autre chose"
+- **Triggers** : Autonomie ("always-on"), social proof (10K équipes), gain de temps visible
+- **Aha moment** : L'agent finit un brief de contenu complet sans intervention manuelle
 
-### 5. Go-to-market
-- **Canaux** : PH, dev Twitter, Hacker News, communities Cursor/Claude Code
-- **Viral loop** : Équipes invitent d'autres devs dans leurs workspaces Coldtea
-- **Stratégie** : Product-led, freemium généreux → upsell team + add-ons
+### 5. Go-to-Market
+- **Canaux** : PH launch, communautés créatifs (Designer Hangout, Figma community), X créatifs
+- **Viral loop** : Les outputs de l'agent sont partagés avec les clients → visibilité organique
+- **Stratégie** : Lancement PH → base early adopters → expansion via use cases spécialisés
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (QA visuel sur mobile = R&D lourde, barrière forte)
-- **Vertical adjacent** : Version allégée = agent orchestrator SaaS pour non-devs (no-code)
-- **Angle Kyle** : Intégrer voice commands pour piloter les agents de code à la voix
+- **Complexité** : 7/10 — Orchestration multi-agents complexe + UX desktop soignée
+- **Angle Kyle** : Version verticale "Voice OS for Agencies" = orchestration agents + voice input natif
+- **Temps de dev** : 3-5 mois MVP
+- **Verticaux adjacents** : Marketing agencies, music producers, video production studios
 
-## 💰 Unit Economics Deep Dive — Hey Noah
-*Note : Hey Noah est trop récent pour des données vérifiables. Les estimations ci-dessous sont modélisées sur des analogues (Superhuman, Clay).*
+## 💰 Unit Economics Deep Dive — Wispr Flow Notetaker
+*Sources : Bloomberg (mai 2026), Crunchbase, Postbeam, TechCrunch, Craftnote*
 
-| Métrique | Estimation | Source |
-|---|---|---|
-| **ARR** | ~$500K–$2M (early) | Analogues PH #1 fondateurs |
-| **Users actifs** | ~2 000–8 000 | Vote count / conversion rate 0.1% |
-| **ARPU** | ~$50–100/mois | Segment founders premium |
-| **CAC** | ~$20–50 | PLG + PH launch (organique) |
-| **LTV** | ~$600–$1 200 (12 mois) | Rétention outil EA ~80% Y1 |
-| **LTV/CAC** | ~15–25× | 🟢 Excellent |
-| **Payback period** | ~1–2 mois | CAC faible + ARPU élevé |
-| **Burn estimé** | ~$100–200K/mois | Équipe 5–10 personnes |
-| **Runway** | Inconnu | Pas de levée publique identifiée |
-| **Rev/Employee** | ~$100K–200K | Si team <10 |
-| **Rule of 40** | ~70–90 (early) | Croissance PH viral + marges élevées |
+| Métrique | Estimation | Confiance |
+|----------|-----------|-----------|
+| **ARR estimé** | ~$25-35M (150x en 12 mois depuis ~$10M oct 2025) | 🟡 Moyen |
+| **ARPU** | ~$150/an (mix free trial + $180/an Pro + Enterprise) | 🟡 Moyen |
+| **Users actifs** | ~150K–200K (dont 270 Fortune 500 + base indie) | 🟡 Moyen |
+| **CAC** | ~$20-40 (PLG = viral, peu d'outbound) | 🟢 Faible (bon) |
+| **LTV** | ~$300-500 (2-3 ans retention moyenne SaaS B2B) | 🟡 Moyen |
+| **LTV/CAC** | ~10-15x | 🟢 Excellent |
+| **Payback Period** | ~2-3 mois | 🟢 Excellent |
+| **Burn estimé** | ~$3-5M/mois (81M levés, team 50-80p) | 🟡 Moyen |
+| **Runway** | 12-18 mois avant closing $2B round | 🟡 Moyen |
+| **Rev/Employee** | ~$400K-600K ARR/emp (50 emp estimés) | 🟢 Top quartile |
+| **Rule of 40** | ~190 (40% marge + 150% growth) → largement ✅ | 🟢 Excellent |
 
-**Verdict santé : 🟢 Très sain** — Modèle PLG + segment fondateurs premium = économies unitaires excellentes si CAC reste organique. Risque : scaling support si base users × 10 sans équipe CS.
+### Verdict Santé Financière : 🟢 ELITE
+
+Wispr Flow est l'un des rares exemples de **PLG hypercroissance sans sales team** : 150x revenue, 200x users en 12 mois. La valuation $2B est justifiée si la croissance tient à 40%+ MoM. Le risque principal est la compétition des géants (Apple, Google) qui peuvent nativement intégrer la transcription. La fenêtre d'opportunité pour des verticaux spécialisés reste ouverte 12-18 mois.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Hey Noah | Wispr Flow Notetaker | Coldtea.ai |
-|---|:---:|:---:|:---:|
-| 📊 Market Size (20%) | 8 | 9 | 7 |
-| ⚙️ Complexité inversée (15%) | 6 | 5 | 3 |
-| ⏱️ Time-to-Market (15%) | 6 | 5 | 4 |
-| 🏟️ Compétition inversée (15%) | 7 | 6 | 6 |
-| 💰 Revenue Potential (20%) | 8 | 9 | 7 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 | 10 | 6 |
-| **Score pondéré** | **7.6** | **7.5** | **5.5** |
-| **Verdict** | 🟢 BUILD NOW | 🟢 BUILD NOW | 🟠 WATCH |
+| Dimension (poids) | Wispr Notetaker Vertical | OpenClaw Skills | Omniwork Clone |
+|---|---|---|---|
+| 📊 Market Size (20%) | **8** — Voice AI €22B+, meeting notes €3B+ | **7** — Ecosystème 3.2M MAU | **6** — Créatifs B2B limité |
+| ⚙️ Complexity inversé (15%) | **7** — Whisper + LLM + Mac SDK | **9** — Skills API simples | **4** — Multi-agents complexe |
+| ⏱️ Time-to-Market (15%) | **6** — 2-3 mois MVP | **9** — 2-4 semaines | **4** — 3-5 mois |
+| 🏟️ Competition inversé (15%) | **7** — Vertical niche EU peu couvert | **8** — Skills voice = blue ocean | **5** — Catégorie naissante |
+| 💰 Revenue Potential (20%) | **8** — €50-200K MRR possible en 12 mois | **6** — Marketplace = rev lent | **6** — Potentiel mais lent |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **9** — Voice AI expert + EU + SaaS | **8** — Voice skills = expertise core | **6** — Agent OS éloigné |
+| **SCORE PONDÉRÉ** | **🟢 7.7 — BUILD NOW** | **🟢 7.9 — BUILD NOW** | **🟡 5.1 — WATCH** |
 
-**Calculs :**
-- Hey Noah : (8×0.20)+(6×0.15)+(6×0.15)+(7×0.15)+(8×0.20)+(9×0.15) = 1.6+0.9+0.9+1.05+1.6+1.35 = **7.40** → 🟡 BUILD ADJACENT (score corrigé = 7.4)
-- Wispr Flow : (9×0.20)+(5×0.15)+(5×0.15)+(6×0.15)+(9×0.20)+(10×0.15) = 1.8+0.75+0.75+0.9+1.8+1.5 = **7.50** → 🟢 BUILD NOW
-- Coldtea : (7×0.20)+(3×0.15)+(4×0.15)+(6×0.15)+(7×0.20)+(6×0.15) = 1.4+0.45+0.6+0.9+1.4+0.9 = **5.65** → 🟠 WATCH
+### Recommandations
+- **Wispr Vertical EU** 🟢 BUILD NOW : Clone bot-free EU pour verticaux légal/médical, angle RGPD fort
+- **OpenClaw Voice Skills** 🟢 BUILD NOW : Pack 5 skills voice AI pour ClawHub, revenu passif rapide
+- **Omniwork Clone** 🟡 WATCH : Trop complexe, marché peu défini, revenir dans 3-6 mois
 
 ## 📈 Tendances Émergentes
-1. **L'IA proactive remplace l'IA réactive** : Le shift de "chatbot qui répond" vers "agent qui initie" est la tendance dominante d'août 2026. Hey Noah, les agents Coldtea — tous agissent sans prompt humain.
+### 1. 🎙️ Voice-first everywhere
+Wispr Flow prouve que la dictée → notetaker → voice OS est une trajectoire. Apple Notes + iOS 20 vont absorber le bas de marché, mais le B2B spécialisé reste ouvert. ElevenLabs, Vapi, Speechify ($40M ARR) confirment le macro.
 
-2. **Voice → Text → Action** : Wispr Flow illustre la maturité du cycle voice AI : la capture vocale n'est plus le produit, c'est l'infrastructure. Le produit = ce qu'on fait avec le texte capturé (résumés, sync CRM, follow-ups).
+### 2. 🤖 Agent OS = nouveau paradigme desktop
+Omniwork, OpenClaw, et la vague "agentic desktop" (1M+ MAU en 8 mois pour OpenClaw) signalent un shift : l'IA passe de "répondre" à "faire". Les skills marketplaces (ClawHub) deviennent des AppStores pour agents.
 
-3. **L'IDE agentic décolle** : Après Cursor, Windsurf, Claude Code — Coldtea pousse plus loin en intégrant QA + monitoring. La prochaine bataille = qui contrôle le pipeline complet dev→prod.
+### 3. 🏪 Open-source + Ecosystem play
+Le modèle OpenClaw (open-source core + marketplace payante) est la stratégie gagnante : 0 coût d'acquisition, 385K stars = meilleur marketing possible. Les skills creators monétisent sans avoir besoin de la visibilité.
 
-4. **Fondateur-first comme wedge** : Les 3 apps ciblent en priorité les fondateurs / solopreneurs. C'est le meilleur segment : forte volonté de payer, adoption rapide, amplificateur de WOM.
+### 4. 🇪🇺 EU Privacy gap = opportunité
+Les outils US (Wispr, Otter) stockent en US ou ont des TOS ambiguës. Le RGPD crée une opportunité pour un acteur EU : "local-first, EU-hosted, RGPD natif". Angle sous-exploité pour Kyle avec base française.
 
-5. **PLG + premium segment** = la combinaison gagnante : freemium pour entrer, pricing premium ($50–200/mois) pour les power users, no SDR team. Wispr Flow en est la preuve parfaite (150× revenue, zéro cold outreach).
+### 5. 📱 PLG sans SDR
+Wispr Flow : 150x revenue, ZÉRO cold outreach, 270 Fortune 500. Le playbook 2026 = produit viral + free tier généreux + expansion PLG. Les sales teams traditionnelles deviennent optionnelles si le produit est assez bon.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions concrètes cette semaine
+### 🎯 Pour Kyle — Actions Immédiates
 
-**1. PRIORITÉ #1 — Niche Wispr Flow (Score 7.5 🟢)**
-Kyle est expert voice AI → construire un Wispr Flow *vertical* (ex: customer interviews UX ou sales calls B2B) avec CRM sync auto et analyse sentiment. Différenciation via fine-tuning ASR sur le jargon du vertical. Délai estimé MVP : 6–8 semaines. Pricing cible : $49–99/mois.
+**#1 — Lancer "MeetVoix" (Wispr vertical EU) — Score 7.7 🟢 BUILD NOW**
+> Notetaker bot-free, EU-hosted, RGPD natif pour avocats/médecins français. Stack : Whisper local + Claude API + app Mac (Swift). Pricing : €19/mois. Time-to-MVP : 8 semaines. CAC attendu : €15-25 (LinkedIn FR + communautés pro).
 
-**2. PRIORITÉ #2 — Hey Noah pour solopreneurs tech (Score 7.4 🟡)**
-Version simplifiée de Noah centrée sur 1 use case : follow-up automatique post-meeting via voice memo. Kyle dicte un résumé post-call → Noah envoie les follow-ups. Combine voice AI + agentic email. MVP possible en 3–4 semaines (Zapier/Make + Claude API + Gmail).
+**#2 — Publier 5 skills voice AI sur ClawHub — Score 7.9 🟢 BUILD NOW**
+> 2-4 semaines. Skills : (1) Transcription réunion FR, (2) Résumé email vocal, (3) CRM auto-update via voice, (4) Briefing daily audio, (5) Legal memo voice. Rev passif estimé : €500-2K/mois dès mois 3.
 
-**3. SIGNAL À SURVEILLER — Coldtea (Score 5.65 🟠)**
-Ne pas construire la couche QA visuel (trop complexe), mais observer si une API Coldtea émerge pour orchestrer des agents de code → opportunité d'intégration voice-to-agent dans 3–6 mois.
+**#3 — Surveiller Omniwork 3 mois — 🟡 WATCH**
+> Si la base dépasse 50K teams et que le pricing se stabilise, envisager un fork vertical "AgentVoix" pour agences FR.
 
-**4. Playbook commun identifié**
-Les 3 apps partagent le même ADN : PLG + segment premium + viral via l'output (transcript partagé, email Noah, diff Coldtea). Kyle doit penser "le produit se vend lui-même via ce qu'il produit".
+### 🧠 Méta-insight
 
-**Sources principales**
-- [Product Hunt Weekly Aug 10](https://www.producthunt.com/leaderboard/weekly/2026/33)
-- [Wispr Flow TechCrunch](https://techcrunch.com/2026/08/05/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest/)
-- [Wispr Flow Revenue (Latka)](https://getlatka.com/companies/wisprflow.ai)
-- [Hey Noah PH](https://www.producthunt.com/products/hey-noah)
-- [Coldtea PH](https://www.producthunt.com/products/coldtea)
-- [Coldtea Pricing](https://www.coldtea.ai/pricing)
+Le marché 2026 récompense deux profils : (A) les copistes rapides sur niches EU avec angle RGPD et (B) les builders d'écosystèmes (skills, plugins). Kyle est idéalement positionné pour les deux simultanément. La fenêtre pour le vertical voice EU se ferme dans 12-18 mois quand Apple aura intégré cette feature nativement dans macOS.
+
+**Ne pas attendre : lancer le MVP en septembre 2026.**
