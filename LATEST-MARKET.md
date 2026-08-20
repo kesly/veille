@@ -1,181 +1,196 @@
-# 🔥 Market Scan — 2026-08-19
+# 🔥 Market Scan — 2026-08-20
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Wispr Flow Notetaker
-- Opportunités immédiates (BUILD NOW) : 1 (Zetik – intelligence monitoring vertical)
+- Top potentiel : ScrollToll (screen-time gym), Murmell (AI cloud canvas), CoachAI (form tracking)
+- Opportunités immédiates (BUILD NOW) : 1 (ScrollToll-clone pour verticaux spécifiques)
 
-## 🏆 TOP APP #1 : Zetik
+## 🏆 TOP APP #1 : ScrollToll
 ### 1. Identification
-- **URL** : [producthunt.com/products/zetik](https://www.producthunt.com/products/zetik)
-- **Lancement** : août 2026 (PH #1 le 15 août 2026)
-- **Catégorie** : Intelligence monitoring / Personal AI briefing
-- **Buzz** : #1 Product Hunt 15 août 2026 ; fort engagement communautaire
+- **URL** : [getscrolltoll.app](https://getscrolltoll.app) | [Product Hunt](https://www.producthunt.com/products/scrolltoll-2)
+- **Launch** : Août 2026 (≈2 semaines)
+- **Fondateur** : Chandan (solo dev, Inde)
+- **Catégorie** : Productivité / Screen-time management
+- **Métriques buzz** : 4.8★ / 2 000+ reviews iOS+Android, trending PH semaine 33/2026
 
-### 2. Proposition de valeur
-- **Problème** : trop d'info à surveiller (podcasts, Twitter, papers, news, code)
-- **Solution** : agent IA qui lit internet 24/7 et alerte uniquement quand ça bouge
-- **USP** : "Décrivez ce qui compte en 1 phrase, le tracker est live en secondes"
-- **Cible** : pros busy (fondateurs, VC, journalistes, analystes)
-- **Pricing** : freemium probable (pas encore public)
+### 2. Proposition de Valeur
+- **Problème** : Addiction au scroll (Reels, Shorts, TikTok) impossible à briser avec de simples timers
+- **Solution** : Compte chaque vidéo courte regardée → bloque le feed au-delà du quota → pour débloquer, tu dois faire des répétitions physiques (pompes, squats, etc.) validées en temps réel par l'IA caméra
+- **USP** : Le sport comme "mot de passe" — on-device AI pose detection, aucun upload
+- **Cible** : 18-35 ans, utilisateurs conscients de leur addiction, parents pour ados
+- **Pricing** : Freemium + IAP (estimé $4.99-$9.99/mo pour quota illimité)
 
-### 3. Stack technique (estimé)
-- Frontend : React/Next.js
-- Backend : Node/Python + LLM (Claude ou GPT-4o)
-- Infra : ingestion flux RSS/Twitter/podcasts via webhooks + vector DB (Pinecone/Weaviate)
-- APIs : transcription audio, search API, email/Slack notif
+### 3. Stack Technique
+- **Mobile** : Flutter (iOS + Android cross-platform)
+- **AI** : On-device pose estimation (MediaPipe ou ML Kit)
+- **Backend** : Firebase (auth, sync quotas)
+- **Distribution** : App Store + Google Play
 
 ### 4. Psychologie
-- **Triggers** : FOMO (manquer l'info qui compte), gain de temps, statut expert
-- **JTBD** : "Je veux rester à la pointe sans passer 2h/jour à scroller"
-- **Aha moment** : première alerte reçue sur sujet pertinent avant tout le monde
+- **Triggers** : Aversion à la perte (bloquer = punir), social proof (2k reviews), gamification (streaks)
+- **JTBD** : "Aide-moi à reprendre le contrôle sans willpower"
+- **Aha moment** : Premier lockout + premier squat pour débloquer → effet "wow ça marche vraiment"
 
 ### 5. Go-to-Market
-- **Canal principal** : Product Hunt launch → bouche-à-oreille Twitter
-- **Viral loop** : partage de briefings générés → acquisition organique
-- **Stratégie** : niches pro (VC, founders, analystes) → généraliste
+- **Canaux** : Viral organique TikTok/Reddit (ironie de bloquer TikTok avec une app), Product Hunt
+- **Viral loop** : Les gens partagent leurs stats de sport involontaire → mème naturel
+- **Stratégie** : Solo dev, zero paid acquisition, pure bouche-à-oreille
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 – ingestion multi-sources + LLM summarization
-- **Angle** : vertical voice AI → "briefing vocal quotidien personnalisé" (Zetik + voix)
-- **Verticaux adjacents** : monitoring concurrentiel SaaS, veille législative
-- **Temps de dev estimé** : 4-8 semaines MVP
-- **Fit Kyle** : ⭐⭐⭐⭐⭐ (voice AI + curation info = combo parfait)
+### 6. Réplication
+- **Complexité** : 4/10 (Flutter + MediaPipe bien documentés)
+- **Verticaux adjacents** : version pour adultes/travail (bloquer LinkedIn quand trop scrollé), version enfants avec contrôle parental, version B2B pour entreprises
+- **Angle Kyle** : Intégrer voice AI comme coach vocal pendant l'exercice → "Allez, encore 3 squats !"
+- **Temps de dev** : 4-6 semaines MVP
 
-## 🏆 TOP APP #2 : Wispr Flow Notetaker
+## 🏆 TOP APP #2 : Murmell
 ### 1. Identification
-- **URL** : [wisprflow.ai](https://wisprflow.ai) | [TechCrunch](https://techcrunch.com/2026/08/05/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest/)
-- **Lancement feature** : 5 août 2026 (Notetaker) | app dictation existante
-- **Catégorie** : Voice AI / AI Meeting Intelligence
-- **Métriques buzz** : $280M Series B (Menlo Ventures), $2B valuation, 270 Fortune 500 clients (Nvidia, Amazon)
+- **URL** : [murmell.com](https://murmell.com) | [Product Hunt](https://www.producthunt.com/products/murmell)
+- **Launch** : Août 2026 (≈2 semaines)
+- **Fondateurs** : Non publics (basé sur PH listing)
+- **Catégorie** : Developer tools / AI collaboration
+- **Métriques buzz** : Featured PH semaine 33/2026, mention sur Teahose, UIComet
 
-### 2. Proposition de valeur
-- **Problème** : bots intrusifs visibles dans les réunions = friction + privacy
-- **Solution** : notetaker sans bot – capture audio système Mac, transcrit sans rejoindre la call
-- **USP** : enrichit les noms réels avec données agenda, Gmail, Slack (pas juste horodatages)
-- **Cible** : professionnels Mac, équipes enterprise, fondateurs
-- **Pricing** : Free tier + Pro à $15/mois ($12/an), inclus dans plan dictation existant
+### 2. Proposition de Valeur
+- **Problème** : Les coding agents (Claude Code, Codex) tournent en silos — impossible de voir plusieurs agents en même temps ni de collaborer avec eux
+- **Solution** : Canvas cloud partagé dans le browser où agents AI + humains travaillent sur le même repo, cloud machine, en temps réel
+- **USP** : Agents "clament" des fichiers avant d'écrire (pas de conflits), iOS/Android simulators dans le canvas à venir
+- **Cible** : Petites équipes dev + solo founders heavy AI users (Claude Code, Codex, Kimi)
+- **Pricing** : Solo $39/mo · Pro $69/mo · Builder $149/mo + 2 semaines gratuites + $60 crédits Claude Code offerts
 
-### 3. Stack technique
-- Frontend : macOS native app (Swift)
-- Backend : ASR propriétaire + LLM (Claude/GPT) pour résumés
-- Infra : audio capture système, intégrations OAuth (Google, Slack, Exchange)
-- APIs : Calendar API, Gmail API, Slack API pour enrichissement contextuel
+### 3. Stack Technique
+- **Frontend** : Canvas WebGL/Canvas2D custom (browser-first)
+- **Backend** : Cloud machines (probablement GCP/AWS) + WebSockets pour le real-time
+- **Agents supportés** : Claude Code, Codex, Kimi, OpenCode (OpenClaw, Hermes en route)
+- **Git integration** : Tout se sync via git, pas de lock-in
 
 ### 4. Psychologie
-- **Triggers** : privacy (pas de bot gênant), autorité (Fortune 500), preuve sociale
-- **JTBD** : "Je veux mes notes réunion sans déployer de bot visible devant mes clients"
-- **Aha moment** : premier résumé précis avec vrais noms d'interlocuteurs reconnus
+- **Triggers** : FOMO (les autres équipes ont des "super-pouvoirs" AI), autorité (intégration avec les LLMs leaders)
+- **JTBD** : "Aide-moi à superviser plusieurs agents AI sans perdre le contrôle"
+- **Aha moment** : Voir 3 agents travailler en parallèle sur le même repo sans conflits
 
 ### 5. Go-to-Market
-- **Canal principal** : base existante dictation → upsell naturel + TechCrunch coverage
-- **Viral loop** : partage de résumés enrichis → curiosité équipes
-- **Stratégie** : PLG sur dictation → enterprise sales meetings
+- **Canaux** : Product Hunt, Twitter dev community, HN, bouche-à-oreille développeurs
+- **Viral loop** : Partage de screenshots du canvas multi-agents → aspiration sociale
+- **Offre d'entrée** : 2 semaines gratuites + $60 Claude Code crédits = très faible friction
 
-### 6. Réplication pour Kyle
-- **Complexité** : 8/10 – macOS audio capture, NLP enrichissement, intégrations OAuth
-- **Angle** : sous-niche "voice notes réunions" B2B avec intégration CRM (Salesforce/HubSpot)
-- **Verticaux adjacents** : notetaker médical, juridique, recrutement
-- **Temps de dev estimé** : 3-5 mois MVP robuste
-- **Fit Kyle** : ⭐⭐⭐⭐⭐ (cœur de métier voice AI, compétences directement transférables)
+### 6. Réplication
+- **Complexité** : 8/10 (synchronisation multi-agents temps réel = ingénierie complexe)
+- **Verticaux adjacents** : Version pour data scientists (notebooks partagés avec agents), pour designers (Figma-like avec AI agents)
+- **Angle Kyle** : Trop complexe à répliquer, mais partenariat/intégration voice AI possible (agent vocal qui pilote le canvas)
+- **Temps de dev** : 6-12 mois pour MVP robuste
 
-## 🏆 TOP APP #3 : AdAnt AI
+## 🏆 TOP APP #3 : CoachAI
 ### 1. Identification
-- **URL** : [producthunt.com/products/adant-ai](https://www.producthunt.com/products/adant-ai)
-- **Lancement** : 5 août 2026 (PH #1 daily ; #2 mensuel avec 53 988 votes)
-- **Catégorie** : AI Social Media Advertising / Creative Automation
-- **Buzz** : 53 988 votes PH, stratégies ayant généré 50M+ vues organiques
+- **URL** : [coachai.tech](https://coachai.tech) | [Product Hunt](https://www.producthunt.com/products/coachai-fitness-coach)
+- **Launch** : Août 2026 (≈2 semaines)
+- **Fondateurs** : Équipe Dubaï (non publics)
+- **Catégorie** : Health & Fitness / AI Coach
+- **Métriques buzz** : Featured PH août 2026, App Store présent
 
-### 2. Proposition de valeur
-- **Problème** : créer des publicités sociales performantes est lent, coûteux, peu data-driven
-- **Solution** : équipe d'agents IA qui scrape TikTok/IG/YT pour identifier patterns viraux + génère des vidéos publicitaires adaptées
-- **USP** : -60% coût d'acquisition paid en moyenne, basé sur data réelle (pas templates génériques)
-- **Cible** : e-commerce, DTC brands, growth marketers, solo founders
-- **Pricing** : $39/mois flat, 50 crédits offerts, code PH2608 pour 1 mois gratuit
+### 2. Proposition de Valeur
+- **Problème** : Les gens s'entraînent régulièrement mais se blessent ou stagnent faute de feedback sur leur forme
+- **Solution** : Caméra iPhone = coach en temps réel — compte les répétitions, corrige la posture, adapte le programme selon ce que le corps vient de faire
+- **USP** : On-device (rien uploadé), correction en temps réel, adaptation dynamique du prochain set
+- **Cible** : 20-45 ans, pratiquants autonomes (home gym, salle sans coach perso)
+- **Pricing** : Freemium + abonnement (estimé $9.99-$14.99/mo)
 
-### 3. Stack technique (estimé)
-- Frontend : React/Next.js
-- Backend : LLM (Claude) + scraping agents (TikTok/Reels/Shorts API/non-officielle)
-- Infra : vidéo generation (Runway/Kling/HailuoAI), vector DB pour pattern matching
-- APIs : TikTok API, Meta Ads API, YouTube Data API
+### 3. Stack Technique
+- **Mobile** : Swift/iOS natif (performance maximale pour pose detection)
+- **AI** : Vision framework Apple + modèle custom de pose estimation
+- **Backend** : Minimal (on-device first), sync iCloud probable
+- **APIs** : Apple HealthKit (intégration native)
 
 ### 4. Psychologie
-- **Triggers** : preuve sociale (50M+ vues), peur de rater les tendances, ROI clair (-60% CAC)
-- **JTBD** : "Je veux des pubs qui cartonnent sans agence créative à $10K/mois"
-- **Aha moment** : première vidéo générée qui reprend exactement le format viral du moment
+- **Triggers** : Autorité (IA = expertise de coach), progression (stats de reps/form), peur de la blessure
+- **JTBD** : "Entraîne-moi comme un coach perso, sans en payer un"
+- **Aha moment** : Première correction en temps réel ("Ta hanche descend trop à gauche") → sentiment de coaching pro
 
 ### 5. Go-to-Market
-- **Canal principal** : Product Hunt → Twitter/X #marketing #ecommerce
-- **Viral loop** : résultats publiés par users → FOMO → nouveau cycle
-- **Stratégie** : self-serve PLG → plugin Codex/Claude annoncé (distribution via Claude ecosystem)
+- **Canaux** : Product Hunt, communautés fitness Reddit (r/fitness, r/bodyweightfitness), influenceurs fitness TikTok
+- **Viral loop** : Partage de "mon coach AI m'a corrigé mes squats" → démonstration visuelle convaincante
+- **Différenciation** : Pas de connexion internet requise → privacy selling point fort
 
-### 6. Réplication pour Kyle
-- **Complexité** : 7/10 – scraping + vidéo gen + stratégie LLM
-- **Angle** : niche B2B SaaS (publicités pour apps SaaS, pas e-commerce) avec angle voice ad
-- **Verticaux adjacents** : LinkedIn ads B2B, podcast ads AI-generated
-- **Temps de dev estimé** : 6-10 semaines
-- **Fit Kyle** : ⭐⭐⭐ (marketing automation, moins lié à voice AI core)
+### 6. Réplication
+- **Complexité** : 6/10 (iOS natif + pose detection = expertise requise, mais frameworks bien documentés)
+- **Verticaux adjacents** : Yoga (forme + respiration), physiothérapie rééducation, sport scolaire
+- **Angle Kyle** : Version voice-first — coaching 100% vocal pendant l'exercice, les mains libres, yeux sur la forme. Son expertise voice AI est un avantage direct.
+- **Temps de dev** : 3-5 mois MVP iOS
 
-## 💰 Unit Economics Deep Dive — Zetik
-_App analysée : **Zetik** (source principale : Product Hunt, pas de données publiques confirmées)_
+## 💰 Unit Economics Deep Dive — ScrollToll
+### ScrollToll — Estimations (sources : App Store reviews, Product Hunt, patterns micro-SaaS similaires)
 
-> ⚠️ Zetik est très récent (août 2026). Pas de chiffres financiers publics. Estimations ci-dessous basées sur les benchmarks SaaS de ce segment (monitoring IA) et comparables (Feedly Pro, Mention.com, Perplexity Pro).
-
-| Métrique | Estimation | Hypothèses |
+| Métrique | Estimation | Hypothèse |
 |---|---|---|
-| **Users (payants)** | ~3 000–8 000 | PH hype → conversion 2-5% sur 100K visites |
-| **ARPU mensuel** | ~$20–30 | Freemium + Pro tier probable $29/mo |
-| **ARR estimé** | $720K–2.9M | Fourchette basse/haute |
-| **CAC** | ~$15–40 | PLG PH-driven, peu de paid |
-| **LTV** | ~$180–480 | Churn ~12%/an, LTV = ARPU × 1/churn |
-| **LTV/CAC** | ~5–12x | Signe de santé si >3x |
-| **Payback** | 1–2 mois | PLG typique |
-| **Burn mensuel** | ~$50–150K | Équipe estimée 3-6 personnes |
-| **Rev/Employee** | ~$60–300K ARR | Selon taille équipe |
-| **Rule of 40** | ~50–80% | Croissance forte × marges SaaS |
+| Users actifs | ~5 000–10 000 | 2k reviews = ~10-20% reviewers |
+| Payants (conv. 5%) | ~300–500 | Freemium typique |
+| ARPU mensuel | $7/mo | Milieu de gamme IAP |
+| ARR estimé | ~$25K–$42K | 350 users × $7 × 12 |
+| CAC | ~$0 | Acquisition 100% organique |
+| LTV (12 mo, 70% rétention) | ~$84 | $7 × 12 mo |
+| LTV/CAC | ∞ | CAC ≈ $0 |
+| Payback Period | Jour 1 | Pas de paid acquisition |
+| Burn | ~$200/mo | Firebase + App Store fees |
+| Runway | Illimité | Solo dev, revenu > coûts |
+| Rev/Employee | $25-42K/an | Solo fondateur |
+| Rule of 40 | ~90+ | Croissance forte + marges >95% |
 
-**Verdict santé** : 🟡 Trop tôt pour confirmer – signaux early très positifs (PH #1, viral loop, marché large). À surveiller dans 90 jours.
+**⚠️ Limites** : Données estimées, pas de sources officielles disponibles. Les vraies métriques pourraient différer.
+
+**Verdict santé** : 🟢 Excellent pour un solo-dev en phase early. CAC nul = unité économique parfaite. Risque : dépendance à App Store (30% cut) et viralité difficile à soutenir.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Zetik | Wispr Flow Notetaker | AdAnt AI |
+| Dimension (poids) | ScrollToll | Murmell | CoachAI |
 |---|---|---|---|
-| 📊 Market Size (20%) | 7 | 9 | 8 |
-| ⚙️ Complexité inv. (15%) | 6 | 4 | 5 |
-| ⏱️ Time-to-Market (15%) | 6 | 3 | 5 |
-| 🏟️ Compétition inv. (15%) | 7 | 5 | 4 |
-| 💰 Revenue Potential (20%) | 7 | 9 | 6 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 | 9 | 5 |
-| **Score pondéré** | **7.15** | **6.70** | **5.55** |
-| **Verdict** | 🟢 BUILD NOW | 🟡 BUILD ADJACENT | 🟠 WATCH |
+| 📊 Market Size (20%) | 7 — marché global $B | 8 — dev tools $10B+ | 7 — fitness $B |
+| ⚙️ Complexité inversée (15%) | 8 — Flutter+MediaPipe | 3 — temps réel complexe | 5 — iOS natif moyen |
+| ⏱️ Time-to-Market (15%) | 8 — 4-6 semaines | 3 — 6-12 mois | 5 — 3-5 mois |
+| 🏟️ Compétition inversée (15%) | 7 — niche "sport-gate" | 6 — nouveaux entrants | 5 — marché fitness saturé |
+| 💰 Revenue Potential (20%) | 6 — IAP + freemium | 8 — $39-149/mo B2B | 6 — B2C fitness |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 7 — voice AI comme diff. | 4 — pas son cœur | **9** — voice coaching direct |
 
-**Zetik** : marché large (tout professionnel info-hungry), compétition modérée, angle voice AI ("briefing vocal matin") = différenciation forte pour Kyle.
+**Scores pondérés :**
 
-**Wispr Flow Notetaker** : produit excellent mais complexité macOS native + $2B valuation = concurrent difficile à battre frontalement. Approche par niche verticale (CRM sales, médical, légal).
+| App | Score | Verdict |
+|---|---|---|
+| **ScrollToll** | (7×0.20)+(8×0.15)+(8×0.15)+(7×0.15)+(6×0.20)+(7×0.15) = **7.10** | 🟡 BUILD ADJACENT |
+| **Murmell** | (8×0.20)+(3×0.15)+(3×0.15)+(6×0.15)+(8×0.20)+(4×0.15) = **5.75** | 🟠 WATCH |
+| **CoachAI** | (7×0.20)+(5×0.15)+(5×0.15)+(5×0.15)+(6×0.20)+(9×0.15) = **6.35** | 🟡 BUILD ADJACENT |
 
-**AdAnt AI** : créneau intéressant mais éloigné du core voice AI de Kyle, compétition montante (Meta Ads AI, TikTok Creative Center).
+**Recommandation** : ScrollToll + angle voice AI (score potentiel →🟢) ou CoachAI voice-first (expertise directe Kyle)
 
 ## 📈 Tendances Émergentes
-1. **"Bot-free" comme argument marketing** : Wispr Flow Notetaker capitalise sur la fatigue des bots visibles en réunion. L'invisibilité de l'IA devient une USP en soi. Tendance à surveiller pour tout produit voice AI B2B.
+### 1. 🤖 AI On-Device comme standard (pas exception)
+Les apps gagnantes d'août 2026 (ScrollToll, CoachAI) traitent TOUT localement. La privacy devient un argument marketing central, pas une contrainte. MediaPipe, Vision Framework, Core ML = commodités accessibles aux solos.
 
-2. **Intelligence curation personnalisée** : Zetik prouve l'appétit pour les agents qui lisent à votre place. Après les newsletters, après les agrégateurs, les agents actifs dominent. Marché des "personal AI analyst" en plein essor.
+### 2. 💪 "Friction productive" — le retour du comportemental
+ScrollToll inverse le modèle : au lieu de réduire la friction pour l'engagement, elle AJOUTE de la friction (sport obligatoire). Trend contre-courant : apps qui te veulent du bien en te résistant.
 
-3. **Distribution via Claude/Codex écosystèmes** : AdAnt AI annonce des plugins Claude/Codex. La distribution via les écosystèmes Claude de Anthropic est une tendance de fond – moins cher que SEO, plus viral que paid.
+### 3. 🕹️ Multi-agents AI = nouveau paradigme dev
+Murmell préfigure un marché où superviser des agents AI devient un métier à part. Le canvas partagé humain+agent est probablement le futur de tout IDE. Acteurs à surveiller : Claude Code + v0 + Lovable convergent vers ce modèle.
 
-4. **PLG + PH comme seul canal de lancement** : les 3 apps ont misé sur Product Hunt comme canal principal. PH reste le meilleur ratio coût/exposition pour les outils pro en 2026.
+### 4. 📱 Solo dev → produits $1K-$50K MRR en 2026
+L'écart coût/valeur s'est effondré. Un solo dev avec Claude + Flutter livre en 4 semaines ce qui prenait 6 mois en 2023. Micro-SaaS mobile = sweet spot 2026 : App Store discovery, viralité organique, marges >90%.
 
-5. **Voice AI + LLM converge vers des produits "ambient"** : Wispr (dictée continue) + Notetaker (capture passive réunion) = tendance de l'IA ambient qui écoute et agit sans friction active.
+### 5. 🎙️ Voice AI cherche son killer use case consumer
+Le voice AI est mature (ElevenLabs, Cartesia, etc.) mais les apps grand public sont rares. Fitness vocal, coaching mental vocal, language learning voice — les verticaux consumer voice AI sont encore largement libres.
 
-## 💡 Insights Actionnables
-### 🔥 Action #1 — BUILD : "Zetik + Voice" = Morning AI Briefing vocal (4-6 semaines)
-Créer un agent de veille personnalisé qui génère un briefing audio quotidien de 3-5 min via voice AI. Kyle combine son expertise voice (ElevenLabs/Cartesia) + LLM curation. Monétisation : $19-29/mois. Différenciation : format audio natif vs texte pour Zetik.
+## 💡 Insights Actionnables pour Kyle
+### 🎯 Pour Kyle (voice AI + SaaS)
 
-### 🔥 Action #2 — SURVEILLER : Notetaker niche verticale sales B2B
-Wispr domine le général. Mais "notetaker pour équipes sales avec auto-remplissage CRM vocal" reste peu couvert. Kyle peut builder un MVP Salesforce/HubSpot-native en 2-3 mois. Revenus potentiels : $49-99/user/mois enterprise.
+**Insight #1 — CoachAI Voice-First est ton meilleur angle**
+CoachAI fait du coaching VISUEL. Personne ne fait encore de coaching VOCAL pendant l'exercice (mains libres, yeux sur la forme). Ton expertise ElevenLabs/Cartesia + Flutter = avantage compétitif direct. L'app parle pendant que tu fais tes reps. CAC potentiellement nul (même canal viral que CoachAI).
 
-### 🔥 Action #3 — TESTER : Plugin Claude pour AdAnt
-AdAnt annonce des plugins Claude. Kyle peut créer un plugin Claude Code orienté "voice ad script generator" pour TikTok/Reels. Distribution gratuite via marketplace Claude, acquisition organique. Effort : 1-2 semaines.
+**Insight #2 — ScrollToll + Voice AI = différenciation immédiate**
+Clone ScrollToll et ajoute un coach vocal qui parle pendant les exercices de déverrouillage. "Allez, 3 pompes, encore 2, bien !" → personne ne fait ça. Voice AI = la seule différenciation qui compte ici. Time-to-market : 5-7 semaines.
 
-### 📌 Benchmark clé à retenir
-Wispr Flow à $2B de valorisation prouve que le marché voice AI B2B est validé au niveau institutional. C'est le meilleur signal possible pour Kyle – son timing est excellent, le marché est chaud sans être saturé en niches verticales.
+**Insight #3 — Le "sport-gate" est un mécanisme réplicable**
+Le principe de ScrollToll (exercice physique comme accès) s'applique à d'autres verticaux :
+- Email addiction → pompes pour lire les newsletters
+- LinkedIn scroll → squats avant de voir le feed
+- Jeux vidéo → étirements avant de lancer
+Chaque vertical = app séparée, même code base.
 
-**Sources** : [Product Hunt Zetik](https://www.producthunt.com/products/zetik) · [TechCrunch Wispr](https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/) · [TechCrunch Wispr Notetaker](https://techcrunch.com/2026/08/05/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest/) · [Product Hunt AdAnt AI](https://www.producthunt.com/products/adant-ai)
+**Insight #4 — Multi-agent canvas = SaaS B2B en 2027**
+Ne pas construire Murmell. Mais surveiller : dans 6-12 mois, le marché sera établi. Opportunité d'intégrer un "voice agent controller" — parler pour diriger ses agents AI dans un canvas Murmell-like.
+
+**Action immédiate recommandée** : Valider l'angle "voice fitness coach" en 48h. Créer un waitlist + vidéo démo quick (Loom). Cibler r/bodyweightfitness + TikTok fitness. Budget : $0.
