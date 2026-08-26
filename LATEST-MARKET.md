@@ -1,198 +1,191 @@
-# 🔥 Market Scan — 2026-08-25
+# 🔥 Market Scan — 2026-08-26
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Wispr Flow
-- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow vertical niche)
+- Apps analysées : 6 (PH, HN, GitHub Trending, X/Twitter)
+- Top potentiel : 3 sélectionnées (Astute, Wispr Flow Notetaker, AdAnt AI)
+- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow Notetaker)
 
-## 🏆 TOP APP #1 : Wispr Flow
+## 🏆 TOP APP #1 : Wispr Flow Notetaker
 ### 1. Identification
-- **Nom** : Wispr Flow | **URL** : wisprflow.ai
-- **Launch** : 2023 (Series B mai 2026, $280M levée)
-- **Fondateurs** : Tanay Dixit & co (ex-Stanford)
-- **Catégorie** : Voice AI / Dictation / Productivity
-- **Métriques buzz** : $2B valuation, 150x revenue growth YoY, 375K Android waitlist, 200x users en 12 mois
+- **Nom** : Wispr Flow Notetaker
+- **URL** : [wisprflow.ai](https://wisprflow.ai)
+- **Date de lancement** : 5 août 2026
+- **Fondateurs** : Équipe Wispr (ex-produit dictée vocale)
+- **Catégorie** : Voice AI / AI Meeting Notetaker
+- **Métriques buzz** : #2 PH semaine du 10 août (56 274 votes), TechCrunch coverage, 28K recherches US/mois (Ahrefs)
 
 ### 2. Proposition de valeur
-- **Problème** : La frappe clavier est lente — saisir des emails, docs, messages est une friction constante
-- **Solution** : Dictée intelligente qui tourne dans chaque app Mac/iOS, autocorrection style, 100+ langues
-- **USP** : "Parle naturellement, l'app écrit dans ton style" — pas juste de la transcription
-- **Target** : Knowledge workers, avocats, médecins, fondateurs — tout métier avec saisie intensive
-- **Pricing** : Freemium → ~$15-25/mois Pro
+- **Problème** : Les notetakers existants (Otter, Fireflies) rejoignent les calls comme bot visible — intrusif et limité aux plateformes supportées.
+- **Solution** : Capture l'audio système Mac directement, sans bot. Fonctionne sur Zoom, Meet, Teams, Slack, Discord, conversations IRL.
+- **USP** : Invisible + dictionnaire personnel (acronymes, noms produits) hérité de Flow dictation. Transcription + notes structurées (décisions, deadlines, action items).
+- **Target** : Professionnels Mac intensifs en réunions (sales, founders, consultants)
+- **Pricing** : Free (Mac, limite hebdo) / Pro $12/mois (annual) — $15 mensuel
 
 ### 3. Stack technique
-- Frontend : Electron (Mac), Swift (iOS), React Native (Android WIP)
-- Backend : modèles ASR custom + LLM fine-tuné sur le style utilisateur
-- Infra : Cloud AWS + processing on-device partiel
-- APIs : Intégration OS-level (Accessibility API)
+- Frontend : macOS native (capture audio système)
+- Backend : Cloud ASR + LLM pour structuration notes
+- APIs : Modèle LLM propre ou OpenAI pour résumés
+- Infra : AWS/GCP inférence
 
 ### 4. Psychologie
-- **Triggers** : Social proof ("150x revenue"), FOMO (Android waitlist 375K), autorité ($2B valuation)
-- **JTBD** : "Je veux produire 3x plus vite sans douleur aux mains"
-- **Aha moment** : 30 secondes après install — premier email dicté, impeccable
+- **Triggers** : Invisibilité (pas de bot honteux), continuité (même dico que Flow), FOMO (Granola concurrent déjà viral)
+- **JTBD** : "Je veux capturer les réunions sans gêner mes interlocuteurs"
+- **Aha moment** : Première réunion transcrite + résumée sans rien installer côté call
 
-### 5. Go-to-Market
-- Zéro cold outreach — 100% inbound/word-of-mouth + build-in-public
-- Canaux : Twitter/X, LinkedIn, YouTube (démos virales), ProductHunt
-- Viral loop : chaque utilisateur dicte en public → "Qu'est-ce que c'est ?" → effet viral
+### 5. Go-to-market
+- **Canaux** : Product Hunt (#2 semaine), TechCrunch, word-of-mouth utilisateurs Flow existants (base installée)
+- **Viral loop** : Partage de résumés → collègues découvrent l'outil
+- **Stratégie** : Extension naturelle d'une base de 100K+ utilisateurs Flow dictation
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (ASR propriétaire + fine-tuning = barrier)
-- **Angle Kyle** : Vertical niche — Wispr Flow for Voice AI SaaS (dictée spécialisée pour founders tech)
-- **Verticaux adjacents** : Santé (dictée médicale), Juridique, Support client voice-to-ticket
-- **Temps de dev** : 3-6 mois pour un MVP vertical avec Whisper + GPT-4o
+- **Complexité** : 5/10 (audio capture Mac, LLM résumé — pas de bot, pas de WebRTC)
+- **Verticaux adjacents** : Notetaker pour calls clients voice AI, coaching vocal, interviews qualitatives
+- **Angle Kyle** : Construire un notetaker spécialisé voice AI/sales avec analyse sémantique des calls (objections, tonalité, next steps auto-générés)
+- **Temps dev** : 2-3 mois MVP (API Whisper + LLM + macOS audio)
 
-## 🏆 TOP APP #2 : OpenClaw
+## 🏆 TOP APP #2 : Astute
 ### 1. Identification
-- **Nom** : OpenClaw | **URL** : github.com/openclaw (open-source)
-- **Launch** : Jan 29, 2026 (rebrand de Clawd/Moltbot)
-- **Fondateurs** : Creator recruté par OpenAI post-viral
-- **Catégorie** : AI Agent / Personal Assistant / Open Source
-- **Métriques buzz** : 350K+ GitHub stars (> React), 70K forks, 1600+ contributors, 168 startups dans l'écosystème
+- **Nom** : Astute
+- **URL** : [join-astute.com](https://www.producthunt.com/products/astute-2)
+- **Date de lancement** : 17 août 2026
+- **Fondateurs** : Vida Stanić & Abhishek Manikandan (ex-Fluidstack growth lead)
+- **Catégorie** : B2B Marketing / Creator Partnerships / AI Agents
+- **Métriques buzz** : #1 PH août 2026 (519 161 votes!), $1.2M pre-seed levé, coverage Tech.eu, TechFundingNews
 
 ### 2. Proposition de valeur
-- **Problème** : Les AI assistants sont silotés, pas intégrés aux apps du quotidien
-- **Solution** : Agent IA local qui tourne sur ta machine et opère via WhatsApp, Telegram, Slack, Discord, 50+ intégrations
-- **USP** : 100% local, privacy-first, extensible via marketplace de skills (ClawHub)
-- **Target** : Développeurs, power users, indie hackers, entreprises privacy-conscious
-- **Pricing** : Gratuit (open source) + marketplace skills (90/10 split créateur)
+- **Problème** : Les B2B brands peinent à trouver les bons créateurs (newsletters, podcasts, réseaux) et à mesurer l'impact réel des partenariats.
+- **Solution** : Plateforme new media B2B — identifie les créateurs, gère les partenariats et mesure l'impact (impressions, conversions, visibilité AI search).
+- **USP** : Monitoring de 1M+ posts créateurs/minute + automation complète du workflow partenariat via agents AI.
+- **Target** : Marketing managers B2B, growth leads, CMOs de SaaS
+- **Pricing** : Non public (pre-seed, probablement SaaS B2B entreprise)
 
 ### 3. Stack technique
-- Frontend : Electron + Web UI
-- Backend : Node.js, Python bindings
-- Infra : 100% local / self-hosted option
-- APIs : 50+ intégrations natives (Slack, WhatsApp, Telegram, Discord, etc.)
+- Frontend : Web app SaaS
+- Backend : Agents AI pour monitoring + matching créateurs
+- APIs : LLMs pour analyse de contenu, CRM intégrations
+- Réseau : 16 000+ créateurs (newsletters principalement)
 
 ### 4. Psychologie
-- **Triggers** : Social proof massif (350K stars), communauté passion, ownership (local = tes données)
-- **JTBD** : "Je veux un assistant IA qui s'intègre à mes outils sans cloud"
-- **Aha moment** : Premier workflow automatisé via WhatsApp en 5 min
+- **Triggers** : Autorité (ex-Fluidstack, investisseurs tier-1), social proof (519K votes PH record), timing (B2B creator economy en explosion)
+- **JTBD** : "Je veux que mes prospects voient ma marque partout où ils consomment du contenu"
+- **Aha moment** : Premier partenariat créateur lancé en < 1h sans négociation manuelle
 
-### 5. Go-to-Market
-- GitHub viral → HN front page → Twitter amplification → 9K→210K stars en quelques jours
-- Écosystème marketplace comme Shopify (vendors = growth engine)
-- Contributeurs = ambassadeurs naturels
+### 5. Go-to-market
+- **Canaux** : Product Hunt (record de votes), VC-backed PR, LinkedIn B2B marketing community
+- **Viral loop** : Les créateurs partenaires mentionnent Astute → visibilité auprès d'autres brands
+- **Stratégie** : Launch coordonné funding + Product Hunt + PR = triple effet amplificateur
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (écosystème + marketplace = long à construire)
-- **Angle Kyle** : Créer des "OpenClaw Skills" voice AI → plugin payant sur ClawHub
-- **Verticaux adjacents** : Skills verticaux pour secteurs métier (support, vente, RH)
-- **Temps de dev** : 1-2 semaines pour un skill ClawHub MVP
+- **Complexité** : 7/10 (réseau créateurs + AI matching + analytics multi-canal)
+- **Verticaux adjacents** : Voice AI influencers (podcasters, YouTubers tech), niche SaaS verticals
+- **Angle Kyle** : Version spécialisée pour SaaS voice AI — identifier podcasters et newsletters tech qui influencent les buyers ICP
+- **Temps dev** : 4-6 mois (base de données créateurs + matching + CRM léger)
 
 ## 🏆 TOP APP #3 : AdAnt AI
 ### 1. Identification
-- **Nom** : AdAnt AI | **URL** : producthunt.com/products/adant-ai
-- **Launch** : Début août 2026 (PH #1 le 5 août 2026)
-- **Fondateurs** : NC (stealth)
-- **Catégorie** : AI Marketing / Social Ads / Creative AI
-- **Métriques buzz** : #1 Product Hunt 5 août, 87 upvotes, 568 commentaires (très fort pour un lancement)
+- **Nom** : AdAnt AI
+- **URL** : [completeaitraining.com/ai-tools/adant-ai](https://completeaitraining.com/ai-tools/adant-ai/)
+- **Date de lancement** : 5 août 2026
+- **Fondateurs** : Non public
+- **Catégorie** : AI Creative / Social Ads Generation
+- **Métriques buzz** : #1 PH 5 août (87 votes, 568 comments), #2 PH août global (53 988 votes)
 
 ### 2. Proposition de valeur
-- **Problème** : Créer des social ads qui convertissent = coûteux, lent, expertise rare
-- **Solution** : Agents IA spécialisés Strategy + Création + Itération de publicités TikTok/Instagram/YouTube
-- **USP** : Basé sur 50M+ vues organiques analysées, réduit CAC de 60% en moyenne
-- **Target** : Performance marketers, DTC brands, agences growth, e-commerce
-- **Pricing** : SaaS (estimation $100-500/mois selon volume créatifs)
+- **Problème** : Créer des variantes d'ads vidéo/image en volume pour tester est chronophage et coûteux (motion designers, copywriters).
+- **Solution** : "Claude pour les social ads" — génération de vidéos ads courtes en volume, optimisées pour la conversion, sur Meta/TikTok/YouTube.
+- **USP** : Focus sur le volume + l'itération rapide (A/B testing ads at scale), pas juste la qualité d'un seul créatif.
+- **Target** : Performance marketers, growth hackers, agences paid social
+- **Pricing** : Free (50 crédits) / Pro $39/mois
 
 ### 3. Stack technique
-- Frontend : React web app
-- Backend : Pipeline multi-agents (Claude 3.5/4 + vision models)
-- Infra : Cloud, API-based
-- APIs : TikTok Creative API, Meta Ads API, YouTube Data API
+- Frontend : Web app
+- Backend : Modèles génératifs vidéo (probablement Runway/Sora API ou modèle propre)
+- APIs : LLM pour copywriting ads, video generation API
+- Infra : GPU cloud pour génération vidéo
 
 ### 4. Psychologie
-- **Triggers** : Social proof data ("50M vues", "60% CAC reduction"), résultat concret immédiat
-- **JTBD** : "Je veux des ads qui convertissent sans agence à $10K/mois"
-- **Aha moment** : Premier brief → variation d'ad en 5 min avec hook validé
+- **Triggers** : "Claude pour les ads" (analogie autorité), free trial 50 crédits (frein d'entrée zéro), urgence (promo PH)
+- **JTBD** : "Je veux tester 20 variantes d'ads en 1 heure au lieu de 2 semaines"
+- **Aha moment** : Première batch de 10 ads vidéo générées en < 5 minutes
 
-### 5. Go-to-Market
-- Launch PH agressif + démo vidéo virale
-- Angle "résultats prouvés" (data-driven) pour crédibilité B2B
-- Communauté marketers Twitter/LinkedIn
+### 5. Go-to-market
+- **Canaux** : Product Hunt, Twitter/X performance marketing community, agences digitales
+- **Viral loop** : Les ads générées portent watermark → brand awareness organique
+- **Stratégie** : Launch PH + offre freemium agressive
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 5/10 (pipeline multi-agents = faisable solo en 4-8 semaines)
-- **Angle Kyle** : Voice AI Ads — AdAnt mais avec generation de scripts voix + voiceover IA
-- **Verticaux adjacents** : Podcasts ads, audio marketing, radio spots IA
-- **Temps de dev** : 4-6 semaines MVP avec Claude API + ElevenLabs
+- **Complexité** : 6/10 (génération vidéo API + optimisation copy ads + interface batch)
+- **Verticaux adjacents** : Ads pour SaaS voice AI, contenu commercial pour agents vocaux
+- **Angle Kyle** : Version spécialisée ads audio/vidéo pour produits voice AI — démo produit automatisée en format court
+- **Temps dev** : 3-4 mois (APIs vidéo disponibles, focus sur UX batch + analytics)
 
-## 💰 Unit Economics Deep Dive — Wispr Flow
-### Wispr Flow — Estimations (sources : Latka, Medium, Tracxn, Postbeam)
+## 💰 Unit Economics Deep Dive — Wispr Flow Notetaker
+### Wispr Flow (produit entier — Notetaker est une extension)
 
-| Métrique | Estimation | Confiance |
+| Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **ARR** | ~$50-80M | 🟡 (150x growth sur base ~$10M 2025) |
-| **Users payants** | ~200-400K | 🟡 |
-| **ARPU** | ~$200-400/an | 🟡 |
-| **CAC** | ~$0-5 (viral/inbound) | 🟢 |
-| **LTV** | ~$600-1200 (3 ans rétention) | 🟡 |
-| **LTV/CAC** | **>100x** | 🟢 EXCEPTIONNEL |
-| **Payback period** | < 1 mois | 🟢 |
-| **Valuation** | $2B (mai 2026) | 🟢 confirmé |
-| **Funding** | $280M Series B 2026 | 🟢 confirmé |
-| **Employees** | ~60-94 | 🟢 |
-| **Rev/Employee** | ~$850K-1.3M | 🟢 world-class |
-| **Rule of 40** | >100 (growth 150%+ + margins SaaS) | 🟢 |
+| **ARR** | ~$3-6M | 28K recherches/mois US → ~50-100K users actifs |
+| **ARPU** | $60-90/an | Mix free/pro, majorité pro à $12/mois |
+| **Users payants** | ~40-70K | Taux conversion freemium ~5-10% |
+| **CAC** | ~$15-25 | Word-of-mouth fort, PH launches low-cost |
+| **LTV** | $180-270 | Rétention ~18-24 mois (outil quotidien) |
+| **LTV/CAC** | 9-12x | 🟢 Excellent |
+| **Payback period** | 2-3 mois | |
+| **Burn estimé** | Inconnu (bootstrapped probable) | Pas de funding public connu |
+| **Rev/Employee** | $300-500K | Équipe estimée 10-20 personnes |
+| **Rule of 40** | ~60-80 | Croissance forte + marges SaaS élevées |
 
-### Verdict santé financière : 🟢 EXCEPTIONNEL
-Croissance explosive, CAC quasi nul (tout inbound), LTV/CAC > 100x — un des meilleurs profiles SaaS consumer du marché. La levée $280M va accélérer Android + expansion internationale. Risque : valorisation $2B à défendre si croissance ralentit.
+**Verdict santé** : 🟢 **EXCELLENT** — Outil du quotidien avec rétention élevée, CAC très bas (distribution organique via dictation), LTV/CAC > 10x. Le Notetaker étend le ARPU sans acquisition supplémentaire.
 
-**Sources** : [Latka](https://getlatka.com/companies/wisprflow.ai) | [Postbeam](https://www.postbeam.ai/blog/how-wisprflow-grows) | [Medium $280M](https://medium.com/@ryanshrott/wispr-flow-raises-280m-in-2026-what-users-should-watch-99d900e5afb1) | [Shashi $2B](https://www.shashi.co/2026/08/wispr-flow-triples-to-2-billion-as.html)
+⚠️ *Note* : Wispr Flow ne publie pas ses métriques. Estimations basées sur volume recherche Ahrefs (28K US/mois), pricing public, et benchmarks SaaS similaires (Otter.ai, Grain, Fireflies).
+
+**Sources** : [tldv.io/blog/wisprflow](https://tldv.io/blog/wisprflow/) · [craftnote.com/blog/wispr-flow-notetaker-review-2026](https://craftnote.com/blog/wispr-flow-notetaker-review-2026) · [alternativeto.net](https://alternativeto.net/news/2026/8/wispr-flow-launches-a-new-ai-notetaker-meeting-assistant-for-transcription-and-summaries/)
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Wispr Flow | OpenClaw | AdAnt AI |
-|---|---|---|---|
-| 📊 Market Size (20%) | 9 — TAM global dictation $50B+ | 8 — AI agents masse | 7 — Social ads $150B |
-| ⚙️ Complexité inversée (15%) | 3 — ASR propriétaire dur | 4 — Écosystème long | 7 — Pipeline agents faisable |
-| ⏱️ Time-to-Market (15%) | 4 — 3-6 mois vertical | 8 — Skill en 2 sem | 7 — 4-6 sem MVP |
-| 🏟️ Compétition inversée (15%) | 5 — Dragon (Nuance) + Wispr | 7 — Niche verticale libre | 6 — Marché ads chargé |
-| 💰 Revenue Potential (20%) | 9 — $100K+ MRR si vertical | 6 — Skill = revenus limités | 8 — B2B SaaS forte ARPU |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI + SaaS | 6 — Dev + écosystème | 7 — Voice ads = angle unique |
+| Dimension | Poids | Wispr Notetaker | Astute | AdAnt AI |
+|---|---|---|---|---|
+| 📊 Market Size | 20% | 8 (marché notetaker $2B+) | 7 (B2B creator $500M+) | 7 (paid social $10B+) |
+| ⚙️ Complexity inversé | 15% | 7 (Mac audio API + LLM) | 4 (réseau créateurs + AI) | 5 (vidéo gen API) |
+| ⏱️ Time-to-Market | 15% | 7 (2-3 mois MVP) | 4 (4-6 mois) | 6 (3-4 mois) |
+| 🏟️ Competition inversé | 15% | 6 (Granola, Otter, Fireflies) | 7 (peu de plateformes B2B new media) | 5 (Creatify, AdCreative, Runway) |
+| 💰 Revenue Potential | 20% | 8 ($12/mo, rétention élevée) | 7 (deals B2B enterprise) | 6 ($39/mo, volume requis) |
+| 🧑‍💻 Founder-Fit Kyle | 15% | **9** (voice AI expert = différenciateur clé) | 5 (marketing, pas son cœur) | 5 (paid social, pas son terrain) |
 
-**Score Wispr Flow** = 9×0.2 + 3×0.15 + 4×0.15 + 5×0.15 + 9×0.2 + 10×0.15 = **1.8+0.45+0.6+0.75+1.8+1.5 = 6.9** → 🟡 BUILD ADJACENT
-
-**Score OpenClaw** = 8×0.2 + 4×0.15 + 8×0.15 + 7×0.15 + 6×0.2 + 6×0.15 = **1.6+0.6+1.2+1.05+1.2+0.9 = 6.55** → 🟡 BUILD ADJACENT
-
-**Score AdAnt AI** = 7×0.2 + 7×0.15 + 7×0.15 + 6×0.15 + 8×0.2 + 7×0.15 = **1.4+1.05+1.05+0.9+1.6+1.05 = 7.05** → 🟡 BUILD ADJACENT
-
-> **Note Kyle** : Un vertical "Voice AI Ads" combinant AdAnt + Wispr approach atteindrait 🟢 BUILD NOW (8+/10). Le founder-fit + marché underserved = opportunité réelle.
+**Score pondéré** :
+- **Wispr Notetaker** : (8×0.20)+(7×0.15)+(7×0.15)+(6×0.15)+(8×0.20)+(9×0.15) = **7.60** 🟢 BUILD NOW
+- **Astute** : (7×0.20)+(4×0.15)+(4×0.15)+(7×0.15)+(7×0.20)+(5×0.15) = **5.75** 🟠 WATCH
+- **AdAnt AI** : (7×0.20)+(5×0.15)+(6×0.15)+(5×0.15)+(6×0.20)+(5×0.15) = **5.80** 🟠 WATCH
 
 ## 📈 Tendances Émergentes
-1. **Voice-first computing** 🔊 : Wispr Flow prouve que la dictée intelligente dépasse le simple "speech-to-text" — l'interface vocale devient une couche OS. Cursor pour la voix.
+1. **Voice AI sort de la dictée pour entrer dans les workflows** : Wispr Flow étend sa portée du clavier à la salle de réunion. La prochaine vague = voice AI qui capture ET analyse le contexte conversationnel (pas juste transcrire).
 
-2. **Local AI / Privacy-first** 🔒 : OpenClaw (350K stars) + Bumblebee confirment que le marché veut des agents qui tournent sans cloud. La privacy n'est plus une feature, c'est un positionnement.
+2. **Invisibilité comme feature premium** : Les bots visibles dans les calls deviennent un anti-pattern. "No bot" est la proposition de valeur principale de Wispr Notetaker ET Granola. Attente : migration massive des outils qui insèrent un bot.
 
-3. **AI Creative Agents** 🎨 : AdAnt AI + une douzaine d'apps similaires — la génération de créatifs publicitaires passe en mode agent autonome (strategy → création → itération en loop). Fin de l'agence créa traditionnelle.
+3. **B2B creator economy explose** : Astute révèle que les B2B brands cherchent à rejoindre les newsletters et podcasts, pas seulement les influenceurs social. Marché sous-exploité avec des plateformes dédiées quasi inexistantes.
 
-4. **Indie hackers build faster than ever** ⚡ : Claude + Cursor + Supabase réduisent le time-to-MVP de 3 mois à 2 semaines. La barrière à l'entrée s'effondre, ce qui déplace le moat vers la distribution.
+4. **GitHub Trending : agents coding & LLM skills** : La communauté dev investit massivement dans les skills/instructions pour agents IA (Claude Code, Cursor). Les repos de "behavioral skills" explosent — signal fort d'une économie de prompts/skills.
 
-5. **Ecosystem > Product** 🌐 : OpenClaw marketplace (ClawHub) = Shopify App Store model appliqué aux agents IA. Le produit seed l'écosystème, l'écosystème seed la croissance.
-
-6. **Waitlist as social proof** 📣 : Wispr Flow (375K Android waitlist) transforme l'absence de produit en signal de désirabilité. La pénurie fabriquée reste la meilleure arme marketing en 2026.
+5. **Génération vidéo ads en volume** : AdAnt, Creatify et leurs pairs signalent que la créa paid social est en train de se commoditiser. Les performance marketers veulent du volume + tests, pas du premium one-shot.
 
 ## 💡 Insights Actionnables
-### Pour Kyle — Actions cette semaine
+### 🎯 Pour Kyle — Actions prioritaires
 
-**🎯 Opportunité #1 (HIGH PRIORITY) — Voice AI Vertical Niche**
-Wispr Flow prouve le marché ($2B) mais ne fait pas de vertical B2B. Kyle peut lancer "Wispr for [Sector]" — ex. dictée pour founders (résumé meeting → action items → email draft, tout en voix). Stack : Whisper API + GPT-4o + Claude + interface minimaliste. Moat = fine-tuning sur jargon métier.
-→ **Action** : Valider 20 early adopters cette semaine avant de coder
+**1. BUILD NOW : Notetaker voice AI spécialisé [Score 7.60 🟢]**
+Wispr Notetaker prouve le marché. Ton angle différenciant : un notetaker qui analyse la qualité vocale des calls (tonalité, hésitations, engagement), pas juste la transcription. Cible : commerciaux SaaS qui veulent coacher leur équipe voice. Stack : Whisper/Deepgram + LLM + macOS audio API. MVP en 2-3 mois, $15-20/mois/user.
 
-**🎯 Opportunité #2 (QUICK WIN) — OpenClaw Skill Voice AI**
-Créer un skill OpenClaw "Voice Assistant" pour ClawHub (1-2 semaines, 90% revenue). Accès direct à une communauté 350K+ devs sans marketing. Validation marché en 2 semaines.
-→ **Action** : Ouvrir ClawHub, lire la doc skills, shipper un MVP d'ici vendredi
+**2. WATCH : Astute vertical SaaS voice AI [Score 5.75 🟠]**
+Si tu veux de la distribution, construire un réseau de 50 podcasters et newsletteurs qui parlent de voice AI/SaaS à tes prospects est plus simple qu'Astute entier. Pas de plateforme à créer, juste une opération growth.
 
-**🎯 Opportunité #3 (MEDIUM TERM) — Audio/Voice Ads Agent**
-Angle inexploité : AdAnt AI fait le visuel, personne ne fait l'audio. Un agent qui génère scripts + voiceover IA + mixing pour podcasts/YouTube/radio. Kyle a l'edge (voice AI expertise).
-→ **Action** : Identifier 5 agences qui achètent déjà des audio ads, pitcher l'idée
+**3. Signal faible : Skills/agents economy**
+Les repos GitHub trending montrent une demande pour des "skills packs" d'agents IA. Opportunité : vendre des packs d'instructions/prompts optimisés pour voice AI workflows — coût dev quasi nul, distribution GitHub/marketplace.
 
-### Signaux à surveiller
-- Wispr Flow Android launch (date NC) → pic viral massif prévu
-- OpenClaw ClawHub skills top vendeurs — voir quels verticaux manquent
-- AdAnt AI pricing public — valider si tier agency ouvre un gap
+### ⚡ Quick wins
+- Tester Wispr Flow Notetaker sur tes propres calls (feedback direct = insight produit)
+- Lire le launch Astute sur PH pour décoder leur messaging B2B creator
+- Monitorer Granola (concurrent direct Wispr) — s'ils lèvent, le marché notetaker premium est confirmé
 
-### Sources clés de la semaine
-- [Product Hunt Weekly Aug 10](https://www.producthunt.com/leaderboard/weekly/2026/33)
-- [Wispr Flow $2B valuation](https://www.shashi.co/2026/08/wispr-flow-triples-to-2-billion-as.html)
-- [OpenClaw stats 2026](https://www.getpanto.ai/blog/openclaw-ai-platform-statistics)
-- [AdAnt AI PH](https://www.producthunt.com/products/adant-ai)
-- [Postbeam Wispr growth](https://www.postbeam.ai/blog/how-wisprflow-grows)
+### 📌 Sources principales
+- [Product Hunt Leaderboard Août 2026](https://www.producthunt.com/leaderboard/weekly/2026/33)
+- [Astute raise — Tech.eu](https://tech.eu/2026/08/17/astute-raises-12m-and-launches-b2b-new-media-platform/)
+- [Wispr Flow Notetaker — TechCrunch](https://techcrunch.com/2026/08/05/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest/)
+- [AdAnt AI — CompleteAITraining](https://completeaitraining.com/ai-tools/adant-ai/)
