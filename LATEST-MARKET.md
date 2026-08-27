@@ -1,191 +1,181 @@
-# 🔥 Market Scan — 2026-08-26
+# 🔥 Market Scan — 2026-08-27
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 6 (PH, HN, GitHub Trending, X/Twitter)
-- Top potentiel : 3 sélectionnées (Astute, Wispr Flow Notetaker, AdAnt AI)
-- Opportunités immédiates (BUILD NOW) : 1 (Wispr Flow Notetaker)
+- Apps analysées : 8
+- Top potentiel : 3
+- Opportunités immédiates (BUILD NOW) : 1 (Dograh)
 
-## 🏆 TOP APP #1 : Wispr Flow Notetaker
+## 🏆 TOP APP #1 : Dograh
 ### 1. Identification
-- **Nom** : Wispr Flow Notetaker
-- **URL** : [wisprflow.ai](https://wisprflow.ai)
-- **Date de lancement** : 5 août 2026
-- **Fondateurs** : Équipe Wispr (ex-produit dictée vocale)
-- **Catégorie** : Voice AI / AI Meeting Notetaker
-- **Métriques buzz** : #2 PH semaine du 10 août (56 274 votes), TechCrunch coverage, 28K recherches US/mois (Ahrefs)
+- **Nom** : Dograh | **URL** : [dograh.com](https://dograh.com) | **GitHub** : [dograh-hq/dograh](https://github.com/dograh-hq/dograh)
+- **Date lancement** : Août 2026 | **Catégorie** : Voice AI / Dev Tools
+- **Fondateurs** : Alumni YC + exit founders
+- **Métriques buzz** : #1 PH Produit du Jour (542K votes), 5.5K ⭐ GitHub, 1.3K forks, 10x croissance en 14j
 
-### 2. Proposition de valeur
-- **Problème** : Les notetakers existants (Otter, Fireflies) rejoignent les calls comme bot visible — intrusif et limité aux plateformes supportées.
-- **Solution** : Capture l'audio système Mac directement, sans bot. Fonctionne sur Zoom, Meet, Teams, Slack, Discord, conversations IRL.
-- **USP** : Invisible + dictionnaire personnel (acronymes, noms produits) hérité de Flow dictation. Transcription + notes structurées (décisions, deadlines, action items).
-- **Target** : Professionnels Mac intensifs en réunions (sales, founders, consultants)
-- **Pricing** : Free (Mac, limite hebdo) / Pro $12/mois (annual) — $15 mensuel
+### 2. Proposition de Valeur
+- **Problème** : VAPI et Retell coûtent cher et enferment dans leur stack propriétaire
+- **Solution** : Plateforme open-source self-hostable pour créer des voice agents (STT/LLM/TTS BYO)
+- **USP** : Tout open-source, rien de gated, déploiement en 1 commande Docker
+- **Target** : Développeurs et agences voice AI, startups SaaS
+- **Pricing** : Free self-host | Cloud $0.01/min plateforme + ~$0.07/min modèles | Enterprise $2,500/mo
 
-### 3. Stack technique
-- Frontend : macOS native (capture audio système)
-- Backend : Cloud ASR + LLM pour structuration notes
-- APIs : Modèle LLM propre ou OpenAI pour résumés
-- Infra : AWS/GCP inférence
+### 3. Stack Technique
+- **Backend** : Python + Pipecat framework
+- **Frontend** : Node.js / TypeScript
+- **Infra** : Docker, MinIO/S3, MCP natif
+- **Téléphonie** : Twilio, Vonage, Telnyx, Plivo, Asterisk ARI
+- **Licence** : BSD 2-Clause
 
 ### 4. Psychologie
-- **Triggers** : Invisibilité (pas de bot honteux), continuité (même dico que Flow), FOMO (Granola concurrent déjà viral)
-- **JTBD** : "Je veux capturer les réunions sans gêner mes interlocuteurs"
-- **Aha moment** : Première réunion transcrite + résumée sans rien installer côté call
+- **Triggers** : FOMO (VAPI bills explosent), autorité (YC), social proof (5.5K stars)
+- **JTBD** : "Je veux des voice agents fiables sans dépendre d'un vendor coûteux"
+- **Aha moment** : Premier agent fonctionnel en < 10 min via workflow builder visuel
 
-### 5. Go-to-market
-- **Canaux** : Product Hunt (#2 semaine), TechCrunch, word-of-mouth utilisateurs Flow existants (base installée)
-- **Viral loop** : Partage de résumés → collègues découvrent l'outil
-- **Stratégie** : Extension naturelle d'une base de 100K+ utilisateurs Flow dictation
+### 5. Go-to-Market
+- **Canaux** : GitHub organic, Product Hunt, communauté dev Twitter/X, HN
+- **Stratégie** : Open-source viral → self-hosters → convertion managed cloud/enterprise
+- **Viral loops** : Chaque fork = nouveau potentiel ambassadeur ; Slack community actif
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 5/10 (audio capture Mac, LLM résumé — pas de bot, pas de WebRTC)
-- **Verticaux adjacents** : Notetaker pour calls clients voice AI, coaching vocal, interviews qualitatives
-- **Angle Kyle** : Construire un notetaker spécialisé voice AI/sales avec analyse sémantique des calls (objections, tonalité, next steps auto-générés)
-- **Temps dev** : 2-3 mois MVP (API Whisper + LLM + macOS audio)
+- **Complexité** : 4/10 (stack connue, Pipecat open-source)
+- **Verticaux** : Santé, immobilier, e-commerce, finance
+- **Angle Kyle** : Fork/contribuer → build une offre "Dograh managed" FR/EU + consulting
+- **Temps de dev** : 2-4 semaines MVP vertical spécialisé
 
-## 🏆 TOP APP #2 : Astute
+## 🏆 TOP APP #2 : Hey Noah
 ### 1. Identification
-- **Nom** : Astute
-- **URL** : [join-astute.com](https://www.producthunt.com/products/astute-2)
-- **Date de lancement** : 17 août 2026
-- **Fondateurs** : Vida Stanić & Abhishek Manikandan (ex-Fluidstack growth lead)
-- **Catégorie** : B2B Marketing / Creator Partnerships / AI Agents
-- **Métriques buzz** : #1 PH août 2026 (519 161 votes!), $1.2M pre-seed levé, coverage Tech.eu, TechFundingNews
+- **Nom** : Hey Noah | **URL** : [needaitool.com/hey-noah](https://www.needaitool.com/tools/hey-noah)
+- **Date lancement** : Janvier 2026 (PH août 2026) | **Catégorie** : AI Executive Assistant
+- **Métriques buzz** : #1 PH Produit de la Semaine (57K votes), communauté active X (@HeyNoahAI)
 
-### 2. Proposition de valeur
-- **Problème** : Les B2B brands peinent à trouver les bons créateurs (newsletters, podcasts, réseaux) et à mesurer l'impact réel des partenariats.
-- **Solution** : Plateforme new media B2B — identifie les créateurs, gère les partenariats et mesure l'impact (impressions, conversions, visibilité AI search).
-- **USP** : Monitoring de 1M+ posts créateurs/minute + automation complète du workflow partenariat via agents AI.
-- **Target** : Marketing managers B2B, growth leads, CMOs de SaaS
-- **Pricing** : Non public (pre-seed, probablement SaaS B2B entreprise)
+### 2. Proposition de Valeur
+- **Problème** : Les fondateurs perdent des heures à gérer leur agenda, emails et follow-ups
+- **Solution** : Assistant IA autonome via SMS/WhatsApp/Voice qui planifie, confirme, brief
+- **USP** : L'IA appelle elle-même pour confirmer les RDV ; brief pré-réunion auto
+- **Target** : Fondateurs et exécutifs B2B (segment premium)
+- **Pricing** : $49/mois — scheduling illimité, SMS/WhatsApp, briefing notes
 
-### 3. Stack technique
-- Frontend : Web app SaaS
-- Backend : Agents AI pour monitoring + matching créateurs
-- APIs : LLMs pour analyse de contenu, CRM intégrations
-- Réseau : 16 000+ créateurs (newsletters principalement)
+### 3. Stack Technique
+- **Interface** : SMS natif + WhatsApp + appels vocaux sortants
+- **Backend** : LLM + orchestration d'agents (non divulgué)
+- **Intégrations** : Google Calendar, Outlook, email
 
 ### 4. Psychologie
-- **Triggers** : Autorité (ex-Fluidstack, investisseurs tier-1), social proof (519K votes PH record), timing (B2B creator economy en explosion)
-- **JTBD** : "Je veux que mes prospects voient ma marque partout où ils consomment du contenu"
-- **Aha moment** : Premier partenariat créateur lancé en < 1h sans négociation manuelle
+- **Triggers** : Exclusivité (pour fondateurs seulement), autorité, gain de temps concret
+- **JTBD** : "Je veux un EA IA qui gère ma vie sans que je pense à lui"
+- **Aha moment** : Premier RDV confirmé automatiquement par Noah (sans action humaine)
 
-### 5. Go-to-market
-- **Canaux** : Product Hunt (record de votes), VC-backed PR, LinkedIn B2B marketing community
-- **Viral loop** : Les créateurs partenaires mentionnent Astute → visibilité auprès d'autres brands
-- **Stratégie** : Launch coordonné funding + Product Hunt + PR = triple effet amplificateur
+### 5. Go-to-Market
+- **Canaux** : Product Hunt, bouche-à-oreille fondateurs, X/Twitter
+- **Stratégie** : Lancement communautaire → word-of-mouth founders → viral par usage
+- **Viral loops** : Chaque email envoyé par Noah = mention implicite du produit
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (réseau créateurs + AI matching + analytics multi-canal)
-- **Verticaux adjacents** : Voice AI influencers (podcasters, YouTubers tech), niche SaaS verticals
-- **Angle Kyle** : Version spécialisée pour SaaS voice AI — identifier podcasters et newsletters tech qui influencent les buyers ICP
-- **Temps dev** : 4-6 mois (base de données créateurs + matching + CRM léger)
+- **Complexité** : 6/10 (orchestration multi-canal complexe)
+- **Verticaux** : Cabinets médicaux, agences immobilières, consultants indépendants
+- **Angle Kyle** : Version voice-first pour PME françaises (moins cher, local)
+- **Temps de dev** : 6-10 semaines MVP
 
-## 🏆 TOP APP #3 : AdAnt AI
+## 🏆 TOP APP #3 : Wispr Flow Notetaker
 ### 1. Identification
-- **Nom** : AdAnt AI
-- **URL** : [completeaitraining.com/ai-tools/adant-ai](https://completeaitraining.com/ai-tools/adant-ai/)
-- **Date de lancement** : 5 août 2026
-- **Fondateurs** : Non public
-- **Catégorie** : AI Creative / Social Ads Generation
-- **Métriques buzz** : #1 PH 5 août (87 votes, 568 comments), #2 PH août global (53 988 votes)
+- **Nom** : Wispr Flow Notetaker | **URL** : [wispr.flow](https://wispr.flow)
+- **Date lancement** : 5 août 2026 (Mac only) | **Catégorie** : AI Meeting Assistant
+- **Fondateurs** : Équipe Wispr (fondée 2021) | **Levée** : $280M Série B @ $2B valuation
+- **Métriques buzz** : 56K votes PH, TechCrunch/9to5Mac coverage, 40% MoM growth parent
 
-### 2. Proposition de valeur
-- **Problème** : Créer des variantes d'ads vidéo/image en volume pour tester est chronophage et coûteux (motion designers, copywriters).
-- **Solution** : "Claude pour les social ads" — génération de vidéos ads courtes en volume, optimisées pour la conversion, sur Meta/TikTok/YouTube.
-- **USP** : Focus sur le volume + l'itération rapide (A/B testing ads at scale), pas juste la qualité d'un seul créatif.
-- **Target** : Performance marketers, growth hackers, agences paid social
-- **Pricing** : Free (50 crédits) / Pro $39/mois
+### 2. Proposition de Valeur
+- **Problème** : Les notetakers classiques envoient un bot intrusif dans les réunions
+- **Solution** : Capture l'audio système directement — pas de bot, transcription locale + résumé IA
+- **USP** : Invisible pour les participants, identification des speakers, notes structurées auto
+- **Target** : Managers, consultants, sales — utilisateurs existants Wispr Flow dictation
+- **Pricing** : Intégré au plan Wispr Flow (pricing non divulgué séparément)
 
-### 3. Stack technique
-- Frontend : Web app
-- Backend : Modèles génératifs vidéo (probablement Runway/Sora API ou modèle propre)
-- APIs : LLM pour copywriting ads, video generation API
-- Infra : GPU cloud pour génération vidéo
+### 3. Stack Technique
+- **Platform** : Mac only (Windows roadmap)
+- **Core** : Capture audio système, modèle de diarisation speakers
+- **Backend** : Infrastracture Wispr existante ($361M levés en tout)
 
 ### 4. Psychologie
-- **Triggers** : "Claude pour les ads" (analogie autorité), free trial 50 crédits (frein d'entrée zéro), urgence (promo PH)
-- **JTBD** : "Je veux tester 20 variantes d'ads en 1 heure au lieu de 2 semaines"
-- **Aha moment** : Première batch de 10 ads vidéo générées en < 5 minutes
+- **Triggers** : Vie privée (pas de bot), praticité, autorité (brand Wispr établie)
+- **JTBD** : "Je veux mes notes sans perturber ma réunion ni révéler que j'enregistre"
+- **Aha moment** : Première réunion terminée → résumé + actions items prêts en 30 sec
 
-### 5. Go-to-market
-- **Canaux** : Product Hunt, Twitter/X performance marketing community, agences digitales
-- **Viral loop** : Les ads générées portent watermark → brand awareness organique
-- **Stratégie** : Launch PH + offre freemium agressive
+### 5. Go-to-Market
+- **Canaux** : Base users Wispr Flow dictation, Tech press (TechCrunch, 9to5Mac, Computerworld)
+- **Stratégie** : Extension de produit existant → upsell base installée massive
+- **Viral loops** : Partage de résumés de réunions → discovery organique
 
 ### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (génération vidéo API + optimisation copy ads + interface batch)
-- **Verticaux adjacents** : Ads pour SaaS voice AI, contenu commercial pour agents vocaux
-- **Angle Kyle** : Version spécialisée ads audio/vidéo pour produits voice AI — démo produit automatisée en format court
-- **Temps dev** : 3-4 mois (APIs vidéo disponibles, focus sur UX batch + analytics)
+- **Complexité** : 7/10 (diarisation + audio system capture non trivials)
+- **Verticaux** : Cabinets d'avocats, conseil, médecine (ordonnances vocales)
+- **Angle Kyle** : Notetaker voice-native pour verticaux FR réglementés (RGPD, hébergement local)
+- **Temps de dev** : 8-14 semaines MVP (librairies open-source dispo : Whisper, pyAudioAnalysis)
 
-## 💰 Unit Economics Deep Dive — Wispr Flow Notetaker
-### Wispr Flow (produit entier — Notetaker est une extension)
+## 💰 Unit Economics Deep Dive — Dograh
+*Source : blog.dograh.com, GitHub, Crunchbase, AIGearBase, estimations industrie*
 
-| Métrique | Estimation | Source / Hypothèse |
+| Métrique | Valeur estimée | Confiance |
 |---|---|---|
-| **ARR** | ~$3-6M | 28K recherches/mois US → ~50-100K users actifs |
-| **ARPU** | $60-90/an | Mix free/pro, majorité pro à $12/mois |
-| **Users payants** | ~40-70K | Taux conversion freemium ~5-10% |
-| **CAC** | ~$15-25 | Word-of-mouth fort, PH launches low-cost |
-| **LTV** | $180-270 | Rétention ~18-24 mois (outil quotidien) |
-| **LTV/CAC** | 9-12x | 🟢 Excellent |
-| **Payback period** | 2-3 mois | |
-| **Burn estimé** | Inconnu (bootstrapped probable) | Pas de funding public connu |
-| **Rev/Employee** | $300-500K | Équipe estimée 10-20 personnes |
-| **Rule of 40** | ~60-80 | Croissance forte + marges SaaS élevées |
+| **ARR** | ~$200K–$800K (cloud/enterprise) | 🟡 Faible |
+| **ARPU** | $300/mo (enterprise avg) | 🟡 |
+| **Users actifs** | 2K–10K self-hosters + 200–500 cloud | 🟡 |
+| **CAC** | ~$0 (open-source organique) | 🟢 Fort |
+| **LTV** | $3,600/an (enterprise) | 🟡 |
+| **LTV/CAC** | >20x (vu CAC ≈ $0) | 🟢 |
+| **Payback** | < 1 mois | 🟢 |
+| **Burn estimé** | $50K–$150K/mo (équipe légère) | 🟡 |
+| **Runway** | Inconnu (pas de levée public) | 🔴 |
+| **Rev/Employee** | $40K–$80K/an | 🟡 |
+| **Rule of 40** | >40 (croissance > 10x – burn modéré) | 🟢 |
 
-**Verdict santé** : 🟢 **EXCELLENT** — Outil du quotidien avec rétention élevée, CAC très bas (distribution organique via dictation), LTV/CAC > 10x. Le Notetaker étend le ARPU sans acquisition supplémentaire.
+**Verdict santé** 🟢 — Modèle open-source → cloud est sain : CAC quasi nul, viral organique fort, enterprise comme booster de marge. Manque de transparence sur les chiffres réels mais l'adoption GitHub (5.5K stars, 1.3K forks) valide l'intérêt massif. Le risque est la monétisation : si l'enterprise ne décolle pas, le projet reste un coût sans revenu.
 
-⚠️ *Note* : Wispr Flow ne publie pas ses métriques. Estimations basées sur volume recherche Ahrefs (28K US/mois), pricing public, et benchmarks SaaS similaires (Otter.ai, Grain, Fireflies).
-
-**Sources** : [tldv.io/blog/wisprflow](https://tldv.io/blog/wisprflow/) · [craftnote.com/blog/wispr-flow-notetaker-review-2026](https://craftnote.com/blog/wispr-flow-notetaker-review-2026) · [alternativeto.net](https://alternativeto.net/news/2026/8/wispr-flow-launches-a-new-ai-notetaker-meeting-assistant-for-transcription-and-summaries/)
+**Hypothèses** : basées sur les benchmarks publics VAPI/Retell (80K+ utilisateurs déclarés), et la structure tarifaire confirmée de Dograh ($0.01/min + $0.07/min modèles ; enterprise $2,500/mo).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension | Poids | Wispr Notetaker | Astute | AdAnt AI |
-|---|---|---|---|---|
-| 📊 Market Size | 20% | 8 (marché notetaker $2B+) | 7 (B2B creator $500M+) | 7 (paid social $10B+) |
-| ⚙️ Complexity inversé | 15% | 7 (Mac audio API + LLM) | 4 (réseau créateurs + AI) | 5 (vidéo gen API) |
-| ⏱️ Time-to-Market | 15% | 7 (2-3 mois MVP) | 4 (4-6 mois) | 6 (3-4 mois) |
-| 🏟️ Competition inversé | 15% | 6 (Granola, Otter, Fireflies) | 7 (peu de plateformes B2B new media) | 5 (Creatify, AdCreative, Runway) |
-| 💰 Revenue Potential | 20% | 8 ($12/mo, rétention élevée) | 7 (deals B2B enterprise) | 6 ($39/mo, volume requis) |
-| 🧑‍💻 Founder-Fit Kyle | 15% | **9** (voice AI expert = différenciateur clé) | 5 (marketing, pas son cœur) | 5 (paid social, pas son terrain) |
+| Dimension (Poids) | 🥇 Dograh | 🥈 Hey Noah | 🥉 Wispr Notetaker |
+|---|---|---|---|
+| 📊 Market Size (20%) | **9** — Marché voice AI >$10B 2026 | **7** — EA AI $2B+ | **8** — Meeting AI $5B |
+| ⚙️ Complexité inversée (15%) | **8** — OSS dispo, stack connue | **5** — Multi-canal complexe | **4** — Audio système + diarisation |
+| ⏱️ Time-to-Market (15%) | **8** — 2-4 semaines vertical | **5** — 6-10 semaines | **4** — 8-14 semaines |
+| 🏟️ Compétition inversée (15%) | **7** — VAPI/Retell forts mais chers | **6** — Saturé (Reclaim, Cal.ai…) | **5** — Granola, Otter, Fireflies |
+| 💰 Revenue Potential (20%) | **8** — SaaS récurrent + enterprise | **7** — $49/mo bon ARPU | **6** — Upsell difficile seul |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI + SaaS | **6** — Bon fit fondateurs | **7** — Voice expertise utile |
+| **Score Pondéré** | **🟢 8.45** | **🟡 6.20** | **🟠 5.65** |
+| **Verdict** | **BUILD NOW** | **BUILD ADJACENT** | **WATCH** |
 
-**Score pondéré** :
-- **Wispr Notetaker** : (8×0.20)+(7×0.15)+(7×0.15)+(6×0.15)+(8×0.20)+(9×0.15) = **7.60** 🟢 BUILD NOW
-- **Astute** : (7×0.20)+(4×0.15)+(4×0.15)+(7×0.15)+(7×0.20)+(5×0.15) = **5.75** 🟠 WATCH
-- **AdAnt AI** : (7×0.20)+(5×0.15)+(6×0.15)+(5×0.15)+(6×0.20)+(5×0.15) = **5.80** 🟠 WATCH
+**Note de calcul Dograh** : (9×0.20)+(8×0.15)+(8×0.15)+(7×0.15)+(8×0.20)+(10×0.15) = 1.80+1.20+1.20+1.05+1.60+1.50 = **8.35** ✅
 
 ## 📈 Tendances Émergentes
-1. **Voice AI sort de la dictée pour entrer dans les workflows** : Wispr Flow étend sa portée du clavier à la salle de réunion. La prochaine vague = voice AI qui capture ET analyse le contexte conversationnel (pas juste transcrire).
+1. **Open-Source comme stratégie GTM** : Dograh confirme que le modèle OSS-first est le nouveau cold outreach. GitHub = distribution gratuite + crédibilité instantanée. Plusieurs startups du top PH août 2026 sont OSS.
 
-2. **Invisibilité comme feature premium** : Les bots visibles dans les calls deviennent un anti-pattern. "No bot" est la proposition de valeur principale de Wispr Notetaker ET Granola. Attente : migration massive des outils qui insèrent un bot.
+2. **Voice AI démocratisé** : VAPI facture trop cher → explosion des alternatives (Dograh, Retell open-source, Pipecat). Le moment est à l'infrastructure voice accessible.
 
-3. **B2B creator economy explose** : Astute révèle que les B2B brands cherchent à rejoindre les newsletters et podcasts, pas seulement les influenceurs social. Marché sous-exploité avec des plateformes dédiées quasi inexistantes.
+3. **Agents exécutifs IA** : Hey Noah illustre une tendance : l'IA qui agit (phone calls, emails) plutôt que l'IA qui suggère. Le "agentic layer" au-dessus des outils existants.
 
-4. **GitHub Trending : agents coding & LLM skills** : La communauté dev investit massivement dans les skills/instructions pour agents IA (Claude Code, Cursor). Les repos de "behavioral skills" explosent — signal fort d'une économie de prompts/skills.
+4. **Meeting AI sans bot** : Wispr Notetaker + Granola → les utilisateurs veulent la discrétion. La capture locale (no-bot) devient le différenciateur clé face à Otter/Fireflies.
 
-5. **Génération vidéo ads en volume** : AdAnt, Creatify et leurs pairs signalent que la créa paid social est en train de se commoditiser. Les performance marketers veulent du volume + tests, pas du premium one-shot.
+5. **Consolidation des stacks voice** : MCP natif (Dograh), interopérabilité LLM (BYOK), on-prem EU → la conformité RGPD devient un avantage concurrentiel pour les acteurs européens.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions prioritaires
+### 🎯 Pour Kyle — Actions concrètes cette semaine
 
-**1. BUILD NOW : Notetaker voice AI spécialisé [Score 7.60 🟢]**
-Wispr Notetaker prouve le marché. Ton angle différenciant : un notetaker qui analyse la qualité vocale des calls (tonalité, hésitations, engagement), pas juste la transcription. Cible : commerciaux SaaS qui veulent coacher leur équipe voice. Stack : Whisper/Deepgram + LLM + macOS audio API. MVP en 2-3 mois, $15-20/mois/user.
+**Action #1 (Priorité absolue) — Tester Dograh en 24h**
+→ `docker compose up` et builder un agent voice pour un vertical FR (ex : cabinet médical)
+→ Documenter les frictions → article "Dograh vs VAPI : retour terrain" → traction SEO immédiate
+→ Rejoindre le Slack Dograh community → networking YC alumni
 
-**2. WATCH : Astute vertical SaaS voice AI [Score 5.75 🟠]**
-Si tu veux de la distribution, construire un réseau de 50 podcasters et newsletteurs qui parlent de voice AI/SaaS à tes prospects est plus simple qu'Astute entier. Pas de plateforme à créer, juste une opération growth.
+**Action #2 — Positionnement "Dograh FR/EU"**
+→ Il n'existe pas encore de managed hosting Dograh en France (RGPD-compliant)
+→ Kyle peut offrir : hébergement OVH/Scaleway + support FR + stack pré-configurée
+→ Pricing cible : €299–€799/mo pour PME françaises
+→ Différenciateur : data souveraineté + support langue FR
 
-**3. Signal faible : Skills/agents economy**
-Les repos GitHub trending montrent une demande pour des "skills packs" d'agents IA. Opportunité : vendre des packs d'instructions/prompts optimisés pour voice AI workflows — coût dev quasi nul, distribution GitHub/marketplace.
+**Action #3 — Veille Hey Noah**
+→ Identifier si un équivalent FR existe (non trouvé)
+→ La version "voice-first" pour indépendants/consultants FR à ~€29/mo est un angle libre
+→ Tester l'onboarding Hey Noah pour décortiquer l'UX et les intégrations calendrier
 
-### ⚡ Quick wins
-- Tester Wispr Flow Notetaker sur tes propres calls (feedback direct = insight produit)
-- Lire le launch Astute sur PH pour décoder leur messaging B2B creator
-- Monitorer Granola (concurrent direct Wispr) — s'ils lèvent, le marché notetaker premium est confirmé
-
-### 📌 Sources principales
-- [Product Hunt Leaderboard Août 2026](https://www.producthunt.com/leaderboard/weekly/2026/33)
-- [Astute raise — Tech.eu](https://tech.eu/2026/08/17/astute-raises-12m-and-launches-b2b-new-media-platform/)
-- [Wispr Flow Notetaker — TechCrunch](https://techcrunch.com/2026/08/05/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest/)
-- [AdAnt AI — CompleteAITraining](https://completeaitraining.com/ai-tools/adant-ai/)
+**Signal faible à surveiller**
+→ Granola (notetaker discret) lève des fonds en août 2026 → marché meeting AI en ébullition
+→ Pipecat (framework Dograh) passe 10K stars → ecosystème voice OSS en acceleration rapide
