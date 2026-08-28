@@ -1,181 +1,189 @@
-# 🔥 Market Scan — 2026-08-27
+# 🔥 Market Scan — 2026-08-28
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 8
-- Top potentiel : 3
-- Opportunités immédiates (BUILD NOW) : 1 (Dograh)
+- Apps analysées : 3
+- Top potentiel : Hey Noah (AI Executive Assistant)
+- Opportunités immédiates (BUILD NOW) : 1 (Hey Noah vertical)
 
-## 🏆 TOP APP #1 : Dograh
+## 🏆 TOP APP #1 : Hey Noah
 ### 1. Identification
-- **Nom** : Dograh | **URL** : [dograh.com](https://dograh.com) | **GitHub** : [dograh-hq/dograh](https://github.com/dograh-hq/dograh)
-- **Date lancement** : Août 2026 | **Catégorie** : Voice AI / Dev Tools
-- **Fondateurs** : Alumni YC + exit founders
-- **Métriques buzz** : #1 PH Produit du Jour (542K votes), 5.5K ⭐ GitHub, 1.3K forks, 10x croissance en 14j
+- **Nom** : Hey Noah | **URL** : heynoah.io | **Lancement** : Août 2026
+- **Fondateurs** : Ashish (ex-bootstrapper $100M rev, 47 clients Fortune 500)
+- **Catégorie** : AI Executive Assistant / Productivité founders
+- **Buzz** : 57 195 votes PH, #1 Product of the Day + #1 Product of the Week
+- **Sources** : [Product Hunt](https://www.producthunt.com/products/hey-noah) | [AIToolly](https://aitoolly.com/product/hey-noah)
 
-### 2. Proposition de Valeur
-- **Problème** : VAPI et Retell coûtent cher et enferment dans leur stack propriétaire
-- **Solution** : Plateforme open-source self-hostable pour créer des voice agents (STT/LLM/TTS BYO)
-- **USP** : Tout open-source, rien de gated, déploiement en 1 commande Docker
-- **Target** : Développeurs et agences voice AI, startups SaaS
-- **Pricing** : Free self-host | Cloud $0.01/min plateforme + ~$0.07/min modèles | Enterprise $2,500/mo
+### 2. Proposition de valeur
+- **Problème** : Les fondateurs perdent 30-40% de leur temps sur scheduling, emails, follow-ups
+- **Solution** : IA proactive qui agit via SMS/voix — fait les appels, négocie les horaires, envoie les dossiers pré-meeting
+- **USP** : Premier assistant SMS+Voice exclusivement pour executives, agit de manière autonome sans prompt
+- **Target** : Fondateurs, CEOs, executives (B2B)
+- **Pricing** : $49/mois, 30j essai gratuit, pas de freemium permanent
 
-### 3. Stack Technique
-- **Backend** : Python + Pipecat framework
-- **Frontend** : Node.js / TypeScript
-- **Infra** : Docker, MinIO/S3, MCP natif
-- **Téléphonie** : Twilio, Vonage, Telnyx, Plivo, Asterisk ARI
-- **Licence** : BSD 2-Clause
+### 3. Stack technique
+- **Frontend** : SMS/Voice natif (pas d'app mobile dédiée mentionnée)
+- **Backend** : IA proactive + gestion calendrier multi-timezone
+- **APIs** : Intégration email, calendar, téléphonie (appels réels)
+- **Infra** : Cloud (Palo Alto, équipe 8 personnes, bootstrapped)
 
 ### 4. Psychologie
-- **Triggers** : FOMO (VAPI bills explosent), autorité (YC), social proof (5.5K stars)
-- **JTBD** : "Je veux des voice agents fiables sans dépendre d'un vendor coûteux"
-- **Aha moment** : Premier agent fonctionnel en < 10 min via workflow builder visuel
+- **Triggers** : Autorité (fondateur credible $100M), FOMO (trial limité), Social proof (PH #1)
+- **JTBD** : "Je veux focus sur la stratégie, pas l'admin"
+- **Aha moment** : Premier appel automatique réussi à un restaurant/partenaire sans intervention
 
 ### 5. Go-to-Market
-- **Canaux** : GitHub organic, Product Hunt, communauté dev Twitter/X, HN
-- **Stratégie** : Open-source viral → self-hosters → convertion managed cloud/enterprise
-- **Viral loops** : Chaque fork = nouveau potentiel ambassadeur ; Slack community actif
+- **Canaux** : Product Hunt (dominant), LinkedIn founders, bouche-à-oreille execs
+- **Launch strategy** : Story personnelle fondateur (crédibilité bootstrap), free trial sans CB
+- **Viral loop** : Chaque meeting booké par Noah expose le produit aux destinataires
 
-### 6. Réplication pour Kyle
-- **Complexité** : 4/10 (stack connue, Pipecat open-source)
-- **Verticaux** : Santé, immobilier, e-commerce, finance
-- **Angle Kyle** : Fork/contribuer → build une offre "Dograh managed" FR/EU + consulting
-- **Temps de dev** : 2-4 semaines MVP vertical spécialisé
+### 6. Réplication
+- **Complexité** : 6/10 (intégrations téléphonie + calendrier complexes, mais faisable)
+- **Verticaux adjacents** : Agents pour freelancers, PME, sales reps
+- **Angle Kyle** : Voice AI → parfait fit ! Construire Noah pour sales teams (CRM calls auto)
+- **Temps dev** : 3-4 mois MVP avec stack voice AI existante
 
-## 🏆 TOP APP #2 : Hey Noah
+## 🏆 TOP APP #2 : Wispr Flow Notetaker
 ### 1. Identification
-- **Nom** : Hey Noah | **URL** : [needaitool.com/hey-noah](https://www.needaitool.com/tools/hey-noah)
-- **Date lancement** : Janvier 2026 (PH août 2026) | **Catégorie** : AI Executive Assistant
-- **Métriques buzz** : #1 PH Produit de la Semaine (57K votes), communauté active X (@HeyNoahAI)
+- **Nom** : Wispr Flow Notetaker | **URL** : wisprflow.ai | **Lancement** : 5 août 2026
+- **Fondateurs** : Équipe Wispr AI (San Francisco)
+- **Catégorie** : AI Meeting Notes / Dictée vocale
+- **Buzz** : 56 274 votes PH, $2B valuation (Series B en cours $260M)
+- **Sources** : [Wispr Flow](https://wisprflow.ai/pricing) | [Review 2026](https://craftnote.com/blog/wispr-flow-notetaker-review-2026)
 
-### 2. Proposition de Valeur
-- **Problème** : Les fondateurs perdent des heures à gérer leur agenda, emails et follow-ups
-- **Solution** : Assistant IA autonome via SMS/WhatsApp/Voice qui planifie, confirme, brief
-- **USP** : L'IA appelle elle-même pour confirmer les RDV ; brief pré-réunion auto
-- **Target** : Fondateurs et exécutifs B2B (segment premium)
-- **Pricing** : $49/mois — scheduling illimité, SMS/WhatsApp, briefing notes
+### 2. Proposition de valeur
+- **Problème** : Les notetakers bots sont intrusifs (Otter, Fireflies) + manquent le contexte métier
+- **Solution** : Capture locale sur Mac (sans bot), pull des noms/jargon depuis calendar+Gmail+Slack
+- **USP** : Bot-free, speaker identification, intégration MCP Claude/ChatGPT, contexte auto-enrichi
+- **Target** : Professionnels Mac, knowledge workers, consultants
+- **Pricing** : Free (limité hebdo) | Pro $15/mois ($12 annuel) — bundlé dans les plans existants
 
-### 3. Stack Technique
-- **Interface** : SMS natif + WhatsApp + appels vocaux sortants
-- **Backend** : LLM + orchestration d'agents (non divulgué)
-- **Intégrations** : Google Calendar, Outlook, email
+### 3. Stack technique
+- **Frontend** : App Mac native
+- **Backend** : Transcription locale + AI summarization
+- **APIs** : Google Calendar, Gmail, Slack, Zoom, Meet, Teams, MCP servers
+- **Infra** : Traitement audio local (privacy-first)
 
 ### 4. Psychologie
-- **Triggers** : Exclusivité (pour fondateurs seulement), autorité, gain de temps concret
-- **JTBD** : "Je veux un EA IA qui gère ma vie sans que je pense à lui"
-- **Aha moment** : Premier RDV confirmé automatiquement par Noah (sans action humaine)
+- **Triggers** : Privacy (pas de bot dans la réunion), social proof ($2B valuation), simplicité
+- **JTBD** : "Je veux des notes précises sans gêner mes interlocuteurs"
+- **Aha moment** : Première note qui identifie correctement chaque speaker avec leur vrai nom
 
 ### 5. Go-to-Market
-- **Canaux** : Product Hunt, bouche-à-oreille fondateurs, X/Twitter
-- **Stratégie** : Lancement communautaire → word-of-mouth founders → viral par usage
-- **Viral loops** : Chaque email envoyé par Noah = mention implicite du produit
+- **Canaux** : PH, LinkedIn professionals, word-of-mouth B2B
+- **Launch** : Extension du produit existant (dictée vocale) → add-on meeting notes
+- **Viral loop** : Les notes partagées mentionnent Wispr Flow
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (orchestration multi-canal complexe)
-- **Verticaux** : Cabinets médicaux, agences immobilières, consultants indépendants
-- **Angle Kyle** : Version voice-first pour PME françaises (moins cher, local)
-- **Temps de dev** : 6-10 semaines MVP
+### 6. Réplication
+- **Complexité** : 7/10 (transcription locale + diarization + contexte = technique pointu)
+- **Verticaux adjacents** : Notes médicales, juridiques, journalisme
+- **Angle Kyle** : Intégration voice AI → notetaker spécialisé par secteur (ex: sales calls CRM)
+- **Temps dev** : 4-6 mois (modèles ASR existants comme Whisper)
 
-## 🏆 TOP APP #3 : Wispr Flow Notetaker
+## 🏆 TOP APP #3 : OmniRoute
 ### 1. Identification
-- **Nom** : Wispr Flow Notetaker | **URL** : [wispr.flow](https://wispr.flow)
-- **Date lancement** : 5 août 2026 (Mac only) | **Catégorie** : AI Meeting Assistant
-- **Fondateurs** : Équipe Wispr (fondée 2021) | **Levée** : $280M Série B @ $2B valuation
-- **Métriques buzz** : 56K votes PH, TechCrunch/9to5Mac coverage, 40% MoM growth parent
+- **Nom** : OmniRoute | **URL** : GitHub MIT | **Lancement** : Février 2026
+- **Fondateurs** : Diego Rodrigues de Sa e Souza (open-source solo)
+- **Catégorie** : AI Infrastructure / LLM Gateway open-source
+- **Buzz** : 33 908 ⭐ GitHub, 4 372 forks, trending août 2026
+- **Sources** : [Medium](https://medium.com/data-science-in-your-pocket/omniroute-one-ai-gateway-to-access-290-ai-providers-through-a-single-api-40760179d64d) | [Review](https://rohitraj.tech/en/notes/omniroute-ai-gateway-review-2026)
 
-### 2. Proposition de Valeur
-- **Problème** : Les notetakers classiques envoient un bot intrusif dans les réunions
-- **Solution** : Capture l'audio système directement — pas de bot, transcription locale + résumé IA
-- **USP** : Invisible pour les participants, identification des speakers, notes structurées auto
-- **Target** : Managers, consultants, sales — utilisateurs existants Wispr Flow dictation
-- **Pricing** : Intégré au plan Wispr Flow (pricing non divulgué séparément)
+### 2. Proposition de valeur
+- **Problème** : Gérer 290+ providers LLM = enfer d'API keys + coûts explosifs
+- **Solution** : Gateway local unifié OpenAI-compatible, compression tokens -15% à -95%
+- **USP** : 1.6B tokens gratuits/mois en poolant les free tiers, MIT license, 0 coût
+- **Target** : Développeurs, indie hackers, startups frugales
+- **Pricing** : 100% gratuit (open-source), auto-hébergé
 
-### 3. Stack Technique
-- **Platform** : Mac only (Windows roadmap)
-- **Core** : Capture audio système, modèle de diarisation speakers
-- **Backend** : Infrastracture Wispr existante ($361M levés en tout)
+### 3. Stack technique
+- **Frontend** : CLI + interface web locale
+- **Backend** : Proxy API OpenAI-compatible
+- **APIs** : 290+ providers (Claude, GPT, Gemini, DeepSeek, Mistral, etc.)
+- **Infra** : Self-hosted, Python, MIT license
 
 ### 4. Psychologie
-- **Triggers** : Vie privée (pas de bot), praticité, autorité (brand Wispr établie)
-- **JTBD** : "Je veux mes notes sans perturber ma réunion ni révéler que j'enregistre"
-- **Aha moment** : Première réunion terminée → résumé + actions items prêts en 30 sec
+- **Triggers** : Gratuité absolue, FOMO sur tokens gratuits, communauté GitHub
+- **JTBD** : "Je veux tester tous les LLMs sans payer ni gérer 20 API keys"
+- **Aha moment** : Première requête gratuite qui aurait coûté $0.50 ailleurs
 
 ### 5. Go-to-Market
-- **Canaux** : Base users Wispr Flow dictation, Tech press (TechCrunch, 9to5Mac, Computerworld)
-- **Stratégie** : Extension de produit existant → upsell base installée massive
-- **Viral loops** : Partage de résumés de réunions → discovery organique
+- **Canaux** : GitHub trending, HN, Reddit r/LocalLLaMA, Twitter dev
+- **Launch** : Viral GitHub → articles Medium → tutoriels YouTube
+- **Viral loop** : Chaque dev qui l'utilise en parle dans son blog/tweet
 
-### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (diarisation + audio system capture non trivials)
-- **Verticaux** : Cabinets d'avocats, conseil, médecine (ordonnances vocales)
-- **Angle Kyle** : Notetaker voice-native pour verticaux FR réglementés (RGPD, hébergement local)
-- **Temps de dev** : 8-14 semaines MVP (librairies open-source dispo : Whisper, pyAudioAnalysis)
+### 6. Réplication
+- **Complexité** : 5/10 (proxy + routage = pas de ML requis)
+- **Verticaux adjacents** : Gateway spécialisé voice/speech APIs (ElevenLabs, Cartesia, PlayHT)
+- **Angle Kyle** : Voice API gateway = agrège ElevenLabs + Cartesia + PlayHT avec failover auto
+- **Temps dev** : 6-8 semaines MVP (Python + FastAPI)
 
-## 💰 Unit Economics Deep Dive — Dograh
-*Source : blog.dograh.com, GitHub, Crunchbase, AIGearBase, estimations industrie*
+## 💰 Unit Economics Deep Dive — Hey Noah
+*Sources : Product Hunt, heynoah.io, estimations basées sur métriques publiques*
 
-| Métrique | Valeur estimée | Confiance |
+| Métrique | Estimation | Hypothèse |
 |---|---|---|
-| **ARR** | ~$200K–$800K (cloud/enterprise) | 🟡 Faible |
-| **ARPU** | $300/mo (enterprise avg) | 🟡 |
-| **Users actifs** | 2K–10K self-hosters + 200–500 cloud | 🟡 |
-| **CAC** | ~$0 (open-source organique) | 🟢 Fort |
-| **LTV** | $3,600/an (enterprise) | 🟡 |
-| **LTV/CAC** | >20x (vu CAC ≈ $0) | 🟢 |
-| **Payback** | < 1 mois | 🟢 |
-| **Burn estimé** | $50K–$150K/mo (équipe légère) | 🟡 |
-| **Runway** | Inconnu (pas de levée public) | 🔴 |
-| **Rev/Employee** | $40K–$80K/an | 🟡 |
-| **Rule of 40** | >40 (croissance > 10x – burn modéré) | 🟢 |
+| **Users payants** | ~1 200-2 000 | PH #1 = 50K vues, conv. 2-4% |
+| **ARPU** | $49/mois | Pricing public |
+| **MRR estimé** | ~$70K-100K | 1 500 users × $49 |
+| **ARR estimé** | ~$840K-1.2M | Extrapolation linéaire |
+| **CAC** | ~$30-50 | PH gratuit + LinkedIn organique |
+| **LTV** | ~$400-600 | Churn ~10%/mo → 10 mois durée |
+| **LTV/CAC** | ~10-15x | ✅ Excellent |
+| **Payback** | ~1 mois | CAC faible, ARPU élevé |
+| **Équipe** | 8 personnes | Déclaré publiquement |
+| **Rev/Employee** | ~$100-150K ARR | Si ARR ~$1M |
+| **Burn estimé** | ~$80K/mois | 8 personnes Palo Alto |
+| **Runway** | Bootstrapped | Pas de levée déclarée |
+| **Rule of 40** | ~60-80 | Croissance rapide + marges SaaS |
 
-**Verdict santé** 🟢 — Modèle open-source → cloud est sain : CAC quasi nul, viral organique fort, enterprise comme booster de marge. Manque de transparence sur les chiffres réels mais l'adoption GitHub (5.5K stars, 1.3K forks) valide l'intérêt massif. Le risque est la monétisation : si l'enterprise ne décolle pas, le projet reste un coût sans revenu.
-
-**Hypothèses** : basées sur les benchmarks publics VAPI/Retell (80K+ utilisateurs déclarés), et la structure tarifaire confirmée de Dograh ($0.01/min + $0.07/min modèles ; enterprise $2,500/mo).
+**Verdict santé : 🟢 EXCELLENT**
+Bootstrapped, CAC quasi nul (PH organique), LTV/CAC exceptionnel. Risque : churn si le produit ne délivre pas sur la durée. Opportunité : lever pour accélérer avant copycats.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (Poids) | 🥇 Dograh | 🥈 Hey Noah | 🥉 Wispr Notetaker |
+| Dimension (poids) | Hey Noah | Wispr Notetaker | OmniRoute |
 |---|---|---|---|
-| 📊 Market Size (20%) | **9** — Marché voice AI >$10B 2026 | **7** — EA AI $2B+ | **8** — Meeting AI $5B |
-| ⚙️ Complexité inversée (15%) | **8** — OSS dispo, stack connue | **5** — Multi-canal complexe | **4** — Audio système + diarisation |
-| ⏱️ Time-to-Market (15%) | **8** — 2-4 semaines vertical | **5** — 6-10 semaines | **4** — 8-14 semaines |
-| 🏟️ Compétition inversée (15%) | **7** — VAPI/Retell forts mais chers | **6** — Saturé (Reclaim, Cal.ai…) | **5** — Granola, Otter, Fireflies |
-| 💰 Revenue Potential (20%) | **8** — SaaS récurrent + enterprise | **7** — $49/mo bon ARPU | **6** — Upsell difficile seul |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI + SaaS | **6** — Bon fit fondateurs | **7** — Voice expertise utile |
-| **Score Pondéré** | **🟢 8.45** | **🟡 6.20** | **🟠 5.65** |
-| **Verdict** | **BUILD NOW** | **BUILD ADJACENT** | **WATCH** |
+| 📊 Market Size (20%) | 8 — marché exec assistants >€1B | 9 — meeting tools énorme marché | 7 — dev tools, croissant |
+| ⚙️ Complexité inversée (15%) | 6 — téléphonie+calendrier = dev work | 4 — ASR local difficile | 7 — proxy = faisable |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois | 4 — 4-6 mois | 8 — 6-8 semaines |
+| 🏟️ Compétition inversée (15%) | 7 — niche execs peu saturée | 5 — Otter/Fireflies compétiteurs | 7 — LiteLLM concurrent |
+| 💰 Revenue Potential (20%) | 8 — $49/mo × marché large | 8 — $15/mo × millions users | 4 — open-source = monétisation difficile |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — Voice AI = expertise exacte | 7 — Voice AI tangentiel | 6 — Dev tools, moins voice |
 
-**Note de calcul Dograh** : (9×0.20)+(8×0.15)+(8×0.15)+(7×0.15)+(8×0.20)+(10×0.15) = 1.80+1.20+1.20+1.05+1.60+1.50 = **8.35** ✅
+**Score pondéré :**
+| App | Score | Verdict |
+|---|---|---|
+| **Hey Noah** | **(8×0.20)+(6×0.15)+(5×0.15)+(7×0.15)+(8×0.20)+(9×0.15)** = **7.35** | 🟡 BUILD ADJACENT |
+| **Wispr Notetaker** | **(9×0.20)+(4×0.15)+(4×0.15)+(5×0.15)+(8×0.20)+(7×0.15)** = **6.65** | 🟡 BUILD ADJACENT |
+| **OmniRoute** | **(7×0.20)+(7×0.15)+(8×0.15)+(7×0.15)+(4×0.20)+(6×0.15)** = **6.35** | 🟡 BUILD ADJACENT |
+
+> **Note** : Hey Noah avec un angle voice AI spécialisé (sales teams) monterait à 🟢 BUILD NOW ≥7.5
 
 ## 📈 Tendances Émergentes
-1. **Open-Source comme stratégie GTM** : Dograh confirme que le modèle OSS-first est le nouveau cold outreach. GitHub = distribution gratuite + crédibilité instantanée. Plusieurs startups du top PH août 2026 sont OSS.
+1. **Voice-first AI agents** : Le passage de chatbot texte vers agents voix autonomes s'accélère. Hey Noah en est le symptôme. Les interfaces vocales dépassent les interfaces chat pour les use cases pro.
 
-2. **Voice AI démocratisé** : VAPI facture trop cher → explosion des alternatives (Dograh, Retell open-source, Pipecat). Le moment est à l'infrastructure voice accessible.
+2. **Privacy-first AI tools** : Wispr Notetaker avec transcription locale répond à une fatigue croissante des bots intrusifs. "On-device AI" devient un argument commercial fort, pas seulement technique.
 
-3. **Agents exécutifs IA** : Hey Noah illustre une tendance : l'IA qui agit (phone calls, emails) plutôt que l'IA qui suggère. Le "agentic layer" au-dessus des outils existants.
+3. **LLM cost arbitrage** : OmniRoute révèle une demande massive pour réduire les coûts LLM. Les gateways intelligents (routage par coût/perf) deviennent une catégorie infrastructure à part entière.
 
-4. **Meeting AI sans bot** : Wispr Notetaker + Granola → les utilisateurs veulent la discrétion. La capture locale (no-bot) devient le différenciateur clé face à Otter/Fireflies.
+4. **Bootstrapped > VC pour les micro-SaaS** : Hey Noah ($0 levée, 8 personnes, ~$1M ARR) bat des startups VC-backed. Le marché récompense l'exécution rapide, pas la levée.
 
-5. **Consolidation des stacks voice** : MCP natif (Dograh), interopérabilité LLM (BYOK), on-prem EU → la conformité RGPD devient un avantage concurrentiel pour les acteurs européens.
+5. **MCP comme standard d'intégration** : Wispr Notetaker pousse ses notes vers Claude/ChatGPT via MCP. Le protocole devient le "USB-C" de l'IA — intégration universelle.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle — Actions concrètes cette semaine
+### 🎯 Pour Kyle (Voice AI + SaaS)
 
-**Action #1 (Priorité absolue) — Tester Dograh en 24h**
-→ `docker compose up` et builder un agent voice pour un vertical FR (ex : cabinet médical)
-→ Documenter les frictions → article "Dograh vs VAPI : retour terrain" → traction SEO immédiate
-→ Rejoindre le Slack Dograh community → networking YC alumni
+**#1 — Clone Hey Noah pour sales teams** *(Impact : Élevé, Effort : Moyen)*
+- Hey Noah prouve que $49/mo pour un assistant exec autonome est accepté
+- Angle : "Noah for SDRs" — l'agent voice appelle les prospects, qualifie, book les démos, update le CRM
+- Différenciation : Kyle a l'expertise voice AI = time-to-market 2x plus rapide qu'un généraliste
+- Estimation : 500 users × $99/mo = $50K MRR en 6 mois (cible réaliste)
 
-**Action #2 — Positionnement "Dograh FR/EU"**
-→ Il n'existe pas encore de managed hosting Dograh en France (RGPD-compliant)
-→ Kyle peut offrir : hébergement OVH/Scaleway + support FR + stack pré-configurée
-→ Pricing cible : €299–€799/mo pour PME françaises
-→ Différenciateur : data souveraineté + support langue FR
+**#2 — Voice API Gateway (OmniRoute pour voix)** *(Impact : Moyen, Effort : Faible)*
+- OmniRoute pour LLM texte = succès massif. La version voice (ElevenLabs + Cartesia + PlayHT + Hume)  n'existe pas encore
+- Différenciation : failover automatique, cost routing, unified API
+- Open-source → revenus via support/hosted version
+- Temps dev : 6-8 semaines avec expertise voice existante de Kyle
 
-**Action #3 — Veille Hey Noah**
-→ Identifier si un équivalent FR existe (non trouvé)
-→ La version "voice-first" pour indépendants/consultants FR à ~€29/mo est un angle libre
-→ Tester l'onboarding Hey Noah pour décortiquer l'UX et les intégrations calendrier
-
-**Signal faible à surveiller**
-→ Granola (notetaker discret) lève des fonds en août 2026 → marché meeting AI en ébullition
-→ Pipecat (framework Dograh) passe 10K stars → ecosystème voice OSS en acceleration rapide
+**#3 — Notetaker vertical spécialisé** *(Impact : Moyen, Effort : Moyen)*
+- Wispr Notetaker est généraliste. Construire un notetaker spécialisé (ex: médical, légal, commercial) avec templates métier et CRM push
+- Pricing premium justifié : $49-99/mo pour un vertical spécifique
+- Moins de concurrence que le généraliste
