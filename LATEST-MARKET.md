@@ -1,196 +1,199 @@
-# 🔥 Market Scan — 2026-09-01
+# 🔥 Market Scan — 2026-09-02
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Yasmine Works
+- Apps analysées : 8
+- Top potentiel : 3
 - Opportunités immédiates (BUILD NOW) : 1
 
-## 🏆 TOP APP #1 : Yasmine Works
+## 🏆 TOP APP #1 : Avoca AI
 ### 1. Identification
-- **URL** : [yasmine.works](https://yasmine.works) | [Product Hunt](https://www.producthunt.com/products/yasmine-works)
-- **Launch** : Juillet 2026 | **Fondateurs** : équipe européenne (Paris-Londres)
-- **Catégorie** : AI Agent / Productivity / Slack-native
-- **Buzz** : PH trending, compétiteur Viktor lève **$75M** (preuve de marché massive), 500+ intégrations
+- **Nom** : Avoca AI | **URL** : avoca.ai
+- **Date launch** : ~2023, hypercroissance 2025-2026 | **Funding** : $125M série B (avril 2026, Kleiner Perkins, Meritech, General Catalyst)
+- **Valuation** : $1B (licorne) | **Catégorie** : Vertical Voice AI / Field Services
+- **Métriques buzz** : 1 000+ opérateurs de service, objectif $1B de jobs bookés en 2026, couverture Fortune/TechCrunch
 
-### 2. Proposition de Valeur
-- **Problème** : Les agents IA génériques nécessitent une app séparée — les équipes restent dans Slack
-- **Solution** : Agent IA vivant **nativement dans Slack**, exécutant des tâches réelles (email, CRM, code, finances) sans quitter le canal
-- **USP** : Tournant sur **Claude API de l'utilisateur** (zéro pooling de données), approbation humaine obligatoire avant chaque action sensible
-- **Target** : Startups B2B, PME tech (5-50 employés) déjà tout-Slack
-- **Pricing** : Starter €29/mois (2 canaux) · Pro €69/mois (illimité) · Dev €249/mois (+ GitHub/GitLab)
+### 2. Proposition de valeur
+- **Problème** : PME du trade (HVAC, plomberie, toiture) perdent des milliers de $ par semaine en appels manqués, devis non suivis, leads froids
+- **Solution** : Agent vocal IA qui répond aux appels entrants 24/7, planifie les jobs, relance les devis, génère des leads outbound
+- **USP** : Intégration native ServiceTitan — l'IA book directement dans le CRM existant, zéro friction opérationnelle
+- **Cible** : Service businesses SMB (HVAC, plomberie, électricité, auto, déménagement), US marché de $200B
+- **Pricing** : ~$400-800/mois par opérateur (estimé), ROI immédiat sur appels récupérés
 
 ### 3. Stack Technique
-- **Frontend** : Slack Bot API (zéro app à installer)
-- **Backend** : Orchestration Claude Anthropic (clé API utilisateur), n8n-like pour les workflows
-- **Infra** : Cloud EU-first, webhook Slack Events API
-- **APIs clés** : Anthropic Claude, GitHub, GitLab, Google Workspace, CRM (HubSpot/Notion)
+- **Frontend** : Web dashboard + app mobile | **Backend** : Voice AI propriétaire (fine-tuning LLM sur corpus trades)
+- **Infra** : Cloud, intégration Twilio-style pour téléphonie | **APIs** : ServiceTitan, Google Calendar, CRM trade
+- **Open-source** : Non, SaaS fermé
 
-### 4. Psychologie
-- **Triggers** : Confiance (data reste sur compte Claude perso), FOMO (Viktor lève $75M → marché réel), Convenance (déjà dans Slack)
-- **JTBD** : "Quand je veux déléguer une tâche répétitive, je veux que l'IA la fasse là où je travaille déjà"
-- **Aha moment** : Écrire `@yasmine envoie un email de relance à ce prospect` et voir l'email rédigé + soumis à validation en 10 secondes
+### 4. Psychologie du succès
+- **Trigger principal** : ROI immédiat mesurable (chaque appel raté = $400-600 de job perdu)
+- **JTBD** : "Je veux ne plus jamais rater un appel de client même à 23h"
+- **Aha moment** : Premier job booké automatiquement pendant que le technicien est sur le terrain
+- **Viral loop** : Bouche-à-oreille dans les réseaux de franchisés et associations de trade
 
 ### 5. Go-to-Market
-- **Canaux** : Product Hunt → Slack App Directory → LinkedIn B2B (fondateurs/ops)
-- **Viral loop** : L'agent est visible dans les canaux Slack partagés → collègues demandent accès
-- **Stratégie** : Trial 7 jours sans CB → conversion vers Pro dès 2e workflow automatisé
+- **Canal principal** : Partenariats ServiceTitan (marketplace), salons pros trades, LinkedIn B2B
+- **Stratégie launch** : Ciblage précis des groupes Facebook/Slack de gérants HVAC
+- **Acquisition** : Content marketing ROI-focus ("récupérez 30% de leads perdus"), démos personnalisées
 
-### 6. Réplication (pour Kyle)
-- **Complexité** : 5/10 — Slack Bot SDK + orchestration Claude + 10-20 intégrations prioritaires
-- **Verticaux adjacents** : Version Teams (Microsoft), Discord (communautés), WhatsApp Business
-- **Angle Kyle** : Ajouter couche **voice-first** — "dis à voix haute dans Slack, Yasmine exécute" via Wispr-like STT
-- **Temps de dev** : 4-6 semaines MVP (Slack Bot + Claude + 5 intégrations core)
-- **Sources** : [Fortune/Viktor $75M](https://fortune.com/2026/05/19/viktor-ai-startup-raises-75-million-for-virtual-coworker-exclusive/) | [Yasmine.works](https://yasmine.works/)
+### 6. Réplication pour Kyle
+- **Complexité** : 6/10 — voice AI déjà maîtrisé, diff = intégration CRM sectoriels
+- **Angle Kyle** : Répliquer le modèle sur un vertical FR (plomberie, CVC, nettoyage, restauration)
+- **Verticaux adjacents FR** : Artisans BTP (France 700K entreprises), agents immobiliers, cabinets médicaux
+- **Temps de dev** : 6-10 semaines pour un MVP avec voice AI existant + intégration Logiciel Bâtiment/Synchroteam
 
-## 🏆 TOP APP #2 : Astute
+## 🏆 TOP APP #2 : ConscioussAI
 ### 1. Identification
-- **URL** : [join-astute.com](https://www.startuphub.ai/startups/astute) | [Product Hunt](https://www.producthunt.com/products/astute-2)
-- **Launch** : 17 août 2026 | **Fondateurs** : équipe Europe de l'Est (Flyer One Ventures backed)
-- **Catégorie** : B2B Marketing AI / Creator Partnerships Automation
-- **Buzz** : $1.2M levés, PH 519K+ votes, couverture [Tech.eu](https://tech.eu/2026/08/17/astute-raises-12m-and-launches-b2b-new-media-platform/), [Dealroom](https://app.dealroom.co/news/note/astute-raises-1-03m-pre-seed-to-automate-b2b-creator-partnerships)
+- **Nom** : ConscioussAI | **URL** : conscioussai.com (non-vérifié)
+- **Date launch** : 1er septembre 2026 (Product Hunt) | **Fondateurs** : non divulgués
+- **Catégorie** : Autonomous AI Agent / Mobile + Desktop Automation
+- **Métriques buzz** : Launch PH le 1er sept 2026, dans le digest StartupCorners, communauté dev en veille
 
-### 2. Proposition de Valeur
-- **Problème** : Les équipes B2B gèrent les partenariats créateurs manuellement (newsletters, podcasts, réseaux sociaux) — process fragmenté, ROI invisible
-- **Solution** : Deux agents IA : (1) **Talent Manager** pour les créateurs (admin partenariats) ; (2) **New Media Manager** pour les B2B (découverte créateurs + stratégie + suivi campagnes)
-- **USP** : Première plateforme "new media" nativement B2B (pas B2C influencer marketing) ; automatise les deux côtés de la marketplace
-- **Target** : CMO/Growth SaaS B2B (Series A+), créateurs de newsletters/podcasts tech avec 5K+ abonnés
-- **Pricing** : Non public — estimé $500-2000/mois SaaS B2B (segment entreprise)
+### 2. Proposition de valeur
+- **Problème** : Les agents IA actuels (Claude, ChatGPT) restent dans le browser — ils ne peuvent pas agir sur un téléphone Android ou l'OS complet
+- **Solution** : Agent autonome qui pilote téléphone Android ET ordinateur : clique, scroll, remplit des formulaires, automatise des workflows cross-app
+- **USP** : Contrôle bi-device (phone + desktop) en une seule interface, sans code
+- **Cible** : Opérateurs no-code, freelances, PME souhaitant automatiser des tâches répétitives
+- **Pricing** : Freemium supposé + abonnement pro (estimé $20-50/mois)
 
 ### 3. Stack Technique
-- **Frontend** : Web SPA (React/Next.js)
-- **Backend** : Deux agents LLM spécialisés, scraping/indexation créateurs, analytics campagnes
-- **Infra** : Cloud AWS, base de données créateurs propriétaire
-- **APIs clés** : LinkedIn, Substack API, Spotify (podcasts), Beehiiv, social listening
+- **Frontend** : App Android + client desktop | **Backend** : Computer-use API (Anthropic/OpenAI style)
+- **Infra** : Exécution locale sur device ou cloud relay | **APIs** : Android Accessibility API, screen capture + vision LLM
+- **Open-source** : Non (probable)
 
-### 4. Psychologie
-- **Triggers** : Autorité ($1.2M raise signal crédibilité), Pain évident (chaque SaaS cherche des créateurs B2B), FOMO (creator economy B2B = nouveau canal inexploré)
-- **JTBD** : "Quand je veux scaler mon acquisition B2B via les créateurs, je veux identifier et activer les bons partenaires sans recruter une équipe dédiée"
-- **Aha moment** : Recevoir une liste de 20 créateurs parfaitement ciblés avec plan de collaboration clé en main en < 2 min
+### 4. Psychologie du succès
+- **Trigger** : "Mon agent fait le travail ennuyeux pendant que je dors" — rêve ultime de l'automatisation
+- **JTBD** : "Je veux automatiser des tâches sur mon téléphone sans apprendre à coder"
+- **Aha moment** : Premier workflow cross-app exécuté en autonomie (ex : réserver un taxi + envoyer un SMS de confirmation)
+- **Viral loop** : Démonstrations vidéo Twitter/TikTok de l'agent en action = content naturellement partageable
 
 ### 5. Go-to-Market
-- **Canaux** : PH launch → presse tech → pitch direct aux CMO SaaS via LinkedIn
-- **Viral loop** : Les créateurs partenaires mentionnent Astute dans leurs contenus → croissance organique des deux côtés
-- **Stratégie** : Lever du pre-seed pour valider la marketplace avant d'atteindre le seuil critique (≥500 créateurs actifs)
+- **Canal principal** : Product Hunt, Twitter/X (vidéos démo), Discord no-code
+- **Stratégie** : Lancement PH + vidéo virale de l'agent exécutant une tâche impressionnante
+- **Acquisition** : SEO "android automation AI agent", influenceurs productivity YouTube
 
-### 6. Réplication (pour Kyle)
-- **Complexité** : 7/10 — marketplace double-face + agents LLM + base de données créateurs propriétaire
-- **Verticaux adjacents** : Astute pour podcasts francophones, Astute pour créateurs LinkedIn EU, version verticale (tech, finance, legal)
-- **Angle Kyle** : Ajouter **Voice AI pitch generator** — générer automatiquement un pitch vocal personnalisé pour chaque créateur
-- **Temps de dev** : 8-12 semaines MVP (1 côté marketplace + 1 agent LLM basic)
-- **Sources** : [Tech.eu](https://tech.eu/2026/08/17/astute-raises-12m-and-launches-b2b-new-media-platform/) | [Dealroom](https://app.dealroom.co/news/note/astute-raises-1-03m-pre-seed-to-automate-b2b-creator-partnerships)
+### 6. Réplication pour Kyle
+- **Complexité** : 8/10 — computer use est still unstable, latence, fiabilité critique = grosse ingénierie
+- **Angle Kyle** : Plug voice + phone agent → agent vocal qui pilote les apps du téléphone par la voix
+- **Verticaux adjacents** : Voice-driven phone automation pour seniors, pour call centers, pour commerciaux terrains
+- **Temps de dev** : 3-6 mois pour version stable — dépend fortement de la maturité computer-use APIs
 
-## 🏆 TOP APP #3 : Meta AI for Mac
+## 🏆 TOP APP #3 : Orato AI
 ### 1. Identification
-- **URL** : [meta.ai](https://www.meta.com/ai) | [TechCrunch](https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/) | [MacRumors](https://www.macrumors.com/2026/08/19/meta-ai-mac-app/)
-- **Launch** : 19 août 2026 | **Fondateur** : Meta (Big Tech)
-- **Catégorie** : Voice AI / Desktop Assistant — ⚠️ Signal de marché Big Tech (pas une startup)
-- **Buzz** : Couverture massive TechCrunch, MacRumors, 9to5Mac, Unite.AI le jour du lancement
+- **Nom** : Orato AI | **URL** : oratoai.com
+- **Date launch** : 1er septembre 2026 (Product Hunt) | **App Store** : iOS disponible (id6740540874)
+- **Catégorie** : AI Speech Coach / Communication Skills
+- **Métriques buzz** : Launch PH sept 2026, app iOS live, segment croissant "communication AI coaching"
 
-### 2. Proposition de Valeur
-- **Problème** : Les assistants IA vivent dans des onglets séparés — pas intégrés dans le workflow Mac natif
-- **Solution** : App Mac dédiée avec (1) **dictée system-wide** (raccourci → parle → texte déposé dans n'importe quelle app) et (2) **screen context** (Meta AI lit n'importe quelle fenêtre active pour contextualiser les réponses)
-- **USP** : Gratuit + intégré au compte Meta déjà existant de milliards d'utilisateurs ; connexion Instagram/Facebook Ads + Google Workspace pour les créateurs
-- **Target** : Utilisateurs Mac + créateurs/PME déjà sur Facebook/Instagram
-- **Pricing** : Gratuit (freemium Meta, monétisé via ads data)
+### 2. Proposition de valeur
+- **Problème** : Professionnels débutants, étudiants, job seekers ont peur de parler en public, font des présentations médiocres, ne progressent pas faute de feedback réel
+- **Solution** : Coach vocal IA qui donne un feedback instantané sur le rythme, les mots parasites, la clarté, la structure, le contact visuel (via caméra)
+- **USP** : Feedback immédiat, tracké dans le temps (WPM, filler words, eye contact score) + pratique illimitée
+- **Cible** : Étudiants, jeunes actifs, fondateurs, commercial préparant des pitches — segment global énorme
+- **Pricing** : Freemium (sessions limitées) + Pro estimé $15-25/mois
 
 ### 3. Stack Technique
-- **Frontend** : App macOS native (menu bar)
-- **Backend** : Modèle Muse Spark (Meta propriétaire), screen capture API macOS
-- **Infra** : Meta cloud, intégrations Google Workspace OAuth
-- **APIs clés** : macOS Accessibility API, Google Workspace, Meta Graph API (Instagram/Facebook Ads)
+- **Frontend** : iOS app native | **Backend** : Speech-to-text (Whisper/Deepgram) + LLM feedback engine
+- **Infra** : Cloud (AWS/GCP) | **APIs** : Whisper pour transcription, Vision API pour eye contact, LLM pour coaching narratif
+- **Open-source** : Non
 
-### 4. Psychologie
-- **Triggers** : Autorité (Meta = crédibilité globale), Gratuité (zéro friction d'adoption), Social proof (milliards de comptes Meta existants)
-- **JTBD** : "Quand je veux dicter vite dans n'importe quelle app sans changer de contexte, je veux un outil invisible"
-- **Aha moment** : Dicter un email en anglais et le voir apparaître directement dans Gmail — sans copier-coller
+### 4. Psychologie du succès
+- **Trigger** : Anxiété sociale + pression pro = douleur universelle et immédiate
+- **JTBD** : "Je veux être prêt pour mon interview/pitch/présentation sans payer $500/h un coach humain"
+- **Aha moment** : Première session avec score détaillé + conseil spécifique actionnable en 2 minutes
+- **Viral loop** : Partage de score sur LinkedIn ("j'ai réduit mes tics de 40% en 2 semaines") + challenges
 
 ### 5. Go-to-Market
-- **Canaux** : PR massive → Mac App Store → base d'utilisateurs Meta existante (3B+ users)
-- **Viral loop** : "Créé avec Meta AI" badges dans les posts Instagram/Facebook
-- **Stratégie** : Freemium → upsell Meta for Business (tier payant pour PME/créateurs)
+- **Canal principal** : App Store ASO, TikTok/Reels démonstrations, LinkedIn (professionnels)
+- **Stratégie launch** : PH Day 1 + partenariats écoles de commerce, bootcamps, LinkedIn Learning
+- **Acquisition** : SEO "public speaking coach AI", partnerships B2B RH/Formation
 
-### 6. Réplication (pour Kyle) — Opportunité créée par Meta
-- **Complexité** : 3/10 pour une version indie/SaaS verticalisée (Meta couvre le généraliste)
-- **Verticaux adjacents** : Dictée voice-first **spécialisée par métier** (médecins, juristes, développeurs, commerciaux)
-- **Angle Kyle** : Meta prouve le marché de la dictée system-wide → **construire la version pro/B2B** avec intégrations CRM, analytics, multi-lang — là où Meta ne va pas
-- **Temps de dev** : 3-5 semaines MVP (macOS menu bar app + Whisper API + clipboard injection)
-- **Sources** : [TechCrunch](https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/) | [MacRumors](https://www.macrumors.com/2026/08/19/meta-ai-mac-app/)
+### 6. Réplication pour Kyle
+- **Complexité** : 4/10 — stack relativement simple, LLM + STT + scoring UI ; compétition croissante
+- **Angle Kyle** : Version FR marché moins saturé, ou niche verticale (pitch VC, entretien commercial, prise de parole politique)
+- **Verticaux adjacents** : Coach entretien langue étrangère, coach pour vendeurs, préparation concours grandes écoles FR
+- **Temps de dev** : 4-6 semaines pour MVP mobile
 
-## 💰 Unit Economics Deep Dive — Yasmine Works
-> ⚠️ Yasmine Works est une startup bootstrappée/early-stage. Toutes les estimations ci-dessous sont des inférences basées sur les données publiques disponibles.
+## 💰 Unit Economics Deep Dive — Avoca AI
+### Sources : Getlatka, Sacra, Goodmunity, Idlen, Crunchbase
 
-| Métrique | Estimation | Source / Raisonnement |
+| Métrique | Valeur | Source |
 |---|---|---|
-| **ARR** | ~€180K–€360K | 200-400 clients actifs × €75/mois ARPU moy. |
-| **ARPU** | €75/mois | Mix Starter €29 + Pro €69 + Dev €249 |
-| **Users actifs** | ~200–400 workspaces | Inféré via PH upvotes + pricing tier |
-| **CAC** | ~€80–€150 | PH launch + bouche-à-oreille (CAC faible) |
-| **LTV** | ~€900–€1800 | ARPU × 12 mois churn estimé |
-| **LTV/CAC** | ~8x–12x | 🟢 Excellent |
-| **Payback** | ~1.5–2 mois | CAC / MRR/client |
-| **Burn** | Faible (~€10–20K/mois) | Petit équipe + coût infra Claude API refacturé |
-| **Runway** | >18 mois (si bootstrapped) | Estimé sans levée externe visible |
-| **Rev/Employee** | ~€90–180K/employé | ~2-4 personnes estimées |
-| **Rule of 40** | ~60–80 | Croissance rapide + marges élevées (SaaS Claude reselling) |
+| ARR (estimé) | $50-80M | Getlatka / extrapolation |
+| Valuation | $1B (licorne, avr. 2026) | Kleiner Perkins deal |
+| Funding total | $125M (+ early rounds ~$10M) | Crunchbase |
+| Clients | 1 000+ opérateurs | Page avoca.ai |
+| ARPU moyen | ~$6 000-9 600/an (estimé $500-800/mois) | Logique marché SMB trades |
+| CAC estimé | $800-1 500 (SDR + démo + onboarding) | Comparable Vertical SaaS |
+| LTV estimé | ~$18 000-28 000 (36 mois × ARPU) | Rétention SaaS SMB ~85% |
+| LTV/CAC | ~15-20x 🟢 | Excellent |
+| Payback period | 2-3 mois | ARPU vs CAC |
+| Burn rate | Élevé (recrutement/R&D post-$125M) | Startup croissance |
+| Runway | 18-24 mois | Estimé |
+| Rev/Employee | Fort (produit AI, peu d'ops) | |
+| Rule of 40 | >40 si croissance >100% YoY | Probable vu traction |
 
-**Verdict santé : 🟢 Sain pour early-stage**
-- Modèle ingénieux : refacturation API Claude à l'utilisateur = **marges ~85%**, zéro coût infra LLM
-- Victor ($75M levés) = validation externe massive du segment → Yasmine dans la zone de compression avant exit ou levée
-- Risque principal : Meta AI / OpenAI lancent un Slack Bot natif et cannibalisent le segment généraliste
+### Verdict santé : 🟢 EXCELLENT
+Métriques unitaires exemplaires pour un Vertical SaaS AI. La LTV/CAC élevée reflète un marché SMB où le ROI est ultra-tangible (chaque appel non manqué = revenu direct). Risque : dépendance à ServiceTitan + concurrence des grandes plateformes de téléphonie (Google, Twilio) qui pourraient lancer des solutions similaires. La fenêtre de domination est ouverte 12-24 mois.
+
+**Modèle réplicable :** Le vrai insight = choisir un vertical où chaque minute de downtime a un coût en $ mesurable. Artisans FR = même logique.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Yasmine Works | Astute | Meta AI Mac |
+| Dimension (poids) | Avoca AI | ConscioussAI | Orato AI |
 |---|---|---|---|
-| 📊 Market Size (20%) | 8 — Slack AI agents: >€2B TAM | 7 — B2B creator economy: €500M+ | 9 — Voice desktop: >€5B TAM |
-| ⚙️ Complexité inversée (15%) | 7 — Slack SDK + LLM bien connus | 5 — Double marketplace complexe | 8 — macOS app + Whisper API |
-| ⏱️ Time-to-Market (15%) | 7 — 4-6 semaines MVP réaliste | 5 — 8-12 semaines minimum | 9 — 3-5 semaines clone indie |
-| 🏟️ Compétition inversée (15%) | 5 — Viktor $75M, Salesforce, etc. | 7 — Aucune plateforme EU B2B dominante | 6 — Wispr Flow, Apple Dictation |
-| 💰 Revenue Potential (20%) | 8 — €10K MRR en 3 mois faisable | 6 — Long cycle vente B2B | 8 — SaaS pro dicté: €50K MRR possible |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — Voice AI + SaaS + Claude → parfait | 6 — Marketing B2B, moins technique | 9 — Voice-first = cœur de métier Kyle |
+| 📊 Market Size (20%) | 9 — SMB trades US $200B | 8 — Automation universelle | 7 — Coaching pro global |
+| ⚙️ Complexité inversée (15%) | 5 — Voice AI complexe | 3 — Computer-use instable | 7 — Stack simple |
+| ⏱️ Time-to-Market (15%) | 5 — 3-4 mois (intégrations) | 3 — 4-6 mois | 8 — 4-6 semaines |
+| 🏟️ Compétition inversée (15%) | 7 — Vertical niche, peu de cx FR | 4 — espace encombré (xAI Grok, etc.) | 5 — Marché croissant, compétitif |
+| 💰 Revenue Potential (20%) | 9 — $500-800/mois/client, ROI clair | 6 — Freemium difficile à monétiser | 7 — $15-25/mois scalable |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 10 — Voice AI expert + SaaS | 6 — Expertise IA mais R&D lourde | 7 — Voice AI applicable |
 
-| App | **Score pondéré** | Verdict |
-|---|---|---|
-| Yasmine Works | **7.35** | 🟡 BUILD ADJACENT (voice layer) |
-| Astute | **5.95** | 🟠 WATCH |
-| Meta AI Mac (clone indie B2B) | **8.05** | 🟢 **BUILD NOW** |
+### Scores pondérés
 
-> **Note Scorecard** : Le score "Meta AI Mac" évalue l'**opportunité pour Kyle** (construire la version pro/B2B de la dictée système), pas l'app Meta elle-même. Meta valide le marché — Kyle peut prendre la niche verticale.
+**Avoca AI (FR vertical)** :
+(9×0.20) + (5×0.15) + (5×0.15) + (7×0.15) + (9×0.20) + (10×0.15) = 1.8 + 0.75 + 0.75 + 1.05 + 1.8 + 1.5 = **7.65 🟢 BUILD NOW**
+
+**ConscioussAI** :
+(8×0.20) + (3×0.15) + (3×0.15) + (4×0.15) + (6×0.20) + (6×0.15) = 1.6 + 0.45 + 0.45 + 0.60 + 1.2 + 0.90 = **5.20 🟠 WATCH**
+
+**Orato AI (niche FR)** :
+(7×0.20) + (7×0.15) + (8×0.15) + (5×0.15) + (7×0.20) + (7×0.15) = 1.4 + 1.05 + 1.20 + 0.75 + 1.4 + 1.05 = **6.85 🟡 BUILD ADJACENT**
 
 ## 📈 Tendances Émergentes
-### 1. 🎙️ Voice-first devient infrastructure, pas feature
-Meta AI Mac rejoint Wispr Flow, Apple Dictation étendue, OpenClaw — la **dictée system-wide** n'est plus une niche. Elle devient l'interface de facto pour les power-users Mac. La bataille se joue maintenant sur la **spécialisation verticale** (pro, médecin, commercial) plutôt que le généraliste.
+### 1. 🎙️ Voice AI Vertical : la vague licorne SMB
+Avoca ($1B) confirme la thèse : le voice AI ciblé sur 1 vertical SMB avec ROI immédiat crée des business $10M+ ARR rapidement. Le marché FR artisanat (plombiers, électriciens, CVC) est quasi vierge. Fenêtre : 12-18 mois.
 
-### 2. 🤖 Agents Slack-natifs = nouvelle catégorie SaaS
-Viktor ($75M), Yasmine Works, Mio (€1.9M seed, Paris) — le pattern est clair : les agents IA vivent là où les équipes travaillent déjà. **Slack/Teams sont les nouveaux OS des PME**. Les prochains 6 mois verront 10+ lancements dans cette catégorie.
+### 2. 🤖 Computer-Use Agents : promesse vs réalité
+L'explosion de lancements PH (ConscioussAI, etc.) sur les agents téléphone/desktop montre une demande forte. Mais la fiabilité reste le frein majeur. Les premiers à résoudre la stabilité capturent un marché énorme. Surveiller les progrès d'Anthropic Computer Use et de Google Project Jarvis.
 
-### 3. 🎨 Creator Economy B2B décolle
-Astute, Beehiiv ($33M Series B 2025), Substack at scale — le B2B découvre les créateurs (newsletters, podcasts) comme canal d'acquisition supérieur aux ads. Toute startup SaaS B2B cherche des "Lenny's Newsletter" pour son secteur. Marché sous-outillé.
+### 3. 💬 AI Communication Coaching : démocratisation du coaching humain
+Orato, Oratorai, AI Talk Coach = segment qui explose. Toastmasters a 300K membres payants ; le coaching vocal/speech était réservé aux $200+/h. L'IA démocratise ça. Niche FR peu adressée (grande peur du parisien à l'oral, concours oraux grandes écoles, etc.).
 
-### 4. 🧩 "Claude-powered" = label de confiance EU
-Yasmine Works positionne explicitement "tourne sur votre compte Claude" = data privacy garantie. En Europe post-AI Act (2026), c'est un argument commercial fort. Le pattern "apportez votre propre clé API" (BYOK) devient standard pour les apps EU.
+### 4. 📈 Vertical AI > Horizontal AI
+73 verticaux AI ont levé $3B sur 12 mois (août 2025-juillet 2026). Les investisseurs fuient les outils généraux au profit des verticaux avec données propriétaires et workflows entiers automatisés. Signal fort : si tu peux "posséder" un workflow complet d'un métier, tu es fondable et défendable.
 
-### 5. 📈 SaaS à 2 agents spécialisés > assistant généraliste
-Astute (2 agents), Hey Noah (1 agent proactif) vs ChatGPT/Gemini généraliste — la tendance est aux **agents spécialisés avec workflows propriétaires** plutôt que les chat UI génériques. Les clients B2B paient pour la spécialisation.
+### 5. 🇫🇷 Marché FR : retard = opportunité
+La plupart des outils identifiés sont US-first. Le gap FR est réel : artisans, PME industrielles, cabinets de santé, agences immo sont sous-équipés en voice AI. Regulatory moat FR possible (RGPD local, langue, culture).
 
 ## 💡 Insights Actionnables
-### 🟢 ACTION IMMÉDIATE — "Pro Dictation for Mac" (2-3 semaines)
-**Opportunité directe Kyle** : Meta AI Mac valide la dictée system-wide mais reste généraliste et data-hungry (Meta). Construire une app macOS menu-bar **voice dictation B2B** avec :
-- Profils métier (commercial, développeur, médecin) qui adaptent le style de réécriture
-- Intégration directe CRM (HubSpot, Salesforce) pour dicter des notes de démo
-- Mode "privacy-first" (on-device Whisper ou API clé perso)
-- Pricing : €9-29/mois/user → TAM réaliste €50K MRR en 6 mois avec 200 companies
+### 🚀 Action #1 — BUILD NOW : Avoca FR pour artisans (score 7.65)
+**Quoi** : Agent vocal IA pour plombiers/CVC/électriciens français — répond aux appels, book des interventions, relance les devis.
+**Pourquoi maintenant** : Avoca vient d'atteindre $1B aux US sur ce modèle exact. Le FR est vierge. Kyle a déjà la stack voice AI.
+**Différenciateur** : Intégration Synchroteam / Logiciel Bâtiment + français natif + conformité RGPD
+**Premier pas** : Interviewer 5 artisans cette semaine sur leur problème n°1 avec les appels manqués.
 
-> **Pourquoi maintenant** : Wispr Flow ($315M, $2B valuation) prouve le marché premium. Meta prouve l'appétit grand public. La **fenêtre indie B2B** se ferme d'ici 9-12 mois quand Apple intégrera nativement.
+### 🟡 Action #2 — WATCH : Orato FR niche grande école/commercial
+**Quoi** : Coach vocal IA pour préparation concours oraux (HEC/ENA/concours fonction publique) ou commerciaux terrains.
+**Pourquoi** : Segment ultra-niche, disposé à payer, compétition quasi-nulle en FR.
+**Risque** : Petit marché adressable, requiert B2B (établissements, entreprises).
+**Premier pas** : Valider taille de marché avec 3 entretiens dans des prépas ou boîtes de formation.
+
+### 🔴 À éviter : Computer-use agents génériques
+ConscioussAI et ses clones = technologie pas encore mûre pour le grand public, fiabilité critique, compétition directe avec Google/Apple/Meta. À regarder dans 6 mois.
+
+### 💡 Insight Méta — La Formule Gagnante 2026
+> **Vertical SMB + Voice AI + ROI mesurable en $ + intégration CRM existant = licorne en 24 mois**
+
+Kyle a déjà 80% des pièces. Il manque : le choix du vertical FR et les 5 premiers clients pilotes.
 
 ---
-
-### 🟡 WATCH — Yasmine Works angle voice
-Si Kyle veut un agent Slack, **ne pas cloner Yasmine** — ajouter ce qu'ils n'ont pas : **activation vocale**. Intégrer Whisper STT dans un Slack bot existant. Positionnement : "Yasmine mais en dictant". Différenciation claire, pas de guerre frontale.
-
----
-
-### 📌 Veille à activer pour la semaine prochaine
-- Surveiller Viktor (concurrent direct Yasmine) : levée Series A potentielle signalerait que le segment chauffe fort
-- Checker Mio (Paris, €1.9M seed) — concurrent FR de Yasmine Works, pourrait être une opportunité de partenariat/acquisition
-- Surveiller l'adoption Meta AI Mac dans les communautés de power-users (Reddit r/MacApps, producthunt.com/discussion)
-- Vérifier si Apple va annoncer une dictée améliorée dans macOS 16 Sequoia (WWDC 2026 fallout — risque marché)
+*Sources : [GetLatka](https://getlatka.com/companies/sierra) · [Sacra Sierra](https://sacra.com/c/sierra/) · [Avoca $1B Idlen](https://www.idlen.io/news/avoca-ai-1-billion-valuation-kleiner-perkins-services-economy-voice-agents-april-2026/) · [Avoca Goodmunity](https://goodmunity.com/funding/avoca-125m-funding-ai-home-services-automation-2026/) · [Vertical AI SaasMag](https://www.saasmag.com/vertical-ai-agents-eating-horizontal-saas/) · [OSSInsight AI Trending](https://ossinsight.io/trending/ai) · [Agentic.ai News](https://agentic.ai/news) · [StartupCorners Sept 1](https://startupcorners.com/digest/product-digest-2026-09-01) · [Orato App Store](https://apps.apple.com/us/app/orato-ai-speech-coach/id6740540874)*
