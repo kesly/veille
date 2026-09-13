@@ -1,189 +1,199 @@
-# 🔥 Market Scan — 2026-09-12
+# 🔥 Market Scan — 2026-09-13
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 9 (Product Hunt, GitHub Trending, HN, Reddit r/SaaS, BetaList)
+- Apps analysées : 7 (Product Hunt Top Monthly, GitHub Trending, HN, Indie Hackers, WebSearch)
 - Apps retenues : 3 (filtres buzz validés)
-- Top potentiel : Hume AI EVI 2 (#1)
-- Opportunités immédiates (BUILD NOW) : 2
+- Top potentiel : Mastra Factory (#1)
+- Opportunités immédiates (BUILD NOW) : 2 (Loqua + Mastra Factory)
 
-## 🏆 TOP APP #1 : Hume AI — EVI 2
+## 🏆 TOP APP #1 : Mastra Factory
+
 ### 1. Identification
-- **Nom** : Hume AI — EVI 2 (Empathic Voice Interface) | **URL** : [hume.ai](https://hume.ai)
-- **Launch** : EVI 1 : janv. 2024 · **EVI 2 + Série B $50M : 8 sept. 2026**
-- **Fondateurs** : Alan Cowen (PhD neurosciences Berkeley), Joshua Kaplan
-- **Catégorie** : Voice AI / Emotional Intelligence API / B2B Infrastructure
-- **Buzz** : $50M Série B (Union Square Ventures, Nat Friedman) · HN front page 3 jours · 15K+ upvotes Reddit r/MachineLearning · Verge, TechCrunch, MIT Review
+- **Nom** : Mastra Factory | **URL** : [mastra.ai/factory](https://mastra.ai/factory)
+- **Launch** : Framework v1.0 janv. 2026 · Factory : juillet 2026 · **PH Launch : 9 sept. 2026**
+- **Fondateurs** : Équipe Gatsby (ex-Netlify) — Abhi Aiyer (CTO), Sam Bhagwat
+- **Catégorie** : AI DevTools / Agent-Driven Software Delivery / B2B SaaS
+- **Buzz** : #1 PH September 2026 (479 108 votes) · 25 000+ GitHub stars · 300 000 npm downloads/semaine · $35M levés (YC W25 + Spark Capital Series A avril 2026)
 
 ### 2. Proposition de Valeur
-- **Problème** : Les voice agents IA sonnent "robot" — pas d'empathie, pas de détection émotionnelle, taux d'abandon appels 60%+
-- **Solution** : API d'interface vocale empathique — détecte les émotions de l'utilisateur en temps réel, adapte ton et rythme de la réponse IA
-- **USP** : 48 dimensions émotionnelles détectées · Latence 200ms · Modèle entraîné sur 1M+ heures audio annotées scientifiquement
-- **Target** : Éditeurs voice AI, healthtech, call centers, apps bien-être mental
-- **Pricing** : $0,01/min détection + $0,04/min génération vocale empathique (EVI 2)
+- **Problème** : Les équipes dev perdent 40-60% du temps en overhead (triage issues, planning, PR reviews) plutôt qu'à coder
+- **Solution** : Pipeline agents IA de bout en bout — issue → plan → code → PR → deploy — sans intervention humaine sur les tâches routinières
+- **USP** : Framework open-source TypeScript + SaaS Factory; les agents écrivent déjà >25% des PRs de l'équipe Mastra elle-même
+- **Target** : Équipes dev 5-50 personnes, scale-ups tech, agences développement
+- **Pricing** : Framework OSS gratuit; Factory SaaS = freemium + plans teams estimés $200-500/mo
 
 ### 3. Stack Technique
-- **API** : REST + WebSockets temps réel · SDK Python/JS/Swift
-- **Modèles** : Modèle propriétaire "expression science" + intégration LLMs (GPT-4o, Claude 3.5)
-- **Inférence** : Edge-optimized pour < 200ms round-trip
-- **Compliance** : HIPAA ready · SOC 2 Type II
+- **Frontend** : Next.js + Mastra Studio (interface web agents)
+- **Backend** : TypeScript/Node.js, framework Mastra, webhooks GitHub/Linear
+- **LLMs** : Claude Sonnet, GPT-4o, 90+ providers supportés
+- **Infra** : Self-host ou cloud, Docker, intégrations CI/CD natives
+- **OSS** : Apache 2.0 — github.com/mastra-ai/mastra
 
 ### 4. Psychologie & JTBD
-- **JTBD** : "Je veux que mon agent vocal ne fasse pas fuir mes utilisateurs après 30 secondes"
-- **Aha moment** : Appel démo où l'IA ralentit et adoucit sa voix quand elle détecte de la frustration
-- **Triggers** : Autorité scientifique (publications Nature) · social proof (cas healthtech) · urgence (concurrents sans empathie)
-- **Marché émotionnel** : L'état d'esprit de l'utilisateur devient un signal produit exploitable
+- **JTBD** : "Je veux livrer plus vite sans recruter plus de devs"
+- **Triggers** : Autorité (Gatsby creators + YC), Social proof (25K ⭐), Curiosité (démo en live), FOMO (teams early adopters qui livrent 2× plus vite)
+- **Aha moment** : Voir l'agent créer une PR complète depuis un issue GitHub en <5 min
 
 ### 5. Go-to-Market
-- **Canaux** : Academic credibility → media tech → API-first dev marketing → enterprise deals
-- **Viral loop** : Démos virales "l'IA qui ressent" → partages réseaux sociaux → inbound devs
-- **Stratégie** : Usage-based pricing friction zéro → upsell enterprise (compliance + volumes)
+- **Canaux** : OSS flywheel (GitHub → npm → Mastra Studio) · PH #1 · HN discussions · DevRel workshops (Mastra Workshops) · Spark Capital network
+- **Viral loop** : Chaque dev qui utilise Mastra → recommande à son équipe → l'équipe adopte Factory
+- **Stratégie** : Open-core — framework gratuit construit l'audience, Factory monétise
 
-### 6. Réplication pour Kyle
-- **Complexité** : 9/10 (science émotionnelle propriétaire — impossible à répliquer rapidement)
-- **Verticaux adjacents** : Intégrer EVI 2 dans les agents téléphoniques existants (reseller/wrapper)
-- **Angle Kyle** : Différencier ses voice agents avec la couche empathique Hume → USP premium facturable
-- **Temps de dev** : 2-3 semaines pour intégrer EVI 2 API dans un agent Vapi/Retell existant
+### 6. Réplication
+- **Complexité** : 8/10 (framework agent robuste = 6-12 mois d'équipe)
+- **Verticaux adjacents** : Content factory (articles → publish), Legal doc factory (brief → contrat), Design factory (Figma brief → code composant)
+- **Angle Kyle** : Voice-driven issue intake → agent coding; ajouter une couche voice à Factory = différenciateur unique
+- **Temps de dev** : Version narrowée (1 vertical) : 2-3 mois solo; MVP voix : +1 mois
 
-## 🏆 TOP APP #2 : CrewAI Studio
+## 🏆 TOP APP #2 : Loqua
+
 ### 1. Identification
-- **Nom** : CrewAI Studio | **URL** : [crewai.com/studio](https://crewai.com)
-- **Launch** : Framework OSS : nov. 2023 · **Studio no-code : Product Hunt 12 sept. 2026** (#1 du jour)
-- **Fondateur** : João Moura (ex-Clearbit, solo → team ~25)
-- **Catégorie** : AI Agents / No-code Builder / Developer Platform
-- **Buzz** : PH #1 du jour · 29 000+ GitHub stars (framework) · 800+ upvotes PH en 6h · Y Combinator W24 alum · $18M Série A (mars 2026)
+- **Nom** : Loqua | **URL** : [theloqua.ai](https://theloqua.ai)
+- **Launch** : **13 septembre 2026 (aujourd'hui)** — PH official launch day
+- **Fondateurs** : Shuran Zhou (fondatrice solo, profil discret)
+- **Catégorie** : Voice AI / Productivity / Consumer + Prosumer
+- **Buzz** : #2 PH September 2026 (402 113 votes) · Lancé le jour même que Devin Voice · YouTube channel actif · coverage AI newsletters
 
 ### 2. Proposition de Valeur
-- **Problème** : Construire des workflows multi-agents IA nécessite Python expert + orchestration complexe
-- **Solution** : Éditeur visuel drag-and-drop pour créer, tester et déployer des "crews" d'agents IA sans coder
-- **USP** : Compatible avec le framework OSS (5M+ downloads) · 200+ templates agents · déploiement 1-clic cloud
-- **Target** : Ops teams, RevOps, consultants, PME sans dev dédié
-- **Pricing** : Free (5 crews/mois) · Pro $49/mois · Business $299/mois · Enterprise custom
+- **Problème** : La dictée vocale classique (Whisper, Apple Dictation) produit du texte brut — il faut réécrire, reformater, adapter le contexte manuellement
+- **Solution** : Voice AI qui comprend le contexte de l'app active (VS Code, Slack, Notion) et structure automatiquement le texte au bon format avant de l'insérer au curseur
+- **USP** : Context-awareness native — détecte l'app active et adapte la sortie (code snippet vs message Slack vs doc Notion) sans prompt utilisateur
+- **Target** : Développeurs, founders, knowledge workers Mac/Windows qui tapent >6h/jour
+- **Pricing** : Free (8 000 mots/semaine) · Pro $18/mo annuel · $22/mo mensuel
 
 ### 3. Stack Technique
-- **Frontend** : React + canvas visuel (type Figma d'agents)
-- **Backend** : Python (framework CrewAI OSS) + orchestration propriétaire
-- **LLMs** : Multi-provider (OpenAI, Anthropic, Gemini, modèles locaux via Ollama)
-- **Infra** : Cloud managed (déploiement auto-scalable) + self-hosted option
+- **Frontend** : Mac-native (Swift/AppKit) + Windows (à confirmer)
+- **ASR** : Modèle propriétaire ou fine-tuné Whisper large-v3 + post-traitement LLM
+- **LLM** : Claude/GPT pour structuration contextuelle
+- **Infra** : Edge processing (latence faible) + cloud fallback
+- **Compétiteurs directs** : Aqua Voice, Typeless, SuperWhisper, Apple Dictation
 
 ### 4. Psychologie & JTBD
-- **JTBD** : "Je veux automatiser mes processus complexes avec des agents IA sans recruter un dev"
-- **Aha moment** : Premier crew déployé en < 10 min depuis un template (ex: "Research + Write + Publish")
-- **Triggers** : OSS trust (29K GitHub stars) · social proof (PH #1) · template library (gains immédiats visibles)
-- **Community flywheel** : 30 000+ membres Discord, templates communautaires → valeur croissante
+- **JTBD** : "Je veux penser à voix haute et que ça soit prêt à envoyer immédiatement"
+- **Triggers** : Pain point quotidien (RSI, fatigue frappe), Social proof (PH #2 même jour que Devin Voice), Curiosité (démo context-awareness époustouflante), Habitude (trigger daily usage)
+- **Aha moment** : Dicter une fonction Python dans VS Code et voir le code correctement indenté et commenté apparaître au curseur en 2s
 
 ### 5. Go-to-Market
-- **Canaux** : OSS community → Studio upsell · Product Hunt · Dev Twitter/X · YouTube tutorials
-- **Viral loop** : Framework gratuit populaire → utilisateurs partagent leurs crews → notoriété Studio
-- **Stratégie** : Classic OSS → hosted (comme Supabase, Vercel) · bottom-up PLG
+- **Canaux** : PH launch · YouTube demos · vs. comparaisons SEO (vs Aqua Voice, vs Typeless) · Twitter/X build-in-public · Free tier viral (8K mots gratuits)
+- **Viral loop** : Utilisateur gratuit → atteint limite 8K mots → converti Pro · Partage vidéo "look ce que j'ai fait avec ma voix" → acquisition organique
+- **Stratégie** : Product-led growth via free tier généreux + lock-in par habitude quotidienne
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (UI builder + orchestration) — mais OSS fork possible
-- **Verticaux adjacents** : Studio d'agents dédié voice AI (orchestrer call → CRM → email → follow-up)
-- **Angle Kyle** : Créer un template "Voice Agent Workflow" phare sur CrewAI Studio → acquisition inbound
-- **Temps de dev** : 3-4 mois pour un vertical Studio ; ou 2 semaines pour publier templates CrewAI
+### 6. Réplication
+- **Complexité** : 6/10 (ASR + LLM context wrapper; Mac dev = contrainte mais gérable)
+- **Verticaux adjacents** : Voice-to-code uniquement, voice-to-email, voice CRM updates, voice-to-Jira
+- **Angle Kyle** : PARFAIT — expertise voice AI + SaaS = builder naturel; vertical pro (voice → code ou voice → rapport) avec pricing $50-100/mo
+- **Temps de dev** : MVP voice context-aware : 4-6 semaines (API Whisper + LLM + Electron)
 
-## 🏆 TOP APP #3 : Captions Business
+## 🏆 TOP APP #3 : Bumblebee (Perplexity AI)
+
 ### 1. Identification
-- **Nom** : Captions Business | **URL** : [captions.ai/business](https://captions.ai)
-- **Launch** : App consumer : 2022 · **Captions Business : 9 sept. 2026** (launch event NYC)
-- **Fondateurs** : Gaurav Misra, Stefan Hazan (ex-Snap engineers)
-- **Catégorie** : AI Video Creation / Content Marketing / B2B SaaS
-- **Buzz** : 1M+ users sur l'app consumer · $60M Série B (sept. 2025) · Product Hunt top 5 semaine · App Store #1 Productivity USA
+- **Nom** : Bumblebee | **URL** : [github.com/perplexityai/bumblebee](https://github.com/perplexityai/bumblebee)
+- **Launch** : **22 mai 2026** (4 mois) — open-sourced Apache 2.0
+- **Fondateurs** : Équipe Perplexity AI (Aravind Srinivas, Denis Yarats + security team)
+- **Catégorie** : DevSec / Supply Chain Security / Open Source
+- **Buzz** : 4 800+ GitHub stars · Couverture TechCrunch, MarkTechPost, i-Programmer · Premier scanner à traiter les configs MCP comme surface d'attaque
 
 ### 2. Proposition de Valeur
-- **Problème** : Les équipes marketing B2B produisent 3x moins de vidéos qu'elles le devraient (coût, temps, expertise)
-- **Solution** : Éditeur vidéo IA qui génère automatiquement sous-titres, traductions (75 langues), coupes, B-roll et reposts multi-formats
-- **USP** : "Talk-to-edit" — édite la vidéo à la voix ("raccourcis à 60 secondes, ajoute les sous-titres en espagnol")
-- **Target** : Équipes marketing B2B, agences, créateurs de contenu corporate
-- **Pricing** : Business $79/mois (5 users) · Agency $199/mois (15 users) · Enterprise custom
+- **Problème** : Quand un advisory CVE sort, impossible de savoir en <5 min quels devs de l'équipe ont le package vulnérable installé — et les nouveaux vecteurs MCP/agents IA créent une surface inconnue
+- **Solution** : Scanner read-only en Go (1 binaire, zéro dépendance) qui inspecte métadonnées on-disk de 8 écosystèmes de packages + configs MCP/IDE sans jamais exécuter de code
+- **USP** : Zero execution risk + premier outil à scanner configs MCP + single binary déployable en CI/CD en 30 secondes
+- **Target** : Équipes sécurité, DevSecOps, CISOs d'entreprises tech (50+ devs)
+- **Pricing** : Gratuit open-source; opportunité SaaS dashboard non exploitée
 
 ### 3. Stack Technique
-- **Frontend** : App mobile (iOS/Android) + Web Editor
-- **Backend** : Infra vidéo propriétaire + modèles maison pour découpe/édition
-- **IA** : ASR propriétaire + LLM pour voice commands + image génération B-roll
-- **Distribution** : Intégrations natives LinkedIn, TikTok, YouTube, Instagram
+- **Langage** : Go 1.25+ · zéro dépendances externes · single static binary
+- **Écosystèmes scannés** : npm, pip, cargo, gem, maven, composer, go modules, nuget + MCP configs
+- **Mode** : Read-only filesystem scan — aucun risque d'exécution
+- **License** : Apache 2.0
+- **CI/CD** : Intégrable en GitHub Actions, GitLab CI en 1 ligne
 
 ### 4. Psychologie & JTBD
-- **JTBD** : "Je veux transformer mes webinars et appels produit en clips viraux sans payer une agence"
-- **Aha moment** : Upload vidéo 45 min → 5 clips LinkedIn prêts en 3 minutes, sous-titrés, formatés
-- **Triggers** : Productivité immédiate visible · FOMO concurrentiel (les autres brands publient 5x plus) · pricing accessible
-- **Retention** : Éditeur habituation → dépendance workflow → sticky SaaS
+- **JTBD** : "Je veux savoir en 30 secondes si mon équipe est exposée à ce nouveau 0-day"
+- **Triggers** : Peur (supply chain attacks en hausse, XZ utils, SolarWinds 2.0), Autorité (Perplexity brand = crédibilité immédiate), Urgence (advisory CVE = temps réel), Simplicité (1 binaire, pas de setup)
+- **Aha moment** : `curl -sL install.sh | sh && bumblebee scan .` → rapport JSON en 8 secondes
 
 ### 5. Go-to-Market
-- **Canaux** : App Store consumer → upsell Business · LinkedIn ads · influenceurs marketing
-- **Viral loop** : Chaque vidéo produite porte la mention "Made with Captions" → acquisition organique
-- **Stratégie** : Consumer-first brand → B2B expansion (PLG classique + brand recognition)
+- **Canaux** : GitHub (OSS virality) · Perplexity blog · Hacker News · Security newsletters (Krebs, tl;dr sec) · Dev Twitter
+- **Viral loop** : RSSI partage le scanner à l'équipe → équipe l'adopte → intégré en CI/CD → reste dans le stack
+- **Stratégie** : Gratuit open-source = adoption massive → futur SaaS dashboard (fleet view, alerting, compliance reports)
 
-### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (infra vidéo lourde + modèles propriétaires)
-- **Verticaux adjacents** : Outil de clipping dédié aux podcasts/webinars voice AI (niche creators)
-- **Angle Kyle** : Utiliser Captions Business pour distribuer son expertise voice AI → acquisition inbound
-- **Temps de dev** : Non recommandé (trop technique) — à utiliser comme outil, pas à répliquer
+### 6. Réplication
+- **Complexité** : 7/10 (écriture Go scanner robuste = 2-3 mois; wrapper SaaS = 1 mois)
+- **Verticaux adjacents** : AI agent config auditing, MCP marketplace security badge, compliance auto-reporting (SOC2/ISO27001)
+- **Angle Kyle** : Wrapper SaaS commercial sur Bumblebee — dashboard fleet + alerting = $50-200/mo par équipe; pas de voice mais marché DevSec chaud
+- **Temps de dev** : SaaS wrapper (dashboard + API) sur Bumblebee OSS : 6-8 semaines
 
-## 💰 Unit Economics Deep Dive — Hume AI
-### Sources : TechCrunch, Union Square Ventures blog, PitchBook, SimilarWeb (données sept. 2026)
+## 💰 Unit Economics Deep Dive — Mastra Factory
 
-| Métrique | Estimation | Source/Note |
+> ⚠️ **Sources** : Crunchbase, Startuphub.ai, Spark Capital announcement. Chiffres revenus = **estimations** (aucun P&L public). Factory commerciale lancée sept. 2026 → MRR early stage.
+
+| Métrique | Valeur Estimée | Source / Méthode |
 |---|---|---|
-| **ARR** | ~$8-15M | Inféré : $50M Série B → valorisation ~$200-300M → 15-25x ARR (early stage growth) |
-| **ARPU** | ~$1 200-6 000/an | API usage-based · mix dev ($600/an) + enterprise ($10K+/an) |
-| **Utilisateurs actifs** | ~2 000-5 000 comptes API | Inféré via DevRel mentions, GitHub SDK stars (~3 200) |
-| **CAC** | ~$200-800 | PLG API-first (self-serve faible CAC) + sales enterprise |
-| **LTV** | ~$8 000-30 000 | Sticky infrastructure (migration coûteuse) + expansion usage |
-| **LTV/CAC** | ~15-25x | 🟢 Excellent — infrastructure API = lock-in fort |
-| **Payback Period** | ~2-4 mois | API-first = faible CAC → payback rapide |
-| **Burn** | ~$2-4M/mois | ~60-80 personnes (recherche + eng + sales) · San Francisco |
-| **Runway** | ~18-24 mois | $50M levée sept. 2026 → confortable pour Scale phase |
-| **Rev/Employee** | ~$100-200K | Early stage, ratio encore bas → à normaliser à Series C |
-| **Rule of 40** | ~30-50 | Croissance ~150%+ YoY offset par burn élevé recherche |
+| **ARR** | ~$500K-2M | 300K npm users × ~0.5% paid teams × ~$350 ARPU annuel |
+| **ARPU** | $200-500/mo par team (estimé) | Pricing SaaS teams typique pour DevTools |
+| **Users** | 25 000+ devs (framework), ~300-800 teams payantes (Factory) | GitHub stars + npm downloads |
+| **CAC** | ~$200-400 | OSS-led = faible; essentiellement content + DevRel |
+| **LTV** | ~$3 000-6 000 (18-24 mois retention) | DevTools = sticky une fois intégré en CI/CD |
+| **LTV/CAC** | ~10-15× | Ratio sain pour OSS-led growth |
+| **Payback** | ~1-3 mois | CAC faible + MRR récurrent |
+| **Funding** | $35M total ($13M YC W25 + $22M Spark Capital Series A) | Crunchbase confirmé |
+| **Burn estimé** | ~$400K-600K/mo | Team ~15-25 personnes (YC → Series A) |
+| **Runway** | ~5-7 ans théorique | $35M ÷ $500K burn — mais croissance accélère burn |
+| **Rev/Employee** | ~$40K-100K ARR | Très early stage post-Factory launch |
+| **Rule of 40** | N/A (early) | Croissance forte mais revenus nascents |
 
-**Verdict santé** : 🟡 **BON POTENTIEL, ENCORE EARLY** — La Série B à $50M valide la thèse mais ARR encore modeste. Le vrai pari est l'infrastructure : si les voice agents deviennent mainstream, Hume AI devient le "couche empathique" incontournable. Risque : commoditisation si OpenAI/Google intègrent la détection émotionnelle nativement.
+**Verdict santé financière** : 🟡 WATCH
 
-**Signal clé** : Union Square Ventures est réputé pour ses bets infrastructure early (Twitter, Tumblr, Coinbase). Ce choix signal une conviction forte sur l'empathie comme primitive fondamentale des interfaces IA futures.
+**Justification** : Mastra a des fondamentaux solides (YC, Spark, team crédible, OSS traction réelle). La Factory commerciale vient de lancer — les métriques revenus sont encore embryonnaires. Les $35M donnent le runway pour exécuter. Le risque = monétiser une communauté OSS habituée au gratuit. Surveiller la V2 Factory pricing + adoption teams en Q4 2026.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Hume AI EVI 2 | CrewAI Studio | Captions Business |
-|---|:---:|:---:|:---:|
-| 📊 Market Size (20%) | 9 — Voice AI infra €50B+ | 8 — AI automation €30B+ | 7 — Video SaaS €15B+ |
-| ⚙️ Complexité inversé (15%) | 2 — R&D science impossible solo | 6 — UI builder + OSS fork | 3 — Infra vidéo lourde |
-| ⏱️ Time-to-Market (15%) | 8 — Intégration API en 2-3 sem | 7 — Template CrewAI en 2 sem | 9 — Utiliser directement |
-| 🏟️ Compétition inversé (15%) | 7 — Unique (empathie ≠ TTS pur) | 5 — LangGraph, AutoGen, n8n | 4 — CapCut, Descript, Opus |
-| 💰 Revenue Potential (20%) | 8 — Usage-based scalable €50K+ MRR | 7 — SaaS €20-50K MRR vertical | 5 — Outil à utiliser, pas clone |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 9 — Voice AI expert → différenciation | 7 — SaaS + agents → complémentaire | 4 — Marketing tool, pas produit |
-| **Score pondéré** | **7.5** | **6.6** | **5.2** |
-| **Verdict** | 🟢 **BUILD NOW** | 🟡 **BUILD ADJACENT** | 🟠 **WATCH** |
 
-### Recommandations
-- **Hume AI** 🟢 : Intégrer EVI 2 dans 1 agent voice existant comme POC. Positionnement "voice agent empathique premium" = +30-50% pricing power.
-- **CrewAI Studio** 🟡 : Publier des templates CrewAI pour voice agent workflows = acquisition inbound gratuite + brand building.
-- **Captions Business** 🟠 : À utiliser comme outil de distribution de contenu (pas à cloner). ROI fort pour Kyle comme créateur.
+| Dimension | Poids | Mastra Factory | Loqua | Bumblebee |
+|---|---|---|---|---|
+| 📊 Market Size | 20% | 8 (DevTools >$10B) | 7 (Voice AI >$5B) | 6 (DevSec >$3B) |
+| ⚙️ Complexity inversé | 15% | 3 (framework lourd) | 6 (Electron + ASR) | 5 (Go + SaaS wrapper) |
+| ⏱️ Time-to-Market | 15% | 3 (6-12 mois) | 7 (4-6 semaines MVP) | 6 (6-8 semaines) |
+| 🏟️ Competition inversé | 15% | 5 (GitHub Copilot, Devin) | 6 (Aqua Voice, Typeless) | 7 (peu de SaaS direct) |
+| 💰 Revenue Potential | 20% | 7 (teams $200-500/mo) | 8 ($22/mo × masse + B2B) | 6 (SaaS wrapper $50-200) |
+| 🧑‍💻 Founder-Fit Kyle | 15% | 6 (voice layer manquant) | **10** (voice AI = cœur de métier) | 4 (hors expertise voice) |
+
+**Score pondéré :**
+
+| App | Score | Verdict |
+|---|---|---|
+| **Mastra Factory** | **(8×0.20)+(3×0.15)+(3×0.15)+(5×0.15)+(7×0.20)+(6×0.15)** = **5.75** | 🟠 WATCH |
+| **Loqua** | **(7×0.20)+(6×0.15)+(7×0.15)+(6×0.15)+(8×0.20)+(10×0.15)** = **7.55** | 🟢 BUILD NOW |
+| **Bumblebee SaaS** | **(6×0.20)+(5×0.15)+(6×0.15)+(7×0.15)+(6×0.20)+(4×0.15)** = **5.70** | 🟠 WATCH |
+
+> 🟢 **BUILD NOW** ≥7.5 · 🟡 **BUILD ADJACENT** 6.0-7.4 · 🟠 **WATCH** 4.5-5.9 · 🔴 **SKIP** <4.5
 
 ## 📈 Tendances Émergentes
-### 🧠 1. L'Empathie comme Couche Infrastructure
-La détection émotionnelle en temps réel passe de "gadget" à "standard attendu". Dans 12 mois, un voice agent sans adaptation émotionnelle sera perçu comme un chatbot 2020. Hume AI ouvre la voie, mais des alternatives émergent (Cogito, Sanas). Le gagnant sera celui qui standardise l'API.
 
-### 🤖 2. OSS → No-Code : La Maturation des Agents IA
-CrewAI Studio illustre le cycle classique : framework OSS populaire → interface visuelle → SaaS hosted. LangGraph, AutoGen, Phidata suivront le même chemin. La guerre se joue maintenant sur l'UX non-technique. Les développeurs qui ont maîtrisé l'OSS auront 18 mois d'avance.
+### 1. 🤖 L'agent devient l'employé (Mastra Factory, Devin Voice)
+Le marché passe des "coding assistants" aux "software delivery agents" autonomes. Mastra Factory avec 25% de PRs écrites par des agents pointe vers un futur où 50-80% du code routinier est automatisé. Horizon : 12-18 mois.
 
-### 🎬 3. Le Video-First B2B comme Nouveau Standard
-Les équipes marketing B2B qui ne produisent pas 20+ clips/mois en 2026 perdent leur audience LinkedIn. Captions, Opus Clip, Descript fragmentent le marché. L'enjeu suivant : l'hyper-personnalisation vidéo (envoyer une vidéo personnalisée par prospect à l'échelle).
+### 2. 🎤 La voix supplante le clavier comme interface primaire IA (Loqua, Devin Voice, lancés le même jour)
+Deux produits majeurs lancent le même jour (13 sept. 2026) sur le même pari : la voix > le texte pour interagir avec l'IA. Ce n'est pas une coïncidence — c'est le signal que le timing est maintenant. Les apps voice-native ont une fenêtre de 6-12 mois avant que macOS/Windows intègrent natif.
 
-### 🔒 4. GDPR AI Act : Avantage Compétitif Européen
-L'EU AI Act en vigueur depuis août 2026 crée une opportunité : les startups EU-native avec compliance intégrée dès le design battent les acteurs US qui doivent retrofitter. Fenêtre de 12-18 mois avant que les US s'adaptent.
+### 3. 🔒 MCP = nouvelle surface d'attaque critique (Bumblebee)
+Bumblebee est le premier outil à traiter les fichiers de configuration MCP comme vecteur de compromission. Avec l'explosion des MCP servers (5 000+ listés en sept. 2026), la sécurité MCP devient un marché à part entière — encore quasi vide de solutions commerciales.
 
-## 💡 Insights Actionnables
-### ⚡ Action Immédiate — Cette semaine
-1. **Tester EVI 2 de Hume AI** : Créer un compte dev, intégrer l'API dans un des agents voice existants. Budget test : < $50. Objectif : démo "agent empathique" pour differentiation commerciale.
-2. **Publier 1 template CrewAI Studio** : Créer le template "Voice Agent Onboarding Flow" (call → CRM → email follow-up). Distribution gratuite, acquisition inbound.
+### 4. 🧵 Open-source comme stratégie GTM, pas produit
+Les 3 apps retenues ont en commun une composante OSS ou gratuit significative. En 2026, l'OSS n'est plus un modèle de générosité — c'est la meilleure stratégie d'acquisition. CAC quasi nul, communauté built-in, crédibilité technique immédiate.
 
-### 📅 Action Court Terme — Ce mois
-3. **Positionner l'offre voice + empathie** : Si le test EVI 2 est concluant, rebaptiser l'offre "Premium Voice Agent" avec empathie intégrée. Potentiel de pricing +30-50% vs agents classiques.
-4. **Veille CompTech EU AI Act** : Identifier les clients GDPR-sensibles (santé, finance, RH) comme ICP cible pour voice agents EU-native. Avantage compétitif de 12-18 mois.
+## 💡 Insights Actionnables pour Kyle
 
-### 🎯 Insight Stratégique Kyle
-**Le différenciateur n'est plus la voix, c'est l'émotion.** En 2026, tous les concurrents peuvent faire parler un agent. La prochaine guerre se joue sur : est-ce que l'agent *comprend* l'état émotionnel de l'interlocuteur et adapte sa réponse ? Kyle avec son expertise voice AI est à 2-3 semaines d'intégration de créer un avantage durable sur ce terrain.
+### 🥇 Priorité 1 — Cloner Loqua avec un angle pro/B2B (🟢 BUILD NOW)
+**Pourquoi maintenant :** Loqua vient de lancer AUJOURD'HUI. Le marché se forme. Ton expertise voice AI = avantage compétitif réel. Un clone vertical (ex : *voice → rapport client structuré*, *voice → ticket Jira*, *voice → email formel*) peut être live en 4-6 semaines et différencié dès le départ.
+**Action immédiate :** Teste Loqua aujourd'hui, identifie le cas d'usage B2B le plus sous-servi, commence le doc de specs cette semaine.
 
-**ROI estimé** : 1 week-end de dev EVI 2 → différenciation perçue x2 → pricing +30% → si 10 clients à €1K/mois = +€3K/mois MRR incrémental.
+### 🥈 Priorité 2 — Ajouter une couche Voice à Mastra Factory (🟡 BUILD ADJACENT)
+**Opportunité de niche :** Mastra Factory n'a pas d'interface vocale. "Voice-driven software factory" = niche que personne n'a prise. Imagine : dicter "crée une feature de login avec OAuth Google" et l'agent livre la PR en 10 min. C'est le Mastra Factory + Loqua fusionnés — et Kyle est le seul à avoir les deux expertises.
+**Action :** Contribuer à Mastra OSS avec une voice extension, se positionner comme le référent "voice + agents".
+
+### 🥉 Priorité 3 — SaaS commercial sur Bumblebee (🟠 WATCH)
+**Opportunité d'arbitrage :** Bumblebee est gratuit et OSS. Un SaaS dashboard avec alerting temps réel + rapports compliance (SOC2, ISO27001) + fleet view manque totalement. Target = CISOs de scale-ups (50-500 devs). Pricing $99-299/mo.
+**Action :** Surveiller les issues GitHub Bumblebee pour identifier les feature requests les plus demandées. Ne builder qu'en Q1 2027 si aucun concurrent SaaS n'émerge d'ici là.
 
 ---
-*Scan basé sur : TechCrunch, Product Hunt, GitHub Trending, HN, Reddit r/MachineLearning, r/SaaS — signaux 7-12 sept. 2026*
+*Sources : [Product Hunt](https://producthunt.com) · [mastra.ai](https://mastra.ai) · [theloqua.ai](https://theloqua.ai) · [github.com/perplexityai/bumblebee](https://github.com/perplexityai/bumblebee) · [Startuphub.ai/mastra](https://startuphub.ai/startups/mastra) · [Aqua Voice vs Loqua](https://aquavoice.com/vs/loqua)*
