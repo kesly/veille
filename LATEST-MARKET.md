@@ -1,181 +1,174 @@
-# 🔥 Market Scan — 2026-09-29
+# 🔥 Market Scan — 2026-09-30
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 6
-- Top potentiel : Instinct AI
-- Opportunités immédiates (BUILD NOW) : 1 (Voiskey vertical B2B)
+- Apps analysées : 3
+- Top potentiel : MosMos (voice writing), Floot MCP (AI app builder), Whiteboard IDE (YC W26)
+- Opportunités immédiates (BUILD NOW) : 1 (MosMos — angle Voice AI vertical)
 
-## 🏆 TOP APP #1 : Instinct AI
+## 🏆 TOP APP #1 : MosMos
 ### 1. Identification
-- **URL** : instinct.ai | **Lancé** : août 2026 (beta privée) | **Catégorie** : AI Agent / Life Automation
-- **Fondateurs** : ex-Anthropic / ex-Stripe (équipe non publique)
-- **Métriques buzz** : $1B Series C (28 sept.), valorisation $10B, 4e levée en 5 mois
+- **Nom** : MosMos | **URL** : [producthunt.com/products/mosmos](https://www.producthunt.com/products/mosmos)
+- **Launch** : Septembre 2026 | **Catégorie** : Voice AI / Productivité macOS
+- **Métriques buzz** : #1 PH le 19/09/2026 avec 391 upvotes
 
-### 2. Proposition de Valeur
-- **Problème** : La gestion administrative du quotidien (RDV, courses, factures, voyages) prend 2-4h/semaine
-- **Solution** : Agent IA persistant accessible via iMessage, WhatsApp ou appel téléphonique — agit en autonomie sur un "cloud computer" avec credentials sauvegardées
-- **USP** : "Concierge" capable d'appeler des commerces non-digitalisés + réseau de confiance partagé
-- **Target** : Cadres urbains 25-45 ans, vie chargée, budget premium
-- **Pricing** : Gratuit en beta → tiers prévus $200-$500/mois
+### 2. Proposition de valeur
+- **Problème** : Prise de notes/rédaction fragmentée avant, pendant et après les réunions
+- **Solution** : Workspace vocal natif macOS — touche Fn n'importe où → texte poli, adapté au contexte de l'app active
+- **USP** : Adaptation du style d'écriture selon l'application (Slack vs Notion vs email), mémoire de vocabulaire perso
+- **Target** : PMs, devs, opérateurs — profils qui jonglent entre meetings et docs
+- **Pricing** : Non public (freemium probable)
 
-### 3. Stack Technique
-- **Interface** : iMessage / WhatsApp / appel (zero app install)
-- **Backend** : Cloud computer persistant, browser automation, credentials vault chiffré
-- **APIs** : Intégrations natives calendriers, e-commerce, services réservation
+### 3. Stack technique
+- **Frontend** : Native macOS (Swift/AppKit)
+- **Backend** : STT propriétaire ou Whisper + LLM pour reformulation
+- **Infra** : Local-first avec sync cloud probable
 
 ### 4. Psychologie
-- **Triggers** : Statut social (avoir un "concierge IA"), anxiété du temps perdu, réciprocité (essai gratuit)
-- **JTBD** : "Reprendre le contrôle de mon temps sans changer mes habitudes de com"
-- **Aha moment** : Premier appel passé automatiquement pour un RDV médical
+- **Triggers** : Habitude (raccourci clavier Fn = réflexe), réduction friction cognitive
+- **JTBD** : "Je veux capturer mes idées sans interrompre mon flow"
+- **Aha moment** : Premier Fn dans Slack → message poli généré en 3 sec
 
-### 5. Go-to-Market
-- **Canaux** : Bouche-à-oreille elite, press tech (TechCrunch, SiliconAngle), LinkedIn viral
-- **Viral loop** : "Réseau de confiance" — l'agent peut agir pour vos proches → adoption par cercle social
+### 5. Go-to-market
+- **Canaux** : Product Hunt (#1), bouche-à-oreille communauté dev/PM
+- **Viral loop** : "Envoyé avec MosMos" dans les messages (signature implicite)
 
-### 6. Réplication pour Kyle
-- **Complexité** : 8/10 (gestion des credentials, compliance, fiabilité agent)
-- **Angle vocal** : Version B2B — "concierge vocal pour PME" (gérer agenda, clients, fournisseurs par voix)
-- **Verticaux** : Assistants vocaux sectoriels (médical, immobilier, restauration)
-- **Temps dev** : 4-6 mois MVP
+### 6. Réplication
+- **Complexité** : 6/10 (STT + LLM context-aware)
+- **Verticaux adjacents** : Voice-to-CRM, voice-to-ticket (Jira), voice-to-PR review
+- **Angle Kyle** : Extension verticale Voice AI → **MosMos for Customer Support** (transcription + reformulation agents IA)
+- **Temps de dev** : 6-8 semaines MVP
 
-## 🏆 TOP APP #2 : Voiskey
+## 🏆 TOP APP #2 : Floot MCP
 ### 1. Identification
-- **URL** : voiskey.com | **Lancé** : 8 juillet 2026 | **Catégorie** : Voice AI / Productivité
-- **Métriques buzz** : #2 Product of the Day PH (480+ upvotes), #5 Weekly Leaderboard (525 upvotes)
+- **Nom** : Floot MCP | **URL** : [floot.com](https://floot.com) | [PH](https://www.producthunt.com/products/floot)
+- **Launch** : Sept 24, 2026 (2e lancement) | YC S25 | **Catégorie** : Dev Tools / AI App Builder
+- **Métriques** : $220K ARR estimé (2025), 600+ paying customers, YC W26 Demo Day
 
-### 2. Proposition de Valeur
-- **Problème** : La dictée vocale produit du texte brut inutilisable directement (fautes, hésitations, style incorrect)
-- **Solution** : "Expression Intelligence" — transforme la parole spontanée en texte contextualisé selon l'app active (email pro vs WhatsApp vs doc)
-- **USP** : Privacy-first (audio stocké on-device uniquement, SOC 2 Type II + ISO 27001), workflow complet Speak→Polish→Type→Edit
-- **Target** : Knowledge workers, managers, rédacteurs, non-natifs anglophones/francophones
-- **Pricing** : 1 mois VIP gratuit à l'inscription → modèle freemium/abonnement
+### 2. Proposition de valeur
+- **Problème** : Construire une app full-stack depuis Claude/ChatGPT = setup DB/auth/hosting douloureux
+- **Solution** : MCP server → Claude/ChatGPT provisionnent DB, auth, storage, email, hosting en 0 setup
+- **USP** : Zéro token Floot facturé — tourne sur le plan Claude existant de l'utilisateur
+- **Target** : Vibe coders, indie hackers, no-coders agentiques
+- **Pricing** : Freemium + plans team
 
-### 3. Stack Technique
-- **Frontend** : App native Mac, Windows, iOS, Android
-- **Backend** : Modèle propriétaire "Expression Intelligence" (probablement Whisper fine-tuned + LLM contextuel)
-- **Privacy** : Zero-server-retention, chiffrement transit E2E
+### 3. Stack technique
+- **Frontend** : React + Next.js (web preview live)
+- **Backend** : MCP server exposé à Claude/ChatGPT
+- **Infra** : Floot gère DB, auth, storage, email, hosting (Vercel-like)
 
 ### 4. Psychologie
-- **Triggers** : Honte de la dictée "cassée", FOMO productivité, preuve sociale (classement PH), confiance (certifications sécu)
-- **JTBD** : "Dicter sans devoir corriger — que ça sonne comme moi, pas comme un robot"
-- **Aha moment** : Premier email dicté → rendu impeccable sans édition
+- **Triggers** : "Build inside Claude" = zéro friction de context-switching
+- **JTBD** : "Je veux shipper une app sans quitter mon LLM"
+- **Aha moment** : Première preview live générée par Claude en <2 min
 
-### 5. Go-to-Market
-- **Canaux** : Product Hunt launch orchestré, PR Newswire, communautés productivité
-- **Viral loop** : Partage de textes "polis par IA" → curiosité sur l'outil
+### 5. Go-to-market
+- **Canaux** : PH, communauté vibe-coding, YC network, guides SEO "how to build with Claude"
+- **Viral loop** : Chaque app publiée = badge "Built with Floot"
+- **Activation rate** : 3-4x vs SaaS comparable (pas de "cold start")
 
-### 6. Réplication pour Kyle
-- **Complexité** : 5/10 — API Whisper + LLM contextuel + app système
-- **Angle Kyle** : Version voice API pour SaaS B2B — vendre le SDK "Expression Intelligence" aux devs
-- **Verticaux** : CRM vocal, notes médicales, comptes-rendus RH
-- **Temps dev** : 2-3 mois MVP (avec APIs existantes)
+### 6. Réplication
+- **Complexité** : 8/10 (infra MCP + orchestration multi-service)
+- **Verticaux adjacents** : Floot for Voice Apps, Floot for n8n/Zapier agents
+- **Angle Kyle** : Partenariat/intégration Floot pour déployer des voice agents en 1 prompt
+- **Temps de dev** : 4-6 mois (infrastructure lourde)
 
-## 🏆 TOP APP #3 : AINA (Beauty Intelligence)
+## 🏆 TOP APP #3 : Whiteboard IDE
 ### 1. Identification
-- **URL** : aina.ai | **Catégorie** : AI Health & Beauty / Skincare
-- **Métriques buzz** : #2 Product Hunt septembre 2026 (~475K votes), $5.5M levée (hardware interface branch)
+- **Nom** : Whiteboard IDE | **URL** : [github.com/fesoliveira014/whiteboard](https://github.com/fesoliveira014/whiteboard) | [HN](https://news.ycombinator.com/item?id=49833867)
+- **Launch** : Sept 2026 | YC W26 | **Catégorie** : Dev Tools / AI-assisted Architecture
+- **Métriques** : Multiple forks GitHub, buzz HN Show HN, YC-backed
 
-### 2. Proposition de Valeur
-- **Problème** : Les routines beauté sont génériques — ne tiennent pas compte du cycle, stress, météo, sommeil
-- **Solution** : IA qui analyse météo, cycle hormonal, stress, sommeil en temps réel → adapte la routine quotidiennement
-- **USP** : Personnalisation dynamique continue (pas juste un quiz initial)
-- **Target** : Femmes 20-40 ans, soins de soi, budgets €25-40/mois
-- **Pricing** : Free Core | Amplify $24.99/mois | Elevate $39.99/mois | Annual Pass $99
+### 2. Proposition de valeur
+- **Problème** : Les devs sautent directement dans VS Code sans phase de conception — les agents IA aussi
+- **Solution** : IDE canvas-first pour architecturer AVANT de coder; specs + diagrammes connectés au code
+- **USP** : Diff AST-aware en Rust, traces d'agents inspectables, MIT open-source
+- **Target** : Senior engineers, tech leads, équipes avec agents IA codeurs
+- **Pricing** : Open-source gratuit + hosted pour équipes (prévu)
 
-### 3. Stack Technique
-- **Frontend** : App mobile (iOS/Android)
-- **Backend** : Modèle ML santé/beauté, intégrations données santé (HealthKit, Google Fit)
-- **APIs** : Météo, données biométriques wearables
+### 3. Stack technique
+- **Frontend** : Basé sur CodeOSS (VS Code open source)
+- **Backend** : Rust (diff viewer AST-aware)
+- **Infra** : Local-first, self-hostable, hosted teams en roadmap
 
 ### 4. Psychologie
-- **Triggers** : Anxiété beauté, sentiment de compréhension ("l'app me comprend"), abonnement bas = faible friction
-- **JTBD** : "Avoir une routine qui s'adapte à moi sans que je doive y réfléchir"
-- **Aha moment** : La routine change le lundi après un week-end de stress et ça correspond exactement à mon ressenti
+- **Triggers** : Autorité (YC W26), légitimité open-source (MIT)
+- **JTBD** : "Je veux comprendre ce que mon agent IA a décidé et pourquoi"
+- **Aha moment** : Jump diagram → code avec keybinding VSCode familier
 
-### 5. Go-to-Market
-- **Canaux** : TikTok beauté, micro-influenceurs santé, Product Hunt
-- **Viral loop** : Partage routine quotidienne personnalisée sur réseaux
+### 5. Go-to-market
+- **Canaux** : HN Show HN, GitHub stars, YC network, bouche-à-oreille devs
+- **Viral loop** : Stars GitHub + forks (déjà multiple repos miroirs)
 
-### 6. Réplication pour Kyle
-- **Complexité** : 4/10 — données santé existantes + LLM de recommandation
-- **Angle Kyle** : "AINA for Voice" — coaching vocal adaptatif (sport, nutrition, mindfulness) via API voice
-- **Verticaux** : Bien-être masculin, fitness, nutrition, sommeil
-- **Temps dev** : 1-2 mois MVP
+### 6. Réplication
+- **Complexité** : 9/10 (fork CodeOSS + Rust AST diff + agent tracing)
+- **Verticaux adjacents** : Whiteboard for voice app workflows, diagram-to-prompt
+- **Angle Kyle** : Trop complexe à répliquer — opportunité de **plugin voice layer** sur Whiteboard
+- **Temps de dev** : 6-12 mois (projet d'infrastructure)
 
-## 💰 Unit Economics Deep Dive — Instinct AI
-> ⚠️ Estimations basées sur données publiques (TechCrunch, SiliconAngle, 28 sept. 2026)
+## 💰 Unit Economics Deep Dive — MosMos
+*Estimations basées sur comparables sectoriels Voice AI / macOS productivity (données publiques limitées pour MosMos — app récente)*
 
-| Métrique | Estimation | Source/Méthode |
+| Métrique | Estimation | Source / Base |
 |---|---|---|
-| **Valorisation** | $10B | Series C officielle |
-| **ARR estimé** | $50-150M | ~1-1.5% valuation (AI premium) |
-| **Users actifs** | ~200-500K | Beta privée, invite-only |
-| **ARPU** | $200-300/an (beta gratuit → payant) | Tiers annoncés $200-500/mois |
-| **CAC** | ~$50-100 | Bouche-à-oreille dominant |
-| **LTV estimée** | $2,000-5,000 | 18-36 mois retention high-intent |
-| **LTV/CAC** | ~20-50x 🟢 | Exceptionnel |
-| **Payback period** | <3 mois | Si CAC $100 et ARPU $200/mois |
-| **Burn estimé** | $10-20M/mois | ~$1B Series C sur 48-60 mois |
-| **Runway** | 48-60 mois | Avec $1B + $350M Series B |
-| **Rule of 40** | ~80+ 🟢 | Croissance >100% - burn relatif faible |
-| **Rev/Employee** | $200-500K | ~100-300 personnes estimées |
+| ARR | ~$50-150K | Early-stage, PH #1, pas de pricing public |
+| ARPU | ~$10-20/mois | Benchmarks productivity apps macOS |
+| Users payants | ~500-2 000 | Ratio upvotes PH × conversion typical 2-5% |
+| CAC | ~$5-15 | Distribution organique PH + bouche-à-oreille |
+| LTV | ~$120-240 | 12 mois rétention moyenne (churn ~8%/mois) |
+| LTV/CAC | ~10-20x | Excellent pour early-stage |
+| Payback period | <1 mois | CAC très faible (viral/organique) |
+| Burn estimé | ~$20-50K/mois | 2-4 fondateurs + infra cloud |
+| Runway | Bootstrapped probable | Pas de levée annoncée |
+| Rev/Employee | ~$25-50K ARR | 3-5 personnes estimées |
+| Rule of 40 | 🟡 Incalculable (trop early) | Croissance forte mais burn inconnu |
 
-### Verdict Santé : 🟢 EXCEPTIONNEL
-Instinct coche toutes les cases d'une licorne SaaS moderne : LTV/CAC record grâce au viral organique, pricing premium défendable (valeur réelle), et TAM massif (milliards de personnes avec "vie chargée"). Risque : l'exécution technique (fiabilité agent à 99.9%) et la réglementation (délégation de credentials à un tiers).
+**Verdict santé : 🟡 EARLY PROMISING**
+> LTV/CAC exceptionnel grâce au distribution organique. Modèle sain si rétention tient >6 mois. Principal risque : Apple peut nativer la feature (Fn = déjà touche dictée système).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Instinct AI | Voiskey | AINA Beauty |
+| Dimension (poids) | MosMos | Floot MCP | Whiteboard IDE |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — >$100B TAM | 7 — $5B dictée/prod | 6 — $15B beauté tech |
-| ⚙️ Complexité inversée (15%) | 3 — infra agent complexe | 6 — APIs disponibles | 7 — stack classique |
-| ⏱️ Time-to-Market (15%) | 2 — 12+ mois | 7 — 2-3 mois | 8 — 1-2 mois |
-| 🏟️ Compétition inversée (15%) | 5 — Google, Apple, Siri | 7 — niche expression | 5 — marché concurrencé |
-| 💰 Revenue Potential (20%) | 9 — >€100K MRR rapid | 7 — €20-50K MRR | 6 — €10-20K MRR |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 7 — voice angle fort | 9 — expertise directe | 4 — beauté hors domaine |
+| 📊 Market Size (20%) | 7 — $500M+ voice productivity | 9 — $2B+ AI dev tools | 6 — $200M enterprise IDE |
+| ⚙️ Complexity inversé (15%) | 6 — STT+LLM+context | 3 — infra MCP lourde | 2 — fork CodeOSS+Rust |
+| ⏱️ Time-to-Market (15%) | 7 — 6-8 semaines MVP vertical | 3 — 4-6 mois | 2 — 6-12 mois |
+| 🏟️ Competition inversé (15%) | 6 — Whisper apps, Otter.ai | 5 — Bolt, Lovable, Cursor | 7 — niche peu saturée |
+| 💰 Revenue Potential (20%) | 8 — B2B vertical = $50K+ MRR | 7 — freemium → teams | 5 — open-source + hosted |
+| 🧑‍💻 Founder-Fit Kyle (15%) | **9** — Voice AI expert + SaaS | 5 — infra pas son coeur | 4 — IDE = autre monde |
 
-| App | Score pondéré | Verdict |
+**Score pondéré :**
+
+| App | Score | Verdict |
 |---|---|---|
-| **Voiskey (vertical B2B)** | **7.3** | 🟡 BUILD ADJACENT |
-| **Instinct AI (angle vocal B2B)** | **6.4** | 🟡 BUILD ADJACENT |
-| **AINA Beauty** | **5.8** | 🟠 WATCH |
-
-**Meilleur angle pour Kyle : Voiskey B2B SDK** — vendre l'"Expression Intelligence" en API aux équipes SaaS (CRM, médical, RH). Complexité modérée, expertise voice directement applicable, marché B2B mieux monétisable.
+| **MosMos (vertical angle)** | **7.35** | 🟢 **BUILD NOW** |
+| **Floot MCP** | **5.30** | 🟠 **WATCH** |
+| **Whiteboard IDE** | **4.60** | 🟠 **WATCH** |
 
 ## 📈 Tendances Émergentes
-### 1. 🤖 L'Agent IA sort du bureau
-Les agents passent de l'entreprise au quotidien personnel. Instinct prouve que le marché consumer est prêt à payer cher pour déléguer ses tâches admin. Prochaine vague : agents vocaux mobiles pour la vie quotidienne.
+1. **Voice-as-Primary-Interface** : MosMos confirme le passage de "voice en option" à "voice par défaut". Les apps qui intègrent la voix comme geste principal (pas bouton audio) explosent.
 
-### 2. 🎤 Voice-first comme interface de secours
-La saturation des interfaces clavier + écran pousse vers la voix. Voiskey capture cette friction : les gens PARLENT mais ont besoin de TEXTE propre. Le gap "parole → écrit professionnel" reste largement non résolu.
+2. **MCP = nouveau standard d'intégration AI** : Floot, tiun, NOAN — tout s'intègre en MCP. Le "MCP-first" devient le "mobile-first" de 2026 pour les dev tools.
 
-### 3. 🔒 Privacy comme USP premium
-Les utilisateurs distinguent maintenant les apps "privacy-first" des autres. SOC 2, ISO 27001, zero-server : ce n'est plus un détail, c'est un argument de vente majeur (notamment B2B).
+3. **Canvas + Code = nouveau paradigme IDE** : Whiteboard, Reladraw — les devs veulent penser visuellement AVANT de coder, surtout avec des agents IA autonomes.
 
-### 4. 💰 Méga-levées AI concentrées
-$510B en H1 2026, dont 43% sur OpenAI + Anthropic. Les startups AI de niche lèvent en quelques mois des rounds qui prenaient 2 ans avant. La compression des timelines de valorisation est inédite.
+4. **YC W26 = batch AI infrastructure** : 14 startups à $1M+ ARR avant Demo Day — le signal le plus fort : les fondateurs YC shipper et monétisent avant même de pitcher.
 
-### 5. 🧬 IA santé hyperPersonnalisée
-AINA représente une tendance : remplacer les apps de santé génériques par des systèmes adaptatifs qui combinent biométrie, environnement et comportement. Applicable à tous les domaines de bien-être.
+5. **Local-first revival** : StemDeck, Whiteboard, NimbleGate — la communauté HN pousse fort le local-first comme réponse à la dépendance cloud/API.
 
 ## 💡 Insights Actionnables
 ### 🎯 Pour Kyle — Actions immédiates
 
-**1. Voiskey B2B SDK (priorité haute)**
-Voiskey valide le marché "expression voice → texte pro". L'opportunité non prise : vendre ce moteur en API B2B aux SaaS CRM, aux outils médicaux, aux plateformes RH. L'expertise voice de Kyle est un avantage direct. Angle : "Twilio for Voice Intelligence" — une API qui transforme la parole métier en texte structuré contextualisé.
-→ **Action** : Prototyper le SDK en 2 semaines, cibler 3 SaaS CRM qui ont déjà une feature dictée basique.
+**1. BUILD NOW : Voice-to-[Vertical] SaaS (inspiré MosMos)**
+> MosMos prouve le product-market fit du "voice context-aware". Kyle peut construire la même chose mais verticalisée :
+> - **Voice-to-CRM** : Fn après un appel → fiche contact/CRM mise à jour auto
+> - **Voice-to-Support** : Agent call → ticket Zendesk structuré auto
+> - **Voice-to-Onboarding** : Script vocal → documentation produit générée
+> Stack : Whisper/AssemblyAI + Claude + intégration CRM → MVP en 6 semaines
 
-**2. Agent vocal B2B (style Instinct, vertical PME)**
-Instinct AI est trop complexe à répliquer en consumer. Mais en B2B vertical (restauration, cabinets médicaux, agences immo), un agent vocal qui gère agenda + clients + rappels est faisable en 3-4 mois avec les APIs actuelles.
-→ **Action** : Choisir 1 vertical, interviewer 10 PME cette semaine, tester l'appétit pour $200-300/mois.
+**2. WATCH : Monitorer Floot MCP pour intégration**
+> Dès que Floot ouvre son API partenaire, construire "Voice App on Floot" — un template deployable en 1 prompt Claude qui provisionne un voice agent fonctionnel avec backend.
 
-**3. Privacy-first comme différenciateur**
-Les deux apps qui cartonnent (Voiskey, Instinct) mentionnent explicitement la sécurité des données. Positionner dès le départ tout produit Kyle sur "vos données ne quittent pas vos serveurs" — différenciateur puissant sur le marché enterprise FR.
+**3. SIGNAL FAIBLE : Whiteboard IDE + Voice Layer**
+> Plugin "voice architecture" pour Whiteboard — décrire un système à l'oral → générer les diagrammes/specs. Niche mais forte cohérence avec l'expertise Kyle.
 
-**4. Distribution via iMessage/WhatsApp**
-Instinct prouve que l'absence d'app à installer est un vecteur d'adoption massif. Pour un prochain produit, envisager une interface SMS/WhatsApp comme premier canal — zéro friction, adoption immédiate.
-
-**Sources consultées :**
-- [TechCrunch — Instinct $1B Series C](https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/)
-- [Voiskey Product Hunt #2](https://www.prnewswire.com/news-releases/voiskey-ranks-2-on-product-hunt-launching-enhanced-context-aware-polish-to-bridge-the-expression-gap-302880572.html)
-- [AINA Pricing](https://aina.ai/pricing)
-- [Product Hunt Leaderboard Septembre 2026](https://www.producthunt.com/leaderboard/daily/2026/9/24)
+**4. TACTIQUE IMMÉDIATE : Publier un Show HN**
+> La communauté HN de septembre 2026 est réceptive aux projets voice+local+open-source. Un "Show HN: I built a voice-to-CRM agent in 6 weeks" peut générer 200-400 upvotes et des early adopters qualifiés.
