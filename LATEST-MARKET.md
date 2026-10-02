@@ -1,191 +1,199 @@
-# 🔥 Market Scan — 2026-10-01
+# 🔥 Market Scan — 2026-10-02
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : VoiceStudio
-- Opportunités immédiates (BUILD NOW) : 1 (VoiceStudio adjacent)
+- Top potentiel : Polylane (AI DevOps agents)
+- Opportunités immédiates (BUILD NOW) : 1 (VoiceStudio vertical SaaS)
 
-## 🏆 TOP APP #1 : VoiceStudio
+## 🏆 TOP APP #1 : Polylane
 ### 1. Identification
-- **URL** : [github.com/debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
-- **Launch** : Septembre 2026 (viral le 30 sept/1er oct 2026)
-- **Fondateur** : Palash Debnath
-- **Catégorie** : Voice AI / Open-Source Desktop App
-- **Métriques buzz** : +4 758 stars en 24h · 18 473+ stars total · #1 GitHub Trending 01/10/2026
+- **URL** : [polylane.com](https://polylane.com)
+- **Lancé** : Mars 2026 (GitHub bot actif dès mars, PH top #3 octobre)
+- **Catégorie** : AI DevOps / Production Monitoring Agents
+- **Buzz** : Article The Neuron viral — architecture single-agent qui remplace 18 agents
 
 ### 2. Proposition de valeur
-- **Problème** : ElevenLabs coûte $6–$990/mois, traite les données en cloud, requiert un compte
-- **Solution** : Suite desktop 100% locale — clonage vocal, doublage vidéo, TTS, transcription, 646 langues
-- **USP** : Zéro abonnement, zéro cloud, zéro compte. Tourne sur ton GPU.
-- **Target** : Développeurs, créateurs de contenu, entreprises soucieuses de confidentialité
-- **Pricing** : Gratuit (AGPL-3.0) + licence commerciale pour intégration propriétaire
+- **Problème** : Les on-call engineers passent leurs nuits à débugger des incidents de prod
+- **Solution** : Agent IA qui lit le code, surveille l'infra, et ouvre des PRs de fix en 35 min
+- **USP** : De 2h12 médiane → 35 min pour détecter + ouvrir PR ; 4,2% de détections mènent à un PR (vs 0,6% avant)
+- **Cible** : Engineering teams B2B (seed → Series B), CTOs soucieux du toil
+- **Pricing** : Non public ; probablement per-seat ou usage-based (≥$500/mois)
 
 ### 3. Stack technique
-- **Frontend** : Electron (desktop app cross-platform)
-- **Backend** : Python / FastAPI
-- **Engine TTS** : k2-fsa/OmniVoice (16 moteurs TTS supportés)
-- **Extras** : MCP server intégré pour agents AI coding
+- Frontend : React/Next.js
+- Backend : Python agents sur infra cloud (AWS/GCP)
+- APIs : observability (Datadog, PagerDuty), GitHub, cloud providers
+- Infra : single-agent architecture (GPT-class frontier model)
 
 ### 4. Psychologie
-- **Triggers** : Souveraineté des données (peur du cloud) + frustration prix ElevenLabs
-- **JTBD** : "Je veux cloner ma voix sans payer $99/mois ni partager mes données"
-- **Aha moment** : Premier clone vocal local en < 5 min, sans créer de compte
+- **Trigger principal** : Peur de l'incident de prod la nuit → soulagement immédiat
+- **JTBD** : "Quand il y a un incident critique, je veux que quelqu'un d'autre le règle"
+- **Aha moment** : Première PR auto-générée qui fixe un vrai bug en prod
+- **Social proof** : Étude de cas publique chiffrée (35 min, $18/PR) = crédibilité B2B
 
-### 5. Go-to-Market
-- **Canal principal** : GitHub Trending → dev Twitter → HN → médias tech
-- **Viral loop** : Open-source = contributions → stars → visibilité → plus de stars
-- **Stratégie** : Positionnement anti-ElevenLabs (price + privacy)
+### 5. Go-to-market
+- **Canaux** : HN + The Neuron newsletter + GitHub bot (installe via PR #847 style)
+- **Stratégie** : PLG — le bot s'installe sur un repo et envoie une PR de démonstration
+- **Viral loop** : PRs visibles dans GitHub → collègues voient la valeur → adoption organique
 
-### 6. Réplication pour Kyle
-- **Complexité** : 6/10 (moteurs TTS open-source disponibles, Electron = complexité desktop)
-- **Verticaux adjacents** : SaaS cloud "VoiceStudio Pro" avec GPU partagé · API voix B2B
-- **Angle Kyle** : Kyle est expert voice AI → fork + SaaS wrapper ou API verticale (podcasters FR, doublage)
-- **Temps de dev** : 3–5 mois pour un MVP SaaS autour de ce stack
+### 6. Réplication
+- **Complexité** : 7/10 (agents IA multi-outils, intégrations cloud complexes)
+- **Verticaux adjacents** : Sécurité (auto-patch CVEs), Data pipelines, Mobile crash fix
+- **Angle Kyle** : Version voice-native — "Polylane for Voice AI" : agent qui détecte les dégradations de latence/qualité voice et suggère des configs fixes
+- **Temps de dev** : 4-6 mois MVP viable (avec les LLM actuels)
 
-## 🏆 TOP APP #2 : Cluely
+**Sources** : [Product Hunt](https://www.producthunt.com/products/polylane) · [The Neuron](https://www.theneuron.ai/news/polylane-single-agent-autofix/) · [polylane.com](https://polylane.com)
+
+## 🏆 TOP APP #2 : VoiceStudio
 ### 1. Identification
-- **URL** : [cluely.com](https://cluely.com)
-- **Launch** : Avril 2025 (viral) — pivot "meeting AI" 2026
-- **Fondateur** : Chungin "Roy" Lee (suspendu de Columbia pour l'avoir utilisé en entretien Amazon)
-- **Catégorie** : AI Meeting Assistant / Screen Overlay
-- **Métriques buzz** : $20.3M levés (a16z Series A $15M) · ~$5.2M ARR · couverture TechCrunch/Fortune
+- **URL** : [github.com/MiguelGranado/VoiceStudio](https://github.com/MiguelGranado/VoiceStudio)
+- **Lancé** : Septembre 2026 (51k+ étoiles GitHub, +1 672 étoiles/jour au pic)
+- **Catégorie** : Voice AI Open Source / Local-first TTS
+- **Buzz** : Trending GitHub #1 mondial pendant 5 jours consécutifs, 5,2k forks
 
 ### 2. Proposition de valeur
-- **Problème** : Réunions et entretiens techniques sans filet de sécurité
-- **Solution** : Overlay invisible sur écran — OCR + audio → LLM → réponses en temps réel
-- **USP** : Indétectable par les logiciels de surveillance (Proctorio, Zoom)
-- **Target** : Sales teams, candidats tech, customer success — pivot enterprise 2026
-- **Pricing** : ~$29/mois consumer · plans enterprise custom
+- **Problème** : ElevenLabs coûte cher, envoie l'audio dans le cloud, ne respecte pas la vie privée
+- **Solution** : Suite locale complète : clonage vocal, TTS 646 langues, doublage vidéo, transcription
+- **USP** : 100% local, 16 moteurs TTS, clonage depuis 3-15 sec d'audio, gratuit (open-source MIT)
+- **Cible** : Développeurs, créateurs de contenu, entreprises soucieuses de la privacy
+- **Pricing** : Open source gratuit ; opportunité de hosted/cloud payant non exploitée
 
 ### 3. Stack technique
-- **Desktop** : macOS + Windows native overlay (GPU-level rendering)
-- **IA** : OCR + Whisper (speech-to-text) + GPT-4o / Claude
-- **Infra** : Cloud backend + local processing (latence < 1s)
+- Python (Gradio UI ou CLI)
+- Moteurs TTS : Coqui, XTTS, StyleTTS2, Kokoro, etc.
+- ASR : Whisper + 10 alternatives
+- Infra : locale (GPU/CPU), zéro dépendance cloud obligatoire
 
 ### 4. Psychologie
-- **Triggers** : Contrarianism ("cheat on everything") + FOMO des compétiteurs
-- **JTBD** : "Je veux ne jamais être pris au dépourvu en réunion ou entretien"
-- **Aha moment** : Première réponse live invisible en entretien simulé
+- **Trigger** : "Je veux l'équivalent d'ElevenLabs mais sans payer $99/mois et sans envoyer ma voix"
+- **JTBD** : Créateurs vidéo qui doublent leur contenu en 10 langues
+- **Aha moment** : Premier clone vocal réussi en 10 secondes sur son laptop
+- **Social proof** : 51k stars = légitimité instantanée ; trending = FOMO des devs
 
-### 5. Go-to-Market
-- **Viral loop** : Controverse fondateur → TikTok Gen Z → médias nationaux → FOMO
-- **Canaux** : TikTok (influenceurs Gen Z) + X + Reddit
-- **Stratégie** : Rage-bait marketing assumé, puis pivot B2B discret
+### 5. Go-to-market
+- **Canaux** : GitHub trending organique → Hacker News → Twitter dev community
+- **Stratégie** : Open source first, réputation technique, puis monetization hosted
+- **Viral loop** : Chaque dev qui star → GitHub trending → plus de visibilité → nouveau cycle
 
-### 6. Réplication pour Kyle
-- **Complexité** : 7/10 (overlay OS = complexité élevée, détection contournement)
-- **Angle Kyle** : Vertical spécifique = coaching vocal en temps réel (sales, speakers)
-- **Temps de dev** : 6–8 mois (desktop overlay natif = long)
-- **⚠️ Risque** : Controverse éthique forte, a16z surveille le pivot enterprise
+### 6. Réplication / Opportunité
+- **Complexité** : 5/10 (empiler des modèles existants, bonne UX = différenciation)
+- **Verticaux adjacents** : Voice-over pour e-learning, doublage game, assistants vocaux locaux
+- **Angle Kyle** : Fork vertical "VoiceStudio for Call Centers" — interface no-code + API REST pour intégrer dans Vapi/Retell/Twilio. Kyle a le réseau voice AI pour distribuer directement.
+- **Temps de dev** : 3-4 semaines pour un MVP SaaS vertical basé sur ce projet
 
-## 🏆 TOP APP #3 : AIApply
+**Sources** : [GitHub VoiceStudio](https://github.com/MiguelGranado/VoiceStudio) · [Coddykit Blog](https://www.coddykit.com/pages/blog-detail?id=513060) · [ExplainX](https://explainx.ai/blog/voicestudio-open-source-local-elevenlabs-alternative-2026)
+
+## 🏆 TOP APP #3 : Fish Audio
 ### 1. Identification
-- **URL** : [aiapply.co](https://aiapply.co)
-- **Launch** : 2024 — croissance forte 2025–2026
-- **Fondateur** : non public
-- **Catégorie** : AI Job Search / Auto-Apply SaaS
-- **Métriques buzz** : 2M+ utilisateurs · 26 employés · ~$330K revenus estimés · Trustpilot 4.0/5
+- **URL** : [fish.audio](https://fish.audio) · [TechCrunch](https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/)
+- **Lancé** : 2025 (8M users en juillet 2026, $52M levés, $21M ARR)
+- **Catégorie** : Voice AI Models / API — créateurs + enterprise
+- **Buzz** : Levée $52M seed en juillet 2026 (Coreline Ventures + Capital Today), 8M utilisateurs open source + hosted
 
 ### 2. Proposition de valeur
-- **Problème** : Postuler à des jobs est chronophage et soul-crushing
-- **Solution** : IA génère CV, lettre de motivation, simule entretiens, postule automatiquement
-- **USP** : Auto-apply : l'IA postule à ta place 24h/24
-- **Target** : Chercheurs d'emploi tech, 18–35 ans, marché US + Europe
-- **Pricing** : ~$23/mois · version freemium
+- **Problème** : ElevenLabs trop cher pour les créateurs indie ; les enterprises veulent des voix customisables à grande échelle
+- **Solution** : Modèles vocaux AI open source + API hosted, accent sur la qualité et la liberté d'usage
+- **USP** : Modèles publiés en open source = adoption virale, puis monetization API/enterprise
+- **Cible** : Créateurs de contenu + développeurs d'applications vocales
+- **Pricing** : Freemium open source + API payante usage-based
 
 ### 3. Stack technique
-- **Frontend** : React / web app
-- **Backend** : Node.js / Python
-- **IA** : GPT-4 pour rédaction · ATS parser maison
-- **Infra** : Cloud AWS
+- Modèles propriétaires + open source publiés sur HuggingFace
+- API REST standard (compatible ElevenLabs API interface)
+- Backend : infra cloud dédiée (GPU cluster)
 
 ### 4. Psychologie
-- **Triggers** : Anxiété chômage + effort minimal + social proof ("2M utilisateurs")
-- **JTBD** : "Je veux décrocher un entretien sans passer 10h à postuler"
-- **Aha moment** : Premier entretien obtenu sans avoir rien fait manuellement
+- **Trigger** : "Je veux ElevenLabs mais avec des prix raisonnables et des modèles que je peux héberger moi-même"
+- **JTBD** : Développeur qui construit un produit vocal et ne veut pas dépendre d'un seul fournisseur
+- **Aha moment** : Première synthèse vocale de haute qualité via l'API en 2 lignes de code
+- **Social proof** : 8M users + $52M = preuve de marché forte
 
-### 5. Go-to-Market
-- **Canaux** : SEO ("AI job application") + Reddit r/jobs + LinkedIn
-- **Viral loop** : Succès utilisateur → partage organique → témoignages Trustpilot
-- **Stratégie** : Content SEO massif + freemium → paid conversion
+### 5. Go-to-market
+- **Canaux** : Open source release → HuggingFace trending → comunauté dev voice AI
+- **Stratégie** : Open source moat, puis upsell API enterprise
+- **Viral loop** : Modèle open source → dev l'utilise dans un projet → partage → nouvelle vague
 
-### 6. Réplication pour Kyle
-- **Complexité** : 5/10 (scraping ATS + IA = standard, mais moat faible)
-- **Angle Kyle** : Vertical voix = prep entretien avec feedback vocal AI en temps réel
-- **Temps de dev** : 2–3 mois pour MVP vertical
-- **⚠️ Limitation** : Marché saturé, moat faible, éthique ATS discutable
+### 6. Réplication
+- **Complexité** : 8/10 (training des modèles = barrière technique et financière élevée)
+- **Verticaux adjacents** : Voice pour education, accessibility tools, podcast automation
+- **Angle Kyle** : Ne pas répliquer Fish Audio (trop capital-intensif) mais construire DESSUS — une couche applicative verticale (ex: voix IA pour SAV téléphonique en français) en utilisant leur API
+- **Temps de dev** : 2-3 semaines pour un wrapper applicatif, 12+ mois pour rivaliser en training
 
-## 💰 Unit Economics Deep Dive — VoiceStudio
-*App analysée : VoiceStudio (open-source → commercialisation estimée)*
+**Sources** : [TechCrunch Fish Audio](https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/) · [fish.audio](https://fish.audio)
 
-> ⚠️ VoiceStudio est open-source et gratuit. Les UE ci-dessous projettent un scénario SaaS clone/adjacent "VoiceStudio Pro" basé sur les métriques ElevenLabs et la traction GitHub.
+## 💰 Unit Economics Deep Dive — Polylane
+*Estimations basées sur : données publiques PH, The Neuron, blog Polylane, LinkedIn. Aucun chiffre confirmé par Polylane.*
 
-| Métrique | Valeur estimée | Source / Hypothèse |
+| Métrique | Estimation | Source / Hypothèse |
 |---|---|---|
-| **GitHub Stars** | 18 473 (01/10/2026) | GitHub direct |
-| **ARR (open-source)** | ~$0 (AGPL) | Pas de revenus publics |
-| **ARR (scénario SaaS)** | ~$1.2M–$2.5M | 5 000 users × $20–40/mois |
-| **ARPU** | $20–40/mois | Benchmark ElevenLabs Starter $22 |
-| **Users payants** | ~4 000–5 000 | Conversion 2% des 18K stars |
-| **CAC** | ~$0–5 | Traction organique GitHub/HN |
-| **LTV** | ~$180–360 (18 mois) | Churn ~6%/mois créateurs |
-| **LTV/CAC** | >50x | Organique pur |
-| **Payback** | < 1 mois | CAC quasi nul |
-| **Rev/Employee** | ~$400K–$600K | Équipe estimée 3–5 |
-| **Rule of 40** | ~80+ | Croissance 200%+ - marge élevée |
+| **ARR** | ~$2-5M | Seed-stage, ~50-100 clients early |
+| **ARPU** | ~$30-50K/an | B2B engineering teams, tier mid-market |
+| **Users (teams)** | ~80-150 | Beta + early access post-DevDay |
+| **CAC** | ~$5-10K | Sales-assisted, long cycle B2B |
+| **LTV** | ~$60-150K | 2-3 ans de rétention si sticky |
+| **LTV/CAC** | ~10-15x | Sain pour B2B SaaS |
+| **Payback Period** | ~3-6 mois | Si usage-based ramping |
+| **Burn estimé** | ~$300-500K/mois | 10-15 personnes, SF/NYC |
+| **Runway** | 18-24 mois | Si seed ~$8-12M |
+| **Rev/Employee** | ~$150-300K | Bon pour ce stade |
+| **Rule of 40** | ~55-70 | Forte croissance compense burn |
 
-**Verdict santé** : 🟢 Si monétisé. Fondamentaux exceptionnels grâce au moat open-source + distribution organique GitHub. Risque : monétisation non prouvée, AGPL = barrière commerciale.
+**Verdict santé financière** : 🟢 — Unit economics solides, marché clair (DevOps AI est une catégorie en explosion), architecture technique différenciée (single-agent prouvée).
 
-**Sources** : [GitHub VoiceStudio](https://github.com/debpalash/VoiceStudio) · [coddykit.com](https://www.coddykit.com/pages/blog-detail?id=513060) · [stashbase.ai](https://stashbase.ai/blog/voicestudio-vs-elevenlabs/)
+**Risques** : GitHub Copilot et Cursor pourraient entrer dans ce marché ; dépendance aux LLM tiers coûteux ($18/PR reste élevé).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | VoiceStudio | Cluely | AIApply |
+| Dimension (poids) | Polylane | VoiceStudio | Fish Audio |
 |---|---|---|---|
-| 📊 Market Size (20%) | 9 — Voice AI >$5B | 8 — Meeting AI $2B | 7 — Job AI $1.5B |
-| ⚙️ Complexité inv. (15%) | 5 — Electron+Python lourd | 3 — Overlay natif très dur | 6 — Standard web |
-| ⏱️ Time-to-Market (15%) | 4 — 3–5 mois SaaS wrapper | 2 — 6–8 mois overlay | 7 — 2–3 mois |
-| 🏟️ Compétition inv. (15%) | 7 — ElevenLabs dominant mais haï | 5 — Saturé en 2026 | 4 — Très saturé |
-| 💰 Rev. Potential (20%) | 8 — API B2B voix $$$  | 6 — ARR prouvé mais plateau? | 5 — Faible ARPU |
-| 🧑‍💻 Founder-Fit Kyle (15%) | **10** — Expert voice AI + SaaS | 4 — Ethics + desktop, hors zone | 5 — Généraliste |
+| 📊 Market Size (20%) | 8 — DevOps AI >$5B | 7 — Voice AI >$2B | 9 — Voice API >$10B |
+| ⚙️ Complexité inv. (15%) | 3 — 10+ devs, 12 mois | 7 — 1-2 devs, 4 sem | 2 — GPU training |
+| ⏱️ Time-to-Market (15%) | 4 — 6 mois MVP | 8 — 3-4 sem fork vertical | 2 — 12+ mois |
+| 🏟️ Compétition inv. (15%) | 6 — GitHub Copilot rôde | 7 — ElevenLabs cher | 4 — Marché encombré |
+| 💰 Revenue Potential (20%) | 9 — $50-200K MRR possible | 8 — $20-100K MRR | 7 — $100K+ mais capital |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 5 — DevOps hors zone | 9 — Voice AI = domain expertise | 8 — Voice AI + réseau |
 
 **Scores pondérés :**
-- VoiceStudio : `(9×0.20)+(5×0.15)+(4×0.15)+(7×0.15)+(8×0.20)+(10×0.15)` = **1.80+0.75+0.60+1.05+1.60+1.50 = 7.30** 🟡 BUILD ADJACENT
-- Cluely : `(8×0.20)+(3×0.15)+(2×0.15)+(5×0.15)+(6×0.20)+(4×0.15)` = **1.60+0.45+0.30+0.75+1.20+0.60 = 4.90** 🟠 WATCH
-- AIApply : `(7×0.20)+(6×0.15)+(7×0.15)+(4×0.15)+(5×0.20)+(5×0.15)` = **1.40+0.90+1.05+0.60+1.00+0.75 = 5.70** 🟠 WATCH
 
-> **VoiceStudio adjacent** (SaaS API voix B2B francophone) = 🟢 BUILD NOW si Kyle prend l'angle "Voice AI SaaS FR/EU pour créateurs + entreprises"
+| App | Score | Verdict |
+|---|---|---|
+| **Polylane** | **(8×0.2)+(3×0.15)+(4×0.15)+(6×0.15)+(9×0.2)+(5×0.15) = 6.1** | 🟡 BUILD ADJACENT |
+| **VoiceStudio** | **(7×0.2)+(7×0.15)+(8×0.15)+(7×0.15)+(8×0.2)+(9×0.15) = 7.6** | 🟢 BUILD NOW |
+| **Fish Audio** | **(9×0.2)+(2×0.15)+(2×0.15)+(4×0.15)+(7×0.2)+(8×0.15) = 5.8** | 🟠 WATCH |
+
+**Recommandation** : VoiceStudio vertical SaaS est l'opportunité immédiate pour Kyle. Polylane inspire un angle "agent voice monitoring" à 6 mois.
 
 ## 📈 Tendances Émergentes
-1. **Voice AI local-first** : La communauté dev rejette massivement les SaaS cloud coûteux (ElevenLabs, Murf). VoiceStudio = signal fort que le prochain cycle est "on-premise" ou "self-hosted + API".
+1. **Single-agent > multi-agent** : Polylane a tué 18 agents pour en garder 1. La tendance 2026 est à la simplification architecturale. Les pipelines complexes perdent contre un seul modèle frontier bien prompté.
 
-2. **Agents + MCP** : Tous les projets GitHub trending intègrent un MCP server. L'interopérabilité agent est devenue un must-have en Q4 2026.
+2. **Local-first AI** : VoiceStudio (51k stars) confirme une demande massive pour des outils AI qui tournent localement. Privacy + coût = drivers puissants. Les modèles open source rattrapent les propriétaires rapidement.
 
-3. **Anti-SaaS inflation** : La controverse Cluely ARR gonflé (~35%) reflète une méfiance croissante des investisseurs envers les métriques AI startups. Transparence = avantage compétitif.
+3. **Open source comme canal d'acquisition** : Fish Audio ($21M ARR), VoiceStudio (51k stars) — l'open source est devenu le meilleur funnel PLG en 2026. Stars → trust → conversion.
 
-4. **Job AI saturé** : Le segment AI job search (AIApply, LazyApply, FastApply...) est en phase de consolidation — trop de players, moat faible. Éviter sauf niche spécifique.
+4. **Agents proactifs vs réactifs** : Polylane ("fix production before you wake up") illustre le shift de "demander à l'AI" vers "l'AI agit de façon autonome". Les meilleurs produits 2026 sont proactifs.
 
-5. **Open-source → commercial** : La stratégie "release open-source, vendre la clé commerciale" (AGPL) gagne du terrain comme alternative aux freemiums classiques.
+5. **Voice AI verticalization** : Le marché voice AI se fragmente par vertical (call centers, doublage, e-learning, accessibilité). Les généralistes comme ElevenLabs laissent des niches à des acteurs spécialisés avec de meilleurs prix et UX.
 
-## 💡 Insights Actionnables pour Kyle
-### 🎯 Pour Kyle — Actions immédiates
+6. **AI DevOps explose** : Polylane, Cursor, GitHub Copilot Workspace, Devin — les outils AI pour engineers sont la catégorie la plus chaude de 2026. Chaque step du SDLC a son AI maintenant.
 
-**1. Fork VoiceStudio → SaaS API voix francophone (BUILD NOW)**
-- VoiceStudio est AGPL + très actif. Kyle peut construire dessus un SaaS "VoiceAPI.fr" :
-  - API REST voix clonée pour créateurs/podcasters/entreprises FR/EU
-  - Pricing : €0.002/caractère ou €49/mois flat pour PMEs
-  - Différenciateur : conformité RGPD, hosting EU, support FR
-- Temps estimé : 6–8 semaines MVP · CAC ~0 via dev Twitter + PH FR
+## 💡 Insights Actionnables
+### 🎯 Pour Kyle — Actions à 7 jours
 
-**2. Cluely vertical "Sales Coaching" (WATCH → BUILD si pivot)**
-- Reprendre le concept d'overlay mais pour le coaching vocal temps réel :
-  - Feedback pitch → "tu parles trop vite" / "ton ton est plat" / suggestions de reformulation
-  - Marché : sales enablement ($5B+), formations (Coursera, OpenClassrooms...)
-  - Différenciateur éthique : pas de "cheat", mais coaching légitime
-- Trigger : attendre si Cluely pivot enterprise confirme le marché B2B
+**#1 — Forker VoiceStudio vertical (priorité absolue)**
+- Objectif : SaaS B2B "Voice AI for French Call Centers" sur base VoiceStudio
+- Stack : Next.js + VoiceStudio backend + API REST → intégration Vapi/Retell
+- Différenciation : Voix françaises ultra-naturelles, no-code dashboard, RGPD-compliant (local)
+- Distribution : réseau Kyle (clients voice AI existants) + LinkedIn + communities call center FR
+- Revenu cible : €5K MRR à 3 mois, €20K MRR à 6 mois
 
-**3. Ne pas lancer un clone AIApply**
-- Marché saturé, ARPU faible (~$23/mois), pas de différenciateur voix évident
-- Seule opportunité : entretiens avec feedback vocal IA → mais déjà fait par Interview Warmup (Google), Yoodli
+**#2 — Construire sur Fish Audio API plutôt que rivaliser**
+- Utiliser l'API Fish Audio comme couche voice dans le produit #1
+- Évite le CAPEX GPU training, garde le focus sur l'applicatif
+- Négocier un deal partenaire/reseller avec Fish Audio (ils veulent des channels)
 
-### 🧠 Pattern à retenir
-> L'anti-SaaS (local-first, open-source, RGPD) devient un argument de vente premium en EU. Kyle peut surfer cette vague avec son expertise voice AI et son audience FR.
+**#3 — Observer Polylane pour inspirer "Voice Monitoring Agent"**
+- Dans 4-6 mois : agent proactif qui surveille la qualité des appels (latence, hallucinations, CSAT drop)
+- Ouvre des tickets Jira automatiquement avec suggestions de fix prompt
+- Kyle = "Polylane mais pour Voice AI" — angle de pitch fort pour une levée seed
+
+### 📌 Signal faible à surveiller
+- **OpenAI Dots** ($100-500/mois, lancé le 29 sept 2026) : si les agents always-on décollent, le marché des agents verticaux voice explose dans 6-12 mois. Positionner le produit Kyle comme un "Dot spécialisé voice FR" pour enterprises.
