@@ -1,178 +1,198 @@
-# 🔥 Market Scan — 2026-10-05
+# 🔥 Market Scan — 2026-10-06
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : OpenAI Dots
-- Opportunités immédiates (BUILD NOW) : 1 (Coucou-clone pour niches verticales)
+- Top potentiel : Dots by OpenAI
+- Opportunités immédiates (BUILD NOW) : 1 (Skippr AI — angle vocal B2B)
 
-## 🏆 TOP APP #1 : OpenAI Dots
+## 🏆 TOP APP #1 : Dots by OpenAI
 ### 1. Identification
-- **URL** : [dots.openai.com](https://openai.com/dots) | **Launch** : 29 sept. 2026 (OpenAI DevDay)
-- **Fondateurs** : Sam Altman & équipe OpenAI | **Catégorie** : AI Agents / Personal Productivity
-- **Buzz** : 224 votes PH top semaine · couverture TechCrunch, PYMNTS, BetaNews · 35M+ weekly Codex+Work users
+- **URL** : [openai.com/dots](https://openai.com/dots) — lancé 29 sept 2026
+- **Fondateurs** : OpenAI (Sam Altman, équipe produit Holly Li)
+- **Catégorie** : Autonomous AI Agents / Personal AI
+- **Métriques buzz** : #1 trending PH, 10M+ mentions X en 72h, concurrent direct de Meta Muse
 
 ### 2. Proposition de Valeur
-- **Problème** : Les LLMs répondent mais ne font pas. Les tâches longues (recherche, drafts, emails) restent manuelles.
-- **Solution** : Des "dots" (agents permanents) avec leur propre ordi cloud + browser, actifs 24/7, connectés à 4 000+ apps.
-- **USP** : Powered by GPT-6 Astra · mémorisation long-terme · travaille pendant que vous dormez
-- **Target** : Pro $20/mo & Business Premium $30/mo utilisateurs ChatGPT (1.2B weekly users)
-- **Pricing** : Inclus Pro/Business · Pro Ultra $500/mo pour usage intensif
+- **Problème** : Les tâches répétitives (emails, recherches, planification) consomment ~3h/jour
+- **Solution** : Agents IA autonomes ("Dots") toujours actifs, connectés à 4000+ apps
+- **USP** : Fonctionnent 24/7 même hors session — définir l'objectif, Dot exécute
+- **Target** : Pro & Business Premium ChatGPT users d'abord
+- **Pricing** : Inclus ChatGPT Business Premium (~$30/mois), modèle freemium à venir
 
 ### 3. Stack Technique
-- **Frontend** : React + Next.js (ChatGPT web shell existant)
-- **Backend** : GPT-6 Astra · cloud computer OpenAI propriétaire · browser intégré
-- **Infra** : Azure + OpenAI infra · 4 000+ plugins via ecosystem
-- **APIs** : Plugin store OpenAI · Codex CLI intégré
+- **Moteur** : GPT-6 Astra (cloud computer intégré par Dot)
+- **Intégrations** : 4000+ plugins via écosystème OpenAI
+- **Infra** : Azure OpenAI Service, agents cloud persistants
+- **APIs** : OpenAI Responses API + Realtime API
 
 ### 4. Psychologie
-- **Triggers** : Autorité (OpenAI brand) · FOMO (lancé DevDay en live) · Social proof (1.2B users)
-- **JTBD** : "Je veux déléguer les tâches répétitives longues sans gérer un outil complexe"
-- **Aha moment** : Premier dot qui finit une tâche de recherche pendant une réunion
+- **Urgence** : "Dès maintenant pour Pro users" — FOMO exclusivité
+- **Aha moment** : Voir un Dot accomplir une tâche pendant qu'on dort
+- **JTBD** : "Je veux déléguer mes tâches sans manager un outil"
+- **Social proof** : Concurrent Meta Muse (millions de DL ce mois) crée validation marché
 
 ### 5. Go-to-Market
-- **Canaux** : Base ChatGPT existante · DevDay keynote · press embargo levé simultanément
-- **Viral loop** : "Mon dot a fait X pendant que je dormais" → partage Twitter organique
-- **Launch** : Rollout Pro/Business d'abord → Enterprise → grand public
+- **Canal principal** : ChatGPT existant (100M+ users actifs)
+- **Launch** : Keynote DevDay SF, TechCrunch/MacRumors couverture massive
+- **Viral loop** : Partage des "wins" de Dots sur X → curiosité → conversion
 
 ### 6. Réplication
-- **Complexité** : 9/10 (nécessite infra cloud compute + modèle frontier)
-- **Verticaux** : Voice AI agents (kyle-fit) · Legal docs · Finance automation
-- **Angle Kyle** : Ne pas répliquer Dots → construire un dot spécialisé Voice AI sur l'API OpenAI Agents
-- **Dev time** : 2-4 semaines pour un dot vertical via API
+- **Complexité** : 9/10 (nécessite infra agents, LLM propriétaire, 4000+ intégrations)
+- **Verticaux adjacents** : Dots spécialisés B2B (finance, support, recrutement)
+- **Angle Kyle** : Construire un "Dot vocal" spécialisé customer support — interface vocale + agent autonome
+- **Temps dev** : 3-4 mois pour un vertical ciblé avec Vapi + Claude API
 
-## 🏆 TOP APP #2 : Coucou
+## 🏆 TOP APP #2 : OpenMontage
 ### 1. Identification
-- **URL** : [github.com/Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) | **Launch** : ~29 sept. 2026
-- **Fondateurs** : Louis-CFM (indie dev) | **Catégorie** : Developer Tools / AI Agent Monitoring
-- **Buzz** : 3 221 GitHub stars en 6 jours · forks multiples · couverture Enterprise DNA + The Daily Commit
+- **URL** : [github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — lancé ~sept 2026
+- **Fondateurs** : calesthio (indie, GitHub)
+- **Catégorie** : Agentic Video Production / Open-Source
+- **Métriques buzz** : #1 GitHub Trending, 32K⭐ en quelques semaines, 3434 stars en 1 jour
 
 ### 2. Proposition de Valeur
-- **Problème** : Claude Code, Codex, Cursor tournent en arrière-plan → impossible de savoir ce qu'ils font sans ouvrir un terminal
-- **Solution** : Mini-app dans le notch macOS (ou barre Windows/Linux) qui affiche en temps réel l'activité de tous les coding agents
-- **USP** : Open-source · multi-agents (Claude Code, Codex, Cursor, Gemini CLI, Antigravity) · approve/deny en un clic
-- **Target** : Devs utilisant 1+ coding agents, power users AI
-- **Pricing** : Gratuit / open-source (potentiel freemium avec features cloud)
+- **Problème** : Produire une vidéo complète nécessite 10+ outils et équipes spécialisées
+- **Solution** : Agent IA qui orchestre toute la chaîne de production vidéo (script → assets → edit → render)
+- **USP** : 12 pipelines, 100+ outils, 700+ skills — parler en langage naturel, obtenir une vraie vidéo
+- **Target** : Créateurs de contenu, agences, développeurs
+- **Pricing** : 100% open-source (AGPL-3.0), coûts infra à charge
 
 ### 3. Stack Technique
-- **Frontend** : Electron ou framework natif (macOS notch API) · Windows/Linux en cours
-- **Backend** : Hooks Claude Code · API Codex · surveillance processus locaux
-- **Infra** : 100% local pour l'instant · connecteurs optionnels GitHub, Stripe, Notion, Vercel, n8n, Cal.com
-- **APIs** : Claude Code SDK hooks · Codex CLI · Cursor API
+- **Frontend** : CLI via AI coding assistants (Claude Code, Cursor, Copilot)
+- **Backend** : Agents Python orchestrés
+- **Assets** : Stock footage libre + archives ouvertes
+- **Render** : FFmpeg + pipelines open-source
+- **APIs** : Compatible Claude/GPT pour orchestration
 
 ### 4. Psychologie
-- **Triggers** : Curiosité (qu'est-ce que mon agent fait ?) · Contrôle (approve/deny) · Identité (je suis un power user AI)
-- **JTBD** : "Je veux superviser mes agents sans interrompre mon flow de travail"
-- **Aha moment** : Premier approve/deny d'une action agent depuis le notch sans quitter son app
+- **Aha moment** : Taper "make a 2-min explainer on X" → vidéo complète rendue
+- **JTBD** : "Je veux créer du contenu vidéo professionnel sans équipe"
+- **Viral trigger** : Demo YouTube "j'ai demandé à une IA de faire ma vidéo entière" → millions de vues
+- **Social proof** : #1 GitHub trending valide la crédibilité tech instantanément
 
 ### 5. Go-to-Market
-- **Canaux** : GitHub trending · HN Show HN · Twitter #buildinpublic · bouche-à-oreille devs
-- **Viral loop** : Stars → trending GitHub → plus de stars · screenshots partagés sur X
-- **Launch** : Cold launch GitHub → explosion organique via timing (boom agents coding oct. 2026)
+- **Canal** : GitHub organic + Show HN + Twitter dev community
+- **Viral loop** : Star sur GitHub → notoriété → démos partagées → plus de stars
+- **Monétisation potentielle** : SaaS cloud hosted, marketplace de templates
 
 ### 6. Réplication
-- **Complexité** : 3/10 (projet weekend sérieux, stack connue)
-- **Verticaux** : Monitoring pour voice agents (kyle-fit) · version B2B avec audit trail · version mobile (notifications)
-- **Angle Kyle** : Fork coucou et ajouter monitoring spécifique Voice AI agents (Vapi, ElevenLabs, etc.)
-- **Dev time** : 1-2 semaines pour un MVP opérationnel
+- **Complexité** : 7/10 (monter les pipelines prend 2-3 mois, l'orchestration est le vrai défi)
+- **Verticaux adjacents** : Vidéo marketing automatisée, formation e-learning, publicités dynamiques
+- **Angle Kyle** : Version SaaS cloud "OpenMontage for voice-first content" — scripts audio + vidéo par voix
+- **Temps dev** : 2-3 mois pour un fork SaaS vertical spécialisé
 
-## 🏆 TOP APP #3 : Offrun
+## 🏆 TOP APP #3 : Skippr AI
 ### 1. Identification
-- **URL** : [offrun.dev](https://offrun.dev) | **Launch** : sept.-oct. 2026 (Show HN + Product Hunt)
-- **Fondateurs** : Équipe indie (non public) | **Catégorie** : Developer Tools / Multi-Agent Workspace
-- **Buzz** : Show HN · trending coding tools · feature-complete prévu dans 2 mois · cloud + mobile en cours
+- **URL** : [skippr.ai](https://skippr.ai) — lancé oct 2026
+- **Fondateurs** : équipe voice AI (non publique)
+- **Catégorie** : In-App Voice Guidance & Screen Control / B2B SaaS
+- **Métriques buzz** : mentionné dans Voice AI News Sept-Oct 2026, Product Hunt Oct 2026
 
 ### 2. Proposition de Valeur
-- **Problème** : Lancer Claude Code, Codex, AGY, Grok Build séparément = chaos, aucune vue unifiée, aucune mémoire partagée
-- **Solution** : Workspace unique pour gérer tous les agents côte à côte · worktrees isolés · mémoire de projet partagée · review automatique du diff avant ship
-- **USP** : Surveille les agents même dans des terminaux non lancés par Offrun · second agent review automatique du diff
-- **Target** : Devs power users multi-agents, équipes de 1-5 personnes en mode vibe coding
-- **Pricing** : Free tier (Mac seulement) · cloud payant à venir
+- **Problème** : Onboarding et support in-app textuels = friction élevée, abandon utilisateur
+- **Solution** : Guidance vocale interactive + contrôle écran contextuel intégré au SaaS
+- **USP** : L'IA parle et guide l'utilisateur dans l'interface en temps réel, comme un co-pilote vocal
+- **Target** : Éditeurs SaaS B2B, plateformes d'apprentissage, outils métier complexes
+- **Pricing** : Estimé SaaS B2B ~€200-500/mois par client (intégration API)
 
 ### 3. Stack Technique
-- **Frontend** : App native macOS (Swift/SwiftUI) · Windows/Linux en roadmap
-- **Backend** : Watchers locaux processus · intégration Git (worktrees) · shared memory layer
-- **Infra** : Local d'abord → cloud sync en développement
-- **APIs** : Claude Code hooks · Codex CLI · AGY (Google Antigravity) · Grok Build
+- **Frontend** : SDK JavaScript embarqué chez le client SaaS
+- **Backend** : Voice AI + vision/screen understanding
+- **Voix** : ElevenLabs ou similaire pour TTS naturel
+- **APIs** : WebRTC + agent LLM contextuel (Claude/GPT)
+- **Infra** : Cloud-native, multi-tenant
 
 ### 4. Psychologie
-- **Triggers** : Efficacité (tout en un) · Contrôle (review avant ship) · FOMO (cloud + mobile bientôt)
-- **JTBD** : "Je veux orchestrer plusieurs agents sur le même projet sans perdre le fil"
-- **Aha moment** : Deux agents travaillant en parallèle sur la même codebase, visibles dans une seule fenêtre
+- **Aha moment** : L'IA dit "cliquez ici" et surligne le bouton — comme un vrai formateur
+- **JTBD** : "Je veux que mes clients maîtrisent mon SaaS sans lire de doc"
+- **Triggers** : Gain de temps support (ROI immédiat), réduction churn (survie SaaS)
+- **Social proof** : Adoption dans e-learning et enterprise onboarding
 
 ### 5. Go-to-Market
-- **Canaux** : Show HN · Distribution organique via Twitter devs · Launch Product Hunt prévu
-- **Viral loop** : Screenshots "2 agents en parallel sur mon projet" → X dev community
-- **Launch** : Beta Mac → cloud & mobile → monétisation
+- **Canal** : Outreach direct éditeurs SaaS, Product Hunt, LinkedIn
+- **Viral loop** : Les utilisateurs guidés recommandent l'app → le SaaS reste abonné
+- **Partenariats** : Intégration native Intercom/HubSpot/Zendesk
 
 ### 6. Réplication
-- **Complexité** : 5/10 (native app + intégrations multiples agents)
-- **Verticaux** : Workspace multi-agents pour Voice AI (coordonner Vapi + ElevenLabs + transcription) · version web/cloud
-- **Angle Kyle** : Construire un workspace spécialisé Voice AI pipelines (orchestration multi-step calls)
-- **Dev time** : 3-6 semaines pour MVP vertical
+- **Complexité** : 6/10 (stack voice + screen compréhension, mais beaucoup d'APIs disponibles)
+- **Verticaux adjacents** : Guidance vocale pour ERP, formations réglementaires, apps médicales
+- **Angle Kyle** : Expertise voice AI directement applicable — construire Skippr for SaaS vertical (ex: outils RH ou legal)
+- **Temps dev** : 6-8 semaines MVP avec Vapi + Claude Computer Use
 
-## 💰 Unit Economics Deep Dive — OpenAI Dots
-> ⚠️ Dots est une feature de ChatGPT, pas une app standalone. Les métriques OpenAI globales sont utilisées pour contextualiser.
+## 💰 Unit Economics Deep Dive — Dots by OpenAI
+> ⚠️ Estimations : OpenAI ne publie pas de métriques détaillées. Sources : TechCrunch, Pymnts, MacRumors, i10x.ai
 
-| Métrique | Estimation | Source / Note |
+| Métrique | Valeur estimée | Source / Base |
 |---|---|---|
-| **ARR OpenAI** | ~$70B | Reuters/OpenAI DevDay (nearing $70B, +70% Q3) |
-| **Weekly users ChatGPT** | 1.2B | OpenAI DevDay official |
-| **Dots addressable** | ~50-100M (Pro/Business) | 35M weekly Codex+Work users au lancement |
-| **ARPU Pro** | $240/an ($20/mo) | Pricing officiel |
-| **ARPU Pro Ultra** | $6 000/an ($500/mo) | Pricing officiel |
-| **ARPU blended Dots** | ~$300/an (estimé) | Mix Pro/Business |
-| **ARR Dots (estimé)** | $3-15B à 12 mois | 10-50M paying users × $300 ARPU |
-| **CAC** | ~$0 (distribution ChatGPT) | Base existante, pas d'acquisition |
-| **LTV** | $600-1 200 (2-4 ans rétention) | Analogie ChatGPT Pro |
-| **LTV/CAC** | ∞ (near-zero CAC) | Distribution base existante |
-| **Payback** | < 1 mois | CAC quasi nul |
-| **Rule of 40** | 110+ (70% growth + 40%+ margin) | OpenAI scale |
-| **Burn estimé** | ~$10-15B/an (infra + R&D) | Estimations sector |
+| **ARR ChatGPT** | ~$4-5B | Estimations publiques 2026 |
+| **Users Business Premium** | ~5M | Pro + Business Premium |
+| **ARPU Dots** | $360/an (~$30/mois) | Pricing Business Premium |
+| **CAC** | ~$20-30 | Conversion organique ChatGPT base |
+| **LTV** | ~$1080 (3 ans avg) | Rétention SaaS AI premium |
+| **LTV/CAC** | ~40x | Rétention forte, CAC faible (base existante) |
+| **Payback** | <1 mois | Base users déjà payants |
+| **Burn** | >$1B/an | Infra + R&D OpenAI |
+| **Runway** | ∞ (Microsoft deal) | $13B levés, revenu significatif |
+| **Rev/Employee** | ~$1M+ | ~4000 employés |
+| **Rule of 40** | ~70+ 🟢 | Croissance >50% + marges s'améliorant |
 
-**Verdict : 🟢 SANTÉ EXCEPTIONNELLE** — Dots bénéficie d'une distribution sans coût sur 1.2B users, d'un ARPU solide et d'une croissance explosive. Irréplicable tel quel mais le modèle "agent spécialisé sur base existante" est le vrai insight.
+**Verdict santé : 🟢 Excellent** — distribution imbattable (base ChatGPT), coût d'acquisition quasi nul sur base existante, LTV/CAC exceptionnel. Modèle non reproductible tel quel pour un indie.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | OpenAI Dots | Coucou | Offrun |
+| Dimension (poids) | Dots OpenAI | OpenMontage | Skippr AI |
 |---|---|---|---|
-| 📊 Market Size (20%) | 10 | 6 | 7 |
-| ⚙️ Complexité inversée (15%) | 1 | 9 | 6 |
-| ⏱️ Time-to-Market (15%) | 1 | 9 | 6 |
-| 🏟️ Concurrence inversée (15%) | 3 | 8 | 7 |
-| 💰 Revenue Potential (20%) | 10 | 5 | 7 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 4 | 7 | 7 |
-| **Score pondéré** | **5.35** | **7.25** | **6.65** |
-| **Verdict** | 🔴 SKIP (build) | 🟡 BUILD ADJACENT | 🟡 BUILD ADJACENT |
+| 📊 Market Size (20%) | 10 | 8 | 7 |
+| ⚙️ Complexité inversée (15%) | 1 | 4 | 7 |
+| ⏱️ Time-to-Market (15%) | 1 | 5 | 8 |
+| 🏟️ Compétition inversée (15%) | 3 | 6 | 7 |
+| 💰 Revenue Potential (20%) | 10 | 6 | 8 |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 4 | 5 | 9 |
 
-**Interprétation pour Kyle :**
-- **Dots** : market énorme mais construire Dots = impossible. L'angle est de *construire sur* l'API Dots/Agents OpenAI, pas de concurrencer.
-- **Coucou** (7.25 🟡) : fork open-source ou vertical clone pour Voice AI agents → **BUILD ADJACENT**. 1-2 semaines. Potentiel communauté + freemium.
-- **Offrun** (6.65 🟡) : workspace multi-agents pour Voice AI pipelines → **BUILD ADJACENT**. Angle B2B SaaS, plus complexe mais ARR potentiel $10K-$50K MRR en 6 mois.
+**Scores pondérés :**
+
+| App | Score | Verdict |
+|---|---|---|
+| **Dots by OpenAI** | **5.2** | 🔴 SKIP (trop complexe, concurrent OpenAI) |
+| **OpenMontage** | **5.7** | 🟠 WATCH (signal fort, fork SaaS possible) |
+| **Skippr AI** | **7.7** | 🟢 BUILD NOW (fit Kyle parfait, MVP rapide) |
+
+> **Calculs** :
+> - Dots : (10×0.20)+(1×0.15)+(1×0.15)+(3×0.15)+(10×0.20)+(4×0.15) = 2+0.15+0.15+0.45+2+0.60 = **5.35**
+> - OpenMontage : (8×0.20)+(4×0.15)+(5×0.15)+(6×0.15)+(6×0.20)+(5×0.15) = 1.6+0.6+0.75+0.9+1.2+0.75 = **5.80**
+> - Skippr AI : (7×0.20)+(7×0.15)+(8×0.15)+(7×0.15)+(8×0.20)+(9×0.15) = 1.4+1.05+1.2+1.05+1.6+1.35 = **7.65**
 
 ## 📈 Tendances Émergentes
-1. **L'ère du "Agent Oversight"** : Avec l'explosion des coding agents (Claude Code, Codex, Cursor, Gemini CLI, Antigravity), une nouvelle catégorie émerge — les outils pour *superviser* les agents. Coucou, Offrun, et des dizaines de forks illustrent ce besoin. Timing parfait : oct. 2026.
+1. **Agents autonomes "always-on"** : Le paradigme passe de l'assistant réactif à l'agent proactif 24/7. Dots (OpenAI) et Muse (Meta) valident que le marché est prêt. La course est lancée pour les verticaux B2B.
 
-2. **Always-on Agents comme standard** : OpenAI Dots normalise l'idée d'agents permanents avec cloud computer propre. Google, Meta (Muse, 3M downloads), et Microsoft suivent. Voice AI est le prochain front évident.
+2. **Voice AI comme couche UX universelle** : ElevenLabs $22B de valorisation, Vapi $50M Series B, 1B calls. La voix devient l'interface par défaut de l'IA — le marché est en hypercroissance.
 
-3. **Vibe Coding → Vibe Building** : Le trend dépasse le code. Les indie devs construisent des SaaS entiers en "vibe mode" avec multi-agents. Les outils d'orchestration (Offrun, Pi pod) explosent en conséquence.
+3. **Open-source agentic** : OpenMontage, OpenShell (NVIDIA), experiential — la communauté GitHub construit l'infrastructure agentique en open-source. Opportunité SaaS : hosted versions de ces outils.
 
-4. **Open-source first, monetize later** : Coucou (gratuit), dots open-source clones → capturer la communauté d'abord, monétiser avec features cloud/enterprise ensuite. Pattern récurrent en oct. 2026.
+4. **MCP comme standard d'intégration** : Explosion des outils MCP (CoreSpeed, MCPJam, AllMCPs). Le protocole devient le "HTTP des agents" — toute app qui ne supporte pas MCP sera exclue de l'écosystème.
 
-5. **Voice AI + Agents = prochaine vague** : ElevenLabs, Vapi, OpenAI Realtime API convergent. La prochaine app virale sera un "Coucou for Voice Agents" ou un orchestrateur de pipelines voice multi-step.
+5. **FDE (Forward-Deployed Engineers) = nouveau rôle dominant** : +730% en 1 an. Le métier de "déploiement d'agents chez des clients enterprise" crée un besoin en outils spécialisés de livraison d'agents.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle (Voice AI + SaaS expert)
+### 🎯 Pour Kyle (Voice AI + SaaS)
 
-**Opportunité #1 — "Coucou for Voice Agents" (1-2 semaines)**
-> Fork Coucou et l'étendre pour monitorer les voice agents : sessions Vapi, jobs ElevenLabs, appels OpenAI Realtime. Afficher transcriptions live, coût/appel, statut agent dans le notch/barre. Open-source → audience dev Voice AI → freemium features avancées (alertes, analytics).
+**1. BUILD NOW : Skippr AI clone vertical**
+- Construire une guidance vocale in-app pour un vertical B2B précis (RH, legal, finance)
+- Stack : Vapi + Claude API + WebRTC SDK embarquable
+- Positionnement : "l'intégration Intercom qui parle vraiment à tes users"
+- MVP en 6 semaines, prix cible €300/mois, 30 clients = €9K MRR
 
-**Opportunité #2 — Voice Agent Workspace (3-6 semaines)**
-> Offrun vertical pour Voice AI : orchestrer Claude Code (génération scripts IVR) + Vapi (déploiement) + ElevenLabs (voix) + monitoring en une seule UI. Cibler les agences Voice AI et les équipes RevOps. Prix : $49-99/mois. MRR cible : €5K-20K en 3 mois.
+**2. WATCH : OpenMontage SaaS hosted**
+- Le projet open-source explose mais n'a pas de SaaS cloud clé-en-main
+- Opportunité : version hébergée avec UI no-code + pricing usage
+- Ajouter une interface vocale (dicter sa vidéo) = différenciation unique pour Kyle
 
-**Opportunité #3 — "Dot" spécialisé Voice AI via OpenAI Agents API (2-4 semaines)**
-> Construire un Dot spécialisé qui reçoit des briefs voice campaign → écrit les scripts → configure Vapi → lance et monitore. Distribution via marketplace OpenAI (4 000+ plugins). First mover dans une niche = avantage durable.
+**3. Monitorer : Agents FDE**
+- La demande d'outils pour déployer des agents chez des clients enterprise est massive
+- Kyle pourrait positionner ses compétences voice AI comme offre FDE voice → contrats enterprise €50K+
 
-**Signaux à surveiller cette semaine :**
-- Launch Product Hunt de Offrun (prévu prochaines semaines)
-- Nombre de forks Coucou qui restent open-source vs. qui monétisent
-- Annonce Meta Muse expansion (3M downloads → stratégie B2B ?)
-- OpenAI Dots API publique (timeline non annoncée)
+**4. MCP obligatoire dès maintenant**
+- Tout nouveau produit doit exposer un MCP server — c'est devenu un critère d'adoption
+- Si un produit de Kyle ne supporte pas MCP en 2026, il ne sera pas intégré dans les workflows agents
+
+**5. Signal fort : ElevenLabs $22B**
+- La valorisation de l'infrastructure vocale valide que la couche "voice-as-a-service" est encore en phase de croissance
+- Pas trop tard pour construire des applications verticales au-dessus de cette infrastructure
