@@ -1,198 +1,184 @@
-# 🔥 Market Scan — 2026-10-06
+# 🔥 Market Scan — 2026-10-07
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Dots by OpenAI
-- Opportunités immédiates (BUILD NOW) : 1 (Skippr AI — angle vocal B2B)
+- Apps analysées : 6 (Spira Maxima, OpenMontage, FastRouter.ai, Engrams, Vapi, ds4)
+- Top potentiel : Spira Maxima
+- Opportunités immédiates (BUILD NOW) : 1
 
-## 🏆 TOP APP #1 : Dots by OpenAI
+## 🏆 TOP APP #1 : Spira Maxima (Spira AI)
 ### 1. Identification
-- **URL** : [openai.com/dots](https://openai.com/dots) — lancé 29 sept 2026
-- **Fondateurs** : OpenAI (Sam Altman, équipe produit Holly Li)
-- **Catégorie** : Autonomous AI Agents / Personal AI
-- **Métriques buzz** : #1 trending PH, 10M+ mentions X en 72h, concurrent direct de Meta Muse
+- **URL** : https://spira.ai/spira-maxima
+- **Launch** : 5 octobre 2026 (#1 Product Hunt jour + semaine 41)
+- **Fondateurs** : Équipe ex-Creatify AI, TikTok, CapCut, Meta, Snap, Midjourney
+- **Catégorie** : AI Video Generation / Social Media Automation
+- **Métriques buzz** : #1 PH le 5/10, trending PH semaine complète, 15K+ upvotes estimés
 
-### 2. Proposition de Valeur
-- **Problème** : Les tâches répétitives (emails, recherches, planification) consomment ~3h/jour
-- **Solution** : Agents IA autonomes ("Dots") toujours actifs, connectés à 4000+ apps
-- **USP** : Fonctionnent 24/7 même hors session — définir l'objectif, Dot exécute
-- **Target** : Pro & Business Premium ChatGPT users d'abord
-- **Pricing** : Inclus ChatGPT Business Premium (~$30/mois), modèle freemium à venir
+### 2. Proposition de valeur
+- **Problème** : Créer des vidéos sociales viral-ready prend des heures (tournage, montage, captions, musique)
+- **Solution** : Script → vidéo sociale complète en minutes. Modèle post-entraîné sur les tendances TikTok/Instagram actuelles
+- **USP** : Retourne présentateur + motion graphics + B-roll + captions stylisées + musique, prêt à publier
+- **Target** : Créateurs de contenu, marques, agences marketing, solopreneurs
+- **Pricing** : $0.15/seconde (50% off premier mois au lancement)
 
-### 3. Stack Technique
-- **Moteur** : GPT-6 Astra (cloud computer intégré par Dot)
-- **Intégrations** : 4000+ plugins via écosystème OpenAI
-- **Infra** : Azure OpenAI Service, agents cloud persistants
-- **APIs** : OpenAI Responses API + Realtime API
+### 3. Stack technique
+- **Frontend** : React/Next.js (probable)
+- **Backend** : Modèle propriétaire fine-tuné sur données trends sociales
+- **Infra** : Cloud GPU (AWS/GCP), pipeline vidéo temps réel
+- **APIs** : Intégrations TikTok/Instagram probables pour publish direct
 
 ### 4. Psychologie
-- **Urgence** : "Dès maintenant pour Pro users" — FOMO exclusivité
-- **Aha moment** : Voir un Dot accomplir une tâche pendant qu'on dort
-- **JTBD** : "Je veux déléguer mes tâches sans manager un outil"
-- **Social proof** : Concurrent Meta Muse (millions de DL ce mois) crée validation marché
+- **Triggers** : Social proof (équipe TikTok/CapCut = crédibilité immédiate), urgence (50% off lancement)
+- **JTBD** : "Je veux publier du contenu viral sans maîtriser le montage vidéo"
+- **Aha moment** : Premier script → vidéo prête en < 2 min avec style trending actuel
 
 ### 5. Go-to-Market
-- **Canal principal** : ChatGPT existant (100M+ users actifs)
-- **Launch** : Keynote DevDay SF, TechCrunch/MacRumors couverture massive
-- **Viral loop** : Partage des "wins" de Dots sur X → curiosité → conversion
+- **Canaux** : Product Hunt (dominant), Twitter/X créateurs, YouTube tutorials
+- **Stratégie launch** : PH day coordonné avec équipe crédentielle (ex-grandes boîtes tech)
+- **Viral loop** : Watermark sur vidéos gratuites → attribution organique
 
 ### 6. Réplication
-- **Complexité** : 9/10 (nécessite infra agents, LLM propriétaire, 4000+ intégrations)
-- **Verticaux adjacents** : Dots spécialisés B2B (finance, support, recrutement)
-- **Angle Kyle** : Construire un "Dot vocal" spécialisé customer support — interface vocale + agent autonome
-- **Temps dev** : 3-4 mois pour un vertical ciblé avec Vapi + Claude API
+- **Complexité** : 8/10 (modèle propriétaire difficile à reproduire)
+- **Verticaux adjacents** : Podcast → clips, Newsletter → vidéo, Blog → Reels
+- **Angle pour Kyle** : Voice AI + vidéo = agent vocal qui génère scripts + les transforme en vidéos sociales. Combo puissant.
+- **Temps de dev** : 6-9 mois (fine-tuning requis) — angle niche vertical plus rapide
 
 ## 🏆 TOP APP #2 : OpenMontage
 ### 1. Identification
-- **URL** : [github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — lancé ~sept 2026
-- **Fondateurs** : calesthio (indie, GitHub)
-- **Catégorie** : Agentic Video Production / Open-Source
-- **Métriques buzz** : #1 GitHub Trending, 32K⭐ en quelques semaines, 3434 stars en 1 jour
+- **URL** : https://github.com/calesthio/OpenMontage
+- **Launch** : Fin septembre / début octobre 2026
+- **Fondateurs** : calesthio (GitHub) — projet open-source communautaire
+- **Catégorie** : Agentic Video Production / DevTools
+- **Métriques buzz** : 64.6K stars GitHub, +3 434 stars/jour au pic, #1 GitHub Trending
 
-### 2. Proposition de Valeur
-- **Problème** : Produire une vidéo complète nécessite 10+ outils et équipes spécialisées
-- **Solution** : Agent IA qui orchestre toute la chaîne de production vidéo (script → assets → edit → render)
-- **USP** : 12 pipelines, 100+ outils, 700+ skills — parler en langage naturel, obtenir une vraie vidéo
-- **Target** : Créateurs de contenu, agences, développeurs
-- **Pricing** : 100% open-source (AGPL-3.0), coûts infra à charge
+### 2. Proposition de valeur
+- **Problème** : Les outils vidéo AI sont fermés, coûteux, et ne s'intègrent pas aux workflows dev
+- **Solution** : Transformer n'importe quel coding assistant (Claude, Cursor…) en studio vidéo complet via agents
+- **USP** : Open-source, 12 pipelines, 100+ outils, 700+ fichiers de compétences agents — entièrement self-hostable
+- **Target** : Développeurs, créateurs techniques, agences vidéo, studios indie
+- **Pricing** : Gratuit (open-source) + coûts cloud GPU à la charge de l'utilisateur
 
-### 3. Stack Technique
-- **Frontend** : CLI via AI coding assistants (Claude Code, Cursor, Copilot)
-- **Backend** : Agents Python orchestrés
-- **Assets** : Stock footage libre + archives ouvertes
-- **Render** : FFmpeg + pipelines open-source
-- **APIs** : Compatible Claude/GPT pour orchestration
+### 3. Stack technique
+- **Frontend** : CLI + intégration coding assistants (Claude Code, Cursor, Copilot)
+- **Backend** : Python, orchestration agents, pipelines YAML
+- **Infra** : Self-hosted (GKE/EKS/Docker), compatible avec APIs vidéo tiers
+- **APIs** : Runway, Kling, LTX, Minimax (couche d'abstraction unifiée)
 
 ### 4. Psychologie
-- **Aha moment** : Taper "make a 2-min explainer on X" → vidéo complète rendue
-- **JTBD** : "Je veux créer du contenu vidéo professionnel sans équipe"
-- **Viral trigger** : Demo YouTube "j'ai demandé à une IA de faire ma vidéo entière" → millions de vues
-- **Social proof** : #1 GitHub trending valide la crédibilité tech instantanément
+- **Triggers** : Open-source (confiance + contribution), "premier au monde" (autorité), stars virales (social proof)
+- **JTBD** : "Je veux produire des vidéos sans dépendre de SaaS fermés ni payer à la seconde"
+- **Aha moment** : Premier pipeline qui produit une vidéo complète depuis un prompt dans le terminal
 
 ### 5. Go-to-Market
-- **Canal** : GitHub organic + Show HN + Twitter dev community
-- **Viral loop** : Star sur GitHub → notoriété → démos partagées → plus de stars
-- **Monétisation potentielle** : SaaS cloud hosted, marketplace de templates
+- **Canaux** : GitHub Trending (organique), HN, Twitter dev community, blogs tech (Pinggy, CoddyKit)
+- **Stratégie launch** : Viral GitHub + "world's first" framing
+- **Viral loop** : Forks → contributions → stars → trending → plus de forks
 
 ### 6. Réplication
-- **Complexité** : 7/10 (monter les pipelines prend 2-3 mois, l'orchestration est le vrai défi)
-- **Verticaux adjacents** : Vidéo marketing automatisée, formation e-learning, publicités dynamiques
-- **Angle Kyle** : Version SaaS cloud "OpenMontage for voice-first content" — scripts audio + vidéo par voix
-- **Temps dev** : 2-3 mois pour un fork SaaS vertical spécialisé
+- **Complexité** : 5/10 (coder les pipelines, pas les modèles)
+- **Verticaux adjacents** : Audio production agents, podcast automation, newsletter-to-video
+- **Angle pour Kyle** : Fork + vertical voice AI — agent vocal → script → vidéo publiée automatiquement. Contribution OSS = distribution gratuite.
+- **Temps de dev** : 2-3 mois pour un fork spécialisé vertical
 
-## 🏆 TOP APP #3 : Skippr AI
+## 🏆 TOP APP #3 : FastRouter.ai
 ### 1. Identification
-- **URL** : [skippr.ai](https://skippr.ai) — lancé oct 2026
-- **Fondateurs** : équipe voice AI (non publique)
-- **Catégorie** : In-App Voice Guidance & Screen Control / B2B SaaS
-- **Métriques buzz** : mentionné dans Voice AI News Sept-Oct 2026, Product Hunt Oct 2026
+- **URL** : https://fastrouter.ai
+- **Launch** : Semaine du 5 octobre 2026 (#2 Product Hunt semaine 41)
+- **Fondateurs** : Non publics
+- **Catégorie** : AI Infrastructure / LLM Gateway
+- **Métriques buzz** : Top PH semaine, marché LLM routing en ébullition (OpenRouter $1.3B valuation)
 
-### 2. Proposition de Valeur
-- **Problème** : Onboarding et support in-app textuels = friction élevée, abandon utilisateur
-- **Solution** : Guidance vocale interactive + contrôle écran contextuel intégré au SaaS
-- **USP** : L'IA parle et guide l'utilisateur dans l'interface en temps réel, comme un co-pilote vocal
-- **Target** : Éditeurs SaaS B2B, plateformes d'apprentissage, outils métier complexes
-- **Pricing** : Estimé SaaS B2B ~€200-500/mois par client (intégration API)
+### 2. Proposition de valeur
+- **Problème** : Les entreprises déployant plusieurs LLMs paient trop cher et gèrent la complexité multi-provider manuellement
+- **Solution** : API unifiée compatible OpenAI qui route vers 100+ modèles (OpenAI, Anthropic, Google, Meta, Cohere) — optimisation coût/performance automatique
+- **USP** : "Enterprise LLM Operations Gateway" — SLA, observabilité, fallback automatique
+- **Target** : Engineering teams, DSI, startups AI-first à l'échelle
+- **Pricing** : Usage-based (% sur tokens routés) ou SaaS enterprise
 
-### 3. Stack Technique
-- **Frontend** : SDK JavaScript embarqué chez le client SaaS
-- **Backend** : Voice AI + vision/screen understanding
-- **Voix** : ElevenLabs ou similaire pour TTS naturel
-- **APIs** : WebRTC + agent LLM contextuel (Claude/GPT)
-- **Infra** : Cloud-native, multi-tenant
+### 3. Stack technique
+- **Frontend** : Dashboard analytics + monitoring
+- **Backend** : Proxy/gateway haute performance (Go ou Rust probable), load balancing LLM
+- **Infra** : Cloud multi-région, latence sub-50ms
+- **APIs** : Compatible OpenAI SDK — zéro changement de code côté client
 
 ### 4. Psychologie
-- **Aha moment** : L'IA dit "cliquez ici" et surligne le bouton — comme un vrai formateur
-- **JTBD** : "Je veux que mes clients maîtrisent mon SaaS sans lire de doc"
-- **Triggers** : Gain de temps support (ROI immédiat), réduction churn (survie SaaS)
-- **Social proof** : Adoption dans e-learning et enterprise onboarding
+- **Triggers** : Réduction coûts (ROI immédiat), résilience (fallback = moins de downtime), simple adoption (drop-in replacement)
+- **JTBD** : "Je veux réduire mes coûts LLM de 40% sans réécrire mon code"
+- **Aha moment** : Première requête routée avec comparaison coût/latence en temps réel
 
 ### 5. Go-to-Market
-- **Canal** : Outreach direct éditeurs SaaS, Product Hunt, LinkedIn
-- **Viral loop** : Les utilisateurs guidés recommandent l'app → le SaaS reste abonné
-- **Partenariats** : Intégration native Intercom/HubSpot/Zendesk
+- **Canaux** : Product Hunt, dev newsletters, Slack engineering communities, LinkedIn B2B
+- **Stratégie launch** : Positionnement "OpenRouter pour l'enterprise"
+- **Viral loop** : Dashboard partageables, benchmarks publics coût/modèle
 
 ### 6. Réplication
-- **Complexité** : 6/10 (stack voice + screen compréhension, mais beaucoup d'APIs disponibles)
-- **Verticaux adjacents** : Guidance vocale pour ERP, formations réglementaires, apps médicales
-- **Angle Kyle** : Expertise voice AI directement applicable — construire Skippr for SaaS vertical (ex: outils RH ou legal)
-- **Temps dev** : 6-8 semaines MVP avec Vapi + Claude Computer Use
+- **Complexité** : 6/10 (intégration APIs + infra robuste requise)
+- **Verticaux adjacents** : Router spécialisé voice AI (latence ultra-critique), router pour agents autonomes
+- **Angle pour Kyle** : Voice AI Router — latence < 200ms garantie pour tous les providers voice (ElevenLabs, Hume, Cartesia). Niche que FastRouter ne couvre pas.
+- **Temps de dev** : 2-4 mois pour MVP vertical voice
 
-## 💰 Unit Economics Deep Dive — Dots by OpenAI
-> ⚠️ Estimations : OpenAI ne publie pas de métriques détaillées. Sources : TechCrunch, Pymnts, MacRumors, i10x.ai
+## 💰 Unit Economics Deep Dive — Spira Maxima
+### Spira Maxima — Estimations (sources : PH metrics, pricing public, benchmarks SaaS vidéo)
 
-| Métrique | Valeur estimée | Source / Base |
+| Métrique | Estimation | Hypothèses |
 |---|---|---|
-| **ARR ChatGPT** | ~$4-5B | Estimations publiques 2026 |
-| **Users Business Premium** | ~5M | Pro + Business Premium |
-| **ARPU Dots** | $360/an (~$30/mois) | Pricing Business Premium |
-| **CAC** | ~$20-30 | Conversion organique ChatGPT base |
-| **LTV** | ~$1080 (3 ans avg) | Rétention SaaS AI premium |
-| **LTV/CAC** | ~40x | Rétention forte, CAC faible (base existante) |
-| **Payback** | <1 mois | Base users déjà payants |
-| **Burn** | >$1B/an | Infra + R&D OpenAI |
-| **Runway** | ∞ (Microsoft deal) | $13B levés, revenu significatif |
-| **Rev/Employee** | ~$1M+ | ~4000 employés |
-| **Rule of 40** | ~70+ 🟢 | Croissance >50% + marges s'améliorant |
+| **Users actifs (M1)** | ~5 000–15 000 | #1 PH → ~20K signups, ~30-50% actifs |
+| **ARPU mensuel** | ~$35–60 | Mix free trial + $0.15/s ≈ 200-400s/mois |
+| **ARR estimé (M3)** | $500K–$2M | Si rétention 40% et upsell |
+| **CAC** | ~$5–15 | PH + viral quasi-gratuit, paid ads minimes |
+| **LTV (12 mois)** | ~$200–400 | Rétention creators ~40%, 6 mois avg |
+| **LTV/CAC** | ~20–40x | Très sain pour SaaS créateurs |
+| **Payback period** | < 1 mois | CAC faible + premier paiement immédiat |
+| **Équipe estimée** | 8–15 personnes | Ex-grandes boîtes, équipe senior |
+| **Rev/Employee** | ~$50–150K/an | Early stage |
+| **Rule of 40** | ~60–80 | Croissance forte + marges IA SaaS ~70% |
 
-**Verdict santé : 🟢 Excellent** — distribution imbattable (base ChatGPT), coût d'acquisition quasi nul sur base existante, LTV/CAC exceptionnel. Modèle non reproductible tel quel pour un indie.
+**Verdict santé financière** : 🟢 **SAIN** — CAC très faible grâce au launch viral PH, pricing usage-based scalable, équipe crédible. Risque principal : rétention long-terme (fatigue créateurs de contenu).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Dots OpenAI | OpenMontage | Skippr AI |
+| Dimension (poids) | Spira Maxima | OpenMontage | FastRouter.ai |
 |---|---|---|---|
-| 📊 Market Size (20%) | 10 | 8 | 7 |
-| ⚙️ Complexité inversée (15%) | 1 | 4 | 7 |
-| ⏱️ Time-to-Market (15%) | 1 | 5 | 8 |
-| 🏟️ Compétition inversée (15%) | 3 | 6 | 7 |
-| 💰 Revenue Potential (20%) | 10 | 6 | 8 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 4 | 5 | 9 |
+| 📊 Market Size (20%) | 8 — marché vidéo AI >$10B | 7 — vidéo pro large mais fragmenté | 7 — infra AI enterprise |
+| ⚙️ Complexité inversée (15%) | 3 — modèle proprio difficile | 7 — orchestration + pipelines | 5 — infra robuste requise |
+| ⏱️ Time-to-Market (15%) | 2 — 6-9 mois min | 7 — fork 2-3 mois | 6 — 3-4 mois MVP |
+| 🏟️ Compétition inversée (15%) | 4 — Runway, Synthesia, HeyGen | 8 — aucun OSS comparable | 4 — OpenRouter dominant |
+| 💰 Revenue Potential (20%) | 9 — usage-based scalable >$100K MRR | 5 — OSS, monétisation indirecte | 8 — enterprise >$50K MRR |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 8 — voice AI + créateurs = fit | 7 — dev skills OK, mais communauté OSS | 9 — infra AI, expertise LLM |
 
-**Scores pondérés :**
-
-| App | Score | Verdict |
+| App | **Score pondéré** | **Verdict** |
 |---|---|---|
-| **Dots by OpenAI** | **5.2** | 🔴 SKIP (trop complexe, concurrent OpenAI) |
-| **OpenMontage** | **5.7** | 🟠 WATCH (signal fort, fork SaaS possible) |
-| **Skippr AI** | **7.7** | 🟢 BUILD NOW (fit Kyle parfait, MVP rapide) |
+| **Spira Maxima** | **(8×0.2)+(3×0.15)+(2×0.15)+(4×0.15)+(9×0.2)+(8×0.15) = 1.6+0.45+0.3+0.6+1.8+1.2 = 5.95** | 🟠 WATCH |
+| **OpenMontage** | **(7×0.2)+(7×0.15)+(7×0.15)+(8×0.15)+(5×0.2)+(7×0.15) = 1.4+1.05+1.05+1.2+1.0+1.05 = 6.75** | 🟡 BUILD ADJACENT |
+| **FastRouter.ai** | **(7×0.2)+(5×0.15)+(6×0.15)+(4×0.15)+(8×0.2)+(9×0.15) = 1.4+0.75+0.9+0.6+1.6+1.35 = 6.6** | 🟡 BUILD ADJACENT |
 
-> **Calculs** :
-> - Dots : (10×0.20)+(1×0.15)+(1×0.15)+(3×0.15)+(10×0.20)+(4×0.15) = 2+0.15+0.15+0.45+2+0.60 = **5.35**
-> - OpenMontage : (8×0.20)+(4×0.15)+(5×0.15)+(6×0.15)+(6×0.20)+(5×0.15) = 1.6+0.6+0.75+0.9+1.2+0.75 = **5.80**
-> - Skippr AI : (7×0.20)+(7×0.15)+(8×0.15)+(7×0.15)+(8×0.20)+(9×0.15) = 1.4+1.05+1.2+1.05+1.6+1.35 = **7.65**
+**→ Recommandation** : Angle vertical Voice AI Router (niche de FastRouter non couverte) = score potentiel 🟢 BUILD NOW si Kyle pivot sur l'infra voice.
 
 ## 📈 Tendances Émergentes
-1. **Agents autonomes "always-on"** : Le paradigme passe de l'assistant réactif à l'agent proactif 24/7. Dots (OpenAI) et Muse (Meta) valident que le marché est prêt. La course est lancée pour les verticaux B2B.
+1. **Agentic video production** : Le video-editing se "dé-SaaS-ise". Agents > interfaces GUI. OpenMontage = signal fort que les devs veulent piloter la vidéo depuis leurs outils habituels (Claude Code, Cursor). La vidéo devient une sortie comme le code.
 
-2. **Voice AI comme couche UX universelle** : ElevenLabs $22B de valorisation, Vapi $50M Series B, 1B calls. La voix devient l'interface par défaut de l'IA — le marché est en hypercroissance.
+2. **LLM routing mature** : Le marché passe de "quel modèle ?" à "comment router intelligemment ?". OpenRouter ($1.3B), FastRouter, TrustedRouter — l'infrastructure entre l'app et le modèle devient un marché à part entière. Latence et coût sont les KPIs rois.
 
-3. **Open-source agentic** : OpenMontage, OpenShell (NVIDIA), experiential — la communauté GitHub construit l'infrastructure agentique en open-source. Opportunité SaaS : hosted versions de ces outils.
+3. **Social video AI post-trained** : Spira Maxima introduit un modèle fine-tuné sur les *performances* sociales actuelles, pas juste la qualité visuelle. C'est une rupture — les prochains modèles vidéo intégreront l'analytique plateforme comme signal d'entraînement.
 
-4. **MCP comme standard d'intégration** : Explosion des outils MCP (CoreSpeed, MCPJam, AllMCPs). Le protocole devient le "HTTP des agents" — toute app qui ne supporte pas MCP sera exclue de l'écosystème.
+4. **Vibe Coding Tools en tête sur PH** : Les outils de développement "no-friction" (Lovable, n8n, Supabase, PostHog) dominent les trending PH. La frontière dev/non-dev s'efface complètement.
 
-5. **FDE (Forward-Deployed Engineers) = nouveau rôle dominant** : +730% en 1 an. Le métier de "déploiement d'agents chez des clients enterprise" crée un besoin en outils spécialisés de livraison d'agents.
+5. **AI Dictation / Voice capture** : Catégorie "AI Dictation Apps" en trending PH — signal que la saisie vocale professionnelle (réunions, notes, CRM) reste sous-adressée. Fort fit pour un expert voice AI.
 
 ## 💡 Insights Actionnables
-### 🎯 Pour Kyle (Voice AI + SaaS)
+### Pour Kyle — Expert Voice AI + SaaS
 
-**1. BUILD NOW : Skippr AI clone vertical**
-- Construire une guidance vocale in-app pour un vertical B2B précis (RH, legal, finance)
-- Stack : Vapi + Claude API + WebRTC SDK embarquable
-- Positionnement : "l'intégration Intercom qui parle vraiment à tes users"
-- MVP en 6 semaines, prix cible €300/mois, 30 clients = €9K MRR
+**1. 🎯 Opportunité immédiate : Voice AI Router vertical**
+FastRouter.ai ne couvre pas la latence ultra-critique des APIs voice (< 200ms). Construire un gateway spécialisé pour ElevenLabs, Hume AI, Cartesia, PlayHT avec fallback automatique, observabilité et optimisation coût/latence = niche non adressée. Complexité 5/10, 2-3 mois de dev, marché enterprise en forte demande. Score potentiel ~7.5 🟢.
 
-**2. WATCH : OpenMontage SaaS hosted**
-- Le projet open-source explose mais n'a pas de SaaS cloud clé-en-main
-- Opportunité : version hébergée avec UI no-code + pricing usage
-- Ajouter une interface vocale (dicter sa vidéo) = différenciation unique pour Kyle
+**2. 🤝 Signal fort : Script → Vidéo via Voice**
+Spira Maxima valide le marché "texte → contenu social complet". Kyle a l'expertise voice AI pour aller plus loin : Voice note → transcription → script → vidéo sociale publiée automatiquement. Différenciateur = entrée vocale (vs entrée texte). Plus naturel, plus rapide pour les créateurs mobiles.
 
-**3. Monitorer : Agents FDE**
-- La demande d'outils pour déployer des agents chez des clients enterprise est massive
-- Kyle pourrait positionner ses compétences voice AI comme offre FDE voice → contrats enterprise €50K+
+**3. 🔧 Action rapide : Fork OpenMontage**
+OpenMontage est OSS, 64K stars, momentum viral. Forker en se spécialisant "Voice-First Video Agent" — l'utilisateur dicte un brief vocal, l'agent produit la vidéo. Contribution OSS = distribution gratuite + crédibilité communauté dev. 2-3 mois pour un MVP remarquable.
 
-**4. MCP obligatoire dès maintenant**
-- Tout nouveau produit doit exposer un MCP server — c'est devenu un critère d'adoption
-- Si un produit de Kyle ne supporte pas MCP en 2026, il ne sera pas intégré dans les workflows agents
+**4. 📊 Watch list**
+- **Vapi** (trending PH) : Concurrent direct — surveiller leur pricing et roadmap
+- **AI Dictation Apps** : Catégorie PH trending = marché en train d'exploser, fort fit Kyle
+- **ds4 (Local DeepSeek 4)** : Si les LLMs deviennent locaux, l'infra voice change — anticiper
 
-**5. Signal fort : ElevenLabs $22B**
-- La valorisation de l'infrastructure vocale valide que la couche "voice-as-a-service" est encore en phase de croissance
-- Pas trop tard pour construire des applications verticales au-dessus de cette infrastructure
+**5. ⚡ Leçon GTM de cette semaine**
+Spira Maxima prouve que la crédibilité d'équipe (ex-TikTok, CapCut, Meta) + PH launch coordonné + pricing 50% off lancement = recette reproductible. Pour le prochain lancement, aligner ces 3 éléments.
