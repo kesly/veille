@@ -1,128 +1,117 @@
-# 🔥 Market Scan — 2026-10-12
+# 🔥 Market Scan — 2026-10-13
+
+> ⚠️ Limites de la collecte : Product Hunt et Hacker News inaccessibles depuis l'environnement (DNS bloqué). Seul GitHub Trending (hebdo) a été exploitable ; les recherches web n'ont rien remonté de daté octobre 2026. Les chiffres de stars divergent entre pages (voir notes). Scores = estimations honnêtes, non vérifiées par des revenus publics.
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (bilt.me, Flai, Willow Voice)
-- Top potentiel : bilt.me (AI app builder natif mobile) pour la tendance ; Flai pour le fit Kyle (voice AI verticale)
-- Opportunités immédiates (BUILD NOW) : 0
-- ⚠️ Honnêteté : semaine pauvre en signal. WebFetch indisponible (DNS bloqué), Product Hunt/HN non lisibles en direct. Les 3 apps ont >6 mois d'existence (filtre d'exclusion assoupli, retenues car momentum récent : levées de fonds sept-oct 2026). Chiffres = déclarations société via presse secondaire.
+- Apps analysées : 3 (sources : GitHub Trending hebdo + pages repos)
+- Top potentiel : tester-army/e2e (TesterArmy) — SaaS B2B dev-tool adjacent
+- Opportunités immédiates (BUILD NOW) : 0 (1-2 en BUILD ADJACENT)
 
-## 🏆 TOP APP #1 : bilt.me
+## 🏆 TOP APP #1 : tester-army/e2e (TesterArmy)
 **1. Identification**
-- bilt.me, estonien, fondé août 2025 par Uku Joost Annus, Kevin Akkermann, Karl Kiilaspää (né d'un hackathon). Catégorie : AI app builder mobile natif ("Shopify des apps mobiles").
-- Buzz : pre-seed ~€615K/$700K (Superhero Capital, Markus Villig de Bolt, Martin Sokk de Lightyear), fin sept. 2026 ; "plus de six chiffres d'ARR", revenu x2 /mois sur 3 mois (déclaré) ; "milliers" d'utilisateurs (75% apps grand public).
-- Sources : [tech.eu](https://tech.eu/2026/09/28/shopify-of-mobile-apps-biltme-raises-700k-to-turn-ideas-into-mobile-businesses/), [EU-Startups](https://www.eu-startups.com/2026/09/estonias-bilt-me-raises-e615k-with-backing-from-bolt-and-lightyear-founders-to-scale-its-ai-native-mobile-app-builder)
-- Filtre buzz : croissance revenu ✅, levée ✅, médias ✅ (3/6 min.). Pas open-source, payant.
+- Repo : [tester-army/e2e](https://github.com/tester-army/e2e) — open-source (Apache-2.0), plateforme hébergée TesterArmy (e2e.tester.army)
+- Launch : date non affichée ; 751 commits, « en route vers 1.0 » (probablement <6 mois, non confirmé)
+- Fondateurs : non identifiés
+- Catégorie : testing E2E piloté par agents IA (web + mobile)
+- Buzz : +5 582 stars sur la semaine (GitHub Trending), ~9,7k stars, 462 forks, 68 PR ouvertes → 2 critères (viralité GitHub, communauté active) ; pas de traction revenus publique
 
 **2. Proposition de valeur**
-- Problème : publier une vraie app iOS/Android est dur pour les non-devs ; les builders web (Lovable, Bolt) ne livrent pas du natif.
-- Solution : un agent décrit-génère-prévisualise sur téléphone-publie sur App Store/Play, avec paiements, cloud, partage, export du code React Native.
-- Cible : entrepreneurs non techniques, créateurs. Pricing : non confirmé (abonnement probable).
+- Problème : les tests E2E sont fragiles et coûteux à maintenir
+- Solution : étapes en langage naturel (`agent.act`, `agent.assert`) enregistrées puis rejouées sans appel modèle tant que l'app ne change pas
+- USP : coût LLM ≈ 0 en régime stable, BYO clé/abonnement/modèle local, web + iOS/Android
+- Target : équipes produit/dev, startups avec CI GitHub
+- Pricing : framework gratuit ; plateforme TesterArmy (prix non listé)
 
-**3. Stack** : React Native (export), agent LLM, cloud managé (détails non publics).
+**3. Stack** : TypeScript, monorepo pnpm, Playwright, agent-device (simulateurs), intégrations Kernel / smol / Limrun / EAS ; reporter GitHub PR ; télémétrie anonyme.
 
-**4. Psychologie**
-- Triggers : "mon app dans le store" (accomplissement, statut), zéro friction.
-- JTBD : transformer une idée en business mobile sans équipe. Aha : voir l'app tourner sur son propre téléphone en minutes.
+**4. Psychologie** : trigger = douleur récurrente (tests flaky) ; autorité via Playwright ; aha moment = `npx e2e init` puis un test en une phrase ; JTBD = « arrêter de maintenir des sélecteurs ».
 
-**5. Go-to-market**
-- Présence dans l'écosystème startup estonien/nordique, soutien de fondateurs connus (Bolt, Lightyear) = autorité. Build in public probable. Boucle virale : apps partagées via lien de test.
+**5. Go-to-market** : open-source bottom-up → upsell plateforme hébergée ; commentaires de résultats directement dans les PR (boucle virale interne à l'équipe) ; docs + exemples par framework.
 
-**6. Réplication**
-- Complexité 8/10 (pipeline de publication stores, review Apple, infra). Dev : 6-12 mois, équipe 3+.
-- Verticaux adjacents : apps voice-first, apps pour créateurs/coachs, white-label agences.
-- Angle Kyle : builder d'apps *voice agent* préconfigurées (templates) plutôt que concurrencer le générique.
+**6. Réplication** : complexité 6/10 ; verticaux : QA voix (tester des agents vocaux par appels simulés), QA d'agents conversationnels ; angle Kyle : « E2E pour voice agents » ; temps de dev MVP : 6-8 semaines.
 
-## 🏆 TOP APP #2 : Flai
+## 🏆 TOP APP #2 : HyperFrames (HeyGen)
 **1. Identification**
-- Flai, fondée par Ari Polakof (CEO), Alen Polakof, Juan Alzugaray. Voice AI + CRM IA pour concessionnaires auto. Seed $4.5M (oct. 2025), Series A $27M (oct. 2026, Base10 ; Friedkin, Toyota Ventures, YC, First Round), total $33M. ~40 personnes.
-- Buzz : revenu x20 en un an, ~50 000 RDV/mois, >10 des 50 plus gros groupes US (ou 20% selon LinkedIn, déclaré). Critères : traction ✅, levée ✅, médias ✅.
-- Sources : [TechCrunch](https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month), [AI Weekly](https://aiweekly.co/alerts/flai-raises-27m-for-ai-dealership-crm-booking-50000-a-month), [SaaSRise](https://www.saasrise.com/news/flai-raises-27m-series-a-as-ai-software-books-50000-dealer-appointments-monthly-e73c38cf-fa0a-4945-824b-61a9f5a98931). Payant, propriétaire. (>6 mois : exception assumée.)
+- Repo : [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — open-source (Apache-2.0), par HeyGen (société établie)
+- Launch : date non affichée ; ~62k stars, 5,6k forks, +4 482 stars sur la semaine
+- Catégorie : génération vidéo programmatique « pour agents »
+- Buzz : viralité GitHub, communauté (Discord), usage en production chez HeyGen → 3 critères ; biais : marque HeyGen préexistante
 
 **2. Proposition de valeur**
-- Problème : appels manqués = ventes/RDV service perdus chez les concessionnaires.
-- Solution : agent IA téléphone/email/SMS, bilingue ES/EN en cours d'appel, qui réserve des RDV ; élargi en CRM IA natif auto. Mise en production en ~10 jours.
-- Pricing : B2B sur devis, non public.
+- Problème : produire de la vidéo de façon déterministe et pilotable par des agents IA
+- Solution : écrire du HTML/CSS/GSAP, rendu image par image dans Chrome headless + FFmpeg → MP4 identique à chaque run
+- USP : HTML simple vs React (Remotion), 21 skills d'agents, rendu AWS Lambda optionnel
+- Target : devs, créateurs de contenu automatisé, outils hébergés
+- Pricing : gratuit (OSS) ; monétisation indirecte via HeyGen
 
-**3. Stack** : voice agent temps réel (STT/LLM/TTS), intégrations DMS/CRM auto (non détaillé publiquement).
+**3. Stack** : TypeScript, Bun/Node 22+, Puppeteer, FFmpeg, adaptateurs GSAP / Lottie / Three.js / Anime.js / WAAPI, Studio navigateur.
 
-**4. Psychologie**
-- Triggers : perte chiffrée (appels manqués), preuve sociale (grands groupes), ROI mesurable (RDV bookés).
-- JTBD : "ne plus perdre de leads au téléphone". Aha : premier RDV booké automatiquement la nuit/le week-end.
+**4. Psychologie** : autorité (marque HeyGen), comparaison explicite à Remotion, aha moment = un agent produit une vidéo depuis un prompt ; JTBD = « automatiser la vidéo sans éditeur ».
 
-**5. Go-to-market**
-- Vertical étroit, ventes directes aux groupes de dealers, expansion land-and-expand (voice puis CRM). Time-to-live de 10 jours = faible friction.
+**5. Go-to-market** : OSS adossé à une marque + skills pour agents (distribution via Claude Code / Cursor) ; catalogue de blocs réutilisables.
 
-**6. Réplication**
-- Complexité 6/10 pour un MVP voice vertical (intégrations CRM = le vrai travail). Dev : 2-3 mois pour pilote.
-- Verticaux adjacents : garages indépendants, concessions moto/bateau, cliniques dentaires, agences immobilières, artisans.
-- Angle Kyle : même modèle sur un vertical français/européen sous-équipé (garages, auto-écoles), multilingue FR/EN.
+**6. Réplication** : complexité 7/10 ; verticaux : vidéos voix + sous-titres générées automatiquement, rapports vidéo d'appels ; angle Kyle : couche voix (TTS/sync labiale) au-dessus du moteur ; dev 2-3 mois. Concurrence forte (HeyGen, Remotion).
 
-## 🏆 TOP APP #3 : Willow Voice
+## 🏆 TOP APP #3 : openGym
 **1. Identification**
-- Willow Voice (SF), fondé par Allan Guo (CEO) et Lawrence Liu (CTO), passé par YC. Dictée IA pour professionnels. Seed ~$4.2-4.5M (BoxGroup, YC). Lancement de "Willow Knowledge" sur Product Hunt le 5 oct. 2026.
-- Buzz : croissance ~+50%/mois, ~$550K ARR estimé (non confirmé), clients entreprise (Uber, Heidi Health, Zego), PH actif. Critères : croissance ✅, traction ✅, communauté ✅.
-- Sources : [PitchBook](https://pitchbook.com/profiles/company/844328-08), [Nubiapage](https://nubiapage.com/willow-voice-review-in-2026-founder-revenue-download-login-window-user-experience-and/), [AIToolly](https://aitoolly.com/ai-news/article/2026-10-07-willow-knowledge-launch-on-product-hunt-an-analysis-of-the-latest-willow-voice-release). Freemium propriétaire. (>6 mois : exception assumée.)
+- Repo : [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) — AGPL-3.0, gratuit, auto-hébergé
+- Launch : date non affichée ; 1 804 commits, releases toutes les ~2 semaines ; ~10,7k stars, +6 621 sur la semaine
+- Fondateur : développeur indépendant (développé avec Claude Code)
+- Catégorie : fitness / suivi d'entraînement, self-hosted
+- Buzz : viralité GitHub, forte communauté, import Strong/Hevy/FitNotes → 2-3 critères
 
 **2. Proposition de valeur**
-- Problème : taper est lent ; dictée classique imprécise.
-- Solution : dictée IA dans toutes les apps, nettoyage du texte, désormais couche "knowledge".
-- Pricing : Free, Pro $15/mois ($12 annuel), Business $35/mois.
+- Problème : apps de fitness avec abonnement, pubs, données captives
+- Solution : tracker que l'on possède (`docker compose up`), 5 600+ exercices, passkeys, sync, MCP lecture seule, coach IA optionnel (BYOK)
+- USP : zéro compte, zéro abonnement, zéro télémétrie, 19 langues
+- Target : lifters tech-savvy, communauté self-hosting
+- Pricing : gratuit (attention : médias d'exercices sous licence restreinte)
 
-**3. Stack** : app desktop/mobile, STT + LLM de réécriture (détails non publics).
+**3. Stack** : React 19 + Vite + Zustand, API Node `node:http`, stockage JSON, nginx, Docker Compose, Capacitor (APK), PWA iOS.
 
-**4. Psychologie**
-- Triggers : gain de temps immédiat, habitude quotidienne. JTBD : écrire 3-4x plus vite. Aha : première phrase parlée → texte propre.
+**4. Psychologie** : trigger = rejet de l'abonnement/de la surveillance ; propriété des données ; aha moment = import de l'historique Strong/Hevy en un clic.
 
-**5. Go-to-market**
-- Product Hunt, bouche-à-oreille en entreprise, YC. Concurrence directe : Wispr Flow (très présent sur PH).
+**5. Go-to-market** : communauté self-hosted (Reddit, HN), migration facilitée depuis les concurrents, cadence de releases visible.
 
-**6. Réplication**
-- Complexité 5/10 (marché saturé, différenciation difficile). Dev : 1-2 mois pour MVP.
-- Angle Kyle : dictée verticale française (médical, juridique) avec vocabulaire métier, RGPD/on-device.
+**6. Réplication** : complexité 3/10 (clone) ; mais pas de modèle économique évident. Angle Kyle : version « hébergée managée » payante (5-8 €/mois) pour ceux qui ne veulent pas self-hoster, ou carnet d'entraînement vocal (logger ses séries à la voix). Dev : 3-4 semaines.
 
-## 💰 Unit Economics Deep Dive — bilt.me
-⚠️ Estimations de l'agent, aucune donnée financière publique vérifiée (équipe 1-10, ARR "six chiffres").
+## 💰 Unit Economics Deep Dive — tester-army/e2e (TesterArmy)
+⚠️ Aucune donnée financière publique trouvée (Crunchbase/Tracxn/SimilarWeb non consultés). Tout ce qui suit est une **estimation de modélisation**, pas un fait.
 
 | Métrique | Estimation |
 |---|---|
-| ARR | ~€150-300K (déclaré : six chiffres) |
-| Users | milliers (payants : ~300-800 estimé) |
-| ARPU | ~€30-40/mois (hypothèse) |
-| CAC | ~€30-80 (organique + réseau) |
-| LTV | ~€250-400 (churn élevé typique des builders) |
-| LTV/CAC | ~4-6x (fragile) |
-| Payback | 2-3 mois |
-| Burn | ~€40-60K/mois (5-8 pers.) |
-| Runway | ~12-15 mois sur €615K |
-| Rev/Employee | ~€30-50K (jeune) |
-| Rule of 40 | très positive via croissance (x2/mois), non durable |
+| ARR | < 0,5 M€ (probablement pré-revenu / early) |
+| ARPU | ~40-100 €/équipe/mois (hypothèse) |
+| Users | ~10k stars → quelques centaines d'équipes actives |
+| CAC | ~0-50 € (acquisition organique OSS) |
+| LTV | ~1 000-2 000 € (churn 3 %/mois, hypothèse) |
+| LTV/CAC | > 20 (biaisé par l'organique) |
+| Payback | < 1 mois |
+| Burn / Runway | inconnu |
+| Rev/Employee | inconnu |
+| Rule of 40 | non calculable |
 
-Verdict : 🟡 Prometteur mais fragile. Coûts LLM/inférence probablement élevés, churn des builders IA connu, concurrence de Lovable/Bolt/Rork.
+**Verdict : 🟡** — traction d'adoption excellente, monétisation non démontrée. Risque : le coût d'inférence est évité par le replay, mais le framework gratuit peut suffire à la plupart des équipes.
 
 ## 🎯 Opportunity Scorecard — Top 3
-Scores pour *répliquer* l'angle, pas pour l'app d'origine. Pour Flai, l'idée évaluée = "voice agent vertical en France/Europe".
+| App | Market (20%) | Complexité inv. (15%) | TTM (15%) | Concurrence inv. (15%) | Revenue (20%) | Fit Kyle (15%) | **Score** | Verdict |
+|---|---|---|---|---|---|---|---|---|
+| tester-army/e2e | 7 | 4 | 5 | 4 | 6 | 6 | **5.5** | 🟠 WATCH |
+| HyperFrames | 7 | 3 | 4 | 3 | 5 | 4 | **4.5** | 🟠 WATCH |
+| openGym | 5 | 8 | 8 | 3 | 4 | 3 | **5.1** | 🟠 WATCH |
 
-| Dimension | bilt.me (générique) | Flai-like (voice vertical FR) | Willow-like (dictée) |
-|---|---|---|---|
-| 📊 Market Size (20%) | 8 | 7 | 6 |
-| ⚙️ Complexity inversé (15%) | 3 | 6 | 7 |
-| ⏱️ Time-to-Market (15%) | 3 | 6 | 8 |
-| 🏟️ Competition inversé (15%) | 3 | 5 | 2 |
-| 💰 Revenue Potential (20%) | 7 | 8 | 5 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 4 | 9 | 7 |
-| **Score pondéré** | **4.95** | **6.90** | **5.80** |
-| **Verdict** | 🟠 WATCH | 🟡 BUILD ADJACENT | 🟠 WATCH |
+Variante pour Kyle (non scorée sur les repos eux-mêmes) : « QA/monitoring d'agents vocaux » inspirée d'e2e ≈ 6.8 → 🟡 BUILD ADJACENT (marché en croissance, fit fort, concurrence encore moyenne).
 
 ## 📈 Tendances Émergentes
-1. **Voice AI verticale en B2B** : Flai ($27M, x20) confirme que l'agent vocal métier + CRM natif lève et croît vite.
-2. **Dictée/voix comme interface** : Willow, Loqua, Wispr Flow ; marché encombré, différenciation par couche "knowledge".
-3. **App builders IA vers le natif mobile** : bilt.me, "idée → store" ; pre-seed européens avec angels de fondateurs.
-4. **Repos "skills" pour agents** dominent GitHub Trending (mattpocock/skills, +27K étoiles/jour fin août) — source : [GitHub Radar](https://github-radar.43-160-242-46.sslip.io/).
-5. Signal faible : Lagos Life (jeu navigateur, 10M users en 11 jours, exclu : gaming).
+- **Outils « pour agents »** dominent GitHub Trending : [claude-mem](https://github.com/thedotmack/claude-mem) (+3 762), [mattpocock/skills](https://github.com/mattpocock/skills) (+11 139), [openrig](https://github.com/mvschwarz/openrig), [text-to-cad](https://github.com/earthtojake/text-to-cad), [cursor/plugins](https://github.com/cursor/plugins).
+- **Skills / MCP comme canal de distribution** : le repo livre des skills pour Claude Code/Cursor (hyperframes, openGym MCP, REA).
+- **Self-hosted anti-abonnement** (openGym) soutenu par le coding assisté par IA.
+- **Signal faible** : [morluto/rea](https://github.com/morluto/rea) (reverse engineering par agents, MIT, ~169k stars, chiffres incohérents — à traiter avec prudence, risque de manipulation de stars) et AnyPS5 (jeu/hardware, exclu).
+- Voix : [BoldVoice](https://yespress.io/boldvoice.md) (5M+ downloads, Série A 21 M$), Sesame (app iOS), ElevenLabs vers l'éducation.
 
 ## 💡 Insights Actionnables
-1. **Piste prioritaire (BUILD ADJACENT, 6.9)** : cloner le modèle Flai sur un vertical français non servi (garages indépendants, concessions, auto-écoles). Pilote en 2-3 mois, mise en prod < 10 jours comme argument de vente.
-2. Valider en 2 semaines : 10 appels à des garages, mesurer le taux d'appels manqués avant de coder.
-3. Ne pas affronter bilt.me/Lovable de front ; envisager plutôt des templates d'apps voice via ces plateformes.
-4. Éviter la dictée générique (concurrence Wispr/Willow) ; seulement en niche réglementée FR.
-5. Limite du rapport : sources secondaires, PH/HN non vérifiés en direct. Relancer le scan avec accès web complet.
+1. **Replay sans LLM** (tester-army) : enregistrer les décisions de l'agent et rejouer sans inférence est un pattern à copier pour les agents vocaux (réduire coût/latence).
+2. **Idée à valider** : QA automatisée pour voice agents (appels simulés, assertions sur transcript/latence) — fit direct avec l'expertise de Kyle. Valider avec 5 entretiens avant de coder.
+3. **Distribuer via skills/MCP** : publier un skill Claude Code + serveur MCP pour tout futur produit.
+4. **Migration en un clic** (imports Strong/Hevy) = levier d'acquisition simple.
+5. **Hygiène de collecte** : réparer l'accès PH/HN (DNS bloqué) sinon ce scan reste biaisé GitHub ; revérifier les stars (incohérences).
