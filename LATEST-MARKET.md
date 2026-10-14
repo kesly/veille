@@ -1,117 +1,122 @@
-# 🔥 Market Scan — 2026-10-13
+# 🔥 Market Scan — 2026-10-14
 
-> ⚠️ Limites de la collecte : Product Hunt et Hacker News inaccessibles depuis l'environnement (DNS bloqué). Seul GitHub Trending (hebdo) a été exploitable ; les recherches web n'ont rien remonté de daté octobre 2026. Les chiffres de stars divergent entre pages (voir notes). Scores = estimations honnêtes, non vérifiées par des revenus publics.
+> ⚠️ Limites de cette session : Product Hunt et Hacker News inaccessibles (DNS bloqué), recherches web peu précises. Signal principal = GitHub Trending hebdo (données réelles) + pages repos. Dates de lancement non vérifiées → filtre « <6 mois » non confirmé. Scores à prendre avec prudence.
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (sources : GitHub Trending hebdo + pages repos)
-- Top potentiel : tester-army/e2e (TesterArmy) — SaaS B2B dev-tool adjacent
-- Opportunités immédiates (BUILD NOW) : 0 (1-2 en BUILD ADJACENT)
+- Apps analysées : 3 (toutes open-source, issues de GitHub Trending)
+- Top potentiel : TesterArmy / e2e (test E2E par agents IA)
+- Opportunités immédiates (BUILD NOW) : 0 (voir scorecard)
 
-## 🏆 TOP APP #1 : tester-army/e2e (TesterArmy)
+## 🏆 TOP APP #1 : TesterArmy — e2e
 **1. Identification**
-- Repo : [tester-army/e2e](https://github.com/tester-army/e2e) — open-source (Apache-2.0), plateforme hébergée TesterArmy (e2e.tester.army)
-- Launch : date non affichée ; 751 commits, « en route vers 1.0 » (probablement <6 mois, non confirmé)
-- Fondateurs : non identifiés
-- Catégorie : testing E2E piloté par agents IA (web + mobile)
-- Buzz : +5 582 stars sur la semaine (GitHub Trending), ~9,7k stars, 462 forks, 68 PR ouvertes → 2 critères (viralité GitHub, communauté active) ; pas de traction revenus publique
+- URL : https://github.com/tester-army/e2e · site https://tester.army/e2e · docs https://e2e.tester.army/docs
+- Lancement : non vérifié (© 2026, vers 1.0) · Fondateurs : org TesterArmy (non identifiés)
+- Catégorie : dev tools / QA / agents IA · **Open-source Apache-2.0** + plateforme payante TesterArmy
+- Buzz : +4 426 ⭐ cette semaine, 10,2k ⭐ total, 492 forks, 78 PR ouvertes ([GitHub Trending](https://github.com/trending?since=weekly)) → critères : croissance, communauté active, engagement
 
 **2. Proposition de valeur**
-- Problème : les tests E2E sont fragiles et coûteux à maintenir
-- Solution : étapes en langage naturel (`agent.act`, `agent.assert`) enregistrées puis rejouées sans appel modèle tant que l'app ne change pas
-- USP : coût LLM ≈ 0 en régime stable, BYO clé/abonnement/modèle local, web + iOS/Android
-- Target : équipes produit/dev, startups avec CI GitHub
-- Pricing : framework gratuit ; plateforme TesterArmy (prix non listé)
+- Problème : tests E2E fragiles et coûteux à maintenir.
+- Solution : on décrit un objectif en langage naturel, un agent pilote l'app ; les étapes sont enregistrées puis rejouées sans appel LLM tant que l'app ne change pas.
+- USP : record/replay (coût LLM ≈ 0 en régime stable), web + mobile (Playwright, simulateurs iOS/Android), BYO modèle/clé/local.
+- Cible : équipes produit/dev. Pricing : framework gratuit ; plateforme hébergée (PR + cron) payante, tarifs non publics.
 
-**3. Stack** : TypeScript, monorepo pnpm, Playwright, agent-device (simulateurs), intégrations Kernel / smol / Limrun / EAS ; reporter GitHub PR ; télémétrie anonyme.
+**3. Stack** : TypeScript, pnpm workspaces, Playwright, agent-device (mobile), reporter GitHub PR, providers hébergés (Limrun, EAS, Kernel).
 
-**4. Psychologie** : trigger = douleur récurrente (tests flaky) ; autorité via Playwright ; aha moment = `npx e2e init` puis un test en une phrase ; JTBD = « arrêter de maintenir des sélecteurs ».
+**4. Psychologie**
+- Triggers : douleur des tests flaky, autorité de l'open-source, FOMO « agents ».
+- JTBD : « livrer sans casser la prod sans écrire de tests ».
+- Aha : `npx e2e init` → premier test en langage naturel qui passe en minutes.
 
-**5. Go-to-market** : open-source bottom-up → upsell plateforme hébergée ; commentaires de résultats directement dans les PR (boucle virale interne à l'équipe) ; docs + exemples par framework.
+**5. Go-to-market** : OSS-led (CLI en une commande, exemples Vite/Next/Expo/Flutter...), reporter PR = boucle virale dans les repos, upsell vers cloud.
 
-**6. Réplication** : complexité 6/10 ; verticaux : QA voix (tester des agents vocaux par appels simulés), QA d'agents conversationnels ; angle Kyle : « E2E pour voice agents » ; temps de dev MVP : 6-8 semaines.
+**6. Réplication**
+- Complexité 7/10 (moteur agent + replay fiable). Temps : 3-5 mois pour un MVP crédible.
+- Verticaux : QA voix/appels (tester des voice agents), conformité, e-commerce.
+- Angle Kyle : **testeur automatisé d'agents vocaux** (scénarios en langage naturel, appels simulés, assertions sur transcript/latence) — niche où Kyle a l'expertise.
 
-## 🏆 TOP APP #2 : HyperFrames (HeyGen)
+## 🏆 TOP APP #2 : HeyGen HyperFrames
 **1. Identification**
-- Repo : [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — open-source (Apache-2.0), par HeyGen (société établie)
-- Launch : date non affichée ; ~62k stars, 5,6k forks, +4 482 stars sur la semaine
-- Catégorie : génération vidéo programmatique « pour agents »
-- Buzz : viralité GitHub, communauté (Discord), usage en production chez HeyGen → 3 critères ; biais : marque HeyGen préexistante
+- URL : https://github.com/heygen-com/hyperframes · https://hyperframes.dev · docs https://hyperframes.heygen.com
+- Fondateur : HeyGen (scale-up vidéo IA) · Lancement non vérifié · Catégorie : vidéo programmatique pour agents
+- **Open-source Apache-2.0**, sans frais par rendu
+- Buzz : +4 732 ⭐/semaine, ~63k ⭐ total, 5,7k forks ; adopté en prod chez HeyGen ([source](https://github.com/heygen-com/hyperframes)) → croissance, communauté, traction corporate
 
 **2. Proposition de valeur**
-- Problème : produire de la vidéo de façon déterministe et pilotable par des agents IA
-- Solution : écrire du HTML/CSS/GSAP, rendu image par image dans Chrome headless + FFmpeg → MP4 identique à chaque run
-- USP : HTML simple vs React (Remotion), 21 skills d'agents, rendu AWS Lambda optionnel
-- Target : devs, créateurs de contenu automatisé, outils hébergés
-- Pricing : gratuit (OSS) ; monétisation indirecte via HeyGen
+- Problème : générer des vidéos par code/agent sans timeline propriétaire ni React.
+- Solution : compositions en HTML + attributs `data-*`, rendu déterministe MP4 (GSAP, Lottie, Three.js...).
+- USP : conçu pour agents (21 skills Claude Code/Codex/Cursor), rendu AWS Lambda, Studio éditeur navigateur.
+- Cible : devs, marketeurs, agents. Pricing : gratuit ; cloud render HeyGen (tarifs non publiés).
 
-**3. Stack** : TypeScript, Bun/Node 22+, Puppeteer, FFmpeg, adaptateurs GSAP / Lottie / Three.js / Anime.js / WAAPI, Studio navigateur.
+**3. Stack** : TypeScript, Bun, Node 22+, Puppeteer (headless Chrome), FFmpeg, AWS Lambda.
 
-**4. Psychologie** : autorité (marque HeyGen), comparaison explicite à Remotion, aha moment = un agent produit une vidéo depuis un prompt ; JTBD = « automatiser la vidéo sans éditeur ».
+**4. Psychologie** : autorité (marque HeyGen), simplicité (« HTML → vidéo »), aha = un prompt à l'agent produit un MP4 en local.
 
-**5. Go-to-market** : OSS adossé à une marque + skills pour agents (distribution via Claude Code / Cursor) ; catalogue de blocs réutilisables.
+**5. GTM** : OSS comme top-of-funnel pour la plateforme HeyGen, skills d'agents (distribution dans les écosystèmes Claude/Cursor), catalogue de blocs réutilisables, Discord.
 
-**6. Réplication** : complexité 7/10 ; verticaux : vidéos voix + sous-titres générées automatiquement, rapports vidéo d'appels ; angle Kyle : couche voix (TTS/sync labiale) au-dessus du moteur ; dev 2-3 mois. Concurrence forte (HeyGen, Remotion).
+**6. Réplication**
+- Complexité 6/10 pour un clone minimal, 8/10 pour égaler. Temps : 2-3 mois (MVP).
+- Verticaux : vidéos de démo produit, récaps data, contenu social automatisé.
+- Angle Kyle : vidéos/avatars + voix IA (TTS/clone vocal) pilotés par agent, pour PME FR. Attention : l'OSS HeyGen est gratuit, la valeur est dans la vertical + voix.
 
-## 🏆 TOP APP #3 : openGym
+## 🏆 TOP APP #3 : Diagram Design (Cathryn Lavery)
 **1. Identification**
-- Repo : [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) — AGPL-3.0, gratuit, auto-hébergé
-- Launch : date non affichée ; 1 804 commits, releases toutes les ~2 semaines ; ~10,7k stars, +6 621 sur la semaine
-- Fondateur : développeur indépendant (développé avec Claude Code)
-- Catégorie : fitness / suivi d'entraînement, self-hosted
-- Buzz : viralité GitHub, forte communauté, import Strong/Hevy/FitNotes → 2-3 critères
+- URL : https://github.com/cathrynlavery/diagram-design · Auteure : Cathryn Lavery (LittleMight) · Lancement non vérifié
+- Catégorie : skill d'agent (design/diagrammes). **Open-source MIT**, aucune monétisation visible
+- Buzz : +9 867 ⭐/semaine, ~54k ⭐ total ([source](https://github.com/cathrynlavery/diagram-design)) → viralité forte, communauté ; traction revenus : aucune
 
 **2. Proposition de valeur**
-- Problème : apps de fitness avec abonnement, pubs, données captives
-- Solution : tracker que l'on possède (`docker compose up`), 5 600+ exercices, passkeys, sync, MCP lecture seule, coach IA optionnel (BYOK)
-- USP : zéro compte, zéro abonnement, zéro télémétrie, 19 langues
-- Target : lifters tech-savvy, communauté self-hosting
-- Pricing : gratuit (attention : médias d'exercices sous licence restreinte)
+- Problème : diagrammes générés par IA moches (« Mermaid slop »).
+- Solution : 44 types de diagrammes en HTML+SVG autonome, variantes light/dark/éditoriale, onboarding de marque, import draw.io/Mermaid/Excalidraw, export SVG/PNG.
+- USP : sortie offline sans JS, contrôles CI (overlap, contraste), compatible Claude Code/Codex/Copilot/Kiro.
+- Pricing : gratuit (bouton Sponsor).
 
-**3. Stack** : React 19 + Vite + Zustand, API Node `node:http`, stockage JSON, nginx, Docker Compose, Capacitor (APK), PWA iOS.
+**3. Stack** : HTML/SVG, Agent Skills (`npx skills add`), Playwright pour PNG, grille 4px.
 
-**4. Psychologie** : trigger = rejet de l'abonnement/de la surveillance ; propriété des données ; aha moment = import de l'historique Strong/Hevy en un clic.
+**4. Psychologie** : goût/statut (« no shadows »), gain immédiat visuel, partage social des rendus ; aha = premier diagramme éditorial en une phrase.
 
-**5. Go-to-market** : communauté self-hosted (Reddit, HN), migration facilitée depuis les concurrents, cadence de releases visible.
+**5. GTM** : distribution via marketplaces de plugins/skills, réseau personnel de l'auteure (newsletter, blog), screenshots partageables.
 
-**6. Réplication** : complexité 3/10 (clone) ; mais pas de modèle économique évident. Angle Kyle : version « hébergée managée » payante (5-8 €/mois) pour ceux qui ne veulent pas self-hoster, ou carnet d'entraînement vocal (logger ses séries à la voix). Dev : 3-4 semaines.
+**6. Réplication**
+- Complexité 3/10, 1-3 semaines. Verticaux : skills de design pour docs, slides, rapports.
+- Angle Kyle : peu de lien direct ; transposable en « skills » vocaux (templates de scripts d'agents voix) comme lead magnet. Monétisation difficile (produit gratuit).
 
-## 💰 Unit Economics Deep Dive — tester-army/e2e (TesterArmy)
-⚠️ Aucune donnée financière publique trouvée (Crunchbase/Tracxn/SimilarWeb non consultés). Tout ce qui suit est une **estimation de modélisation**, pas un fait.
+## 💰 Unit Economics Deep Dive — TesterArmy
+⚠️ **Estimations très incertaines** : TesterArmy n'a aucun chiffre public trouvé (pas de Crunchbase/Tracxn/SimilarWeb consultés). Hypothèses de modèle, pas des faits.
 
 | Métrique | Estimation |
 |---|---|
-| ARR | < 0,5 M€ (probablement pré-revenu / early) |
-| ARPU | ~40-100 €/équipe/mois (hypothèse) |
-| Users | ~10k stars → quelques centaines d'équipes actives |
-| CAC | ~0-50 € (acquisition organique OSS) |
-| LTV | ~1 000-2 000 € (churn 3 %/mois, hypothèse) |
-| LTV/CAC | > 20 (biaisé par l'organique) |
-| Payback | < 1 mois |
-| Burn / Runway | inconnu |
+| ARR | €0,3-1,5M (hypothèse : 100-400 équipes payantes) |
+| ARPU | ~€250-400/mois/équipe |
+| Users | 10k+ ⭐ ≈ quelques milliers d'utilisateurs OSS |
+| CAC | ~€300-800 (OSS-led, faible) |
+| LTV | ~€5-8k (churn annuel ~20%) |
+| LTV/CAC | ~8-15x (théorique) |
+| Payback | 2-4 mois |
+| Burn / Runway | inconnu (équipe réduite supposée) |
 | Rev/Employee | inconnu |
-| Rule of 40 | non calculable |
+| Rule of 40 | non évaluable |
 
-**Verdict : 🟡** — traction d'adoption excellente, monétisation non démontrée. Risque : le coût d'inférence est évité par le replay, mais le framework gratuit peut suffire à la plupart des équipes.
+**Verdict santé : 🟡** — traction OSS réelle, monétisation non prouvée, coûts LLM à surveiller (atténués par le replay).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| App | Market (20%) | Complexité inv. (15%) | TTM (15%) | Concurrence inv. (15%) | Revenue (20%) | Fit Kyle (15%) | **Score** | Verdict |
+| App | 📊 Market (20%) | ⚙️ Complexité inv. (15%) | ⏱️ TTM (15%) | 🏟️ Compét. inv. (15%) | 💰 Revenu (20%) | 🧑‍💻 Fit Kyle (15%) | **Score** | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| tester-army/e2e | 7 | 4 | 5 | 4 | 6 | 6 | **5.5** | 🟠 WATCH |
-| HyperFrames | 7 | 3 | 4 | 3 | 5 | 4 | **4.5** | 🟠 WATCH |
-| openGym | 5 | 8 | 8 | 3 | 4 | 3 | **5.1** | 🟠 WATCH |
+| TesterArmy e2e | 8 | 4 | 4 | 3 | 7 | 4 | **5.25** | 🟠 WATCH |
+| HyperFrames | 7 | 5 | 5 | 3 | 5 | 4 | **4.95** | 🟠 WATCH |
+| Diagram Design | 3 | 8 | 9 | 4 | 2 | 3 | **4.60** | 🟠 WATCH |
 
-Variante pour Kyle (non scorée sur les repos eux-mêmes) : « QA/monitoring d'agents vocaux » inspirée d'e2e ≈ 6.8 → 🟡 BUILD ADJACENT (marché en croissance, fit fort, concurrence encore moyenne).
+Note : le fit Kyle de e2e monte à ~7 si l'angle « QA d'agents vocaux » est retenu (score ≈ 6.0 → 🟡 BUILD ADJACENT), à valider avec 5 entretiens clients.
 
 ## 📈 Tendances Émergentes
-- **Outils « pour agents »** dominent GitHub Trending : [claude-mem](https://github.com/thedotmack/claude-mem) (+3 762), [mattpocock/skills](https://github.com/mattpocock/skills) (+11 139), [openrig](https://github.com/mvschwarz/openrig), [text-to-cad](https://github.com/earthtojake/text-to-cad), [cursor/plugins](https://github.com/cursor/plugins).
-- **Skills / MCP comme canal de distribution** : le repo livre des skills pour Claude Code/Cursor (hyperframes, openGym MCP, REA).
-- **Self-hosted anti-abonnement** (openGym) soutenu par le coding assisté par IA.
-- **Signal faible** : [morluto/rea](https://github.com/morluto/rea) (reverse engineering par agents, MIT, ~169k stars, chiffres incohérents — à traiter avec prudence, risque de manipulation de stars) et AnyPS5 (jeu/hardware, exclu).
-- Voix : [BoldVoice](https://yespress.io/boldvoice.md) (5M+ downloads, Série A 21 M$), Sesame (app iOS), ElevenLabs vers l'éducation.
+- **Skills/plugins d'agents comme canal de distribution** : mattpocock/skills (~290k ⭐), diagram-design, hyperframes (21 skills) — [GitHub Trending](https://github.com/trending?since=weekly).
+- **Agents IA qui pilotent des apps** (test E2E, text-to-CAD +2 173 ⭐, claude-mem mémoire persistante +3 587 ⭐).
+- **OSS gratuit → cloud payant** (modèle TesterArmy, HeyGen).
+- Signal volume : les Show HN ont été multipliés ~6x depuis ChatGPT mais les posts à succès (20+ pts) peu ([source](https://zeli.app/es/story/49712005)) → la distribution prime sur le produit.
+- Faible signal : modèle « SaaS + produit physique » à 10K MRR (podcast Indie Hacker, non vérifié).
 
 ## 💡 Insights Actionnables
-1. **Replay sans LLM** (tester-army) : enregistrer les décisions de l'agent et rejouer sans inférence est un pattern à copier pour les agents vocaux (réduire coût/latence).
-2. **Idée à valider** : QA automatisée pour voice agents (appels simulés, assertions sur transcript/latence) — fit direct avec l'expertise de Kyle. Valider avec 5 entretiens avant de coder.
-3. **Distribuer via skills/MCP** : publier un skill Claude Code + serveur MCP pour tout futur produit.
-4. **Migration en un clic** (imports Strong/Hevy) = levier d'acquisition simple.
-5. **Hygiène de collecte** : réparer l'accès PH/HN (DNS bloqué) sinon ce scan reste biaisé GitHub ; revérifier les stars (incohérences).
+1. **Valider l'angle « testeur d'agents vocaux »** : 5 appels clients (équipes voice AI) avant tout code ; s'inspirer du record/replay de e2e pour limiter le coût LLM.
+2. **Publier un skill/plugin Claude Code voice AI** gratuit (lead magnet, 1-2 semaines) : la distribution par skills est le canal qui explose.
+3. **Stratégie OSS-led** : cœur open-source + cloud payant, comme TesterArmy/HeyGen.
+4. **Ne pas cloner** HyperFrames ni Diagram Design (gratuits, marques fortes) ; viser une verticale FR + voix.
+5. **Corriger la veille** : Product Hunt/HN inaccessibles cette session — ajouter une source accessible (API HN Algolia, flux RSS) pour la prochaine exécution.
