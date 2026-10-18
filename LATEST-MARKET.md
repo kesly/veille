@@ -1,39 +1,30 @@
-# 🔥 Market Scan — 2026-10-17
+# 🔥 Market Scan — 2026-10-18
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 0 (aucune ne passe le filtre 3+ critères / <6 mois / données vérifiables)
-- Top potentiel : ArtCraft (signal faible, open-source)
+- Apps analysées : 0 (aucune ne passe le filtre 3+ critères avec données vérifiables)
+- Top potentiel : aucun
 - Opportunités immédiates (BUILD NOW) : 0
-- Limite : Product Hunt, HN, Reddit inaccessibles en direct (DNS/proxy) ; seules GitHub Trending et recherches web ont répondu. Données agrégateurs peu fiables.
+
+Les recherches (PH, HN, GitHub Trending, Indie Hackers, viralité X) n'ont renvoyé aucun classement daté d'octobre 2026 exploitable : surtout des guides de lancement et des archives. Plutôt que d'inventer des métriques, ce rapport reste court.
 
 ## 🏆 TOP APP #1 : Aucune app retenue
-Aucune app ne satisfait 3+ critères de buzz avec des chiffres vérifiables cette semaine. Candidats écartés :
-- **HeyGen HyperFrames** (HTML→MP4 pour agents, Apache-2.0) : lancé mars/avril 2026 (>6 mois selon sources) ; déjà couvert dans les scans précédents. [GitHub](https://github.com/heygen-com/hyperframes) · [analyse](https://www.noqta.tn/en/blog/heygen-hyperframes-html-to-mp4-ai-agent-video-2026)
-- **context-mode** (MCP, réduction de contexte −98 % revendiqué) : ~avril 2026, >6 mois ; chiffre auto-déclaré. [GitHub](https://github.com/mksglu/context-mode)
-- **Lancements PH d'octobre** (Cube Forms, The Drive AI, Hypervibe) : uniquement des notices auto-générées sans métriques. [source](https://aitoolly.com/de/ai-news/article/2026-10-14-cube-forms-launches-on-product-hunt-enabling-ai-agents-and-humans-to-seamlessly-interact-with-web-fo)
+Rien de vérifiable (<6 mois, 3+ critères de buzz) identifié aujourd'hui.
 
 ## 🏆 TOP APP #2 : —
-Signal faible : **ArtCraft** (storytold, Rust, open-source licence « Other ») — « plateau virtuel » 3D + éditeur 2D, agrégateur de modèles (Veo, Kling, Seedance, Nano Banana) en BYO-key. Entré au GitHub Trending le 11 oct. ; ~850–1 900 étoiles selon sources (le trending affiche 20 267 « étoiles/semaine », chiffre incohérent, non vérifié). Dernier commit mai–juillet 2026 : pas un lancement frais. [GitHub](https://github.com/storytold/artcraft) · [article](https://www.blog.brightcoding.dev/2026/10/08/storytoldartcraft-open-source-ide-for-controlled-ai-image-video)
-
 ## 🏆 TOP APP #3 : —
-Pas de troisième candidat crédible. Le trending GitHub contient surtout des outils pour agents (skills, diagram-design, text-to-cad) sans modèle économique identifiable. [GitHub Trending](https://github.com/trending?since=weekly)
 
 ## 💰 Unit Economics Deep Dive — N/A
-Non applicable : aucune app #1 retenue, pas de données de revenus publiques exploitables.
+Pas d'app #1.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| App | 📊 Market | ⚙️ Complexité inv. | ⏱️ TTM | 🏟️ Compét. inv. | 💰 Revenu | 🧑‍💻 Fit Kyle | **Score** | Verdict |
-|---|---|---|---|---|---|---|---|---|
-| ArtCraft (signal faible) | 7 | 3 | 3 | 3 | 4 | 2 | **3.9** | 🔴 SKIP |
+N/A — aucune app scorée.
 
-Honnêteté : une seule ligne, confiance faible ; hors cœur voice/SaaS de Kyle.
-
-## 📈 Tendances Émergentes
-- **Inflation des Show HN** : de 0,9k à 5,8k soumissions/mois (pic fév. 2026) mais les posts à 20+ points n'ont pas suivi (128→211) — la visibilité se dilue. [source](https://zeli.app/es/story/49712005)
-- **Voix = catégorie d'agents à la croissance la plus rapide** selon les rapports sectoriels (vendeurs : Retell, Vapi, Synthflow) — chiffres non indépendants.
-- **Outils pour agents de code** (skills, compression de contexte, vidéo-as-code) dominent GitHub Trending.
+## 📈 Tendances Émergentes (signaux faibles)
+1. **Voice AI : capitaux massifs, "pas encore son moment ChatGPT"** — TechCrunch (11 oct) : les investisseurs injectent des milliards ; ElevenLabs valorisé 22 Md$ (secondaire, 30 sept). Source : [TechCrunch](https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/), [TechCrunch ElevenLabs](https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/).
+2. **Dictée vocale mobile + consolidation API émotion** — Aqua Voice sur Android (6 oct, 49 langues, 5,55 % WER) ; Hume ferme ses API TTS/EVI le 13 nov et lance Expression APIs → place libre pour des alternatives TTS/EVI. Source : [Voice AI News W41](https://www.voiceaispace.com/news/voice-ai-news-2026-10-11-w41).
+3. **Grok Voice 3.0 (xAI, 14 oct)** — les grands labs compressent la couche voix générique ; la différenciation se déplace vers le vertical/workflow. Source : [Emergent](https://emergent.sh/news/grok-voice-30-launches-advanced).
 
 ## 💡 Insights Actionnables
-1. Pas de signal d'action cette semaine ; ne pas forcer un build.
-2. Réitérer l'angle des scans précédents : voix + MCP/agent-lisibilité (`llms.txt`) pour l'acquisition.
-3. Corriger la collecte : sans accès PH/HN/Reddit le scan est aveugle — prévoir un accès réseau élargi ou des flux RSS/API.
+- Hume qui ferme TTS/EVI (13 nov) = clients à migrer : angle d'acquisition pour un produit voice AI de Kyle (outil de migration / compat API).
+- Éviter la voix générique (xAI/OpenAI/ElevenLabs la commoditisent) : miser sur un vertical + intégration métier.
+- Les sources de classement (PH/HN) sont mal indexées par la recherche : prévoir un accès direct (API HN Algolia, PH) pour les prochains scans.
