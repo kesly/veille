@@ -1,11 +1,11 @@
-# 🔥 Market Scan — 2026-10-18
+# 🔥 Market Scan — 2026-10-19
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 0 (aucune ne passe le filtre 3+ critères avec données vérifiables)
 - Top potentiel : aucun
 - Opportunités immédiates (BUILD NOW) : 0
 
-Les recherches (PH, HN, GitHub Trending, Indie Hackers, viralité X) n'ont renvoyé aucun classement daté d'octobre 2026 exploitable : surtout des guides de lancement et des archives. Plutôt que d'inventer des métriques, ce rapport reste court.
+Les recherches (Product Hunt, Show HN, Indie Hackers, GitHub Trending, viralité) n'ont renvoyé aucun classement daté d'octobre 2026 exploitable. Product Hunt et HN Algolia ne sont pas joignables en accès direct depuis l'environnement (DNS bloqué). Plutôt que d'inventer des métriques, le rapport reste court.
 
 ## 🏆 TOP APP #1 : Aucune app retenue
 Rien de vérifiable (<6 mois, 3+ critères de buzz) identifié aujourd'hui.
@@ -13,18 +13,11 @@ Rien de vérifiable (<6 mois, 3+ critères de buzz) identifié aujourd'hui.
 ## 🏆 TOP APP #2 : —
 ## 🏆 TOP APP #3 : —
 
-## 💰 Unit Economics Deep Dive — N/A
-Pas d'app #1.
-
-## 🎯 Opportunity Scorecard — Top 3
-N/A — aucune app scorée.
-
-## 📈 Tendances Émergentes (signaux faibles)
-1. **Voice AI : capitaux massifs, "pas encore son moment ChatGPT"** — TechCrunch (11 oct) : les investisseurs injectent des milliards ; ElevenLabs valorisé 22 Md$ (secondaire, 30 sept). Source : [TechCrunch](https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/), [TechCrunch ElevenLabs](https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/).
-2. **Dictée vocale mobile + consolidation API émotion** — Aqua Voice sur Android (6 oct, 49 langues, 5,55 % WER) ; Hume ferme ses API TTS/EVI le 13 nov et lance Expression APIs → place libre pour des alternatives TTS/EVI. Source : [Voice AI News W41](https://www.voiceaispace.com/news/voice-ai-news-2026-10-11-w41).
-3. **Grok Voice 3.0 (xAI, 14 oct)** — les grands labs compressent la couche voix générique ; la différenciation se déplace vers le vertical/workflow. Source : [Emergent](https://emergent.sh/news/grok-voice-30-launches-advanced).
+## 📈 Signaux faibles
+1. **Setlog** (vlog social en groupe, New Chat Inc.) : ~10M d'utilisateurs en Asie de l'Est, lancement US annoncé. Hors cible (consumer social, probablement >6 mois) mais à surveiller. Source : [Bloomberg, 2026-10-01](https://www.bloomberg.com/news/articles/2026-10-01/setlog-vlog-app-grows-in-japan-south-korea-with-us-up-next)
+2. **Saturation Show HN** : les soumissions mensuelles sont passées de 0,9k à 5,8k depuis ChatGPT, alors que les posts à 20+ points n'ont été multipliés que par 1,6. Le lancement seul ne suffit plus, la distribution fait la différence. Source : [zeli.app](https://zeli.app/story/49712005)
+3. **Voice AI dictée** : Wispr Flow reste la référence citée (dictée IA macOS/Windows/iOS), l'angle voice reste actif pour Kyle. Source : [Wikipedia](https://en.wikipedia.org/wiki/Wispr)
 
 ## 💡 Insights Actionnables
-- Hume qui ferme TTS/EVI (13 nov) = clients à migrer : angle d'acquisition pour un produit voice AI de Kyle (outil de migration / compat API).
-- Éviter la voix générique (xAI/OpenAI/ElevenLabs la commoditisent) : miser sur un vertical + intégration métier.
-- Les sources de classement (PH/HN) sont mal indexées par la recherche : prévoir un accès direct (API HN Algolia, PH) pour les prochains scans.
+- Les accès directs à PH et HN étant bloqués, les prochains scans devraient cibler des requêtes nominatives (nom d'app) plutôt que des classements génériques.
+- Tendance du moment : lancer avec un canal de distribution défini (communauté, build in public) avant le lancement HN/PH.
