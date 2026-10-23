@@ -1,96 +1,139 @@
-# 🔥 Market Scan — 2026-10-22
+# 🔥 Market Scan — 2026-10-23
 
-> ⚠️ Limites : Product Hunt, HN Algolia inaccessibles (réseau) ; seule la page GitHub Trending a été lue en direct. Les autres chiffres viennent d'agrégateurs (aitoolly.com, blogs) et sont **auto-déclarés / non vérifiés**.
+> ⚠️ Note de fiabilité : les outils de recherche ont renvoyé peu de données datées de cette semaine (PH, HN et GitHub Trending inaccessibles en fetch direct). Les 3 apps ci-dessous sont les meilleurs candidats vérifiables ; les chiffres non sourcés sont des estimations marquées « est. ».
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (toutes open-source, signal GitHub Trending)
-- Top potentiel : VoiceStudio (voice AI local, aligné Kyle)
-- Opportunités immédiates (BUILD NOW) : 0 (1 BUILD ADJACENT voice)
+- Apps analysées : 3
+- Top potentiel : Instinct (agent IA par iMessage/WhatsApp/appel, 100K+ users)
+- Opportunités immédiates (BUILD NOW) : 0 (1 BUILD ADJACENT probable, voir scorecard)
 
-## 🏆 TOP APP #1 : VoiceStudio (ex-OmniVoice Studio)
+## 🏆 TOP APP #1 : Instinct
 **1. Identification**
-- [github.com/debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) · dev solo Palash Debnath · lancé 2026 (couverture sept-oct) · catégorie : voice AI desktop
-- Buzz : +15K stars/semaine sur [GitHub Trending](https://github.com/trending?since=weekly) ; >50K stars total et 646 langues (auto-déclaré, [aitoolly](https://aitoolly.com/ai-news/article/2026-10-01-voicestudio-emerges-as-an-open-source-local-elevenlabs-alternative-supporting-646-languages)) ; ~1,6K forks ; v0.5.2 ([release](https://newreleases.io/project/github/debpalash/VoiceStudio/release/v0.5.2))
-- Critères buzz : viralité ✅, croissance ✅, communauté ✅ (forks), médias ⚠️ (agrégateurs seulement)
+- Nom : Instinct (Spear Street Technology Inc.), CEO Noah Shinn. Lancement ~août 2026 (<3 mois).
+- Catégorie : agent IA personnel via messagerie (iMessage, WhatsApp, appels). Fermé (invite-only), gratuit pour l'instant.
+- Buzz : 100K+ users selon Dealroom, tour en discussion à ~10 Md$ de valorisation ([Crypto Briefing](https://cryptobriefing.com/instinct-raises-1b-10b-valuation/), [Let's Data Science](https://letsdatascience.com/news/instinct-enters-talks-for-1b-funding-round-ad43ca0d)). Un premier tour de 250 M$ (Index, Benchmark) à 2,5 Md$ rapporté par [SiliconANGLE](https://siliconangle.com/?p=832069). Les sources divergent : à confirmer.
+- Critères de buzz remplis : viralité, traction (levée), médias, croissance. 4/6.
 
 **2. Proposition de valeur**
-- Problème : ElevenLabs & co = payant, cloud, vie privée, quotas
-- Solution : clonage de voix (~3 s d'audio), voice design, doublage vidéo, dictée, transcription, audiobooks, 100 % local
-- USP : « alternative locale à ElevenLabs », sans compte ni clé API ni limite
-- Cible : créateurs, traducteurs/doubleurs, devs privacy-first
-- Pricing : **gratuit, open-source AGPL-3.0**
+- Problème : les agents IA demandent une nouvelle app ; les gens vivent déjà dans leurs messages.
+- Solution : un agent qu'on texte ou appelle comme un contact, qui exécute des tâches.
+- USP : zéro friction d'installation, canal natif. Cible : grand public connecté.
+- Pricing : gratuit, limité par la capacité de calcul (liste d'attente).
 
-**3. Stack** : Python (moteurs TTS/ASR locaux), app desktop, backends CPU + Apple Silicon + GPU, pas d'infra serveur.
+**3. Stack technique** (non public, est.)
+- Intégration iMessage/WhatsApp, voix temps réel (STT/TTS + LLM), orchestration d'outils. Infra cloud GPU/API LLM.
 
-**4. Psychologie** : trigger = « gratuit vs abonnement » + chiffre choc (646 langues) ; JTBD = « doubler/cloner une voix sans payer ni envoyer mes données » ; Aha = voix clonée en 3 s, localement.
+**4. Psychologie**
+- Triggers : rareté (invite-only), social proof (parrainage), FOMO.
+- JTBD : « déléguer une tâche sans ouvrir une app ».
+- Aha moment : premier SMS qui revient avec la tâche faite.
 
-**5. GTM** : GitHub Trending + agrégateurs d'actualités IA qui répètent le pitch ; positionnement anti-incumbent ; AGPL = boucle communautaire (forks, contributions).
+**5. Go-to-market**
+- Canaux : bouche-à-oreille via invitations, médias tech, effet de levée.
+- Boucle virale : accès par invitation d'un client existant.
 
-**6. Réplication** : complexité 5/10 (assemblage de modèles open-source), 2-3 mois pour un MVP. Verticaux : doublage pour e-commerce FR, agents vocaux on-prem, dictée métier (médical/juridique). Angle Kyle : version **hébergée/entreprise RGPD** + voice agents FR, là où l'AGPL local bloque les entreprises.
+**6. Réplication**
+- Complexité : 6/10 (le produit de base est simple, la fiabilité à l'échelle et les coûts de calcul non).
+- Verticaux adjacents : agent par SMS/WhatsApp pour métiers (artisans, immobilier, cliniques) ; agent vocal téléphonique par secteur.
+- Angle Kyle : voice AI verticale en français, appel entrant/sortant pour PME, avec WhatsApp comme canal.
+- Temps de dev : MVP vertical 4-6 semaines.
+- Licence : propriétaire, gratuit pour l'instant.
 
-## 🏆 TOP APP #2 : REA (morluto/rea)
+## 🏆 TOP APP #2 : Loqua
 **1. Identification**
-- [github.com/morluto/rea](https://github.com/morluto/rea) · morluto · apparu sur GitHub Trending ~8-16 oct. 2026 ([aitoolly](https://aitoolly.com/ai-news/article/2026-10-14-morluto-releases-rea-an-open-source-framework-enabling-ai-agents-to-reverse-engineer-software-and-na)) · catégorie : outils agents / reverse engineering
-- Buzz : #1 GitHub Trending hebdo, « 129K stars/semaine » affiché par la page trending — **chiffre suspect, à vérifier** (possible manipulation/bug). Peu de discussion indépendante → 2 critères seulement, borderline.
+- Nom : Loqua ([Product Hunt](https://www.producthunt.com/products/loqua)). Lancement PH le 2 sept. 2026, fondateur « Josh ».
+- Catégorie : assistant vocal de bureau (macOS/Windows). 159 upvotes, 43 commentaires, #4 du jour ([source](https://www.producthunt.com/products/loqua)).
+- Buzz : modeste, 2/6 critères (engagement PH, nouveauté). Passe de justesse le filtre ; retenu pour sa pertinence voice AI.
 
-**2. Proposition de valeur** : CLI + serveur MCP permettant à des agents de coder de rétro-ingénierer apps et binaires natifs (analyse Hopper, dossiers de fonctions, preuves reproductibles « Evidence v2 », capture de process). Cible : chercheurs sécurité, devs. Pricing : open-source gratuit.
+**2. Proposition de valeur**
+- Problème : dictée et assistants vocaux ignorent le contexte de l'écran.
+- Solution : dictée, questions sur ce qu'on voit à l'écran, lecture à voix haute, commandes vocales, ~100 langues.
+- USP : modèle multimodal propre, agentic à venir. Cible : travailleurs du savoir.
+- Pricing : non vérifié.
 
-**3. Stack** : TypeScript, MCP, intégration Hopper (outil tiers payant), ~50-70 tools.
+**3. Stack technique**
+- Apps natives desktop, modèle multimodal maison (transcription, traduction, Q&A). Détails non publics.
 
-**4. Psychologie** : autorité (reverse engineering = expertise), curiosité ; JTBD = « comprendre une app sans les sources » ; Aha = l'agent produit un dossier de fonction.
+**4. Psychologie**
+- Triggers : gain de temps, contexte écran (effet « il comprend »).
+- JTBD : « écrire et agir plus vite sans clavier ».
+- Aha moment : poser une question sur l'écran à l'oral.
 
-**5. GTM** : écosystème MCP/skills (porté par la vague Claude Code), trending GitHub.
+**5. Go-to-market**
+- Lancement Product Hunt, positionnement face aux outils de dictée (Wispr Flow-like, est.). Pas de boucle virale identifiée.
 
-**6. Réplication** : complexité 8/10, 6+ mois ; niche dual-use, risque légal/éthique. Angle Kyle faible (hors voice/SaaS). À surveiller seulement.
+**6. Réplication**
+- Complexité : 7/10 (modèle propre, apps desktop deux OS).
+- Verticaux : dictée métier (médical, juridique) en français, avec vocabulaire spécialisé.
+- Angle Kyle : dictée + agent vocal pour une profession réglementée francophone, sur API STT existantes.
+- Temps de dev : 8-10 semaines.
+- Propriétaire, freemium (non vérifié).
 
-## 🏆 TOP APP #3 : HyperFrames (HeyGen)
+## 🏆 TOP APP #3 : Vois
 **1. Identification**
-- [github.com/heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) · HeyGen · open-sourcé avril-juin 2026 (dates divergentes : [noqta](https://www.noqta.tn/en/blog/heygen-hyperframes-html-to-mp4-ai-agent-video-2026), [aitoolly](https://aitoolly.com/ai-news/article/2026-06-24-heygen-launches-hyperframes-a-new-framework-to-write-html-and-render-video-built-specifically-for-ai)) → **~4-6 mois, limite du filtre**
-- Buzz : +5,7K stars cette semaine (trending), soutenu par une entreprise financée ; communauté via hyperframes.dev.
+- Nom : Vois ([Product Hunt, Vois 2.0](https://www.producthunt.com/p/vois/vois-2-0)). Maker solo : Praney Behl. Au moins deux lancements PH.
+- Catégorie : TTS et clonage de voix 100 % local (desktop). Buzz faible : 1-2/6 critères. Retenu faute de mieux, avec réserve.
+- Signal négatif : un utilisateur rapporte des crashs en essai et un email de support en échec.
 
-**2. Proposition de valeur** : « vidéo as code » : l'agent écrit HTML/CSS/GSAP, la CLI rend un MP4. Cible : devs, marketeurs techniques, équipes de contenu automatisé. Pricing : Apache 2.0 gratuit (monétisation indirecte via HeyGen).
+**2. Proposition de valeur**
+- Problème : ElevenLabs et co. facturent à la consommation et envoient les données dans le cloud.
+- Solution : TTS illimité en local, 100+ voix, clonage depuis ~15 s d'audio, timeline multi-voix, CLI pour agents (Claude, Codex, Cursor).
+- Pricing : gratuit (10 générations/jour), ~9-10 $/mois (sources divergentes). Propriétaire.
 
-**3. Stack** : Node ≥22, Chrome headless + FFmpeg, skills pour Claude Code/Cursor/Codex.
+**3. Stack technique**
+- App desktop, plusieurs moteurs TTS locaux (draft rapide, multilingue 23 langues, « Omni » 600+ langues en Pro), CLI.
 
-**4. Psychologie** : « agents-native » (tendance), JTBD = « générer des vidéos de lancement par prompt » ; Aha = MP4 pixel-perfect depuis un prompt.
+**4. Psychologie**
+- Triggers : vie privée, prix plafonné (anti-facturation à l'usage), autorité « alternative à ElevenLabs ».
+- JTBD : « produire des voix off sans payer au caractère ».
+- Aha moment : cloner sa voix en 15 s, hors ligne.
 
-**5. GTM** : open-source comme top-of-funnel d'un SaaS existant, installation `npx skills add`, galerie communautaire de remix.
+**5. Go-to-market**
+- Relances PH répétées, SEO « ElevenLabs alternative », intégration agents comme canal.
 
-**6. Réplication** : complexité 6/10, 1-2 mois pour un wrapper SaaS. Verticaux : vidéos produit auto, reporting vidéo, sous-titrage/voix off. Angle Kyle : HyperFrames + voix IA FR = générateur de vidéos explicatives avec voix off automatique.
+**6. Réplication**
+- Complexité : 5/10 (assemblage de modèles TTS open source + UI).
+- Verticaux : voix off e-learning, doublage de contenus FR, audio de marque.
+- Angle Kyle : TTS/clonage local pour PME francophones (RGPD), vendu en licence.
+- Temps de dev : 4-6 semaines.
 
-## 💰 Unit Economics Deep Dive — VoiceStudio
-Projet open-source sans revenus publics : estimations **spéculatives**, non sourcées (pas de données Crunchbase/Tracxn).
+## 💰 Unit Economics Deep Dive — Instinct
+⚠️ Aucune donnée financière publique fiable. Tout ce qui suit est une estimation grossière.
 
 | Métrique | Estimation |
 |---|---|
-| ARR | ~0 € (pas de monétisation) |
-| ARPU | 0 € |
-| Users | 50K+ stars ≈ dizaines de milliers d'installs (non vérifié) |
-| CAC | ~0 € (organique) |
-| LTV / LTV:CAC | n/a |
-| Burn / Runway | quasi nul (dev solo) / illimité tant que bénévole |
-| Rev/Employee | n/a |
-| Rule of 40 | n/a |
+| Users | 100K+ (Dealroom) |
+| Revenu actuel | ~0 (gratuit) ; ARR potentiel si 5 % paient 20 $/mois : ~1,2 M$ |
+| ARPU | 0 aujourd'hui, 20 $/mois cible (est.) |
+| CAC | ~0 (invitations virales) |
+| LTV | non mesurable |
+| LTV/CAC, Payback | non applicable |
+| Burn | élevé : coût de calcul par user gratuit (est. 2-5 $/user/mois) soit 200-500 K$/mois |
+| Runway | long si tour de 250 M$ confirmé, sinon inconnu |
+| Rev/Employee | n.d. |
+| Rule of 40 | n.d. |
 
-**Verdict : 🟡** — traction exceptionnelle, modèle économique inexistant. La valeur est dans la monétisation que le projet laisse ouverte : hébergé, support entreprise, licence commerciale (l'AGPL oblige à acheter une licence ou à ouvrir son code). Benchmark : ElevenLabs facture des abonnements récurrents, preuve que la demande payante existe.
+Verdict : 🟡 croissance exceptionnelle mais aucune preuve de monétisation ; santé financière dépendante du capital levé. Sources : [Crypto Briefing](https://cryptobriefing.com/instinct-raises-1b-10b-valuation/), [SiliconANGLE](https://siliconangle.com/?p=832069).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| App | Market (20%) | Complexité inv. (15%) | TTM (15%) | Compétition inv. (15%) | Revenue (20%) | Fit Kyle (15%) | **Total** | Verdict |
+| App | Market (20%) | Complex. inv. (15%) | TTM (15%) | Compét. inv. (15%) | Revenu (20%) | Fit Kyle (15%) | **Score** | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| VoiceStudio | 8 | 5 | 6 | 3 | 7 | 9 | **6.5** | 🟡 BUILD ADJACENT |
-| REA | 4 | 3 | 3 | 6 | 4 | 2 | **3.8** | 🔴 SKIP |
-| HyperFrames | 7 | 5 | 6 | 4 | 6 | 6 | **5.8** | 🟠 WATCH |
+| Instinct (clone vertical) | 8 | 4 | 5 | 3 | 7 | 8 | **6.0** | 🟡 BUILD ADJACENT |
+| Loqua (dictée vertical FR) | 6 | 4 | 5 | 3 | 6 | 7 | **5.2** | 🟠 WATCH |
+| Vois (TTS local FR) | 5 | 6 | 7 | 3 | 5 | 8 | **5.6** | 🟠 WATCH |
 
-Notes : VoiceStudio — marché voice énorme mais ElevenLabs et autres saturent ; l'angle viable est B2B FR/RGPD. Scores prudents vu la qualité des données.
+Calcul Instinct : 1.6+0.6+0.75+0.45+1.4+1.2 = 6.0. Loqua : 1.2+0.6+0.75+0.45+1.2+1.05 = 5.25. Vois : 1.0+0.9+1.05+0.45+1.0+1.2 = 5.6.
 
 ## 📈 Tendances Émergentes
-- **Agents-native tooling** : skills, MCP, plugins dominent GitHub Trending (claude-plugins-official, scientific-agent-skills, android/skills, cursor/plugins, context-mode, ruflo) — [GitHub Trending](https://github.com/trending?since=weekly).
-- **Local-first / privacy** : alternatives open-source locales aux SaaS IA payants (voix).
-- **Open-source comme funnel** d'entreprises (HeyGen) plutôt que produit final.
-- Signal faible : outils de réduction de contexte pour agents de code.
+- **Agents dans la messagerie** : Instinct montre que le canal natif (iMessage/WhatsApp) bat l'app dédiée.
+- **Voix sur le desktop, sensible au contexte** : Loqua, Kugel Ear, outils de dictée (catégorie PH active, [voice AI tools](https://www.producthunt.com/categories/voice-ai-tools)).
+- **IA locale / vie privée** : Vois, VoiceGoose (TTS hors ligne).
+- **CLI pour agents** : produits grand public qui exposent une CLI pilotable par Claude/Codex/Cursor.
+- **Show HN saturé** : ~13,5 % des liens HN en juil. 2026, volume x6 depuis ChatGPT, succès stable ([Zeli](https://zeli.app/story/49712005)).
 
 ## 💡 Insights Actionnables
-1. **Voix locale = trou B2B** : proposer une offre hébergée UE / on-prem (clonage + dictée + doublage) pour entreprises qui ne peuvent pas utiliser l'AGPL ni envoyer leurs audios aux US. Prototype d'abord sur doublage/voix off FR.
-2. **Combo vidéo-as-code + voix IA** : un générateur de vidéos explicatives par prompt (HyperFrames + TTS) pour SaaS français — MVP en quelques semaines.
-3. **Vérifier avant d'agir** : les stars de REA (129K/sem) et VoiceStudio (50K+) sont à contrôler sur GitHub ; le scan n'a pas pu couvrir Product Hunt, HN, Reddit, X.
-4. Ne pas investir dans le reverse engineering (hors fit, risque légal).
+1. **Prototyper un agent vocal + WhatsApp vertical en français** (ex. prise de RDV pour artisans/cliniques) : c'est le seul angle à score 6.0, directement dans l'expertise de Kyle.
+2. **Utiliser l'accès par invitation** comme boucle virale dès le premier jour.
+3. **Vendre en licence forfaitaire** face au paiement à l'usage (leçon Vois) pour les produits voix.
+4. **Ne pas copier Instinct tel quel** : coûts de calcul gratuits intenables sans levée massive.
+5. **Prochain scan** : le web search étant faible sur les données datées, prévoir une source directe (API HN, flux PH) si l'environnement l'autorise.
