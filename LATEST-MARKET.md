@@ -1,28 +1,27 @@
-# 🔥 Market Scan — 2026-10-25
+# 🔥 Market Scan — 2026-10-26
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 0 (aucune ne passe le filtre)
+- Apps analysées : 0 (aucune ne passe le filtre 3+ critères vérifiables)
 - Top potentiel : aucun BUILD NOW identifié
 - Opportunités immédiates (BUILD NOW) : 0
 
 ## ⚠️ Limites du scan
-- Product Hunt et Hacker News inaccessibles (DNS bloqué dans l'environnement) ; seuls GitHub Trending et la recherche web ont répondu.
-- Les recherches web n'ont renvoyé aucune liste fiable de lancements d'octobre 2026 (PH, Show HN, Indie Hackers, Reddit).
-- Les 3 projets trending de la semaine ont tous plus de 6 mois (exclusion) : aucune analyse DNA/Unit Economics/Scorecard n'est produite, par honnêteté.
+- Accès direct bloqué (DNS) à Product Hunt, Hacker News, Reddit, hunted.space : seule la recherche web (extraits) a répondu.
+- Aucun chiffre de votes, revenus ou users vérifiable → impossible de valider 3 critères de buzz. Pas d'analyse DNA / Unit Economics / Scorecard, par honnêteté.
 
-## 🔎 Candidats écartés
-| Projet | Pourquoi écarté | Source |
-|---|---|---|
-| morluto/rea (agents de reverse engineering, MCP/CLI, open-source) | Créé le 14 avril 2026 (>6 mois) ; chiffres de stars (~234K) non vérifiés, un article signale des copies trojanisées | [GitHub](https://github.com/morluto/rea) · [fact-check](https://pasqualepillitteri.it/en/news/23845/rea-reverse-engineer-anything-github-true-false) |
-| stablyai/orca (hub de flottes d'agents de code, gratuit/open-source, YC W22) | Open-source depuis mars 2026 (>6 mois) ; les articles d'octobre sont des agrégateurs | [Orca](https://landscape.jimmysong.io/projects/orca/) |
-| heygen-com/hyperframes (HTML → MP4 pour agents, Apache-2.0) | Sorti mars/avril 2026 (>6 mois), projet corporate | [GitHub](https://github.com/heygen-com/hyperframes) |
+## 🔎 Candidats repérés (non validés)
+| Projet | Signal | Pourquoi non retenu | Source |
+|---|---|---|---|
+| Spira Maxima (agent IA réseaux sociaux) | #1 Product of the Day 5 oct. et #1 de la semaine (score PH 556, tiers) | Un seul critère vérifié, pas de données traction/pricing | [crosswalk PH](https://crosswalk.to/crosswalk/ph-launches/g8flh4) |
+| Cakie (enregistrement d'écran → prompt pour agents IA) | #1 du lancement PH du 9 oct. | Pas de métriques au-delà du rang | [crosswalk PH](https://crosswalk.to/crosswalk/ph-launches/g8flh4) |
+| Comcent (infra voix IA sur SIP trunk propre) | 3e du 9 oct. sur PH | Pertinent voice AI, mais aucune traction publique trouvée | [crosswalk PH](https://crosswalk.to/crosswalk/ph-launches/g8flh4) |
+| DeepSeek Harness (dsh, harness d'agents open-source) | ~191K étoiles en un mois (août) | Lancé en août (>2 mois), preview, corporate | [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2026/09/top-github-repositories-august-2026/) |
 
-## 📈 Signaux faibles (GitHub Trending hebdo)
-1. **Skills/plugins pour agents de code** : cloudflare/security-audit-skill (~12,7K étoiles/sem), anthropics/knowledge-work-plugins, cursor/plugins, android/skills. La distribution passe par des « skills » installables (`npx skills add`). Source : [GitHub Trending](https://github.com/trending?since=weekly).
-2. **Orchestration multi-agents** (orca, ruflo, opencode) : la couche « harness » attire plus d'attention que les modèles ; les outils sont gratuits/open-source, en BYO-subscription.
-3. **Vidéo générée par agents (HTML → MP4)** : rendu déterministe piloté par agents, brique réutilisable pour du contenu automatisé.
+## 📈 Signaux faibles
+1. **Couche harness/outillage d'agents** (skills, mémoire, gateways) attire plus que les modèles eux-mêmes ([OSS Insight](https://ossinsight.io/trending/ai)).
+2. **Capture d'écran/vidéo → prompt pour agents** (Cakie) : nouveau format d'entrée pour agents de code.
+3. **Infra voix IA « bring your own SIP »** (Comcent) : validation de la demande côté télécom pour voice agents.
 
 ## 💡 Insights Actionnables (Kyle)
-- Angle voice AI : aucun signal voice significatif cette semaine ; relancer le scan avec accès PH/HN pour confirmer.
-- Piste à tester : publier un « skill » voice AI (appel sortant, transcription) installable pour agents de code, canal de distribution à faible coût.
-- Prochaine étape : vérifier manuellement PH weekly et Show HN avant de conclure à un creux de marché.
+- Angle voice AI : creuser Comcent et les alternatives SIP-trunk (positionnement européen/RGPD possible), à valider manuellement.
+- Relancer le scan avec accès PH/HN fonctionnel ; vérifier à la main le leaderboard PH hebdo.
