@@ -1,87 +1,74 @@
-# 🔥 Market Scan — 2026-10-28
+# 🔥 Market Scan — 2026-10-29
 
-> ⚠️ **Limites de la collecte** : Product Hunt et Hacker News inaccessibles (domaines hors allowlist réseau de la session). Web search sans résultats exploitables pour PH/HN/Twitter/Reddit. Seule source fiable : GitHub Trending hebdo. Dates de lancement non vérifiables (stars très élevées → projets probablement > 6 mois pour certains : filtre d'exclusion appliqué avec réserve). Rapport = signaux faibles + analyse prudente.
+> ⚠️ Limites de ce run : news.ycombinator.com et producthunt.com sont hors de la liste des domaines autorisés de la session (à ajouter dans les réglages réseau). Les données viennent de recherches web + GitHub Trending. Chiffres non vérifiés à la source primaire = marqués (?).
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (toutes open-source, source GitHub Trending 7j)
-- Top potentiel : Orca (stablyai) — orchestration d'agents de code
-- Opportunités immédiates (BUILD NOW) : 0 (1 BUILD ADJACENT possible)
+- Apps analysées : 3 (signaux partiels, aucune ne passe le filtre 3+ critères avec certitude)
+- Top potentiel : Instinct (agent iMessage) pour l'angle voice/agent de Kyle
+- Opportunités immédiates (BUILD NOW) : 0
 
-## 🏆 TOP APP #1 : Orca (stablyai/orca)
-**1. Identification** — [github.com/stablyai/orca](https://github.com/stablyai/orca) · org `stablyai` (tag "yc-backed", fondateurs non nommés) · date de lancement non vérifiée · dev tools · **open-source MIT, gratuit** (les agents tournent sur les abonnements de l'utilisateur).
-Buzz : ~108k stars, +8 802 stars cette semaine (#9 trending), 17k commits, 3,8k PR, 4,1k issues → communauté très active.
+## 🏆 TOP APP #1 : Instinct (agent IA sur iMessage)
+**Confiance : faible** — une seule source secondaire (rapport a16z Top 100 Gen AI Consumer Apps, 7e éd.) : [a16z](https://a16z.com/100-gen-ai-apps-7/)
 
-**2. Proposition de valeur** — Problème : gérer plusieurs agents de code (Claude Code, Codex, OpenCode…) en parallèle est chaotique. Solution : app desktop, 1 worktree git par agent, vue unifiée, ~34 agents supportés. USP : compagnon mobile iOS/Android (suivi + relances), Design Mode (clic sur élément UI → HTML/CSS/screenshot envoyé à l'agent), worktrees SSH, annotation de diffs. Cible : devs qui orchestrent des flottes d'agents. Pricing : 0 €.
+1. **Identification** : agent IA lancé en août 2026 sur iMessage ; cité avec Tomo, Poke, Lindy, Town comme produits à « centaines de milliers d'users ». Fondateurs : non vérifiés. Catégorie : assistant/agent conversationnel. Buzz : mention a16z, croissance virale (?).
+2. **Valeur** : agent accessible dans une app déjà installée (zéro install, zéro onboarding). Cible : grand public. Pricing : non vérifié (?).
+3. **Stack** : probablement LLM frontier + orchestration d'outils + passerelle iMessage/SMS (?). Non confirmé.
+4. **Psychologie** : friction nulle, effet « texto à un ami », Aha moment dès le 1er message ; social proof via partage de conversations.
+5. **GTM** : viralité par le canal messagerie, bouche-à-oreille, presse a16z.
+6. **Réplication** : complexité 5/10 (la difficulté = fiabilité des agents + conformité messagerie). Angle Kyle : agent **vocal** sur WhatsApp/téléphone (appel entrant) pour le marché FR/EU, là où iMessage est minoritaire. Dev : 4-8 semaines MVP.
 
-**3. Stack** — Electron + Vite, TypeScript, pnpm workspaces, terminal GPU, relai cloud mobile↔desktop (`cloud/`), CLI, intégrations GitHub/Linear.
+## 🏆 TOP APP #2 : Muse (app IA grand public)
+**Confiance : faible** — chiffres tirés d'une newsletter ([monthindigital](https://monthindigital.substack.com/p/october-2026-95-of-marketers-have)), non recoupés.
 
-**4. Psychologie** — Triggers : FOMO (« tout le monde parallélise ses agents »), gain de productivité immédiat, social proof (stars). JTBD : « superviser N agents sans perdre le contrôle ». Aha moment : un prompt envoyé à plusieurs agents, comparaison, merge du meilleur.
+1. **Identification** : « Muse », app IA grand public ; 10 M de téléchargements US en 40 jours (?), mais seulement 23 % d'actifs à la semaine 2 (?).
+2. **Valeur** : détails produit non vérifiés. Signal clé : acquisition massive, rétention médiocre.
+3. **Stack** : inconnue.
+4. **Psychologie** : curiosité/nouveauté, FOMO ; pas de boucle d'habitude visible (rétention 23 %).
+5. **GTM** : probablement paid/viral social ; non confirmé.
+6. **Réplication** : non évaluable. Leçon : ne pas copier le pic de téléchargements, viser la rétention. Complexité ?/10.
 
-**5. GTM** — Distribution via GitHub/communauté dev, neutralité vis-à-vis des vendors (agnostique), open-source comme moteur de confiance ; boucle virale : partage de workflows/CLI. Monétisation future probable : cloud/relai/équipes (hypothèse).
+## 🏆 TOP APP #3 : cloudflare/security-audit-skill
+Sources : [GitHub Trending](https://github.com/trending?since=weekly), [Korben](https://korben.info/en/cloudflare-launches-ai-security-audit-skill.html), [Fireup](https://fireup.pro/news/cloudflare-open-sources-its-ai-security-auditor-heres-why-it-matters)
 
-**6. Réplication** — Complexité 7/10 (Electron + mobile + relai), 4-6 mois pour un MVP crédible. Verticaux adjacents : orchestration d'agents voix/support, QA, data. Angle Kyle : tableau de bord de supervision d'agents **voix** (appels en parallèle, transcription live, reprise humaine) plutôt que concurrencer un outil gratuit MIT.
+1. **Identification** : skill open source (MIT, **gratuit**) de Cloudflare qui transforme un agent de code en auditeur sécurité. #1 GitHub Trending hebdo : +16 002 stars/semaine ; ~43 k stars au 24/10 selon un article (?). Catégorie : dev tools / sécurité.
+2. **Valeur** : audit multi-phases avec sous-agents chasseurs + vérificateur indépendant qui tente de réfuter chaque faille. Cible : devs/équipes sécu. Pricing : gratuit (marque Cloudflare = lead-gen).
+3. **Stack** : fichiers Markdown (un par famille d'attaque), schéma JSON de rapport, validateurs JS sans dépendances. Installation via `npx skills add`.
+4. **Psychologie** : autorité (Cloudflare), peur (failles), gratuité, simplicité d'installation.
+5. **GTM** : open-source par une marque établie, distribution via l'écosystème « skills » d'agents.
+6. **Réplication** : complexité 2/10 techniquement ; l'autorité de marque, elle, n'est pas réplicable. Angle Kyle : skills/plugins verticaux (audit conformité RGPD, qualité d'agents vocaux). Dev : 1-2 semaines.
 
-## 🏆 TOP APP #2 : Graphify (Graphify-Labs/graphify)
-**1. Identification** — [github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) · Graphify Labs (auteur probable : safishamsi, non confirmé) · date non vérifiée · dev tools/knowledge graph · **open-source Apache-2.0/MIT** + offre payante *Graphify Cloud* (essai 14 j).
-Buzz : ~137k stars, +7 268 cette semaine (#6 trending), 13k forks.
-
-**2. Proposition de valeur** — Problème : les agents « grep » des repos entiers et brûlent des tokens. Solution : graphe de connaissances (code, docs, SQL, PDF, vidéo) interrogeable (`query`, `path`, `explain`), parsing local tree-sitter (~40 langages), 0 crédit LLM pour le code, rapport `GRAPH_REPORT.md`. Installable comme skill dans 20+ assistants. Cible : utilisateurs d'agents de code. Pricing : gratuit + cloud.
-
-**3. Stack** — Python 3.10+, tree-sitter, Leiden/networkx, serveur MCP, export Neo4j/FalkorDB, faster-whisper, backends LLM multiples, Docker.
-
-**4. Psychologie** — Triggers : économie de tokens (coût), autorité (benchmark LOCOMO 0,497 recall@10 — auto-déclaré). JTBD : « donner du contexte fiable à mon agent ». Aha : la carte des « god nodes » d'un repo.
-
-**5. GTM** — Distribution comme skill multi-assistants (présent partout où sont les devs), open-source → cloud payant, sponsoring.
-
-**6. Réplication** — Complexité 6/10, 2-3 mois. Adjacent : graphe de connaissances sur transcriptions d'appels/CRM. Angle Kyle : mémoire graphe pour agents voix (historique client interrogeable).
-
-## 🏆 TOP APP #3 : security-audit-skill (Cloudflare)
-**1. Identification** — [github.com/cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · Cloudflare · date non vérifiée · sécurité/agents · **open-source MIT, gratuit**.
-Buzz : ~50,5k stars, **+16 388 cette semaine (#1 trending)**, adossé à une marque d'autorité.
-
-**2. Proposition de valeur** — Transforme un agent de code en auditeur sécurité en 6 phases (recon, chasse guidée par ledger de couverture, validation adverse, findings JSON schématisés, vérification indépendante, rapport). USP : findings vérifiés et machine-readable, runs additifs. Cible : équipes sécu/devs. Pricing : gratuit (coût = tokens).
-
-**3. Stack** — Prompts Markdown, JSON Schema, validateurs Node.js sans dépendance, installation via Skills CLI, sandbox OS requis.
-
-**4. Psychologie** — Autorité (Cloudflare), peur (failles), réduction de faux positifs. Aha : un rapport avec findings confirmés vs rejetés.
-
-**5. GTM** — Le « marketing » est la marque ; publication d'une méthodologie interne comme contenu viral. Format « skill » = zéro friction d'adoption.
-
-**6. Réplication** — Complexité 3/10 (prompts + schémas), 2-4 semaines. Verticaux : audit conformité RGPD, audit de prompts/agents voix, revue qualité d'appels. Angle Kyle : skill d'audit de sécurité/conformité pour agents voix (injection, fuite PII). Attention : la distribution vient de la marque, non réplicable.
-
-## 💰 Unit Economics Deep Dive — Orca
-Produit 100 % gratuit/MIT : **aucune donnée financière publique** (non vérifiable sans Crunchbase/Tracxn/SimilarWeb, inaccessibles ici). Estimations très spéculatives :
+## 💰 Unit Economics Deep Dive — Instinct
+**Données insuffisantes** pour estimer honnêtement les unit economics d'Instinct (pas de revenus, pricing ni équipe publics). Estimations indicatives, hypothèses seulement :
 
 | Métrique | Estimation |
 |---|---|
-| ARR | ~0 € (pas de tier payant visible) |
-| Users | non publié (108k stars ≠ users actifs) |
-| ARPU / CAC / LTV / LTV-CAC / Payback | N/A (CAC ≈ 0, organique) |
-| Burn / Runway | inconnus ; équipe visiblement large (17k commits), financement YC supposé |
-| Rev/Employee, Rule of 40 | N/A |
+| Users | ~100-500 k (a16z) |
+| ARPU | inconnu (?) |
+| ARR / CAC / LTV / Burn / Runway / Rule of 40 | non estimables |
 
-**Verdict santé : 🟡** — traction communautaire exceptionnelle, monétisation inexistante pour l'instant ; risque : les vendors (Anthropic, OpenAI) intègrent nativement l'orchestration.
+Verdict santé : 🟡 non évaluable. À revérifier via Crunchbase/Tracxn quand un tour de table sera publié.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| Dimension (poids) | Orca | Graphify | Security-audit-skill |
-|---|---|---|---|
-| 📊 Market Size (20%) | 7 | 6 | 6 |
-| ⚙️ Complexité inversée (15%) | 4 | 6 | 8 |
-| ⏱️ Time-to-Market (15%) | 4 | 6 | 8 |
-| 🏟️ Competition inversée (15%) | 3 | 4 | 5 |
-| 💰 Revenue Potential (20%) | 4 | 5 | 5 |
-| 🧑‍💻 Founder-Fit Kyle (15%) | 4 | 5 | 5 |
-| **Score pondéré** | **4,6 🟠 WATCH** | **5,4 🟠 WATCH** | **6,2 🟡 BUILD ADJACENT** |
+Scores subjectifs, données partielles.
 
-Scores prudents : données financières et dates manquantes, concurrence open-source gratuite forte.
+| Dimension | Poids | Instinct | Muse | CF skill |
+|---|---|---|---|---|
+| 📊 Market Size | 20% | 8 | 6 | 5 |
+| ⚙️ Complexity inversé | 15% | 5 | 5 | 9 |
+| ⏱️ Time-to-Market | 15% | 6 | 5 | 9 |
+| 🏟️ Competition inversé | 15% | 3 | 3 | 4 |
+| 💰 Revenue Potential | 20% | 6 | 4 | 3 |
+| 🧑‍💻 Founder-Fit Kyle | 15% | 7 | 3 | 5 |
+| **Total** | | **5.9** 🟠 WATCH | **4.3** 🔴 SKIP | **5.4** 🟠 WATCH |
 
 ## 📈 Tendances Émergentes
-- **Skills/plugins pour agents de code** dominent GitHub Trending (security-audit-skill, claude-seo, knowledge-work-plugins, android/skills, CLAUDE.md de Karpathy) : le « skill » devient un format de distribution.
-- **Orchestration de flottes d'agents** : Orca, ruflo, opencode.
-- **Mémoire/contexte pour agents** : Graphify, ai-memory (Rust).
-- Sources : [GitHub Trending](https://github.com/trending?since=weekly). Show HN : volume ×6 depuis ChatGPT mais peu de posts percent ([zeli.app](https://zeli.app/es/story/49712005)).
+- **Skills pour agents de code** : 8 des 11 repos du GitHub Trending hebdo sont des skills/plugins/harness pour Claude Code & co (security-audit-skill, impeccable, taste-skill, claude-seo, graphify, knowledge-work-plugins). Nouvelle couche de distribution.
+- **Agents dans les apps de messagerie** (iMessage, Poke, Tomo) : zéro friction d'install.
+- **Acquisition ≠ rétention** : Muse (10 M DL, 23 % actifs S2) rappelle le piège des pics de téléchargement.
+- **Show HN** : volume x6 depuis ChatGPT, mais les posts à 20+ points restent à peu près stables ([source](https://hub.causo.ai/guides/show-hn-launch-playbook-technical-founders-2026)).
 
 ## 💡 Insights Actionnables
-1. Publier un **skill d'audit pour agents voix** (sécurité + conformité RGPD/PII) : coût faible, canal de distribution = Skills CLI, positionne Kyle comme autorité voice AI.
-2. Ne pas concurrencer les outils MIT d'orchestration ; viser la **supervision d'agents voix** (angle vertical).
-3. Débloquer l'accès réseau à Product Hunt, Hacker News (et Reddit/X) pour de vrais scans : cette session n'a vu que GitHub.
+1. **Publier des skills verticaux** (voice AI QA, audit RGPD agents vocaux, SEO FR) : effort 1-2 semaines, distribution gratuite via l'écosystème skills, bon moyen de générer du lead pour les offres voice de Kyle.
+2. **Prototyper un agent vocal/WhatsApp** pour PME FR en s'inspirant du modèle « zéro install » d'Instinct.
+3. **Mesurer la rétention J7/J14 avant toute copie** d'un produit à gros téléchargements.
+4. **Débloquer les sources** : autoriser news.ycombinator.com et producthunt.com dans les réglages réseau de la session pour des scans plus fiables.
