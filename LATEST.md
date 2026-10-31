@@ -1,50 +1,60 @@
-# AI Watch — 2026-10-30 Matin
+# AI Watch — 2026-10-31 Matin
 
-> Note : la recherche web renvoie surtout des agrégateurs et des digests auto-générés (peu de sources primaires). Les infos ci-dessous sont recoupées entre agrégateurs — à vérifier sur les sources officielles. Peu de nouveautés par rapport au rapport d'hier.
+> ⚠️ Note de fiabilité : la recherche web n'a remonté presque aucune source datée des 12 dernières heures. Les items ci-dessous viennent de sources secondaires (blogs, agrégateurs), souvent non datées précisément. À vérifier sur les sites officiels avant usage.
 
 ## 🔥 Breaking
-
-### Gemini 4 Carbon (Google) — suite
-- **Quoi** : modèle orienté cybersécurité, accès limité aux « cyber defenders » (programme Fairwind) avant élargissement. Un digest le place 1er de l'Artificial Analysis Intelligence Index v5 (score 59, reasoning high) ; un autre digest le classe 74/87 → chiffres contradictoires. Les release notes Google Cloud mentionnent aussi un modèle « gemini-4-argon ».
-- **Lien** : https://theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-october-29-2026/
-- **Pourquoi c'est important** : confirme la montée en gamme Gemini 4 ; payant (API), accès restreint.
-- **Testable** : Non (accès restreint pour l'instant).
-
-### Mistral Large 4 (open-weight)
-- **Quoi** : cité comme l'une des top stories HN des 29-30/10, publié en poids ouverts (détails/licence non vérifiés).
-- **Lien** : https://github.com/kouweizhu/agents-radar/issues/706
-- **Pourquoi c'est important** : gros modèle européen open-weight, alternative aux modèles US/chinois.
-- **Testable** : Probablement (Hugging Face / API Mistral) — à confirmer.
+RAS — rien de confirmé sur les 12 dernières heures.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Cursor Agent SDK
-- **Quoi** : Cursor lance un SDK pour construire des agents ; débat HN entre standardisation et crainte d'une couche propriétaire.
-- **Lien** : https://github.com/kouweizhu/agents-radar/issues/690
-- **Pourquoi c'est important** : Cursor ouvre sa brique agent aux développeurs tiers. Payant/propriétaire.
-- **Testable** : Oui probablement (via Cursor) — à confirmer.
+### Claude Duet (Anthropic)
+- **Quoi** : app d'agent personnel propulsée par Opus 5.5, en liste d'attente pour les abonnés Pro/Max aux US (iOS, Android, web).
+- **Lien** : https://hao.cnyes.com/hot/newest/Claude Duet
+- **Pourquoi c'est important** : Anthropic entre sur le terrain de l'assistant personnel grand public/agentique.
+- **Testable** : Oui, via la waitlist (US, Pro/Max, payant). Source secondaire.
 
-### Autres
-- **Simantic (YC F26)** : simulation de firmware pour agents IA (Launch HN).
-- **Survival LLM** : assistant auto-hébergé pour situations d'urgence.
-- **Zocdoc** : réservation de rendez-vous par agents IA avec consentement patient.
-- **Meta Muse + AMD** : accord de ~1 Md$ (CPU EPYC) pour l'infra de l'agent Muse. https://riorundown.substack.com/p/ai-news-oct-29-2026-ai-infrastructure
-- Voice AI / MCP / coding assistants / image & vidéo : RAS vérifiable (résultats anciens ou non datés).
+### Claude Security (beta) et Code Review GA (Anthropic)
+- **Quoi** : Code Review disponible en GA pour Team/Enterprise (15 oct.), Claude Security en beta publique Enterprise (21 oct.).
+- **Lien** : https://www.orcarouter.ai/blog/claude-news-what-anthropic-shipped-in-october-2026
+- **Pourquoi c'est important** : l'outillage dev/sécurité passe en production chez Anthropic.
+- **Testable** : Oui si plan Team/Enterprise (payant). Source tierce, non confirmée par anthropic.com.
+
+### Gemini app : Daily Brief, Spark, Omni, app macOS (Google)
+- **Quoi** : refonte de l'app Gemini avec fonctions agentiques (Daily Brief, Spark, Gemini Omni), Gemini 3.5 Flash, app macOS.
+- **Lien** : https://www.bestaitools.com/googles-gemini-app-becomes-more-agentic-with-24-7-ai-assistant-features/
+- **Pourquoi c'est important** : assistant « 24/7 » ; Google revendique plus de 900M d'utilisateurs mensuels.
+- **Testable** : Oui (Daily Brief pour AI Plus/Pro/Ultra US, payant). Date de l'annonce incertaine.
 
 ## 🧠 Mises à jour de Modèles
-- **GPT-6.1 Terra (OpenAI)** : lancé ~26-27/10, déjà couvert hier ; discussions HN sur l'ampleur réelle du gain. https://github.com/kouweizhu/agents-radar/issues/678
-- **Kimi K3.1 Pro** : poids ouverts toujours attendus avant le 4/11 (cf. rapport précédent).
-- **Oracle + Google** : TPU Google sur Oracle Cloud (Oracle AI World). Infra, payant.
+
+### Claude Haiku 5.5 (Anthropic, 7 oct.)
+- **Quoi** : 3e modèle de la famille 5.5, pensée adaptative, 1M de contexte, 72,4 % sur OSWorld 2.1 (chiffres rapportés par des tiers).
+- **Lien** : https://www.datacamp.com/fr/blog/claude-haiku-5-5
+- **Pourquoi c'est important** : exécuteur peu coûteux pour des orchestrations avec modèles plus gros.
+- **Testable** : Oui, API (payant).
+
+### Contexte OpenAI (non vérifié)
+- **Quoi** : Reuters aurait rapporté (28 sept.) que GPT-6.1 « Astra » ne sortirait pas pour raisons de sécurité ; un site affirme un déploiement GPT-6 le 7 oct. Sources contradictoires.
+- **Lien** : https://cryptobriefing.com/openai-highlights-ai-milestone-stresses-urgency-with-gpt-6-astra-launch/
+- **Pourquoi c'est important** : si confirmé, signal fort sur le freinage sécurité chez OpenAI.
+- **Testable** : Non.
+
+### Modèles open-weights chinois (derniers connus)
+- **Quoi** : Kimi K3 (~2,8T MoE, juillet, licence custom), DeepSeek-V4-Flash-0731 (MIT). Rien de nouveau trouvé pour octobre.
+- **Lien** : https://www.orcarouter.ai/blog/kimi-k3-vs-deepseek-v4
+- **Pourquoi c'est important** : référence open-weights actuelle.
+- **Testable** : Oui (Hugging Face, open source).
 
 ## 🔬 Research
-- Préprint OpenAI revendiquant que l'Exponential Time Hypothesis est fausse : non confirmé indépendamment, à prendre avec prudence.
+RAS — aucune publication influente identifiée dans les résultats.
 
 ## 📝 À surveiller
-- Poids ouverts de Kimi K3.1 Pro (avant le 4/11).
-- Rumeur de dépôt S-1 / IPO Anthropic (digests HN du 27/10) : non corroborée.
-- Procès d'une famille contre OpenAI (conseil ChatGPT sur un médicament) : risque réglementaire.
-- Extension de la pub dans AI Search de Google à d'autres marchés.
+- Anthropic aurait déposé un dossier d'introduction en bourse (ticker ANT), selon des légendes de galeries de presse : à confirmer.
+- Seedance 2.5 (ByteDance, annoncé 23 juin) : vidéo 30 s avec audio ; statut d'accès public encore flou. https://pixverse.ai/en/blog/seedance-2-5-ai-video-generator-review
+- Voix : Gemini 3.8 Flash TTS, Cartesia Sonic-3.6, Mistral Voxtral TTS (open source) ; dates non confirmées.
+- Écosystème MCP : plus de 10 000 serveurs publiés ; Agent Skills ouvert via agentskills.io (la mention d'une « fondation » n'est pas confirmée).
+- Vercel eve (framework d'agents open source, Apache 2.0, juin).
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) Gemini 4 Carbon (cyber, accès restreint) 2) Mistral Large 4 open-weight 3) Cursor Agent SDK
-- **À tester en priorité** : Mistral Large 4 (si poids disponibles), Cursor Agent SDK, Kimi K3.1 Pro via API hébergée
+- **Top 3 du jour** : (1) Claude Duet en waitlist ; (2) refonte agentique de l'app Gemini ; (3) Claude Haiku 5.5 comme exécuteur économique. Tous issus de sources secondaires.
+- **À tester en priorité** : Haiku 5.5 via l'API ; DeepSeek-V4-Flash (MIT) en local/Hugging Face ; Voxtral TTS (open source).
