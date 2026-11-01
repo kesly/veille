@@ -1,60 +1,37 @@
-# AI Watch — 2026-10-31 Matin
+# AI Watch — 2026-11-01 Matin
 
-> ⚠️ Note de fiabilité : la recherche web n'a remonté presque aucune source datée des 12 dernières heures. Les items ci-dessous viennent de sources secondaires (blogs, agrégateurs), souvent non datées précisément. À vérifier sur les sites officiels avant usage.
+> ⚠️ Run à 04h UTC (dimanche). Le moteur de recherche renvoie surtout du contenu daté/agrégé ; aucune annonce majeure datée des 12 dernières heures n'a pu être confirmée. Les sites hn.algolia.com et lmmarketcap.com sont inaccessibles (domaines non autorisés dans le réseau de la session). Rien n'est inventé : les items ci-dessous sont des signaux récents, non vérifiés à la source primaire.
 
 ## 🔥 Breaking
-RAS — rien de confirmé sur les 12 dernières heures.
+RAS — aucune release majeure confirmée sur les 12 dernières heures.
 
 ## 🆕 Nouveaux Outils & Produits
+### Vercel eve (framework d'agents, juin 2026 — rappel)
+- **Quoi** : framework open-source "style Next.js" pour agents IA.
+- **Lien** : https://ainexusdaily.vercel.app/article/2026-06-18-vercel-launches-eve-an-open-source-framework-simplifying-ai-agent-development
+- **Pourquoi c'est important** : standardise la structure des projets d'agents ; source agrégateur, à vérifier (conflit de nom signalé).
+- **Testable** : Oui — open-source, via le repo Vercel.
 
-### Claude Duet (Anthropic)
-- **Quoi** : app d'agent personnel propulsée par Opus 5.5, en liste d'attente pour les abonnés Pro/Max aux US (iOS, Android, web).
-- **Lien** : https://hao.cnyes.com/hot/newest/Claude Duet
-- **Pourquoi c'est important** : Anthropic entre sur le terrain de l'assistant personnel grand public/agentique.
-- **Testable** : Oui, via la waitlist (US, Pro/Max, payant). Source secondaire.
-
-### Claude Security (beta) et Code Review GA (Anthropic)
-- **Quoi** : Code Review disponible en GA pour Team/Enterprise (15 oct.), Claude Security en beta publique Enterprise (21 oct.).
-- **Lien** : https://www.orcarouter.ai/blog/claude-news-what-anthropic-shipped-in-october-2026
-- **Pourquoi c'est important** : l'outillage dev/sécurité passe en production chez Anthropic.
-- **Testable** : Oui si plan Team/Enterprise (payant). Source tierce, non confirmée par anthropic.com.
-
-### Gemini app : Daily Brief, Spark, Omni, app macOS (Google)
-- **Quoi** : refonte de l'app Gemini avec fonctions agentiques (Daily Brief, Spark, Gemini Omni), Gemini 3.5 Flash, app macOS.
-- **Lien** : https://www.bestaitools.com/googles-gemini-app-becomes-more-agentic-with-24-7-ai-assistant-features/
-- **Pourquoi c'est important** : assistant « 24/7 » ; Google revendique plus de 900M d'utilisateurs mensuels.
-- **Testable** : Oui (Daily Brief pour AI Plus/Pro/Ultra US, payant). Date de l'annonce incertaine.
+### Cartesia Sonic-3.6 / Google Gemini 3.8 Flash TTS / Mistral Voxtral TTS (Voice AI)
+- **Quoi** : vague de nouveaux modèles TTS (44 langues pour Sonic-3.6 ; 100+ langues pour Gemini TTS ; Voxtral TTS open-source, 9 langues).
+- **Lien** : https://menastartupdigest.com/?p=49615 ; https://oodaloop.com/briefs/technology/google-introduces-its-most-updated-gemini-3-8-text-to-speech-audio-generation-models/ ; https://oodaloop.com/briefs/technology/mistral-releases-a-new-open-source-model-for-speech-generation
+- **Pourquoi c'est important** : concurrence accrue sur la TTS temps réel ; Voxtral = option open-source. Dates non confirmées.
+- **Testable** : Oui — API (Cartesia, Gemini) ; Voxtral open-source.
 
 ## 🧠 Mises à jour de Modèles
-
-### Claude Haiku 5.5 (Anthropic, 7 oct.)
-- **Quoi** : 3e modèle de la famille 5.5, pensée adaptative, 1M de contexte, 72,4 % sur OSWorld 2.1 (chiffres rapportés par des tiers).
-- **Lien** : https://www.datacamp.com/fr/blog/claude-haiku-5-5
-- **Pourquoi c'est important** : exécuteur peu coûteux pour des orchestrations avec modèles plus gros.
-- **Testable** : Oui, API (payant).
-
-### Contexte OpenAI (non vérifié)
-- **Quoi** : Reuters aurait rapporté (28 sept.) que GPT-6.1 « Astra » ne sortirait pas pour raisons de sécurité ; un site affirme un déploiement GPT-6 le 7 oct. Sources contradictoires.
-- **Lien** : https://cryptobriefing.com/openai-highlights-ai-milestone-stresses-urgency-with-gpt-6-astra-launch/
-- **Pourquoi c'est important** : si confirmé, signal fort sur le freinage sécurité chez OpenAI.
-- **Testable** : Non.
-
-### Modèles open-weights chinois (derniers connus)
-- **Quoi** : Kimi K3 (~2,8T MoE, juillet, licence custom), DeepSeek-V4-Flash-0731 (MIT). Rien de nouveau trouvé pour octobre.
-- **Lien** : https://www.orcarouter.ai/blog/kimi-k3-vs-deepseek-v4
-- **Pourquoi c'est important** : référence open-weights actuelle.
-- **Testable** : Oui (Hugging Face, open source).
+- Trackers citent : Qwen3.7 Max, Grok Build 0.1, Gemini 3.5 Flash, Grok 4.3, DeepSeek V4 (V4-Pro, 1M contexte), Mistral Medium 3.5 — dates non confirmées, pas de release datée de cette nuit.
+- Source : https://www.lmmarketcap.com/llm-updates (non vérifiable depuis la session).
+- Protocole MCP : version 2026-07-28 (cœur sans état, extensions versionnées) — https://www.cdata.com/blog/mcp-2026-07-28-release
 
 ## 🔬 Research
-RAS — aucune publication influente identifiée dans les résultats.
+RAS
 
 ## 📝 À surveiller
-- Anthropic aurait déposé un dossier d'introduction en bourse (ticker ANT), selon des légendes de galeries de presse : à confirmer.
-- Seedance 2.5 (ByteDance, annoncé 23 juin) : vidéo 30 s avec audio ; statut d'accès public encore flou. https://pixverse.ai/en/blog/seedance-2-5-ai-video-generator-review
-- Voix : Gemini 3.8 Flash TTS, Cartesia Sonic-3.6, Mistral Voxtral TTS (open source) ; dates non confirmées.
-- Écosystème MCP : plus de 10 000 serveurs publiés ; Agent Skills ouvert via agentskills.io (la mention d'une « fondation » n'est pas confirmée).
-- Vercel eve (framework d'agents open source, Apache 2.0, juin).
+- ByteDance Seedance 2.5 (vidéo, 30 s par prompt) : rumeur de sortie imminente — https://for.you.com/agents/media-ai
+- OpenAI GPT-5.5 Cyber : accès restreint malgré la promesse de démocratiser la défense IA — https://buttondown.com/ai-digest-en/archive/openai-quietly-gates-gpt-55-cyber-after-pledging/
+- Financement : Harvey (150 M$ à 10 Md$ de valorisation) et Valthos (30 M$ seed) sur la semaine du 27-31 oct. — https://www.sourcery.vc/p/omg-openai
+- Octobre 2026 : ~5,7 Md$ de nouveaux fonds hors OpenAI — https://aifunding.me/insights/ai-funding-rounds-october-2026
 
 ## 📊 Résumé
-- **Top 3 du jour** : (1) Claude Duet en waitlist ; (2) refonte agentique de l'app Gemini ; (3) Claude Haiku 5.5 comme exécuteur économique. Tous issus de sources secondaires.
-- **À tester en priorité** : Haiku 5.5 via l'API ; DeepSeek-V4-Flash (MIT) en local/Hugging Face ; Voxtral TTS (open source).
+- **Top 3 du jour** : (1) vague TTS/voice (Sonic-3.6, Gemini TTS, Voxtral) ; (2) MCP 2026-07-28 stateless ; (3) financements Harvey/Valthos. Faible confiance, journée calme.
+- **À tester en priorité** : Voxtral TTS (open-source), Vercel eve.
