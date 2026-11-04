@@ -1,43 +1,55 @@
-# AI Watch — 2026-11-03 Matin
+# AI Watch — 2026-11-04 Matin
 
-> ⚠️ Note de fiabilité : les recherches web n'ont renvoyé aucun article daté des 12 dernières heures (la plupart des résultats sont des agrégateurs non datés ou antérieurs). Rien n'est présenté ici comme « breaking » sans confirmation. Les éléments ci-dessous sont du contexte récent, à vérifier sur les sources officielles.
+> ⚠️ Note de fiabilité : la recherche web n'a renvoyé que des snippets (agrégateurs, dates souvent absentes) ; les pages sources n'ont pas pu être ouvertes (theneuron.ai, voiceaispace.com hors des domaines autorisés de la session). Les infos ci-dessous sont à vérifier avant d'agir. Beaucoup de domaines sont RAS faute de sources datées.
 
 ## 🔥 Breaking
-RAS — aucune annonce majeure confirmée sur les 12 dernières heures.
+
+### Anthropic — IPO révisé et seuil d'auto-amélioration récursive
+- **Quoi** : Le dossier d'IPO révisé d'Anthropic indiquerait que l'entreprise pourrait bientôt atteindre son seuil interne d'« auto-amélioration récursive » ; CA T3 rapporté à ~17 Md$ et ~895 Md$ d'engagements compute (sources secondaires).
+- **Lien** : https://enoumen.substack.com/p/anthropic-warns-self-improving-ai
+- **Pourquoi c'est important** : signal fort sur la trajectoire des prochains modèles et la gouvernance (RSP) ; impact marché et réglementaire.
+- **Testable** : Non
+
+### Salesforce — rachat de Cresta (voice AI)
+- **Quoi** : Salesforce rachèterait la société de voice AI Cresta pour ~2,7 Md$ (prix non confirmé par les parties).
+- **Lien** : https://www.bizn.org/news
+- **Pourquoi c'est important** : consolidation du marché voice AI pour contact centers, validation des agents vocaux en entreprise.
+- **Testable** : Non
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Vercel eve (agent framework open source)
-- **Quoi** : framework d'agents open source (Apache 2.0), lancement local en une commande, déploiement via le workflow Vercel (annoncé juin 2026, source secondaire).
-- **Lien** : https://ainexusdaily.vercel.app/article/2026-06-18-vercel-launches-eve-an-open-source-framework-simplifying-ai-agent-development
-- **Pourquoi c'est important** : un acteur du déploiement web entre sur le terrain des frameworks d'agents.
-- **Testable** : Oui (open source) — à vérifier sur le repo officiel Vercel.
+### Voice AI — vague de nouveaux TTS/STT (semaine 43)
+- **Quoi** : assemblyai-tts-1 (streaming, timestamps par mot, 6 langues), Fish Audio Drama 3, Speechify simba-3.5, nouvelle Interpreter API (transcription → traduction → synthèse). Hume annonce la fermeture de ses API TTS/EVI le 13 novembre.
+- **Lien** : https://www.voiceaispace.com/news/voice-ai-news-2026-10-25-w43
+- **Pourquoi c'est important** : concurrence TTS temps réel accrue ; si vous utilisez Hume, migration à prévoir avant le 13/11.
+- **Testable** : Oui — APIs payantes (essais gratuits probables chez AssemblyAI/Fish Audio)
 
-### Cartesia Sonic-3.6 / Gemini 3.8 Flash TTS (Voice AI)
-- **Quoi** : nouveaux modèles TTS — Sonic-3.6 (44 langues), Google Gemini 3.8 Flash TTS (100+ langues, contrôle émotionnel). Dates non confirmées.
-- **Lien** : https://menastartupdigest.com/?p=49615 · https://oodaloop.com/briefs/technology/google-introduces-its-most-updated-gemini-3-8-text-to-speech-audio-generation-models/
-- **Pourquoi c'est important** : course à la TTS expressive et multilingue temps réel.
-- **Testable** : Oui (APIs payantes).
+### Agents / MCP
+- **Quoi** : RAS notable daté des 12 dernières heures (Xurrent a lancé agents autonomes + serveur MCP ouvert, date non confirmée).
+- **Lien** : https://www.apmdigest.com/xurrent-introduces-autonomous-agents-and-open-mcp-server
+- **Pourquoi c'est important** : illustre l'adoption MCP côté ITSM.
+- **Testable** : Non
 
-### Mistral Voxtral TTS
-- **Quoi** : modèle de synthèse vocale open source, 9 langues, assez léger pour l'edge.
-- **Lien** : https://oodaloop.com/briefs/technology/mistral-releases-a-new-open-source-model-for-speech-generation
-- **Pourquoi c'est important** : TTS locale/embarquée open source.
-- **Testable** : Oui (open source).
+### Coding assistants
+RAS (aucune sortie datée trouvée). Repos trending sur OSS Insight : anthropics/claude-code, opencode, gemini-cli, vLLM — https://ossinsight.io/trending/ai
 
-## 🧠 Mises à jour de Modèles
-RAS confirmé aujourd'hui. Contexte (non daté précisément, à vérifier) : un tracker liste Qwen3.7 Max (propriétaire, 1M tokens), Grok Build 0.1 (xAI, CLI de coding) et Gemini 3.5 Flash comme sorties récentes ; Gemini Omni (génération vidéo, Google) et Seedance 2.5 (ByteDance, rumeur) côté vidéo.
-- **Lien** : https://www.lmmarketcap.com/llm-updates
-
-## 🔬 Research
+### Image & Vidéo
 RAS
 
+## 🧠 Mises à jour de Modèles
+- Agrégateur : derniers modèles listés Qwen3.7 Max, Grok Build 0.1, Gemini 3.5 Flash ; Grok 4.5 (xAI, juillet) ; Meta Muse Spark 1.1 ; Gemma 4 (Google, open). Aucune sortie confirmée dans les dernières 12h. Source : https://www.lmmarketcap.com/llm-updates
+- Gemini app : Gemini 3.5 Flash, Omni, Daily Brief, Spark (date inconnue) — https://www.bestaitools.com/googles-gemini-app-becomes-more-agentic-with-24-7-ai-assistant-features/
+
+## 🔬 Research
+- MIT : démonstration de modèles d'IA qui éditent d'autres réseaux de neurones (rapporté par The Neuron, non vérifié) — https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-november-3-2026/
+
 ## 📝 À surveiller
-- Gemini 3.5 Pro : toujours « en test avec des partenaires » selon une source tierce (non vérifié officiellement).
-- OpenAI : marchés de prédiction évoquent 1-2 nouveaux modèles d'ici fin 2026 — spéculatif.
-- Seedance 2.5 (ByteDance) : lancement évoqué, non confirmé.
-- Convergence des outils de coding (Cursor 3, Claude Code, Codex avec plugins croisés).
+- Marché : correction du Nasdaq 100 liée à une vente d'actifs IA ; Oracle lève 20 Md$ (actions + obligations) pour ses data centers, action −8,8 %.
+- Goldman Sachs restreint les outils de coding IA avancés à certains ingénieurs.
+- Midterms US : OpenAI et Anthropic ont monté des équipes de surveillance électorale ; data centers = enjeu de vote (CNBC : https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html).
+- OpenAI : 4 accords à Abou Dabi (gouvernement, énergie, investissement).
+- Google : polémique (Sanders) sur la politique Search/écoles bannissant l'IA.
 
 ## 📊 Résumé
-- **Top 3 du jour** : (1) RAS majeur confirmé ; (2) TTS : vague de modèles (Sonic-3.6, Gemini TTS, Voxtral) ; (3) frameworks d'agents : Vercel eve.
-- **À tester en priorité** : Mistral Voxtral TTS (open source), Vercel eve.
+- **Top 3 du jour** : 1) Anthropic IPO / seuil d'auto-amélioration récursive ; 2) Salesforce–Cresta (voice AI, ~2,7 Md$) ; 3) Correction marché IA (Nasdaq, Oracle).
+- **À tester en priorité** : nouveaux TTS streaming (AssemblyAI, Fish Audio) ; migrer hors Hume avant le 13/11 si concerné.
