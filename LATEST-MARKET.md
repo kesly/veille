@@ -1,125 +1,151 @@
-# 🔥 Market Scan — 2026-11-04
+# 🔥 Market Scan — 2026-11-05
 
-> Collecte : 22 recherches extended, GitHub Trending ok, 3 candidats creusés (Beacon, Guava, Hacker Times). Product Hunt/HN/BetaList lus via extraits WebSearch uniquement. Reddit/X/Indie Hackers : aucun signal frais exploitable.
+> Collecte : 16 recherches extended, GitHub Trending ok (14 repos), 4 candidats creusés (Subvocal écarté : hardware). Réseau limité : PH/HN lus via extraits de recherche. Reddit/X/Indie Hackers : peu de signal frais (index faible).
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Beacon (Asymptote Labs) — mémoire partagée open-source pour agents de code
-- Opportunités immédiates (BUILD NOW) : 0 (voir scorecard)
+- Apps analysées : 3 (beacon.sh, HackerBooks, Cedric AI for Meetings) — **filtre partiel** pour les 3 (voir détails)
+- Top potentiel : beacon.sh (mémoire open-source pour agents de code) 
+- Opportunités immédiates (BUILD NOW) : 0 (1 BUILD ADJACENT probable)
 
-## 🏆 TOP APP #1 : Beacon (beacon.sh)
-**1. Identification**
-- Nom : Beacon — [beacon.sh](https://beacon.sh/) · repo [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) · **open-source (MIT)**, cloud gratuit à ce jour
-- Lancement PH : ~2 nov. 2026, #1 du jour (score 439, 83 commentaires) — [PH daily](https://www.producthunt.com/leaderboard/daily/2026/11/2). L'outil existait ~2 semaines avant (X/blog)
-- Fondateurs : Justin D'Souza (CEO), Shukan Shah (CTO), ex-Doppel — [Tower Research](https://tower-research.com/asymptote-labs-the-system-of-record-for-agentic-work/)
-- Catégorie : dev tools / mémoire et télémétrie pour agents de code
-- Buzz : #1 PH, ~3 249 stars GitHub, 288 forks (source WebSearch), seed 5,5 M$ le 20 oct. ([TNW](https://thenextweb.com/news/asymptote-labs-5-5m-seed-ai-agent-security)), relais X (Akshay Pachaar) → 4 critères : viralité modérée, PH, traction/levée, communauté (Discord)
+## 🏆 TOP APP #1 : beacon.sh (Asymptote Labs)
+**Filtre buzz : partiel (4/6 : traction/levée, croissance PH, engagement, communauté/GitHub ; manque viralité 10K+ mentions et médias).**
 
-**2. Proposition de valeur**
-- Problème : chaque agent (Claude Code, Cursor, Codex…) travaille en silo, les corrections ne se transmettent pas
-- Solution : capture les sessions de 20+ harnesses, en tire des mémoires/skills réutilisables via MCP ou Agent Skills
-- USP : cross-harness + local-only possible + open-source
-- Cible : développeurs, puis équipes sécurité/entreprises
-- Pricing : gratuit ; plateforme payante (blocage d'actions risquées, fuites de données) non tarifée publiquement
+### 1. Identification
+- Nom : beacon.sh — agent-beacon · [beacon.sh](https://beacon.sh/) · [GitHub](https://github.com/Asymptote-Labs/agent-beacon) · [Product Hunt](https://www.producthunt.com/products/asymptotelabs?launch=beacon-sh)
+- Lancement : 20 oct. 2026 (levée + open-source), PH le 2 nov. 2026
+- Fondateurs : Asymptote Labs (noms non vérifiés)
+- Catégorie : dev tools / mémoire d'agents IA
+- Buzz : #1 PH du 2 nov. (439 pts, 83 commentaires), seed 5,5 M$ (Tower Research Ventures) selon [ByteIota](https://byteiota.com/beacon-sh-agent-memory-that-survives-switching-coding-tools/), ~2,3k stars GitHub au 21 oct. (non revérifié)
 
-**3. Stack** : CLI installable via Homebrew, hooks par harness, MCP/Agent Skills, Beacon Cloud (sync). Détails infra non publiés.
+### 2. Proposition de valeur
+- Problème : chaque outil de code IA (Claude Code, Cursor, Codex…) oublie ; les leçons ne sont pas portables.
+- Solution : enregistre les sessions de 20+ agents, extrait des « findings » et skills réutilisables.
+- USP : cross-harness + auto-amélioration ; lessons validées par l'humain avant réinjection.
+- Cible : devs et équipes qui utilisent plusieurs agents.
+- Pricing : open-source MIT gratuit ; Cloud 0 $ (50 findings), Pro 20 $/mois, Enterprise sur devis ([source](https://eraofminds.com/blog/beacon-memory-coding-agents/), à confirmer).
 
-**4. Psychologie**
-- Triggers : douleur de re-expliquer au contexte, FOMO « agents qui apprennent », autorité (investisseurs Cursor/Vercel), gratuité
-- JTBD : « que mes agents arrêtent de refaire les mêmes erreurs »
-- Aha : une correction faite dans Cursor est appliquée par Claude Code
+### 3. Stack technique
+Non publié en détail. Capture locale + dashboard local, couche cloud pour findings d'équipe. Intégrations par hooks des harness. (estimation)
 
-**5. Go-to-market**
-- Open-source comme entonnoir (Tower a découvert la boîte via la traction OSS), lancement PH, créateurs X/newsletters ([Daily Dose of DS](https://blog.dailydoseofds.com/p/give-claude-code-codex-and-cursor)), forks communautaires
-- Monétisation : OSS → plateforme sécurité entreprise
+### 4. Psychologie
+- Triggers : douleur universelle (« l'agent a oublié »), autorité (seed + MIT), gratuité.
+- JTBD : « arrêter de ré-expliquer mon projet à chaque session ».
+- Aha moment : première skill générée automatiquement à partir d'une session passée.
 
-**6. Réplication**
-- Complexité 6/10 (hooks multi-harness fragiles). Temps : MVP 4–6 semaines (estimation)
-- Verticaux : mémoire d'agents voix/support, mémoire pour agents commerciaux
-- Angle Kyle : mémoire cross-session pour agents voix (transcripts d'appels → corrections réutilisables) plutôt que concurrencer sur le code
+### 5. Go-to-market
+- Open-source d'abord, PH 2 semaines après, Discord communautaire. Même tendance sur GitHub Trending : claude-mem (8,8k stars/sem.), superpowers, skills.
+- Boucle virale : skills/mémoires partageables entre équipes.
 
-## 🏆 TOP APP #2 : Guava (goguava.ai)
-**1. Identification**
-- Guava — [goguava.ai](https://goguava.ai) · **payant** (free tier dev), propriétaire
-- Annonce : seed 12,5 M$ le 3 nov. 2026, mené par Acrew Capital ([FinSMEs](https://www.finsmes.com/2026/11/guava-raises-12-5m-in-seed-funding.html), [Pulse 2.0](https://pulse2.com/guava-raises-12-5-million-seed-round-led-by-acrew-capital-for-voice-ai-platform/))
-- Fondateurs : Omri Dahan (CEO), Anthony Scodary, Nico Benitez (ex-Gridspace), Mike Piechna (CRO). Los Angeles
-- Catégorie : plateforme développeur voice agents (santé, finance, assurance)
-- Buzz : levée, modèle Daytona (sept. 2026) avec 12+ clients entreprise et des dizaines de milliers d'appels/jour (déclaratif), presse multiple. Filtre partiel : pas de viralité sociale, c'est un signal B2B/levée
+### 6. Réplication
+- Complexité : 6/10. Temps : 2-3 mois pour un MVP crédible.
+- Verticaux adjacents : mémoire pour agents vocaux (appels, CRM), mémoire pour agents support.
+- Angle Kyle : « mémoire/learning loop pour agents voice AI » (transcripts d'appels → skills/prompts améliorés).
+- Risque : marché encombré (claude-mem etc.), plateformes (Anthropic/Cursor) peuvent l'internaliser.
 
-**2. Proposition de valeur**
-- Problème : les stacks voix assemblées (STT+LLM+TTS de vendeurs différents) sont fragiles en production réelle
-- Solution : stack intégré propre (reconnaissance, LLM, synthèse), SDK Python/TypeScript/Claude Code
-- USP : latence déclarée <1 s bout en bout, <200 ms prise de parole (chiffres société, via [CarrierX](https://app.dealroom.co/news/feed/guava-and-carrierx-deploy-16-khz-hd-voice-ai-agents-with-sub-1-second-latency-for-regulated-industries)) ; SOC 2 Type II, HITRUST i1, PCI DSS L1
-- Cible : entreprises réglementées et BPO
-- Pricing : non publié. Référence marché : Vapi ~0,05 $/min hébergement, ElevenLabs 0,08 $/min, Retell 0,07–0,31 $/min ([comparatif](https://www.stork.ai/blog/best-ai-voice-agent-platforms-2026))
+## 🏆 TOP APP #2 : HackerBooks
+**Filtre buzz : partiel (3/6 : viralité, engagement, communauté ; manque traction revenus et croissance durable).**
 
-**3. Stack** : modèles propriétaires ASR/LLM/TTS, téléphonie via partenaires (CarrierX), SDK dev.
+### 1. Identification
+- Nom : HackerBooks · [Show HN](https://news.ycombinator.com/item?id=50326821) · auteur roansh · lancé ~1er nov. 2026 · catégorie : agrégateur de contenu / curation
+- Buzz : 1 771–1 852 pts, ~300 commentaires, réponse de Karpathy ([Best of Show HN](https://bestofshowhn.com/2026), [GIGAZINE](https://gigazine.net/gsc_news/en/20261102-hackerbooks-mentioned-books-hacker-news/))
 
-**4. Psychologie** : autorité (certifs conformité), réassurance (« premier appel réglementé en 14 jours »), onboarding <5 min en gratuit. JTBD : mettre un agent voix en prod sans cauchemar de latence/conformité. Aha : agent fonctionnel en 5 min.
+### 2. Proposition de valeur
+- Problème : trouver les livres réellement recommandés par une communauté experte.
+- Solution : ~16,5k livres cités par au moins 2 commentateurs HN distincts, liens vers les commentaires.
+- Pricing : gratuit ; monétisation via liens affiliés Bookshop/Amazon (divulgués).
 
-**5. Go-to-market** : product-led côté dev (free tier, SDK), sales entreprise/BPO financé par la levée, partenariats opérateurs.
+### 3. Stack technique
+JS vanille + JSON statique sur Cloudflare ; pipeline écrit presque entièrement par Claude Opus 5.5 ([DEV](https://dev.to/puneet_nanda_dc25d8b489ad/hacker-news-has-a-bookshelf-the-ranking-is-the-hard-part-ige)). Open Library pour les couvertures (qualité critiquée).
 
-**6. Réplication**
-- Complexité 9/10 pour copier le stack ; 4/10 pour une couche verticale par-dessus. Temps : 2–3 mois pour un vertical (estimation)
-- Angle Kyle : ne pas concurrencer l'infra, vendre un agent voix verticalisé (cabinets, cliniques, immobilier FR/EU) avec conformité RGPD/hébergement UE, point faible d'un acteur US
+### 4. Psychologie
+- Triggers : preuve sociale (HN), curiosité, nostalgie communautaire, autorité (Karpathy).
+- JTBD : « quel livre lire ensuite, validé par des pairs ».
+- Aha : voir le top 10 classé et cliquer sur les commentaires d'origine.
 
-## 🏆 TOP APP #3 : Hacker Times (hackertimes.ca)
-**1. Identification**
-- Hacker Times — [hackertimes.ca](https://hackertimes.ca/) · Show HN [item 50346981](https://news.ycombinator.com/item?id=50346981) · gratuit, code source non confirmé
-- Lancement : ~3 nov. 2026 ; créateur non identifié dans les sources
-- Catégorie : lecteur Hacker News « journal papier », front page éditée par IA
-- Buzz : ~450 points / 145 commentaires sur HN ([front 03-11](https://news.ycombinator.com/front)). **Filtre partiel** : un seul critère fort (engagement HN) ; pas de revenus ni de levée
+### 5. Go-to-market
+- Show HN pur, copie d'un format viral (HackerTube de Karpathy). Clones immédiats (HackerShelf).
+- Un commentateur note que le trafic tombe à zéro après la sortie de la front page.
 
-**2. Proposition de valeur** : lisibilité éditoriale (plus de détail par histoire, moins de densité) pour un flux tech. Pas de monétisation visible. Cible : lecteurs HN. Concurrents/clones existants : [etnt/hacker-times](https://github.com/etnt/hacker-times), [terryds/hackernewstimes](https://github.com/terryds/hackernewstimes) (React 19, Vite, Tailwind, Cloudflare Workers/KV, Resend, newsletter hebdo).
+### 6. Réplication
+- Complexité : 2/10. Temps : un week-end. Aucune barrière : pas de moat.
+- Verticaux : « livres/outils/podcasts cités par la communauté X » (r/SaaS, X, YC founders, voice AI).
+- Angle Kyle : annuaire des outils voice AI cités par devs, avec affiliation/leads sponsorisés. Revenu faible, utile comme canal d'acquisition.
 
-**3. Stack** : inconnue pour le site ; les clones utilisent API HN, Jina Reader, Cloudflare.
+## 🏆 TOP APP #3 : Cedric AI for Meetings
+**Filtre buzz : partiel (2-3/6 : croissance PH, engagement modeste, communauté PH ; manque levée publique, revenus, médias).**
 
-**4. Psychologie** : nostalgie/familiarité (marque NYT détournée), jeu esthétique, curiosité. Aha : voir la page HN familière en une du journal. Risque : critique « un clone de plus » et question de droits de marque relevées dans le fil.
+### 1. Identification
+- Nom : Cedric AI for Meetings · [meet-cedric.com](https://meet-cedric.com/use-cases/ai-meeting-assistant) · [Product Hunt](https://producthunt.com/products/cedric) · PH le 2 nov. 2026 (Launch of the Day, ~238 votes, 34 commentaires) ; produit Cedric lancé 15 oct.
+- Fondateurs : Benjamin Ben Hattar (co-fondateur/CTO, [LinkedIn](https://www.linkedin.com/in/benhattar/)) ; Zurich, SFF Studio. Aucune levée trouvée.
+- Catégorie : assistant de réunion IA / voice-adjacent
 
-**5. Go-to-market** : Show HN seul, effet de communauté, zéro budget.
+### 2. Proposition de valeur
+- Problème : les note-takers ne font que résumer.
+- Solution : agent qui rejoint Meet/Zoom/Teams, présente des slides, répond aux questions, attend à la place de l'utilisateur.
+- Pricing : freemium (100k crédits ≈ 50 $), Team dès 19 $/mois (source vendeur, à confirmer). Payant, propriétaire.
 
-**6. Réplication**
-- Complexité 2/10, 1 week-end. Zéro moat
-- Angle Kyle : appliquer le format « journal éditorial » à un flux de niche (veille voice AI en français) avec newsletter payante — l'intérêt est le canal Show HN, pas le produit
+### 3. Stack technique
+Non publié. Probablement bot de réunion + STT/TTS + LLM + intégrations Slack/Telegram/Discord (estimation).
 
-## 💰 Unit Economics Deep Dive — Beacon / Asymptote Labs
-Aucune donnée financière publique : tout ce qui suit est `estimation`. Seuls faits sourcés : seed 5,5 M$ (20 oct. 2026), fonds pour ingénierie/recrutement/ventes ([TNW](https://thenextweb.com/news/asymptote-labs-5-5m-seed-ai-agent-security)), outil OSS gratuit, plateforme payante sans grille publique.
+### 4. Psychologie
+- Triggers : gain de temps, FOMO (« envoyer son clone »), code promo PH.
+- JTBD : « ne plus assister aux réunions inutiles ».
+- Aha : l'agent répond en direct à une question en réunion.
 
-| Métrique | Valeur |
+### 5. Go-to-market
+PH (code PRODUCTHUNT2026), SEO de pages use-cases/blog, LinkedIn fondateurs. Positionnement élargi « AI teammate for startups » (aggregateur agentic.ai : score 11/36).
+
+### 6. Réplication
+- Complexité : 6/10 (latence voix, bots de réunion). Temps : 6-8 semaines.
+- Verticaux : réunions commerciales FR, webinaires, comités médicaux/juridiques (hors régulation lourde : éviter).
+- Angle Kyle : expert voice AI, agent de réunion francophone avec présentation + réponses, sur-mesure pour ventes/CS. Marché très concurrentiel (Fireflies, Otter, Read, etc.).
+
+## 💰 Unit Economics Deep Dive — beacon.sh
+Tout chiffre ci-dessous est une `estimation` (aucune donnée de revenu publique ; seed 5,5 M$ cité par ByteIota).
+
+| Métrique | Estimation |
 |---|---|
-| ARR | ~0 à <0,3 M$ `estimation` (produit payant pré-commercial) |
-| ARPU | non applicable (gratuit) ; entreprise visée ~20–50 k$/an `estimation` |
-| Users | milliers (3 249 stars GitHub, source WebSearch) ; payants inconnus |
-| CAC | ~0 côté OSS/PH ; vente entreprise 15–30 k$ `estimation` |
-| LTV | 60–150 k$ sur 3 ans `estimation` |
-| LTV/CAC | ~3–5 `estimation`, non vérifiable |
-| Payback | 9–15 mois `estimation` |
-| Burn | ~250–350 k$/mois (équipe 10–15) `estimation` |
-| Runway | ~16–22 mois `estimation` |
-| Rev/employé | ~0 aujourd'hui |
-| Rule of 40 | non calculable (pas de revenu) |
+| Users | ~5-15k installs actifs (2,3k stars) `estimation` |
+| Conversion payant | 2-3 % `estimation` |
+| ARPU payant | 20 $/mois (Pro) |
+| ARR | ~30-90 k$ `estimation` (démarrage) |
+| CAC | ~0-30 $ (organique OSS) `estimation` |
+| LTV | ~240 $ (12 mois, churn dev tools élevé) `estimation` |
+| LTV/CAC | >8 si organique `estimation` |
+| Payback | <2 mois `estimation` |
+| Burn | ~150-250 k$/mois (équipe 8-12) `estimation` |
+| Runway | ~22-35 mois sur 5,5 M$ `estimation` |
+| Rev/employé | ~5-10 k$ `estimation` |
+| Rule of 40 | non pertinent (pré-revenu) |
 
-**Verdict : 🟡** — financé et traction OSS réelle, mais aucun revenu prouvé, et la monétisation dépend d'un pivot vers la sécurité entreprise. Risque : les éditeurs d'agents (Anthropic, Cursor) intègrent la mémoire nativement.
+**Verdict : 🟡** — financé, distribution OSS efficace, mais monétisation non prouvée et risque d'absorption par les plateformes.
 
 ## 🎯 Opportunity Scorecard — Top 3
-| App | 📊 Market (20%) | ⚙️ Complexité inv. (15%) | ⏱️ TTM (15%) | 🏟️ Compét. inv. (15%) | 💰 Revenu (20%) | 🧑‍💻 Fit Kyle (15%) | **Total** | Verdict |
-|---|---|---|---|---|---|---|---|---|
-| Beacon | 7 | 6 | 7 | 4 | 5 | 4 | **5,55** | 🟠 WATCH |
-| Guava (infra voix) | 9 | 2 | 3 | 3 | 8 | 8 | **5,80** | 🟠 WATCH |
-| Hacker Times | 2 | 10 | 10 | 2 | 2 | 3 | **4,55** | 🟠 WATCH |
+| Dimension (poids) | beacon.sh | HackerBooks | Cedric Meetings |
+|---|---|---|---|
+| 📊 Market Size (20%) | 7 | 3 | 8 |
+| ⚙️ Complexity inversé (15%) | 5 | 9 | 5 |
+| ⏱️ Time-to-Market (15%) | 5 | 10 | 6 |
+| 🏟️ Competition inversé (15%) | 3 | 6 | 2 |
+| 💰 Revenue Potential (20%) | 6 | 2 | 6 |
+| 🧑‍💻 Founder-Fit Kyle (15%) | 5 | 4 | 8 |
+| **Score pondéré** | **5.3** | **5.4** | **5.9** |
+| Verdict | 🟠 WATCH | 🟠 WATCH | 🟠 WATCH |
 
-Variante honnête : **agent voix verticalisé UE** inspiré de Guava (marché 8, complexité 6, TTM 6, compétition 5, revenu 7, fit 9) = **6,90 → 🟡 BUILD ADJACENT**. Scores = jugement subjectif, sans données de revenus vérifiées.
+Calcul Cedric : 8×.2+5×.15+6×.15+2×.15+6×.2+8×.15 = 1.6+.75+.9+.3+1.2+1.2 = 5.95 → **5.9-6.0**, à la frontière 🟡 BUILD ADJACENT si angle francophone/vertical précis. beacon.sh : 1.4+.75+.75+.45+1.2+.75 = 5.3. HackerBooks : .6+1.35+1.5+.9+.4+.6 = 5.35 (arrondi 5.4, 🟠).
+
+Scores honnêtes : aucun BUILD NOW ce jour.
 
 ## 📈 Tendances Émergentes
-- **Mémoire/contexte d'agents** : Beacon #1 PH, et GitHub Trending hebdo dominé par claude-mem (~8 k stars), superpowers, skills, taste-skill, hallmark, impeccable ([trending](https://github.com/trending?since=weekly)). Les « skills » pour agents de code sont la catégorie OSS la plus chaude.
-- **Voice AI financée en B2B réglementé** : Guava 12,5 M$, Karta AI 3 M$ (banques), Modulate 25 M$ (sept.), Smallest.ai 13 M$ ([TechCrunch](https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/)).
-- **Sécurité/gouvernance d'agents** : Asymptote, Klarent (8 M$) ; l'OSS sert d'entrée vers l'entreprise.
-- **Show HN plus saturé** : part des posts à 10+ points passée de 14,5 % à 7,8 % ([DEV](https://dev.to/pennyforgehq/your-odds-of-getting-any-traction-on-show-hn-have-fallen-by-a-third-your-odds-of-getting-real-28eb)).
-- Le Product Hunt hebdo est en partie du placement payant (« Promoted »).
+1. **Mémoire/skills pour agents de code** : GitHub Trending dominé par claude-mem (8,8k stars/sem.), superpowers, anthropics/skills, worktrunk, hallmark, impeccable ([GitHub Trending](https://github.com/trending?since=weekly)). Le « skills layer » est le nouveau plugin.
+2. **Clones viraux en 24h via IA** : HackerTube (Karpathy) → HackerBooks → HackerShelf ; copie de Subvocal en un jour. Le moat se déplace vers distribution/données.
+3. **Voice/silent interfaces** : Subvocal (YC F26, 1,3 M$ pré-seed, précommandes 499 $, 7,3M vues X) ; hardware donc exclu ([Show HN](https://news.ycombinator.com/item?id=50340088), [Dealroom](https://app.dealroom.co/news/note/subvocal-raises-1-3m-pre-seed-to-turn-silent-speech-into-computer-commands)). Voice AI financé : Gradium 100 M$ seed (Paris), Fish Audio 52 M$, Modulate 25 M$, Vapi 50 M$ Series B.
+4. **Seeds verticaux IA** : Clark (audit, 11 M$), Archiboost (construction, 6,2 M$) — agents spécialisés par métier.
+5. **Réserve** : Product Hunt dominé par boîtes financées ; peu de signal indie frais (Reddit/X/IH non indexés).
 
 ## 💡 Insights Actionnables
-1. **Playbook OSS → entreprise** (Beacon) : outil gratuit local-first, lancement PH, relais de créateurs X, puis couche payante sécurité. Reproductible pour un outil voix : open-sourcer un SDK d'évaluation/mémoire d'agents voix.
-2. **Opportunité Kyle (BUILD ADJACENT)** : agent voix vertical pour PME européennes (RGPD, hébergement UE, français natif) bâti sur briques existantes (Vapi/Retell/ElevenLabs à 0,05–0,08 $/min), en s'appuyant sur le fait que les leaders sont US et ciblent les grands comptes.
-3. **Test rapide (1 week-end)** : « mémoire des appels » — transcripts d'appels → corrections réutilisables par l'agent suivant, lancé en OSS sur Show HN/PH.
-4. **À surveiller** : si Anthropic/Cursor sortent une mémoire cross-agent native, Beacon perd son USP ; suivre les stars du repo et la grille tarifaire de Beacon Cloud.
-5. **Limites de ce scan** : Reddit, X, Indie Hackers n'ont rien renvoyé de frais ; aucun MRR public vérifié. Les fonds levés ne prouvent pas un revenu.
+1. **Testeur rapide (week-end)** : annuaire « outils voice AI cités par devs/fondateurs » façon HackerBooks, pour capter du trafic SEO FR/EN et des leads vers ton expertise. Faible revenu direct, bon canal.
+2. **Piste principale (6-8 semaines)** : agent de réunion/appel vocal francophone vertical (ventes, recrutement) ; différenciateur = latence + français. Valider avec 5 prospects avant de coder.
+3. **Idée adjacente** : boucle d'apprentissage pour agents voice (transcripts → findings → prompts), inspirée de beacon.sh. Monter un prototype open-source et regarder les stars.
+4. **Distribution** : open-source d'abord, PH ensuite (beacon.sh) ; Show HN avec un format copiable (HackerBooks).
+5. **À surveiller** : Subvocal (expédition T1 2027), évolution des stars de beacon.sh, saturation des mémoires d'agents.
