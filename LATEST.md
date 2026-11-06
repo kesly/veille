@@ -1,99 +1,63 @@
-# AI Watch — 2026-11-05 Matin
+# AI Watch — 2026-11-06 Matin
 
-> Collecte : 20 recherches extended, GitHub Trending ok, 7 items confirmés par une deuxième source.
+> Collecte : treg 0/4 sources (indisponible), 18 recherches extended, GitHub Trending ok, 0 pages lues (treg down), 4 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
-### ChatGPT Images 2.6 + GPT-Image-2.6 Flare / Sunburst
-- **Quoi** : OpenAI ajoute création de GIF animés et images de référence réutilisables dans ChatGPT/Codex, plus deux modèles API (Flare = rapide, ~6 s ; Sunburst = qualité, cohérence d'édition, export SVG). ~50 % plus rapide.
+### OpenAI — ChatGPT Images 2.6 + GPT-Image-2.6 Flare / Sunburst
+- **Quoi** : Nouvelle génération d'images ~50 % plus rapide, GIFs animés, images de référence persistantes ; deux modèles API : Flare (vitesse) et Sunburst (qualité, export SVG/markup).
 - **Date** : 2026-11-04
-- **Lien** : https://openai.com/index/introducing-images-2-6/
-- **Pourquoi c'est important** : saut de vitesse et édition/SVG en API ; OpenAI revendique >4 Md d'images/semaine (chiffre secondaire). Prix : sources contradictoires (non divulgués vs identiques à 2.5).
-- **Testable** : Oui — ChatGPT (web/desktop/mobile) et API payante.
+- **Lien** : https://community.openai.com/t/images-upgraded-introducing-chatgpt-images-2-6/1412901 — https://x.com/OpenAI/status/2118124966055223755
+- **Pourquoi c'est important** : Génération GIF native dans ChatGPT et Codex, API plus rapide à prix annoncé inchangé (sources divergentes sur le prix).
+- **Testable** : Oui — ChatGPT/Codex (tous les tiers) ; API payante.
 
-### Kimi K3.1 Pro — poids ouverts publiés
-- **Quoi** : Moonshot publie sur Hugging Face les poids de Kimi K3.1 Pro (MoE 2,8T total / 104B actifs, contexte 1M, multimodal), lancé en API le 23 oct.
-- **Date** : 2026-11-04
-- **Lien** : https://x.com/Kimi_Moonshot/status/2118010528123773297
-- **Pourquoi c'est important** : plus gros modèle open-weight de classe frontière ; Moonshot annonce 65,7 % sur Terminal-Bench 4.0 (vs 66,4 % pour Opus 5.5) — chiffres constructeur. Licence non confirmée (voir model card).
-- **Testable** : Oui via API/Ollama ; en local il faut ~8 GPU B300 (~1,56 To).
+### OpenAI — Pipeline cyber autonome : 948 exploits Linux (modèle cyber non publié)
+- **Quoi** : Run unique d'un futur modèle cyber : 1 724 vulnérabilités reproduites, 948 exploits d'escalade de privilèges locale générés/validés avec patches, ~1,2 M$ d'API (~1 279 $/faille).
+- **Date** : 2026-11-04/05
+- **Lien** : https://openai.com/index/a-thousand-fewer-paths-to-root/ — https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/
+- **Pourquoi c'est important** : Démonstration d'échelle sur la découverte/exploitation offensive et le patching automatisés ; ~10 jours après, 61 bugs patchés en amont seulement. Modèle non nommé, pas de date de sortie.
+- **Testable** : Non.
 
-### Meta rachète Conductor
-- **Quoi** : Meta acquiert Conductor (app Mac pour exécuter plusieurs agents de code en parallèle) ; l'équipe rejoint Meta Superintelligence Labs.
+### Meta rachète Conductor (orchestration multi-agents de code)
+- **Quoi** : Conductor (Claude Code, Codex, Cursor, OpenCode en parallèle) rejoint Meta ; montant non divulgué.
 - **Date** : 2026-11-04
-- **Lien** : https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/
-- **Pourquoi c'est important** : consolidation des outils d'orchestration d'agents de code. Conductor Cloud passe en lecture seule le 13/11, fermeture le 20/11.
-- **Testable** : Oui, jusqu'au 20/11 (produit existant).
-
-### OpenAI rachète Pierre Computer (Code Storage)
-- **Quoi** : OpenAI va acquérir Pierre, éditeur de Code Storage (hébergement Git pour agents) et des libs open source Trees/Diffs déjà dans Codex.
-- **Date** : 2026-11-04
-- **Lien** : https://aiweekly.co/ai-news-today/openai-news
-- **Pourquoi c'est important** : backend Git natif pour Codex ; deal pas encore clos, prix non divulgué, libs censées rester open source.
-- **Testable** : Non (Trees/Diffs open source déjà utilisables).
+- **Lien** : https://www.infoworld.com/article/4245065/meta-acquires-conductor-as-ai-coding-shifts-toward-multi-agent-development.html
+- **Pourquoi c'est important** : Consolidation des outils multi-agents de code ; Conductor Cloud read-only le 13/11, arrêt le 20/11 ; version locale maintenue jusqu'à début 2027.
+- **Testable** : Oui, jusqu'au 20/11 (Conductor local).
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Cognition SWE-2 Flash
-- **Quoi** : modèle de code MoE 276B/12B actifs (post-entraîné depuis Inkling-Small), 3× plus rapide et 5× moins cher que SWE-2.
-- **Date** : 2026-11-04
-- **Lien** : https://cognition.com/blog/swe-2-flash
-- **Pourquoi c'est important** : modèle de code agentique bon marché ; chiffres de Cognition non vérifiés, poids non publiés.
-- **Testable** : Oui — Devin Desktop et Devin CLI, gratuit jusqu'au 30/11 (selon une source secondaire).
+### Anthropic FlashProve (open source, Apache 2.0)
+- **Quoi** : Prototype de recherche pour prouver cryptographiquement (zkSNARK) quel modèle a produit une réponse, sans révéler les poids.
+- **Date** : 2026-11-02/03
+- **Lien** : https://thenextweb.com/news/anthropic-flashprove-provable-inference-ai-model-identity
+- **Pourquoi c'est important** : Piste d'audit de l'identité des modèles ; limites fortes : preuve 70-95× le coût GPU, contexte 1 024 tokens, MoE uniquement, aucun déploiement prévu.
+- **Testable** : Oui (open source, recherche).
 
-### VS Code 1.145
-- **Quoi** : agents distants (preview), automations avec expressions cron (locales), sessions mêlant Claude/Codex/Copilot, contrôles de verbosité.
-- **Date** : 2026-11-04
-- **Lien** : https://visualstudiomagazine.com/articles/2026/11/04/vs-code-1-145-expands-remote-agent-workflows-adds-cron-automations.aspx
-- **Pourquoi c'est important** : l'IDE devient un orchestrateur multi-agents planifiable. Gratuit, open source.
-- **Testable** : Oui — mise à jour VS Code stable.
+### GitHub Trending (agents)
+- NVIDIA/auto-ontology (+2 679 ⭐, raisonnement graphe pour agents), vercel-labs/agent-desktop (CLI computer-use, Rust), vercel-labs/agent-browser, max-sixty/worktrunk (worktrees pour agents parallèles), mattpocock/skills, garrytan/gstack, google/skills, microsoft/VibeVoice (voix open source), scenario-labs/skills.
+- **Lien** : https://github.com/trending?since=daily
+- **Pourquoi c'est important** : Thème dominant : infrastructure d'agents (computer-use, worktrees, skills).
+- **Testable** : Oui — tous open source.
 
-### Xcode 27.3 beta 1
-- **Quoi** : GitHub Copilot ajouté à l'assistant de code intégré ; Siri AI ouvert aux développeurs en preview.
-- **Date** : 2026-11-03
-- **Lien** : https://9to5mac.com/2026/11/03/xcode-27-3-adds-github-copilot-to-its-built-in-coding-assistant/
-- **Pourquoi c'est important** : Apple s'ouvre aux assistants tiers. Le volet Siri vient d'un seul digest.
-- **Testable** : Oui, compte développeur Apple (beta).
+### Voice AI
+- Convoso Voice AI Agent no-code (GA 2 nov, payant) ; AssemblyAI-TTS-1 (premier TTS d'AssemblyAI, fin oct.) ; Rime Prism et Gradium Phonon (TTS on-device open source), ElevenLabs Eleven Realtime — dates non vérifiées (voir À surveiller).
 
 ## 🧠 Mises à jour de Modèles
-- Kimi K3.1 Pro et SWE-2 Flash : voir ci-dessus.
-- Mistral Large 4 (1T paramètres, poids ouverts le 29/10) : hors fenêtre 72 h, voir « À surveiller ».
-- Google, Meta, DeepSeek : sorties « attendues » citées par un blog peu fiable, non confirmées.
+RAS confirmé sur 72 h hors images OpenAI. Mistral Large 4 (open weights, licence MIT modifiée) publié le 29/10, hors fenêtre. DeepSeek : le « v4-flash-0731 du 5/11 » d'un tracker est une erreur (V4.1 Flash 1017 est le plus récent) — ignoré.
 
 ## 🔬 Research
-
-### Anthropic FlashProve (inférence prouvable)
-- **Quoi** : prototype open source (Apache 2.0, zkSNARK) prouvant cryptographiquement qu'une réponse vient d'un modèle donné ; démontré sur Llama 4 Maverick (400B MoE). Avec EPFL, MIT, StarkWare.
-- **Date** : 2026-11-04 (TechCrunch le 11-03)
-- **Lien** : https://www.anthropic.com/research/provable-inference
-- **Pourquoi c'est important** : base pour vérifier l'identité d'un modèle (anti-substitution). Surcoût élevé (~70-95× selon sources secondaires) ; aucun déploiement prévu.
-- **Testable** : Oui sur GPU (repo GitHub, poids Llama à récupérer soi-même).
-
-### Décodage spéculatif et distribution des sorties
-- **Quoi** : papier (MIT, Princeton, Northeastern…) montrant que le décodage spéculatif décale la distribution de sortie des modèles open-weight sur tâches agentiques longues.
-- **Date** : ~2026-11-04
-- **Lien** : https://aiweekly.co/ai-news-today
-- **Pourquoi c'est important** : à vérifier, une seule source agrégateur.
-- **Testable** : Non.
+RAS (FlashProve ci-dessus). METR : l'accélération du développement chez Anthropic serait 2× celle de l'an dernier (une seule source, date incertaine).
 
 ## 📝 À surveiller
-- **Mistral Large 4** (poids ouverts 29/10, 1T params, collaboration NVIDIA annoncée le 4/11) : https://en.cryptonomist.ch/2026/11/03/mistral-large-4-ai-model/
-- **Anthropic IPO** : S-1 déposé le 26/10, introduction attendue ce mois-ci (CNN) ; nouvelle règle d'usage contre les abus envers Claude.
-- **Google** : les modèles Pro quittent le forfait AI Plus (4,99 $) le 13/11 ; Search des écoles K-12 conditionné aux outils IA de Google (rapporté).
-- **Financements** : Fal 1,3 Md$ (valo 16 Md$), Instinct 1 Md$ Série C (10 Md$), Nooks 500 M$, EliseAI 350 M$ ; Isomorphic Labs en discussion pour ~5 Md$. Rapportés par un agrégateur.
-- **AMD–Meta** (jusqu'à 60 Md$ de puces sur 5 ans) et rachat de Taalas par AMD (~2,9 Md$) : non confirmés par source primaire.
-- **Sécurité des agents** : CrowdStrike « kill switch » pour agents, Apple restreint l'accès disque complet.
-- **Noms douteux** (GPT-6.1 Terra, Gemini 4 Carbon, « GPT-6 Astra conçoit un appareil ») : non corroborés, ignorés.
-- **Voix** : rien de neuf confirmé (Convoso agent vocal no-code GA le 2/11 ; ElevenLabs v4 et Deepgram Flux TTS sont plus anciens). Vidéo/image hors OpenAI : RAS daté du jour (VideoGen Model 1 du 20/10, Gemini Omni sans date).
+- OpenAI « National Community Compact » (4-5/11) : fin des NDA avec élus locaux, coûts électricité à charge, après des référendums locaux anti-data-centers ; le Nasdaq aurait chuté >5 % (chiffres divergents selon sources).
+- Anthropic × AP : premier accord de licence avec un éditeur (Adweek, 4/11) ; partenariat Plaid (accès lecture seule) ; Cat Wu (Claude Code) passe chez OpenAI (Business Insider) ; S-1 IPO mentionné.
+- Google : Gemini Omni 1.2 Flash dans Vids (5/11) ; Pro retiré du plan AI Plus le 13/11 ; modèles preview Gemini 3.x arrêtés le 17/11 ; contrôles des comptes élèves critiqués.
+- OpenAI « Dots » (agent perso, 27/10) ; rachat Pierre Computer (rumeur) ; Gemini « 3.8 Live » non vérifié.
+- Restrictions export : extension des contrôles aux data centers étrangers (non confirmé).
+- Financements : Nooks 500 M$ (General Catalyst), Future Secure AI 80 M$, Mistral Série D 3 Md€ (date non précisée).
+- MCP : Parallel MCP 2.0, Suno MCP (beta) — sans date vérifiée.
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) Kimi K3.1 Pro en open weights ; 2) ChatGPT Images 2.6 + modèles API Flare/Sunburst ; 3) vague de rachats d'outils d'agents de code (Meta–Conductor, OpenAI–Pierre).
-- **À tester en priorité** : VS Code 1.145 (agents distants, cron) ; SWE-2 Flash dans Devin CLI (gratuit jusqu'au 30/11) ; Images 2.6 dans ChatGPT ; Conductor avant sa fermeture du 20/11.
-
-### GitHub Trending (jour)
-- NVIDIA/auto-ontology (Python, +2 050) — couche de raisonnement sémantique en graphe pour agents.
-- vercel-labs/agent-desktop (Rust, +2 470) — CLI pour que des agents pilotent un ordinateur.
-- thedotmack/claude-mem (TS, +1 172) — mémoire persistante pour agents de code.
-- mattpocock/skills (Shell, +1 379) — collection de skills d'agents.
-- max-sixty/worktrunk (Rust, +531) — gestion de Git worktrees pour agents parallèles.
-- garrytan/gstack (TS, +290), github/spec-kit (Python, +808), FareedKhan-dev/kimi-k3-in-c (C, +351 — inférence Kimi en C99 sur CPU).
+- **Top 3 du jour** : 1) OpenAI 948 exploits Linux par pipeline autonome ; 2) ChatGPT Images 2.6 / GPT-Image-2.6 ; 3) Meta rachète Conductor.
+- **À tester en priorité** : Images 2.6 (ChatGPT/Codex, API), Conductor local avant le 20/11, agent-desktop / worktrunk (open source), FlashProve (recherche).
