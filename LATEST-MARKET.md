@@ -1,106 +1,105 @@
-# 🔥 Market Scan — 2026-11-06
+# 🔥 Market Scan — 2026-11-07
 
-> Collecte : treg 0/5 sources (proxy 403), 15 recherches extended, GitHub Trending ok, 0 page lue (treg injoignable), 3 candidats creusés. Filtre partiel pour les 3 apps (voir chaque fiche).
+> Collecte : treg 0/5 sources (proxy 403), 12 recherches extended, GitHub Trending ok, 0 page lue (treg indisponible), 3 candidats creusés. Filtre partiel : aucun candidat ne cumule clairement 3 critères de buzz avec traction financière publique.
 
 ## 📊 Résumé Exécutif
 - Apps analysées : 3
-- Top potentiel : Beacon (Asymptote Labs), score 5.5/10 (🟠 WATCH), talonné par Guava 5.45
-- Opportunités immédiates (BUILD NOW) : 0 — semaine sans candidat ≥ 7.5, scores honnêtes
+- Top potentiel : Guava (voice AI réglementée)
+- Opportunités immédiates (BUILD NOW) : 0
 
 ## 💸 Apps qui font du cash
-**Données treg indisponibles (proxy 403) : classement App Store US et posts X/Reddit non collectés, rien d'inventé.**
+Données App Store et X/Reddit : **indisponibles : treg injoignable** (403 sur le proxy). Rien n'est inventé pour le classement.
 
-**Revenus déclarés / estimés**
-- **Scroll The Bible** (Gabriel Jacobson, JCBSN LLC) : « $2M MRR » en 10 mois, post X du 2026-10-27, `déclaré, non vérifié` (le fondateur n'a pas confirmé ; estimation tierce ScreensDesign ≈ $1,8M). App iOS lancée le 17/12/2025, feed vertical façon TikTok pour versets, ads Meta/Instagram depuis juillet 2026. Post : https://x.com/jacobrodri_/status/2115060267545731513 — hors Top 3 (>6 mois).
-- **Solo AI tool à $69K/mois fin août 2026** : rapport secondaire, produit non identifié, `déclaré, non vérifié`, non retenu.
-- **Habit Pixel** (habit tracker) : ≈ $1K MRR en janv. 2026, déclaré par le fondateur, https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-684b6c056d — `déclaré, non vérifié`.
-- Benchmark : 28 produits IH vérifiés Stripe, 9 mois en moyenne pour $1K MRR (estimation d'un blog tiers).
+Revenus déclarés trouvés par WebSearch (déclaré, non vérifié) :
+- **Personal Best** (app mobile) : 5k$ MRR, 500k téléchargements, ~50k MAU, déclaré, non vérifié. Sept. 2026. [Indie Hackers](https://www.indiehackers.com/post/tech/building-a-5k-mrr-app-while-freelancing-to-keep-the-lights-on-JhX6p14De0nagI0j1Xg1)
+- **Polotno** (SDK JS, équipe de 3) : 60k$ MRR, 29 sept. 2026, déclaré, non vérifié. [Indie Hackers](https://www.indiehackers.com/post/tech/hitting-60k-mrr-by-building-an-sdk-instead-of-an-app-0B3bsTvvOG0wqf8cAx1v)
+- **Projet non nommé** : 9,5k$ MRR en 2 mois, 6 oct. 2026, déclaré, non vérifié. [Indie Hackers](https://www.indiehackers.com/post/tech/starting-from-scratch-and-hitting-9-5k-mrr-in-two-months-j5pMaED5FEbKw8qmeyj9)
+- **Post Bridge** (SaaS) : 35k$ MRR, juin-juil. 2026 (ancien), déclaré, non vérifié. [Indie Hackers](https://www.indiehackers.com/post/tech/hitting-35k-mrr-after-struggling-to-make-money-online-for-four-years-CNVpxrwIVqxcsfZ4fERw)
+- **HabitKit** : 28k$ MRR, 25,1k abonnés à 1-2$/mois, date incertaine, déclaré, non vérifié (source secondaire [buildmvpfast](https://www.buildmvpfast.com/blog/602k-revenue-solo-indie-hacker-app-portfolio-breakdown-2026)).
 
-**App Store US top grossing** (snapshots tiers, un rang n'est pas un revenu) : ChatGPT #1 (48e jour d'affilée au 1er nov.), Claude #8, Perplexity #72, Suno #99 — grandes marques, hors filtre. Aucune app <100k avis identifiée. Source : https://www.appstro.dev/top-grossing-apps
+Benchmark : médiane d'une app d'abonnement ~72$/mois à 1 an (estimation, résumé secondaire de [RevenueCat](https://www.revenuecat.com/state-of-subscription-apps)).
 
-## 🏆 TOP APP #1 : Beacon (Asymptote Labs)
-> Filtre partiel : critères remplis = média/PH (#1 Product of the Day 2 nov., 439 pts), traction (seed $5,5M), communauté (GitHub). Manquent : viralité 10K mentions, preuve de revenus. Âge : Beacon lancé en mai 2026 (~6 mois, limite) ; relancé sur PH le 2 nov.
+## 🏆 TOP APP #1 : Guava
+**Buzz (filtre partiel)** : levée 12,5M$ seed (critère traction) + couverture médias (Business Wire, Finextra, fintech.global). Manquent : viralité, croissance PH/App Store.
 
-**1. Identification** — Beacon, https://beacon.sh/ — Asymptote Labs ; CEO Justin D'Souza ; seed $5,5M (Tower Research Ventures, 20 oct.) — dev tools / sécurité agents IA. Repo : github.com/Asymptote-Labs/agent-beacon. Open source MIT. Sources : https://www.producthunt.com/products/asymptotelabs ; https://thenextweb.com/news/asymptote-labs-5-5m-seed-ai-agent-security
+**1. Identification** : [Guava](https://www.businesswire.com/news/home/20261102236960/en/Guava-Lands-$12.5-Million-to-Tackle-Voice-AIs-Real-world-Growing-Pains) (goguava.ai), Los Angeles. Modèle Daytona lancé en sept. 2026, seed annoncé le 3 nov. (Acrew Capital, Flourish, WillowTree, Clocktower, Commerce). Fondateurs : Omri Dahan, Anthony Scodary, Nico Benitez, Mike Piechna (équipe issue de Gridspace). Catégorie : plateforme voice AI, B2B. Propriétaire, free tier développeur, entreprise sur devis.
 
-**2. Proposition de valeur** — Problème : les agents de code (Claude Code, Cursor, Codex) oublient tout d'une session à l'autre et les équipes sécurité ne voient pas ce qu'ils font. Solution : couche de télémétrie unifiée + mémoire réutilisable (MCP / Agent Skills), stockage local. USP : mémoire qui survit au changement d'outil. Pricing : gratuit en local ; Beacon Cloud / Pro $20/mois (source : agenttested.ai, à vérifier).
+**2. Proposition de valeur** : agents vocaux fiables pour appels réglementés (assurance, finance) et BPO. USP : stack ASR + LLM + TTS maîtrisée de bout en bout, top 10 du benchmark Coval en WER. Cible : entreprises et BPO. Pricing : non trouvé.
 
-**3. Stack** — CLI local, format de trace normalisé, MCP + Agent Skills ; cloud optionnel. Détails internes non confirmés.
+**3. Stack** : modèles maison (parole, langage, synthèse), roadmap on-prem, edge, full-duplex. Coût : verrouillage fournisseur ([Acrew](https://perspectives.acrewcapital.com/p/guava-voice-ai-for-the-calls-that)).
 
-**4. Psychologie** — Triggers : peur de perdre le contexte, autorité (open source, seed), preuve sociale (#1 PH, +460 % d'étoiles en sept., déclaré). JTBD : « ne plus réexpliquer mon projet à l'agent ». Aha : l'agent réutilise une leçon validée.
+**4. Psychologie** : autorité (benchmark), réduction du risque réglementaire, aha moment = premier appel réglementé live en 14 jours. JTBD : automatiser des appels sans risque de conformité.
 
-**5. Go-to-market** — Open source bottom-up (GitHub), lancement PH, double positionnement : mémoire pour devs, télémétrie pour entreprises. Boucle virale : partage de skills/mémoire entre équipes.
+**5. Go-to-market** : vente enterprise, free tier pour développeurs, plus d'une douzaine de clients, des dizaines de milliers d'appels/jour (déclaré par l'entreprise).
 
-**6. Réplication** — Complexité 5/10 ; 6–10 semaines pour un MVP. Verticaux : mémoire pour agents vocaux, audit d'appels. Angle Kyle : mémoire/traçabilité pour agents voice AI (transcripts → leçons). Risque : GitHub Trending montre claude-mem (+9 318 étoiles/sem.) déjà dominant sur ce créneau.
+**6. Réplication** : complexité 8/10 pour reproduire la stack ; angle Kyle : ne pas refaire les modèles, vendre une couche verticale conforme (RGPD, santé, assurance FR/UE) sur des briques existantes. Temps : 3-6 mois pour un MVP vertical (estimation).
 
-## 🏆 TOP APP #2 : Guava
-> Filtre partiel : critères = traction (seed $12,5M, >12 clients entreprise), médias (Axios Pro, BusinessWire), communauté (partielle). Manquent : viralité, engagement discussion publique.
+## 🏆 TOP APP #2 : Glasshand
+**Buzz** : #1 Product of the Day sur Product Hunt le 5 nov. (363-377 votes, 79-85 commentaires) + couverture X/agrégateurs. Critères : croissance PH, engagement. Filtre partiel (pas de revenu public).
 
-**1. Identification** — Guava, https://goguava.ai (domaine à vérifier) — Los Angeles, fondée 2026 par Omri Dahan, Anthony Scodary, Nico Benitez, Mike Piechna ; seed $12,5M annoncé le 3 nov. 2026 (Acrew Capital, Flourish, WillowTree, Clocktower, Commerce Ventures). Source : https://www.axios.com/pro/enterprise-software-deals/2026/11/03/voice-agents-guava-gridspace
+**1. Identification** : [Glasshand](https://glasshand.com/), lancé le 5 nov. 2026, créateur Trevor Keith (sources divergentes sur le hunter). Infra pour agents. Propriétaire, payant. [PH](https://www.producthunt.com/products/glasshand)
 
-**2. Proposition de valeur** — Problème : les voice agents en secteurs régulés (santé, finance, assurance) échouent en production. Solution : plateforme full-stack avec modèles propres (ASR, LLM, TTS), SDK Python/TypeScript/Claude Code, règles métier en code. Modèle Daytona (sept.), top 10 du benchmark Coval en WER (chiffres internes). Pricing : gratuit jusqu'à $499/mois selon Dealroom, non confirmé. Propriétaire, payant. Lien avec Gridspace non confirmé.
+**2. Proposition** : louer de vrais iPhone et Mac (pas d'émulateurs) pilotés par API par Claude Code, Codex, Cursor. Pricing : 60$/mois iPhone, 90$/mois Mac, mensuel ([AICoder](https://aicoder.com/news/news-20261105-glasshand-real-iphone-mac-rental-ai-agents-claude-code-codex-cursor-60-90)) ; tarifs horaires cités ailleurs, non vérifiés. Reset usine à la fin de la location.
 
-**3. Stack** — Modèles speech maison entraînés sur données d'appels régulés (10 Md de minutes revendiquées via Gridspace), SDK dev. Certifs SOC 2 II, HITRUST i1, PCI DSS 1.
+**3. Stack** : Mac mini et iPhone SE en datacenter, API de contrôle. Détails non publics.
 
-**4. Psychologie** — Autorité (conformité), peur du risque réglementaire, social proof (dizaines de milliers d'appels/jour). JTBD : « déployer un agent vocal sans risque de non-conformité ». Aha : agent contrôlé par du code.
+**4. Psychologie** : nouveauté, résout un blocage dur (les agents ne testent pas sur appareil réel). Aha : un prompt suffit pour louer un appareil.
 
-**5. Go-to-market** — Vente directe aux entreprises régulées + adoption développeurs via SDK et Claude Code.
+**5. GTM** : lancement PH piloté par la communauté dev/agents, intégration dans les outils existants.
 
-**6. Réplication** — Complexité 9/10 pour la pile complète (modèles propres) ; 2/10 pour une couche verticale au-dessus de Vapi/Retell/Phonic. Angle Kyle : agent vocal vertical (cabinets, cliniques en France/UE, RGPD) plutôt que concurrencer l'infrastructure. Contexte : Phonic a levé $27,5M Series A (29 oct., First Round), signe d'un marché très financé.
+**6. Réplication** : complexité 7/10 (opérations hardware, marge sur du matériel loué). Angle Kyle : tests d'agents vocaux sur vrais téléphones (appels, iOS), vertical étroit. 2-3 mois pour un pilote (estimation).
 
-## 🏆 TOP APP #3 : Glasshand
-> Filtre partiel : critères = croissance PH (#1 du 5 nov., score 264), média/communauté légère. Manquent : revenus, viralité. Hardware-dependent (flotte d'iPhone/Mac) : exclusion à la limite, retenu faute de meilleur candidat.
+## 🏆 TOP APP #3 : Beacon (Asymptote Labs)
+**Buzz** : #1 Product of the Day PH le 2 nov. (439 pts, 83 commentaires) + seed 5,5M$ + couverture X. Critères : croissance PH, traction (levée), médias. Filtre partiel pour la viralité.
 
-**1. Identification** — Glasshand, https://glasshand.com/ — lancement PH le 5 nov. 2026, démo hackathon Vultr/Cerebral Valley le 26 sept. 2026. Fondateurs non identifiés. Catégorie : infra pour agents IA.
+**1. Identification** : [Beacon](https://beacon.sh/) par Asymptote Labs (New York), fondateur Justin D'Souza, seed 5,5M$ annoncé le 20 oct. (Tower Research Ventures en tête, autres investisseurs selon source secondaire). Code : [agent-beacon](https://github.com/Asymptote-Labs/agent-beacon). **Open source MIT, gratuit.** [PH](https://www.producthunt.com/products/asymptotelabs)
 
-**2. Proposition de valeur** — Louer à un agent (Claude Code, Codex) de vrais iPhone et Mac dédiés, pas des émulateurs : test de login/paiement, installation d'apps, Xcode sur device physique, eSIM pour SMS de vérification, reset à la restitution. Pricing : iPhone $60/mois, Mac $90/mois, mensuel uniquement (https://glasshand.com/pricing/). Payant.
+**2. Proposition** : mémoire partagée pour agents de code (Claude Code, Cursor, Codex, 20+ outils) qui transforme les sessions en skills réutilisables ; reprise d'une tâche d'un outil à l'autre. Modèle économique : non annoncé.
 
-**3. Stack** — Parc de devices en datacenter, lecture d'écran et taps pilotés par agent. Détails non publiés.
+**3. Stack** : couche de capture des sessions + base de connaissances ; détails non vérifiés.
 
-**4. Psychologie** — Nouveauté, résolution d'une limite concrète des agents (apps mobiles vérifiées). Aha : une seule phrase au prompt et l'agent a un téléphone.
+**4. Psychologie** : douleur de ré-expliquer le projet à chaque outil, effet réseau de la mémoire. Aha : continuer une tâche dans un autre agent en une commande.
 
-**5. Go-to-market** — Hackathon, puis Product Hunt ; cible les utilisateurs de coding agents.
+**5. GTM** : open source, lancement PH, annonce de levée simultanée sur X. Concurrent direct : claude-mem (Apache-2.0, en trending GitHub à 8,7k étoiles/semaine, [GitHub](https://github.com/thedotmack/claude-mem)).
 
-**6. Réplication** — Complexité 7/10 (ops hardware, Apple, coûts fixes). Peu transposable pour Kyle ; idée adjacente : environnement de test téléphonique réel (appels, SIP) pour agents vocaux. Concurrent open source proche : Ghosthand (ghosthand.dev, $99/mois par Mac).
+**6. Réplication** : complexité 5/10 mais marché saturé et gratuit. Angle Kyle : mémoire vocale pour agents voix. 1-2 mois (estimation).
 
-## 💰 Unit Economics Deep Dive — Beacon
-Tout chiffre ci-dessous est une `estimation` sauf mention contraire ; aucun revenu public pour Beacon.
+## 💰 Unit Economics Deep Dive — Guava
+Tous les chiffres sont des `estimation` sauf mention : Guava n'a publié ni revenus ni pricing.
 
-| Indicateur | Valeur |
+| Métrique | Valeur (estimation) |
 |---|---|
-| Financement | $5,5M seed (source : TNW) |
-| ARR | < $200K (estimation, produit surtout gratuit/OSS) |
-| ARPU | ~$20/mois côté Pro (prix non confirmé), ~$0 côté OSS |
-| Users | milliers de devs OSS (estimation, étoiles non vérifiées) |
-| CAC | ≈ $0 côté OSS, élevé côté vente entreprise (estimation) |
-| LTV | ~$240–480 par Pro (12–24 mois, estimation) |
-| LTV/CAC | non calculable fiablement |
-| Payback | n/a |
-| Burn / Runway | ~$150–250K/mois, 22–36 mois (estimation, équipe petite) |
-| Rev/Employee | < $50K (estimation) |
-| Rule of 40 | non applicable (pré-revenu) |
+| Clients entreprise | 12+ (déclaré) |
+| ARR | ~1-3M$ (estimation, dizaines de milliers d'appels/jour × ~0,10-0,30$/min) |
+| ARPU | ~100-200k$/client/an |
+| CAC | 50-150k$ (vente enterprise) |
+| LTV | 300-600k$ |
+| LTV/CAC | ~3-5x |
+| Payback | 9-14 mois |
+| Burn | ~0,6-0,8M$/mois (équipe ~25-35) |
+| Runway | ~16-20 mois sur les 12,5M$ |
+| Rev/employé | ~60-100k$ |
+| Rule of 40 | non calculable (croissance inconnue) |
 
-**Verdict santé : 🟡** — financé et bien lancé, mais monétisation non prouvée, positionnement flou (mémoire vs télémétrie) et concurrence open source forte.
+Verdict : 🟡 prometteur mais non prouvé. Le coût d'une stack propre pèse sur les marges ; aucune donnée de revenu publique. Sources de départ : [Crunchbase](https://www.crunchbase.com/organization/guava-ff55), [Finextra](https://www.finextra.com/pressarticle/111558/guava-raises-125m-for-ai-voice-agent-development-platform).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| App | Market 20% | Complex. inv. 15% | TTM 15% | Compét. inv. 15% | Revenue 20% | Fit Kyle 15% | **Score** | Verdict |
+| App | Market 20% | Complexité inv. 15% | TTM 15% | Concurrence inv. 15% | Revenu 20% | Fit Kyle 15% | **Score** | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| Beacon | 6 | 7 | 7 | 3 | 5 | 5 | **5.50** | 🟠 WATCH |
-| Guava | 8 | 2 | 2 | 3 | 8 | 8 | **5.45** | 🟠 WATCH |
-| Glasshand | 5 | 4 | 4 | 6 | 6 | 3 | **4.75** | 🟠 WATCH |
+| Guava | 8 | 2 | 2 | 4 | 7 | 8 | **5.4** | 🟠 WATCH |
+| Glasshand | 6 | 4 | 5 | 6 | 6 | 4 | **5.25** | 🟠 WATCH |
+| Beacon | 6 | 6 | 6 | 3 | 4 | 5 | **5.0** | 🟠 WATCH |
 
-Beacon et Guava sont quasi à égalité ; pour Kyle, une couche verticale voice AI au-dessus de l'infra de Guava est plus pertinente que le clone direct.
+Scores honnêtes : rien n'atteint 6.0. Le Fit Kyle de Guava est fort mais le coût de réplication de la stack est prohibitif ; viser la couche verticale.
 
 ## 📈 Tendances Émergentes
-- **Infra pour agents de code** : mémoire, télémétrie, skills. GitHub Trending hebdo : t3code (+16 235 étoiles), claude-mem (+9 318), impeccable (+9 303), hallmark (+6 994), taste-skill (+5 426), superpowers, anthropics/skills. Les « skills de design » pour coding agents explosent. Source : https://github.com/trending?since=weekly
-- **Voice AI très financée** : Guava $12,5M (3 nov.), Phonic $27,5M Series A (29 oct.), Fish Audio $52M seed (28 juil.), Karta AI $3M seed.
-- **Agents qui sortent du navigateur** : Glasshand (devices réels), Product Hunt dominé par des outils d'agents (Click, UnleashX, Rerun).
-- **Apps grand public à contenu simple** : Scroll The Bible illustre un feed vertical + pub Meta pour une niche religieuse (revenus non vérifiés).
-- Note collecte : treg indisponible ce jour, donc pas de Hacker News, Reddit, X ni classement App Store.
+- **Infra pour agents** : Product Hunt est dominé par les agents (Glasshand, Beacon, Click) ; plusieurs entrées sont des placements payants ([PH 5 nov.](https://www.producthunt.com/leaderboard/daily/2026/11/5)).
+- **Mémoire/skills pour agents de code** : claude-mem, Beacon, superpowers, skills Anthropic dominent GitHub Trending ([trending](https://github.com/trending?since=weekly)) ; t3code en tête (+16,8k étoiles/semaine).
+- **Voice AI réglementée** : Guava 12,5M$, VoiceRun 5,5M$, Gradium 70M$ (seed T1 2026) : le capital va vers la fiabilité et la conformité.
+- **Design anti-« AI slop »** : impeccable, hallmark.
 
 ## 💡 Insights Actionnables
-1. **Voice AI vertical France/UE** : ne pas concurrencer Guava/Phonic sur les modèles ; viser un agent vocal métier (santé, assurance) conforme RGPD, avec règles métier en code. Effort : ~6–8 semaines pour un MVP sur briques existantes (estimation).
-2. **Mémoire/traçabilité pour agents vocaux** : transposer l'idée de Beacon aux transcripts d'appels pour en extraire des leçons réutilisables. Marché à valider avant de coder.
-3. **Test téléphonique réel pour voice agents** : équivalent de Glasshand côté SIP/PSTN, complexité moindre que du hardware.
-4. **Pattern marketing** : Scroll The Bible montre qu'un format de feed simple + pub Meta peut scaler vite ; à tester sur un vertical éducatif avant d'y croire, les chiffres étant non vérifiés.
-5. **À corriger côté outil** : le collecteur treg renvoie 403 (tunnel proxy) ; vérifier l'allowlist réseau de l'environnement pour avoir HN, Reddit, X et classement App Store au prochain run.
+1. **Voice AI vertical conforme (FR/UE)** : Guava prouve l'appétit pour les appels réglementés ; un acteur européen sur briques existantes (RGPD, assurance/santé) reste un angle libre.
+2. **Test d'agents vocaux sur vrais téléphones** : adapter l'idée Glasshand à la QA d'agents voix, marché étroit mais sans concurrent évident.
+3. **Éviter les outils de mémoire pour agents de code** : gratuits, open source, saturés.
+4. **Réparer la collecte** : treg a renvoyé 403 sur le proxy ; sans lui, pas de relevé App Store ni de données X/Reddit/revenus. Vérifier `TREG_TOKEN` et l'allowlist réseau.
