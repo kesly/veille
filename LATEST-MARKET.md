@@ -1,105 +1,162 @@
 # 🔥 Market Scan — 2026-11-07
 
-> Collecte : treg 0/5 sources (proxy 403), 12 recherches extended, GitHub Trending ok, 0 page lue (treg indisponible), 3 candidats creusés. Filtre partiel : aucun candidat ne cumule clairement 3 critères de buzz avec traction financière publique.
+> Collecte : treg 5/5 sources, 14 recherches extended, GitHub Trending ok, 3 pages lues, 3 candidats creusés.
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3
-- Top potentiel : Guava (voice AI réglementée)
+- Apps analysées : 3 (filtre partiel pour Duly, voir plus bas)
+- Top potentiel : Duly (6.6/10, 🟡 BUILD ADJACENT)
 - Opportunités immédiates (BUILD NOW) : 0
 
 ## 💸 Apps qui font du cash
-Données App Store et X/Reddit : **indisponibles : treg injoignable** (403 sur le proxy). Rien n'est inventé pour le classement.
+**Revenus déclarés (tous `déclaré, non vérifié`)**
+- App mobile d'un dev de 18 ans : 5k$ MRR, 2 mois après le lancement, 2026-11-03 — [post](https://x.com/tommy_builds/status/2117496806703759687) (produit non nommé dans le texte)
+- GodsView AI : 6k$+ MRR, 69 000 inscrits, 20 000 emails, app iOS lancée, 2026-11-04 — [post](https://x.com/jijojohnz/status/2117801747225661873)
+- tsuzuki817 (apps indie) : 4 253$ en octobre (App Store 3 146$, AdMob 959$, Google Play 148$), 2026-11-07 — [post](https://x.com/tsuzuki817/status/2118864245500805613)
+- App d'abonnement de johnny_schae : 4 000$ sur 28 jours, 1,6k$ MRR, 200+ abonnés, 100 % organique, 2026-11-01 — [post](https://x.com/johnny_schae/status/2116993422494138828)
+- BuildingWaves : 1k$ MRR, lancé en septembre, 2026-11-05 — [post](https://x.com/BuildingWaves/status/2118266663972003930)
+- itsbongoo : 339$ MRR, 82 abonnés, 3 080$ sur 28 jours, 2026-11-04 — [post](https://x.com/itsbongoo/status/2117850319308956153)
+- App B2C d'idanmasas : 173$ MRR, 25 abonnés, 703$ sur 30 jours, 2026-11-06 — [post](https://x.com/idanmasas/status/2118658888903901494)
+- TTS Maker (TTS pour créateurs indiens) : ₹6 182 de revenu, 15 payants, 3 519 users, 2026-11-01 — [post](https://x.com/directtoakash/status/2116993600005517636)
 
-Revenus déclarés trouvés par WebSearch (déclaré, non vérifié) :
-- **Personal Best** (app mobile) : 5k$ MRR, 500k téléchargements, ~50k MAU, déclaré, non vérifié. Sept. 2026. [Indie Hackers](https://www.indiehackers.com/post/tech/building-a-5k-mrr-app-while-freelancing-to-keep-the-lights-on-JhX6p14De0nagI0j1Xg1)
-- **Polotno** (SDK JS, équipe de 3) : 60k$ MRR, 29 sept. 2026, déclaré, non vérifié. [Indie Hackers](https://www.indiehackers.com/post/tech/hitting-60k-mrr-by-building-an-sdk-instead-of-an-app-0B3bsTvvOG0wqf8cAx1v)
-- **Projet non nommé** : 9,5k$ MRR en 2 mois, 6 oct. 2026, déclaré, non vérifié. [Indie Hackers](https://www.indiehackers.com/post/tech/starting-from-scratch-and-hitting-9-5k-mrr-in-two-months-j5pMaED5FEbKw8qmeyj9)
-- **Post Bridge** (SaaS) : 35k$ MRR, juin-juil. 2026 (ancien), déclaré, non vérifié. [Indie Hackers](https://www.indiehackers.com/post/tech/hitting-35k-mrr-after-struggling-to-make-money-online-for-four-years-CNVpxrwIVqxcsfZ4fERw)
-- **HabitKit** : 28k$ MRR, 25,1k abonnés à 1-2$/mois, date incertaine, déclaré, non vérifié (source secondaire [buildmvpfast](https://www.buildmvpfast.com/blog/602k-revenue-solo-indie-hacker-app-portfolio-breakdown-2026)).
+**App Store US, top grossing, moins de 100k avis** (un rang n'est pas un revenu, aucun montant donné ; premier relevé, pas de comparaison)
+- #16 Productivity, Summary - AI Note Taker, 56 963 avis : notes IA, [lien](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056)
+- #25 Productivity, Pocket - AI Personal Assistant, 7 640 avis : assistant IA, [lien](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735)
+- #28 Productivity, Plaud: AI Work Companion, 24 250 avis : enregistreur IA (lié à du hardware), [lien](https://apps.apple.com/us/app/plaud-ai-work-companion/id6450364080)
+- #9 Utilities, Authenticator ℠ App, 6 610 avis : authentification 2FA, [lien](https://apps.apple.com/us/app/authenticator-app/id6754900760)
+- #12 Health, MacroFactor, 23 872 avis : suivi des macros par abonnement, [lien](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471)
+- #16 Health, Runna, 35 604 avis : plans de course, [lien](https://apps.apple.com/us/app/runna-running-plans-coach/id1594204443)
+- #9 Education, LangLearn: AI English Tutor, 22 394 avis : tuteur IA conversationnel, [lien](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897)
+- #11 Education, Speak, 66 365 avis : apprentissage de langue par la voix, [lien](https://apps.apple.com/us/app/speak-language-learning/id1286609883)
 
-Benchmark : médiane d'une app d'abonnement ~72$/mois à 1 an (estimation, résumé secondaire de [RevenueCat](https://www.revenuecat.com/state-of-subscription-apps)).
+Lecture : 5 apps sur 8 sont de l'IA voix ou texte vendue par abonnement. La voix reste la catégorie qui paie.
+<!-- fin cash -->
 
-## 🏆 TOP APP #1 : Guava
-**Buzz (filtre partiel)** : levée 12,5M$ seed (critère traction) + couverture médias (Business Wire, Finextra, fintech.global). Manquent : viralité, croissance PH/App Store.
+## 🏆 TOP APP #1 : Duly
+**⚠️ Filtre partiel** : Duly ne remplit pas 3 critères de buzz. Il manque viralité, traction chiffrée et médias. Il est retenu pour le lien direct avec l'expertise voice AI de Kyle.
 
-**1. Identification** : [Guava](https://www.businesswire.com/news/home/20261102236960/en/Guava-Lands-$12.5-Million-to-Tackle-Voice-AIs-Real-world-Growing-Pains) (goguava.ai), Los Angeles. Modèle Daytona lancé en sept. 2026, seed annoncé le 3 nov. (Acrew Capital, Flourish, WillowTree, Clocktower, Commerce). Fondateurs : Omri Dahan, Anthony Scodary, Nico Benitez, Mike Piechna (équipe issue de Gridspace). Catégorie : plateforme voice AI, B2B. Propriétaire, free tier développeur, entreprise sur devis.
+### 1. Identification
+- [Duly](https://www.useduly.app/) · [Product Hunt](https://www.producthunt.com/products/duly-life-organizer) · iOS/iPadOS · Productivité · lancé le 2026-11-06
+- Fondateur : Ömer, 18 ans, dev indie à Istanbul (d'après le post PH)
+- Buzz : 22 followers PH, lancement du jour, pas de votes publiés, un commentaire de soutien. Buzz faible.
 
-**2. Proposition de valeur** : agents vocaux fiables pour appels réglementés (assurance, finance) et BPO. USP : stack ASR + LLM + TTS maîtrisée de bout en bout, top 10 du benchmark Coval en WER. Cible : entreprises et BPO. Pricing : non trouvé.
+### 2. Proposition de valeur
+- Problème : la capture de tâches, listes et idées demande trop de choix (formulaires, sélecteurs).
+- Solution : un orbe, on appuie et on parle. Une phrase devient rappel, courses, expense, idée. Correction par la voix (« undo that »), questions (« combien dépensé cette semaine ? »).
+- USP : une seule interaction, démarrage depuis Action Button, Control Center, écran verrouillé, Siri. L'enregistrement continue téléphone verrouillé.
+- Prix : gratuit avec limite quotidienne, Duly Pro (plus d'usage, iCloud Sync, listes partagées), essai d'une semaine. Prix exact non trouvé.
 
-**3. Stack** : modèles maison (parole, langage, synthèse), roadmap on-prem, edge, full-duplex. Coût : verrouillage fournisseur ([Acrew](https://perspectives.acrewcapital.com/p/guava-voice-ai-for-the-calls-that)).
+### 3. Stack technique (estimation)
+- Swift/SwiftUI natif, App Intents, STT + LLM avec sortie structurée, iCloud pour la sync Pro. Rien de documenté publiquement.
 
-**4. Psychologie** : autorité (benchmark), réduction du risque réglementaire, aha moment = premier appel réglementé live en 14 jours. JTBD : automatiser des appels sans risque de conformité.
+### 4. Psychologie
+- Triggers : réduction de friction, soulagement de charge mentale, aversion à la perte (la limite quotidienne pousse vers Pro).
+- JTBD : « vider ma tête sans trier ».
+- Aha moment : une phrase de ramble se range correctement en 4 ou 5 éléments.
 
-**5. Go-to-market** : vente enterprise, free tier pour développeurs, plus d'une douzaine de clients, des dizaines de milliers d'appels/jour (déclaré par l'entreprise).
+### 5. Go-to-market
+- Product Hunt (catégories iOS, Notes), histoire de fondateur de 18 ans, freemium. Pas de viral loop identifiée hors listes partagées.
 
-**6. Réplication** : complexité 8/10 pour reproduire la stack ; angle Kyle : ne pas refaire les modèles, vendre une couche verticale conforme (RGPD, santé, assurance FR/UE) sur des briques existantes. Temps : 3-6 mois pour un MVP vertical (estimation).
+### 6. Réplication
+- Complexité 4/10 pour un MVP, 3 à 6 semaines.
+- Verticaux adjacents : voix pour pros (artisans, soignants, agents immobiliers), CRM vocal, journal de bord terrain.
+- Angle Kyle : même interaction, mais B2B vertical avec intégration SaaS (CRM, facturation). La concurrence B2C est saturée : Ramble, Pocket, Plaud, Summary, Todoist.
+- Sources de contexte : [Product Hunt](https://www.producthunt.com/products/duly-life-organizer), [recherche concurrents](https://medium.com/@federica_332/the-best-voice-to-do-list-apps-for-iphone-and-where-ours-loses-333bbdc6b0bf).
 
-## 🏆 TOP APP #2 : Glasshand
-**Buzz** : #1 Product of the Day sur Product Hunt le 5 nov. (363-377 votes, 79-85 commentaires) + couverture X/agrégateurs. Critères : croissance PH, engagement. Filtre partiel (pas de revenu public).
+## 🏆 TOP APP #2 : Tobira Site Agent
+### 1. Identification
+- [Tobira Site Agent](https://tobira.ai/agentic-site/) · [classement PH du 06/11](https://www.producthunt.com/leaderboard/daily/2026/11/6) · web SaaS · lancé le 2026-11-06
+- Fondateurs : non trouvés. Produit lié à tobira.ai (réseau d'agents avec adresses @).
+- Buzz : #1 Product Hunt du jour (score 359, 107 commentaires à la capture), mais un blog tiers donne Rankfender #1 : sources contradictoires. Critères remplis : croissance PH, engagement discussion. Les autres sont absents ou non vérifiés.
 
-**1. Identification** : [Glasshand](https://glasshand.com/), lancé le 5 nov. 2026, créateur Trevor Keith (sources divergentes sur le hunter). Infra pour agents. Propriétaire, payant. [PH](https://www.producthunt.com/products/glasshand)
+### 2. Proposition de valeur
+- Problème : les sites web ne savent pas vendre ni répondre aux agents IA qui recommandent des produits.
+- Solution : on colle son URL, en 10 minutes le site devient un agent qui répond, négocie, réserve des appels, prend des commandes. Publie `llms.txt` et `agent.json`.
+- Prix (page vendeur) : gratuit avec sa propre clé IA, puis 49 / 169 / 399 / 799 $ par mois. Tobira garde 15 % du revenu d'abonnement.
+- Target : PME avec un site, cherchant à être visibles dans les réponses IA.
 
-**2. Proposition** : louer de vrais iPhone et Mac (pas d'émulateurs) pilotés par API par Claude Code, Codex, Cursor. Pricing : 60$/mois iPhone, 90$/mois Mac, mensuel ([AICoder](https://aicoder.com/news/news-20261105-glasshand-real-iphone-mac-rental-ai-agents-claude-code-codex-cursor-60-90)) ; tarifs horaires cités ailleurs, non vérifiés. Reset usine à la fin de la location.
+### 3. Stack technique (estimation)
+- Crawl du site, RAG, LLM via clé du client, fichiers de découverte pour agents, tableau de bord avec boucle de feedback publique (liste de tickets livrés sur PH).
 
-**3. Stack** : Mac mini et iPhone SE en datacenter, API de contrôle. Détails non publics.
+### 4. Psychologie
+- Triggers : peur de manquer le canal IA, autorité (nouveau standard), preuve sociale via PH.
+- Aha moment : coller l'URL et obtenir un agent fonctionnel en quelques minutes.
 
-**4. Psychologie** : nouveauté, résout un blocage dur (les agents ne testent pas sur appareil réel). Aha : un prompt suffit pour louer un appareil.
+### 5. Go-to-market
+- Lancement PH, jour de « Hypership », itérations publiques (v45 en quelques jours), freemium avec clé du client pour zéro coût marginal.
 
-**5. GTM** : lancement PH piloté par la communauté dev/agents, intégration dans les outils existants.
+### 6. Réplication
+- Complexité 6/10, 8 à 12 semaines. Le vrai défi est la distribution, pas la technique.
+- Angle Kyle : agent vocal de site (téléphone + web) pour verticaux locaux, avec prise de rendez-vous.
+- Réserve : aucune couverture indépendante, chiffres de traction non publics.
+- Sources : [pricing vendeur](https://tobira.ai/agentic-site/), [blog Tobira](https://blog.tobira.ai/chatgpt-sponsored-agents-vs-site-agent/).
 
-**6. Réplication** : complexité 7/10 (opérations hardware, marge sur du matériel loué). Angle Kyle : tests d'agents vocaux sur vrais téléphones (appels, iOS), vertical étroit. 2-3 mois pour un pilote (estimation).
+## 🏆 TOP APP #3 : Turnstone (et la vague « Grok Bot alternative »)
+### 1. Identification
+- [Turnstone](https://myturnstone.ai/) · [OpenMausBot](https://github.com/milind-soni/OpenMausBot) · desktop + chat d'agents · catégorie IA/productivité · août à novembre 2026
+- Fondateurs : non trouvés pour Turnstone. OpenMausBot : milind-soni (GitHub).
+- Buzz : Turnstone #2 PH le 06/11 (254 selon PH, 226 selon un agrégateur), OpenMausBot 6 395 étoiles en une semaine sur GitHub Trending, OpenBot #2 PH la veille (350 votes, source tiers). Critères remplis : croissance PH, communauté active, engagement. Le sujet est porté par [Grok Bot](https://apps.apple.com/us/app/grok-bot/id6794501026), #7 productivité grossing US (21 069 avis).
 
-## 🏆 TOP APP #3 : Beacon (Asymptote Labs)
-**Buzz** : #1 Product of the Day PH le 2 nov. (439 pts, 83 commentaires) + seed 5,5M$ + couverture X. Critères : croissance PH, traction (levée), médias. Filtre partiel pour la viralité.
+### 2. Proposition de valeur
+- Problème : Grok Bot, Meta Muse, OpenAI dots sont fermés, liés à un abonnement et à un modèle.
+- Solution : clone gratuit, local, avec les modèles déjà payés (Claude, Codex), une équipe de bots dans une app de chat, chacun avec sa machine cloud.
+- Prix : gratuit, open source (OpenMausBot sans token crypto affirmé). Turnstone « completely free ».
 
-**1. Identification** : [Beacon](https://beacon.sh/) par Asymptote Labs (New York), fondateur Justin D'Souza, seed 5,5M$ annoncé le 20 oct. (Tower Research Ventures en tête, autres investisseurs selon source secondaire). Code : [agent-beacon](https://github.com/Asymptote-Labs/agent-beacon). **Open source MIT, gratuit.** [PH](https://www.producthunt.com/products/asymptotelabs)
+### 3. Stack technique
+- TypeScript, apps macOS/Windows/Linux, agents Claude ou Codex en local (README OpenMausBot).
 
-**2. Proposition** : mémoire partagée pour agents de code (Claude Code, Cursor, Codex, 20+ outils) qui transforme les sessions en skills réutilisables ; reprise d'une tâche d'un outil à l'autre. Modèle économique : non annoncé.
+### 4. Psychologie
+- Triggers : « alternative libre à un produit viral », propriété et contrôle, gratuité.
+- Aha moment : ses propres agents répondent comme des contacts.
 
-**3. Stack** : couche de capture des sessions + base de connaissances ; détails non vérifiés.
+### 5. Go-to-market
+- Newsjacking sur le lancement de Grok Bot, pages de comparaison SEO (« best Grok Bot alternatives »), PH + GitHub Trending.
 
-**4. Psychologie** : douleur de ré-expliquer le projet à chaque outil, effet réseau de la mémoire. Aha : continuer une tâche dans un autre agent en une commande.
+### 6. Réplication
+- Complexité 7/10, trois projets concurrents déjà actifs. Monétisation absente.
+- Angle Kyle : agents vocaux dans ce type d'interface, mais pas de revenu clair.
+- Sources : [9to5Mac sur Grok Bot](https://9to5mac.com/2026/08/21/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/), [alternatives](https://myturnstone.ai/comparisons/best-grok-bot-alternatives).
 
-**5. GTM** : open source, lancement PH, annonce de levée simultanée sur X. Concurrent direct : claude-mem (Apache-2.0, en trending GitHub à 8,7k étoiles/semaine, [GitHub](https://github.com/thedotmack/claude-mem)).
+## 💰 Unit Economics Deep Dive — Duly
+Aucune donnée financière publique pour Duly (lancé hier, sans levée). Tout est `estimation` à partir d'hypothèses, à ne pas lire comme un fait.
 
-**6. Réplication** : complexité 5/10 mais marché saturé et gratuit. Angle Kyle : mémoire vocale pour agents voix. 1-2 mois (estimation).
-
-## 💰 Unit Economics Deep Dive — Guava
-Tous les chiffres sont des `estimation` sauf mention : Guava n'a publié ni revenus ni pricing.
-
-| Métrique | Valeur (estimation) |
+| Métrique | Estimation (hypothèse) |
 |---|---|
-| Clients entreprise | 12+ (déclaré) |
-| ARR | ~1-3M$ (estimation, dizaines de milliers d'appels/jour × ~0,10-0,30$/min) |
-| ARPU | ~100-200k$/client/an |
-| CAC | 50-150k$ (vente enterprise) |
-| LTV | 300-600k$ |
-| LTV/CAC | ~3-5x |
-| Payback | 9-14 mois |
-| Burn | ~0,6-0,8M$/mois (équipe ~25-35) |
-| Runway | ~16-20 mois sur les 12,5M$ |
-| Rev/employé | ~60-100k$ |
-| Rule of 40 | non calculable (croissance inconnue) |
+| Users | quelques centaines à 2 000 d'ici 90 jours (22 followers PH aujourd'hui) |
+| Conversion payante | 2 à 4 % (freemium avec limite) |
+| ARPU | 4 à 8 $/mois, prix Pro non publié |
+| ARR | 5 à 40 k$ à 12 mois, `estimation` |
+| CAC | proche de 0 (organique PH), 2 à 5 $ en publicité |
+| LTV | 40 à 80 $ (rétention 8 à 12 mois) |
+| LTV/CAC | >10 en organique, 8 à 15 en payant |
+| Payback | <1 mois organique |
+| Burn / Runway | quasi nul, solo, coûts STT + LLM par minute à surveiller |
+| Rev/Employee | 1 personne |
+| Rule of 40 | non applicable (pas de croissance mesurable) |
 
-Verdict : 🟡 prometteur mais non prouvé. Le coût d'une stack propre pèse sur les marges ; aucune donnée de revenu publique. Sources de départ : [Crunchbase](https://www.crunchbase.com/organization/guava-ff55), [Finextra](https://www.finextra.com/pressarticle/111558/guava-raises-125m-for-ai-voice-agent-development-platform).
+Verdict 🟡 : l'économie unitaire est correcte sur le papier, mais le coût d'inférence voix de la version gratuite peut manger la marge. Le marché est saturé (Ramble, Pocket, Plaud, Summary dans le top grossing). Le top grossing confirme que la voix IA se vend, sans donner le revenu.
+Sources de contexte : [Wave, ~4M$ ARR estimé en 2024 (Getlatka)](https://getlatka.com/companies/waveapp.ai), [Talknotes, 5k$/mois déclaré en 2024](https://1m.chat/cases/talknotes/).
 
 ## 🎯 Opportunity Scorecard — Top 3
-| App | Market 20% | Complexité inv. 15% | TTM 15% | Concurrence inv. 15% | Revenu 20% | Fit Kyle 15% | **Score** | Verdict |
-|---|---|---|---|---|---|---|---|---|
-| Guava | 8 | 2 | 2 | 4 | 7 | 8 | **5.4** | 🟠 WATCH |
-| Glasshand | 6 | 4 | 5 | 6 | 6 | 4 | **5.25** | 🟠 WATCH |
-| Beacon | 6 | 6 | 6 | 3 | 4 | 5 | **5.0** | 🟠 WATCH |
+| # | App | 📊 Market (20%) | ⚙️ Complexité inv. (15%) | ⏱️ TTM (15%) | 🏟️ Concurrence inv. (15%) | 💰 Revenu (20%) | 🧑‍💻 Fit Kyle (15%) | **Score** | Verdict |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Duly | 7 | 8 | 8 | 3 | 5 | 9 | **6.6** | 🟡 BUILD ADJACENT |
+| 2 | Tobira Site Agent | 7 | 5 | 5 | 3 | 6 | 6 | **5.5** | 🟠 WATCH |
+| 3 | Turnstone / OpenMausBot | 7 | 4 | 5 | 2 | 2 | 5 | **4.2** | 🔴 SKIP |
 
-Scores honnêtes : rien n'atteint 6.0. Le Fit Kyle de Guava est fort mais le coût de réplication de la stack est prohibitif ; viser la couche verticale.
+Duly passe devant parce que le fit voix de Kyle pèse lourd, pas parce que le produit a de la traction. Sans l'angle B2B vertical, son score tomberait vers 5.5.
 
 ## 📈 Tendances Émergentes
-- **Infra pour agents** : Product Hunt est dominé par les agents (Glasshand, Beacon, Click) ; plusieurs entrées sont des placements payants ([PH 5 nov.](https://www.producthunt.com/leaderboard/daily/2026/11/5)).
-- **Mémoire/skills pour agents de code** : claude-mem, Beacon, superpowers, skills Anthropic dominent GitHub Trending ([trending](https://github.com/trending?since=weekly)) ; t3code en tête (+16,8k étoiles/semaine).
-- **Voice AI réglementée** : Guava 12,5M$, VoiceRun 5,5M$, Gradium 70M$ (seed T1 2026) : le capital va vers la fiabilité et la conformité.
-- **Design anti-« AI slop »** : impeccable, hallmark.
+1. **Clones « alternative à Grok Bot »** : trois lancements PH en deux jours (Turnstone, OpenBot, MausBot), GitHub #8 de la semaine. Newsjacking de produits de grandes marques, gratuit et open source. Revenu non démontré.
+2. **Sites faits pour les agents IA** : Tobira (#1 PH), `llms.txt`, Exa Monitors v2, Rankfender (SEO/GEO). Le canal d'acquisition par réponses IA devient un produit.
+3. **Voix IA en consommateur** : Duly, Summary, Pocket, Plaud, Speak, LangLearn dans le top grossing. Côté entreprise : [Guava lève 12,5 M$ en seed](https://fintech.global/2026/11/06/guava-secures-12-5m-for-high-stakes-voice-ai-calls/) pour la voix IA en secteur régulé.
+4. **Mémoire et sandboxes pour agents** : claude-mem (8 726 étoiles/semaine), Render Sandboxes (254 votes PH), beacon.sh, Living Brain.
+5. **Apps solo à 1 à 6 k$ MRR** sur X, avec des chiffres bas côté nouveaux entrants (173 $ MRR en un mois). Le post de kidtsang le dit : la liste d'emails compte plus que le MRR.
+6. Contexte : Gemini Omni 1.2 Flash (vidéo 15 s à 0,07 $/s) a fait 340 points sur HN.
 
 ## 💡 Insights Actionnables
-1. **Voice AI vertical conforme (FR/UE)** : Guava prouve l'appétit pour les appels réglementés ; un acteur européen sur briques existantes (RGPD, assurance/santé) reste un angle libre.
-2. **Test d'agents vocaux sur vrais téléphones** : adapter l'idée Glasshand à la QA d'agents voix, marché étroit mais sans concurrent évident.
-3. **Éviter les outils de mémoire pour agents de code** : gratuits, open source, saturés.
-4. **Réparer la collecte** : treg a renvoyé 403 sur le proxy ; sans lui, pas de relevé App Store ni de données X/Reddit/revenus. Vérifier `TREG_TOKEN` et l'allowlist réseau.
+1. **Aucun BUILD NOW cette semaine.** Le meilleur score est 6.6, pour un produit sans traction. Ne pas se précipiter.
+2. **Test à faible coût pour Kyle** : prototyper en un week-end un « Duly pro » vocal pour un vertical (artisans, soignants à domicile) avec sortie vers un CRM ou un outil de facturation. Hypothèse à valider : 10 entretiens et 3 pré-ventes avant tout code de production.
+3. **Surveiller Tobira** (WATCH) : si des chiffres de traction ou les fondateurs apparaissent, réévaluer. Idée adjacente : agent vocal téléphonique pour sites de PME, avec prise de rendez-vous.
+4. **Éviter les clones de Grok Bot** : trois concurrents gratuits, aucun modèle de revenu.
+5. **Données à surveiller au prochain run** : le relevé du top grossing du jour est enregistré dans `market-scan/data/top-grossing/`. La comparaison montrera les apps IA voix qui montent.
+6. **Limites de ce run** : Product Hunt, Reddit et X donnent peu de chiffres vérifiables. Les montants de revenu sont déclarés, non vérifiés. Les recherches n'ont pas trouvé de posts Show HN ni Indie Hackers datés de novembre 2026.
