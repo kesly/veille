@@ -1,102 +1,89 @@
-# AI Watch — 2026-11-07 Matin
+# AI Watch — 2026-11-08 Matin
 
-> Collecte : treg 4/4 sources, 9 recherches extended (+16 du premier passage du matin), GitHub Trending ok, 1 page lue, 8 items confirmés par une deuxième source. Rapport mis à jour (2e passage de la matinée, treg était indisponible au 1er).
+> Collecte : treg 4/4 sources, 15 recherches extended, GitHub Trending ok, 4 pages lues, 5 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
 ### OpenAI GPT-6 Cyber
-- **Quoi** : Modèle spécialisé cybersécurité. 48,5 % sur ExploitGym contre 32,1 % pour GPT-5.6 Cyber (chiffres constructeur) ; 81 failles Firefox inconnues citées ; classé « Critical » dans le Preparedness Framework.
+- **Quoi** : Modèle orienté recherche en sécurité, classé « Critical » en cybersécurité dans le Preparedness Framework d'OpenAI ; 48,5 % sur ExploitGym (32,1 % pour GPT-5.6 Cyber) et 99,93 % de respect du périmètre (94,49 % avant).
+- **Date** : 5-6 novembre 2026 (les sources divergent d'un jour)
+- **Lien** : https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html (annonce : https://openai.com/index/introducing-gpt-6-cyber/)
+- **Pourquoi c'est important** : OpenAI dit qu'il a servi à trouver 948 exploits d'élévation de privilèges Linux, 81 failles Firefox et une faille critique dans Brotli (CVE-2026-111497). Premier modèle qu'OpenAI classe « Critical » en cyber.
+- **Testable** : Non. API et Codex réservés à des clients vérifiés « Daybreak Red ». Payant, fermé.
+
+### Claude Code : « Yes, and don't ask again » enregistre des secrets en clair
+- **Quoi** : Apiiro a trouvé 1 122 fichiers `.claude/settings.local.json` publics contenant un vrai secret sur 104 185 copies. Avec l'historique git, les settings partagés et les transcripts : 2 539 secrets dans 1 994 dépôts, 63 organisations.
+- **Date** : 5 novembre 2026 (en tête de Hacker News le 7-8)
+- **Lien** : https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again (relayé par https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html)
+- **Pourquoi c'est important** : L'option enregistre la commande exacte, mot de passe compris, dans un fichier non ignoré par git. Un correctif côté Anthropic est évoqué par une seule source secondaire, non vérifié.
+- **Testable** : Oui. Chercher `.claude/settings.local.json` et `.claude/settings.json` dans vos dépôts et leur historique git. Si un secret y figure, le renouveler d'abord et nettoyer ensuite.
+
+### Gemini Omni 1.2 Flash (Google)
+- **Quoi** : Vidéo générée et éditée jusqu'à 15 s (10 s avant), édition conversationnelle sur toute la durée, environ 0,07 $/s en 720p (-30 %), meilleure cohérence visages et marques, SynthID.
 - **Date** : 5 novembre 2026
-- **Lien** : https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red ; https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/
-- **Pourquoi c'est important** : Premier modèle OpenAI classé Critical ; accès par paliers pour les capacités offensives.
-- **Testable** : Non — clients Daybreak Red approuvés (API, Codex), payant.
-
-### Claude Personal Finance (Anthropic)
-- **Quoi** : Liaison de comptes bancaires/cartes via Plaid (lecture seule, jusqu'à 2 ans de transactions) ; analyse des dépenses, factures, achats inhabituels. Pas d'entraînement sur ces conversations, pas de pub.
-- **Date** : 5 novembre 2026
-- **Lien** : https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/ ; https://www.macrumors.com/2026/11/05/claude-personal-finance/
-- **Pourquoi c'est important** : Claude entre dans la finance perso, 10 jours après le dépôt d'IPO d'Anthropic ; Anthony Pompliano l'accuse de copier sa startup.
-- **Testable** : Oui — bêta US, plans Pro/Max/Ultra (payant).
-
-### OpenAI lève 11 Md$ à 1,25 T$
-- **Quoi** : Première tranche d'environ 11 Md$ clôturée, tour pouvant monter à 20 Md$. Objectif initial (30 Md$ à 1,4-1,5 T$) revu à la baisse après la chute des valeurs IA.
-- **Date** : 6 novembre 2026
-- **Lien** : https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/ ; https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value
-- **Pourquoi c'est important** : +47 % vs mars (852 Md$) malgré un Nasdaq à −5,5 % jeudi ; l'IPO d'OpenAI serait repoussée.
-- **Testable** : Non.
-
-### Meta rachète Conductor
-- **Quoi** : Meta acquiert Conductor (orchestration d'agents de code en parallèle : Claude Code, Codex, Cursor), intégré à Meta Superintelligence Labs.
-- **Date** : 4 novembre 2026
-- **Lien** : https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/ ; https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/
-- **Pourquoi c'est important** : Consolidation de la couche d'orchestration d'agents de code ; service cloud fermé le 20 novembre.
-- **Testable** : Oui, jusqu'au 20 nov.
+- **Lien** : https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/ ; https://workspaceupdates.googleblog.com/2026/11/gemini-omni-12-flash-now-in-vids-with-15second-generations-and-improved-quality.html
+- **Pourquoi c'est important** : Baisse de prix et clips plus longs sur un modèle disponible partout (API, AI Studio, Vertex, Flow, Vids, Ads).
+- **Testable** : Oui, via Gemini API / AI Studio. Payant, fermé.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Render Sandboxes (bêta publique)
-- **Quoi** : Chaque agent obtient sa microVM Firecracker (démarrage < 1 s, suspension auto après 15 min avec snapshot mémoire), SDK TS/Python, templates Claude Managed Agents, Cursor Cloud Agents, OpenAI Agents API, LangGraph, Mastra. 254 votes sur Product Hunt.
+### Meta Muse : voix temps réel et avatars (Muse Realtime Voice / Avatar)
+- **Quoi** : Conversations vocales interruptibles et avatar animé, un seul système en streaming ; appels vidéo avec avatar. Un article rapporte un avatar distillé passant de 120 à 2 étapes de calcul, 12 sessions par GB200, ~870 ms jusqu'à la première image.
+- **Date** : 5 novembre 2026
+- **Lien** : https://www.unite.ai/meta-brings-real-time-voice-and-expressive-avatars-to-muse/
+- **Pourquoi c'est important** : Voice AI vers l'agent-avatar grand public. Aucune info sur le prix, la rétention des données ou le contrôle parental.
+- **Testable** : Oui, pour les utilisateurs US (mobile, web, Mac).
+
+### ChatGPT Images 2.6 (GIFs, images de référence, API)
+- **Quoi** : Création de GIF animés, images de référence réutilisables, deux nouveaux modèles API (GPT Image 2.6 Flare, vitesse, et Sunburst, qualité) annoncés 50 % plus rapides. 248 votes sur Product Hunt.
 - **Date** : 4 novembre 2026
-- **Lien** : https://render.com/blog/introducing-render-sandboxes
-- **Pourquoi c'est important** : Infra d'exécution dédiée aux agents, concurrente des sandboxes Vercel/E2B.
-- **Testable** : Oui — tous les plans Render (Oregon), payant à l'usage.
+- **Lien** : https://community.openai.com/t/images-upgraded-introducing-chatgpt-images-2-6/1412901
+- **Pourquoi c'est important** : Génération plus rapide côté API, et GIF natifs.
+- **Testable** : Oui (ChatGPT et API). Payant.
 
-### Meta Muse Realtime Voice & Avatar
-- **Quoi** : Appels vocaux/vidéo temps réel avec avatar expressif dans l'app Muse (interruption possible).
+### Qoduck, modèle « stealth » dans Alibaba Qoder
+- **Quoi** : Modèle de code sans origine déclarée, gratuit dans un quota quotidien pour les comptes individuels, pour une durée limitée. La communauté pense à Qwen 4, **non confirmé** (Alibaba Cloud : « Don't ask where it came from »).
+- **Date** : 7 novembre 2026
+- **Lien** : https://x.com/alibaba_cloud/status/2118992047613080032 ; https://startupfortune.com/alibabas-qoder-makes-a-mystery-coding-model-called-qoduck-free-to-use/
+- **Pourquoi c'est important** : Teaser Qwen « The becoming begins » la veille ; Qwen 4 serait en entraînement selon Alibaba (septembre).
+- **Testable** : Oui, via le sélecteur de modèle de Qoder International. Gratuit (limité), IDE fermé.
+
+### Mistral Studio : agents managés, apps, workflows + rachat de SkipLabs
+- **Quoi** : Agents managés et apps en preview publique, workflows en GA sur Mistral Cloud, déploiement privé/on-prem fin novembre. Acquisition de SkipLabs (génération de code, prix non communiqué).
 - **Date** : 5 novembre 2026
-- **Lien** : https://tokenpost.com/news/technology/50684 ; https://www.unite.ai/meta-brings-real-time-voice-and-expressive-avatars-to-muse/
-- **Pourquoi c'est important** : Voice AI grand public chez Meta ; pas d'API développeur.
-- **Testable** : Oui — US uniquement, 18+, gratuit.
+- **Lien** : https://fourweekmba.com/ai-mistral-adds-managed-agents-and-apps-to-its-studio-platform/ ; https://www.ventureatlas.org/news/2026-11-05-mistral-skiplabs
+- **Pourquoi c'est important** : Mistral monte en gamme vers l'agentique d'entreprise. Sources secondaires uniquement.
+- **Testable** : Oui (preview publique de Studio). Payant.
 
-### Perplexity Teammates
-- **Quoi** : Agents persistants qui possèdent un projet dans la durée (Perplexity Computer, Slack).
-- **Date** : 4-5 novembre 2026
-- **Lien** : https://mlq.ai/news/perplexitys-teammates-put-always-on-ai-agents-behind-a-200-monthly-paywall/
-- **Pourquoi c'est important** : Concurrence les agents OpenAI/Anthropic.
-- **Testable** : Oui — abonnés Max (~200 $/mois).
-
-### OpenAI ChatGPT Images 2.6
-- **Quoi** : Images 50 % plus rapides, GIF depuis prompts/photos/croquis ; API.
-- **Date** : ~4-6 novembre 2026
-- **Lien** : https://www.producthunt.com/products/openai ; https://community.openai.com/c/announcements/6
-- **Pourquoi c'est important** : Gain de vitesse, format animé.
-- **Testable** : Oui — ChatGPT/API (payant).
-
-### Gemini Omni 1.2 Flash (vidéo)
-- **Quoi** : GA, clips jusqu'à 15 s (Ultra), édition multi-tours, 720p à 0,07 $/s (−30 % vs 1.1) ; id `gemini-omni-1.2-flash`. 340 pts sur HN.
-- **Date** : 5 novembre 2026
-- **Lien** : https://x.com/Google/status/2118390413870412082 ; https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash
-- **Pourquoi c'est important** : Vidéo à coût réduit, dispo Vertex, AI Studio, Vids, Ads, Flow. Le 3 déc., omni-1.1-flash est redirigé vers 1.2.
-- **Testable** : Oui — Gemini API, AI Studio, app Gemini (payant).
-
-### Voix : Gemini 3.8 Flash TTS (voice remixing), Gradium Phonon, AssemblyAI-TTS-1
-- **Quoi** : Remix de voix par prompt (AI Studio, 4 nov.) ; Phonon, TTS on-device (5 nov.) ; premier TTS d'AssemblyAI.
-- **Lien** : https://cryptobriefing.com/google-launches-voice-remixing-for-gemini-38-flash-tts-in-ai-studio ; https://www.assemblyai.com/blog/voice-ai-in-2026-series-1
-- **Pourquoi c'est important** : Le TTS se banalise chez les fournisseurs STT ; option locale avec Phonon.
-- **Testable** : Oui — AI Studio ; Phonon open source (Hugging Face).
+### Autres lancements du jour (Product Hunt)
+- Exa Monitors v2 (recherche web planifiée qui déclenche un agent, 2 $ / 1 000 exécutions), LiveReview (revue de code gratuite avec auto-approbation des changements à faible risque), Framer AI Agents (966 votes). Liens : https://www.producthunt.com/products/exa-ai ; https://www.producthunt.com/products/livereview ; https://www.producthunt.com/products/framer
 
 ## 🧠 Mises à jour de Modèles
-- **Tencent Hy4** (open source, début nov.) : poids annoncés « dans les jours qui viennent », variante Flash à suivre. https://daily.dev/posts/tencent-launches-hy4-one-of-the-leading-open-source-ai-models-uballe0nx
-- **DeepSeek deepseek-v4-flash-0731** : source unique (tracker), à vérifier.
-- Aucune sortie open source confirmée au 7 nov.
-- r/LocalLLaMA : démo Qwen 3.8 (« QFN 3.8 » dans le titre) NVFP4 pilotant MS Paint via Open WebUI 0.13.0 + Open Terminal 0.17.2 (815 pts, post Reddit seul). https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/
+- Voir GPT-6 Cyber, Gemini Omni 1.2 Flash, Images 2.6 et Qoduck ci-dessus.
+- Mistral Large 4 (1 000 Md de paramètres) : poids ouverts publiés le 29 octobre, hors fenêtre de 72 h, voir « À surveiller ».
+- Le reste : RAS confirmé. Des trackers signalent DeepSeek v4-flash (5 nov), Tencent Hy4 (3 nov) et Kling VIDEO 4.0, mais sans confirmation fiable.
 
 ## 🔬 Research
-- **Anthropic « The Components of Agent Memory »** (lu) : mémoire d'agent par notes + « dreaming » (réorganisation hors ligne) ; sur CL-Bench 1.0, Opus 5 est le premier à fermer la boucle d'apprentissage (règles + preuves + pièges). https://www.anthropic.com/research/components-of-agent-memory
-- **METR / Anthropic** : accélération ~2× du rythme de développement, preuves en partie expurgées (digests ; post Reddit « 12× » non vérifié). https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
-- HN : « A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost » (juges LLM pour la résolution d'identité, Hightouch). https://hightouch.com/blog/llm-judges-identity-resolution
+- **Anthropic, « The Components of Agent Memory »** : le « dreaming » (réorganisation de la mémoire en temps mort, inspirée du sleep-time compute) et ses évaluations. 154 pts sur HN. https://www.anthropic.com/research/components-of-agent-memory — Testable : non (méthode).
+- **METR / Anthropic** : METR estime que les progrès de benchmark d'Anthropic vont environ 1,9× plus vite qu'avant octobre 2025 ; Anthropic a masqué une partie des preuves du rapport. Source secondaire, à confirmer : https://the420.in/anthropic-metr-ai-research-acceleration-report-redactions
+- **Fin du groupe AI Frontiers de Microsoft Research** : John Langford annonce la fin du groupe (~50 personnes, auteurs d'AutoGen et Fara) et son départ, après son rattachement à Microsoft AI. 423 pts sur HN. https://hunch.net/?p=13764006 — à noter pour qui dépend d'AutoGen.
+- **MaxxBench** : critique de la fiabilité du score DeepSWE (229 pts HN). https://maxxbench.unlap.ai/research/why-maxxbench/ — non lu.
 
 ## 📝 À surveiller
-- **Claude Code et e-mail du compte** : issue #107757 (5 nov., 1576 pts HN) — l'e-mail se retrouve dans le User-Agent de requêtes web. La v2.1.317 ajoute une confirmation avant envoi ; lien avec les arnaques non prouvé. https://github.com/anthropics/claude-code/issues/107757
-- **Marchés / IPO** : Nasdaq −5,5 % jeudi ; IPO Anthropic évaluée 1,2-1,3 T$ (vs 1,5 T$). https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout
-- **Thinking Machines Lab** : ~5 Md$ (Accel, 40 Md$ pre-money), Nvidia ~2,5 Md$ en discussion (reportage).
-- **Sécurité** : groupe lié à la Chine (« Vapor Panda », outil Artex + DeepSeek) contre 200+ organisations en 11 jours ; DOJ lance une Super Intelligence Task Force.
-- **Dropbox** rachète Tigris Data (350 M$) ; **Revolut** : −90 % de coûts d'inférence avec des modèles open-weight Z.ai.
-- **Mistral Large 4 open weights** (29 oct., > 72 h). https://mistral.ai/news/mistral-large-4-oss/
-- **Gemini** : modèles Pro réservés AI Pro+ dès le 13 nov. ; arrêt de previews Gemini 3 le 17 nov. https://ai.google.dev/gemini-api/docs/deprecations
-- **GitHub Copilot** : connecteurs « connect-once » (~26 services) en préversion.
-- **Open source GitHub Trending** : cloudflare/security-audit-skill (+2 088 ★), mattpocock/skills (+1 111), OpenMausBot (+1 986, alternative open source à un bot Grok), anthropics/skills, google/skills, vercel-labs/agent-browser (Rust, navigateur pour agents), ranxianglei/billion-context (compression de contexte). HN : Libghostty 1.0, Waymark (moteur de workflows), tmux-restore (sessions d'agents).
+- **Qwen 4** : probablement derrière Qoduck, aucune confirmation officielle ni poids publiés.
+- **Introduction en bourse d'Anthropic** : dossier déposé, Nasdaq visé mi-novembre, valorisation évaluée entre 1 et 1,5 T$ selon les sources (informations contradictoires, sources secondaires).
+- **Sécurité MCP** : des agents de code installent des serveurs MCP dépréciés qui ne seront jamais corrigés (Help Net Security, 3 nov). https://www.helpnetsecurity.com/2026/11/03/mcphantom-deprecated-mcp-servers/
+- **Rumeurs de financement non confirmées** : Thinking Machines Lab (~5 Md$ à 40 Md$ pré-money), Traversal (120 M$), CrowdStrike (rachat de deux startups de sécurité IA, 495 M$ au total).
+- **DeepMind** : un digest évoque une cryptanalyse assistée par IA rendant la falsification de signatures RSA-1024 environ 1 600× moins chère. Non vérifié, source unique.
+- **Mistral Large 4** (poids ouverts, 29 oct) et **Meta Muse Video / Image** (annoncés, pas encore disponibles).
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) GPT-6 Cyber (premier « Critical » d'OpenAI) ; 2) OpenAI 11 Md$ à 1,25 T$ dans un marché en repli, avec Claude Personal Finance en parallèle ; 3) Meta rachète Conductor / Render Sandboxes (infra et orchestration d'agents).
-- **À tester en priorité** : Gemini Omni 1.2 Flash, Render Sandboxes, voice remixing Gemini 3.8 TTS, Phonon (open source), skills Cloudflare/Google/Anthropic, Conductor avant le 20 nov. Vérifier que Claude Code est ≥ 2.1.317.
+- **Top 3 du jour** : (1) fuite de secrets via « don't ask again » de Claude Code ; (2) GPT-6 Cyber classé « Critical » ; (3) Gemini Omni 1.2 Flash (vidéo 15 s à 0,07 $/s).
+- **À tester en priorité** : auditer vos `.claude/settings*.json` ; Qoduck dans Qoder (gratuit) ; Gemini Omni 1.2 Flash via AI Studio ; Images 2.6 en API.
+
+### GitHub Trending (open source)
+- cloudflare/security-audit-skill (+2 085 aujourd'hui) : skill d'audit de sécurité multi-phases pour agents de code. https://github.com/cloudflare/security-audit-skill
+- milind-soni/OpenMausBot (+1 955) : alternative open source à un bot Grok, avec VM. https://github.com/milind-soni/OpenMausBot
+- mattpocock/skills (+1 100), google/skills (+443), anthropics/skills (+390) : les « skills » d'agents sont la tendance dominante.
+- vercel-labs/agent-browser (+190, Rust) : CLI d'automatisation de navigateur pour agents. https://github.com/vercel-labs/agent-browser
+- Communauté : agent local open source de surveillance par téléphone (r/LocalLLaMA, 293 pts).
