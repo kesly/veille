@@ -1,181 +1,160 @@
-# 🔥 Market Scan — 2026-11-08
+# 🔥 Market Scan — 2026-11-09
 
-> Collecte : treg 5/5 sources, 14 recherches extended, GitHub Trending ok, 5 pages lues, 4 candidats creusés (Pocket écarté : dépend d'un hardware).
+> Collecte : treg 5/5 sources, 13 recherches extended, GitHub Trending ok, 3 pages lues, 3 candidats creusés (fiches App Store : LangLearn, CarDash, Pocket).
 
 ## 📊 Résumé Exécutif
-- Apps analysées : 3 (filtre partiel pour Duly : app sortie il y a 5 jours, aucune traction publique encore)
-- Top potentiel : Duly (6.6/10, 🟡 BUILD ADJACENT)
+- Apps au radar : 15 · creusées : 3
+- Mon pari : Pari #1 Tuteur vocal d'anglais pour francophones (7.4/10, 🟡 BUILD ADJACENT)
 - Opportunités immédiates (BUILD NOW) : 0
 
+## 🎯 Quoi builder
+### Pari #1 : Tuteur vocal d'anglais pour francophones
+- **L'idée** : pour adultes francophones, conversations vocales avec un tuteur IA qui corrige l'accent français typique, 9,99 €/mois, prix et annulation affichés d'emblée.
+- **Preuve d'argent** : [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897) #10 éducation (600k$/mois estimation) ; [BoldVoice](https://www.prnewswire.com/news-releases/boldvoice-raises-21m-series-a-to-give-a-billion-non-native-english-speakers-their-own-ai-voice-coach-302671777.html) plus de 10 M$ ARR annoncé ; [Speak](https://getlatka.com/companies/speak.com) ~100 M$ ARR (presse).
+- **Le trou** : avis LangLearn (App Store, 30 1★ sur 50) : « They lie and say the app is free ». Aucune app vue ne cible les francophones (non vérifié par recherche dédiée).
+- **Pourquoi Kyle** : expertise voice AI, marché francophone connu.
+- **MVP** : conversation vocale temps réel ; retour sur 3 erreurs de prononciation par séance ; paywall transparent.
+- **Argent** : paywall après la première conversation de 3 min, 9,99 €/mois ou 59 €/an.
+- **Acquisition** : TikTok « ton accent français te trahit ». Accroche : « Essaie gratuitement, prix affiché avant ».
+- **Test en 48 h** : landing + démo vocale ; go si 30 emails sur 300 visites, stop sinon.
+
+### Pari #2 : Notes d'appels sans boîtier
+- **L'idée** : pour indépendants francophones, enregistrer appels et réunions avec résumé et tâches, 12 €/mois, sans matériel.
+- **Preuve d'argent** : [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735) #29 productivité, 27 M$ run-rate déclaré ; [Summary AI Note Taker](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056) #18 ; [Otter](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) #22.
+- **Le trou** : avis Pocket : « Nobody tells you that you have to spend $240 a year IN ADDITION to the hardware ». Source : fiche App Store.
+- **Pourquoi Kyle** : STT/voice et SaaS, cible francophone.
+- **MVP** : import/enregistrement d'appel ; résumé + actions ; export en un clic ; 4 semaines.
+- **Argent** : paywall au 3e résumé, 12 €/mois.
+- **Acquisition** : LinkedIn. Accroche : « Pocket sans le boîtier à 199 $ ».
+- **Test en 48 h** : post Reddit/LinkedIn ; go si 20 inscriptions liste d'attente.
+
+### Pari #3 : Dictée vocale française
+- **L'idée** : clavier de dictée IA français, correction et reformulation, 6 €/mois pour pros et étudiants.
+- **Preuve d'argent** : [Wispr Flow](https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487) #37 productivité, valo 2 Md$ (presse) ; Pro 15 $/mois ([source](https://talkpad.ai/blog/wispr-flow-pricing-2026/)).
+- **Le trou** : prix 15 $/mois et gratuit limité à 1 000 mots/semaine sur iPhone ; version française non vérifiée. Concurrence installée.
+- **Pourquoi Kyle** : voice AI, français.
+- **MVP** : clavier iOS, nettoyage du texte, dictionnaire perso ; 6 semaines.
+- **Argent** : paywall après 1 000 mots, 6 €/mois.
+- **Acquisition** : TikTok productivité. Accroche : « Dicte 3x plus vite qu'au clavier, en français ».
+- **Test en 48 h** : démo vidéo ; go si 100 clics vers liste d'attente.
+
+**Mon pari : #1 — Tuteur vocal d'anglais pour francophones** : meilleure preuve d'argent et un trou de prix transparent, avec le meilleur fit voice AI.
+
+## 🧮 Scorecard des paris
+| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ TTM 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit 15% | **Score** | Verdict | 3 traits |
+|---|---|---|---|---|---|---|---|---|---|
+| #1 Tuteur vocal anglais FR | 8 | 7 | 7 | 4 | 8 | 10 | **7.4** | 🟡 BUILD ADJACENT | 2 |
+| #2 Notes d'appels sans boîtier | 8 | 6 | 6 | 3 | 7 | 9 | **6.6** | 🟡 BUILD ADJACENT | 1 |
+| #3 Dictée vocale française | 8 | 5 | 5 | 3 | 7 | 10 | **6.45** | 🟡 BUILD ADJACENT | 2 |
+
+Scores en partie estimés ; la concurrence est forte sur les trois (Speak, Wispr, Otter).
+
+## 💰 Unit Economics — Pari #1 : Tuteur vocal d'anglais pour francophones
+Tout est `estimation`, sauf mention ; comparables : LangLearn (600k$/mois, tiers), Speak ([~100 M$ ARR](https://getlatka.com/companies/speak.com), 18 $/mois), Praktika (~8 $/mois).
+- ARR visé année 1 : ~120 k€ (1 000 abonnés × 10 €/mois). ARPU : ~8 €/mois net après commissions Apple.
+- Users : 8 000 installs, 12 % de conversion payante.
+- CAC : ~15 € (TikTok/Meta). LTV : ~50 € (rétention moyenne 6 mois). LTV/CAC : ~3,3.
+- Payback : ~2 mois. Burn : ~6 k€/mois (API voix, pubs). Runway : 12+ mois si autofinancé.
+- Rev/employee : 120 k€ (solo). Rule of 40 : non calculable (croissance initiale).
+- Verdict santé : 🟡 marge dépendante du coût des API temps réel.
+
+## 🔭 Radar — 15 apps
+| App | Signal | Âge | Ce qu'elle vend | Piste |
+|---|---|---|---|---|
+| [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897) | #10 éducation ; 600k$/mois estimation (screensdesign) | 565 j | Tuteur vocal IA anglais/espagnol, ~16 $/sem. selon avis | Avis « pas gratuit » : prix honnête |
+| [BoldVoice](https://screensdesign.com/apps/boldvoice-accent-training/) | #86 général éducation ; >10 M$ ARR annoncé | n/d | Coaching d'accent anglais | Accent anglais pour francophones |
+| [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735) | #29 productivité ; 27 M$ run-rate déclaré | 450 j | Boîtier 199 $ + Pro ~240 $/an | Version sans matériel |
+| [CarDash](https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175) | #30 utilitaires | 83 j | Vidéo sur CarPlay à l'arrêt | Beaucoup de « ne marche pas » |
+| [Wispr Flow](https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487) | #37 productivité ; valo 2 Md$ (presse) | n/d | Dictée vocale, Pro 15 $/mois | Version FR-first moins chère |
+| [Speak](https://apps.apple.com/us/app/speak-language-learning/id1286609883) | #11 éducation ; ~100 M$ ARR (presse 2025) | n/d | Tuteur vocal, ~18 $/mois | Marché francophone |
+| [Summary AI Note Taker](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056) | #18 productivité | n/d | Résumés de réunions | — |
+| [Plaud](https://apps.apple.com/us/app/plaud-ai-work-companion/id6450364080) | #27 productivité | n/d | Enregistreur IA matériel | — |
+| [MeAgain GLP-1](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #24 santé | n/d | Suivi GLP-1 | Marché FR à vérifier |
+| [SeaHaze](https://apps.apple.com/us/app/seahaze-create-your-story/id6478189868) | #12 lifestyle, 755 avis | 952 j | Histoires interactives IA | — |
+| [YayTalk](https://apps.apple.com/us/app/yaytalk-learn-speak-english/id6743074605) | #29 éducation ; 550k$/mois estimation | n/d | Tuteur anglais | Même angle que LangLearn |
+| [GodsView AI](https://x.com/jijojohnz/status/2117801747225661873) | 6k MRR déclaré | n/d | Produit IA, app iOS lancée | — |
+| [App de Tommy](https://x.com/tommy_builds/status/2117496806703759687) | 5k MRR déclaré en 2 mois | 2 mois | Non précisé | — |
+| [App de @tsuzuki817](https://x.com/tsuzuki817/status/2118864245500805613) | 4 253 $ en octobre déclaré | n/d | App mobile + pubs | — |
+| [Sage2](https://www.producthunt.com/products/sagecraft) | 198 votes PH | 1 j | Voix en données structurées | — |
+
 ## 💸 Apps qui font du cash
-**Revenus déclarés (déclaré, non vérifié)**
-- GodsView AI : 6 000 $ MRR, 4 nov 2026, 69k inscrits, 20k emails — [post](https://x.com/jijojohnz/status/2117801747225661873) (un post du 24 oct parlait de « presque 5k $ »).
-- App d'un dev de 18 ans (nom non donné) : 5 000 $ MRR en 2 mois, 3 nov 2026 — [post](https://x.com/tommy_builds/status/2117496806703759687). Produit non identifiable, recherche sans résultat.
-- Indie dev (tsuzuki817) : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $, Google Play 148 $), 7 nov — [post](https://x.com/tsuzuki817/status/2118864245500805613).
-- App B2C anonyme (johnny_schae) : 4 000 $ sur 28 jours, 1,6k $ MRR, 100 % organique, 1 nov — [post](https://x.com/johnny_schae/status/2116993422494138828).
-- Itsbongoo : 3 080 $ sur 28 jours, 339 $ MRR, 82 abonnés, 4 nov — [post](https://x.com/itsbongoo/status/2117850319308956153).
-- BuildingWaves : 1 000 $ MRR, lancé en septembre, 5 nov — [post](https://x.com/BuildingWaves/status/2118266663972003930).
-- Idanmasas : 173 $ MRR, 25 abonnés après 1 mois (app B2C mobile), 6 nov — [post](https://x.com/idanmasas/status/2118658888903901494).
-- Personal Best (Shaun Donnelly) : 5k $ MRR, ~500k téléchargements — [Indie Hackers](https://www.indiehackers.com/post/tech/building-a-5k-mrr-app-while-freelancing-to-keep-the-lights-on-JhX6p14De0nagI0j1Xg1) (sept 2026).
+**Revenus déclarés** (déclaré, non vérifié) :
+- Tommy (18 ans), app non nommée : 5k MRR, 3 nov. 2026 · [post](https://x.com/tommy_builds/status/2117496806703759687)
+- GodsView AI : 6k MRR, 69k inscrits, 4 nov. 2026 · [post](https://x.com/jijojohnz/status/2117801747225661873)
+- Indie dev (@tsuzuki817) : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $), 7 nov. · [post](https://x.com/tsuzuki817/status/2118864245500805613)
+- BuildingWaves : 1k MRR, lancé en septembre, 5 nov. · [post](https://x.com/BuildingWaves/status/2118266663972003930)
+- @idanmasas : 173 $ MRR, 25 abonnés, 6 nov. · [post](https://x.com/idanmasas/status/2118658888903901494)
+- @itsbongoo : 400 $ MRR, 96 abonnés actifs, 8 nov. · [post](https://x.com/itsbongoo/status/2119281702816428184)
+- BoldVoice : plus de 10 M$ ARR annoncé par l'entreprise, janv. 2026 · [PR](https://www.prnewswire.com/news-releases/boldvoice-raises-21m-series-a-to-give-a-billion-non-native-english-speakers-their-own-ai-voice-coach-302671777.html)
 
-**App Store US, top grossing (< 100k avis, un rang n'est pas un revenu)**
-- #7 productivité, Grok Bot, 21 408 avis : agents IA « collègues » (nouveau dans le top 100, [lien](https://apps.apple.com/us/app/grok-bot/id6794501026)).
-- #17 productivité, Summary AI Note Taker, 57 056 avis : notes IA ([lien](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056)).
-- #26 productivité, Pocket AI Assistant, 7 683 avis : enregistreur IA lié à un boîtier ([lien](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735)).
-- #37 productivité, Wispr Flow, 19 187 avis : clavier dictée vocale IA ([lien](https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487)).
-- #9 utilitaires, Authenticator ℠ App, 6 638 avis : 2FA par abonnement ([lien](https://apps.apple.com/us/app/authenticator-app/id6754900760)).
-- #10 éducation, LangLearn AI English Tutor, 22 445 avis : tuteur d'anglais IA ([lien](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897)).
-- #26 santé, MeAgain GLP-1 Tracker, 40 284 avis : suivi GLP-1 ([lien](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534)).
-- #11 lifestyle, SeaHaze, 752 avis : très peu d'avis pour son rang, à surveiller ([lien](https://apps.apple.com/us/app/seahaze-create-your-story/id6478189868)).
-- Mouvements vs 7 nov : Facetune 51→36, Bevel AI Health Coach 76→63, Hairify AI Hairstyle 92→78 ; nouveaux : Speak English with Loora AI (#92), Ziggy ASL (#77), Gleam (#90).
+**App Store US, top grossing < 100k avis** (un rang n'est pas un revenu) :
+- #10 éducation, LangLearn, 22 527 avis, tuteur IA d'anglais : [lien](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897)
+- #37 productivité, Wispr Flow, 19 266 avis, clavier dictée vocale : [lien](https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487)
+- #29 productivité, Pocket, 7 699 avis, notes IA liées au boîtier : [lien](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735)
+- #18 productivité, Summary AI Note Taker, 57 114 avis, résumés de réunions : [lien](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056)
+- #24 santé, MeAgain GLP-1 Tracker, 40 335 avis, suivi traitement GLP-1 : [lien](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534)
+- #12 lifestyle, SeaHaze, 755 avis, histoires interactives IA : [lien](https://apps.apple.com/us/app/seahaze-create-your-story/id6478189868)
+- #9 utilitaires, Authenticator ℠, 6 670 avis, 2FA : [lien](https://apps.apple.com/us/app/authenticator-app/id6754900760)
+- Mouvements : éducation, BoldVoice (nouveau→86), ELSA Speak (nouveau→93), Gizmo AI Tutor (38→26) ; santé, 6 trackers macros/fitness entrent entre #93 et #100.
 
-**Jeunes apps qui gagnent déjà**
-- #7 productivité, Grok Bot : sortie 11 août 2026 (88 j), vend des agents IA par abonnement X.
-- Aucune autre app < 365 jours dans la liste d'âge (surtout des leaders de 5 à 10 ans). Pocket (449 j) est juste au-dessus du seuil.
-- Leaders sans MAJ > 180 jours : aucun dans l'échantillon (tous mis à jour il y a moins de 30 jours).
+**Jeunes apps qui gagnent déjà** (< 365 j) :
+- CarDash, #30 utilitaires, sortie 2026-08-17 (83 j), vend la vidéo sur écran CarPlay à l'arrêt, abonnement. Seule app < 365 j de la liste.
+- Places à prendre (sans MAJ > 180 j) : QR Code Master (#47, MAJ il y a 185 j) ; VidEffect AI (#96, MAJ il y a 426 j) ; Mynovel (#76, MAJ il y a 1 024 j).
 
-## 🏆 TOP APP #1 : Duly: Life Organizer
-**Statut : filtre partiel.** Critères atteints : 1 sur 6 (Product Hunt, 73 votes le 8 nov). Manque : viralité, traction, revenus publics, médias. Choisie pour l'angle voice + productivité, proche de l'expertise de Kyle.
+## 🔬 App creusée #1 : LangLearn: AI English Tutor
+**1. Identification** : [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897), sortie 2025-04-22, AIFLAME TECHNOLOGY PTE. LTD. (Singapour), fondateurs introuvables, catégorie éducation. #10 top grossing éducation, 22 527 avis, 4.58★, 600k$/mois et 150k installs selon screensdesign (estimation, source tierce).
 
-### 1. Identification
-- [Duly: Life Organizer](https://apps.apple.com/us/app/duly-life-organizer/id6817079222), site [useduly.app](https://www.useduly.app/). iOS/iPad, freemium.
-- Sortie App Store : 2 nov 2026 (5 j). Développeur : Omer Balkan. Catégorie : productivité.
-- Buzz : 73 votes Product Hunt ([page](https://www.producthunt.com/products/duly-life-organizer)). 0 note sur l'App Store.
+**2. Proposition** : parler anglais (et espagnol) avec un tuteur IA adaptatif, correction de prononciation. Cible : débutants non anglophones, surtout hispanophones. Téléchargement gratuit, abonnement ~16 $/semaine d'après un avis (non vérifié).
 
-### 2. Proposition de valeur
-- Problème : trier à la main reminders, listes et idées. Solution : on tape sur l'orbe, on parle en vrac, l'app range chaque élément au bon endroit.
-- USP : modifier par la voix (« Move it to Friday »), annuler d'un geste ou en disant « undo that ». Pricing : gratuit ; Pro 4,99 $/mois ou 49,99 $/an, 7 jours d'essai, 10× plus d'usage, listes partagées, iCloud.
+**3. Les 3 décisions qui font l'argent** (estimation, d'après avis et screensdesign) : onboarding long (86 écrans) qui qualifie niveau et objectif ; paywall « Unlock Pro » répété avant tout usage, après l'investissement dans l'onboarding ; retour par leçons courtes quotidiennes.
 
-### 3. Les 3 décisions qui font l'argent (estimation, d'après le site)
-- Onboarding : un seul geste, l'orbe. Valeur immédiate sans compte (estimation).
-- Paywall : sur la limite d'usage (« keep rambling »), donc après le premier moment de magie. Le gratuit reste utile.
-- Retour : l'app devient le lieu où on dépose tout, plus les listes partagées (foyer) et iCloud.
+**4. Test des 3 traits** : ❌ émotion : confiance à parler, mais diffuse. ✅ résultat visible en quelques secondes : retour de prononciation immédiat. ❌ distribution intégrée : aucun partage ni code relevé.
 
-### 4. Test des 3 traits
-- ✅ Une émotion pour une action : soulagement de vider sa tête en parlant.
-- ✅ Résultat visible en quelques secondes : un monologue devient trois éléments rangés.
-- ❌ Distribution intégrée : seules les listes partagées invitent un tiers. Pas de partage de résultat ni de trend.
+**5. Ce qui manque** : 30 avis 1★ sur 50, quasi tous « publicité trompeuse, pas gratuit ». Citations : « They lie and say the app is free » ; « I cannot find a way to cancel ». MAJ il y a 10 j : pas de place sur ce critère.
 
-### 5. Ce qui manque
-- Avis non consultés : 0 avis à ce jour. Pas encore de plainte récurrente. App sortie il y a 5 jours, MAJ non applicable.
+**6. Acquisition** : pubs Meta non trouvées (aucune page d'app sûre ; pages écartées : EWA, Learna AI). Le libellé « gratuit » des avis suggère des pubs promettant une app gratuite (estimation).
 
-### 6. Acquisition
-- Pubs Meta non trouvées (la page « Duly » remontée est une société sans lien établi, écartée). Canaux vus : Product Hunt, promotion payante ([page PH marquée Promoted](https://www.producthunt.com/products/duly-life-organizer)).
+**7. Stack** : estimation : app native iOS/Android, STT/TTS temps réel, LLM de conversation, abonnement RevenueCat-like.
 
-### 7. Stack technique (estimation)
-- Swift/SwiftUI, iCloud (CloudKit), speech-to-text on-device ou API, LLM pour l'extraction structurée, StoreKit.
+**8. Réplication** : complexité 6/10. Niche : tuteur d'anglais pour francophones, facturation claire, annulation en un clic. Angle Kyle : voice AI temps réel. Dev : 6 à 8 semaines.
 
-### 8. Réplication
-- Complexité 4/10 pour un MVP. Temps de dev : 3 à 5 semaines.
-- Niche à prendre : marché très concurrentiel (Wispr Flow #37, Otter #22, Summary #17 dans le top grossing productivité). Angle pour Kyle : un Duly en français et multilingue, pour la voix en entrée, ou un vertical (artisans, soignants, parents) avec la voix comme interface principale.
+## 🔬 App creusée #2 : Pocket - AI Personal Assistant
+**1. Identification** : [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735), Open Vision Engineering, Inc. (YC, CEO Akshay Narisetti), app sortie 2025-08-15, boîtier lancé fin 2025. #29 productivité, 7 699 avis, 4.9★. Levée 11 M$ (Accel, juin 2026). Run-rate déclaré 27 M$ en mars 2026, puis 100 M$ selon [Entrepreneur](https://www.entrepreneur.com/business-news/pocket-has-already-sold-more-than-200000-units-of-its-ai-voice-recorder) (chiffres contradictoires, auto-déclarés).
 
-## 🏆 TOP APP #2 : Grok Bot
-**Critères atteints : 5/6** (viralité, croissance App Store, engagement, traction, communauté). Média : couverture secondaire seulement.
+**2. Proposition** : un enregistreur à clipser au dos du téléphone ; transcription, résumé, tâches. Cible : pros en réunions et appels. Boîtier 199 $ (129 $ en promo), Pro environ 240 $/an ou 29,99 $/mois (sources de blogs).
 
-### 1. Identification
-- [Grok Bot](https://apps.apple.com/us/app/grok-bot/id6794501026), éditeur X Corp. (xAI/SpaceXAI). Sortie App Store : 11 août 2026 (88 j), dernière MAJ 5 nov. Productivité, gratuit avec abonnement.
-- Buzz : #7 top grossing productivité, #77 général (nouveau, [Applyra](https://www.applyra.io/tools/top-charts/app-store/us/overall/grossing)), 4,92★ sur 20 642 notes, 7 482 étoiles GitHub cette semaine pour le clone [OpenMausBot](https://github.com/milind-soni/OpenMausBot).
+**3. Décisions** : onboarding par achat du matériel (estimation) ; paywall après usage : historique 30 jours et locuteurs derrière Pro ; retour par les enregistrements accumulés.
 
-### 2. Proposition de valeur
-- Des « collègues IA » qui se connectent à vos outils et continuent à travailler quand le laptop est fermé. Accès via l'abonnement X (Premium, Super, Ultra), pool d'usage hebdomadaire partagé avec Grok et Cursor ([source](https://continuumcode.ai/guides/grok-bot-limits/)).
+**4. 3 traits** : ✅ une émotion (« ne rien oublier »). ✅ résultat en secondes (résumé après appel). ❌ distribution intégrée : pas de partage viral relevé.
 
-### 3. Les 3 décisions qui font l'argent
-- Onboarding : créer un bot en un message, comme un collègue (estimation).
-- Paywall : le quota hebdomadaire qui se vide, puis recharge « on demand » à 50 $ (cité dans un avis).
-- Retour : les bots tournent seuls et reviennent avec du travail fini.
+**5. Ce qui manque** : plainte n°1 : l'abonnement en plus du matériel. « Nobody tells you that you have to spend $240 a year IN ADDITION to the hardware » ; « Comes with yet another subscription ». Aussi : pas d'AirPods en appel. MAJ il y a 2 j.
 
-### 4. Test des 3 traits
-- ✅ Une émotion pour une action : déléguer et se libérer.
-- ✅ Résultat en quelques secondes : le bot répond et démarre tout de suite.
-- ❌ Distribution : aucune boucle de partage dans le produit, la distribution vient de X.
+**6. Acquisition** : pubs Meta non trouvées (page d'app non identifiée). Canaux : presse (Business Insider, Entrepreneur), TikTok produit (estimation).
 
-### 5. Ce qui manque
-- Plainte n°1 : usage coupé de moitié sans annonce. « usage limits are unusable » ; « Kneecapped ». Plainte n°2 : plantages à la saisie. « Crashes every time I try to make my second one ». 12 avis 1★ sur 50. Version fraîche (MAJ il y a 3 j).
+**7. Stack** : estimation : BLE, STT cloud, LLM, app iOS.
 
-### 6. Acquisition
-- Pubs Meta non trouvées (page « Grok Bot One-Man Brand », 1 like, écartée). Distribution par la base d'abonnés X et la presse ; un [article](https://pasqualepillitteri.it/en/news/29414/grok-bot-usage-limits-100-percent-overnight-musk-costs) rapporte que Musk a qualifié le coût d'insoutenable, non vérifié à la source.
+**8. Réplication** : matériel exclu pour Kyle, mais la version logicielle seule (notes d'appels et réunions, prix clair, français) est faisable : 5/10, 5 semaines. Concurrents installés : Otter #22, Summary #18, Plaud #27.
 
-### 7. Stack technique (estimation)
-- Agents LLM propriétaires, VM par bot, app iOS native, intégrations navigateur et outils.
+## 🔬 App creusée #3 : CarDash: Video Player for Cars
+**1. Identification** : [CarDash](https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175), Laigang Wang (individuel), sortie 2026-08-17 (83 j), utilitaires, #30, 1 568 avis, 4.63★ (note qui contredit les avis récents). Revenu non trouvé : `preuve faible`.
 
-### 8. Réplication
-- Complexité 8/10, 4 à 6 mois. Place à prendre : le leader déçoit (quotas opaques). Angle pour Kyle : agents vocaux à prix fixe, sans quota surprise, pour un métier précis.
+**2. Proposition** : lire ses vidéos (M3U/IPTV, Photos, mirroring) sur écran CarPlay à l'arrêt, score de conduite, widgets. Abonnement ~25 à 40 $/an d'après les avis (non vérifié).
 
-## 🏆 TOP APP #3 : GodsView AI
-**Critères atteints : 3/6** (croissance, traction, communauté). Filtre partiel sur la viralité : 609k vues en 90 jours selon le fondateur.
+**3. Décisions** (estimation) : onboarding minimal ; paywall dur avant toute fonction (« pressured me to buy a subscription before letting me to use any of the app features ») ; retour : faible, l'usage est ponctuel.
 
-### 1. Identification
-- [GodsView AI](https://godsviewai.com/), web (pas d'app iOS confirmée : le site se contredit), fondateur Jijo John, ex-ingénieur Auth0. Lancé en septembre 2026 selon les posts.
-- Buzz (déclaré, non vérifié) : 6 000 $ MRR, 69 000 inscrits, 20 000 emails ([post](https://x.com/jijojohnz/status/2117801747225661873)). Le 24 oct : 197k utilisateurs, ~5k $ MRR ([post](https://x.com/jijojohnz/status/2115150982216577448)).
+**4. 3 traits** : ✅ émotion : l'attente en voiture devient du temps de vidéo. ❌ résultat en secondes : beaucoup d'avis « ne marche pas ». ❌ distribution : aucune.
 
-### 2. Proposition de valeur
-- Un globe en direct : vols, navires, satellites, séismes, incendies, caméras publiques, plus un fil d'actualités. Aucune clé ni installation.
-- Pricing : gratuit avec bannières et pause après 30 min ; Pro 10,99 $/mois, 99,99 $/an, 199,99 $ à vie.
+**5. Ce qui manque** : 33 avis 1★ sur 50, « ne marche pas avec mon véhicule / iOS 27.2 », et « scam ». « Doesn't work i need my refund ASAP ». MAJ il y a 2 j (< 180 j).
 
-### 3. Les 3 décisions qui font l'argent
-- Onboarding : ouverture directe du globe sans compte (estimation).
-- Paywall : la limite de 30 minutes de visionnage en direct.
-- Retour : alertes pour « mes lieux », séismes du jour, « qu'est-ce qui survole chez moi ».
+**6. Acquisition** : pubs Meta non trouvées. Aucun autre canal relevé.
 
-### 4. Test des 3 traits
-- ✅ Émotion : curiosité, sensation de tout voir.
-- ✅ Résultat visible immédiatement : le globe s'affiche en quelques secondes.
-- ✅ Distribution intégrée : SEO massif (pages par ville, comparatifs « God's Eye View alternatives ») et un trend X.
+**7. Stack** : estimation : CarPlay, AirPlay, Screen Broadcast.
 
-### 5. Ce qui manque
-- Avis non consultés (pas d'app iOS confirmée). Un répondant sur X disait n'avoir vu qu'un écran de connexion. La concurrence est des clones open source du « God's Eye View ».
-
-### 6. Acquisition
-- Pubs Meta non trouvées (non recherchées : produit web). Canaux : SEO programmatique, X en build in public, 18k+ emails.
-
-### 7. Stack technique
-- Hébergé sur Hetzner (déclaré), flux publics de données aéronautiques et maritimes. Reste non documenté.
-
-### 8. Réplication
-- Complexité 6/10, 2 à 3 mois. Niche : le vertical en direct pour un public (alertes météo, logistique). Angle pour Kyle : interface vocale « qu'est-ce qui se passe près de moi » sur ces données.
-
-## 💰 Unit Economics Deep Dive — Duly
-Tout est `estimation` : l'app a 5 jours et n'a publié aucun chiffre.
-
-| Métrique | Estimation |
-|---|---|
-| Users (12 mois) | 40 000 |
-| Conversion payante | 3 % → 1 200 abonnés |
-| ARPU payant | ~40 $/an (mix annuel 49,99 $ et mensuel) |
-| ARR | ~48 000 $ |
-| CAC | 8 à 15 $ (créateurs, ASO) |
-| LTV | ~70 $ (rétention annuelle ~55 %) |
-| LTV/CAC | 5 à 8 |
-| Payback | 3 à 5 mois |
-| Burn / Runway | ~3 000 $/mois (LLM, speech, Apple) ; solo, runway long |
-| Rev/Employee | ~48 000 $ (1 personne) |
-| Rule of 40 | non calculable (pas de croissance publiée) |
-
-Verdict : 🟡. Marge brute exposée au coût des appels LLM et speech sur les gros parleurs. Le cap de 10× l'usage gratuit protège. Aucune donnée publique ne confirme ces ordres de grandeur.
-
-## 🎯 Opportunity Scorecard — Top 3
-| # | App | 📊 Market | ⚙️ Complex. | ⏱️ TTM | 🏟️ Compét. | 💰 Revenu | 🧑‍💻 Fit Kyle | Score | 3 traits | Verdict |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Duly | 7 | 8 | 8 | 3 | 5 | 9 | **6.60** | 2/3 | 🟡 BUILD ADJACENT |
-| 2 | Grok Bot | 8 | 3 | 3 | 3 | 8 | 6 | **5.45** | 2/3 | 🟠 WATCH |
-| 3 | GodsView AI | 6 | 6 | 6 | 5 | 5 | 3 | **5.20** | 3/3 | 🟠 WATCH |
-
-Honnêteté : Duly est 1er grâce au fit et à la vitesse de build, pas à une traction prouvée. La concurrence voice productivité est saturée (3/10).
+**8. Réplication** : 7/10, dépend d'Apple (la lecture vidéo CarPlay à l'arrêt est évoquée dans iOS 26.4 beta, non confirmé) ; risque plateforme élevé, mauvais fit pour Kyle. Écarté des paris.
 
 ## 📈 Tendances Émergentes
-**Où va l'argent**
-- Productivité concentre les montées IA/voix : Grok Bot (#7), Summary (#17), Otter (#22), Pocket (#26), Wispr Flow (#37), Duly (PH). Éducation : beaucoup de nouveaux entrants IA/langues (Loora #92, LangLearn #10, Ziggy #77). Santé : GLP-1 (MeAgain #26) et suivi IA (Bevel 76→63).
-- Accroches pub : non mesurables ce run (aucune page Meta fiable trouvée), donc pas de récurrence à signaler.
-
-**Autres signaux**
-- Agents de code : GitHub Trending dominé par la mémoire d'agents (claude-mem 7 482 ★/sem), skills et worktrees ([trending](https://github.com/trending?since=weekly)).
-- Quotas d'usage IA : la colère des utilisateurs de Grok Bot montre le risque des pools d'usage opaques.
-- Voice AI B2B : Guava lève 12,5 M$ en seed (Acrew) ([fintech.global](https://fintech.global/2026/11/06/guava-secures-12-5m-for-high-stakes-voice-ai-calls/)).
-- Build in public : 3 comptes à 1 à 6k $ MRR cette semaine, souvent avec une liste d'emails ou du SEO plutôt qu'une app pure.
-
-## 💡 Insights Actionnables
-1. Prototyper un « Duly francophone » : orbe vocale, extraction reminders/listes/idées, modification par la voix. 3 à 5 semaines. À valider d'abord par ses premiers avis dans 2 semaines.
-2. Capter les déçus de Grok Bot : un agent vocal à prix fixe, sans quota hebdomadaire. Prendre la plainte « usage coupé sans annonce » comme angle de message.
-3. SEO programmatique + liste d'emails avant l'app : c'est le moteur de GodsView AI (59k inscrits, 18k emails).
-4. Ajouter une boucle de partage dès le départ (le trait manquant de Duly et Grok Bot) : résultat partageable ou trend.
-5. Relancer la collecte dans 7 jours : reprendre les avis de Duly et vérifier si une page Meta d'app fiable apparaît.
+- **Où va l'argent** : l'éducation concentre le plus de nouveaux entrants du top (BoldVoice, ELSA, Clever, Udemy, Reading Eggs, 6+ entrées) et de montées (Gizmo 38→26) ; la santé voit 6 trackers macros/fitness entrer vers #93-100 ; la productivité voit entrer Notion, Kimi, un chatbot IA. La voix est le fil commun : tuteurs vocaux, dictée (Wispr Flow #37), notes d'appels.
+- **Accroches pub** : non collectées (aucune page Meta identifiée). Le thème qui revient dans les avis des deux apps vocales : le « gratuit » qui ne l'est pas, signe d'une accroche gratuite suivie d'un paywall dur.
+- **Matériel + abonnement** : Pocket montre que les clients paient 199 $ puis se plaignent de l'abonnement ; l'espace est ouvert aux versions logicielles.
+- **Agents de code** : GitHub Trending dominé par les skills et mémoires pour agents (t3code, claude-mem, skills), HN par Claude Code (Goldman Sachs, fuite de secrets). Pas de signal revenu direct.
+- **Fiabilité** : les revenus d'apps (screensdesign, Latka) sont des estimations tierces ; ceux de Pocket diffèrent d'un facteur 4 selon la source.
