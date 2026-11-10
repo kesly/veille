@@ -1,160 +1,155 @@
-# 🔥 Market Scan — 2026-11-09
+# 🔥 Market Scan — 2026-11-10
 
-> Collecte : treg 5/5 sources, 13 recherches extended, GitHub Trending ok, 3 pages lues, 3 candidats creusés (fiches App Store : LangLearn, CarDash, Pocket).
+> Collecte : treg 5/5 sources, 2 recherches extended (+1 fetch), GitHub Trending ok, 0 page lue (treg read non utilisé), 3 candidats creusés (fiche App Store + avis). Les recherches web ont peu trouvé de revenus : limite assumée, voir « preuve faible » dans les paris.
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Tuteur vocal d'anglais pour francophones (7.4/10, 🟡 BUILD ADJACENT)
+- Mon pari : Pari #1 Facture simple pour artisans francophones (6,7/10, 🟡 BUILD ADJACENT)
 - Opportunités immédiates (BUILD NOW) : 0
 
+## 🧭 Où l'argent se déplace
+Mouvements sur 3 jours seulement (premier relevé food, business, travel, social : pas de comparaison pour elles).
+
+| Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
+|---|---|---|---|---|
+| Plan de repas sous budget (food) | TapCook #3, mise #5, Whipp #9, Potto #12, NeatEat #15 : 5 apps jeunes dans le top 15 (premier relevé) | meal planner app 2 400/mois, CPC 5,38 $, stable ; budget meal plan 1 000, CPC 3,48 $ ; grocery list app 6 600, en baisse (8 100→4 400) | Whipp 4,67★ : 23 avis 1★ sur 47, essai jugé trompeur ; eMeals #13 52 808 avis | oui : essai honnête + prix magasin fiables |
+| Suivi GLP-1 et repas (health) | MeAgain #30 ; Foodvisor 59→39, MacrosFirst nouveau→81 en 3 j | glp-1 meal plan 2 900, CPC 5,55 $, 1 900→3 600 ; glp-1 tracker 480, CPC 3,44 $ ; calorie counter app 49 500, CPC 3,27 $ | MeAgain 4,79★, MAJ il y a 60 j, saisie des repas pénible | à creuser : tracker pris, plan de repas non |
+| Facturation et devis pros (business) | Invoice Maker #13, Joist #14, Invoice2go #16, SimplyWise #12 (premier relevé) | invoice maker 12 100/mois, CPC 28,9 $ ; invoice app 2 900, CPC 42,6 $ ; estimate app for contractors 320, CPC 57,2 $ | Tofu 4,83★, 37 177 avis, plaintes de facturation et de support | à creuser : CPC très haut ; version FR non vérifiée |
+| Langue des signes (education) | Ziggy nouveau→53 en 3 j | learn asl 14 800/mois, CPC 2,83 $, pic 27 100 récent, concurrence faible | Ziggy 4,8★, 7 164 avis ; version française non vérifiée | à creuser |
+| Identifier plantes et champignons (education) | Picture Mushroom nouveau→87, Plantaria nouveau→91 | plant identifier app 40 500/mois, CPC 3,33 $, saisonnier (pic 90 500) | 4,5–4,7★, 12 841–24 710 avis | à creuser : saisonnalité |
+| Co-parentalité (productivity) | OurFamilyWizard 36→26 | co-parenting app 27 100/mois, CPC 5,31 $, en baisse (49 500→8 100) | OFW 4,6★ ; TalkingParents 4,4★ | non : demande qui baisse |
+| Utilitaires TV et QR (utilities) | QR Code Master nouveau→26, TV remotes #24 #28 #81 | qr code generator 823 000, CPC 3,79 $ ; tv remote app 12 100, CPC 2,94 $, plat | Beaucoup de clones, avis élevés | non : saturé |
+| Suivi de vols et offres (travel) | Airclub #5, Going #13 (premier relevé) | cheap flights alerts 590, CPC 2,48 $ ; flight deals app 260 | 4,7–4,8★ | non : demande faible |
+
 ## 🎯 Quoi builder
-### Pari #1 : Tuteur vocal d'anglais pour francophones
-- **L'idée** : pour adultes francophones, conversations vocales avec un tuteur IA qui corrige l'accent français typique, 9,99 €/mois, prix et annulation affichés d'emblée.
-- **Preuve d'argent** : [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897) #10 éducation (600k$/mois estimation) ; [BoldVoice](https://www.prnewswire.com/news-releases/boldvoice-raises-21m-series-a-to-give-a-billion-non-native-english-speakers-their-own-ai-voice-coach-302671777.html) plus de 10 M$ ARR annoncé ; [Speak](https://getlatka.com/companies/speak.com) ~100 M$ ARR (presse).
-- **Le trou** : avis LangLearn (App Store, 30 1★ sur 50) : « They lie and say the app is free ». Aucune app vue ne cible les francophones (non vérifié par recherche dédiée).
-- **Pourquoi Kyle** : expertise voice AI, marché francophone connu.
-- **MVP** : conversation vocale temps réel ; retour sur 3 erreurs de prononciation par séance ; paywall transparent.
-- **Argent** : paywall après la première conversation de 3 min, 9,99 €/mois ou 59 €/an.
-- **Acquisition** : TikTok « ton accent français te trahit ». Accroche : « Essaie gratuitement, prix affiché avant ».
-- **Test en 48 h** : landing + démo vocale ; go si 30 emails sur 300 visites, stop sinon.
+### Pari #1 : Facture simple pour artisans francophones
+- **L'idée** : app de factures et devis pour artisans et auto-entrepreneurs français, lien de paiement inclus, 9 €/mois.
+- **Preuve d'argent** : [Invoice Maker by Tofu](https://apps.apple.com/us/app/invoice-maker-estimate-app/id1314873764) #13 business, 37 177 avis ; [Joist](https://apps.apple.com/us/app/joist-estimate-invoice-maker/id592163563) #14 ; [Invoice2go](https://apps.apple.com/us/app/invoice2go-easy-invoice-maker/id540236748) #16. Demande : « invoice maker » 12 100/mois, CPC 28,9 $, stable.
+- **Le trou** : plaintes de support et de prélèvement (« still got Charge », avis Tofu) et pas de duplication. Version française : non vérifiée.
+- **Pourquoi Kyle** : SaaS full-stack, marché francophone, pas de vocal. L'obligation de facture électronique en France est une hypothèse de fond (estimation, à vérifier).
+- **MVP** : devis→facture, duplication, lien de paiement ; 5 à 6 semaines.
+- **Argent** : paywall à la 3e facture ; 9 €/mois.
+- **Acquisition** : SEO « logiciel de facturation artisan ». Accroche : « Ta facture envoyée avant de quitter le chantier ».
+- **Test en 48 h** : landing + 100 € de pub ; go si 30 emails, stop sous 10.
 
-### Pari #2 : Notes d'appels sans boîtier
-- **L'idée** : pour indépendants francophones, enregistrer appels et réunions avec résumé et tâches, 12 €/mois, sans matériel.
-- **Preuve d'argent** : [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735) #29 productivité, 27 M$ run-rate déclaré ; [Summary AI Note Taker](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056) #18 ; [Otter](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) #22.
-- **Le trou** : avis Pocket : « Nobody tells you that you have to spend $240 a year IN ADDITION to the hardware ». Source : fiche App Store.
-- **Pourquoi Kyle** : STT/voice et SaaS, cible francophone.
-- **MVP** : import/enregistrement d'appel ; résumé + actions ; export en un clic ; 4 semaines.
-- **Argent** : paywall au 3e résumé, 12 €/mois.
-- **Acquisition** : LinkedIn. Accroche : « Pocket sans le boîtier à 199 $ ».
-- **Test en 48 h** : post Reddit/LinkedIn ; go si 20 inscriptions liste d'attente.
+### Pari #2 : Plan de repas budget, essai honnête
+- **L'idée** : planificateur de dîners sous budget pour familles françaises, 6 €/mois.
+- **Preuve d'argent** : [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) #3 food ; [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) #9. Demande : meal planner app 2 400/mois, CPC 5,38 $.
+- **Le trou** : « Trial Scam » / « ingredient pricing does not match actual store pricing » (avis Whipp, 1★).
+- **Pourquoi Kyle** : produit web/mobile classique, vente en français.
+- **MVP** : plan hebdo, liste de courses, total ; 6 à 8 semaines.
+- **Argent** : paywall après le premier plan visible.
+- **Acquisition** : TikTok recettes à petit budget. Accroche : « Une semaine de dîners à moins de 60 € ».
+- **Test en 48 h** : vidéo TikTok + landing ; go si 50 inscrits.
 
-### Pari #3 : Dictée vocale française
-- **L'idée** : clavier de dictée IA français, correction et reformulation, 6 €/mois pour pros et étudiants.
-- **Preuve d'argent** : [Wispr Flow](https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487) #37 productivité, valo 2 Md$ (presse) ; Pro 15 $/mois ([source](https://talkpad.ai/blog/wispr-flow-pricing-2026/)).
-- **Le trou** : prix 15 $/mois et gratuit limité à 1 000 mots/semaine sur iPhone ; version française non vérifiée. Concurrence installée.
-- **Pourquoi Kyle** : voice AI, français.
-- **MVP** : clavier iOS, nettoyage du texte, dictionnaire perso ; 6 semaines.
-- **Argent** : paywall après 1 000 mots, 6 €/mois.
-- **Acquisition** : TikTok productivité. Accroche : « Dicte 3x plus vite qu'au clavier, en français ».
-- **Test en 48 h** : démo vidéo ; go si 100 clics vers liste d'attente.
+### Pari #3 : Plan de repas pour utilisateurs GLP-1
+- **L'idée** : plans de repas riches en protéines pour utilisateurs GLP-1, web, 12 $/mois, marché US.
+- **Preuve d'argent** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) #30 health ; Foodvisor 59→39 en 3 j. Demande : glp-1 meal plan 2 900/mois, CPC 5,55 $, en hausse.
+- **Le trou** : « difficult to log the meals » (avis MeAgain, 3★).
+- **Pourquoi Kyle** : web, hors vocal. Limite : régulation santé, à cadrer.
+- **MVP** : profil, plan protéiné, liste de courses ; 5 semaines.
+- **Argent** : paywall au deuxième plan.
+- **Acquisition** : SEO. Accroche : « Manger assez de protéines quand on n'a plus faim ».
+- **Test en 48 h** : landing ; go si 5 % d'inscription.
 
-**Mon pari : #1 — Tuteur vocal d'anglais pour francophones** : meilleure preuve d'argent et un trou de prix transparent, avec le meilleur fit voice AI.
+**Mon pari : #1 — Facture simple pour artisans francophones**, car le CPC de 28,9 $ montre l'argent et Kyle le vend en français.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ TTM 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit 15% | **Score** | Verdict | 3 traits |
+| Pari | 📊 20% | ⚙️ 15% | ⏱️ 15% | 🏟️ 15% | 💰 20% | 🧑‍💻 15% | Score | Verdict | 3 traits |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Tuteur vocal anglais FR | 8 | 7 | 7 | 4 | 8 | 10 | **7.4** | 🟡 BUILD ADJACENT | 2 |
-| #2 Notes d'appels sans boîtier | 8 | 6 | 6 | 3 | 7 | 9 | **6.6** | 🟡 BUILD ADJACENT | 1 |
-| #3 Dictée vocale française | 8 | 5 | 5 | 3 | 7 | 10 | **6.45** | 🟡 BUILD ADJACENT | 2 |
+| #1 Facture artisans FR | 7 | 6 | 6 | 5 | 7 | 9 | **6,7** | 🟡 BUILD ADJACENT | 2 |
+| #2 Plan de repas budget | 6 | 6 | 6 | 4 | 6 | 7 | **5,85** | 🟠 WATCH | 1 |
+| #3 Repas GLP-1 | 7 | 5 | 5 | 3 | 7 | 6 | **5,65** | 🟠 WATCH | 1 |
 
-Scores en partie estimés ; la concurrence est forte sur les trois (Speak, Wispr, Otter).
+Scores honnêtes mais approximatifs (estimation) : aucune donnée de revenu directe.
 
-## 💰 Unit Economics — Pari #1 : Tuteur vocal d'anglais pour francophones
-Tout est `estimation`, sauf mention ; comparables : LangLearn (600k$/mois, tiers), Speak ([~100 M$ ARR](https://getlatka.com/companies/speak.com), 18 $/mois), Praktika (~8 $/mois).
-- ARR visé année 1 : ~120 k€ (1 000 abonnés × 10 €/mois). ARPU : ~8 €/mois net après commissions Apple.
-- Users : 8 000 installs, 12 % de conversion payante.
-- CAC : ~15 € (TikTok/Meta). LTV : ~50 € (rétention moyenne 6 mois). LTV/CAC : ~3,3.
-- Payback : ~2 mois. Burn : ~6 k€/mois (API voix, pubs). Runway : 12+ mois si autofinancé.
-- Rev/employee : 120 k€ (solo). Rule of 40 : non calculable (croissance initiale).
-- Verdict santé : 🟡 marge dépendante du coût des API temps réel.
+## 💰 Unit Economics — Pari #1 : Facture simple pour artisans francophones
+Tout est estimation (comparables : Tofu, Joist, Invoice2go ; aucune source de revenu consultée).
+- ARR visé à 12 mois : 60 k€ (500 abonnés à 9 €/mois)
+- ARPU : 9 €/mois · users payants : 500
+- CAC : 40 € (SEO + pub) · LTV : 9 € × 70 % de marge × 18 mois ≈ 113 € · LTV/CAC ≈ 2,8
+- Payback : ≈ 6 mois · Burn : ≈ 500 €/mois (outils, pub) · Runway : plus de 12 mois en solo
+- Rev/Employee : 60 k€ (1 personne) · Rule of 40 : non calculable
+- Verdict : 🟡 viable en solo, fragile en acquisition payante.
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897) | #10 éducation ; 600k$/mois estimation (screensdesign) | 565 j | Tuteur vocal IA anglais/espagnol, ~16 $/sem. selon avis | Avis « pas gratuit » : prix honnête |
-| [BoldVoice](https://screensdesign.com/apps/boldvoice-accent-training/) | #86 général éducation ; >10 M$ ARR annoncé | n/d | Coaching d'accent anglais | Accent anglais pour francophones |
-| [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735) | #29 productivité ; 27 M$ run-rate déclaré | 450 j | Boîtier 199 $ + Pro ~240 $/an | Version sans matériel |
-| [CarDash](https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175) | #30 utilitaires | 83 j | Vidéo sur CarPlay à l'arrêt | Beaucoup de « ne marche pas » |
-| [Wispr Flow](https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487) | #37 productivité ; valo 2 Md$ (presse) | n/d | Dictée vocale, Pro 15 $/mois | Version FR-first moins chère |
-| [Speak](https://apps.apple.com/us/app/speak-language-learning/id1286609883) | #11 éducation ; ~100 M$ ARR (presse 2025) | n/d | Tuteur vocal, ~18 $/mois | Marché francophone |
-| [Summary AI Note Taker](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056) | #18 productivité | n/d | Résumés de réunions | — |
-| [Plaud](https://apps.apple.com/us/app/plaud-ai-work-companion/id6450364080) | #27 productivité | n/d | Enregistreur IA matériel | — |
-| [MeAgain GLP-1](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #24 santé | n/d | Suivi GLP-1 | Marché FR à vérifier |
-| [SeaHaze](https://apps.apple.com/us/app/seahaze-create-your-story/id6478189868) | #12 lifestyle, 755 avis | 952 j | Histoires interactives IA | — |
-| [YayTalk](https://apps.apple.com/us/app/yaytalk-learn-speak-english/id6743074605) | #29 éducation ; 550k$/mois estimation | n/d | Tuteur anglais | Même angle que LangLearn |
-| [GodsView AI](https://x.com/jijojohnz/status/2117801747225661873) | 6k MRR déclaré | n/d | Produit IA, app iOS lancée | — |
-| [App de Tommy](https://x.com/tommy_builds/status/2117496806703759687) | 5k MRR déclaré en 2 mois | 2 mois | Non précisé | — |
-| [App de @tsuzuki817](https://x.com/tsuzuki817/status/2118864245500805613) | 4 253 $ en octobre déclaré | n/d | App mobile + pubs | — |
-| [Sage2](https://www.producthunt.com/products/sagecraft) | 198 votes PH | 1 j | Voix en données structurées | — |
+| [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) | #9 food, 745 avis | 150 j | Plan de dîners sous budget + liste chiffrée, essai puis abonnement | Essai « piège », prix magasin faux |
+| [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) | #3 food, 7 201 avis | n.c. | Plans de repas petit budget | À creuser : même niche que Whipp |
+| [mise](https://apps.apple.com/us/app/mise-meal-planner/id6777471316) | #5 food, 4 795 avis | n.c. | Planificateur de repas | Niche saturée de jeunes apps |
+| [Invoice Maker by Tofu](https://apps.apple.com/us/app/invoice-maker-estimate-app/id1314873764) | #13 business, 37 177 avis, 4,83★ | 3 259 j | Factures et devis, paiement en ligne, relances | Pas de version FR, pas de duplication |
+| [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #30 health, 40 457 avis | 577 j | Suivi GLP-1, premium 14,99–119,99 $ | Saisie des repas pénible |
+| Foodvisor (lien non relevé) | health 59→#39 en 3 j | n.c. | Compteur de calories par photo | Demande « calorie counter » 49 500/mois |
+| Ziggy: Learn ASL (lien non relevé) | #53 education, nouveau, 7 164 avis | n.c. | Apprendre la langue des signes | « learn asl » 14 800/mois, pas d'équivalent LSF vérifié |
+| Knowunity: AI Study | #76 education, nouveau | n.c. | Fiches et aide aux devoirs IA | Marché FR déjà ciblé : à vérifier |
+| QR Code Master | #26 utilities (47→26 en 1 j), 1 914 avis | n.c. | Scan et création de QR | Peu d'avis pour ce rang : jeune |
+| Cuffed | #17 lifestyle (38→17), 10 285 avis | n.c. | Rencontres pour couples/relations | — |
+| Airclub: Flight Deals | #5 travel, 19 293 avis | n.c. | Alertes vols pas chers | Concurrent de Going (#13) |
+| Artera: Blood Pressure Log | #69 lifestyle, 627 avis | 78 j | Journal de tension | Jeune, niche santé légère |
+| [GodsView AI](https://x.com/jijojohnz/status/2117801747225661873) | 6k+ MRR déclaré | n.c. | App d'IA, 69k inscrits, 20k emails | Liste d'emails comme actif |
+| [helumi](https://x.com/letcontactabhi/status/2119685259348635928) | 916 $ MRR déclaré | 1 mois | App Mac solo | — |
+| Gravl: AI Personal Trainer | health 79→#58, 6 308 avis | n.c. | Coach de musculation IA | « ai personal trainer » 720/mois, CPC 5 $ |
 
 ## 💸 Apps qui font du cash
-**Revenus déclarés** (déclaré, non vérifié) :
-- Tommy (18 ans), app non nommée : 5k MRR, 3 nov. 2026 · [post](https://x.com/tommy_builds/status/2117496806703759687)
-- GodsView AI : 6k MRR, 69k inscrits, 4 nov. 2026 · [post](https://x.com/jijojohnz/status/2117801747225661873)
-- Indie dev (@tsuzuki817) : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $), 7 nov. · [post](https://x.com/tsuzuki817/status/2118864245500805613)
-- BuildingWaves : 1k MRR, lancé en septembre, 5 nov. · [post](https://x.com/BuildingWaves/status/2118266663972003930)
-- @idanmasas : 173 $ MRR, 25 abonnés, 6 nov. · [post](https://x.com/idanmasas/status/2118658888903901494)
-- @itsbongoo : 400 $ MRR, 96 abonnés actifs, 8 nov. · [post](https://x.com/itsbongoo/status/2119281702816428184)
-- BoldVoice : plus de 10 M$ ARR annoncé par l'entreprise, janv. 2026 · [PR](https://www.prnewswire.com/news-releases/boldvoice-raises-21m-series-a-to-give-a-billion-non-native-english-speakers-their-own-ai-voice-coach-302671777.html)
+**Revenus déclarés (déclaré, non vérifié)**
+- Projet d'un fondateur de 18 ans : 5k MRR, 2 mois après lancement, 2026-11-03 — [post](https://x.com/tommy_builds/status/2117496806703759687)
+- GodsView AI : 6k+ MRR, 69 000 inscrits, 1re app iOS, 2026-11-04 — [post](https://x.com/jijojohnz/status/2117801747225661873)
+- Dev indé (tsuzuki817) : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $), 2026-11-07 — [post](https://x.com/tsuzuki817/status/2118864245500805613)
+- Outil avec forte concurrence (BuildingWaves) : 1k MRR depuis septembre, 2026-11-05 — [post](https://x.com/BuildingWaves/status/2118266663972003930)
+- App mobile B2C (ndhabarde11) : 1k MRR après 10 mois, 2026-11-04 — [post](https://x.com/ndhabarde11/status/2117987828324085942)
+- helumi (app Mac) : 916 $ MRR en un mois, 2026-11-09 — [post](https://x.com/letcontactabhi/status/2119685259348635928)
+- App B2C d'un couple : 173 $ MRR, 25 abonnés, 2026-11-06 — [post](https://x.com/idanmasas/status/2118658888903901494)
+- App scalée à 5k (itsbongoo) : 339 $ MRR, 82 abonnés, 2026-11-04 — [post](https://x.com/itsbongoo/status/2117850319308956153)
 
-**App Store US, top grossing < 100k avis** (un rang n'est pas un revenu) :
-- #10 éducation, LangLearn, 22 527 avis, tuteur IA d'anglais : [lien](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897)
-- #37 productivité, Wispr Flow, 19 266 avis, clavier dictée vocale : [lien](https://apps.apple.com/us/app/wispr-flow-ai-voice-keyboard/id6497229487)
-- #29 productivité, Pocket, 7 699 avis, notes IA liées au boîtier : [lien](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735)
-- #18 productivité, Summary AI Note Taker, 57 114 avis, résumés de réunions : [lien](https://apps.apple.com/us/app/summary-ai-note-taker/id6670175056)
-- #24 santé, MeAgain GLP-1 Tracker, 40 335 avis, suivi traitement GLP-1 : [lien](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534)
-- #12 lifestyle, SeaHaze, 755 avis, histoires interactives IA : [lien](https://apps.apple.com/us/app/seahaze-create-your-story/id6478189868)
-- #9 utilitaires, Authenticator ℠, 6 670 avis, 2FA : [lien](https://apps.apple.com/us/app/authenticator-app/id6754900760)
-- Mouvements : éducation, BoldVoice (nouveau→86), ELSA Speak (nouveau→93), Gizmo AI Tutor (38→26) ; santé, 6 trackers macros/fitness entrent entre #93 et #100.
+**App Store US (rang, pas revenu)**
+- #3 food, TapCook: Budget Meal Plans, 7 201 avis — plans de repas petit budget
+- #5 food, mise - meal planner, 4 795 avis — planificateur de repas
+- #9 food, Whipp, 745 avis — plan hebdo + liste de courses chiffrée
+- #12 business, SimplyWise: Cost Estimator, 41 721 avis — devis pour pros
+- #10 health, MacroFactor, 23 925 avis — suivi de macros
+- #30 health, MeAgain, 40 457 avis — suivi GLP-1
+- #26 utilities, QR Code Master (47→26 en 1 j), 1 914 avis — scan/génération de QR
+- #53 education, Ziggy: Learn ASL (nouveau, vs 3 j), 7 164 avis — langue des signes
 
-**Jeunes apps qui gagnent déjà** (< 365 j) :
-- CarDash, #30 utilitaires, sortie 2026-08-17 (83 j), vend la vidéo sur écran CarPlay à l'arrêt, abonnement. Seule app < 365 j de la liste.
-- Places à prendre (sans MAJ > 180 j) : QR Code Master (#47, MAJ il y a 185 j) ; VidEffect AI (#96, MAJ il y a 426 j) ; Mynovel (#76, MAJ il y a 1 024 j).
+**Jeunes apps (< 365 j)** : Whipp (sortie 2026-06-12, 150 j, #9 food) ; SleepSense (110 j, #77 health, suivi du sommeil) ; Artera (78 j, #69 lifestyle, journal de tension) ; FamiGuru (100 j, #93 lifestyle, 1,89★ sur 9 avis : à ignorer).
+**Leaders sans MAJ > 180 j** : aucun trouvé (Track My Flight Now à 179 j, #12 travel, 611 avis, 4,2★ : limite).
 
-## 🔬 App creusée #1 : LangLearn: AI English Tutor
-**1. Identification** : [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897), sortie 2025-04-22, AIFLAME TECHNOLOGY PTE. LTD. (Singapour), fondateurs introuvables, catégorie éducation. #10 top grossing éducation, 22 527 avis, 4.58★, 600k$/mois et 150k installs selon screensdesign (estimation, source tierce).
+## 🔬 App creusée #1 : Whipp (food & drink)
+1. **Identification** : [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199), EVOY LTD (Londres), fondateurs non trouvés. Sortie App Store 2026-06-12 (150 j), MAJ 2026-11-05 (v2.0). Food & Drink, #9 top grossing food, 4,67★ sur 742 notes, 50 000+ téléchargements Android (AppBrain). Gratuit à l'installation, abonnement après essai. Revenu : aucune donnée.
+2. **Proposition** : fin du « qu'est-ce qu'on mange à 18 h ». Plan de dîners de la semaine en moins d'une minute selon budget, magasin, goûts ; liste de courses par rayon avec total. Cible US et UK.
+3. **Les 3 décisions** : onboarding qui impose les préférences puis un essai (3 jours d'après un avis) avant tout contenu ; paywall tombé juste après les préférences, au pic d'envie, mais sans valeur montrée (cause des avis 1★) ; retour par la liste de courses hebdo, courses en ligne et « marquer cuisiné » (v2.0, notes de version).
+4. **3 traits** : ✅ une émotion pour une action (soulagement du dîner) ; ❌ résultat en quelques secondes : bloqué derrière le paywall ; ❌ distribution intégrée : rien de relevé.
+5. **Ce qui manque** : 23 avis 1★ sur 47, surtout l'essai. « Signed up... cancelled five minutes after... still got charged a monthly fee » ; « The ingredient pricing does not match actual store pricing ». MAJ il y a 4 j : pas de place à prendre par abandon.
+6. **Acquisition** : 0 pub Meta active, 0 lancée depuis 7 jours (page à 3 likes, à vérifier que c'est la bonne). Autres canaux : non trouvés.
+7. **Stack** : estimation : app native/cross-platform, backend de génération de recettes IA, source de prix par magasin.
+8. **Réplication** : 6/10 (les prix par magasin sont le vrai travail). Verticaux adjacents : repas GLP-1, repas sans allergènes. Niche : essai honnête, 5 concurrents jeunes mais fortement notés. Angle Kyle : version francophone avec prix de drive (estimation). Temps : 6 à 8 semaines.
 
-**2. Proposition** : parler anglais (et espagnol) avec un tuteur IA adaptatif, correction de prononciation. Cible : débutants non anglophones, surtout hispanophones. Téléchargement gratuit, abonnement ~16 $/semaine d'après un avis (non vérifié).
+## 🔬 App creusée #2 : Invoice Maker by Tofu (business)
+1. **Identification** : [Invoice Maker by Tofu](https://apps.apple.com/us/app/invoice-maker-estimate-app/id1314873764), GetPaid Inc., sortie 2017-12-08 (3 259 j), MAJ 2026-11-08. Business, #13 business, 4,83★ sur 37 177 notes, « 1,9 million d'entreprises depuis 2018 » (description). Gratuit, achats in-app. Fondateurs non trouvés.
+2. **Proposition** : factures et devis en minutes pour freelances et artisans, paiement par lien ou QR, relances automatiques.
+3. **Les 3 décisions** : onboarding rapide (« less than a min » dans un avis) ; paywall probable sur les fonctions avancées après la première facture (estimation) ; retour par les relances et paiements en ligne.
+4. **3 traits** : ✅ émotion : être payé ; ✅ résultat visible en secondes : facture PDF prête ; ✅ distribution intégrée : lien de paiement et QR envoyés au client.
+5. **Ce qui manque** : « Cancelled on Apple and still got Charge » ; plainte fonctionnelle : dupliquer une facture. « would be great to duplicate and change the name ». Pas de personnalisation des couleurs. MAJ il y a 1 j.
+6. **Acquisition** : pubs Meta non trouvées (pages écartées : Lava Invoice Maker, App395 Smart Invoice). SEO probable vu le CPC de « invoice maker » à 28,9 $ (estimation).
+7. **Stack** : estimation : mobile natif, backend de paiement (Stripe), génération PDF.
+8. **Réplication** : 5/10 (paiements, conformité). Adjacents : devis chantier, relances. Niche : leader qui déçoit sur le support. Angle Kyle : facture conforme France (e-facture), voir pari #1. Temps : 6 semaines.
 
-**3. Les 3 décisions qui font l'argent** (estimation, d'après avis et screensdesign) : onboarding long (86 écrans) qui qualifie niveau et objectif ; paywall « Unlock Pro » répété avant tout usage, après l'investissement dans l'onboarding ; retour par leçons courtes quotidiennes.
-
-**4. Test des 3 traits** : ❌ émotion : confiance à parler, mais diffuse. ✅ résultat visible en quelques secondes : retour de prononciation immédiat. ❌ distribution intégrée : aucun partage ni code relevé.
-
-**5. Ce qui manque** : 30 avis 1★ sur 50, quasi tous « publicité trompeuse, pas gratuit ». Citations : « They lie and say the app is free » ; « I cannot find a way to cancel ». MAJ il y a 10 j : pas de place sur ce critère.
-
-**6. Acquisition** : pubs Meta non trouvées (aucune page d'app sûre ; pages écartées : EWA, Learna AI). Le libellé « gratuit » des avis suggère des pubs promettant une app gratuite (estimation).
-
-**7. Stack** : estimation : app native iOS/Android, STT/TTS temps réel, LLM de conversation, abonnement RevenueCat-like.
-
-**8. Réplication** : complexité 6/10. Niche : tuteur d'anglais pour francophones, facturation claire, annulation en un clic. Angle Kyle : voice AI temps réel. Dev : 6 à 8 semaines.
-
-## 🔬 App creusée #2 : Pocket - AI Personal Assistant
-**1. Identification** : [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735), Open Vision Engineering, Inc. (YC, CEO Akshay Narisetti), app sortie 2025-08-15, boîtier lancé fin 2025. #29 productivité, 7 699 avis, 4.9★. Levée 11 M$ (Accel, juin 2026). Run-rate déclaré 27 M$ en mars 2026, puis 100 M$ selon [Entrepreneur](https://www.entrepreneur.com/business-news/pocket-has-already-sold-more-than-200000-units-of-its-ai-voice-recorder) (chiffres contradictoires, auto-déclarés).
-
-**2. Proposition** : un enregistreur à clipser au dos du téléphone ; transcription, résumé, tâches. Cible : pros en réunions et appels. Boîtier 199 $ (129 $ en promo), Pro environ 240 $/an ou 29,99 $/mois (sources de blogs).
-
-**3. Décisions** : onboarding par achat du matériel (estimation) ; paywall après usage : historique 30 jours et locuteurs derrière Pro ; retour par les enregistrements accumulés.
-
-**4. 3 traits** : ✅ une émotion (« ne rien oublier »). ✅ résultat en secondes (résumé après appel). ❌ distribution intégrée : pas de partage viral relevé.
-
-**5. Ce qui manque** : plainte n°1 : l'abonnement en plus du matériel. « Nobody tells you that you have to spend $240 a year IN ADDITION to the hardware » ; « Comes with yet another subscription ». Aussi : pas d'AirPods en appel. MAJ il y a 2 j.
-
-**6. Acquisition** : pubs Meta non trouvées (page d'app non identifiée). Canaux : presse (Business Insider, Entrepreneur), TikTok produit (estimation).
-
-**7. Stack** : estimation : BLE, STT cloud, LLM, app iOS.
-
-**8. Réplication** : matériel exclu pour Kyle, mais la version logicielle seule (notes d'appels et réunions, prix clair, français) est faisable : 5/10, 5 semaines. Concurrents installés : Otter #22, Summary #18, Plaud #27.
-
-## 🔬 App creusée #3 : CarDash: Video Player for Cars
-**1. Identification** : [CarDash](https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175), Laigang Wang (individuel), sortie 2026-08-17 (83 j), utilitaires, #30, 1 568 avis, 4.63★ (note qui contredit les avis récents). Revenu non trouvé : `preuve faible`.
-
-**2. Proposition** : lire ses vidéos (M3U/IPTV, Photos, mirroring) sur écran CarPlay à l'arrêt, score de conduite, widgets. Abonnement ~25 à 40 $/an d'après les avis (non vérifié).
-
-**3. Décisions** (estimation) : onboarding minimal ; paywall dur avant toute fonction (« pressured me to buy a subscription before letting me to use any of the app features ») ; retour : faible, l'usage est ponctuel.
-
-**4. 3 traits** : ✅ émotion : l'attente en voiture devient du temps de vidéo. ❌ résultat en secondes : beaucoup d'avis « ne marche pas ». ❌ distribution : aucune.
-
-**5. Ce qui manque** : 33 avis 1★ sur 50, « ne marche pas avec mon véhicule / iOS 27.2 », et « scam ». « Doesn't work i need my refund ASAP ». MAJ il y a 2 j (< 180 j).
-
-**6. Acquisition** : pubs Meta non trouvées. Aucun autre canal relevé.
-
-**7. Stack** : estimation : CarPlay, AirPlay, Screen Broadcast.
-
-**8. Réplication** : 7/10, dépend d'Apple (la lecture vidéo CarPlay à l'arrêt est évoquée dans iOS 26.4 beta, non confirmé) ; risque plateforme élevé, mauvais fit pour Kyle. Écarté des paris.
+## 🔬 App creusée #3 : MeAgain (santé)
+1. **Identification** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), Dots Future Technologies, sortie 2025-04-11 (577 j), MAJ 2026-09-10 (60 j). Health & Fitness, #30 health, 4,79★ sur 40 395 notes. Annonce 807 000 utilisateurs (leur site, octobre). Premium de 14,99 à 119,99 $ (comparatif tiers). Revenu : aucune donnée.
+2. **Proposition** : suivi des doses (piqûres, pilules), repas, protéines, eau, effets secondaires, poids. Cible : utilisateurs de Zepbound, Wegovy, Ozempic.
+3. **Les 3 décisions** : onboarding par traitement ; paywall sur les fonctions complètes (avis : « Capybara » absent de la version gratuite) ; retour par un petit animal virtuel qui réagit au suivi (avis : « Keeping the little pet happy does make you wanna do... »), widget et rappels.
+4. **3 traits** : ✅ émotion : la peur de mal faire sous traitement ; ✅ résultat visible : jauge protéines/eau du jour ; ❌ distribution intégrée : rien de relevé.
+5. **Ce qui manque** : saisie des repas. « I usually end up putting my food into ChatGPT to got the macros » ; « difficult to log the meals and more difficult if you want to edit it ». Code-barres lacunaire. MAJ il y a 60 j, pas > 180 j.
+6. **Acquisition** : pubs Meta non trouvées (pages écartées : Mingo, Nuvo, concurrents). Beaucoup de sites de comparatifs SEO (shotsyapp, helloregimen).
+7. **Stack** : estimation : natif iOS, base alimentaire, reconnaissance code-barres.
+8. **Réplication** : 5/10. Adjacent : plan de repas pour utilisateurs GLP-1. Niche : leader qui déçoit sur les repas. Angle Kyle : seulement web, hors régulation (aucun conseil médical). Temps : 6 semaines.
 
 ## 📈 Tendances Émergentes
-- **Où va l'argent** : l'éducation concentre le plus de nouveaux entrants du top (BoldVoice, ELSA, Clever, Udemy, Reading Eggs, 6+ entrées) et de montées (Gizmo 38→26) ; la santé voit 6 trackers macros/fitness entrer vers #93-100 ; la productivité voit entrer Notion, Kimi, un chatbot IA. La voix est le fil commun : tuteurs vocaux, dictée (Wispr Flow #37), notes d'appels.
-- **Accroches pub** : non collectées (aucune page Meta identifiée). Le thème qui revient dans les avis des deux apps vocales : le « gratuit » qui ne l'est pas, signe d'une accroche gratuite suivie d'un paywall dur.
-- **Matériel + abonnement** : Pocket montre que les clients paient 199 $ puis se plaignent de l'abonnement ; l'espace est ouvert aux versions logicielles.
-- **Agents de code** : GitHub Trending dominé par les skills et mémoires pour agents (t3code, claude-mem, skills), HN par Claude Code (Goldman Sachs, fuite de secrets). Pas de signal revenu direct.
-- **Fiabilité** : les revenus d'apps (screensdesign, Latka) sont des estimations tierces ; ceux de Pocket diffèrent d'un facteur 4 selon la source.
+- **Accroches pub** : aucune récupérée (seule Whipp a une page, 0 pub active). Promesse récurrente des descriptions : « en moins d'une minute » (Whipp, Tofu).
+- **Essais gratuits mal vécus** : 10 avis 1★ sur 47 de Whipp parlent d'un essai « gratuit » facturé tout de suite.
+- **Jeunes apps de repas** : 5 apps de moins d'un an dans le top 15 food.
+- **GLP-1** : la demande « glp-1 meal plan » a presque doublé en 12 mois (1 900→3 600).
+- **Revenus indés** : la plupart des posts sont à 200–1 000 $ MRR ; peu dépassent 5k.
+- **Agents IA** : GitHub Trending dominé par les CLI pour agents (vercel-labs/agent-desktop, anthropics/skills, claude-mem). Hacker News : Fable 5.2 en tête.
+- **Source** : bloc « Où l'argent bouge » sur 3 jours seulement.
