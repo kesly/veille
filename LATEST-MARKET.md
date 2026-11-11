@@ -1,155 +1,169 @@
-# 🔥 Market Scan — 2026-11-10
+# 🔥 Market Scan — 2026-11-11
 
-> Collecte : treg 5/5 sources, 2 recherches extended (+1 fetch), GitHub Trending ok, 0 page lue (treg read non utilisé), 3 candidats creusés (fiche App Store + avis). Les recherches web ont peu trouvé de revenus : limite assumée, voir « preuve faible » dans les paris.
+> Collecte : treg 5/5 sources, 4 recherches extended (couverture réduite), GitHub Trending ok, 0 page lue (`read` non lancé), 3 candidats creusés (3 fiches App Store, 1 appel `demand` de 28 mots-clés).
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Facture simple pour artisans francophones (6,7/10, 🟡 BUILD ADJACENT)
+- Mon pari : Pari #1 Revente FR, scan et annonce Vinted/Leboncoin (6.15/10, 🟡 BUILD ADJACENT)
 - Opportunités immédiates (BUILD NOW) : 0
 
 ## 🧭 Où l'argent se déplace
-Mouvements sur 3 jours seulement (premier relevé food, business, travel, social : pas de comparaison pour elles).
+Demande : Google US via `demand` (volume/mois, CPC, tendance 12 mois). Comparaison de classement sur 4 jours seulement (vs 2026-11-07).
 
-| Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
+| Niche (catégorie) | Mouvement | Demande | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Plan de repas sous budget (food) | TapCook #3, mise #5, Whipp #9, Potto #12, NeatEat #15 : 5 apps jeunes dans le top 15 (premier relevé) | meal planner app 2 400/mois, CPC 5,38 $, stable ; budget meal plan 1 000, CPC 3,48 $ ; grocery list app 6 600, en baisse (8 100→4 400) | Whipp 4,67★ : 23 avis 1★ sur 47, essai jugé trompeur ; eMeals #13 52 808 avis | oui : essai honnête + prix magasin fiables |
-| Suivi GLP-1 et repas (health) | MeAgain #30 ; Foodvisor 59→39, MacrosFirst nouveau→81 en 3 j | glp-1 meal plan 2 900, CPC 5,55 $, 1 900→3 600 ; glp-1 tracker 480, CPC 3,44 $ ; calorie counter app 49 500, CPC 3,27 $ | MeAgain 4,79★, MAJ il y a 60 j, saisie des repas pénible | à creuser : tracker pris, plan de repas non |
-| Facturation et devis pros (business) | Invoice Maker #13, Joist #14, Invoice2go #16, SimplyWise #12 (premier relevé) | invoice maker 12 100/mois, CPC 28,9 $ ; invoice app 2 900, CPC 42,6 $ ; estimate app for contractors 320, CPC 57,2 $ | Tofu 4,83★, 37 177 avis, plaintes de facturation et de support | à creuser : CPC très haut ; version FR non vérifiée |
-| Langue des signes (education) | Ziggy nouveau→53 en 3 j | learn asl 14 800/mois, CPC 2,83 $, pic 27 100 récent, concurrence faible | Ziggy 4,8★, 7 164 avis ; version française non vérifiée | à creuser |
-| Identifier plantes et champignons (education) | Picture Mushroom nouveau→87, Plantaria nouveau→91 | plant identifier app 40 500/mois, CPC 3,33 $, saisonnier (pic 90 500) | 4,5–4,7★, 12 841–24 710 avis | à creuser : saisonnalité |
-| Co-parentalité (productivity) | OurFamilyWizard 36→26 | co-parenting app 27 100/mois, CPC 5,31 $, en baisse (49 500→8 100) | OFW 4,6★ ; TalkingParents 4,4★ | non : demande qui baisse |
-| Utilitaires TV et QR (utilities) | QR Code Master nouveau→26, TV remotes #24 #28 #81 | qr code generator 823 000, CPC 3,79 $ ; tv remote app 12 100, CPC 2,94 $, plat | Beaucoup de clones, avis élevés | non : saturé |
-| Suivi de vols et offres (travel) | Airclub #5, Going #13 (premier relevé) | cheap flights alerts 590, CPC 2,48 $ ; flight deals app 260 | 4,7–4,8★ | non : demande faible |
+| Télécommande / miroir TV (utilities) | 13 apps montent : Screen Mirroring 38→20, Smart TV 48→32, Remote Samsung 66→50 (4 j) | « tv remote app » 12 100, 2,94 $, stable ; « screen mirroring app » 5 400, 2,27 $, stable | Screen Mirroring 4,6★, 15k avis, MAJ 5 j ; 35 avis 1★ sur 50, paywall | à creuser : demande stable, offre qui monte, mais saturé |
+| Suivi de colis (shopping) | #3, #5, #13 dans le top ; 1er relevé shopping | « parcel tracking app » 720, 3,13 $, pic à 2 900 ; « package tracker app » 210 | Tracker #3 4,4★, MAJ 48 j ; 32 avis 1★ sur 50 « payer pour suivre » | à creuser : demande faible, plainte forte |
+| Revente / thrift (shopping) | ThriftAI #8, Offload AI #9 (83 j), WorthPoint #11 (2,1★) | « resell app » 2 400, 8,68 $, 1 600→2 900 | WorthPoint 2,1★ ; ThriftAI 4,8★ | oui : demande qui monte, CPC élevé, pas de version FR trouvée (estimation) |
+| Macros et GLP-1 (health) | MacrosFirst nouveau→89, Carbon nouveau→96, BitePal nouveau→94 ; Lyfta nouveau→83 | « calorie counter app » 49 500 ; « glp-1 tracker » 480, 3,44 $, 390→590 ; « macro tracker app » 1 000 | MeAgain 4,8★, MAJ 61 j ; plainte « hate the new update » | oui : demande GLP-1 en hausse, FR absent (estimation) |
+| Langues (education) | ELSA nouveau→96, EWA nouveau→99, BoldVoice nouveau→89 | « language learning app » 27 100 mais 22 200→8 100 en baisse ; « accent training app » 480, 5,46 $ | Pimsleur, Speak, ELSA : marché mûr | non : demande en baisse (vocal) |
+| Prise de notes IA (productivity) | Wave 77→64, Notee 91→81, Live Transcribe nouveau→94 | « ai note taker » 22 200, 12,44 $, concurrence haute | Otter, Plaud, Evernote | non : saturé |
+| Co-parentalité (productivity) | AppClose 45→23 | « co-parenting app » 27 100, 5,31 $, 49 500→8 100 | OurFamilyWizard, TalkingParents 4,4★ | à creuser : mouvement fort mais demande qui chute |
+| Interior design IA (lifestyle) | AI Interior Decor 86→75, iScape nouveau→81 | « ai interior design » 5 400, 5,54 $, en baisse | App de 369 j, 4,8★ | à creuser |
 
 ## 🎯 Quoi builder
-### Pari #1 : Facture simple pour artisans francophones
-- **L'idée** : app de factures et devis pour artisans et auto-entrepreneurs français, lien de paiement inclus, 9 €/mois.
-- **Preuve d'argent** : [Invoice Maker by Tofu](https://apps.apple.com/us/app/invoice-maker-estimate-app/id1314873764) #13 business, 37 177 avis ; [Joist](https://apps.apple.com/us/app/joist-estimate-invoice-maker/id592163563) #14 ; [Invoice2go](https://apps.apple.com/us/app/invoice2go-easy-invoice-maker/id540236748) #16. Demande : « invoice maker » 12 100/mois, CPC 28,9 $, stable.
-- **Le trou** : plaintes de support et de prélèvement (« still got Charge », avis Tofu) et pas de duplication. Version française : non vérifiée.
-- **Pourquoi Kyle** : SaaS full-stack, marché francophone, pas de vocal. L'obligation de facture électronique en France est une hypothèse de fond (estimation, à vérifier).
-- **MVP** : devis→facture, duplication, lien de paiement ; 5 à 6 semaines.
-- **Argent** : paywall à la 3e facture ; 9 €/mois.
-- **Acquisition** : SEO « logiciel de facturation artisan ». Accroche : « Ta facture envoyée avant de quitter le chantier ».
-- **Test en 48 h** : landing + 100 € de pub ; go si 30 emails, stop sous 10.
+### Pari #1 : Revente FR, scan et annonce Vinted/Leboncoin
+- **L'idée** : pour les revendeurs particuliers français, photographier un objet, obtenir un prix de revente et une annonce prête, 6,99 €/semaine ou 39,99 €/an.
+- **Preuve d'argent** : [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) #8 shopping (20 830 avis) ; [Offload AI](https://apps.apple.com/us/app/offload-ai/id6790490668) #9 (83 j, 265 avis) ; [SellRaze](https://apps.apple.com/us/app/sellraze-list-sell-earn/id6455042085) #6.
+- **Le trou** : [WorthPoint](https://apps.apple.com/us/app/worthpoint/id1472512649) 2,1★ sur 117 avis (fiche App Store) ; aucune version FR trouvée (estimation, pas vérifié sur l'App Store FR).
+- **Pourquoi Kyle** : dev full-stack, vision + LLM en API, il connaît le marché FR.
+- **MVP** : scan photo avec fourchette de prix, texte d'annonce FR, suivi des ventes ; 4 semaines.
+- **Argent** : paywall après le premier scan, quand le prix s'affiche floué ; essai 3 jours.
+- **Acquisition** : TikTok « j'ai revendu X € ». Accroche : « Ce pull vaut 38 € sur Vinted, pas 5 ».
+- **Test en 48 h** : landing + vidéo TikTok ; go à 100 inscrits sur liste d'attente, stop sous 30.
 
-### Pari #2 : Plan de repas budget, essai honnête
-- **L'idée** : planificateur de dîners sous budget pour familles françaises, 6 €/mois.
-- **Preuve d'argent** : [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) #3 food ; [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) #9. Demande : meal planner app 2 400/mois, CPC 5,38 $.
-- **Le trou** : « Trial Scam » / « ingredient pricing does not match actual store pricing » (avis Whipp, 1★).
-- **Pourquoi Kyle** : produit web/mobile classique, vente en français.
-- **MVP** : plan hebdo, liste de courses, total ; 6 à 8 semaines.
-- **Argent** : paywall après le premier plan visible.
-- **Acquisition** : TikTok recettes à petit budget. Accroche : « Une semaine de dîners à moins de 60 € ».
-- **Test en 48 h** : vidéo TikTok + landing ; go si 50 inscrits.
+### Pari #2 : Suivi GLP-1 en français
+- **L'idée** : pour les patients Wegovy/Mounjaro francophones, suivi des doses, protéines et poids, 39,99 €/an.
+- **Preuve d'argent** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) #31 health, 40 510 avis ; MeAgain affiche 650k$/mois (estimation tierce) ; [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) #10. Demande « glp-1 tracker » 480/mois, CPC 3,44 $, 390→590.
+- **Le trou** : avis MeAgain « Hate the new update! » et saisie des repas lourde ; pas de FR trouvé (estimation). Déjà vu 1 fois (rapport précédent) : nouveauté = la plainte sur la mise à jour du 8 nov. et la demande en hausse.
+- **Pourquoi Kyle** : SaaS + marché FR, pas de matériel.
+- **MVP** : rappel de piqûre + widget, journal protéines/eau, courbe poids par dose ; 5 semaines.
+- **Argent** : paywall après l'onboarding ; 39,99 €/an.
+- **Acquisition** : Reddit r/Ozempic FR, TikTok. Accroche : « Ta piqûre du jeudi, sans y penser ».
+- **Test en 48 h** : post Reddit + landing ; go à 50 inscrits.
 
-### Pari #3 : Plan de repas pour utilisateurs GLP-1
-- **L'idée** : plans de repas riches en protéines pour utilisateurs GLP-1, web, 12 $/mois, marché US.
-- **Preuve d'argent** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) #30 health ; Foodvisor 59→39 en 3 j. Demande : glp-1 meal plan 2 900/mois, CPC 5,55 $, en hausse.
-- **Le trou** : « difficult to log the meals » (avis MeAgain, 3★).
-- **Pourquoi Kyle** : web, hors vocal. Limite : régulation santé, à cadrer.
-- **MVP** : profil, plan protéiné, liste de courses ; 5 semaines.
-- **Argent** : paywall au deuxième plan.
-- **Acquisition** : SEO. Accroche : « Manger assez de protéines quand on n'a plus faim ».
-- **Test en 48 h** : landing ; go si 5 % d'inscription.
+### Pari #3 : Télécommande TV honnête
+- **L'idée** : pour tout foyer avec Smart TV, télécommande + miroir avec test de compatibilité gratuit, abonnement après la preuve que ça marche.
+- **Preuve d'argent** : [Screen Mirroring | Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276) #20 utilities (38→20 en 4 j) ; [Universal TV Remote Control](https://apps.apple.com/us/app/universal-tv-remote-control/id6443877058) #23. Demande « tv remote app » 12 100, 2,94 $, stable.
+- **Le trou** : « Screen mirroring is behind a pay wall » (avis App Store) ; 35 avis 1★ sur 50.
+- **Pourquoi Kyle** : app simple, mais pas d'avantage francophone net : le moins bon fit.
+- **MVP** : détection TV, télécommande Roku/Samsung/LG, test de connexion ; 8 semaines.
+- **Argent** : paywall après la première connexion réussie.
+- **Acquisition** : App Store Search Ads. Accroche : « Essaie d'abord, paie si ça marche ».
+- **Test en 48 h** : pub à petit budget ; go sous 3 $ par installation d'essai.
 
-**Mon pari : #1 — Facture simple pour artisans francophones**, car le CPC de 28,9 $ montre l'argent et Kyle le vend en français.
+**Mon pari : #1 — Revente FR** : meilleur score (6,15/10), demande en hausse (1 600→2 900) avec un CPC de 8,68 $ et un angle francophone que Kyle maîtrise. Kyle décide.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 20% | ⚙️ 15% | ⏱️ 15% | 🏟️ 15% | 💰 20% | 🧑‍💻 15% | Score | Verdict | 3 traits |
+| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ TTM 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit 15% | Score | Verdict | 3 traits |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Facture artisans FR | 7 | 6 | 6 | 5 | 7 | 9 | **6,7** | 🟡 BUILD ADJACENT | 2 |
-| #2 Plan de repas budget | 6 | 6 | 6 | 4 | 6 | 7 | **5,85** | 🟠 WATCH | 1 |
-| #3 Repas GLP-1 | 7 | 5 | 5 | 3 | 7 | 6 | **5,65** | 🟠 WATCH | 1 |
+| #1 Revente FR | 6 | 6 | 7 | 5 | 6 | 7 | **6.15** | 🟡 BUILD ADJACENT | 2 |
+| #2 GLP-1 FR | 6 | 6 | 6 | 4 | 7 | 7 | **6.05** | 🟡 BUILD ADJACENT | 2 |
+| #3 Télécommande TV | 7 | 5 | 5 | 3 | 6 | 5 | **5.30** | 🟠 WATCH | 2 |
 
-Scores honnêtes mais approximatifs (estimation) : aucune donnée de revenu directe.
+Scores honnêtes : aucun BUILD NOW. Le marché est fait d'apps à abonnement dur ; l'avantage est le marché FR, pas une technologie.
 
-## 💰 Unit Economics — Pari #1 : Facture simple pour artisans francophones
-Tout est estimation (comparables : Tofu, Joist, Invoice2go ; aucune source de revenu consultée).
-- ARR visé à 12 mois : 60 k€ (500 abonnés à 9 €/mois)
-- ARPU : 9 €/mois · users payants : 500
-- CAC : 40 € (SEO + pub) · LTV : 9 € × 70 % de marge × 18 mois ≈ 113 € · LTV/CAC ≈ 2,8
-- Payback : ≈ 6 mois · Burn : ≈ 500 €/mois (outils, pub) · Runway : plus de 12 mois en solo
-- Rev/Employee : 60 k€ (1 personne) · Rule of 40 : non calculable
-- Verdict : 🟡 viable en solo, fragile en acquisition payante.
+## 💰 Unit Economics — Pari #1 : Revente FR
+Toutes les valeurs sont des `estimation`, à partir d'apps comparables (ThriftAI 9,99 $/mois, Offload AI 39,99 $/an), sans source directe.
+
+| Mesure | Estimation |
+|---|---|
+| Users payants à 12 mois | 1 500 |
+| ARPU annuel | 30 € (essai, remises) |
+| ARR | 45 k€ |
+| CAC | 6 € (TikTok organique + un peu de pub) |
+| LTV | 40 € (rétention 16 mois) |
+| LTV/CAC | 6,7 |
+| Payback | 2 mois |
+| Burn | 800 €/mois (API vision, hébergement) |
+| Runway | illimité en solo, sans salaire |
+| Rev/employé | 45 k€ (1 personne) |
+| Rule of 40 | n.d., pas de croissance annuelle mesurée |
+
+Verdict : 🟡 viable en solo si le CAC reste sous 10 €. Le coût des appels vision et le taux de remboursement sont les risques.
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) | #9 food, 745 avis | 150 j | Plan de dîners sous budget + liste chiffrée, essai puis abonnement | Essai « piège », prix magasin faux |
-| [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) | #3 food, 7 201 avis | n.c. | Plans de repas petit budget | À creuser : même niche que Whipp |
-| [mise](https://apps.apple.com/us/app/mise-meal-planner/id6777471316) | #5 food, 4 795 avis | n.c. | Planificateur de repas | Niche saturée de jeunes apps |
-| [Invoice Maker by Tofu](https://apps.apple.com/us/app/invoice-maker-estimate-app/id1314873764) | #13 business, 37 177 avis, 4,83★ | 3 259 j | Factures et devis, paiement en ligne, relances | Pas de version FR, pas de duplication |
-| [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #30 health, 40 457 avis | 577 j | Suivi GLP-1, premium 14,99–119,99 $ | Saisie des repas pénible |
-| Foodvisor (lien non relevé) | health 59→#39 en 3 j | n.c. | Compteur de calories par photo | Demande « calorie counter » 49 500/mois |
-| Ziggy: Learn ASL (lien non relevé) | #53 education, nouveau, 7 164 avis | n.c. | Apprendre la langue des signes | « learn asl » 14 800/mois, pas d'équivalent LSF vérifié |
-| Knowunity: AI Study | #76 education, nouveau | n.c. | Fiches et aide aux devoirs IA | Marché FR déjà ciblé : à vérifier |
-| QR Code Master | #26 utilities (47→26 en 1 j), 1 914 avis | n.c. | Scan et création de QR | Peu d'avis pour ce rang : jeune |
-| Cuffed | #17 lifestyle (38→17), 10 285 avis | n.c. | Rencontres pour couples/relations | — |
-| Airclub: Flight Deals | #5 travel, 19 293 avis | n.c. | Alertes vols pas chers | Concurrent de Going (#13) |
-| Artera: Blood Pressure Log | #69 lifestyle, 627 avis | 78 j | Journal de tension | Jeune, niche santé légère |
-| [GodsView AI](https://x.com/jijojohnz/status/2117801747225661873) | 6k+ MRR déclaré | n.c. | App d'IA, 69k inscrits, 20k emails | Liste d'emails comme actif |
-| [helumi](https://x.com/letcontactabhi/status/2119685259348635928) | 916 $ MRR déclaré | 1 mois | App Mac solo | — |
-| Gravl: AI Personal Trainer | health 79→#58, 6 308 avis | n.c. | Coach de musculation IA | « ai personal trainer » 720/mois, CPC 5 $ |
+| [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) | #3 shopping, 11k avis, 4,4★ | 1 197 j | Suivi de colis, abonnement hebdo | Plaintes « payer pour suivre » |
+| [Package Tracker TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278) | #5 shopping, 1,8k avis, 3,7★ | jeune (estimation) | Suivi de colis | Peu d'avis, bien classée |
+| [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) | #8 shopping, 21k avis | — | Prix de revente par photo, 9,99 $/mois (estimation) | Pas de version FR |
+| [Offload AI](https://apps.apple.com/us/app/offload-ai/id6790490668) | #9 shopping, 265 avis | 83 j | Agents IA qui vendent à votre place | Jeune, à surveiller |
+| [WorthPoint](https://apps.apple.com/us/app/worthpoint/id1472512649) | #11 shopping, 2,1★ | 2 674 j | Valeur d'objets de collection | Leader mal noté |
+| [Screen Mirroring \| Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276) | #20 utilities, 38→20 | 760 j | Miroir iPhone vers TV, abonnement | Plaintes paywall |
+| [Universal TV Remote Control](https://apps.apple.com/us/app/universal-tv-remote-control/id6443877058) | #23 utilities, 84k avis, 4,8★ | — | Télécommande TV | Marché saturé |
+| [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #31 health, 40k avis, 4,8★ | 578 j | Suivi GLP-1, 14,99 $/sem · 39,99 $/an | Pas de FR (estimation) |
+| [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) | #10 health, 4,8★ | — | Suivi des macros | Demande calories 49 500/mois |
+| Gravl: AI Personal Trainer | health, 79→#59 | — | Coach muscu IA | À creuser |
+| [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897) | #10 education, 22k avis (vocal) | — | Tuteur d'anglais IA | Vocal, déjà vu |
+| Coconote - AI Note Taker | education, 69→#52 (vocal) | — | Notes de cours IA | Marché chargé |
+| [AppClose](https://apps.apple.com/us/app/appclose/id1019290876) | #23 productivity, 45→23 | — | Co-parentalité | « co-parenting app » 27 100/mois, en baisse |
+| BuildingWaves ([post](https://x.com/BuildingWaves/status/2118266663972003930)) | 1 000 $ MRR déclaré | ~2 mois | Outil dans un marché concurrentiel | `—` |
+| [Alsona](https://www.producthunt.com/products/alsona) | 405 votes PH | jour | Agents IA de prospection | Lancement PH seul, pas de preuve d'argent |
 
 ## 💸 Apps qui font du cash
-**Revenus déclarés (déclaré, non vérifié)**
-- Projet d'un fondateur de 18 ans : 5k MRR, 2 mois après lancement, 2026-11-03 — [post](https://x.com/tommy_builds/status/2117496806703759687)
-- GodsView AI : 6k+ MRR, 69 000 inscrits, 1re app iOS, 2026-11-04 — [post](https://x.com/jijojohnz/status/2117801747225661873)
-- Dev indé (tsuzuki817) : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $), 2026-11-07 — [post](https://x.com/tsuzuki817/status/2118864245500805613)
-- Outil avec forte concurrence (BuildingWaves) : 1k MRR depuis septembre, 2026-11-05 — [post](https://x.com/BuildingWaves/status/2118266663972003930)
-- App mobile B2C (ndhabarde11) : 1k MRR après 10 mois, 2026-11-04 — [post](https://x.com/ndhabarde11/status/2117987828324085942)
-- helumi (app Mac) : 916 $ MRR en un mois, 2026-11-09 — [post](https://x.com/letcontactabhi/status/2119685259348635928)
-- App B2C d'un couple : 173 $ MRR, 25 abonnés, 2026-11-06 — [post](https://x.com/idanmasas/status/2118658888903901494)
-- App scalée à 5k (itsbongoo) : 339 $ MRR, 82 abonnés, 2026-11-04 — [post](https://x.com/itsbongoo/status/2117850319308956153)
+**Revenus déclarés** (déclaré, non vérifié) :
+- BuildingWaves : 1 000 $ MRR, lancé en septembre, 5 nov. 2026 — [post](https://x.com/BuildingWaves/status/2118266663972003930)
+- tsuzuki817 : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $, Play 148 $), 7 nov. — [post](https://x.com/tsuzuki817/status/2118864245500805613)
+- helumi (app Mac) : 916 $ MRR en un mois, 9 nov. — [post](https://x.com/letcontactabhi/status/2119685259348635928)
+- itsbongoo : 400 $ MRR, 96 abonnés actifs, 8 nov. — [post](https://x.com/itsbongoo/status/2119281702816428184)
+- idanmasas (app B2C mobile) : 173 $ MRR, 25 abonnés, 6 nov. — [post](https://x.com/idanmasas/status/2118658888903901494)
+- itsKamadh : 262 $ MRR, 95 abonnés, plus de revenu pub que d'abonnements, 8 nov. — [post](https://x.com/itsKamadh/status/2119455717212225912)
+- Appkittie : une app en tête des revenus des apps de moins de 3 mois, « 500K MRR », produit non nommé dans le post, 7 nov. — [post](https://x.com/Appkittie/status/2119117468233007401)
+- Mise en garde : [un post](https://x.com/ahmedgagan11/status/2119727971905016215) rappelle que le MRR affiché compte des paiements échoués.
 
-**App Store US (rang, pas revenu)**
-- #3 food, TapCook: Budget Meal Plans, 7 201 avis — plans de repas petit budget
-- #5 food, mise - meal planner, 4 795 avis — planificateur de repas
-- #9 food, Whipp, 745 avis — plan hebdo + liste de courses chiffrée
-- #12 business, SimplyWise: Cost Estimator, 41 721 avis — devis pour pros
-- #10 health, MacroFactor, 23 925 avis — suivi de macros
-- #30 health, MeAgain, 40 457 avis — suivi GLP-1
-- #26 utilities, QR Code Master (47→26 en 1 j), 1 914 avis — scan/génération de QR
-- #53 education, Ziggy: Learn ASL (nouveau, vs 3 j), 7 164 avis — langue des signes
+**App Store US, moins de 100k avis** (rang, pas revenu) :
+- #3 shopping, [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), 11 221 avis : suivi de colis, abonnement
+- #4 shopping, [HotStock](https://apps.apple.com/us/app/hotstock-in-stock-alerts/id1257690900), 15 273 avis : alertes de stock
+- #8 shopping, [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278), 20 830 avis : estime le prix de revente
+- #10 health, [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471), 23 947 avis : suivi des macros
+- #31 health, [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), 40 510 avis : suivi GLP-1
+- #20 utilities, [Screen Mirroring | Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276), 15 195 avis (38→20 en 4 j)
+- #10 education, [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897), 22 623 avis : tuteur d'anglais IA
+- #25 productivity, [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735), 7 733 avis : assistant IA
+- Mouvements du jour : AppClose 45→23, Live Transcribe nouveau→94, Replika nouveau→85.
 
-**Jeunes apps (< 365 j)** : Whipp (sortie 2026-06-12, 150 j, #9 food) ; SleepSense (110 j, #77 health, suivi du sommeil) ; Artera (78 j, #69 lifestyle, journal de tension) ; FamiGuru (100 j, #93 lifestyle, 1,89★ sur 9 avis : à ignorer).
-**Leaders sans MAJ > 180 j** : aucun trouvé (Track My Flight Now à 179 j, #12 travel, 611 avis, 4,2★ : limite).
+**Jeunes apps qui gagnent déjà** (< 365 j) :
+- [Offload AI](https://apps.apple.com/us/app/offload-ai/id6790490668) : #9 shopping, sortie 2026-08-19 (83 j), 265 avis, « laissez des agents IA vendre pour vous », 6,99 $/sem · 39,99 $/an (source : appllama, estimation de version)
+- [AI Interior Decor](https://apps.apple.com/us/app/ai-interior-decor-home-design/id6754930176) : #75 lifestyle, sortie 2025-11-06 (369 j, limite), 1 614 avis
+- Places à prendre : [Bumper](https://apps.apple.com/us/app/bumper-vehicle-history-report/id1543977359) (#14 shopping, MAJ il y a 84 j) et [Parcels Hub](https://apps.apple.com/us/app/package-tracker-parcels-hub/id1559261145) (3,5★) : aucun leader de plus de 180 j sans mise à jour trouvé ; WorthPoint (2,1★ sur 117 avis, #11 shopping) est mal noté.
 
-## 🔬 App creusée #1 : Whipp (food & drink)
-1. **Identification** : [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199), EVOY LTD (Londres), fondateurs non trouvés. Sortie App Store 2026-06-12 (150 j), MAJ 2026-11-05 (v2.0). Food & Drink, #9 top grossing food, 4,67★ sur 742 notes, 50 000+ téléchargements Android (AppBrain). Gratuit à l'installation, abonnement après essai. Revenu : aucune donnée.
-2. **Proposition** : fin du « qu'est-ce qu'on mange à 18 h ». Plan de dîners de la semaine en moins d'une minute selon budget, magasin, goûts ; liste de courses par rayon avec total. Cible US et UK.
-3. **Les 3 décisions** : onboarding qui impose les préférences puis un essai (3 jours d'après un avis) avant tout contenu ; paywall tombé juste après les préférences, au pic d'envie, mais sans valeur montrée (cause des avis 1★) ; retour par la liste de courses hebdo, courses en ligne et « marquer cuisiné » (v2.0, notes de version).
-4. **3 traits** : ✅ une émotion pour une action (soulagement du dîner) ; ❌ résultat en quelques secondes : bloqué derrière le paywall ; ❌ distribution intégrée : rien de relevé.
-5. **Ce qui manque** : 23 avis 1★ sur 47, surtout l'essai. « Signed up... cancelled five minutes after... still got charged a monthly fee » ; « The ingredient pricing does not match actual store pricing ». MAJ il y a 4 j : pas de place à prendre par abandon.
-6. **Acquisition** : 0 pub Meta active, 0 lancée depuis 7 jours (page à 3 likes, à vérifier que c'est la bonne). Autres canaux : non trouvés.
-7. **Stack** : estimation : app native/cross-platform, backend de génération de recettes IA, source de prix par magasin.
-8. **Réplication** : 6/10 (les prix par magasin sont le vrai travail). Verticaux adjacents : repas GLP-1, repas sans allergènes. Niche : essai honnête, 5 concurrents jeunes mais fortement notés. Angle Kyle : version francophone avec prix de drive (estimation). Temps : 6 à 8 semaines.
+## 🔬 App creusée #1 : My Package Delivery Tracker
+1. **Identification** : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), MultiApp Dynamics OU, utilitaire shopping, sortie 2023-08-01, #3 shopping, 11 221 notes, 4,42★, gratuit avec abonnement. Dernière MAJ 2026-09-23 (48 j).
+2. **Proposition** : suivre 1 300+ transporteurs dans une app. Cible : acheteurs en ligne. Prix : essai 3 jours puis abonnement hebdomadaire (d'après les avis).
+3. **3 décisions** : onboarding qui mène droit au paywall ; paywall dès la saisie du premier numéro de suivi, au moment de l'inquiétude du colis (d'après les avis) ; retour par les notifications de livraison (estimation).
+4. **3 traits** : émotion pour une action ✅ (« où est mon colis ») ; résultat visible en secondes ✅ ; distribution intégrée ❌ (rien de partageable, estimation).
+5. **Ce qui manque** : 32 avis 1★ sur 50, presque tous sur le paiement. « Why do i have to pay a subscription just to track 1 package??? » ; « Forced to download to track ». Mise à jour il y a 48 j, pas de retard de plus de 180 j.
+6. **Acquisition** : pubs Meta non trouvées (aucune page d'app sûre). Autres canaux non relevés.
+7. **Stack** : non connue (estimation : agrégateur d'API de suivi type 17track, backend léger, notifications push).
+8. **Réplication** : complexité 4/10. Verticaux adjacents : alertes de stock (HotStock #4), suivi de véhicule. Niche : un tracker gratuit pour 1 colis, payant pour l'illimité. Pas de version française trouvée (estimation). Angle Kyle : colis FR (Colissimo, Chronopost, Mondial Relay). Temps : 3 semaines. Limite : demande Google faible (720 et 210 par mois).
 
-## 🔬 App creusée #2 : Invoice Maker by Tofu (business)
-1. **Identification** : [Invoice Maker by Tofu](https://apps.apple.com/us/app/invoice-maker-estimate-app/id1314873764), GetPaid Inc., sortie 2017-12-08 (3 259 j), MAJ 2026-11-08. Business, #13 business, 4,83★ sur 37 177 notes, « 1,9 million d'entreprises depuis 2018 » (description). Gratuit, achats in-app. Fondateurs non trouvés.
-2. **Proposition** : factures et devis en minutes pour freelances et artisans, paiement par lien ou QR, relances automatiques.
-3. **Les 3 décisions** : onboarding rapide (« less than a min » dans un avis) ; paywall probable sur les fonctions avancées après la première facture (estimation) ; retour par les relances et paiements en ligne.
-4. **3 traits** : ✅ émotion : être payé ; ✅ résultat visible en secondes : facture PDF prête ; ✅ distribution intégrée : lien de paiement et QR envoyés au client.
-5. **Ce qui manque** : « Cancelled on Apple and still got Charge » ; plainte fonctionnelle : dupliquer une facture. « would be great to duplicate and change the name ». Pas de personnalisation des couleurs. MAJ il y a 1 j.
-6. **Acquisition** : pubs Meta non trouvées (pages écartées : Lava Invoice Maker, App395 Smart Invoice). SEO probable vu le CPC de « invoice maker » à 28,9 $ (estimation).
-7. **Stack** : estimation : mobile natif, backend de paiement (Stripe), génération PDF.
-8. **Réplication** : 5/10 (paiements, conformité). Adjacents : devis chantier, relances. Niche : leader qui déçoit sur le support. Angle Kyle : facture conforme France (e-facture), voir pari #1. Temps : 6 semaines.
+## 🔬 App creusée #2 : Screen Mirroring | Cast to TV
+1. **Identification** : [Screen Mirroring | Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276), Ozuna Limited, utilities, sortie 2024-10-11 (760 j), #20 utilities (38→20 en 4 j), 15 195 notes, 4,61★. MAJ 2026-11-06.
+2. **Proposition** : miroir de l'iPhone vers Smart TV, cast de vidéos web, caméra live. Cible : monde large, TV sans AirPlay. Prix : abonnement (montant non relevé).
+3. **3 décisions** : onboarding vers l'écran de connexion ; paywall avant le premier miroir, donc avant la valeur (d'après les avis) ; retour par l'usage récurrent du casting (estimation).
+4. **3 traits** : émotion ✅ (grand écran, famille) ; résultat en secondes ✅ quand ça marche ; distribution ❌.
+5. **Ce qui manque** : 35 avis 1★ sur 50. « Screen mirroring is behind a pay wall. » ; « It didn't work with my TV and they charged me after I canceled ». Plaintes : prix, connexion, remboursement. Mise à jour récente.
+6. **Acquisition** : pubs Meta non trouvées. Canaux : recherche App Store (12 100 recherches/mois « tv remote app », estimation d'intention).
+7. **Stack** : estimation : Swift, ReplayKit broadcast extension, serveur de relais web, protocoles Roku/Samsung/LG.
+8. **Réplication** : complexité 6/10 (compatibilité TV). Niche : prix honnête, essai sans carte, test de compatibilité gratuit avant paiement. Angle Kyle : modeste, pas de lien au marché FR. Temps : 6 à 8 semaines.
 
-## 🔬 App creusée #3 : MeAgain (santé)
-1. **Identification** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), Dots Future Technologies, sortie 2025-04-11 (577 j), MAJ 2026-09-10 (60 j). Health & Fitness, #30 health, 4,79★ sur 40 395 notes. Annonce 807 000 utilisateurs (leur site, octobre). Premium de 14,99 à 119,99 $ (comparatif tiers). Revenu : aucune donnée.
-2. **Proposition** : suivi des doses (piqûres, pilules), repas, protéines, eau, effets secondaires, poids. Cible : utilisateurs de Zepbound, Wegovy, Ozempic.
-3. **Les 3 décisions** : onboarding par traitement ; paywall sur les fonctions complètes (avis : « Capybara » absent de la version gratuite) ; retour par un petit animal virtuel qui réagit au suivi (avis : « Keeping the little pet happy does make you wanna do... »), widget et rappels.
-4. **3 traits** : ✅ émotion : la peur de mal faire sous traitement ; ✅ résultat visible : jauge protéines/eau du jour ; ❌ distribution intégrée : rien de relevé.
-5. **Ce qui manque** : saisie des repas. « I usually end up putting my food into ChatGPT to got the macros » ; « difficult to log the meals and more difficult if you want to edit it ». Code-barres lacunaire. MAJ il y a 60 j, pas > 180 j.
-6. **Acquisition** : pubs Meta non trouvées (pages écartées : Mingo, Nuvo, concurrents). Beaucoup de sites de comparatifs SEO (shotsyapp, helloregimen).
-7. **Stack** : estimation : natif iOS, base alimentaire, reconnaissance code-barres.
-8. **Réplication** : 5/10. Adjacent : plan de repas pour utilisateurs GLP-1. Niche : leader qui déçoit sur les repas. Angle Kyle : seulement web, hors régulation (aucun conseil médical). Temps : 6 semaines.
+## 🔬 App creusée #3 : MeAgain (GLP-1 Tracker)
+1. **Identification** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), Dots Future Technologies, health, sortie 2025-04-11 (578 j), #31 health, 40 510 notes, 4,79★. Revenu : une [fiche d'analyse](https://screensdesign.com/apps/meagain-glp-1-all-in-one-app/) affiche 650k$/mois, estimation tierce non vérifiée.
+2. **Proposition** : suivre doses (piqûres, pilules), repas, protéines, eau, effets secondaires, poids. Cible : utilisateurs Ozempic, Wegovy, Zepbound. Prix : 14,99 $/sem · 39,99 $/an (source : lien ci-dessus).
+3. **3 décisions** : onboarding long pour personnaliser (estimation) ; paywall après l'onboarding, au moment où l'utilisateur a investi ses données (estimation) ; retour par rappel du jour de piqûre, widget.
+4. **3 traits** : émotion ✅ (perte de poids) ; résultat visible ✅ (courbe poids par dose) ; distribution ❌ (pas de partage trouvé).
+5. **Ce qui manque** : peu de plaintes (43 avis 5★ sur 50). « Hate the new update! » ; « It just tracks your food, water, etc. » ; saisie des repas lourde. MAJ il y a 61 j, pas de retard.
+6. **Acquisition** : pubs Meta non trouvées. Canal : promesses de conseils dans les pubs (d'après un avis).
+7. **Stack** : estimation : Swift, backend + base d'aliments, HealthKit.
+8. **Réplication** : complexité 6/10. Niche : version francophone (pas trouvée, estimation), saisie de repas plus simple. Angle Kyle : marché FR (Wegovy, Mounjaro). Réglementation légère : « suivi, pas conseil médical ». Temps : 6 semaines. Pari déjà vu une fois (rapport précédent).
 
 ## 📈 Tendances Émergentes
-- **Accroches pub** : aucune récupérée (seule Whipp a une page, 0 pub active). Promesse récurrente des descriptions : « en moins d'une minute » (Whipp, Tofu).
-- **Essais gratuits mal vécus** : 10 avis 1★ sur 47 de Whipp parlent d'un essai « gratuit » facturé tout de suite.
-- **Jeunes apps de repas** : 5 apps de moins d'un an dans le top 15 food.
-- **GLP-1** : la demande « glp-1 meal plan » a presque doublé en 12 mois (1 900→3 600).
-- **Revenus indés** : la plupart des posts sont à 200–1 000 $ MRR ; peu dépassent 5k.
-- **Agents IA** : GitHub Trending dominé par les CLI pour agents (vercel-labs/agent-desktop, anthropics/skills, claude-mem). Hacker News : Fable 5.2 en tête.
-- **Source** : bloc « Où l'argent bouge » sur 3 jours seulement.
+**Accroches de pubs** : aucune page Meta d'app trouvée sur les 3 fiches, donc aucune accroche relevée. Seul signal : la promesse de « suggestions » de MeAgain, que des avis jugent non tenue.
+
+**Autres signaux**
+- Le paywall dur est la plainte n°1 des apps de suivi de colis et de miroir TV : 32/50 et 35/50 avis 1★. Un essai honnête est une niche.
+- Les « Grok Bot » (#7 productivity, 4,9★) et leur clone open source OpenMausBot (8 951 étoiles cette semaine, [GitHub Trending](https://github.com/trending?since=weekly)) montrent un appétit pour les assistants IA, mais ce sont des apps de grands groupes à ne pas copier.
+- Les agents de code dominent GitHub Trending (t3code, skills, agent-desktop) : outillage pour développeurs, hors cible grand public.
+- Product Hunt du jour : Alsona 405 votes, Maxma 298, Render 262, surtout des outils B2B IA, sans preuve d'argent.
+- Plusieurs posts X montrent des apps à 170-1 000 $ MRR en un mois : l'échelle réaliste d'un lancement solo.
