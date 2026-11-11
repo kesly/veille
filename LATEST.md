@@ -1,70 +1,113 @@
-# AI Watch — 2026-11-10 Matin
+# AI Watch — 2026-11-11 Matin
 
-> Collecte : treg 4/4 sources, 15 recherches extended, GitHub Trending ok, 4 pages lues (Anthropic, Meta, Google, repo Gemini), 4 items confirmés par une deuxième source (Fable 5.2, Muse Ember, TPU 8tx/8i Max, Opus 5.5 « nerf »).
+> Collecte : treg 4/4 sources, 15 recherches extended, GitHub Trending ok, 4 pages lues, 4 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
-### Claude Fable 5.2 et Mythos 5.2 (Anthropic)
-- **Quoi** : Mise à jour du duo Fable/Mythos (même modèle sous-jacent). Mieux en code, raisonnement et vision, sorties jusqu'à 30 % plus rapides que 5.1. Prix en baisse : 8 $/M tokens en entrée, 40 $/M en sortie. Mode « fast » optionnel jusqu'à 2,5x plus rapide (16 $/80 $). Anthropic annonce aussi une preuve formalisée du dernier théorème de Fermat en 30 h en test prérelease.
-- **Date** : 2026-11-09
-- **Lien** : https://www.anthropic.com/claude-fable-and-mythos-5-2 (confirmé par CNBC et MacRumors)
-- **Pourquoi c'est important** : Fable 5.2 monte à 65 sur Artificial Analysis, le meilleur score à ce jour selon HN (https://artificialanalysis.ai/models/claude-fable-5-2). Sortie juste avant l'IPO attendue d'Anthropic. Fable est ouvert à tous, Mythos est réservé aux organisations vérifiées (programmes Cyber et Life Sciences). Payant.
-- **Testable** : Oui — Fable 5.2 via API, Claude Code, Google Cloud, Microsoft Foundry.
+### AlphaProof Code (Google DeepMind)
+- **Quoi** : framework agentique multi-LLM qui vérifie formellement du vrai code. Il a prouvé en Lean des propriétés de sécurité clés du code du protocole Signal (libsignal). Plus de 6 M de lignes de Lean, générées par des agents Gemini Carbon, et seulement ~1 % du code signalé pour relecture humaine.
+- **Date** : 2026-11-10
+- **Lien** : https://deepmind.google/blog/introducing-alphaproof-code/
+- **Pourquoi c'est important** : première vérification formelle de l'implémentation d'un protocole de chiffrement largement déployé à cette profondeur. Les agents ont retrouvé d'anciens bugs Signal déjà corrigés mais n'ont trouvé aucune nouvelle faille. Un chercheur DeepMind juge que le passage à tout le logiciel reste lointain. Papier technique publié, artefacts de vérification annoncés en open source.
+- **Testable** : Non (artefacts et papier à consulter ; pas d'outil public)
 
-### Meta Muse Ember
-- **Quoi** : Le plus petit modèle de la gamme Muse, pensé pour les tâches répétitives d'agents (appels d'outils, routage, extraction). 0,10 $/M tokens en entrée, 0,50 $/M en sortie. Contexte 1M tokens, multimodal.
-- **Date** : 2026-11-09
-- **Lien** : https://research.meta.ai/blog/muse-ember (confirmé par TechCrunch, The Decoder, SiliconANGLE)
-- **Pourquoi c'est important** : Meta dit égaler Claude Haiku 5.5 à environ un tiers du coût et battre GPT-6 Luna. Les benchmarks sont ceux de Meta. The Decoder note que Haiku reste devant sur les tâches de code réelles (34,9 % contre 27,2 %). Poids fermés.
-- **Testable** : Oui — API Meta (`muse-ember-1.0`), Muse Code. Payant.
-
-### Google TPU 8tx et TPU 8i Max
-- **Quoi** : Deux nouveaux systèmes de la 8e génération de TPU. 8tx : inférence confidentielle avec sécurité matérielle. 8i Max : très longs contextes, deux fois le calcul, la SRAM et la HBM du 8i.
-- **Date** : 2026-11-09
-- **Lien** : https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/ (confirmé par SiliconANGLE)
-- **Pourquoi c'est important** : Quatre systèmes TPU en un an, face à Nvidia. Pas de date de disponibilité officielle (Bloomberg parle de 2027 pour le 8i Max).
-- **Testable** : Non.
+### MiniMax H3-Image (poids ouverts)
+- **Quoi** : modèle d'image open-weight (DiT 33B, 6 steps) en 4K (4096×4096) en moins de 10 s, jusqu'à 16 images de référence, édition incluse.
+- **Date** : 2026-11-10
+- **Lien** : https://www.minimax.io/blog/minimax-h3-image (poids : https://huggingface.co/MiniMaxAI/MiniMax-H3-Image)
+- **Pourquoi c'est important** : 4K rapide en local avec support ComfyUI dès le lancement. Les chiffres de vitesse sont des revendications du constructeur, sans benchmark indépendant. Licence communautaire MiniMax, pas une licence open source standard, et US/UK/UE/Corée du Sud exclus de la zone autorisée. Encodeur texte Qwen3-VL-32B requis, téléchargement de 70 à 135 Go selon les sources.
+- **Testable** : Oui — poids sur Hugging Face + ComfyUI, ou API MiniMax (si région autorisée). Gratuit en local, API payante.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### ChatGPT Work + app desktop (OpenAI)
-- **Quoi** : Agent pour tâches longues multi-étapes, déploiement général avec nouvelle app desktop. Pro, Enterprise et Edu d'abord, Plus et Business dans les jours qui suivent.
-- **Date** : semaine du 2026-11-09 (dates variables selon les sources agrégatrices)
-- **Lien** : https://openai.com/news/
-- **Pourquoi c'est important** : Concurrent direct des agents de Claude. Je n'ai pas lu la source primaire, donc à confirmer. Payant.
-- **Testable** : Oui, si abonnement éligible.
+### Render Sandboxes
+- **Quoi** : un « ordinateur par agent » : sandboxes pour exécuter du code non fiable, inactives = gratuites.
+- **Date** : 2026-11-10 (Product Hunt, 262 votes)
+- **Lien** : https://www.producthunt.com/products/render
+- **Pourquoi c'est important** : brique d'infrastructure pour agents de code. Source unique (Product Hunt).
+- **Testable** : Oui — payant à l'usage.
 
-### Product Hunt du jour
-- **Quoi** : Render Sandboxes (une machine par agent, démarrage en moins d'une seconde, 262 votes), Product Hunt MCP (361 votes), MCP1 d'Appwrite (une URL pour tous les serveurs MCP, 130 votes), Arcjet AI security models (modèles de sécurité pour agents de code, 216 votes), ProtoMap (130+ votes, réduit les tokens gaspillés à redécouvrir les dépendances).
+### Framer AI Agents
+- **Quoi** : agents IA pour concevoir et publier des sites.
+- **Date** : 2026-11-10 (Product Hunt, 970 votes, le plus voté du jour)
+- **Lien** : https://www.producthunt.com/products/framer
+- **Pourquoi c'est important** : fort signal d'adoption côté design/web. Source unique.
+- **Testable** : Oui — freemium.
+
+### Ember (Slack open source), Co-Review, Almanzor (MCP docs)
+- **Quoi** : Ember = Slack open source auto-hébergé sur Cloudflare en un clic (104 votes) ; Co-Review = lire un dépôt entier avec l'agent qui l'a construit (100 votes) ; Almanzor = « Ask AI » + serveur MCP pour documentation, réponses citées (78 votes).
 - **Date** : 2026-11-10
-- **Lien** : https://www.producthunt.com/products/render ; https://www.producthunt.com/products/producthunt ; https://www.producthunt.com/products/appwrite
-- **Pourquoi c'est important** : L'infrastructure pour agents (sandbox, MCP) reste le thème dominant.
-- **Testable** : Oui (offres gratuites ou d'essai à vérifier).
+- **Lien** : https://www.producthunt.com/products/ember-117 · https://www.producthunt.com/products/co-review · https://www.producthunt.com/products/almanzor
+- **Pourquoi c'est important** : outils de niche, intéressants pour les devs. Sources uniques.
+- **Testable** : Oui.
 
-### Higgsfield Miracle
-- **Quoi** : Transforme une vidéo en calques éditables (recolorer, texte, fonds) sans régénérer. Bêta privée, bientôt dans Higgsfield MCP.
-- **Date** : annoncé 2026-11-06, 133 votes sur Product Hunt le 10 novembre
-- **Lien** : https://www.pixelsham.com/2026/11/06/introducing-higgsfield-miracle/
-- **Pourquoi c'est important** : Édition vidéo locale, pas de génération. Prix et date de lancement inconnus.
-- **Testable** : Non (bêta limitée).
+### Repos GitHub Trending (jour)
+- **Quoi** : anthropics/skills (+1 679 étoiles), mattpocock/skills (+1 225), vercel-labs/agent-browser (CLI de navigation pour agents, +780), homeassistant-ai/ha-mcp (+790), addyosmani/agent-skills (+465), meta/astryx (design system pensé pour agents, +3 108), billion-context (compression de contexte, +375).
+- **Date** : 2026-11-11
+- **Lien** : https://github.com/trending?since=daily
+- **Pourquoi c'est important** : les « Agent Skills » dominent le trending open source.
+- **Testable** : Oui — open source, gratuit.
+
+### GoogleChrome/modern-web-guidance
+- **Quoi** : guide pour sortir les agents de code du JavaScript ~2019 vers les primitives web modernes (Show HN, 300 pts).
+- **Date** : 2026-11-10
+- **Lien** : https://github.com/GoogleChrome/modern-web-guidance
+- **Pourquoi c'est important** : améliore la qualité du code généré par agents. Source unique (HN).
+- **Testable** : Oui — open source.
 
 ## 🧠 Mises à jour de Modèles
-- **Mistral Large 4 « Le Chonk »** : poids ouverts d'un modèle à 1 000 milliards de paramètres, licence MIT modifiée. Dates contradictoires selon les sources (29 octobre selon TechCrunch). Plus de 72 h, donc en contexte seulement. https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/
-- **Gemini Omni 1.2 Flash** (vidéo, clips de 15 s, -30 % de prix) du 5 novembre et **GPT Image 2.6** du 4 novembre : hors fenêtre de 72 h, à titre de contexte.
-- Reddit LocalLLaMA : débat sur un éventuel biais d'Artificial Analysis contre les modèles à poids ouverts (224 pts). Pas de nouvelle release Qwen confirmée.
+
+### Meta Muse Ember 1.0
+- **Quoi** : plus petit et moins cher modèle Meta, pour les tâches répétitives d'agents (appels d'outils, sous-tâches de code, extraction). Contexte 1 M tokens, entrées texte/image/audio/vidéo. $0,10 / $0,50 par million de tokens (entrée/sortie).
+- **Date** : 2026-11-09 (certaines sources disent le 10)
+- **Lien** : https://research.meta.ai/blog/muse-ember · https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna
+- **Pourquoi c'est important** : Meta revendique le niveau de Claude Haiku 5.5 sur l'Intelligence Index d'Artificial Analysis (36) à un tiers du coût par tâche. Haiku garde l'avantage sur FrontierCode 2.0 (34,9 % contre 27,2 %). Plusieurs résultats viennent de tests internes Meta.
+- **Testable** : Oui — API Meta Model et Muse Code (payant).
+
+### Gemini 4 Carbon (Google)
+- **Quoi** : annoncé le 28 octobre ; déploiement dans le mode IA de la recherche pour les abonnés Ultra le 10 novembre. Un seul site (benchlm.ai) cite un tarif API introductif de $2/$10 jusqu'au 30 novembre, puis $4/$20, calqué sur Argon. Non vérifié sur la page officielle.
+- **Date** : 2026-11-10 (déploiement)
+- **Lien** : https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+- **Pourquoi c'est important** : c'est le modèle qui fait tourner AlphaProof Code. À noter : à partir du 13 novembre, la sélection des modèles Pro passe derrière l'abonnement AI Pro à 20 $/mois.
+- **Testable** : Oui — API Gemini / abonnement Ultra (payant).
+
+### Claude Fable 5.2 (Anthropic)
+- **Quoi** : mentionné par un agrégateur et par des posts Reddit (r/ClaudeAI : 5 195 et 2 407 pts), mais je n'ai trouvé aucune annonce officielle ni seconde source.
+- **Date** : 2026-11-09 (agrégateur)
+- **Lien** : https://www.reddit.com/r/ClaudeAI/comments/1xstews/
+- **Pourquoi c'est important** : voir « À surveiller ».
+- **Testable** : Non confirmé.
+
+### Autres
+- GPT Image 2.6 (Flare / Sunburst) d'OpenAI : sorti le 4 novembre, donc hors fenêtre, mais discuté sur r/OpenAI.
+- Gemini Omni 1.2 Flash (vidéo, clips de 15 s, 720p à $0,07/s) : 5 novembre, hors fenêtre.
 
 ## 🔬 Research
-- RAS de confirmé. E-means (alternative à k-means, 305 pts sur HN) est une piste, non vérifiée : https://e-means.github.io/
-- GitHub Trending : `anthropics/skills`, `meta/astryx` (design system « agent-ready »), `vercel-labs/agent-browser` (CLI de navigation pour agents), `anthropics/claude-quickstarts`, `homeassistant-ai/ha-mcp`. Tous open source. Source : https://github.com/trending?since=daily
+
+### Glasswing après 7 mois (VulnCheck)
+- **Quoi** : VulnCheck suit 442 CVE attribuables à Anthropic (~0,5 % des CVE de l'année), dont 2 exploitées. Sur 37 966 findings déclarés, 7 349 sont publics et 217 marqués corrigés. Environ 1 654 doublons, soit près de 8 fois plus que de correctifs. curl a rejeté 19 des 34 rapports publiés.
+- **Date** : 2026-11-09
+- **Lien** : https://www.vulncheck.com/blog/anthropic-glasswing-november-update
+- **Pourquoi c'est important** : critique chiffrée du coût de triage reporté sur les mainteneurs. Anthropic répond que le goulot d'étranglement est la capacité humaine de triage. Chiffres issus du suivi de VulnCheck, relayés par un digest de la Cloud Security Alliance. HN : 336 pts.
+- **Testable** : Non
+
+### The Surprising Effectiveness of Deleting Weights in LLM Post-Training
+- **Quoi** : papier arXiv (2611.10866), très peu de signal pour l'instant (11 pts HN).
+- **Date** : 2026-11-10
+- **Lien** : https://arxiv.org/abs/2611.10866
+- **Pourquoi c'est important** : non évalué, lu uniquement par son titre.
+- **Testable** : Non
 
 ## 📝 À surveiller
-- **« Opus 5.5 est-il nerfé ? »** : 766 pts sur HN. Le changement du 3 novembre porterait sur les résumés de réflexion visibles. Aucune preuve publique d'une baisse de qualité des poids, et Anthropic n'a pas répondu. Opus 5.5 est par défaut en effort moyen.
-- **Gemini et revue humaine des fichiers Drive/Gmail** : allégation d'un dépôt GitHub tiers (473 pts sur HN). La page d'aide Google serait modifiée depuis le 16 octobre. Je n'ai trouvé aucun démenti ni confirmation de Google, donc non vérifié. https://github.com/thisisme6598/gemini_files/
-- **Fireworks AI** : intrusion du 24 octobre, avec accès aux données de facturation, communiquée aux clients le 9 novembre (une seule source).
-- **Rumeur** : référence à « Claude Mythos 5.5 » sur la page Mythos (TestingCatalog, non confirmée).
-- **Financement** : OpenAI aurait levé 11 Md$ à 1,25 T$ de valorisation (non confirmé). Shield AI rachète Echodyne pour 5,3 Md$. Le rendement obligataire de CoreWeave dépasse 16 % (stress de crédit IA).
-- **OpenAI** retire Agent Builder le 30 novembre, au profit de l'Agents SDK.
+- **Claude Fable 5.2** : buzz massif sur Reddit, mais aucune annonce officielle trouvée ; à confirmer.
+- **Débat « code généré par IA »** : « AI usage generates a fragile codebase » (424 pts, 432 commentaires sur HN) — https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/
+- **Val Town ferme** (329 pts HN) : https://blog.val.town/winding-down
+- **Meta + Conductor** : rachat début novembre d'une startup qui orchestre plusieurs agents de code en parallèle ; interface prévue début 2027.
+- **Microsoft MAI-Voice-2.1 / Flash** : annoncés dans un récap, sans date de sortie confirmée. Voix : AssemblyAI-TTS-1 sorti le 27 octobre ($15 / M caractères).
+- **Fireworks AI** : cyberattaques divulguées, avec exposition de données clients et de parties de modèles non publiés (source unique).
+- **Sécurité des agents** : Neo « Neoverse » (9 novembre), moteur gratuit d'analyse du risque des serveurs MCP et skills.
+- **Australie** : projet de régulateur pour l'IA de pointe.
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) Claude Fable 5.2 / Mythos 5.2, 2) Meta Muse Ember (modèle d'agent à bas coût), 3) Google TPU 8tx / 8i Max.
-- **À tester en priorité** : Fable 5.2 (et son mode fast) dans Claude Code, Muse Ember pour les sous-tâches d'agents, `vercel-labs/agent-browser` (open source), Render Sandboxes.
+- **Top 3 du jour** : 1) AlphaProof Code vérifie formellement Signal ; 2) MiniMax H3-Image, 4K open-weight en moins de 10 s (licence restrictive) ; 3) Meta Muse Ember, petit modèle d'agents à $0,10/$0,50.
+- **À tester en priorité** : H3-Image via ComfyUI (si région autorisée) ; Muse Ember via Meta Model API ; skills d'agents (anthropics/skills, mattpocock/skills) et vercel-labs/agent-browser.
