@@ -1,113 +1,103 @@
-# AI Watch — 2026-11-11 Matin
+# AI Watch — 2026-11-12 Matin
 
-> Collecte : treg 4/4 sources, 15 recherches extended, GitHub Trending ok, 4 pages lues, 4 items confirmés par une deuxième source.
+> Collecte : treg 4/4 sources, 15 recherches extended, GitHub Trending ok, 4 pages lues (Google blog, TechCrunch, GitHub n8n/nod, 9to5Mac), 6 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
-### AlphaProof Code (Google DeepMind)
-- **Quoi** : framework agentique multi-LLM qui vérifie formellement du vrai code. Il a prouvé en Lean des propriétés de sécurité clés du code du protocole Signal (libsignal). Plus de 6 M de lignes de Lean, générées par des agents Gemini Carbon, et seulement ~1 % du code signalé pour relecture humaine.
+### Anthropic lance son IPO roadshow ($70–78/action)
+- **Quoi** : Anthropic ouvre le roadshow de son introduction en bourse (Nasdaq « ANT »), 825 M d'actions Class A, jusqu'à ~64,4 Md$ levés ; pricing prévu le 18/11, cotation le 19/11.
 - **Date** : 2026-11-10
-- **Lien** : https://deepmind.google/blog/introducing-alphaproof-code/
-- **Pourquoi c'est important** : première vérification formelle de l'implémentation d'un protocole de chiffrement largement déployé à cette profondeur. Les agents ont retrouvé d'anciens bugs Signal déjà corrigés mais n'ont trouvé aucune nouvelle faille. Un chercheur DeepMind juge que le passage à tout le logiciel reste lointain. Papier technique publié, artefacts de vérification annoncés en open source.
-- **Testable** : Non (artefacts et papier à consulter ; pas d'outil public)
+- **Lien** : https://www.anthropic.com/news/roadshow-launch ; https://fortune.com/2026/11/10/anthropic-ipo-price-range-ai-stock-sell-off/
+- **Pourquoi c'est important** : plus grosse IPO IA à ce jour ; valorisation citée jusqu'à 1,4 T$ (base diluée, méthodes divergentes selon les sources).
+- **Testable** : Non
 
-### MiniMax H3-Image (poids ouverts)
-- **Quoi** : modèle d'image open-weight (DiT 33B, 6 steps) en 4K (4096×4096) en moins de 10 s, jusqu'à 16 images de référence, édition incluse.
+### Google Gemini Decisions API (modèle Gemini Decision 1)
+- **Quoi** : endpoint qui ne génère pas de texte mais évalue jusqu'à 1 000 questions fermées (oui/non, choix, rubrique) en une passe sur texte, image, audio, vidéo, PDF ; ~0,10 $/M tokens en entrée, sortie gratuite (chiffres de la presse, à vérifier dans la doc).
+- **Date** : 2026-11-11
+- **Lien** : https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+- **Pourquoi c'est important** : routage, modération, évaluation (LLM-judge) à coût très bas ; nouveau type d'API. Payant (très bas prix).
+- **Testable** : Oui — clé API dans Google AI Studio.
+
+### Google Gemini 4 Carbon en disponibilité générale
+- **Quoi** : Gemini 4 Carbon ouvert aux développeurs/entreprises/grand public ; 2 $/M entrée, 10 $/M sortie jusqu'au 30/11 (puis ~4 $ d'après un média).
 - **Date** : 2026-11-10
-- **Lien** : https://www.minimax.io/blog/minimax-h3-image (poids : https://huggingface.co/MiniMaxAI/MiniMax-H3-Image)
-- **Pourquoi c'est important** : 4K rapide en local avec support ComfyUI dès le lancement. Les chiffres de vitesse sont des revendications du constructeur, sans benchmark indépendant. Licence communautaire MiniMax, pas une licence open source standard, et US/UK/UE/Corée du Sud exclus de la zone autorisée. Encodeur texte Qwen3-VL-32B requis, téléchargement de 70 à 135 Go selon les sources.
-- **Testable** : Oui — poids sur Hugging Face + ComfyUI, ou API MiniMax (si région autorisée). Gratuit en local, API payante.
+- **Lien** : https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+- **Pourquoi c'est important** : concurrent direct de Claude Fable 5.2 / Opus 5.5 avec un prix d'appel agressif.
+- **Testable** : Oui — AI Studio, Antigravity, app Gemini (Ultra).
+
+### Anthropic : Claude Meetings, Whiteboards, Sheets
+- **Quoi** : Claude rejoint les visioconférences (Google Meet au lancement) et rédige plans/timelines en direct ; bêta Team et Enterprise.
+- **Date** : 2026-11-10
+- **Lien** : https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/
+- **Pourquoi c'est important** : course aux « suites bureautiques IA » (OpenAI, Meta, Anthropic) contre Microsoft/Google. Payant.
+- **Testable** : Oui sur plans Team/Enterprise.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Render Sandboxes
-- **Quoi** : un « ordinateur par agent » : sandboxes pour exécuter du code non fiable, inactives = gratuites.
-- **Date** : 2026-11-10 (Product Hunt, 262 votes)
-- **Lien** : https://www.producthunt.com/products/render
-- **Pourquoi c'est important** : brique d'infrastructure pour agents de code. Source unique (Product Hunt).
-- **Testable** : Oui — payant à l'usage.
-
-### Framer AI Agents
-- **Quoi** : agents IA pour concevoir et publier des sites.
-- **Date** : 2026-11-10 (Product Hunt, 970 votes, le plus voté du jour)
-- **Lien** : https://www.producthunt.com/products/framer
-- **Pourquoi c'est important** : fort signal d'adoption côté design/web. Source unique.
-- **Testable** : Oui — freemium.
-
-### Ember (Slack open source), Co-Review, Almanzor (MCP docs)
-- **Quoi** : Ember = Slack open source auto-hébergé sur Cloudflare en un clic (104 votes) ; Co-Review = lire un dépôt entier avec l'agent qui l'a construit (100 votes) ; Almanzor = « Ask AI » + serveur MCP pour documentation, réponses citées (78 votes).
+### Nod par n8n Labs
+- **Quoi** : agent personnel open source (Apache 2.0) avec son propre ordinateur/navigateur, local, demande avant d'agir ; macOS 14+, Windows 11 en preview ; modèle au choix.
 - **Date** : 2026-11-10
-- **Lien** : https://www.producthunt.com/products/ember-117 · https://www.producthunt.com/products/co-review · https://www.producthunt.com/products/almanzor
-- **Pourquoi c'est important** : outils de niche, intéressants pour les devs. Sources uniques.
-- **Testable** : Oui.
+- **Lien** : https://github.com/n8n-io/nod
+- **Pourquoi c'est important** : agent « computer-use » local, gratuit, 259 votes PH. Recherche preview, partage de données d'usage activé par défaut.
+- **Testable** : Oui — DMG sur GitHub.
 
-### Repos GitHub Trending (jour)
-- **Quoi** : anthropics/skills (+1 679 étoiles), mattpocock/skills (+1 225), vercel-labs/agent-browser (CLI de navigation pour agents, +780), homeassistant-ai/ha-mcp (+790), addyosmani/agent-skills (+465), meta/astryx (design system pensé pour agents, +3 108), billion-context (compression de contexte, +375).
-- **Date** : 2026-11-11
-- **Lien** : https://github.com/trending?since=daily
-- **Pourquoi c'est important** : les « Agent Skills » dominent le trending open source.
-- **Testable** : Oui — open source, gratuit.
-
-### GoogleChrome/modern-web-guidance
-- **Quoi** : guide pour sortir les agents de code du JavaScript ~2019 vers les primitives web modernes (Show HN, 300 pts).
+### ElevenLabs Scribe v3 / v3 Live (Voice AI)
+- **Quoi** : STT avec 27 % d'erreurs en moins (WER 16,94 → 12,38 % sur FLEURS selon ElevenLabs), diarisation jusqu'à 32 locuteurs ; v3 Live ~150 ms de latence.
 - **Date** : 2026-11-10
-- **Lien** : https://github.com/GoogleChrome/modern-web-guidance
-- **Pourquoi c'est important** : améliore la qualité du code généré par agents. Source unique (HN).
-- **Testable** : Oui — open source.
+- **Lien** : https://elevenlabs.io/blog/scribe-v3
+- **Pourquoi c'est important** : nouvelle référence STT revendiquée (benchmarks du vendeur). Payant.
+- **Testable** : Oui — API/app ElevenLabs.
+
+### Earlybird (open source STT, 29M paramètres)
+- **Quoi** : STT streaming minuscule qui émet les mots avant la fin de leur prononciation.
+- **Date** : 2026-11-11 (Product Hunt)
+- **Lien** : https://www.producthunt.com/products/earlybird-5
+- **Pourquoi c'est important** : voix on-device très faible latence. Non confirmé par seconde source.
+- **Testable** : Oui (voir PH).
+
+### Autres lancements notables (PH / HN)
+- **Skillbox** (bibliothèque de skills synchronisée entre agents), **CALL-E** et **Mitra MCP** (téléphonie pour agents), **Relay** : https://www.producthunt.com/products/skillbox-5
+- **Pomerado** (YC F26, site web → MCP) : https://news.ycombinator.com/item?id=50455811
+- **Yogurt** (alternative open source à Granola) : https://github.com/FrigadeHQ/yogurt
+- **Atuin Threads** (sessions d'agents sur toutes les machines) : https://blog.atuin.sh/threads-agent-sessions/
+- **Pourquoi c'est important** : l'écosystème « outillage d'agents » se densifie (téléphonie, skills, MCP). Testable : Oui (liens).
 
 ## 🧠 Mises à jour de Modèles
 
 ### Meta Muse Ember 1.0
-- **Quoi** : plus petit et moins cher modèle Meta, pour les tâches répétitives d'agents (appels d'outils, sous-tâches de code, extraction). Contexte 1 M tokens, entrées texte/image/audio/vidéo. $0,10 / $0,50 par million de tokens (entrée/sortie).
-- **Date** : 2026-11-09 (certaines sources disent le 10)
-- **Lien** : https://research.meta.ai/blog/muse-ember · https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna
-- **Pourquoi c'est important** : Meta revendique le niveau de Claude Haiku 5.5 sur l'Intelligence Index d'Artificial Analysis (36) à un tiers du coût par tâche. Haiku garde l'avantage sur FrontierCode 2.0 (34,9 % contre 27,2 %). Plusieurs résultats viennent de tests internes Meta.
-- **Testable** : Oui — API Meta Model et Muse Code (payant).
+- **Quoi** : plus petit modèle de la famille Muse, contexte 1M, multimodal ; 0,10 $/M entrée, 0,50 $/M sortie ; non open-weight (API Meta).
+- **Date** : 2026-11-09/10 (sources divergentes)
+- **Lien** : https://dev.meta.ai/docs/muse-ember
+- **Pourquoi c'est important** : cible les tâches d'agents à gros volume ; Meta dit battre Claude Haiku 5.5 (benchmarks internes).
+- **Testable** : Oui — Meta Model API.
 
-### Gemini 4 Carbon (Google)
-- **Quoi** : annoncé le 28 octobre ; déploiement dans le mode IA de la recherche pour les abonnés Ultra le 10 novembre. Un seul site (benchlm.ai) cite un tarif API introductif de $2/$10 jusqu'au 30 novembre, puis $4/$20, calqué sur Argon. Non vérifié sur la page officielle.
-- **Date** : 2026-11-10 (déploiement)
-- **Lien** : https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
-- **Pourquoi c'est important** : c'est le modèle qui fait tourner AlphaProof Code. À noter : à partir du 13 novembre, la sélection des modèles Pro passe derrière l'abonnement AI Pro à 20 $/mois.
-- **Testable** : Oui — API Gemini / abonnement Ultra (payant).
+### MiniMax H3-Image (open weights) et Seedream 5.5 (ByteDance)
+- **Quoi** : H3-Image : 4K/16 MP en ~10–20 s, 16 images de référence ; poids sur Hugging Face, licence excluant US/UE/UK. Seedream 5.5 : édition 100 tours, décomposition en jusqu'à 99 calques.
+- **Date** : 2026-11-10 (H3) / 2026-11-09 (Seedream)
+- **Lien** : https://www.producthunt.com/products/minimax ; https://www.producthunt.com/products/seedream-4-0
+- **Pourquoi c'est important** : génération d'images de haute résolution rapide, partiellement open source.
+- **Testable** : Oui — API (≈0,02–0,07 $/image selon agrégateurs).
 
-### Claude Fable 5.2 (Anthropic)
-- **Quoi** : mentionné par un agrégateur et par des posts Reddit (r/ClaudeAI : 5 195 et 2 407 pts), mais je n'ai trouvé aucune annonce officielle ni seconde source.
-- **Date** : 2026-11-09 (agrégateur)
-- **Lien** : https://www.reddit.com/r/ClaudeAI/comments/1xstews/
-- **Pourquoi c'est important** : voir « À surveiller ».
-- **Testable** : Non confirmé.
-
-### Autres
-- GPT Image 2.6 (Flare / Sunburst) d'OpenAI : sorti le 4 novembre, donc hors fenêtre, mais discuté sur r/OpenAI.
-- Gemini Omni 1.2 Flash (vidéo, clips de 15 s, 720p à $0,07/s) : 5 novembre, hors fenêtre.
+### Claude Fable 5.2 / Mythos 5.2 (Anthropic)
+- **Quoi** : Fable 5.2 modèle par défaut de Claude Code ; Mythos 5.2 restreint aux organisations vérifiées.
+- **Date** : 2026-11-09 (plus de 72 h pour certains détails, rappel contextuel)
+- **Lien** : https://platform.claude.com/docs/en/release-notes/overview
+- **Pourquoi c'est important** : r/ClaudeAI surveille déjà d'éventuels « nerfs ».
+- **Testable** : Oui.
 
 ## 🔬 Research
-
-### Glasswing après 7 mois (VulnCheck)
-- **Quoi** : VulnCheck suit 442 CVE attribuables à Anthropic (~0,5 % des CVE de l'année), dont 2 exploitées. Sur 37 966 findings déclarés, 7 349 sont publics et 217 marqués corrigés. Environ 1 654 doublons, soit près de 8 fois plus que de correctifs. curl a rejeté 19 des 34 rapports publiés.
-- **Date** : 2026-11-09
-- **Lien** : https://www.vulncheck.com/blog/anthropic-glasswing-november-update
-- **Pourquoi c'est important** : critique chiffrée du coût de triage reporté sur les mainteneurs. Anthropic répond que le goulot d'étranglement est la capacité humaine de triage. Chiffres issus du suivi de VulnCheck, relayés par un digest de la Cloud Security Alliance. HN : 336 pts.
-- **Testable** : Non
-
-### The Surprising Effectiveness of Deleting Weights in LLM Post-Training
-- **Quoi** : papier arXiv (2611.10866), très peu de signal pour l'instant (11 pts HN).
-- **Date** : 2026-11-10
-- **Lien** : https://arxiv.org/abs/2611.10866
-- **Pourquoi c'est important** : non évalué, lu uniquement par son titre.
-- **Testable** : Non
+- **Apple ML — Faster Retrieval for Better, More Efficient RAG** : https://machinelearning.apple.com/research/faster-retrieval (HN 174 pts). Non détaillé ici.
+- RAS pour le reste de notable confirmé.
 
 ## 📝 À surveiller
-- **Claude Fable 5.2** : buzz massif sur Reddit, mais aucune annonce officielle trouvée ; à confirmer.
-- **Débat « code généré par IA »** : « AI usage generates a fragile codebase » (424 pts, 432 commentaires sur HN) — https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/
-- **Val Town ferme** (329 pts HN) : https://blog.val.town/winding-down
-- **Meta + Conductor** : rachat début novembre d'une startup qui orchestre plusieurs agents de code en parallèle ; interface prévue début 2027.
-- **Microsoft MAI-Voice-2.1 / Flash** : annoncés dans un récap, sans date de sortie confirmée. Voix : AssemblyAI-TTS-1 sorti le 27 octobre ($15 / M caractères).
-- **Fireworks AI** : cyberattaques divulguées, avec exposition de données clients et de parties de modèles non publiés (source unique).
-- **Sécurité des agents** : Neo « Neoverse » (9 novembre), moteur gratuit d'analyse du risque des serveurs MCP et skills.
-- **Australie** : projet de régulateur pour l'IA de pointe.
+- **Apple « Harbor »** : app Mac non sortie (fuite d'Aaron Perris) : serveur d'inférence privé, cluster de Macs en Thunderbolt 5. Calendrier incertain. https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/
+- **United Airlines interdit les agents IA pour réserver des vols** (HN 454 pts) : https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/
+- **Nvidia / Jensen Huang** : enquête rapportée (WSJ, NYT), non lié techniquement mais impact marché.
+- **OpenAI** : chiffre d'affaires T3 ~10 Md$ (digests, source primaire non trouvée) ; ChatGPT Advanced/Standard Voice retirés le 11/12 au profit de GPT-Live ; rachat d'Odessia.
+- **Huawei MACaQ** (quantizer local, open source) : https://github.com/huawei-csl/MACaQ
+- **Open source self driving** (r/LocalLLaMA, 439 pts) : https://www.reddit.com/r/LocalLLaMA/comments/1xtmeif/
+- **GitHub Trending** : meta/astryx, addyosmani/agent-skills, vercel-labs/agent-browser, shadcn/improve, homeassistant-ai/ha-mcp, openai/codex-security.
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) AlphaProof Code vérifie formellement Signal ; 2) MiniMax H3-Image, 4K open-weight en moins de 10 s (licence restrictive) ; 3) Meta Muse Ember, petit modèle d'agents à $0,10/$0,50.
-- **À tester en priorité** : H3-Image via ComfyUI (si région autorisée) ; Muse Ember via Meta Model API ; skills d'agents (anthropics/skills, mattpocock/skills) et vercel-labs/agent-browser.
+- **Top 3 du jour** : 1) Anthropic IPO roadshow ; 2) Gemini Decisions API + Gemini 4 Carbon GA ; 3) Nod (n8n) + Claude Meetings.
+- **À tester en priorité** : Gemini Decisions API (AI Studio), Nod (open source), Scribe v3, MiniMax H3-Image, Muse Ember API.
