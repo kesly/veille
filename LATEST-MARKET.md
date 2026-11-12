@@ -1,169 +1,167 @@
-# 🔥 Market Scan — 2026-11-11
+# 🔥 Market Scan — 2026-11-12
 
-> Collecte : treg 5/5 sources, 4 recherches extended (couverture réduite), GitHub Trending ok, 0 page lue (`read` non lancé), 3 candidats creusés (3 fiches App Store, 1 appel `demand` de 28 mots-clés).
+> Collecte : treg 5/5 sources, 9 recherches extended, GitHub Trending ok, 0 page lue (`read` non utilisé), 3 candidats creusés (4 fiches App Store lancées, dont FoilSnap en plus du quota de 3 : à corriger au prochain run).
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Revente FR, scan et annonce Vinted/Leboncoin (6.15/10, 🟡 BUILD ADJACENT)
+- Mon pari : Pari #1 Remboursement de dettes sans frais cachés (6.5/10, 🟡 BUILD ADJACENT)
 - Opportunités immédiates (BUILD NOW) : 0
 
 ## 🧭 Où l'argent se déplace
-Demande : Google US via `demand` (volume/mois, CPC, tendance 12 mois). Comparaison de classement sur 4 jours seulement (vs 2026-11-07).
+Demande : Google US, [demande.tsv](market-scan/data/demand.tsv). Mouvements : treg, ~5 j.
 
 | Niche (catégorie) | Mouvement | Demande | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Télécommande / miroir TV (utilities) | 13 apps montent : Screen Mirroring 38→20, Smart TV 48→32, Remote Samsung 66→50 (4 j) | « tv remote app » 12 100, 2,94 $, stable ; « screen mirroring app » 5 400, 2,27 $, stable | Screen Mirroring 4,6★, 15k avis, MAJ 5 j ; 35 avis 1★ sur 50, paywall | à creuser : demande stable, offre qui monte, mais saturé |
-| Suivi de colis (shopping) | #3, #5, #13 dans le top ; 1er relevé shopping | « parcel tracking app » 720, 3,13 $, pic à 2 900 ; « package tracker app » 210 | Tracker #3 4,4★, MAJ 48 j ; 32 avis 1★ sur 50 « payer pour suivre » | à creuser : demande faible, plainte forte |
-| Revente / thrift (shopping) | ThriftAI #8, Offload AI #9 (83 j), WorthPoint #11 (2,1★) | « resell app » 2 400, 8,68 $, 1 600→2 900 | WorthPoint 2,1★ ; ThriftAI 4,8★ | oui : demande qui monte, CPC élevé, pas de version FR trouvée (estimation) |
-| Macros et GLP-1 (health) | MacrosFirst nouveau→89, Carbon nouveau→96, BitePal nouveau→94 ; Lyfta nouveau→83 | « calorie counter app » 49 500 ; « glp-1 tracker » 480, 3,44 $, 390→590 ; « macro tracker app » 1 000 | MeAgain 4,8★, MAJ 61 j ; plainte « hate the new update » | oui : demande GLP-1 en hausse, FR absent (estimation) |
-| Langues (education) | ELSA nouveau→96, EWA nouveau→99, BoldVoice nouveau→89 | « language learning app » 27 100 mais 22 200→8 100 en baisse ; « accent training app » 480, 5,46 $ | Pimsleur, Speak, ELSA : marché mûr | non : demande en baisse (vocal) |
-| Prise de notes IA (productivity) | Wave 77→64, Notee 91→81, Live Transcribe nouveau→94 | « ai note taker » 22 200, 12,44 $, concurrence haute | Otter, Plaud, Evernote | non : saturé |
-| Co-parentalité (productivity) | AppClose 45→23 | « co-parenting app » 27 100, 5,31 $, 49 500→8 100 | OurFamilyWizard, TalkingParents 4,4★ | à creuser : mouvement fort mais demande qui chute |
-| Interior design IA (lifestyle) | AI Interior Decor 86→75, iScape nouveau→81 | « ai interior design » 5 400, 5,54 $, en baisse | App de 369 j, 4,8★ | à creuser |
+| Remboursement de dettes (finance) | Ditch stable #14 ; 1er relevé finance, pas de delta | « debt payoff app » 590/mois, CPC 11,36 $, stable | Ditch 4.83★/4 731 avis, MAJ 8 j, 80 $/an + 1 $/transfert : « transaction fees kill it » | **oui** : leader cher, CPC très élevé |
+| Chasse aux class actions (finance) | Collect #18, Settlemate #16 | « settlement finder » 3 600/mois, CPC 6,10 $, 90 → 22 200 en 12 mois | Settlemate 15,99 $/mois, commission signalée par un tiers | à creuser : explosion récente, risque juridique |
+| Scan de cartes TCG (référence) | FoilSnap #18, HoloDex #20, Collectr #7 | « pokemon card scanner » 14 800, CPC 2,44 $, 8 100 → 18 100 | FoilSnap 15 k avis : « wildly inaccurate pricing » | **oui** : demande qui monte, prix faux |
+| Permis US / DMV (éducation) | DMV Practice Test nouveau→#99 | « dmv practice test » 110 000, CPC 0,32 $, plat | 4.69★ sur 471 avis ; DMV Genie ~200 k$/mois estimation Sensor Tower, vieille | à creuser : volume énorme, CPC bas, marché US |
+| Langue des signes (éducation) | Ziggy nouveau→#52 | « asl learning app » 1 300, CPC 2,17 $, 1 000 → 1 900 | Ziggy 4.8★/7 207 avis | à creuser : demande qui monte, pas de FR (LSF) vérifié |
+| Scanner d'aliments (santé) | Exposr 99→45 en 1 j | « food scanner app » 6 600, CPC 3,34 $, pic 14 800 ; « yuka app » 60 500 | Exposr 4.71★, 31/50 avis 1★ sur le paywall | non : Yuka gratuit à 10 $/an, FR déjà occupé |
+| Miroir TV / télécommande (utilitaires) | Screen Mirroring 38→18, 19 apps en mouvement | « tv remote app » 12 100, CPC 2,94 $ ; « screen mirroring app » 5 400 | 4.3★ à 4.6★, plaintes de facturation | à creuser : déjà proposé (télécommande honnête), pas de nouveau signal |
 
 ## 🎯 Quoi builder
-### Pari #1 : Revente FR, scan et annonce Vinted/Leboncoin
-- **L'idée** : pour les revendeurs particuliers français, photographier un objet, obtenir un prix de revente et une annonce prête, 6,99 €/semaine ou 39,99 €/an.
-- **Preuve d'argent** : [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) #8 shopping (20 830 avis) ; [Offload AI](https://apps.apple.com/us/app/offload-ai/id6790490668) #9 (83 j, 265 avis) ; [SellRaze](https://apps.apple.com/us/app/sellraze-list-sell-earn/id6455042085) #6.
-- **Le trou** : [WorthPoint](https://apps.apple.com/us/app/worthpoint/id1472512649) 2,1★ sur 117 avis (fiche App Store) ; aucune version FR trouvée (estimation, pas vérifié sur l'App Store FR).
-- **Pourquoi Kyle** : dev full-stack, vision + LLM en API, il connaît le marché FR.
-- **MVP** : scan photo avec fourchette de prix, texte d'annonce FR, suivi des ventes ; 4 semaines.
-- **Argent** : paywall après le premier scan, quand le prix s'affiche floué ; essai 3 jours.
-- **Acquisition** : TikTok « j'ai revendu X € ». Accroche : « Ce pull vaut 38 € sur Vinted, pas 5 ».
-- **Test en 48 h** : landing + vidéo TikTok ; go à 100 inscrits sur liste d'attente, stop sous 30.
+### Pari #1 : Planificateur de dettes sans frais cachés
+- **L'idée** : particuliers endettés (cartes, prêts), un plan snowball/avalanche sans lien bancaire, 29 € une fois ou 3 €/mois.
+- **Preuve d'argent** : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) #14 finance, 4 731 avis ; [YNAB](https://apps.apple.com/us/app/ynab/id1010865877) #7 finance, 62 170 avis.
+- **Le trou** : « Should be one or the other not both » (avis Ditch, 50 derniers avis US) ; CPC « debt payoff app » 11,36 $, 590/mois, stable.
+- **Pourquoi Kyle** : SaaS simple, calculs sans agrégation bancaire, vendable en SEO francophone (surendettement, rachat de crédit).
+- **MVP** : saisie des dettes ; plan avec date de fin et intérêts économisés ; carte de progression partageable. 3 semaines.
+- **Argent** : paywall après le premier plan (date de fin visible), 29 € à vie.
+- **Acquisition** : SEO + TikTok « ma dette disparaît ». Accroche : « Pas d'abonnement, pas de frais par paiement ».
+- **Test en 48 h** : landing + 20 € de pub, seuil 40 emails à moins de 1 € l'unité ; sinon stop.
 
-### Pari #2 : Suivi GLP-1 en français
-- **L'idée** : pour les patients Wegovy/Mounjaro francophones, suivi des doses, protéines et poids, 39,99 €/an.
-- **Preuve d'argent** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) #31 health, 40 510 avis ; MeAgain affiche 650k$/mois (estimation tierce) ; [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) #10. Demande « glp-1 tracker » 480/mois, CPC 3,44 $, 390→590.
-- **Le trou** : avis MeAgain « Hate the new update! » et saisie des repas lourde ; pas de FR trouvé (estimation). Déjà vu 1 fois (rapport précédent) : nouveauté = la plainte sur la mise à jour du 8 nov. et la demande en hausse.
-- **Pourquoi Kyle** : SaaS + marché FR, pas de matériel.
-- **MVP** : rappel de piqûre + widget, journal protéines/eau, courbe poids par dose ; 5 semaines.
-- **Argent** : paywall après l'onboarding ; 39,99 €/an.
-- **Acquisition** : Reddit r/Ozempic FR, TikTok. Accroche : « Ta piqûre du jeudi, sans y penser ».
-- **Test en 48 h** : post Reddit + landing ; go à 50 inscrits.
+### Pari #2 : Préparation au permis US (DMV) par État
+- **L'idée** : candidats au permis US, tests par État en 15 min, 19 $ à vie, sans abonnement piège.
+- **Preuve d'argent** : [DMV Practice Test](https://apps.apple.com/us/app/dmv-practice-test-before-exam/id6757428581) #99 éducation, 471 avis, 299 j ; DMV Genie ~200 k$/mois (estimation Sensor Tower ancienne, [lien](https://app.sensortower.com/overview/513850893?country=US)).
+- **Le trou** : « it spent 20$ for premium and they won't refund my money » (DMV Practice Test) ; « dmv practice test » 110 000/mois, CPC 0,32 $.
+- **Pourquoi Kyle** : banque de questions générée et vérifiée avec l'IA sur les manuels officiels, 50 pages SEO par État ; marché US en anglais (pas de FR).
+- **MVP** : 5 États ; mode examen ; rappel quotidien. 3 semaines.
+- **Argent** : paywall après le 1er test, 19 $ à vie.
+- **Acquisition** : SEO programmatique. Accroche : « Réussi du premier coup ou remboursé en 1 clic ».
+- **Test en 48 h** : page Californie, seuil 200 visites organiques en 7 j ou 5 ventes sur pub à 30 $ ; sinon stop.
 
-### Pari #3 : Télécommande TV honnête
-- **L'idée** : pour tout foyer avec Smart TV, télécommande + miroir avec test de compatibilité gratuit, abonnement après la preuve que ça marche.
-- **Preuve d'argent** : [Screen Mirroring | Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276) #20 utilities (38→20 en 4 j) ; [Universal TV Remote Control](https://apps.apple.com/us/app/universal-tv-remote-control/id6443877058) #23. Demande « tv remote app » 12 100, 2,94 $, stable.
-- **Le trou** : « Screen mirroring is behind a pay wall » (avis App Store) ; 35 avis 1★ sur 50.
-- **Pourquoi Kyle** : app simple, mais pas d'avantage francophone net : le moins bon fit.
-- **MVP** : détection TV, télécommande Roku/Samsung/LG, test de connexion ; 8 semaines.
-- **Argent** : paywall après la première connexion réussie.
-- **Acquisition** : App Store Search Ads. Accroche : « Essaie d'abord, paie si ça marche ».
-- **Test en 48 h** : pub à petit budget ; go sous 3 $ par installation d'essai.
+### Pari #3 : Scanner de cartes TCG aux prix vérifiés
+- **L'idée** : collectionneurs Pokémon en Europe, scan avec prix Cardmarket sourcés, 3 €/mois.
+- **Preuve d'argent** : [Collectr](https://apps.apple.com/us/app/collectr-tcg-collector-app/id1603892248) #7 référence, 69 946 avis ; [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525) #18, 15 365 avis.
+- **Le trou** : « Told me I had a $154 but it was actually 50 cents » (avis FoilSnap) ; « pokemon card scanner » 14 800/mois, 8 100 → 18 100 en 12 mois. Déjà proche d'un pari de revente (scan) : l'angle est ici la fiabilité du prix.
+- **Pourquoi Kyle** : vision + API de prix, marché FR/EU peu servi (estimation).
+- **MVP** : scan ; prix avec source et date ; collection. 5 semaines.
+- **Argent** : 5 scans gratuits sans carte, paywall au 6e, 29 €/an.
+- **Acquisition** : TikTok « j'ai scanné ma collection ». Accroche : « Le prix, avec la source ».
+- **Test en 48 h** : vidéo TikTok + landing, seuil 50 inscrits en liste d'attente ; sinon stop.
 
-**Mon pari : #1 — Revente FR** : meilleur score (6,15/10), demande en hausse (1 600→2 900) avec un CPC de 8,68 $ et un angle francophone que Kyle maîtrise. Kyle décide.
+**Mon pari : #1 — Planificateur de dettes sans frais cachés**, meilleur score pondéré et plainte documentée sur un leader mal vu.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ TTM 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit 15% | Score | Verdict | 3 traits |
+| Pari | 📊 20% | ⚙️ 15% | ⏱️ 15% | 🏟️ 15% | 💰 20% | 🧑‍💻 15% | Score | Verdict | 3 traits |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Revente FR | 6 | 6 | 7 | 5 | 6 | 7 | **6.15** | 🟡 BUILD ADJACENT | 2 |
-| #2 GLP-1 FR | 6 | 6 | 6 | 4 | 7 | 7 | **6.05** | 🟡 BUILD ADJACENT | 2 |
-| #3 Télécommande TV | 7 | 5 | 5 | 3 | 6 | 5 | **5.30** | 🟠 WATCH | 2 |
+| #1 Planificateur de dettes | 7 | 7 | 7 | 5 | 6 | 7 | **6.5** | 🟡 BUILD ADJACENT | 2 |
+| #2 Permis US (DMV) | 6 | 8 | 8 | 3 | 6 | 7 | **6.3** | 🟡 BUILD ADJACENT | 1 |
+| #3 Scanner TCG | 7 | 5 | 6 | 3 | 7 | 6 | **5.8** | 🟠 WATCH | 2 |
 
-Scores honnêtes : aucun BUILD NOW. Le marché est fait d'apps à abonnement dur ; l'avantage est le marché FR, pas une technologie.
+Scores honnêtes : aucun pari n'atteint 7.5. La concurrence reste forte partout.
 
-## 💰 Unit Economics — Pari #1 : Revente FR
-Toutes les valeurs sont des `estimation`, à partir d'apps comparables (ThriftAI 9,99 $/mois, Offload AI 39,99 $/an), sans source directe.
+## 💰 Unit Economics — Pari #1 : Remboursement de dettes sans frais cachés
+Toutes les valeurs sont des estimations (aucune donnée publique de revenu pour Ditch, vu la recherche).
 
-| Mesure | Estimation |
+| Métrique | Estimation |
 |---|---|
-| Users payants à 12 mois | 1 500 |
-| ARPU annuel | 30 € (essai, remises) |
-| ARR | 45 k€ |
-| CAC | 6 € (TikTok organique + un peu de pub) |
-| LTV | 40 € (rétention 16 mois) |
-| LTV/CAC | 6,7 |
-| Payback | 2 mois |
-| Burn | 800 €/mois (API vision, hébergement) |
-| Runway | illimité en solo, sans salaire |
-| Rev/employé | 45 k€ (1 personne) |
-| Rule of 40 | n.d., pas de croissance annuelle mesurée |
+| Prix | 29 € à vie ou 3 €/mois ; ARPU ~12 €/an |
+| Users payants visés à 12 mois | 2 000 |
+| ARR | ~24 k€ |
+| CAC | ~8 € (SEO + TikTok, estimation) |
+| LTV | ~25 € |
+| LTV/CAC | ~3 |
+| Payback | ~8 mois |
+| Burn | ~500 €/mois (outils, pub) |
+| Runway | long : fondateur seul, coûts faibles |
+| Rev/Employee | ~24 k€ (1 personne) |
+| Rule of 40 | non applicable à ce stade |
 
-Verdict : 🟡 viable en solo si le CAC reste sous 10 €. Le coût des appels vision et le taux de remboursement sont les risques.
+Verdict santé : 🟡. Marché solide (CPC 11,36 $) mais ARPU bas et pas de moteur de rétention fort.
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) | #3 shopping, 11k avis, 4,4★ | 1 197 j | Suivi de colis, abonnement hebdo | Plaintes « payer pour suivre » |
-| [Package Tracker TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278) | #5 shopping, 1,8k avis, 3,7★ | jeune (estimation) | Suivi de colis | Peu d'avis, bien classée |
-| [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) | #8 shopping, 21k avis | — | Prix de revente par photo, 9,99 $/mois (estimation) | Pas de version FR |
-| [Offload AI](https://apps.apple.com/us/app/offload-ai/id6790490668) | #9 shopping, 265 avis | 83 j | Agents IA qui vendent à votre place | Jeune, à surveiller |
-| [WorthPoint](https://apps.apple.com/us/app/worthpoint/id1472512649) | #11 shopping, 2,1★ | 2 674 j | Valeur d'objets de collection | Leader mal noté |
-| [Screen Mirroring \| Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276) | #20 utilities, 38→20 | 760 j | Miroir iPhone vers TV, abonnement | Plaintes paywall |
-| [Universal TV Remote Control](https://apps.apple.com/us/app/universal-tv-remote-control/id6443877058) | #23 utilities, 84k avis, 4,8★ | — | Télécommande TV | Marché saturé |
-| [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #31 health, 40k avis, 4,8★ | 578 j | Suivi GLP-1, 14,99 $/sem · 39,99 $/an | Pas de FR (estimation) |
-| [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) | #10 health, 4,8★ | — | Suivi des macros | Demande calories 49 500/mois |
-| Gravl: AI Personal Trainer | health, 79→#59 | — | Coach muscu IA | À creuser |
-| [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897) | #10 education, 22k avis (vocal) | — | Tuteur d'anglais IA | Vocal, déjà vu |
-| Coconote - AI Note Taker | education, 69→#52 (vocal) | — | Notes de cours IA | Marché chargé |
-| [AppClose](https://apps.apple.com/us/app/appclose/id1019290876) | #23 productivity, 45→23 | — | Co-parentalité | « co-parenting app » 27 100/mois, en baisse |
-| BuildingWaves ([post](https://x.com/BuildingWaves/status/2118266663972003930)) | 1 000 $ MRR déclaré | ~2 mois | Outil dans un marché concurrentiel | `—` |
-| [Alsona](https://www.producthunt.com/products/alsona) | 405 votes PH | jour | Agents IA de prospection | Lancement PH seul, pas de preuve d'argent |
+| [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) | #14 finance, 4 731 avis, 4.83★ | 1154 j | Arrondis vers dettes, ~80 $/an + 1 $/transfert | Frais cachés = plainte n°1 |
+| [Exposr](https://apps.apple.com/us/app/exposr-food-product-scanner/id6752903766) | #45 santé (99→45), 5 615 avis | 401 j | Score d'aliments, ~30 $/an | Paywall dur, Yuka gratuit |
+| [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525) | #18 référence, 15 365 avis | 407 j | Scan cartes TCG + prix | Prix faux, abonnement piégeux |
+| [DMV Practice Test](https://apps.apple.com/us/app/dmv-practice-test-before-exam/id6757428581) | #99 éducation, 471 avis | 299 j | Tests permis par État, premium ~20 $ | Remboursement refusé |
+| [Collectr](https://apps.apple.com/us/app/collectr-tcg-collector-app/id1603892248) | #7 référence, 69 946 avis | ? | Collection TCG, valeur | Leader du scan TCG |
+| [Settlemate](https://apps.apple.com/us/app/settlemate-claim-savings/id6737785495) | #16 finance, 76 132 avis | ? | Class actions, 15,99 $/mois | Commission après 50 $ (avis tiers) |
+| [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187) | #18 finance, 5 797 avis | ? | Même besoin, abonnement | Demande Google ×100 en 12 mois |
+| [Screen Mirroring](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276) | #18 utilitaires (38→18) | ? | Miroir iPhone vers TV | Facturation après annulation |
+| Ziggy: Learn ASL | #52 éducation, nouveau, 7 207 avis | ? | Langue des signes | Demande 1 300/mois, en hausse |
+| [Plaud](https://apps.apple.com/us/app/plaud-ai-work-companion/id6450364080) | #25 productivité, 24 350 avis | ? | Enregistreur IA (matériel) | — (voix, hardware) |
+| [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) | #11 santé, 24 000 avis, 4.8★ | ? | Macros adaptatifs, abonnement | — |
+| [Subscriptrack](https://www.producthunt.com/products/subscriptrack) | PH 82 votes | jour | Détecte les abonnements par email | Lien avec dettes/budget |
+| helumi | 916 $ MRR déclaré | 1 mois | App Mac | — |
+| BuildingWaves | 1 k$ MRR déclaré | 2 mois | Outil dans un marché concurrentiel | — |
+| MagicSlides (Sanskar) | ~1 M$ cumulé déclaré (portefeuille) | 6 ans | Slides IA | Portefeuille de petits produits |
 
 ## 💸 Apps qui font du cash
-**Revenus déclarés** (déclaré, non vérifié) :
-- BuildingWaves : 1 000 $ MRR, lancé en septembre, 5 nov. 2026 — [post](https://x.com/BuildingWaves/status/2118266663972003930)
-- tsuzuki817 : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $, Play 148 $), 7 nov. — [post](https://x.com/tsuzuki817/status/2118864245500805613)
-- helumi (app Mac) : 916 $ MRR en un mois, 9 nov. — [post](https://x.com/letcontactabhi/status/2119685259348635928)
-- itsbongoo : 400 $ MRR, 96 abonnés actifs, 8 nov. — [post](https://x.com/itsbongoo/status/2119281702816428184)
-- idanmasas (app B2C mobile) : 173 $ MRR, 25 abonnés, 6 nov. — [post](https://x.com/idanmasas/status/2118658888903901494)
-- itsKamadh : 262 $ MRR, 95 abonnés, plus de revenu pub que d'abonnements, 8 nov. — [post](https://x.com/itsKamadh/status/2119455717212225912)
-- Appkittie : une app en tête des revenus des apps de moins de 3 mois, « 500K MRR », produit non nommé dans le post, 7 nov. — [post](https://x.com/Appkittie/status/2119117468233007401)
-- Mise en garde : [un post](https://x.com/ahmedgagan11/status/2119727971905016215) rappelle que le MRR affiché compte des paiements échoués.
+**Revenus déclarés** (déclaré, non vérifié)
+- Sanskar Tiwari (MagicSlides, SheetAI, 8 produits sur 30+) : ~1 M$ cumulé selon Starter Story, 729 k$ vérifiés Stripe selon son site, 2026-11-11, [post X](https://x.com/starter_story/status/2120311453987287229).
+- BuildingWaves : 1 000 $ MRR, lancé en septembre, 2026-11-05, [post X](https://x.com/BuildingWaves/status/2118266663972003930).
+- idanmasas (app mobile B2C) : 173 $ MRR, 25 abonnés, 703 $ sur 30 jours, 2026-11-06, [post X](https://x.com/idanmasas/status/2118658888903901494).
+- celal_dev : 1,5 à 2 k$/mois en apps, 8 k$ cumulés, 100 % organique, 2026-11-10, [post X](https://x.com/celal_dev/status/2120217269934453145).
+- helumi (app Mac) : 916 $ MRR en un mois, 2026-11-09, [post X](https://x.com/letcontactabhi/status/2119685259348635928).
+- SaaS non nommé, fondateur de 22 ans : 11 152 $ le mois dernier, 232 ventes, 2026-11, [post Reddit](https://www.reddit.com/r/SaaS/comments/1xtkeor/) (produit non identifié dans le titre, preuve faible).
+- Outil « helping apps get found » : ~3,36 k$ MRR, [post X](https://x.com/lingships/status/2118712510010552481) (relais tiers).
 
-**App Store US, moins de 100k avis** (rang, pas revenu) :
-- #3 shopping, [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), 11 221 avis : suivi de colis, abonnement
-- #4 shopping, [HotStock](https://apps.apple.com/us/app/hotstock-in-stock-alerts/id1257690900), 15 273 avis : alertes de stock
-- #8 shopping, [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278), 20 830 avis : estime le prix de revente
-- #10 health, [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471), 23 947 avis : suivi des macros
-- #31 health, [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), 40 510 avis : suivi GLP-1
-- #20 utilities, [Screen Mirroring | Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276), 15 195 avis (38→20 en 4 j)
-- #10 education, [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897), 22 623 avis : tuteur d'anglais IA
-- #25 productivity, [Pocket](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735), 7 733 avis : assistant IA
-- Mouvements du jour : AppClose 45→23, Live Transcribe nouveau→94, Replika nouveau→85.
+**App Store US** (rang, pas revenu)
+- #14 finance, 4 731 avis : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208), remboursement de dettes par arrondis.
+- #18 finance, 5 797 avis : [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187), trouve des class actions à réclamer.
+- #16 finance, 76 132 avis : [Settlemate](https://apps.apple.com/us/app/settlemate-claim-savings/id6737785495), même idée.
+- #18 référence, 15 365 avis : [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525), scan de cartes TCG.
+- #18 utilitaires, 15 210 avis : [Screen Mirroring](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276), miroir vers TV (38→18 en 5 j).
+- #11 santé, 24 000 avis : [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471), suivi de macros.
+- #52 éducation, 7 207 avis : Ziggy: Learn ASL Sign Language (lien non relevé), langue des signes (nouveau→52).
+- #99 éducation, 471 avis : [DMV Practice Test](https://apps.apple.com/us/app/dmv-practice-test-before-exam/id6757428581), permis US.
 
-**Jeunes apps qui gagnent déjà** (< 365 j) :
-- [Offload AI](https://apps.apple.com/us/app/offload-ai/id6790490668) : #9 shopping, sortie 2026-08-19 (83 j), 265 avis, « laissez des agents IA vendre pour vous », 6,99 $/sem · 39,99 $/an (source : appllama, estimation de version)
-- [AI Interior Decor](https://apps.apple.com/us/app/ai-interior-decor-home-design/id6754930176) : #75 lifestyle, sortie 2025-11-06 (369 j, limite), 1 614 avis
-- Places à prendre : [Bumper](https://apps.apple.com/us/app/bumper-vehicle-history-report/id1543977359) (#14 shopping, MAJ il y a 84 j) et [Parcels Hub](https://apps.apple.com/us/app/package-tracker-parcels-hub/id1559261145) (3,5★) : aucun leader de plus de 180 j sans mise à jour trouvé ; WorthPoint (2,1★ sur 117 avis, #11 shopping) est mal noté.
+**Jeunes apps qui gagnent déjà** (< 365 j)
+- DMV Practice Test : #99 éducation, 299 j, MAJ il y a 6 j, 4.69★ sur 471 : questions d'examen par État.
+- FamiGuru : #76 lifestyle, 102 j, 1.89★ sur 9 : peu de signal, à ignorer.
+- Exposr : 401 j, #45 santé (99→45 en 1 j) : scanner d'aliments.
+- Aucun leader sans MAJ > 180 j trouvé ; VidEffect (#91 utilitaires) : MAJ il y a 429 j, 3.68★ sur 22 : place à prendre mais niche vidéo IA saturée.
 
-## 🔬 App creusée #1 : My Package Delivery Tracker
-1. **Identification** : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), MultiApp Dynamics OU, utilitaire shopping, sortie 2023-08-01, #3 shopping, 11 221 notes, 4,42★, gratuit avec abonnement. Dernière MAJ 2026-09-23 (48 j).
-2. **Proposition** : suivre 1 300+ transporteurs dans une app. Cible : acheteurs en ligne. Prix : essai 3 jours puis abonnement hebdomadaire (d'après les avis).
-3. **3 décisions** : onboarding qui mène droit au paywall ; paywall dès la saisie du premier numéro de suivi, au moment de l'inquiétude du colis (d'après les avis) ; retour par les notifications de livraison (estimation).
-4. **3 traits** : émotion pour une action ✅ (« où est mon colis ») ; résultat visible en secondes ✅ ; distribution intégrée ❌ (rien de partageable, estimation).
-5. **Ce qui manque** : 32 avis 1★ sur 50, presque tous sur le paiement. « Why do i have to pay a subscription just to track 1 package??? » ; « Forced to download to track ». Mise à jour il y a 48 j, pas de retard de plus de 180 j.
-6. **Acquisition** : pubs Meta non trouvées (aucune page d'app sûre). Autres canaux non relevés.
-7. **Stack** : non connue (estimation : agrégateur d'API de suivi type 17track, backend léger, notifications push).
-8. **Réplication** : complexité 4/10. Verticaux adjacents : alertes de stock (HotStock #4), suivi de véhicule. Niche : un tracker gratuit pour 1 colis, payant pour l'illimité. Pas de version française trouvée (estimation). Angle Kyle : colis FR (Colissimo, Chronopost, Mondial Relay). Temps : 3 semaines. Limite : demande Google faible (720 et 210 par mois).
+## 🔬 App creusée #1 : Ditch: Pay Off Debt Faster (finance)
+1. **Identification** : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208), sortie 2023-09-14, MAJ 2026-11-03. Fondateurs : Luis Andino (CEO) et Eli Curtin, Atlanta ([Hypepotamus](https://hypepotamus.com/community/education/ditch-startup-to-help-with-debt/)). Finance. 4.83★ sur 4 731 notes, #14 finance US. Levée ~1 M$ selon la presse locale, ~20 k$ selon Tracxn (sources en désaccord).
+2. **Proposition** : payer ses dettes sans y penser, via arrondis sur chaque achat. Cible : Américains avec dettes de carte ou prêts. Gratuit à télécharger, essai 1 semaine, ~12,99 $/mois ou 79,99 $/an + 1 $ par transfert (avis).
+3. **Décisions qui font l'argent** : onboarding long avec demande de note App Store avant d'avancer (avis, contraire aux règles Apple selon un utilisateur) ; paywall tôt, avant l'accueil ; retour par prélèvement automatique en arrière-plan (estimation).
+4. **3 traits** : ❌ émotion forte (soulagement, mais lent) ; ✅ résultat visible : solde de dette qui baisse ; ❌ pas de distribution intégrée.
+5. **Ce qui manque** : frais cumulés. « A subscription I can do, but processing fees sounds crazy » ; « Should be one or the other not both ». Notes : 22 × 5★, 20 × 1★ sur 50 avis. MAJ il y a 8 j : pas de place à prendre côté maintenance.
+6. **Acquisition** : pubs Meta non trouvées (page d'app introuvable). Canal pro : offre employeurs à 1 $/employé/mois (presse).
+7. **Stack** : estimation, app native iOS ; agrégation bancaire type Method ([partenariat](https://methodfi.com/resources/method-labs/ditchxmethodxlabs)).
+8. **Réplication** : complexité 6/10 avec liaison bancaire, 3/10 sans. Niche : planificateur de dettes sans lien bancaire, prix unique. Angle Kyle : web + app, marché FR/EU en surendettement léger (demande FR non mesurée). Temps : 3 à 4 semaines.
 
-## 🔬 App creusée #2 : Screen Mirroring | Cast to TV
-1. **Identification** : [Screen Mirroring | Cast to TV](https://apps.apple.com/us/app/screen-mirroring-cast-to-tv/id6670321276), Ozuna Limited, utilities, sortie 2024-10-11 (760 j), #20 utilities (38→20 en 4 j), 15 195 notes, 4,61★. MAJ 2026-11-06.
-2. **Proposition** : miroir de l'iPhone vers Smart TV, cast de vidéos web, caméra live. Cible : monde large, TV sans AirPlay. Prix : abonnement (montant non relevé).
-3. **3 décisions** : onboarding vers l'écran de connexion ; paywall avant le premier miroir, donc avant la valeur (d'après les avis) ; retour par l'usage récurrent du casting (estimation).
-4. **3 traits** : émotion ✅ (grand écran, famille) ; résultat en secondes ✅ quand ça marche ; distribution ❌.
-5. **Ce qui manque** : 35 avis 1★ sur 50. « Screen mirroring is behind a pay wall. » ; « It didn't work with my TV and they charged me after I canceled ». Plaintes : prix, connexion, remboursement. Mise à jour récente.
-6. **Acquisition** : pubs Meta non trouvées. Canaux : recherche App Store (12 100 recherches/mois « tv remote app », estimation d'intention).
-7. **Stack** : estimation : Swift, ReplayKit broadcast extension, serveur de relais web, protocoles Roku/Samsung/LG.
-8. **Réplication** : complexité 6/10 (compatibilité TV). Niche : prix honnête, essai sans carte, test de compatibilité gratuit avant paiement. Angle Kyle : modeste, pas de lien au marché FR. Temps : 6 à 8 semaines.
+## 🔬 App creusée #2 : Exposr - Food Product Scanner (santé)
+1. **Identification** : [Exposr](https://apps.apple.com/us/app/exposr-food-product-scanner/id6752903766), sortie 2025-10-06, MAJ 2026-11-02, développeur Nagia LLC ; site [exposr.app](https://exposr.app/). Santé. 4.71★ sur 5 615 notes, #45 santé (99→45 en 1 j). Fondateurs non trouvés.
+2. **Proposition** : scanner étiquette ou code-barres, note /100 avec additifs et huiles de graines. Cible : parents et acheteurs soucieux. Essai puis 4,99 $/semaine ou 30 à 50 $/an (comparatifs tiers, 29,99 $ cité en avis).
+3. **Décisions** : questionnaire long puis paywall avant tout usage (avis : « Can't try it without trial subscription ») ; carte demandée à l'essai ; retour par historique de scans et mise à jour des notes (notes de version).
+4. **3 traits** : ✅ émotion : peur de ce qu'on mange ; ✅ résultat en quelques secondes (scans 5× plus rapides) ; ❌ pas de partage intégré relevé.
+5. **Ce qui manque** : 31 avis 1★ sur 50, quasi tous sur le paywall. « Just use yuka the app is free » ; « Must pay to try ». Autre : icône générée par IA. MAJ récente.
+6. **Acquisition** : 0 pub Meta active (page « Exposr - Processed food scanner », 276 300 likes à vérifier). Peu de canaux relevés : blogs comparatifs SEO ([Osana](https://osana.co/blog/exposr-app-alternatives)).
+7. **Stack** : estimation, vision + base produits (Open Food Facts probable).
+8. **Réplication** : 4/10. Verticaux : cosmétiques, bébé. Niche : aucune, Yuka (60 500 recherches/mois, 10 $/an) occupe le terrain, surtout en France. Pas de pari. Temps : 4 semaines.
 
-## 🔬 App creusée #3 : MeAgain (GLP-1 Tracker)
-1. **Identification** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), Dots Future Technologies, health, sortie 2025-04-11 (578 j), #31 health, 40 510 notes, 4,79★. Revenu : une [fiche d'analyse](https://screensdesign.com/apps/meagain-glp-1-all-in-one-app/) affiche 650k$/mois, estimation tierce non vérifiée.
-2. **Proposition** : suivre doses (piqûres, pilules), repas, protéines, eau, effets secondaires, poids. Cible : utilisateurs Ozempic, Wegovy, Zepbound. Prix : 14,99 $/sem · 39,99 $/an (source : lien ci-dessus).
-3. **3 décisions** : onboarding long pour personnaliser (estimation) ; paywall après l'onboarding, au moment où l'utilisateur a investi ses données (estimation) ; retour par rappel du jour de piqûre, widget.
-4. **3 traits** : émotion ✅ (perte de poids) ; résultat visible ✅ (courbe poids par dose) ; distribution ❌ (pas de partage trouvé).
-5. **Ce qui manque** : peu de plaintes (43 avis 5★ sur 50). « Hate the new update! » ; « It just tracks your food, water, etc. » ; saisie des repas lourde. MAJ il y a 61 j, pas de retard.
-6. **Acquisition** : pubs Meta non trouvées. Canal : promesses de conseils dans les pubs (d'après un avis).
-7. **Stack** : estimation : Swift, backend + base d'aliments, HealthKit.
-8. **Réplication** : complexité 6/10. Niche : version francophone (pas trouvée, estimation), saisie de repas plus simple. Angle Kyle : marché FR (Wegovy, Mounjaro). Réglementation légère : « suivi, pas conseil médical ». Temps : 6 semaines. Pari déjà vu une fois (rapport précédent).
+## 🔬 App creusée #3 : TCG Card Scanner - FoilSnap (référence)
+1. **Identification** : [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525), Next Vision Limited, sortie 2025-09-30, MAJ 2026-11-05. Référence. 4.75★ sur 15 347 notes, #18 référence. Fondateurs non trouvés.
+2. **Proposition** : identifier une carte Pokémon, Magic ou Yu-Gi-Oh avec la caméra, voir le prix et organiser la collection. Abonnement ~30-40 $/an (avis).
+3. **Décisions** : scans limités gratuits (« only let me scan three cards ») ; paywall au moment où la valeur d'une carte se révèle ; retour : collection et suivi de prix.
+4. **3 traits** : ✅ émotion : « combien vaut ma carte ? » ; ✅ résultat en secondes ; ❌ partage non relevé.
+5. **Ce qui manque** : prix faux et abonnement piégeux, 23 avis 1★ sur 50. « Told me I had a $154 but it was actually 50 cents » ; « Wildly inaccurate pricing ». Annulations non respectées.
+6. **Acquisition** : 0 pub Meta active (page « TCG Card Scanner », 2 694 likes, à vérifier). Demande Google « pokemon card scanner » 14 800/mois, en hausse.
+7. **Stack** : estimation, reconnaissance d'image et API de prix type TCGplayer.
+8. **Réplication** : 5/10. Verticaux : sneakers, LEGO, monnaies. Niche : le leader Collectr (#7) existe, trou sur la fiabilité des prix. Angle Kyle : FR/Cardmarket. Temps : 5 semaines.
 
 ## 📈 Tendances Émergentes
-**Accroches de pubs** : aucune page Meta d'app trouvée sur les 3 fiches, donc aucune accroche relevée. Seul signal : la promesse de « suggestions » de MeAgain, que des avis jugent non tenue.
+**Accroches publicitaires** : aucune pub Meta trouvée pour les 3 apps creusées (0 active pour Exposr et FoilSnap, page non trouvée pour Ditch et DMV). Accroche la plus répétée dans les descriptions : « sans stress, sans tableur » (Ditch), « Stop guessing. Start snapping » (FoilSnap), « Pass on the first try — guaranteed » (DMV).
 
 **Autres signaux**
-- Le paywall dur est la plainte n°1 des apps de suivi de colis et de miroir TV : 32/50 et 35/50 avis 1★. Un essai honnête est une niche.
-- Les « Grok Bot » (#7 productivity, 4,9★) et leur clone open source OpenMausBot (8 951 étoiles cette semaine, [GitHub Trending](https://github.com/trending?since=weekly)) montrent un appétit pour les assistants IA, mais ce sont des apps de grands groupes à ne pas copier.
-- Les agents de code dominent GitHub Trending (t3code, skills, agent-desktop) : outillage pour développeurs, hors cible grand public.
-- Product Hunt du jour : Alsona 405 votes, Maxma 298, Render 262, surtout des outils B2B IA, sans preuve d'argent.
-- Plusieurs posts X montrent des apps à 170-1 000 $ MRR en un mois : l'échelle réaliste d'un lancement solo.
+- Le paywall dur avant usage génère les avis 1★ chez Ditch, Exposr et FoilSnap : le « essayer sans payer » est un trou récurrent.
+- Les apps de chasse aux class actions explosent : « settlement finder » passe de 90 à 22 200 recherches/mois en 12 mois.
+- Les recherches « budget app » baissent (201 000 → 33 100 en un an), signe de saturation.
+- Agents IA : n8n « Nod », CALL-E, Relay et ElevenLabs Scribe v3 en tête de Product Hunt. GitHub Trending : surtout des « skills » d'agents (anthropics/skills 5 738 étoiles, cloudflare/security-audit-skill 11 507). Hors du champ des paris : aucun revenu.
+- HN : « Yogurt », alternative open source à Granola (206 pts), voix/notes de réunion ; pas de preuve d'argent.
