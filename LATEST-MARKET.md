@@ -1,206 +1,178 @@
-# 🔥 Market Scan — 2026-11-13
+# 🔥 Market Scan — 2026-11-14
 
-> Collecte : treg 5/5 sources, 7 recherches extended, GitHub Trending ok, 0 pages lues (lecture de sites non lancée), 3 candidats creusés (fiches App Store + avis).
+> Collecte : treg 5/5 sources, 11 recherches extended, GitHub Trending ok, 2 pages lues, 3 candidats creusés (fiches App Store + avis).
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Fax à la page, sans abonnement piège (6.65/10, 🟡 BUILD ADJACENT)
-- Opportunités immédiates (BUILD NOW) : 0
+- Mon pari : Pari #1 Co-parentalité à prix plat (6.4/10, 🟡 BUILD ADJACENT)
+- Opportunités immédiates (BUILD NOW) : 0 (aucun pari ≥ 7.5)
+- Fil rouge du jour : les leaders payants de 3 niches (suivi colis, co-parentalité, nettoyeurs) se font massacrer en avis 1★ pour leur paywall. Le trou est le même partout : l'abonnement perçu comme un piège.
 
 ## 🧭 Où l'argent se déplace
-Demande : Google US, source `demand` (volume/mois · CPC · tendance 12 mois).
+Demande : volume Google US/mois, CPC, tendance 12 mois (source `demand`, 14 nov.).
 
 | Niche (catégorie) | Mouvement | Demande | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Fax mobile (business) | FAX from iPhone 100→79, uFAX nouveau→93, FaxFlow 63→53 (3 j) | « fax from iphone » 5 400 · 6,39 $ · stable ; « fax app » 4 400 · 7,75 $ · monte (3 600→5 400) | Municorn : 4,78★, 379 896 notes, MAJ il y a 44 j ; avis 1★ : abonnement 10 $/sem., fax non reçu | **oui** : prix à la page, pas de piège |
-| Sauvegarde de recettes (food) | RecipeVault nouveau→46, RecipeSnap 84→59, Flavorish 83→61, Samsung Food 69→54 (3 j) | « recipe keeper app » 2 900 · 2,53 $ · en baisse (4 400→1 300) ; « meal planner app » 2 400 · 5,38 $ · stable | RecipeVault 4,7★, 102 avis, import qui rate | **à creuser** : plusieurs jeunes apps, demande qui baisse |
-| Langue des signes (education) | Ziggy nouveau→52, ASL Bloom nouveau→90 (6 j) | « asl learning app » 1 300 · 2,17 $ · monte (1 000→1 900) | Ziggy 4,79★ mais vidéos qui ne chargent pas, mur de paiement | **oui** pour le FR (LSF) : estimation, pas de donnée FR |
-| Voyage, planification (travel) | Tripsy 24→14, Roadtrippers 70→53, Roam 90→61 (3 j) | « trip planner app » 5 400 · 3,80 $ · en baisse (8 100→2 900) ; « group trip planner » 390 · 4,44 $ · monte (260→880) | Tripsy 4,7★, 5 734 avis ; Windrock Park sans MAJ depuis 255 j | **à creuser** : voyage de groupe |
-| Scan alimentaire (health) | Exposr nouveau→72, BitePal nouveau→96 | « food scanner app » 6 600 · 3,34 $ · pic 14 800 puis 2 900 | Exposr 4,7★, 5 623 avis | **non** : demande retombée |
-| Authentification 2FA (utilities) | Authenticator· 43→33, 3 clones entrent dans le top 100 | « authenticator app » 135 000 · 4,09 $ · stable | Clones payants, notes 4,3★ à 4,6★ | **à creuser** : très encombré, risque de rejet |
-| Télécommandes et mirroring (utilities) | Screen Mirroring 48→32, Universal Remote 90→75, RemoTV 96→79 (6 j) | « universal remote app » 8 100 · 3,53 $ · stable ; « screen mirroring app » 5 400 · 2,27 $ | 4,3★ à 4,7★, 50 823 avis | **non** : déjà proposé, pas d'élément nouveau |
+| Suivi de colis (shopping) | #3 My Package Delivery Tracker, #4 TrackPack, #11 Parcels Hub, nouveau #100 Package Tracker (29 j) | « parcel tracking app » 720, CPC 3,13 $, plat ; « package tracker app » 210 | 4,4★/11k avis ; 31 avis 1★ sur 50 contre l'abo forcé ; MAJ 51 j | **oui** : abonnement perçu comme arnaque, 4 apps dans le top 11 |
+| Co-parentalité (productivité) | #23 OurFamilyWizard, #24 TalkingParents, AppClose 50→29 en 7 j | « co-parenting app » 27 100, CPC 5,31 $, en baisse (49 500→8 100) | TalkingParents 4,4★ mais 41/50 avis 1★ ; fin du plan gratuit mars 2026 (tiers) | **oui** : prix et support ; pas de version FR (non vérifié) |
+| Nettoyage du téléphone (utilitaires) | Content Manager 50→14 en 1 j, SmartClean 75→55, CleanNova nouveau→79, AI Security nouveau→72 (7 j) | « phone cleaner app » 4 400, CPC 4,18 $ ; « duplicate photo cleaner » 1 300, CPC 5,52 $ | 26/50 avis 1★ : faux « gratuit », annulation impossible | **à creuser** : demande réelle, mais saturé et Apple surveille les abos |
+| Scanners de revente et cartes (shopping/sports) | Thrifted 73→58, Thrift Hunt nouveau→68, Sports Card Scanner Spoly 90→73, Cardstock 83→72 | « sports card scanner » 4 400, CPC 2,84 $, +50 % sur 12 mois ; « reseller app » 2 900, CPC 5,23 $ ; « thrift scanner app » 10 | Un test tiers trouve ThriftAI juste 1 fois sur 11 (Android) | **à creuser** : déjà vu 3 fois, aucun nouvel élément fort |
+| Permis et examens (éducation) | DMV Practice Test nouveau→91, CDL Prep nouveau→99 | « dmv practice test » 110 000, CPC 0,32 $ ; « cdl practice test » 33 100, CPC 1,44 $ | Revenus estimés tiers seulement (Android 90 K$/mois, non vérifié) | **à creuser** : demande énorme mais CPC bas, marché US par État |
+| Langue des signes (éducation) | Ziggy nouveau→53 | « learn asl » 14 800, CPC 2,83 $, pic 27 100 | 4,8★/7k avis | **à creuser** : déjà vu, version LSF à valider |
+| Alertes de réassort (shopping) | Snag nouveau→90, Outpost 0 avis→83 | « in stock alerts » 390 (880 récents), CPC 1,36 $ | Apps jeunes, quasi sans avis | **non** pour l'instant : volume trop faible |
+| Wallet / cartes (shopping) | Pass2U 74→53, Walletsmith 75→57 | « apple wallet pass » 320, CPC 8,34 $ | Petites apps, peu d'avis | **à creuser** : CPC élevé, niche B2B |
+
+Aucune niche vocale ce jour.
 
 ## 🎯 Quoi builder
-### Pari #1 : Fax à la page, sans abonnement piège
-- **L'idée** : pour les particuliers et petites structures qui doivent faxer une fois, envoyer un fax à 2,99 € l'unité, prix affiché avant la saisie.
-- **Preuve d'argent** : [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-app/id978931264) #79 business, 379 896 notes ; [uFAX](https://apps.apple.com/us/app/send-fax-from-iphone-ufax-app/id6654921095) nouveau→#93. Rang, pas revenu.
-- **Le trou** : « Put in all the info for my fax and it asked for $10 a week. NOT FREE! » (avis App Store, 10 nov.). Demande « fax app » 4 400/mois, CPC 7,75 $, en hausse (4 400 vs 3 600).
-- **Pourquoi Kyle** : un web SaaS avec paiement et API tierce, vendable seul, et marché francophone peu servi (estimation).
-- **MVP** : upload PDF/photo ; prix affiché puis paiement unique ; confirmation de livraison. 3 semaines.
-- **Argent** : paywall avant l'envoi mais après le prix visible, 2,99 €/fax, pack de 5 à 9,99 €.
-- **Acquisition** : SEO « envoyer un fax en ligne » et réponse aux avis 1★. Accroche : « Un fax, un prix. Pas d'abonnement ».
-- **Test en 48 h** : landing avec bouton « me prévenir », 100 $ de pub sur « fax from iphone ». Go si 30 emails ou 3 % de clics ; stop sinon.
+### Pari #1 : Co-parentalité à prix plat
+- **L'idée** : pour les parents séparés, une messagerie à registre inaltérable et export PDF, au prix d'un foyer (≈ 6 €/mois) et non par parent.
+- **Preuve d'argent** : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726) #24 productivité ; [OurFamilyWizard](https://apps.apple.com/us/app/ourfamilywizard-co-parent-app/id497405393) #23. Demande « co-parenting app » 27 100/mois, CPC 5,31 $, en baisse sur 12 mois.
+- **Le trou** : 41/50 avis 1★ sur TalkingParents (fiche App Store) : « Now it's 40 a month ». Plan gratuit supprimé en mars 2026 (sources tierces). Version FR non vérifiée.
+- **Pourquoi Kyle** : SaaS full-stack, marché francophone sous-servi (estimation), pas de voix requise.
+- **MVP** : messagerie horodatée non modifiable ; calendrier de garde partagé ; export PDF. 6–8 semaines.
+- **Argent** : paywall au 1er export PDF ou au-delà de 30 messages ; 5,99 €/mois par foyer.
+- **Acquisition** : SEO et pub Reddit/Meta. Accroche : « Une preuve écrite, pas un abonnement par parent ».
+- **Test en 48 h** : landing + 100 € de pub ; go à 30 e-mails, stop sous 10.
 
-### Pari #2 : Sauve-recettes TikTok en français
-- **L'idée** : pour les cuisiniers francophones, une app qui transforme un lien TikTok/Reels en fiche et liste de courses, 3,99 €/mois. Plan de repas déjà vu 2 fois (rapports précédents) ; nouveau : le classement montre 4 jeunes apps d'import de recettes en 3 jours.
-- **Preuve d'argent** : [RecipeVault](https://apps.apple.com/us/app/recipevault-recipe-keeper/id6758783243) nouveau→#46 ; [RecipeSnap](https://apps.apple.com/us/app/recipesnap-recipe-saver/id6749500813) 84→#59. Rang, pas revenu.
-- **Le trou** : « the app saved ONE » (avis RecipeVault). Pas d'app en français repérée (estimation). Demande « meal planner app » 2 400/mois, CPC 5,38 $ ; « recipe keeper app » en baisse (4 400→1 300).
-- **Pourquoi Kyle** : extraction par modèle de langage, SaaS d'abonnement, marché FR connu.
-- **MVP** : import par lien, liste de courses fusionnée, partage de fiche. 4 semaines.
-- **Argent** : paywall après 5 recettes sauvées, 3,99 €/mois ou 29 €/an.
-- **Acquisition** : TikTok. Accroche : « Fini les recettes perdues dans tes favoris ».
-- **Test en 48 h** : vidéo TikTok + landing. Go si 50 inscrits ; stop sinon.
+### Pari #2 : Suivi de colis sans piège
+- **L'idée** : app gratuite pour suivre tous ses colis (Colissimo, Mondial Relay, Vinted Go) par transfert d'e-mail ; premium 2,99 €/mois.
+- **Preuve d'argent** : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) #3 shopping ; [TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278) #4. « parcel tracking app » 720/mois, CPC 3,13 $.
+- **Le trou** : « why do i have to pay a subscription just to track 1 package??? » (avis, 31/50 en 1★).
+- **Pourquoi Kyle** : petit produit, API de transporteurs et parsing d'e-mails, dev solo.
+- **MVP** : ajout par numéro ; import e-mail ; notifications. 3–4 semaines.
+- **Argent** : suivi gratuit, alertes avancées payantes à 2,99 €/mois.
+- **Acquisition** : ASO « suivi colis ». Accroche : « Suivre un colis ne devrait pas coûter d'abonnement ».
+- **Test en 48 h** : landing + post r/vinted/r/france ; go à 40 inscrits, stop sous 15.
 
-### Pari #3 : Cours de langue des signes française (LSF)
-- **L'idée** : pour parents et collègues de personnes sourdes, cours LSF en vidéo, un niveau gratuit, 4,99 €/mois.
-- **Preuve d'argent** : [Ziggy ASL](https://apps.apple.com/us/app/ziggy-learn-asl-sign-language/id6781227577) nouveau→#52 (49,99 $/an) ; [ASL Bloom](https://apps.apple.com/us/app/asl-bloom-sign-language/id1631587710) nouveau→#90. Rang, pas revenu.
-- **Le trou** : « Many videos don't load » ; paywall dur, alors qu'ASL Bloom reste accessible (avis). Demande « asl learning app » 1 300, CPC 2,17 $, en hausse (1 000→1 900). Version FR : estimation.
-- **Pourquoi Kyle** : produit vidéo + quiz, simple en code ; la contrainte est le tournage.
-- **MVP** : 30 signes filmés, quiz, série quotidienne. 5 semaines.
-- **Argent** : paywall après le niveau 1, 4,99 €/mois.
-- **Acquisition** : TikTok/Reels de signes. Accroche : « Apprends à dire je t'aime en LSF en 10 secondes ».
-- **Test en 48 h** : 3 vidéos de signes. Go si 500 vues ou 20 inscrits par vidéo ; stop sinon.
+### Pari #3 : Nettoyeur de photos honnête
+- **L'idée** : app iPhone à prix unique (≈ 14,99 €) qui supprime doublons et captures, sans essai piégé.
+- **Preuve d'argent** : [Content Manager](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300) #14 (50→14 en 1 j) ; SmartClean AI #55 (75→55 en 7 j). « phone cleaner app » 4 400/mois, CPC 4,18 $.
+- **Le trou** : « Says on ad "no subscriptions"… You do have subscriptions! » (avis).
+- **Pourquoi Kyle** : produit simple, mais natif iOS ; moins adapté à son profil web (estimation).
+- **MVP** : détection de doublons ; tri de captures ; aperçu des Go gagnés. 6–8 semaines.
+- **Argent** : analyse gratuite, paywall au résultat (Go libérables) ; achat unique.
+- **Acquisition** : vidéos TikTok avant/après. Accroche : « Un prix. Pas de piège. »
+- **Test en 48 h** : vidéo TikTok + landing ; go à 100 liste d'attente, stop sous 30.
 
-**Mon pari : #1 — Fax à la page** : meilleur score, preuve d'argent la plus nette et plainte la plus répétée dans les avis.
+**Mon pari : #1 — Co-parentalité à prix plat**, car c'est le trou le plus net (41/50 avis 1★) avec le CPC le plus élevé (5,31 $) et un marché francophone probablement vierge.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ Mise sur le marché 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit Kyle 15% | Score | Verdict | 3 traits |
+| Pari | 📊 Marché 20% | ⚙️ Complex. 15% | ⏱️ TTM 15% | 🏟️ Concur. 15% | 💰 Revenu 20% | 🧑‍💻 Fit 15% | **Score** | 3 traits | Verdict |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Fax à la page | 7 | 7 | 8 | 5 | 6 | 7 | **6.65** | 🟡 BUILD ADJACENT | 1 |
-| #2 Sauve-recettes FR | 7 | 6 | 7 | 3 | 6 | 7 | **6.05** | 🟡 BUILD ADJACENT | 2 |
-| #3 LSF | 5 | 5 | 5 | 6 | 5 | 5 | **5.15** | 🟠 WATCH | 2 |
+| #1 Co-parentalité | 7 | 6 | 6 | 6 | 7 | 6 | **6.4** | 2 | 🟡 BUILD ADJACENT |
+| #2 Suivi colis | 5 | 8 | 8 | 5 | 5 | 8 | **6.35** | 1 | 🟡 BUILD ADJACENT |
+| #3 Nettoyeur photos | 7 | 5 | 6 | 3 | 7 | 5 | **5.65** | 2 | 🟠 WATCH |
 
-Scores honnêtes : aucun BUILD NOW. Le #2 est pénalisé par une concurrence forte (au moins 4 apps jeunes) ; le #3 par le coût de tournage.
+Les notes sont des estimations, sans revenu vérifié. Les pondérations donnent un écart de 0,05 entre #1 et #2 : à ce niveau, c'est un ex æquo. Le #1 pèse davantage sur le CPC et le trou de prix.
 
-## 💰 Unit Economics — Pari #1 : Fax à la page
-Tout est estimation, sans source directe, partant des apps comparables (abonnements fax à ~10 $/sem. et 249 $/an cités dans les avis).
+## 💰 Unit Economics — Pari #1 : Co-parentalité à prix plat
+Tout est `estimation` : aucune source directe pour les revenus des comparables (ni Crunchbase, ni SimilarWeb consultés).
 
-| Indicateur | Valeur (estimation) |
+| Indicateur | Estimation |
 |---|---|
-| ARR | 36 K€ à 12 mois (250 fax/mois × 2,99 € + packs) |
-| ARPU | ~6 €/payeur/an |
-| Users payants | ~500 sur 12 mois |
-| CAC | ~8 € (SEO + pub à petit budget) |
-| LTV | ~12 € |
-| LTV/CAC | ~1,5 : fragile, dépend du SEO gratuit |
-| Payback | 1 à 2 achats |
-| Burn | ~300 €/mois (opérateur fax + hébergement) |
-| Runway | illimité en solo (charges faibles) |
-| Rev/employé | 36 K€ (1 personne) |
+| Hypothèse | 6 €/mois par foyer, 12 mois, 3 000 foyers payants |
+| ARR | ≈ 216 000 € (3 000 × 72 €) |
+| ARPU | 72 €/an par foyer |
+| Users | 3 000 payants (≈ 30 000 inscrits, 10 % de conversion) |
+| CAC | 25 € (SEO + pub à petit budget) |
+| LTV | ≈ 130 € (durée moyenne 22 mois, forte rotation après la procédure) |
+| LTV/CAC | ≈ 5 |
+| Payback | ≈ 5 mois |
+| Burn | ≈ 2 000 €/mois (hébergement, vidéo, pub) |
+| Runway | long : solo, financé par les revenus |
+| Rev/Employee | ≈ 216 000 € (1 personne) |
 | Rule of 40 | non pertinent à ce stade |
 
-**Verdict santé : 🟡** : revenu récurrent faible car achat ponctuel ; marge brute correcte si coût d'envoi sous 0,50 € le fax (à vérifier). Sources à consulter : Tracxn, SimilarWeb pour les concurrents ; aucune donnée directe trouvée.
+**Verdict 🟡** : l'économie unitaire est bonne sur le papier, mais l'hypothèse de 3 000 foyers en un an est ambitieuse. Risque principal : la valeur juridique d'un registre en France, à valider avant de construire.
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-app/id978931264) | #79 business (100→79), 379 896 notes | 2015 | Envoi/réception de fax, abonnement hebdo ~10 $ | Fax à la page, prix affiché avant |
-| [uFAX](https://apps.apple.com/us/app/send-fax-from-iphone-ufax-app/id6654921095) | nouveau→#93 business, 2 991 avis | estimation : récent | Fax depuis iPhone, abonnement | Même trou |
-| [Ziggy ASL](https://apps.apple.com/us/app/ziggy-learn-asl-sign-language/id6781227577) | nouveau→#52 education, 7 216 avis | 114 j | Cours ASL, 49,99 $/an, 7,99 $/sem. | Version LSF (français) |
-| [ASL Bloom](https://apps.apple.com/us/app/asl-bloom-sign-language/id1631587710) | nouveau→#90 education, 38 109 avis | estimation : <1 an | Cours de langue des signes | — |
-| [RecipeVault](https://apps.apple.com/us/app/recipevault-recipe-keeper/id6758783243) | nouveau→#46 food, 102 avis | 266 j | Recettes TikTok/Reels dans un livre + courses | Import qui marche, en français |
-| [RecipeSnap](https://apps.apple.com/us/app/recipesnap-recipe-saver/id6749500813) | 84→59 food, 644 avis | estimation : récent | Sauvegarde de recettes | — |
-| [Flavorish](https://apps.apple.com/us/app/flavorish-save-any-recipe/id6478546136) | 83→61 food, 1 716 avis | estimation : ~2 ans | Sauvegarde de recettes | — |
-| [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) | #3 food, 7 541 avis | estimation : <1 an | Plans de repas petit budget | Déjà vu en rapport précédent |
-| [Exposr](https://apps.apple.com/us/app/exposr-food-product-scanner/id6752903766) | nouveau→#72 health, 5 623 avis | estimation : récent | Scan de produits (ingrédients) | Demande Google en baisse |
-| [Tripsy](https://apps.apple.com/us/app/tripsy-travel-planner/id1429967544) | 24→14 travel, 5 734 avis | 2018 estimation | Planificateur de voyage | Voyage de groupe |
-| [Ruli](https://apps.apple.com/us/app/ruli-make-a-new-start/id6807729703) | 42→16 travel, 100 avis | 60 j | Listes de bagages (gratuit) ; avis évoquent chat et rencontres | — (alerte : classement douteux) |
-| [Authenticator ℠ App](https://apps.apple.com/us/app/authenticator-app/id6754900760) | #9 utilities, 6 803 avis | estimation : récent | Codes 2FA, abonnement | 135 000 recherches/mois, clones |
-| [tsuzuki817](https://x.com/tsuzuki817/status/2118864245500805613) | 4 253 $ en oct. (déclaré) | — | Apps indie, store + pubs | — |
-| [helumi](https://x.com/letcontactabhi/status/2119685259348635928) | 916 $ MRR (déclaré) | ~1 mois | App Mac, abonnement et annuel | — |
-| [idanmasas app](https://x.com/idanmasas/status/2118658888903901494) | 173 $ MRR, 25 abonnés (déclaré) | ~1 mois | App B2C mobile | — |
+| [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) | #3 shopping, 11k avis | 1 200 j | Suivi de colis, essai 3 j puis abonnement hebdo (prix non relevé) | Suivi gratuit sans piège |
+| [Package Tracker – TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278) | #4 shopping, 3,7★ | jeune (estimation) | Suivi de colis | Même trou |
+| [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726) | #24 productivité, 28k avis | 3 850 j | Messagerie co-parents, 7–32 $/mois/parent | Prix plat, version FR |
+| [OurFamilyWizard](https://apps.apple.com/us/app/ourfamilywizard-co-parent-app/id497405393) | #23 productivité, 57k avis | ancien | Co-parentalité, 110–300 $/an/parent (estimation tiers) | Idem |
+| [Content Manager](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300) | #14 utilitaires, 50→14 en 1 j | 2 137 j | Nettoyage photos, essai puis abo | Nettoyeur honnête |
+| [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) | #8 shopping, 20k avis | récent | Scanner de revente, 9,99 $/mois (tiers) | Prix fiables, marché FR |
+| [Snag: Restock Alerts](https://apps.apple.com/us/app/snag-restock-alerts/id6828241536) | #90 shopping | 8 j | Alertes de réassort | Test précoce |
+| [Hudl](https://apps.apple.com/us/app/hudl/id412223222) | 65→15 sports en 3 j | ancien | Vidéo sportive d'équipes | Saisonnier, grand groupe |
+| [CHANI](https://apps.apple.com/us/app/chani-your-astrology-guide/id1532791252) | #17 lifestyle, 4,9★ | ancien | Astrologie, abonnement | — |
+| [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) | #12 santé, 4,8★ | ancien | Suivi de macros | Version FR |
+| BoldVoice: Accent Training | nouveau→#95 éducation | ? | Coaching d'accent par IA (vocal) | Vocal, non retenu |
+| Ziggy: Learn ASL | nouveau→#53 éducation | ? | Langue des signes, 7k avis | LSF (déjà vu) |
+| [helumi](https://trustmrr.com/startup/helumi) | 916 $ MRR déclaré | ~1 mois | Stockage cloud dans le Finder Mac | — |
+| MagicSlides & co (Sanskar) | 1 M$ cumulés déclaré | plusieurs années | PDF/vidéo vers présentations | — |
+| [lightapaw](https://www.reddit.com/r/SideProject/comments/1xv6l3f/) | 106 pts Reddit, 25k pages | 8 j | Mémorial 3D d'animaux, extras payants | Émotion + partage, sans montant |
+
+Catégories : shopping, productivité, utilitaires, sports, lifestyle, santé, éducation, web/Mac. Une seule app vocale (BoldVoice).
 
 ## 💸 Apps qui font du cash
-**Revenus déclarés (déclaré, non vérifié)**
-- Dev indie (tsuzuki817) : 4 253 $ en octobre (App Store 3 146 $, AdMob 959 $, Google Play 148 $), 7 nov. [post](https://x.com/tsuzuki817/status/2118864245500805613)
-- celal_dev : « de 0 à 8K $ », 1,5 à 2 K$/mois, 100 % organique, 10 nov. [post](https://x.com/celal_dev/status/2120217269934453145)
-- helumi (app Mac) : 916 $ MRR, un mois après le lancement, 9 nov. [post](https://x.com/letcontactabhi/status/2119685259348635928)
-- idanmasas (app B2C mobile) : 173 $ MRR, 25 abonnés, 703 $ sur 30 jours, 6 nov. [post](https://x.com/idanmasas/status/2118658888903901494)
-- Sonar (aide au référencement d'apps), via lingships : environ 3,36 K$ MRR, d'après une divulgation du fondateur du 26 oct, source de seconde main, 6 nov. [post](https://x.com/lingships/status/2118712510010552481)
-- Dosti Pro (Android, Inde) : 7 839 ₹ encaissées en un jour, 44 paiements, 10 nov. [post](https://x.com/iamvenkatadri/status/2120165133259350431)
-- Starter Story : un dev avec 8 produits rentables sur 30, aucun montant donné, donc à ne pas compter. [post](https://x.com/starter_story/status/2120311453987287229)
+**Revenus déclarés** (déclaré, non vérifié sauf mention)
+- helumi (app Mac, stockage cloud dans le Finder) : 916 $ MRR, 9 nov. 2026 — [post](https://x.com/letcontactabhi/status/2119685259348635928). TrustMRR affiche 991 $ MRR et 1 569 $ sur 30 j (lecture des paiements, plus fiable) — [fiche](https://trustmrr.com/startup/helumi).
+- Portefeuille de Sanskar (MagicSlides, Sheet AI à 2 000 $ MRR…) : plus de 1 M$ cumulés, ~1 000 clients payants/mois, 11 nov. 2026 — [post Starter Story](https://x.com/starter_story/status/2120311453987287229). Déclaré, non vérifié.
+- App mobile de @celal_dev : de 0 à 8 K$ de revenu, 1,5–2 K$/mois, 100 % organique, 10 nov. 2026 — [post](https://x.com/celal_dev/status/2120217269934453145). Produit non identifié : à prendre avec prudence.
+- Dosti Pro (appels vidéo Android, Inde) : 7 839 ₹ encaissés en un jour, 44 paiements, 10 nov. 2026 — [post](https://x.com/iamvenkatadri/status/2120165133259350431).
+- App Android de @engwaliullah : 32 $ le premier mois, 11 nov. 2026 — [post](https://x.com/engwaliullah/status/2120555319864746128). Anecdote, très petit.
+- lightapaw (mémorial 3D d'animaux, gratuit + extras payants) : traction (25 000 animaux, 657 000 bougies) mais aucun montant déclaré — [Reddit](https://www.reddit.com/r/SideProject/comments/1xv6l3f/).
 
-**App Store US, moins de 100k avis (un rang n'est pas un revenu)**
-- #46 food : [RecipeVault](https://apps.apple.com/us/app/recipevault-recipe-keeper/id6758783243), 102 avis, entrée nouvelle : sauvegarde des recettes TikTok/Reels.
-- #59 food : [RecipeSnap](https://apps.apple.com/us/app/recipesnap-recipe-saver/id6749500813), 644 avis (84→59 en 3 j) : même besoin.
-- #52 education : [Ziggy ASL](https://apps.apple.com/us/app/ziggy-learn-asl-sign-language/id6781227577), 7 216 avis, nouveau : cours de langue des signes, 49,99 $/an.
-- #79 business : [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-app/id978931264) (Municorn), fax par abonnement ; #93 uFAX (nouveau), #53 FaxFlow (63→53).
-- #72 health : [Exposr](https://apps.apple.com/us/app/exposr-food-product-scanner/id6752903766), 5 623 avis, scanner de produits alimentaires (nouveau).
-- #14 travel : [Tripsy](https://apps.apple.com/us/app/tripsy-travel-planner/id1429967544), 5 734 avis (24→14 en 3 j) : planificateur de voyages.
-- #9 utilities : [Authenticator ℠ App](https://apps.apple.com/us/app/authenticator-app/id6754900760), 6 803 avis : 2FA, grosse demande.
-- #3 food : [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354), 7 541 avis : plans de repas petit budget.
+**App Store US (top grossing, < 100k avis, hors jeux)** — un rang n'est pas un revenu
+- #3 shopping, 11 276 avis : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), suivi de colis, 1 300 transporteurs.
+- #4 shopping, 1 896 avis : [Package Tracker – TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278), même besoin, 3,7★.
+- #14 utilitaires, 60 588 avis (50→14 en 1 j) : [Content Manager](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300), nettoyage photos/contacts.
+- #24 productivité, 28 751 avis : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726), messagerie de co-parents opposable au tribunal.
+- #8 shopping, 20 853 avis : [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278), scanner de prix de revente.
+- #15 sports (65→15 en 3 j) : [Hudl](https://apps.apple.com/us/app/hudl/id412223222), vidéo et analyse sportive.
+- #53 éducation, nouveau : Ziggy: Learn ASL (7 227 avis, 4,8★, lien non relevé par la collecte), langue des signes.
 
-**Jeunes apps qui gagnent déjà (rang, âge)**
-- Ziggy ASL : #52 education, 114 j. · RecipeVault : #46 food, 266 j. · Ruli : #16 travel, 60 j, 100 avis (voir radar : les avis parlent de rencontres, pas de bagages). · AeroLOPA (cartes de sièges d'avions) : #55 travel, 78 j, 4 avis. · Mapsy : #51 travel, 59 j, 2,0★. · Ai System : #53 food, 105 j. · Shear Profit : #100 business, sortie hier, aucun avis.
-- Place à prendre : Windrock Park, #65 travel, sans mise à jour depuis 255 j, 2,44★ sur 9 avis.
+**Jeunes apps qui gagnent déjà** (liste « Âge »)
+- #90 shopping, [Snag: Restock Alerts](https://apps.apple.com/us/app/snag-restock-alerts/id6828241536) : sortie il y a 8 j, 4 avis, alertes de réassort.
+- #83 shopping, [Outpost Alerts](https://apps.apple.com/us/app/outpost-alerts/id6777955638) : sortie il y a 44 j, 0 avis, même niche.
+- #100 shopping, [Package Tracker・Order Tracking](https://apps.apple.com/us/app/package-tracker-order-tracking/id6818790265) : 29 j, 6 avis.
+- #71 shopping, [Thrifty Joe](https://apps.apple.com/us/app/thrifty-joe/id6762083255) : 199 j, 4 avis, scanner de revente.
+- #68 shopping, [Thrift Hunt](https://apps.apple.com/us/app/thrift-hunt-resale-scanner-ai/id6760717302) : 233 j, 2 avis.
+- Leader sans mise à jour > 180 j : aucun dans la liste (Patina, #80, est à 150 j).
+- Constat : 5 apps de moins de 250 jours classées top 100 shopping avec moins de 10 avis. Elles encaissent sans base d'avis, signe d'acquisition payante (estimation).
 
-## 🔬 App creusée #1 : FAX from iPhone (Municorn)
-**1. Identification** : [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-app/id978931264), Municorn Limited, sortie App Store 2015-05-20, Business, #79 top grossing US (100→79 en 3 j), 4,78★ sur 379 896 notes. Fondateurs : non trouvés. Gratuit à l'installation, abonnement intégré.
+## 🔬 App creusée #1 : TalkingParents (productivité / co-parentalité)
+1. **Identification** : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726), Monitored Communications LLC, sortie App Store 2016-04-29, productivité, #24 top grossing US, 28 751 avis (4,4★), MAJ il y a 11 j. Fondateurs non relevés.
+2. **Valeur** : parents séparés, messagerie et appels qui laissent un registre inaltérable, recevable en justice. Prix par parent : 7 / 16 / 32 $ par mois (sources tierces, à vérifier). Plan gratuit supprimé le 30 mars 2026 (tiers).
+3. **Les 3 décisions** (estimation, d'après fiche et avis) : onboarding par Apple ID ; paywall au moment où le parent a besoin du registre ou des appels vidéo, donc sous stress ; retour par l'obligation judiciaire de communiquer par l'app.
+4. **3 traits** : émotion ✅ (conflit, peur de « ne pas être cru ») ; résultat visible en quelques secondes ❌ ; distribution intégrée ✅ (l'autre parent doit s'inscrire, effet réseau forcé).
+5. **Ce qui manque** : 41 avis 1★ sur 50. Plaintes : prix après fin du gratuit, support injoignable, abonnement impossible à confirmer via Apple ID. « Now it's 40 a month » ; « Over priced. No customer service. Glitches. » App mise à jour : pas de trou de MAJ.
+6. **Acquisition** : 30 pubs Meta actives, 3 lancées depuis 7 j ; formats DCO 19, image 6, vidéo 3, carrousel 2. Accroches : « Gaslighting doesn't work when there's a transcript » ; « High conflict co-parenting takes a toll. Protect your peace with recorded interactions » ; formules de pension par État. Page de 26 584 likes. Autre canal : prescription par avocats et juges (estimation).
+7. **Stack** (estimation) : mobile natif + web, messagerie horodatée, vidéo WebRTC, export PDF.
+8. **Réplication** : 6/10 (messagerie sûre et export opposable : surtout de la confiance). Verticaux voisins : tutelle de proches, colocation, familles recomposées. Niche : un « TalkingParents » à prix plat sans fiche tarifaire par parent. Angle Kyle : version FR (convention parentale, pension). Dev : 6–8 semaines.
 
-**2. Proposition de valeur** : envoyer et recevoir un fax sans machine, 90+ pays, scanner intégré. Cible : gens qui doivent faxer un document médical ou administratif une fois par an. Prix : hebdo ~10 $, annuel jusqu'à 249 $ (cité dans un avis).
+## 🔬 App creusée #2 : My Package Delivery Tracker (shopping)
+1. **Identification** : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), MultiApp Dynamics OU, sortie 2023-08-01, shopping, #3 top grossing US, 11 276 avis (4,4★), MAJ il y a 51 j (« bugs corrigés »). Gratuit à l'installation.
+2. **Valeur** : tous les colis dans une app, 1 300 transporteurs. Prix exact non relevé : abonnement hebdomadaire après essai de 3 jours (cité dans les avis).
+3. **Les 3 décisions** (d'après avis) : onboarding court menant à un numéro de suivi ; paywall immédiat, avant le premier résultat utile (l'utilisateur est inquiet pour son colis) ; retour par les notifications de livraison.
+4. **3 traits** : émotion ✅ (« où est mon colis ») ; résultat en quelques secondes ❌ (bloqué par le paywall) ; distribution intégrée ❌.
+5. **Ce qui manque** : 31 avis 1★ sur 50, quasi tous contre le paywall. « why do i have to pay a subscription just to track 1 package??? » ; « You have to pay weekly… tracking a package should be free ». Annulation après essai jugée trompeuse.
+6. **Acquisition** : `pubs Meta non trouvées` (aucune page d'app sûre). Canal probable : ASO sur « package tracker » (estimation).
+7. **Stack** (estimation) : agrégateur d'API de transporteurs, notifications push.
+8. **Réplication** : 4/10 (agrégation d'API déjà vendue, plus parsing d'e-mails). Verticaux : réassort, retours, billets. Niche : leader qui déçoit, 4 apps dans le top 11 shopping, nouvelle entrante à 29 j. Angle Kyle : transporteurs FR (Colissimo, Mondial Relay, Chronopost, Vinted Go), suivi gratuit, monétisation sur alertes avancées. Dev : 3–4 semaines.
 
-**3. Les 3 décisions qui font l'argent** (d'après les avis)
-- Onboarding : on saisit tout le fax (destinataire, document) avant de voir le prix. Estimation : c'est ce qui crée le taux de conversion.
-- Paywall : à la dernière étape, quand l'utilisateur est prêt à envoyer. Émotion : urgence.
-- Retour : numéro dédié pour recevoir des faxes, donc un abonnement qui continue.
-
-**4. Test des 3 traits**
-- ❌ Une émotion pour une action : l'urgence existe, mais pas d'émotion positive.
-- ✅ Résultat visible en quelques secondes : le document est envoyé, confirmation.
-- ❌ Distribution intégrée : aucune (acquisition par recherche App Store).
-
-**5. Ce qui manque** : le prix caché derrière le formulaire. « Put in all the info for my fax and it asked for $10 a week. NOT FREE! » et « $249 for a year is absurd. » Autre plainte : fax non reçu par un labo, remboursement refusé. Sur 50 avis, 15 sont 1★ (surtout sur le prix). App mise à jour il y a 44 j : pas de trou de maintenance.
-
-**6. Acquisition** : 0 pub Meta active sur la page « Fax from iPhone » (3 844 likes), donc 0 lancée depuis 7 jours. Canal principal probable : recherche App Store (« fax from iphone » 5 400/mois, CPC 6,39 $ : estimation).
-
-**7. Stack technique** : estimation : app native iOS, backend d'envoi via un opérateur de fax en gros (T.38), paiements par abonnement Apple.
-
-**8. Réplication** : complexité 4/10. Verticaux adjacents : signature/scan de documents, envoi courrier recommandé. Niche : un gros gagnant (379 896 notes) dont les clients se plaignent du prix, sans vrai numéro 2 honnête. Angle Kyle : web app + PWA, fax à la page avec prix avant saisie, en français (« fax en ligne »). Temps de dev : 3 semaines (estimation).
-
-## 🔬 App creusée #2 : Ziggy: Learn ASL
-**1. Identification** : [Ziggy: Learn ASL](https://apps.apple.com/us/app/ziggy-learn-asl-sign-language/id6781227577), OneDegree Labs (copyright Ziggy App LLC), sortie 2026-07-21, dernière MAJ 2026-11-01. Education, #52 (nouveau, vs 2026-11-07), 4,79★ sur 7 216 notes. Site : ziggyasl.com (dictionnaire vidéo gratuit). Fondateurs non trouvés.
-
-**2. Proposition de valeur** : apprendre l'ASL en leçons vidéo courtes, quiz, révision. 30+ unités, 500+ signes. Cible : familles, élèves, adultes. Prix : 49,99 $/an, 7,99 $/sem.
-
-**3. Les 3 décisions qui font l'argent**
-- Onboarding : première leçon gratuite, puis écran d'essai. Les avis disent « I can't get past the free trial thing ».
-- Paywall : juste après la première leçon, au pic de motivation, sans bouton de fermeture selon un avis.
-- Retour : séries, quiz, révision espacée. Estimation.
-
-**4. Test des 3 traits**
-- ✅ Émotion : communiquer avec un proche sourd.
-- ✅ Résultat en secondes : on signe un mot dès la leçon 1.
-- ❌ Distribution : pas de partage intégré vu ; le site gratuit sert de SEO.
-
-**5. Ce qui manque** : paywall dur et vidéos qui ne chargent pas. « Many videos don't load » ; « hate there is a paywall on education ». Un avis compare à ASL Bloom, qui garde un accès gratuit. Sur 50 avis : 8 sont 1★, 11 sont 2★. App mise à jour il y a 11 j.
-
-**6. Acquisition** : pubs Meta non trouvées (la page remontée, « Ziggy Zairp », vend des outils SEO : sans rapport). Autres canaux : SEO via le dictionnaire gratuit sur ziggyasl.com ; le reste non trouvé.
-
-**7. Stack technique** : estimation : app iOS native (iOS 18+), vidéos hébergées sur un CDN, abonnement Apple.
-
-**8. Réplication** : complexité 5/10 (le coût est dans les vidéos, pas dans le code). Adjacent : LSF (langue des signes française), signes pour bébés. Niche : demande US qui monte (1 000→1 900), le leader déçoit. Angle Kyle : cours LSF en français, 1 niveau gratuit, quiz en code. Temps de dev : 5 semaines hors tournage (estimation).
-
-## 🔬 App creusée #3 : RecipeVault
-**1. Identification** : [RecipeVault: Recipe Keeper](https://apps.apple.com/us/app/recipevault-recipe-keeper/id6758783243), NutriLens Inc, sortie 2026-02-19, dernière MAJ 2026-11-04. Food & Drink, nouveau→#46 (vs 2026-11-10), 4,7★ sur 102 notes. Fondateurs non trouvés.
-
-**2. Proposition de valeur** : sauver en un geste les recettes vues sur TikTok, Reels, YouTube, sites ou captures, puis cuisiner avec liste de courses et calendrier. Cible : cuisiniers qui accumulent des favoris. Prix : gratuit avec premium ; un avis cite une formule à vie.
-
-**3. Les 3 décisions qui font l'argent**
-- Onboarding : import depuis un lien. Estimation.
-- Paywall : dès les premiers imports, selon un avis (« minute I try to use it will only let me use it if I pay »).
-- Retour : calendrier de la semaine et liste de courses partagée.
-
-**4. Test des 3 traits**
-- ✅ Émotion : « enfin retrouver cette recette ».
-- ✅ Résultat en secondes : le lien devient une fiche propre.
-- ❌ Distribution : pas de partage visible hors liste partagée.
-
-**5. Ce qui manque** : l'import rate. « I tried several TikTok recipes and the app saved ONE. » Aussi : support lent pour fusionner iPhone et iPad. Sur 22 avis : 4 sont 1★, 17 sont 5★ (beaucoup de textes génériques, prudence). MAJ il y a 8 j.
-
-**6. Acquisition** : pubs Meta non trouvées (pages homonymes écartées : magazine, cuisine). Autres canaux : créateurs TikTok, estimation.
-
-**7. Stack technique** : estimation : app native, extraction de recettes par modèle de langage, synchronisation cloud.
-
-**8. Réplication** : complexité 5/10. Adjacent : liste de courses à partir de vidéos, livres de recettes à offrir. Niche : au moins 4 jeunes apps entrent en 3 jours, aucune n'est en français (estimation). Angle Kyle : import fiable par lien et capture, en français, partage de fiche en un geste. Temps de dev : 4 semaines.
+## 🔬 App creusée #3 : Content Manager: AI Cleaner (utilitaires)
+1. **Identification** : [Content Manager: AI Cleaner](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300), DevMeApp, sortie 2021-01-06, utilitaires, #14 (50→14 en 1 jour), 60 589 avis (4,4★), MAJ il y a 2 j.
+2. **Valeur** : trie photos, vidéos, doublons et contacts pour libérer du stockage. Année gratuite pour étudiants. Prix : non relevé (un avis cite 50 $ en attente).
+3. **Les 3 décisions** (estimation, d'après avis) : onboarding qui lance une analyse ; paywall au moment où l'utilisateur voit son espace récupérable ; retour par rappels de nettoyage.
+4. **3 traits** : émotion ✅ (soulagement, téléphone plein) ; résultat visible en quelques secondes ✅ (Go libérés) ; distribution intégrée ❌.
+5. **Ce qui manque** : 26/50 avis 1★ : faux « gratuit », essai impossible à annuler. « Says on ad "no subscriptions"… You do have subscriptions! » ; « Impossible to cancel without being charged. » Pas de trou de MAJ.
+6. **Acquisition** : `pubs Meta non trouvées` (pages homonymes écartées). Les avis évoquent des pubs intrusives dans d'autres apps (estimation : achat média).
+7. **Stack** (estimation) : iOS natif, Photos framework, détection de doublons par hash et vision locale.
+8. **Réplication** : 6/10 (API Photos, performances, validation App Review). Verticaux : nettoyage de contacts, de mails. Niche : leader qui déçoit, mais marché saturé. Angle Kyle : prix unique sans essai piégé, en français. Dev : 6–8 semaines en natif. Demande : « phone cleaner app » 4 400/mois, CPC 4,18 $.
 
 ## 📈 Tendances Émergentes
-**Accroches publicitaires** : peu de pubs d'apps exploitables ce jour. FAX from iPhone : 0 pub Meta ; Ziggy et RecipeVault : pages d'app non trouvées. Ce qui revient dans les avis, donc dans les accroches à tester : « gratuit » contredit par un paywall tardif (fax, ASL, recettes). Une promesse « prix affiché avant » est inoccupée.
+**Accroches publicitaires** (seule app avec pubs trouvées : TalkingParents ; les deux autres sans page Meta sûre)
+- Preuve par la trace écrite : « Gaslighting doesn't work when there's a transcript », « recorded interactions ».
+- Éducation avant la vente : formules de pension par État (contenu SEO en pub).
+- Promesse de « gratuit » ou « sans abonnement » dans les pubs de nettoyeurs, contredite à l'ouverture de l'app (avis Content Manager).
 
 **Autres signaux**
-- Les paywalls tardifs font les 1★ chez 3 leaders sur 3 creusés : fax (« NOT FREE »), ASL (« forced pay »), recettes (« only let me use it if I pay »).
-- Vague d'apps de recettes jeunes dans le top 100 food (RecipeVault, RecipeSnap, Flavorish, Samsung Food) : le besoin « sauver ce que je vois sur TikTok » est actif, mais la demande Google « recipe keeper app » baisse (4 400→1 300).
-- Le classement travel contient des apps à fort rang et très peu d'avis (Ruli 100 avis, Mapsy 4 avis, 2,0★) : signal à ne pas prendre pour un revenu.
-- Reddit r/SaaS (74 pts) : un fondateur annonce qu'Anthropic est entré sur son marché la semaine de son lancement : risque Big Tech pour les outils de productivité IA.
-- Reddit r/indiehackers : « Almost nobody finds it » (consumer app qui convertit mais ne se fait pas trouver) : la distribution reste le goulot.
-- HN : app d'embroidery (409 pts, Show HN) : un logiciel qui remplace un abonnement imposé par le matériel plaît (esprit « abonnement piège »).
-- GitHub Trending : surtout des skills/agents (anthropics/skills 6 055 étoiles cette semaine, vercel-labs/agent-browser 4 601).
+- Le paywall perçu comme piège est la première cause d'avis 1★ de la journée (colis 31/50, co-parentalité 41/50, nettoyeur 26/50). Un « prix honnête » est un angle de produit.
+- Réassort, scan de revente et cartes à collectionner : beaucoup de petites apps jeunes dans le top 100 shopping (mouvements sur 3 j).
+- Dev/IA : Claude Meetings (268 votes PH), skills d'agents en tête de GitHub Trending, « computer-use » et sandboxes pour agents. Rien de directement copiable en app grand public.
+- Bruit : panne FAA nationale (1 436 pts HN), sans lien avec le marché des apps.
+- Repères tiers (non vérifiés) : médiane de 143 $ MRR pour 305 apps mobiles (TrustMRR, oct. 2026).
