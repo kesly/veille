@@ -1,178 +1,173 @@
-# 🔥 Market Scan — 2026-11-14
+# 🔥 Market Scan — 2026-11-15
 
-> Collecte : treg 5/5 sources, 11 recherches extended, GitHub Trending ok, 2 pages lues, 3 candidats creusés (fiches App Store + avis).
+> Collecte : treg 5/5 sources, 11 recherches extended, GitHub Trending ok, 1 page lue (TrustMRR PokeItem), 3 candidats creusés (fiches App Store + avis, demande Google 30 mots-clés dont 10 en cache).
 
 ## 📊 Résumé Exécutif
-- Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Co-parentalité à prix plat (6.4/10, 🟡 BUILD ADJACENT)
-- Opportunités immédiates (BUILD NOW) : 0 (aucun pari ≥ 7.5)
-- Fil rouge du jour : les leaders payants de 3 niches (suivi colis, co-parentalité, nettoyeurs) se font massacrer en avis 1★ pour leur paywall. Le trou est le même partout : l'abonnement perçu comme un piège.
+- Apps au radar : 15 · creusées : 3 (Settlemate, FoilSnap, MeAgain)
+- Mon pari : Pari #1 Suivi GLP-1 en français (6.45/10, 🟡 BUILD ADJACENT)
+- Opportunités immédiates (BUILD NOW) : 0
+- Fait marquant : PokeItem, app française de suivi TCG, affiche 20 205 $ de MRR vérifié (RevenueCat) avec 3 195 abonnés, 2 à 5 personnes. Les scanners « bruts » (FoilSnap) sont plombés par des avis sur les prix faux et les abonnements pièges.
 
 ## 🧭 Où l'argent se déplace
-Demande : volume Google US/mois, CPC, tendance 12 mois (source `demand`, 14 nov.).
-
-| Niche (catégorie) | Mouvement | Demande | Leaders et faiblesse | Part à prendre |
+| Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Suivi de colis (shopping) | #3 My Package Delivery Tracker, #4 TrackPack, #11 Parcels Hub, nouveau #100 Package Tracker (29 j) | « parcel tracking app » 720, CPC 3,13 $, plat ; « package tracker app » 210 | 4,4★/11k avis ; 31 avis 1★ sur 50 contre l'abo forcé ; MAJ 51 j | **oui** : abonnement perçu comme arnaque, 4 apps dans le top 11 |
-| Co-parentalité (productivité) | #23 OurFamilyWizard, #24 TalkingParents, AppClose 50→29 en 7 j | « co-parenting app » 27 100, CPC 5,31 $, en baisse (49 500→8 100) | TalkingParents 4,4★ mais 41/50 avis 1★ ; fin du plan gratuit mars 2026 (tiers) | **oui** : prix et support ; pas de version FR (non vérifié) |
-| Nettoyage du téléphone (utilitaires) | Content Manager 50→14 en 1 j, SmartClean 75→55, CleanNova nouveau→79, AI Security nouveau→72 (7 j) | « phone cleaner app » 4 400, CPC 4,18 $ ; « duplicate photo cleaner » 1 300, CPC 5,52 $ | 26/50 avis 1★ : faux « gratuit », annulation impossible | **à creuser** : demande réelle, mais saturé et Apple surveille les abos |
-| Scanners de revente et cartes (shopping/sports) | Thrifted 73→58, Thrift Hunt nouveau→68, Sports Card Scanner Spoly 90→73, Cardstock 83→72 | « sports card scanner » 4 400, CPC 2,84 $, +50 % sur 12 mois ; « reseller app » 2 900, CPC 5,23 $ ; « thrift scanner app » 10 | Un test tiers trouve ThriftAI juste 1 fois sur 11 (Android) | **à creuser** : déjà vu 3 fois, aucun nouvel élément fort |
-| Permis et examens (éducation) | DMV Practice Test nouveau→91, CDL Prep nouveau→99 | « dmv practice test » 110 000, CPC 0,32 $ ; « cdl practice test » 33 100, CPC 1,44 $ | Revenus estimés tiers seulement (Android 90 K$/mois, non vérifié) | **à creuser** : demande énorme mais CPC bas, marché US par État |
-| Langue des signes (éducation) | Ziggy nouveau→53 | « learn asl » 14 800, CPC 2,83 $, pic 27 100 | 4,8★/7k avis | **à creuser** : déjà vu, version LSF à valider |
-| Alertes de réassort (shopping) | Snag nouveau→90, Outpost 0 avis→83 | « in stock alerts » 390 (880 récents), CPC 1,36 $ | Apps jeunes, quasi sans avis | **non** pour l'instant : volume trop faible |
-| Wallet / cartes (shopping) | Pass2U 74→53, Walletsmith 75→57 | « apple wallet pass » 320, CPC 8,34 $ | Petites apps, peu d'avis | **à creuser** : CPC élevé, niche B2B |
-
-Aucune niche vocale ce jour.
+| Scanner / portefeuille TCG (reference) | TCG Card Identifier 86→#61, Stash 73→#62, ToyWorth 79→#68, Toyzie nouveau→#89, Stamp Value nouveau→#97 (3 j) | « pokemon card scanner » 14 800/mois, CPC 2,44 $, 8 100→18 100 en 12 mois ; « tcg card scanner » 4 400, CPC 1,91 $ | FoilSnap 4.75★/15k avis mais 22 avis 1★ sur 50 : prix faux, abo piège. PokeItem (FR) 20 K$ MRR | **oui** : précision des prix + transparence, version FR |
+| Recours collectifs / argent oublié (finance) | Rightfully 71→#46, Collect #16, Settlemate #17 | « unclaimed money finder » 590, CPC 7,59 $ ; « settlement » : 0 donnée | Settlemate 4.79★ mais 34 avis 1★ sur 50 : paywall caché, 0 $ récupéré | **à creuser** : besoin US, transposition FR à valider |
+| GLP-1 / santé (health & fitness) | MeAgain #32 (4.79★), Hume, MacroFactor #12 | « glp-1 tracker » 480, CPC 3,44 $, 390→590 | MeAgain : IA jugée inutile, màj il y a 3 j | **oui** : pas de version FR relevée (estimation, non vérifié) |
+| Santé pro / régimes (medical) | Kidney Pal 60→#33, Chartnote 56→#37, Conveyor AI nouveau→#39, SkinGuru 72→#54 (3 j) | « renal diet app » 140, CPC 8,99 $ ; « medical scribe app » 140, CPC 23,90 $ ; « pill identifier app » 1 300, CPC 1,46 $ | MobilEM 3.59★ MAJ 309 j, Vetpocket MAJ 192 j | **à creuser** : CPC élevé, volumes faibles |
+| Histoires IA et dramas courts (entertainment) | Pocket FM nouveau→#62, Tallflix nouveau→#80, LoveShots nouveau→#81, EMOCHI nouveau→#89 | « ai story app » 260, CPC 7,49 $, 110→720 en 12 mois | Marché dramas ~750 M$ au T1 2026 (Sensor Tower, via recherche) ; 1,3 % des titres IA rentables (BigGo) | **non** : saturé, coût de contenu |
+| Bible et foi (reference) | Bible Shorts #13, BibleScroll #14, Bible Memory App nouveau→#90, Diya nouveau→#95 | « bible app » 90 500, CPC 2,54 $, pics à 165 000 | Ascension 4.9★ (92k avis) | **à creuser** : audience immense, culturellement éloignée de Kyle |
+| Dette et crédit (finance) | Ditch #13, Dumbo Credit 84→#72, Credit Booster AI 96→#85 | « debt payoff app » 590, CPC 11,36 $ ; « credit builder app » 5 400, CPC 13,27 $ | Ditch 4.8★ (4 900 avis) ; CPC très haut | **à creuser** (déjà vu, rien de nouveau côté FR) |
 
 ## 🎯 Quoi builder
-### Pari #1 : Co-parentalité à prix plat
-- **L'idée** : pour les parents séparés, une messagerie à registre inaltérable et export PDF, au prix d'un foyer (≈ 6 €/mois) et non par parent.
-- **Preuve d'argent** : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726) #24 productivité ; [OurFamilyWizard](https://apps.apple.com/us/app/ourfamilywizard-co-parent-app/id497405393) #23. Demande « co-parenting app » 27 100/mois, CPC 5,31 $, en baisse sur 12 mois.
-- **Le trou** : 41/50 avis 1★ sur TalkingParents (fiche App Store) : « Now it's 40 a month ». Plan gratuit supprimé en mars 2026 (sources tierces). Version FR non vérifiée.
-- **Pourquoi Kyle** : SaaS full-stack, marché francophone sous-servi (estimation), pas de voix requise.
-- **MVP** : messagerie horodatée non modifiable ; calendrier de garde partagé ; export PDF. 6–8 semaines.
-- **Argent** : paywall au 1er export PDF ou au-delà de 30 messages ; 5,99 €/mois par foyer.
-- **Acquisition** : SEO et pub Reddit/Meta. Accroche : « Une preuve écrite, pas un abonnement par parent ».
-- **Test en 48 h** : landing + 100 € de pub ; go à 30 e-mails, stop sous 10.
+### Pari #1 : Suivi GLP-1 en français — déjà vu 2 fois
+Nouveau : MeAgain atteint 4.79★ sur 40 886 avis (#32 santé) et ajoute des rapports PDF médecin ; la demande « glp-1 tracker » monte de 390 à 590/mois.
+- **L'idée** : pour les utilisateurs francophones d'un traitement GLP-1, journal de doses/poids/protéines simple, 4,99 €/mois.
+- **Preuve d'argent** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) #32 santé US ; [Hume Health](https://apps.apple.com/us/app/hume-health/id1477782599) #11 ; [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) #12.
+- **Le trou** : l'IA de MeAgain jugée inutile (« AI is not helpful », avis App Store) ; pas de version FR relevée (estimation, non vérifié). Demande US : 480/mois, CPC 3,44 $, tendance haussière.
+- **Pourquoi Kyle** : dev full-stack, un tracker mobile se construit seul ; marché francophone peu servi (estimation).
+- **MVP** : journal de doses et rappels ; poids/protéines ; export PDF pour le médecin. 4 à 5 semaines.
+- **Argent** : paywall après 7 jours de suivi, au moment du premier graphique de progression ; 4,99 €/mois ou 34,99 €/an.
+- **Acquisition** : TikTok/Reddit francophones. Accroche : « Ton médecin veut tes doses et ton poids : un PDF en un tap ».
+- **Test en 48 h** : landing + 5 posts Reddit/Facebook FR ; go si 100 inscriptions liste d'attente, stop sous 30.
 
-### Pari #2 : Suivi de colis sans piège
-- **L'idée** : app gratuite pour suivre tous ses colis (Colissimo, Mondial Relay, Vinted Go) par transfert d'e-mail ; premium 2,99 €/mois.
-- **Preuve d'argent** : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) #3 shopping ; [TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278) #4. « parcel tracking app » 720/mois, CPC 3,13 $.
-- **Le trou** : « why do i have to pay a subscription just to track 1 package??? » (avis, 31/50 en 1★).
-- **Pourquoi Kyle** : petit produit, API de transporteurs et parsing d'e-mails, dev solo.
-- **MVP** : ajout par numéro ; import e-mail ; notifications. 3–4 semaines.
-- **Argent** : suivi gratuit, alertes avancées payantes à 2,99 €/mois.
-- **Acquisition** : ASO « suivi colis ». Accroche : « Suivre un colis ne devrait pas coûter d'abonnement ».
-- **Test en 48 h** : landing + post r/vinted/r/france ; go à 40 inscrits, stop sous 15.
+### Pari #2 : Scanner TCG aux prix vérifiés — déjà vu 1 fois
+Nouveau : PokeItem (FR) 20 205 $ MRR vérifié RevenueCat ; FoilSnap 22 avis 1★ sur 50 sur les prix faux ; « pokemon card scanner » 14 800/mois.
+- **L'idée** : pour collectionneurs Pokémon/One Piece, scan avec prix marché et indice de confiance, 3,99 €/mois.
+- **Preuve d'argent** : [PokeItem](https://trustmrr.com/startup/pokeitem) 20 K$ MRR ; [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525) #12 réf. ; [Collectr](https://apps.apple.com/us/app/collectr-tcg-collector-app/id1603892248) #5 réf.
+- **Le trou** : « Told me I had a $154 but it was actually 50 cents » (FoilSnap) ; abonnement impossible à annuler. PokeItem occupe déjà le créneau FR : trou = fiabilité des prix.
+- **Pourquoi Kyle** : un SaaS mobile + API de prix, vendable seul.
+- **MVP** : scan ; prix avec date et source ; portefeuille. 4 à 6 semaines.
+- **Argent** : 10 scans gratuits, paywall à la valeur totale de la collection ; 3,99 €/mois.
+- **Acquisition** : TikTok « ma carte valait-elle ça ? ». Accroche : « Prix vérifiés, source affichée ».
+- **Test en 48 h** : vidéo TikTok + landing ; go si 50 inscriptions, stop sous 15.
 
-### Pari #3 : Nettoyeur de photos honnête
-- **L'idée** : app iPhone à prix unique (≈ 14,99 €) qui supprime doublons et captures, sans essai piégé.
-- **Preuve d'argent** : [Content Manager](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300) #14 (50→14 en 1 j) ; SmartClean AI #55 (75→55 en 7 j). « phone cleaner app » 4 400/mois, CPC 4,18 $.
-- **Le trou** : « Says on ad "no subscriptions"… You do have subscriptions! » (avis).
-- **Pourquoi Kyle** : produit simple, mais natif iOS ; moins adapté à son profil web (estimation).
-- **MVP** : détection de doublons ; tri de captures ; aperçu des Go gagnés. 6–8 semaines.
-- **Argent** : analyse gratuite, paywall au résultat (Go libérables) ; achat unique.
-- **Acquisition** : vidéos TikTok avant/après. Accroche : « Un prix. Pas de piège. »
-- **Test en 48 h** : vidéo TikTok + landing ; go à 100 liste d'attente, stop sous 30.
+### Pari #3 : Argent oublié en France (remboursements, avoirs)
+- **L'idée** : pour particuliers français, détecter l'argent oublié (avoirs, remboursements) avec essai gratuit réel, 29 €/an.
+- **Preuve d'argent** : [Settlemate](https://apps.apple.com/us/app/settlemate-claim-savings/id6737785495) #17 finance ; [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187) #16 ; Rightfully 71→#46.
+- **Le trou** : « Paid for a year. Got $0. Refund denied. » (Settlemate) ; demande US « unclaimed money finder » 590/mois, CPC 7,59 $. Transposition FR non vérifiée (estimation).
+- **Pourquoi Kyle** : agrégation + backend, marché francophone.
+- **MVP** : saisie identité ; recherche sur sources publiques ; suivi des démarches. 6 à 8 semaines.
+- **Argent** : paywall après le montant estimé, mais avec essai gratuit ; 29 €/an.
+- **Acquisition** : SEO + TikTok. Accroche : « 0 € si on ne trouve rien ».
+- **Test en 48 h** : landing + pub à 50 € ; go si 40 inscriptions, stop sous 10.
 
-**Mon pari : #1 — Co-parentalité à prix plat**, car c'est le trou le plus net (41/50 avis 1★) avec le CPC le plus élevé (5,31 $) et un marché francophone probablement vierge.
+**Mon pari : #1 — Suivi GLP-1 en français** : meilleur score pondéré, MVP le plus rapide à construire seul, avec le leader américain qui laisse un trou sur l'IA.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché 20% | ⚙️ Complex. 15% | ⏱️ TTM 15% | 🏟️ Concur. 15% | 💰 Revenu 20% | 🧑‍💻 Fit 15% | **Score** | 3 traits | Verdict |
+| Pari | 📊 20% | ⚙️ 15% | ⏱️ 15% | 🏟️ 15% | 💰 20% | 🧑‍💻 15% | Score | 3 traits | Verdict |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Co-parentalité | 7 | 6 | 6 | 6 | 7 | 6 | **6.4** | 2 | 🟡 BUILD ADJACENT |
-| #2 Suivi colis | 5 | 8 | 8 | 5 | 5 | 8 | **6.35** | 1 | 🟡 BUILD ADJACENT |
-| #3 Nettoyeur photos | 7 | 5 | 6 | 3 | 7 | 5 | **5.65** | 2 | 🟠 WATCH |
+| #1 Suivi GLP-1 FR | 6 | 7 | 7 | 5 | 6 | 8 | **6.45** | 2 | 🟡 BUILD ADJACENT |
+| #2 Scanner TCG prix vérifiés | 7 | 6 | 6 | 4 | 7 | 7 | **6.25** | 2 | 🟡 BUILD ADJACENT |
+| #3 Argent oublié FR | 6 | 6 | 6 | 7 | 6 | 6 | **6.15** | 1 | 🟡 BUILD ADJACENT |
 
-Les notes sont des estimations, sans revenu vérifié. Les pondérations donnent un écart de 0,05 entre #1 et #2 : à ce niveau, c'est un ex æquo. Le #1 pèse davantage sur le CPC et le trou de prix.
+Scores honnêtes : aucun pari n'atteint 7.5. Le pari #2 a un concurrent français déjà installé (PokeItem), le #3 repose sur une transposition FR non vérifiée.
 
-## 💰 Unit Economics — Pari #1 : Co-parentalité à prix plat
-Tout est `estimation` : aucune source directe pour les revenus des comparables (ni Crunchbase, ni SimilarWeb consultés).
+## 💰 Unit Economics — Pari #1 : Suivi GLP-1 en français
+Toutes les valeurs sont des `estimation` à partir des apps comparables (MeAgain : 7 employés, source PitchBook ; PokeItem : 20 K$ MRR, 3 195 abonnés, TrustMRR).
 
-| Indicateur | Estimation |
+| Métrique | Estimation |
 |---|---|
-| Hypothèse | 6 €/mois par foyer, 12 mois, 3 000 foyers payants |
-| ARR | ≈ 216 000 € (3 000 × 72 €) |
-| ARPU | 72 €/an par foyer |
-| Users | 3 000 payants (≈ 30 000 inscrits, 10 % de conversion) |
-| CAC | 25 € (SEO + pub à petit budget) |
-| LTV | ≈ 130 € (durée moyenne 22 mois, forte rotation après la procédure) |
-| LTV/CAC | ≈ 5 |
-| Payback | ≈ 5 mois |
-| Burn | ≈ 2 000 €/mois (hébergement, vidéo, pub) |
-| Runway | long : solo, financé par les revenus |
-| Rev/Employee | ≈ 216 000 € (1 personne) |
-| Rule of 40 | non pertinent à ce stade |
+| Users | 20 000 actifs en 12 mois, 3 % payants = 600 abonnés |
+| ARPU | ~35 €/an par abonné payant |
+| ARR | ~21 K€ (600 × 35 €) |
+| CAC | ~8 € (organique + TikTok) |
+| LTV | ~70 € (rétention 24 mois) |
+| LTV/CAC | ~8,7 |
+| Payback | ~3 mois |
+| Burn | ~1 K€/mois (hébergement, API, pubs) |
+| Runway | illimité en solo bootstrap |
+| Rev/employé | ~21 K€ (1 personne) |
+| Rule of 40 | non pertinent à ce stade (croissance indéterminée) |
 
-**Verdict 🟡** : l'économie unitaire est bonne sur le papier, mais l'hypothèse de 3 000 foyers en un an est ambitieuse. Risque principal : la valeur juridique d'un registre en France, à valider avant de construire.
+**Verdict santé : 🟡** : économie saine par unité si l'acquisition reste organique, mais le marché francophone est plus petit que le marché US et la demande FR n'a pas été mesurée (volumes issus de Google US).
 
 ## 🔭 Radar — 15 apps
-| App | Signal | Âge | Ce qu'elle vend | Piste |
-|---|---|---|---|---|
-| [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) | #3 shopping, 11k avis | 1 200 j | Suivi de colis, essai 3 j puis abonnement hebdo (prix non relevé) | Suivi gratuit sans piège |
-| [Package Tracker – TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278) | #4 shopping, 3,7★ | jeune (estimation) | Suivi de colis | Même trou |
-| [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726) | #24 productivité, 28k avis | 3 850 j | Messagerie co-parents, 7–32 $/mois/parent | Prix plat, version FR |
-| [OurFamilyWizard](https://apps.apple.com/us/app/ourfamilywizard-co-parent-app/id497405393) | #23 productivité, 57k avis | ancien | Co-parentalité, 110–300 $/an/parent (estimation tiers) | Idem |
-| [Content Manager](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300) | #14 utilitaires, 50→14 en 1 j | 2 137 j | Nettoyage photos, essai puis abo | Nettoyeur honnête |
-| [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) | #8 shopping, 20k avis | récent | Scanner de revente, 9,99 $/mois (tiers) | Prix fiables, marché FR |
-| [Snag: Restock Alerts](https://apps.apple.com/us/app/snag-restock-alerts/id6828241536) | #90 shopping | 8 j | Alertes de réassort | Test précoce |
-| [Hudl](https://apps.apple.com/us/app/hudl/id412223222) | 65→15 sports en 3 j | ancien | Vidéo sportive d'équipes | Saisonnier, grand groupe |
-| [CHANI](https://apps.apple.com/us/app/chani-your-astrology-guide/id1532791252) | #17 lifestyle, 4,9★ | ancien | Astrologie, abonnement | — |
-| [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) | #12 santé, 4,8★ | ancien | Suivi de macros | Version FR |
-| BoldVoice: Accent Training | nouveau→#95 éducation | ? | Coaching d'accent par IA (vocal) | Vocal, non retenu |
-| Ziggy: Learn ASL | nouveau→#53 éducation | ? | Langue des signes, 7k avis | LSF (déjà vu) |
-| [helumi](https://trustmrr.com/startup/helumi) | 916 $ MRR déclaré | ~1 mois | Stockage cloud dans le Finder Mac | — |
-| MagicSlides & co (Sanskar) | 1 M$ cumulés déclaré | plusieurs années | PDF/vidéo vers présentations | — |
-| [lightapaw](https://www.reddit.com/r/SideProject/comments/1xv6l3f/) | 106 pts Reddit, 25k pages | 8 j | Mémorial 3D d'animaux, extras payants | Émotion + partage, sans montant |
+| # | App | Signal | Âge | Ce qu'elle vend | Piste |
+|---|---|---|---|---|---|
+| 1 | [Settlemate](https://apps.apple.com/us/app/settlemate-claim-savings/id6737785495) | #17 finance, 76k avis, 4.79★ | 678 j | Recours collectifs et remboursements, abonnement ~16 $/mois ou ~40 $/an | Paywall avant valeur, avis « scam » |
+| 2 | [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187) | #16 finance, 5 880 avis | ? | Même besoin, abonnement avant d'afficher les réclamations | Essai honnête |
+| 3 | [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) | #13 finance, ARR « 7 chiffres » (déclaré, LinkedIn) | ? | Arrondis vers le remboursement de dette | Version FR, pas d'Open Banking US |
+| 4 | [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525) | #12 réf., 15k avis | 410 j | Scanner TCG, abonnement ~40 $/an | Prix faux, abo piège |
+| 5 | [PokeItem](https://trustmrr.com/startup/pokeitem) | 20 205 $ MRR vérifié | 2026 | Portefeuille TCG, 5,99 €/mois, 159,99 € à vie | Concurrent FR déjà fort |
+| 6 | [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #32 santé, 41k avis, 4.79★ | 582 j | Suivi GLP-1, IA « Capy », communauté | Pas de FR, IA jugée inutile |
+| 7 | [MWH Pilates](https://apps.apple.com/us/app/mwh-pilates-sculpt-strength/id1488181674) | santé 95→#41 en 7 j, 5 504 avis, 4.9★ | ? | Pilates guidé | Pilates en français |
+| 8 | Kidney Pal | medical 60→#33 en 3 j, 1 905 avis | ? | Suivi régime rénal | Demande « renal diet app » 140/mois, CPC 8,99 $ |
+| 9 | [Chartnote](https://apps.apple.com/us/app/chartnote-ai-medical-scribe/id1589970506) | medical 56→#37, 612 avis, 4.8★ | ? | Scribe médical IA, 39,99 $/clin./mois | Vocal, B2B US, non francophone |
+| 10 | Ziggy ASL | education 77→#54 en 7 j | ? | Langue des signes | LSF (déjà vu) |
+| 11 | LingoLooper | education nouveau→#65, 1 402 avis | ? | Jeu de langue IA | Vocal, à surveiller |
+| 12 | [Whispy AI](https://apps.apple.com/us/app/whispy-ai-create-your-story/id6770413766) | #26 entertainment, 1 653 avis, 4.3★ | ? | Histoires IA interactives | Demande « ai story app » 260→720 en 12 mois |
+| 13 | [Bible Shorts](https://apps.apple.com/us/app/bible-shorts-watch-study/id6795921981) | #13 réf., 4 640 avis | jeune | Vidéos bibliques courtes | Demande « bible app » 90 500/mois |
+| 14 | [Breakout Prop Firm](https://apps.apple.com/us/app/breakout-prop-firm-trading/id6757760188) | nouveau→#23 finance, 13 avis, 3.4★ | 234 j | Trading prop firm | Demande « prop firm trading » 4 400, CPC 12,74 $ (réglementé, exclu) |
+| 15 | [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726) | #23 productivité, 28k avis, 4.4★ | ? | Co-parentalité, abonnement | Déjà vu (rapport précédent) |
 
-Catégories : shopping, productivité, utilitaires, sports, lifestyle, santé, éducation, web/Mac. Une seule app vocale (BoldVoice).
+Voix au radar : Chartnote, LingoLooper (2 sur 4 max). Catégories : finance, réf., santé, medical, education, entertainment, productivité. Les liens à `id0` n'ont pas d'id relevé : chercher le nom dans l'App Store.
 
 ## 💸 Apps qui font du cash
 **Revenus déclarés** (déclaré, non vérifié sauf mention)
-- helumi (app Mac, stockage cloud dans le Finder) : 916 $ MRR, 9 nov. 2026 — [post](https://x.com/letcontactabhi/status/2119685259348635928). TrustMRR affiche 991 $ MRR et 1 569 $ sur 30 j (lecture des paiements, plus fiable) — [fiche](https://trustmrr.com/startup/helumi).
-- Portefeuille de Sanskar (MagicSlides, Sheet AI à 2 000 $ MRR…) : plus de 1 M$ cumulés, ~1 000 clients payants/mois, 11 nov. 2026 — [post Starter Story](https://x.com/starter_story/status/2120311453987287229). Déclaré, non vérifié.
-- App mobile de @celal_dev : de 0 à 8 K$ de revenu, 1,5–2 K$/mois, 100 % organique, 10 nov. 2026 — [post](https://x.com/celal_dev/status/2120217269934453145). Produit non identifié : à prendre avec prudence.
-- Dosti Pro (appels vidéo Android, Inde) : 7 839 ₹ encaissés en un jour, 44 paiements, 10 nov. 2026 — [post](https://x.com/iamvenkatadri/status/2120165133259350431).
-- App Android de @engwaliullah : 32 $ le premier mois, 11 nov. 2026 — [post](https://x.com/engwaliullah/status/2120555319864746128). Anecdote, très petit.
-- lightapaw (mémorial 3D d'animaux, gratuit + extras payants) : traction (25 000 animaux, 657 000 bougies) mais aucun montant déclaré — [Reddit](https://www.reddit.com/r/SideProject/comments/1xv6l3f/).
+- Starter Story, Sanskar (Inde) : 30+ apps, 8 rentables, seul, 2026-11-11 — [post](https://x.com/starter_story/status/2120311453987287229) — déclaré, non vérifié (montant non lisible dans l'extrait).
+- celal_dev : de 0 à 8 K$ de revenu app cumulé, 1,5 à 2 K$/mois, 100 % organique, 2026-11-10 — [post](https://x.com/celal_dev/status/2120217269934453145) — déclaré, non vérifié.
+- helumi (app Mac) : 916 $ de MRR, 0 un mois avant, 2026-11-09 — [post](https://x.com/letcontactabhi/status/2119685259348635928) — déclaré, non vérifié.
+- App santé iOS indie : 2 000 $ de revenu brut cumulé, 123 acheteurs, 2026-11-14 — [post](https://x.com/rjozefowicz/status/2121589922611990926) — déclaré, non vérifié.
+- Dosti Pro (Android, Inde) : 7 839 ₹ en un jour, 44 paiements, 2026-11-10 — [post](https://x.com/iamvenkatadri/status/2120165133259350431) — déclaré, non vérifié.
+- Chili crunch (produit physique, hors app) : 25 K$ en 3,5 mois — [Reddit](https://www.reddit.com/r/SideProject/comments/1xw7b36/) — déclaré, non vérifié.
+- PokeItem (FR, suivi TCG) : 20 205 $ MRR, 30 591 $ sur 30 jours, 3 195 abonnés — [TrustMRR](https://trustmrr.com/startup/pokeitem) — vérifié RevenueCat par TrustMRR, 2026-11-14.
+- HabitKit : 28 K$ MRR, 25 100 abonnés payants (déc. 2025) — [Indie Hackers](https://www.indiehackers.com/post/heres-how-to-hit-10k-mrr-faster-891549221d) via recherche — déclaré, non vérifié.
 
-**App Store US (top grossing, < 100k avis, hors jeux)** — un rang n'est pas un revenu
-- #3 shopping, 11 276 avis : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), suivi de colis, 1 300 transporteurs.
-- #4 shopping, 1 896 avis : [Package Tracker – TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278), même besoin, 3,7★.
-- #14 utilitaires, 60 588 avis (50→14 en 1 j) : [Content Manager](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300), nettoyage photos/contacts.
-- #24 productivité, 28 751 avis : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726), messagerie de co-parents opposable au tribunal.
-- #8 shopping, 20 853 avis : [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278), scanner de prix de revente.
-- #15 sports (65→15 en 3 j) : [Hudl](https://apps.apple.com/us/app/hudl/id412223222), vidéo et analyse sportive.
-- #53 éducation, nouveau : Ziggy: Learn ASL (7 227 avis, 4,8★, lien non relevé par la collecte), langue des signes.
+**App Store US, top grossing, moins de 100k avis** (un rang n'est pas un revenu)
+- #13 finance, 4 900 avis : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) — arrondis d'achats vers le remboursement de dette.
+- #16/#17 finance : [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187) (5 880 avis) et [Settlemate](https://apps.apple.com/us/app/settlemate-claim-savings/id6737785495) (76 139 avis) — recours collectifs. Rightfully 71→46 en 3 j.
+- #12 réf., 15 464 avis : [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525) — scan de cartes TCG.
+- #32 santé, 40 973 avis : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) — suivi GLP-1.
+- #8 medical : [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) (#8 medical, 2 700 avis) — suivi SOPK.
+- #13 réf. : [Bible Shorts](https://apps.apple.com/us/app/bible-shorts-watch-study/id6795921981) (4 640 avis) — vidéos courtes bibliques.
+- #26/#27 entertainment : [Whispy AI](https://apps.apple.com/us/app/whispy-ai-create-your-story/id6770413766) (1 653 avis), Popia (2 056 avis) — histoires IA.
+- #12 lifestyle : [SeaHaze](https://apps.apple.com/us/app/seahaze-create-your-story/id6478189868) (783 avis, 3.8★) — histoires interactives.
 
-**Jeunes apps qui gagnent déjà** (liste « Âge »)
-- #90 shopping, [Snag: Restock Alerts](https://apps.apple.com/us/app/snag-restock-alerts/id6828241536) : sortie il y a 8 j, 4 avis, alertes de réassort.
-- #83 shopping, [Outpost Alerts](https://apps.apple.com/us/app/outpost-alerts/id6777955638) : sortie il y a 44 j, 0 avis, même niche.
-- #100 shopping, [Package Tracker・Order Tracking](https://apps.apple.com/us/app/package-tracker-order-tracking/id6818790265) : 29 j, 6 avis.
-- #71 shopping, [Thrifty Joe](https://apps.apple.com/us/app/thrifty-joe/id6762083255) : 199 j, 4 avis, scanner de revente.
-- #68 shopping, [Thrift Hunt](https://apps.apple.com/us/app/thrift-hunt-resale-scanner-ai/id6760717302) : 233 j, 2 avis.
-- Leader sans mise à jour > 180 j : aucun dans la liste (Patina, #80, est à 150 j).
-- Constat : 5 apps de moins de 250 jours classées top 100 shopping avec moins de 10 avis. Elles encaissent sans base d'avis, signe d'acquisition payante (estimation).
+**Jeunes apps qui gagnent déjà** (< 365 j, liste d'âge)
+- Breakout: Prop Firm & Trading, #23 finance, sortie 2026-03-25 (234 j), 13 avis 3.4★ : trading prop firm. Entrée directe au #23 avec 13 avis : signal fort, preuve faible côté qualité.
+- FoilSnap, sortie 2025-09-30 (410 j) : limite haute, scanner TCG au #12 réf.
+- Trade Echo, #87 finance, sortie 2025-11-12 (367 j), 22 avis.
+- Leaders sans MAJ > 180 j : Best Stocks Now (#71 finance, MAJ 239 j, 2.87★), MobilEM (#58 medical, 309 j, 3.59★), Vetpocket (#56 medical, 192 j, 3.93★), ATLAS (#93 medical, 429 j) : places à prendre.
 
-## 🔬 App creusée #1 : TalkingParents (productivité / co-parentalité)
-1. **Identification** : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726), Monitored Communications LLC, sortie App Store 2016-04-29, productivité, #24 top grossing US, 28 751 avis (4,4★), MAJ il y a 11 j. Fondateurs non relevés.
-2. **Valeur** : parents séparés, messagerie et appels qui laissent un registre inaltérable, recevable en justice. Prix par parent : 7 / 16 / 32 $ par mois (sources tierces, à vérifier). Plan gratuit supprimé le 30 mars 2026 (tiers).
-3. **Les 3 décisions** (estimation, d'après fiche et avis) : onboarding par Apple ID ; paywall au moment où le parent a besoin du registre ou des appels vidéo, donc sous stress ; retour par l'obligation judiciaire de communiquer par l'app.
-4. **3 traits** : émotion ✅ (conflit, peur de « ne pas être cru ») ; résultat visible en quelques secondes ❌ ; distribution intégrée ✅ (l'autre parent doit s'inscrire, effet réseau forcé).
-5. **Ce qui manque** : 41 avis 1★ sur 50. Plaintes : prix après fin du gratuit, support injoignable, abonnement impossible à confirmer via Apple ID. « Now it's 40 a month » ; « Over priced. No customer service. Glitches. » App mise à jour : pas de trou de MAJ.
-6. **Acquisition** : 30 pubs Meta actives, 3 lancées depuis 7 j ; formats DCO 19, image 6, vidéo 3, carrousel 2. Accroches : « Gaslighting doesn't work when there's a transcript » ; « High conflict co-parenting takes a toll. Protect your peace with recorded interactions » ; formules de pension par État. Page de 26 584 likes. Autre canal : prescription par avocats et juges (estimation).
-7. **Stack** (estimation) : mobile natif + web, messagerie horodatée, vidéo WebRTC, export PDF.
-8. **Réplication** : 6/10 (messagerie sûre et export opposable : surtout de la confiance). Verticaux voisins : tutelle de proches, colocation, familles recomposées. Niche : un « TalkingParents » à prix plat sans fiche tarifaire par parent. Angle Kyle : version FR (convention parentale, pension). Dev : 6–8 semaines.
+## 🔬 App creusée #1 : Settlemate (finance)
+**1. Identification** : [Settlemate](https://apps.apple.com/us/app/settlemate-claim-savings/id6737785495), Settlemate Inc, sortie App Store 2025-01-05 (678 j), finance, 4.79★ sur 76 139 notes, #17 top grossing finance US. Fondateurs : non trouvés. Gratuit à télécharger, abonnement.
+**2. Proposition** : problème : l'argent des recours collectifs, remboursements de prix et surcharges reste non réclamé. Solution : l'app liste les recours, vérifie l'éligibilité via banque/email liés. Prix : 15,99 $/mois ou ~39,99 $/an selon une source, 11,99/34,99 $ selon une autre (désaccord entre sources, [trypayout](https://trypayout.app/blog/best-class-action-settlement-apps), [claimowedmoney](https://www.claimowedmoney.com/blog/free-vs-paid-settlement-apps)). Revenu : un showcase estime 85 à 150 K$/mois ([screensdesign](https://screensdesign.com/showcase/settlemate-class-actions)), chiffres incohérents, `estimation`.
+**3. Les 3 décisions qui font l'argent** (estimation, d'après avis) : onboarding : montre « vous avez peut-être 100+ recours » après liaison banque/email. Paywall : tombe au pic d'émotion, juste après ce chiffre, sans essai gratuit (avis : « tell you how much you missed out then ask for a subscription »). Retour : nouveaux recours ajoutés régulièrement, notifications.
+**4. Test des 3 traits** : ✅ émotion pour une action (« argent qui vous est dû ») ; ❌ résultat visible en secondes (le gain arrive des semaines plus tard, voire jamais) ; ❌ distribution intégrée (rien de partageable relevé).
+**5. Ce qui manque** : plainte n°1 : paywall caché et 0 $ récupéré (34 avis 1★ sur 50). « Paid for a year. Got $0. Refund denied. » ; « Hides the fact you have to pay for it ». Dernière MAJ : 2026-11-01 (14 j), pas d'abandon.
+**6. Acquisition** : pubs Meta non trouvées (pages homonymes écartées). Autres canaux : blog SEO agressif du site (comparatifs « best apps to claim money », publiés par Settlemate lui-même).
+**7. Stack** : non documentée (estimation : app mobile, agrégation email/banque type Plaid, scraping de sites de recours).
+**8. Réplication** : complexité 6/10 (agrégation des recours, vérification d'éligibilité). Niche : leader déçu, pas d'équivalent FR relevé. Angle Kyle : versions « argent oublié » françaises (Ciclade, assurance vie, remboursements) avec essai gratuit réel, `estimation` de faisabilité. Temps : 6 à 8 semaines.
 
-## 🔬 App creusée #2 : My Package Delivery Tracker (shopping)
-1. **Identification** : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), MultiApp Dynamics OU, sortie 2023-08-01, shopping, #3 top grossing US, 11 276 avis (4,4★), MAJ il y a 51 j (« bugs corrigés »). Gratuit à l'installation.
-2. **Valeur** : tous les colis dans une app, 1 300 transporteurs. Prix exact non relevé : abonnement hebdomadaire après essai de 3 jours (cité dans les avis).
-3. **Les 3 décisions** (d'après avis) : onboarding court menant à un numéro de suivi ; paywall immédiat, avant le premier résultat utile (l'utilisateur est inquiet pour son colis) ; retour par les notifications de livraison.
-4. **3 traits** : émotion ✅ (« où est mon colis ») ; résultat en quelques secondes ❌ (bloqué par le paywall) ; distribution intégrée ❌.
-5. **Ce qui manque** : 31 avis 1★ sur 50, quasi tous contre le paywall. « why do i have to pay a subscription just to track 1 package??? » ; « You have to pay weekly… tracking a package should be free ». Annulation après essai jugée trompeuse.
-6. **Acquisition** : `pubs Meta non trouvées` (aucune page d'app sûre). Canal probable : ASO sur « package tracker » (estimation).
-7. **Stack** (estimation) : agrégateur d'API de transporteurs, notifications push.
-8. **Réplication** : 4/10 (agrégation d'API déjà vendue, plus parsing d'e-mails). Verticaux : réassort, retours, billets. Niche : leader qui déçoit, 4 apps dans le top 11 shopping, nouvelle entrante à 29 j. Angle Kyle : transporteurs FR (Colissimo, Mondial Relay, Chronopost, Vinted Go), suivi gratuit, monétisation sur alertes avancées. Dev : 3–4 semaines.
+## 🔬 App creusée #2 : FoilSnap TCG Scanner (reference)
+**1. Identification** : [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525), Next Vision Limited, sortie 2025-09-30 (410 j), reference, 4.75★ sur 15 464 notes, #12 reference. Fondateurs : non trouvés. Gratuit à télécharger, abonnement (~30 à 40 $/an d'après avis).
+**2. Proposition** : problème : savoir ce que valent ses cartes Pokémon/Magic/Yu-Gi-Oh. Solution : scan caméra, prix, collection. USP annoncée : « scanner le plus rapide et précis ». Cible : collectionneurs. Demande : « pokemon card scanner » 14 800/mois, CPC 2,44 $.
+**3. Les 3 décisions qui font l'argent** (estimation) : onboarding : essai gratuit, quelques scans. Paywall : après 3 scans (avis : « only let me scan three cards »), au moment où la valeur d'une carte est révélée. Retour : valeur de la collection qui bouge, portefeuille.
+**4. Test des 3 traits** : ✅ émotion (« ma carte vaut-elle 154 $ ? ») ; ✅ résultat en secondes (scan) ; ❌ distribution intégrée (pas de partage relevé).
+**5. Ce qui manque** : plainte n°1 : prix faux ou instables et abonnement qu'on ne peut pas annuler (22 avis 1★ sur 50). « Told me I had a $154 but it was actually 50 cents. » ; « Scan the same card multiple times… completely different values. » MAJ il y a 10 j.
+**6. Acquisition** : une page Meta « TCG Card Scanner » (2 693 likes) trouvée, 0 pub active, à vérifier que c'est la bonne page. Autres canaux : communautés TCG, SEO.
+**7. Stack** : estimation : reconnaissance d'image + API de prix (TCGplayer/Cardmarket).
+**8. Réplication** : complexité 5/10. Concurrent francophone déjà prouvé : [PokeItem](https://trustmrr.com/startup/pokeitem), 20 205 $ MRR vérifié, 5,99 €/mois, 49,99 €/an, 159,99 € à vie, 2 à 5 personnes. Verdict : marché prouvé mais plus de trou « français pur » ; reste le trou « prix fiables et abonnement honnête ». Temps : 4 à 6 semaines.
 
-## 🔬 App creusée #3 : Content Manager: AI Cleaner (utilitaires)
-1. **Identification** : [Content Manager: AI Cleaner](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300), DevMeApp, sortie 2021-01-06, utilitaires, #14 (50→14 en 1 jour), 60 589 avis (4,4★), MAJ il y a 2 j.
-2. **Valeur** : trie photos, vidéos, doublons et contacts pour libérer du stockage. Année gratuite pour étudiants. Prix : non relevé (un avis cite 50 $ en attente).
-3. **Les 3 décisions** (estimation, d'après avis) : onboarding qui lance une analyse ; paywall au moment où l'utilisateur voit son espace récupérable ; retour par rappels de nettoyage.
-4. **3 traits** : émotion ✅ (soulagement, téléphone plein) ; résultat visible en quelques secondes ✅ (Go libérés) ; distribution intégrée ❌.
-5. **Ce qui manque** : 26/50 avis 1★ : faux « gratuit », essai impossible à annuler. « Says on ad "no subscriptions"… You do have subscriptions! » ; « Impossible to cancel without being charged. » Pas de trou de MAJ.
-6. **Acquisition** : `pubs Meta non trouvées` (pages homonymes écartées). Les avis évoquent des pubs intrusives dans d'autres apps (estimation : achat média).
-7. **Stack** (estimation) : iOS natif, Photos framework, détection de doublons par hash et vision locale.
-8. **Réplication** : 6/10 (API Photos, performances, validation App Review). Verticaux : nettoyage de contacts, de mails. Niche : leader qui déçoit, mais marché saturé. Angle Kyle : prix unique sans essai piégé, en français. Dev : 6–8 semaines en natif. Demande : « phone cleaner app » 4 400/mois, CPC 4,18 $.
+## 🔬 App creusée #3 : MeAgain GLP-1 Tracker (santé)
+**1. Identification** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), Dots Future Technologies Inc. (New York, 7 employés d'après [PitchBook](https://pitchbook.com/profiles/company/1084949-92)), CEO Martyn Strydom, sortie 2025-04-11 (582 j), santé, 4.79★ sur 40 886 notes, #32 santé. Revendique 500 K à 1 M+ de téléchargements (chiffres incohérents entre sources). Gratuit + premium.
+**2. Proposition** : problème : suivre doses, poids, protéines, effets secondaires sous Ozempic/Wegovy/Mounjaro. Solution : journal + compagnon IA « Capy » + communauté. Nouveautés : rapports PDF pour le médecin, méthode de l'assiette. Revenu : non publié (champ masqué).
+**3. Les 3 décisions qui font l'argent** (estimation) : onboarding : choix du médicament, rappel de dose. Paywall : « bonus features » payantes, le cœur (suivi) est gratuit, d'où les 5★. Retour : rappel d'injection, rotation des sites d'injection, journal quotidien.
+**4. Test des 3 traits** : ✅ émotion (perte de poids suivie) ; ❌ résultat en secondes (suivi quotidien) ; ✅ distribution (communauté, rapport médecin partageable).
+**5. Ce qui manque** : l'IA jugée inutile et la saisie des repas lourde. « Mostly very useful, AI is not helpful » ; « It just tracks your food, water, etc. ». Aussi : suppléments non suivis. MAJ il y a 3 j.
+**6. Acquisition** : pubs Meta non trouvées (la page de l'app n'a pas été identifiée ; concurrents Mingo et Nuvo ont une page). Autres canaux : communiqués de presse (MeAgain Index, 2026-11-11), communauté.
+**7. Stack** : estimation : app mobile, base de produits alimentaires + code-barres, LLM pour le compagnon.
+**8. Réplication** : complexité 4/10. Niche : leader américain, interface en anglais ; version FR non relevée dans cette collecte (estimation, non vérifié). Marché FR/EU de GLP-1 plus restreint (remboursement différent, estimation). Angle Kyle : suivi simple, rapport médecin, en français. Temps : 4 à 5 semaines.
 
 ## 📈 Tendances Émergentes
-**Accroches publicitaires** (seule app avec pubs trouvées : TalkingParents ; les deux autres sans page Meta sûre)
-- Preuve par la trace écrite : « Gaslighting doesn't work when there's a transcript », « recorded interactions ».
-- Éducation avant la vente : formules de pension par État (contenu SEO en pub).
-- Promesse de « gratuit » ou « sans abonnement » dans les pubs de nettoyeurs, contredite à l'ouverture de l'app (avis Content Manager).
+**Accroches publicitaires** : aucune pub Meta exploitable (pages d'app non trouvées pour les 3 apps creusées). Accroches observées dans les descriptions et avis : « Unlock money you didn't know you were owed » (Settlemate), « Stop guessing. Start snapping. » (FoilSnap), « Log every dose » (MeAgain). Motif commun : une émotion + un chiffre immédiat.
 
 **Autres signaux**
-- Le paywall perçu comme piège est la première cause d'avis 1★ de la journée (colis 31/50, co-parentalité 41/50, nettoyeur 26/50). Un « prix honnête » est un angle de produit.
-- Réassort, scan de revente et cartes à collectionner : beaucoup de petites apps jeunes dans le top 100 shopping (mouvements sur 3 j).
-- Dev/IA : Claude Meetings (268 votes PH), skills d'agents en tête de GitHub Trending, « computer-use » et sandboxes pour agents. Rien de directement copiable en app grand public.
-- Bruit : panne FAA nationale (1 436 pts HN), sans lien avec le marché des apps.
-- Repères tiers (non vérifiés) : médiane de 143 $ MRR pour 305 apps mobiles (TrustMRR, oct. 2026).
+- **Paywall agressif = avis 1★** : Settlemate (34 avis 1★ sur 50) et FoilSnap (22 sur 50) cumulent « scam », abonnement caché, refus de remboursement. Un essai honnête est un angle de différenciation, pas une simple option.
+- **Produit gratuit au cœur, premium en bonus** (MeAgain) donne 41 avis 5★ sur 50 : l'inverse des deux autres.
+- **Concurrent français prouvé** : PokeItem à 20 K$ MRR vérifié avec 2 à 5 personnes.
+- **Medical** : 21 apps montent en 3 jours (Chartnote, Kidney Pal, Conveyor AI) ; CPC « medical scribe app » à 23,90 $.
+- **HN** : Lovable expose des passeports et 200 K messages privés (718 pts) : le risque sécurité des apps générées par IA est un argument de vente pour un produit codé proprement.
+- **GitHub Trending** : agents et skills (anthropics/skills, vercel-labs/agent-browser, daily_stock_analysis +4 526 étoiles).
+- **Chaîne de revenus indie** : HabitKit 28 K$ MRR, Personal Best ~5 K$ MRR (déclaré, non vérifié) ; RevenueCat : 4,6 % des nouvelles apps par abonnement atteignent 10 K$/mois en 2 ans (cité par recherche, non vérifié).
