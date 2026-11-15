@@ -1,106 +1,96 @@
-# AI Watch — 2026-11-14 Matin
+# AI Watch — 2026-11-15 Matin
 
-> Collecte : treg 4/4 sources, 18 recherches extended, GitHub Trending ok, 4 pages lues, 7 items confirmés par une deuxième source.
+> Collecte : treg 4/4 sources, 19 recherches extended, GitHub Trending ok, 2 pages lues, 6 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
-### llama.cpp et ggml v1.0.0
-- **Quoi** : Les deux bibliothèques passent en v1.0.0 avec semver strict (majeur = rupture d'API/ABI C), 35 fonctions dépréciées supprimées, support FP8 pour le KV cache (selon la presse).
-- **Date** : 2026-11-13
-- **Lien** : https://huggingface.co/blog/ggml-org/llama-cpp-v1 (source principale lue) ; https://github.com/ggml-org/ggml/releases/tag/v1.0.0
-- **Pourquoi c'est important** : Stabilité de l'API pour tout l'écosystème IA locale (Ollama, apps downstream). Post Reddit r/LocalLLaMA à 1477 pts.
-- **Testable** : Oui — open source, gratuit. Compiler llama.cpp v1.0.0 ou télécharger l'app macOS native annoncée.
-
 ### Gemini 4 Hydrogen (Google)
-- **Quoi** : Modèle « daily driver » agentique, déployé dans Gemini app, Google Search, AI Studio, API et Antigravity (Pro/Ultra). Google annonce 51 sur l'Artificial Analysis Intelligence Index (54 en xhigh), devant Gemini 4 Argon (50). Nouveau « Orchestrator » dans Antigravity qui bascule entre Carbon et Hydrogen.
-- **Date** : 2026-11-12 (page mise à jour le 13)
+- **Quoi** : Nouveau modèle rapide de la famille Gemini 4, pensé pour le code au quotidien et les workflows agentiques. Google annonce qu'il dépasse Argon sur l'Artificial Analysis Intelligence Index, avec 4 niveaux de réflexion configurables et une vitesse 2,5x supérieure à Gemini 3.8 Flash.
+- **Date** : 12 novembre 2026 (certains sites indiquent le 13)
 - **Lien** : https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
-- **Pourquoi c'est important** : Frontière 4e génération mise à disposition de tous, tarif plat 1,50 $/7,50 $ par M tokens sur 1M de contexte. Benchmarks = déclarations de Google, non indépendantes.
-- **Testable** : Oui — payant (API) / gratuit dans l'app Gemini et AI Studio. 129 votes sur Product Hunt.
+- **Pourquoi c'est important** : Le niveau « Flash » devient aussi bon que l'ancien haut de gamme. Il est déployé dans Search et l'app Gemini pour tous les utilisateurs, et dans l'API, AI Studio et Antigravity (option Orchestrator avec Carbon).
+- **Testable** : Oui, via l'app Gemini, Google AI Studio ou l'API Gemini. Payant à l'usage (un site secondaire cite 1,50 $ par million de tokens en entrée, non confirmé).
 
-### Claude Meetings (Anthropic), bêta
-- **Quoi** : Claude rejoint les appels vidéo comme participant visible, répond dans le chat, rédige docs/whiteboards en direct, produit notes et actions. Google Meet uniquement pour l'instant.
-- **Date** : 2026-11-10 à 12 (sources divergentes)
-- **Lien** : https://claude.com/resources/articles/claude-meetings (lu) ; https://www.axios.com/2026/11/10/anthropic-claude-meetings-knowledge-work
-- **Pourquoi c'est important** : Concurrence directe d'Otter, Fireflies, Granola, avec exécution d'actions via outils connectés. Indisponible en ZDR, HIPAA, CMEK.
-- **Testable** : Oui, si plan Team/Enterprise (payant, déploiement progressif).
+### Jensen Huang quitte Nvidia
+- **Quoi** : Jensen Huang démissionne de son poste de CEO et du conseil d'administration après 33 ans. La CFO Colette Kress est CEO par intérim. Nvidia ne donne pas de raison. La presse évoque des allégations personnelles et une enquête interne liée à une opération de renseignement étrangère. CNBC parle d'une éviction, d'après une source anonyme.
+- **Date** : 11-12 novembre 2026
+- **Lien** : https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html
+- **Pourquoi c'est important** : Nvidia est au cœur de la chaîne de valeur de l'IA. Le sujet domine r/LocalLLaMA (3200 pts) et la succession peut peser sur la roadmap GPU et le marché.
+- **Testable** : Non
 
-### Démission de Jensen Huang de Nvidia
-- **Quoi** : Huang quitte ses postes de CEO, président et administrateur ; la CFO Colette Kress devient CEO par intérim, Harvey C. Jones président du conseil. Le FT rapporte une approche de Rene Haas (Arm).
-- **Date** : 2026-11-12
-- **Lien** : https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/ ; https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/
-- **Pourquoi c'est important** : Changement de direction du principal fournisseur de GPU IA, action en baisse. Les causes officielles ne sont pas données par Nvidia ; la presse évoque une affaire personnelle.
-- **Testable** : Non.
+### Anthropic : IPO prévue sur le Nasdaq (ticker ANT)
+- **Quoi** : Fourchette de prix de 70 à 78 $ pour 825 M d'actions, soit jusqu'à environ 64 Md$ levés. Fixation du prix attendue le 18 novembre et début de la cotation le 19. Environ 20 % des titres sont réservés au retail.
+- **Date** : fourchette annoncée le 10 novembre 2026
+- **Lien** : https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html
+- **Pourquoi c'est important** : C'est la plus grosse introduction en bourse d'un laboratoire d'IA. Elle sert de référence de valorisation pour tout le secteur. Les dates du 18 et du 19 viennent de la presse, pas du dépôt.
+- **Testable** : Non
+
+### Thinking Machines : poids ouverts d'Inkling 2 Small
+- **Quoi** : MoE de 594 Md de paramètres au total (17 Md actifs), licence Apache 2.0, publié sur Hugging Face. Il est classé meilleur modèle open-weights hors Chine selon Artificial Analysis. Le checkpoint NVFP4 demande au moins 500 Go de VRAM.
+- **Date** : 12 novembre 2026
+- **Lien** : https://thinkingmachines.ai/model-card/inkling-2-small/
+- **Pourquoi c'est important** : Gros modèle ouvert et permissif, compatible SGLang, vLLM et Unsloth. L'annonce de l'équipe vient d'un post X relayé par des blogs. Je n'ai pas lu la page officielle.
+- **Testable** : Oui pour qui a du matériel multi-GPU (2x B300 ou 4x H200). Open source, gratuit. Sinon via Tinker, le service du laboratoire.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Perplexity Decider v1.3 et Flash v1.3
-- **Quoi** : Modèles de décision (classifieur généraliste texte+vision) retournant des probabilités ; nouvelle fonction « locate » (NER, PII, QA extractive).
-- **Date** : 2026-11-12
-- **Lien** : https://www.perplexity.ai/hub/blog/perplexity-decider (lu)
-- **Pourquoi c'est important** : Alternative légère aux LLM pour routage, modération, reranking. Chiffres (91,6 % sur 63 tâches internes) auto-déclarés.
-- **Testable** : Oui — open weights Apache sur Hugging Face, OpenRouter (version gratuite), API Decisions (~0,02 $/M tokens).
+### Cloudflare Kitesurf (open source)
+- **Quoi** : Moteur de navigateur léger pour agents IA, plus économe en CPU et mémoire que Chromium. Il est compatible Chrome DevTools Protocol, donc les scripts Puppeteer fonctionnent sans réécriture. Il est encore en développement actif.
+- **Date** : 12-13 novembre 2026
+- **Lien** : https://developers.cloudflare.com/changelog/post/2026-11-12-kitesurf-open-source/
+- **Pourquoi c'est important** : Réduit le coût du browsing par agents à grande échelle. Le service hébergé Browser Run n'est pas inclus dans le dépôt.
+- **Testable** : Oui, en auto-hébergement ou sur un compte Cloudflare. Apache 2.0.
 
 ### Render Sandboxes
-- **Quoi** : Une machine dédiée par agent, démarrage en moins d'une seconde.
-- **Date** : 2026-11-13 (Product Hunt, 265 votes)
+- **Quoi** : Une machine isolée par agent, démarrage en moins d'une seconde. Product Hunt : 265 votes.
+- **Date** : 14 novembre 2026 (lancement Product Hunt)
 - **Lien** : https://www.producthunt.com/products/render
-- **Pourquoi c'est important** : Infra d'exécution pour agents. Pas de seconde source, annonce vendeur.
-- **Testable** : Oui — payant.
+- **Pourquoi c'est important** : L'infrastructure de sandbox pour agents devient un segment à part entière (Nvidia donne OpenShell au CNCF dans le même mouvement). Seule la page Product Hunt a été consultée.
+- **Testable** : Oui, payant.
 
-### Filament by Galaxy
-- **Quoi** : Outil open source pour déplacer des données depuis le terminal ou un agent.
-- **Date** : 2026-11-13 (Product Hunt, 274 votes)
-- **Lien** : https://www.producthunt.com/products/galaxy
-- **Pourquoi c'est important** : Brique CLI pour agents. Non vérifié ailleurs.
-- **Testable** : Oui — open source.
+### Gemini Robotics 2.5
+- **Quoi** : Modèle robotique « le plus capable » de Google selon la fiche Product Hunt (147 votes).
+- **Date** : 14 novembre 2026 (lancement Product Hunt)
+- **Lien** : https://www.producthunt.com/products/gemini-robotics-2-5
+- **Pourquoi c'est important** : Autre signal sur la robotique, alors que des sources non confirmées disent qu'OpenAI aurait dissous son équipe robotique. Pas de seconde source sur les détails.
+- **Testable** : Non vérifié
 
-### Daybreak Red Team / Defense Factory (OpenAI)
-- **Quoi** : Outils de sécurité qui testent les applications et proposent des correctifs revus par des ingénieurs. Red Team en accès anticipé. À noter aussi : ChatGPT Enterprise sur AWS Marketplace.
-- **Date** : ~2026-11-13
-- **Lien** : https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/
-- **Pourquoi c'est important** : OpenAI pousse vers la sécurité offensive/défensive automatisée. Source secondaire uniquement, non confirmé.
-- **Testable** : Non — accès anticipé. Voir aussi le repo trending openai/codex-security (751 étoiles/jour).
-
-### Muse (Meta) : appels téléphoniques
-- **Quoi** : L'assistant peut passer des appels pour l'utilisateur, abonnés payants US.
-- **Date** : 2026-11-12
-- **Lien** : https://dexerto.com/entertainment/metas-ai-can-now-make-phone-calls-you-dont-want-to-make-3428077
-- **Pourquoi c'est important** : Agent vocal grand public. Source unique.
-- **Testable** : Oui, abonnés Muse payants aux US.
+### Open source trending (GitHub)
+- **Quoi** : GoogleChrome/modern-web-guidance-src (+1231 étoiles/jour, bonnes pratiques web pour agents de code), alibaba/open-code-review (+893, revue de code hybride règles et LLM), ChromeDevTools/chrome-devtools-mcp (+664), tradermonty/claude-trading-skills (+553), backnotprop/plannotator (+408), JuliusBrussee/caveman (+227, réduit la consommation de tokens d'environ 65 %, chiffre du dépôt), Tencent/LoopForge (orchestration d'agents de code avec validation humaine).
+- **Date** : 15 novembre 2026
+- **Lien** : https://github.com/trending?since=daily
+- **Pourquoi c'est important** : Les outils autour des agents de code (revue, contexte, MCP, économie de tokens) dominent le trending.
+- **Testable** : Oui, tous open source.
 
 ## 🧠 Mises à jour de Modèles
-
-- **Qwen 4 Max Preview (Alibaba)** : aperçu du 11 au 25 novembre, positionné codage et agents. Source : https://www.yottalabs.ai/post/qwen-4-max-specs-benchmarks-pricing-how-to-access (secondaire, non confirmé).
-- **Baidu ERNIE 5.0 Thinking Preview** : listé le 13 novembre par un tracker (https://opper.ai/model-releases), non confirmé.
-- **IBM Granite 4.1 LLMON (3B et 8B, expérimental)** : délimiteurs réservés pour séparer instructions et données, contre l'injection de prompt. Source : https://samonai.substack.com/p/ai-brief-november-13-2026 (non confirmé).
-- **Qwen3.8-27B quantifié par Unsloth (Dynamic v3.1)** : https://unsloth.ai/docs/models/qwen3.8 — modèle sorti en août, seule la quantification est nouvelle. Testable via llama.cpp, open source.
+- **Gemini 4 Hydrogen** : voir Breaking.
+- **Inkling 2 Small** : voir Breaking.
+- Sinon RAS de confirmé sur les dernières 24 h. Qwen4-Max-Preview (depuis le 11 novembre, selon un agrégateur) et MiniMax H3-Image (open-weight, environ 10-11 novembre) sont à vérifier. Voir « À surveiller ».
 
 ## 🔬 Research
-
-### Claude et les carnets de Gödel
-- **Quoi** : Jan von Plato a utilisé Claude pour déchiffrer 16 carnets sténographiés (1 009 pages) : 663 théorèmes ou ébauches, dont environ 400 validés sous Coq, environ 200 à reformuler, environ 50 faux (chiffres rapportés).
-- **Date** : 2026-11-13
-- **Lien** : https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths
-- **Pourquoi c'est important** : Cas concret d'IA pour l'histoire des maths, avec vérification formelle. Je n'ai pas lu l'article du Guardian, seulement la couverture secondaire.
-- **Testable** : Non.
+### Google Research : Antigravity /teamwork
+- **Quoi** : Système multi-agents s'appuyant sur Gemini 4 Argon, Carbon et Hydrogen. Il est appliqué à des problèmes ouverts en information theory, vérification formelle, chimie et optimisation de kernels, avec des experts humains. Le billet décrit des vérificateurs comme le prouveur Lean 4. Les outils sont ouverts via Antigravity.
+- **Date** : 13 novembre 2026
+- **Lien** : https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/
+- **Pourquoi c'est important** : Source primaire lue. Il revendique des résultats concrets, non audités ici.
+- **Testable** : Oui pour les abonnés Antigravity (Pro/Ultra) et via le programme d'accès chercheurs.
 
 ### Autres
-- « After 600 experiments, here's what I discovered about JEPA world models » (225 pts HN) : https://haddyalchaer.com/jepa — non vérifié.
-- « Weight Space Misfolding » (136 pts HN) : https://www.alphaxiv.org/abs/2611.weight-space-misfolding — non vérifié.
+- Show HN : DeepSeek V3 en environ 200 lignes de JAX (201 pts) : https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax. Utile pour apprendre, open source.
+- Étude de l'université du Michigan : l'IA générative consomme plus d'énergie sur du texte non anglais (188 pts HN) : https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/
 
 ## 📝 À surveiller
-
-- **IPO Anthropic** : fourchette 70–78 $ par action, pricing attendu le 18 nov, cotation Nasdaq « ANT » le 19 nov (CNBC : https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html). Pas encore fixé.
-- **Procès d'ONG** visant Anthropic, Google, Meta, OpenAI et la division IA de SpaceX pour geler les modèles frontière (source : digest Neuron, non confirmé).
-- **Panne FAA nationale** : enquête sur une éventuelle contribution d'un nouveau système d'IA (https://www.click2houston.com/news/local/2026/11/13/faa-investigating-whether-new-ai-technology-contributed-to-nationwide-ground-stop/) — rien de confirmé.
-- **Nvidia** : accusations de scarcité organisée via le financement de startups clientes (https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus), 11,4 M$ de matériel disparu en transit. Allégations seulement.
-- **Claude Code Projects** : refonte avec coordinateur et sessions parallèles (bêta depuis le 17 septembre, plus ancien que 72 h), consomme vite les quotas.
-- **Schwab** lance son serveur MCP (https://riabiz.com/a/2026/11/13/schwab-surprises-analysts-with-extra-rapid-launch-of-own-mcp-servers-also-leaping-from-read-only-to-agentic-get-stuff-done-ai-it-leaves-rias-out-for-now-and-makes-anthropics-days-numbered-as-schwabs-exclusive-llm).
-- **Financements/rachats** : Mirendil 1 Md$ Série A, Fractile 720 M$, Salesforce–Cresta (2,7 Md$, 5 nov), Oura–Counsel Health (625 M$). Chiffres de trackers, non vérifiés.
-- **GitHub Trending IA** : alibaba/open-code-review, GoogleChrome/modern-web-guidance-src (1 925 étoiles/jour), ChromeDevTools/chrome-devtools-mcp.
+- **FBI FLASH sur ARTEX** (13 novembre) : framework open source de pentest piloté par LLM, détourné par des acteurs criminels et étatiques. Accès privilégié en moins de 3 h dans certains cas, plus de 1 600 consoles exposées. Il se branche sur Claude, GPT, DeepSeek et d'autres. Couvert par plusieurs sites de sécurité, je n'ai pas lu l'alerte elle-même (FLASH-20261113-001). À surveiller par toute équipe qui expose des clés d'API LLM.
+- **Lovable** : une étude de 159 041 projets montre des données sensibles accessibles sans authentification (701 pts HN, page lue). La recherche date du 2 novembre, donc ancienne, mais le débat est actif.
+- **Poursuite de 4 ONG contre OpenAI, Anthropic, Google, Meta et SpaceX** (San Francisco, déposée vers le 12 novembre) : demande d'injonction pour suspendre l'entraînement des nouveaux modèles. Plusieurs sources, détails à confirmer.
+- **ChatGPT Wallet** (13 novembre selon un site) : paiements par agents avec jeton, d'abord pour les abonnés Pro aux États-Unis. Une seule famille de sources, aucune confirmation officielle vue. « Businesses in ChatGPT » : 183 votes sur Product Hunt.
+- **Claude Fable 5.2 et Mythos 5.2** (9 novembre, au-delà des 72 h) : r/ClaudeAI très actif (7177 pts sur une démo Fable 5.2).
+- **Claude Sheets/Whiteboards, mises à jour de Claude Code** : source unique, non confirmé.
+- **llama.cpp v1.0.0** : cité par une seule newsletter.
+- **Alibaba**, modèle vidéo annoncé pour novembre, sans nom.
+- **Meta** : agent Chrome pour Muse et nom de modèle fuité, non confirmés.
+- Autres signaux : amende de 887 M$ infligée à Meta par l'Italie (Reuters), des chercheurs affirment que des modèles chinois portent la trace de GPU soumis à contrôle d'export (392 pts HN, source unique).
 
 ## 📊 Résumé
-
-- **Top 3 du jour** : 1) llama.cpp et ggml v1.0.0 ; 2) Gemini 4 Hydrogen ; 3) Claude Meetings (avec, en toile de fond, la démission de Jensen Huang et l'IPO Anthropic du 18-19 nov).
-- **À tester en priorité** : llama.cpp v1.0.0 (open source), Perplexity Decider v1.3 (Apache, OpenRouter gratuit), Gemini 4 Hydrogen dans AI Studio ou l'app Gemini.
+- **Top 3 du jour** : 1) Départ de Jensen Huang de Nvidia. 2) IPO d'Anthropic, cotation attendue le 19 novembre. 3) Gemini 4 Hydrogen, avec Inkling 2 Small en open weights juste derrière.
+- **À tester en priorité** : Gemini 4 Hydrogen (AI Studio), Cloudflare Kitesurf (open source), chrome-devtools-mcp et caveman (GitHub Trending). Pour la sécurité, vérifier les indicateurs de l'alerte FBI sur ARTEX.
