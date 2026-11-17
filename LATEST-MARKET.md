@@ -1,208 +1,216 @@
-# 🔥 Market Scan — 2026-11-16
+# 🔥 Market Scan — 2026-11-17
 
-> Collecte : treg 5/5 sources, 6 recherches extended, GitHub Trending ok, 0 page lue (lecture de sites non lancée), 3 candidats creusés (fiches App Store + avis). Pubs Meta : aucune page d'app sûre trouvée pour les 3 apps.
+> Collecte : treg 5/5 sources, 14 recherches extended, GitHub Trending ok, 3 pages lues (solidstarts.com, hotstock.io, chani.com/app), 3 candidats creusés (fiches App Store + avis + pubs Meta + demande Google).
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Sauve-recettes à achat unique, sans quota piège (6.45/10, 🟡 BUILD ADJACENT)
-- Opportunités immédiates (BUILD NOW) : 0
-- Fait marquant : Paprika Recipe Manager 4 entre directement #3 du top grossing food (apps payantes à achat unique), tandis que les apps « gratuites » d'import de recettes et de deals de vols se font allumer en avis sur le paywall caché et les recettes perdues.
+- Mon pari : Pari #1 — Diversification alimentaire bébé en français (6.45/10, 🟡 BUILD ADJACENT)
+- Opportunités immédiates (BUILD NOW) : 0 (aucun pari ≥ 7.5, honnêtement)
 
 ## 🧭 Où l'argent se déplace
-Demande : Google US (dataforseo), volume/mois, CPC en $, tendance sur 12 mois.
-
-| Niche (catégorie) | Mouvement | Demande | Leaders et faiblesse | Part à prendre |
+| Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Sauve-recettes et meal plan (food) | Paprika nouveau→#3 ; RecipeVault nouveau→#46 ; Flavorish 83→#50 ; RecipeSnap 84→#62 ; Daily Bite 87→#64 (vs 10 nov., 6 j) ; 19 apps bougent | « recipe manager app » 2 400, CPC 5,26 $, pic à 4 400 puis retombé ; « recipe saver app » 720, CPC 4,76 $, stable ; « meal planner app » 2 400, CPC 5,38 $, stable | Flavorish 4.74★/1,7k avis : 5 imports gratuits puis paywall, recettes perdues ; Paprika 4.9★ mais import social limité (estimation) | **oui** : leader mal noté sur le paywall, achat unique plébiscité, pas de version française |
-| Alertes de vols (travel) | Rift nouveau→#34 ; Ruli 42→#16 ; Airclub #5 (6 j) ; 22 apps bougent | « cheap flights alerts » 590, CPC 2,48 $ ; « flight deals app » 260 ; « seat map flight » 22 200, CPC 8,43 $, en baisse (27 100→14 800) | Airclub 4.83★ mais 27/50 avis récents à 1★ sur le paywall d'entrée ; Going 49 $/an en anglais | **à creuser** : plainte nette, mais il faut une source de prix de vols |
-| Pilates et force douce (health) | MWH 97→#48 (7 j) ; MWH Pilates déjà #48 ; Lyfta 93→#78 | « pilates app » 1 600, CPC 6,47 $ ; « wall pilates workout » 1 900, CPC 4,55 $, en baisse (4 400→590) | MWH 4.9★ mais avis 1★ sur plantages et abonnement difficile à annuler ; 14,95 $/mois | **à creuser** : demande qui retombe, contenu vidéo coûteux |
-| Jeux de langues (education) | Speak City nouveau→#77 ; LingoLooper nouveau→#68 ; WordPal nouveau→#79 (7 j) ; 11 apps | « language learning game » 880, CPC 5,52 $ ; « vocabulary builder app » 1 600, CPC 3,20 $, instable | Apps jeunes (233 et 1,4k avis), pas de leader installé | **à creuser** : entrées nombreuses, concurrence jeune et rapide |
-| Factures et devis (business) | Invoice Maker & Estimate nouveau→#86 ; Billdu 78→#62 ; Invoice Home 90→#76 ; Upwork nouveau→#90 | « invoice maker app » 880, CPC **33,3 $**, stable | Invoice2go 4.8★/56k avis, Joist 4.7★/14k ; CPC très élevé = annonceurs paient cher | **à creuser** : argent évident mais déjà proposé à Kyle 2 fois, marché saturé |
-| QR et scan (utilities) | QR Code Master nouveau→#47 ; Scan QR Code #16 et #25 | « qr code scanner app » 33 100, CPC 2,76 $, en baisse (49 500→14 800) | Dizaines de clones, 4.6–4.7★ | **non** : saturé, demande qui baisse |
-| Suivi de cycle (health) | Clue 44→#20 ; Stardust 77→#57 (7 j) | « period tracker app » 12 100, CPC 4,79 $, en baisse (27 100→5 400) | Clue 4.8★/408k avis, leader installé | **non** : leader fort, demande en baisse |
+| Alertes de restock / drops (shopping) | Squish Alert nouveau→#52, Streaks nouveau→#33, Deals Soldier 72→#40, Claw Eden 29→#11 (6 j) | « in stock alerts » 390/mois, CPC $1.36, 880 aux 2 derniers mois (×2,7) ; « pokemon restock alert » 320, $1.16 | HotStock 4.7★, 15 427 avis, MAJ il y a 188 j ; plainte « alerté trop tard », AutoBuy en échec | à creuser : demande qui double avant Noël, mais lutte contre des bots rapides |
+| Astrologie / tarot (lifestyle) | TimePassages nouveau→#70, Salvia nouveau→#100 (7 j) | « astrology birth chart » 49 500/mois, CPC $0.69, pic 74 000 il y a 3 mois ; « horoscope app » 2 400, $1.58 | CHANI 4.92★, 60 562 avis, n°1 US ; plaintes : pas de widget, thème limité à 1 changement/mois | à creuser : forte demande, CPC bas (peu monétisé en pub), pas de numéro 2 FR identifié (estimation) |
+| Alimentation bébé (education + lifestyle) | Yummy Bites nouveau→#97 (7 j), Solid Starts stable #37 | « solid starts » 22 200/mois, CPC $3.79, stable ; les requêtes génériques anglaises ne renvoient pas de donnée | Solid Starts 4.91★, 47 580 avis, 21 avis 1★ sur 50, paywall à $99.99/an | oui : leader mal aimé sur le prix, pas de version FR trouvée |
+| Collection sportive (sports) | Card Ladder #7, StarSnap 61→50 | « sports card scanner » 4 400/mois, CPC $2.84, tendance haussière | Card Ladder 4.9★, 12 212 avis | déjà vu, à creuser |
+| Pêche / chasse (sports) | GreenScore (115 j) 88→73 | « fishing app » 3 600, CPC $3.31, pic 8 100 en été ; « deer scoring app » 880, pic 4 400 | Fishbrain #8, 77 248 avis | non : saisonnier, marché US |
+| Bible / église (lifestyle) | HolyNote $90k MRR déclaré | « bible study app » 6 600, CPC $3.64, pic 14 800 ; « sermon notes app » 140, CPC $4.15 | Concurrents jeunes (Bible Note) | à creuser (voix, 1 seule niche vocale) |
+| Santé féminine / intime (health) | Clue 50→#25, Stardust 74→#51, Dr. Kegel nouveau→#95 | « kegel exercise app » 210, CPC $6.64 | Clue 408 033 avis | non : leaders solides, régulation |
+| Langue en jeu (education) | LingoLooper, Speak City, WordPal nouveau→#66-87 | « language learning game » 880, CPC $5.52, +36 % sur 12 mois | Speak #11, 67 141 avis | à creuser : CPC élevé |
+
+Le bloc « Où l'argent bouge » couvre shopping, health, sports, education, utilities, lifestyle, photo, music, productivity ; les mots-clés génériques sur le bébé sont à 0 dans l'outil (volume trop faible pour être mesuré, ce n'est pas une preuve d'absence de demande).
 
 ## 🎯 Quoi builder
-### Pari #1 : Sauve-recettes à achat unique (français) — déjà vu 1 fois
-- **L'idée** : pour les cuisiniers francophones, une app qui transforme une vidéo TikTok/Instagram ou une photo en recette propre, 14,99 € achat unique (ou 2,99 €/mois pour la synchro).
-- **Preuve d'argent** : [Paprika 4](https://apps.apple.com/us/app/paprika-recipe-manager-4/id1303222868) #3 food (nouveau vs 10 nov.), [Flavorish](https://apps.apple.com/us/app/flavorish-save-any-recipe/id6478546136) #50, [RecipeSnap](https://apps.apple.com/us/app/recipesnap-recipe-saver/id6749500813) 84→#62. Demande : « recipe manager app » 2 400, CPC 5,26 $ ; « meal planner app » 2 400, CPC 5,38 $.
-- **Le trou** : avis Flavorish : « Could only save 5 recipes from social media » ; « 99% recipes gone! ». Pas de version française relevée.
-- **Pourquoi Kyle** : dev full-stack qui peut bâtir import vidéo + LLM + synchro et vendre en TikTok francophone.
-- **MVP** : import par lien (vidéo ou site), export local garanti, liste de courses ; 4 semaines.
-- **Argent** : paywall après 10 imports gratuits, sans carte ; 14,99 € achat unique ; 2,99 €/mois en option.
-- **Acquisition** : TikTok FR ; accroche « Ta recette TikTok en 10 secondes, sans la vidéo de 3 minutes ».
-- **Test en 48 h** : landing + vidéo TikTok démo ; go si 150 inscrits à la liste d'attente, stop sinon.
-- Nouveau vs le rapport précédent : Paprika entre #3, preuve d'achat unique, avis chiffrés sur les recettes perdues.
+### Pari #1 : Diversification alimentaire bébé en français
+- **L'idée** : pour les parents francophones (bébés 4–12 mois), une app « puis-je donner ça à mon bébé ? » avec fiche par aliment, suivi des allergènes, en achat unique ~€29.
+- **Preuve d'argent** : [Solid Starts](https://apps.apple.com/us/app/solid-starts-baby-first-foods/id1564189151) #37 education US, 47 580 avis, $99.99/an (revenu ~$500K/mois, estimation Adapty non vérifiée) ; Yummy Bites entre au top lifestyle #97 cette semaine.
+- **Le trou** : 21 avis 1★ sur 50 sur le prix : « Requires a $100/yr subscription » (fiche App Store, avis du 2026-09-26) ; aucune version française repérée (estimation, recherche limitée).
+- **Pourquoi Kyle** : produit de contenu + SaaS simple, marché francophone qu'il connaît, vendable seul avec du SEO FR.
+- **MVP** : (1) 150 fiches aliments, (2) recherche rapide + âge de bébé, (3) journal d'allergènes. 5 semaines.
+- **Argent** : paywall après 10 fiches gratuites, €29 à vie ou €4,99/mois.
+- **Acquisition** : SEO + Reddit/Facebook parents ; accroche à tester : « Ton bébé peut-il manger ça ? Réponse en 5 secondes ».
+- **Test en 48 h** : landing + liste d'attente ; go si ≥ 5 % des visiteurs laissent leur email sur 300 visites.
 
-### Pari #2 : Alertes de vols pour francophones, sans paywall d'entrée
-- **L'idée** : pour les voyageurs depuis Paris, Lyon, Marseille, des alertes de bons plans vols, 29 €/an, premier deal visible gratuit.
-- **Preuve d'argent** : [Airclub](https://apps.apple.com/us/app/airclub-flight-deals/id6740247064) #5 travel (estimation tierce 100k $/mois), [Going](https://apps.apple.com/us/app/going-find-flight-deals/id6443738607) #11, Premium 49 $/an. Demande : « cheap flights alerts » 590, CPC 2,48 $, stable.
-- **Le trou** : avis Airclub : « Not free : Got app only free for 7 days » ; 27 avis sur 50 à 1★. Pas de version française relevée.
-- **Pourquoi Kyle** : web + mobile, SaaS d'abonnement, audience francophone.
-- **MVP** : choix d'aéroport, flux d'offres, alertes push ; 5 semaines, avec une API de prix de vols.
-- **Argent** : paywall après le premier deal débloqué.
-- **Acquisition** : groupes voyage Facebook, TikTok ; accroche « Le vol à 79 € que tu n'as pas vu ».
-- **Test en 48 h** : landing + page d'offres manuelles ; go si 5 % de visiteurs laissent un e-mail.
+### Pari #2 : Carte natale et transits en français avec widget
+- **L'idée** : pour les 20–40 ans francophones, une app d'astrologie avec carte natale, widget et transit du jour, €6,99/mois ou €39,99/an.
+- **Preuve d'argent** : [CHANI](https://apps.apple.com/us/app/chani-your-astrology-guide/id1532791252) #12 lifestyle, n°1 astro US au T1 2026 ([Statista](https://www.statista.com/statistics/1451664/top-horoscope-apps-us-market-revenue/)) ; TimePassages nouveau→#70 et Salvia nouveau→#100 cette semaine. Demande : « astrology birth chart » 49 500/mois, CPC $0.69, pic 74 000.
+- **Le trou** : « Desperately needs a widget » et « limited changes to the birth chart to once monthly » (avis CHANI) ; pas de numéro 2 FR identifié (estimation).
+- **Pourquoi Kyle** : calculs d'éphémérides et widgets sont du code simple ; la distribution passe par TikTok FR, pas par la voix.
+- **MVP** : (1) carte natale en 10 s, (2) widget transit du jour, (3) compatibilité partageable. 6 semaines.
+- **Argent** : paywall après la carte et un horoscope, trial 7 jours.
+- **Acquisition** : TikTok, carte de compatibilité partagée ; accroche : « Compare ta carte avec la sienne ».
+- **Test en 48 h** : 3 vidéos TikTok + landing ; go si 100 inscriptions en liste d'attente.
 
-### Pari #3 : Planificateur Pilates sans vidéo
-- **L'idée** : pour les femmes qui font du Pilates à la maison, un plan sur 28 jours avec minuteur, 6,99 €/mois, sans instructrice-star.
-- **Preuve d'argent** : [MWH](https://apps.apple.com/us/app/mwh-pilates-sculpt-strength/id1488181674) 97→#48 en 7 jours (estimation tierce 305k $/mois) ; [Sweat](https://apps.apple.com/us/app/sweat-fitness-app-for-women/id1049234587) #21. Demande : « pilates app » 1 600, CPC 6,47 $ ; « wall pilates workout » 1 900, en baisse.
-- **Le trou** : avis MWH : « App constantly crashes when watching a video » ; pas de calendrier hebdo.
-- **Pourquoi Kyle** : app simple, abonnement ; risque : le contenu, pas le code.
-- **MVP** : 28 jours générés, minuteur audio, suivi ; 3 semaines.
-- **Argent** : paywall au jour 4 ; 6,99 €/mois.
-- **Acquisition** : TikTok/Instagram ; accroche « 28 jours de Pilates, 10 minutes, zéro vidéo à suivre ».
-- **Test en 48 h** : page + 3 vidéos ; go si 100 inscriptions.
+### Pari #3 : Alertes de restock en France
+- **L'idée** : pour les parents et collectionneurs FR, des alertes de stock sur Micromania, Fnac, Pokémon Center FR, €3,99/mois.
+- **Preuve d'argent** : [HotStock](https://apps.apple.com/us/app/hotstock-in-stock-alerts/id1257690900) #6 shopping, 15 427 avis, AutoBuy $10.99/mois ; Squish Alert nouveau→#52 et Streaks nouveau→#33 en 6 jours. Demande : « in stock alerts » 390/mois mais 880 sur les 2 derniers mois, CPC $1.36.
+- **Le trou** : « By the time the app notifies you, it's already gone. » (avis HotStock) ; MAJ il y a 188 j ; pas de version FR (estimation).
+- **Pourquoi Kyle** : crawlers et push sont du travail de dev SaaS classique.
+- **MVP** : (1) 5 enseignes, (2) push < 30 s, (3) 10 produits suivis. 4 semaines.
+- **Argent** : 3 alertes gratuites, puis €3,99/mois avant Noël.
+- **Acquisition** : Reddit r/PokemonTCG FR, Discord ; accroche : « Reçois l'alerte avant les bots ».
+- **Test en 48 h** : bot Telegram gratuit sur 3 produits ; go si 200 abonnés ou 20 clics « payer ».
 
-**Mon pari : #1 — Sauve-recettes à achat unique** : c'est le seul créneau avec un entrant au top 3 (Paprika), une plainte chiffrée sur le quota piège et un coût de développement bas.
+Les 3 paris sont dans 3 catégories (education/parentalité, lifestyle, shopping), aucun n'est vocal. Aucun n'est un doublon exact des rapports précédents : Pari #1 est nouveau (bébé/alimentation), #2 nouveau (astrologie), #3 nouveau côté restock (le suivi de colis vu avant est un autre besoin).
+
+**Mon pari : #1 — Diversification alimentaire bébé en français** : meilleur score pondéré (6.45) et un leader dont l'avis le plus fréquent est le prix, donc un positionnement clair.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ Time-to-market 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit Kyle 15% | **Score** | Verdict | 3 traits |
+| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ TTM 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit Kyle 15% | **Score** | Verdict | 3 traits |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Sauve-recettes achat unique | 6 | 7 | 8 | 4 | 6 | 8 | **6.45** | 🟡 BUILD ADJACENT | 2 |
-| #2 Alertes de vols FR | 7 | 5 | 5 | 5 | 7 | 6 | **5.95** | 🟠 WATCH | 1 |
-| #3 Planificateur Pilates | 6 | 6 | 6 | 4 | 6 | 6 | **5.70** | 🟠 WATCH | 1 |
+| #1 Bébé FR | 6 | 7 | 6 | 7 | 6 | 7 | **6.45** | 🟡 BUILD ADJACENT | 2 |
+| #2 Astro FR | 7 | 7 | 6 | 4 | 7 | 6 | **6.25** | 🟡 BUILD ADJACENT | 3 |
+| #3 Restock FR | 6 | 5 | 5 | 6 | 6 | 6 | **5.70** | 🟠 WATCH | 2 |
 
-Scores honnêtes : aucun pari n'atteint 7.5. Le #1 gagne sur la vitesse et le fit, mais la concurrence est réelle (Paprika, Flavorish, RecipeSnap, Crouton).
+Honnêteté : aucun pari n'atteint 7.5. Le #2 a la meilleure demande (49 500/mois) mais la concurrence est forte (CHANI, Co-Star). Le #3 coûte de la maintenance (enseignes qui changent).
 
-## 💰 Unit Economics — Pari #1 : Sauve-recettes à achat unique
-Tous les chiffres sont des **estimations** à partir d'apps comparables (Flavorish, Paprika, Crouton) ; aucune source directe de revenu.
+## 💰 Unit Economics — Pari #1 : Diversification bébé FR
+Comparables : Solid Starts (~$500K/mois estimé, $99.99/an) et apps de contenu parents. Tout est `estimation` pour un produit FR en achat unique ~€29 + abonnement €4,99/mois.
 
-| Indicateur | Estimation |
+| Métrique | Estimation (année 1) |
 |---|---|
-| Users payants (an 1) | 1 500 |
-| ARPU | 20 €/an (mix achat unique 14,99 € + abonnement) |
-| ARR | ~30 k€ |
-| CAC | 4 € (TikTok organique + un peu de pub) |
-| LTV | 20 € (1 an) à 35 € (2 ans) |
-| LTV/CAC | 5 à 9 |
-| Payback | 2–3 mois |
-| Burn | ~800 €/mois (LLM, hébergement, outils) |
-| Runway | long : Kyle seul, coûts bas |
-| Rev/employé | ~30 k€ (1 personne) |
-| Rule of 40 | non pertinent à ce stade |
+| ARR | ~€60k (2 000 achats à €29) |
+| ARPU | ~€30 par payant |
+| Users | ~40 000 inscrits gratuits, conversion 5 % |
+| CAC | ~€4 (SEO + Reddit) à €10 (pubs) |
+| LTV | ~€35 (achat unique + quelques abonnements) |
+| LTV/CAC | ~3,5 à 9 |
+| Payback | < 1 mois en SEO, ~2 mois avec pubs |
+| Burn | ~€1k/mois (serveur, contenu relu) |
+| Runway | illimité en solo (coûts couverts dès le mois 3) |
+| Rev/Employee | ~€60k (1 personne) |
+| Rule of 40 | non pertinent (pas de croissance historique) |
 
-Verdict santé : 🟡. Marges saines si l'import vidéo reste peu cher, mais le plafond de revenu est bas sans abonnement récurrent. Le coût LLM par import est à mesurer avant de promettre « sans limite ». Sources : apps comparables (fiches App Store) ; Crunchbase/Tracxn/SimilarWeb non consultés.
+Verdict santé : 🟡. L'argent ne tombe qu'avec du trafic SEO FR, à prouver par le test en 48 h. Sources : [Adapty](https://adapty.io/paywall-library/solid-starts-baby-first-foods/), [Tracxn](https://tracxn.com/d/companies/solid-starts/__WnioGDExRr8OuuMwVc6rLlzW-g1qEqhBVtckIdLvdEI) (aucun financement externe répertorié).
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [Paprika 4](https://apps.apple.com/us/app/paprika-recipe-manager-4/id1303222868) | #3 food, 54k avis 4.9★, nouveau vs 10 nov. | ancienne | Gestionnaire de recettes, 4,99 $ achat unique + sync 2,99 $/mois (source : recherche web) | Achat unique plébiscité, import social faible |
-| [Flavorish](https://apps.apple.com/us/app/flavorish-save-any-recipe/id6478546136) | #50 food, 1,7k avis 4.74★ | 954 j, MAJ aujourd'hui | Sauve recettes Insta/TikTok, meal plan, courses ; freemium ~50 $/an | Quota de 5 imports et recettes perdues |
-| [RecipeSnap](https://apps.apple.com/us/app/recipesnap-recipe-saver/id6749500813) | #62 food, 645 avis, 84→62 | ? | Sauve-recettes depuis les réseaux | Même créneau, jeune |
-| [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) | #6 food, 868 avis 4.7★ | ? (récent) | Planificateur de repas et recettes | Haut rang, peu d'avis : à surveiller |
-| [Airclub](https://apps.apple.com/us/app/airclub-flight-deals/id6740247064) | #5 travel, 19k avis ; estimation tierce 100k $/mois | 631 j | Alertes vols pas chers, 14,99 $/mois ou 39,99 $/an | Paywall avant tout usage, 27 avis 1★ sur 50 |
-| [Going](https://apps.apple.com/us/app/going-find-flight-deals/id6443738607) | #11 travel, 6,5k avis 4.8★ | ancienne | Deals de vols, Premium 49 $/an, Elite 199 $/an | Aucune version française |
-| [Ruli](https://apps.apple.com/us/app/ruli-make-a-new-start/id6807729703) | #16 travel, 145 avis, 42→16 | récent | « Make a new start » (usage à confirmer) | `—` |
-| [MWH Pilates](https://apps.apple.com/us/app/mwh-pilates-sculpt-strength/id1488181674) | #48 santé, 97→48 ; estimation 305k $/mois (fluxbuilder) | 2539 j | Pilates/force/méditation, 14,95 $/mois ou 134,99 $/an | Plantages, déconnexions, pas de calendrier |
-| [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #35 santé, 41k avis 4.8★ | ? | Suivi GLP-1 | Déjà vu 3 fois dans les rapports |
-| [Fieldy](https://apps.apple.com/us/app/fieldy-ai-note-taker/id6480278540) | #45 utilities, 77→45, 1,5k avis | ? | Prise de notes IA (vocal) | Hardware lié probable : écarté |
-| [Speak City](https://apps.apple.com/us/app/speak-city-language-game/id6806852882) | #77 education, 233 avis, nouveau | récent | Jeu pour apprendre une langue | Jeu de langue sans voix à tester |
-| [Scholarly](https://apps.apple.com/us/app/scholarly-swipe-and-apply/id6761978211) | #62 education, 4,9k avis, 81→62 | ? | Candidatures aux bourses par swipe | Version francophone (Parcoursup/bourses) |
-| helumi | 916 $ MRR déclaré, 9 nov. | < 2 mois | App Mac solo, vidéos pour la distribution | Preuve qu'une app solo décolle vite |
-| apps de celal_dev | 1,5–2k $/mois déclaré | ~1 an | Portefeuille d'apps iOS | Distribution organique |
-| indie iOS santé (rjozefowicz) | 2 000 $ bruts déclaré | 8 mois | App santé à achat | Achat unique prouvé |
-
+| [Solid Starts](https://apps.apple.com/us/app/solid-starts-baby-first-foods/id1564189151) | #37 education, 47 580 avis | 2021 (5,5 ans) | Intro des solides bébé, $99.99/an | Paywall haï, pas de FR |
+| [HotStock](https://apps.apple.com/us/app/hotstock-in-stock-alerts/id1257690900) | #6 shopping, 15 427 avis | 2017 | Alertes restock, Premium $5.49, AutoBuy $10.99/mois | Alertes en retard, pas de FR |
+| [CHANI](https://apps.apple.com/us/app/chani-your-astrology-guide/id1532791252) | #12 lifestyle, 60 562 avis, n°1 astro US (Statista/AppMagic) | 2020 | Astrologie humaine, ~$11.99/mois (estimation) | Pas de widget, thème de carte limité |
+| Yummy Bites: Baby First Foods | #97 lifestyle, entrée cette semaine | ? | Aliments bébé, ~$14.99/mois (estimation, source concurrente) | Même besoin que Solid Starts |
+| TimePassages Astrology | #70 lifestyle, nouveau, 44 186 avis | ancien | Astrologie, cartes détaillées | Astro en français |
+| Salvia – Tarot & Psychics | #100 lifestyle, nouveau, 12 521 avis | ? | Tarot, voyance | — |
+| Squish Alert for NeeDoh Stock | #52 shopping, 5 avis, 2.8★ | 11 j | Alertes de stock d'un jouet | Niche jouets, boost probable |
+| ThriftAI | #9 shopping, 20 874 avis | < 2 ans (estimation) | Profit d'un objet de friperie | Revente FR |
+| MacroFactor | #10 health, 24 101 avis, 4.8★ | ancien | Suivi macros adaptatif | — |
+| LingoLooper: AI Language Game | #66 education, nouveau, 1 436 avis | jeune (estimation) | Langue en jeu | Version FR/ES |
+| Riff: AI Music Generator | #58 music, nouveau, 323 avis | jeune | Musique générée par IA | — |
+| GreenScore: AI Deer Scoring | #73 sports, 17 avis | 115 j | Score de cerfs par photo | Niche chasse US, pas FR |
+| HolyNote (vocal) | $90k MRR déclaré | sept. | Sermon → résumé, $9.99/sem | Version FR (cathos/protestants FR) |
+| ChatSEO | $30k MRR déclaré | 2026 | SEO assisté IA | B2B, hors cible |
+| HabitKit | $28K MRR déclaré (déc. 2025) | 2023+ | Tracker d'habitudes $2/mois | Modèle prix bas |
 
 ## 💸 Apps qui font du cash
 **Revenus déclarés (déclaré, non vérifié)**
-- helumi (app Mac) : 916 $ MRR, 2,5k $ cumulés, 9 nov. 2026 — [post X](https://x.com/letcontactabhi/status/2119685259348635928)
-- celal_dev (apps) : 1,5–2k $/mois, 8k $ cumulés, 100 % organique, 10 nov. — [post X](https://x.com/celal_dev/status/2120217269934453145)
-- Indie iOS santé (rjozefowicz) : 2 000 $ bruts cumulés, 123 acheteurs, 14 nov. — [post X](https://x.com/rjozefowicz/status/2121589922611990926)
-- Dev Android (engwaliullah) : 32 $ le premier mois, 11 nov. (anecdote, produit non nommé) — [post X](https://x.com/engwaliullah/status/2120555319864746128)
-- Starter Story : Sanskar, 8 produits rentables sur 30+, seul, 11 nov. (montant non donné dans l'extrait) — [post X](https://x.com/starter_story/status/2120311453987287229)
-- SaaS à 487 $ MRR en 3 jours sans pub, 16 nov. — [r/SaaS](https://www.reddit.com/r/SaaS/comments/1xx7248/)
+- HolyNote (notes de sermon IA) : « $90k MRR en ~2 mois », post du 2026-11-11 ([X](https://x.com/edugiansante/status/2120550946685989179)). Attention : des posts LinkedIn relayent le même chiffre avec une date qui semble plus ancienne, aucune source primaire. Paywall dur à $9.99/semaine ou $59.99/an ([fiche](https://apps.apple.com/us/app/holynote-sermon-notes/id6806406722)).
+- ChatSEO : $30k MRR, ~600 abonnés, churn 20 %→10 %, post Indie Hackers du 2026-10-13 ([lien](https://www.indiehackers.com/post/tech/focusing-on-audience-first-and-hitting-30k-mrr-in-8-months-ootKyp98moigKLdaOON4), estimation de date).
+- Personal Best (app iOS) : $5k MRR, post de septembre 2026 ([Indie Hackers](https://www.indiehackers.com/post/tech/building-a-5k-mrr-app-while-freelancing-to-keep-the-lights-on-JhX6p14De0nagI0j1Xg1)).
+- Apps de @celal_dev : « $0 à $8K » de revenu cumulé, $1.5–2K/mois, 100 % organique, 2026-11-10 ([X](https://x.com/celal_dev/status/2120217269934453145)).
+- App santé indie de @rjozefowicz : $2 000 de revenu brut cumulé, 123 acheteurs, 2026-11-14 ([X](https://x.com/rjozefowicz/status/2121589922611990926)).
+- Dosti Pro (appels vidéo, Inde) : ₹7 839 en une journée, 44 paiements, 2026-11-10 ([X](https://x.com/iamvenkatadri/status/2120165133259350431)).
+- HabitKit : $28K MRR, 25 100 abonnés payants (décembre 2025, source secondaire, donc ancien).
 
-**App Store US, top grossing < 100k avis (rang ≠ revenu)**
-- #3 food : [Paprika 4](https://apps.apple.com/us/app/paprika-recipe-manager-4/id1303222868), 54k avis, gestionnaire de recettes à achat unique. Entrée au top 3 vs 10 nov.
-- #4 food : [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354), 7,9k avis, plans de repas budget.
-- #6 food : [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199), 868 avis seulement, planificateur de repas.
-- #5 travel : [Airclub](https://apps.apple.com/us/app/airclub-flight-deals/id6740247064), 19k avis, alertes de vols pas chers.
-- #16 travel : [Ruli](https://apps.apple.com/us/app/ruli-make-a-new-start/id6807729703), 145 avis, 42→16 en 6 jours.
-- #48 santé : [MWH](https://apps.apple.com/us/app/mwh-pilates-sculpt-strength/id1488181674), 5,5k avis, Pilates, 97→48 en 7 jours.
-- #47 utilities : QR Code Master (nouveau→47 en 1 jour).
-- #35 santé : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), 41k avis, suivi GLP-1.
+**App Store US (rang ≠ revenu)**
+- #6 shopping, [HotStock](https://apps.apple.com/us/app/hotstock-in-stock-alerts/id1257690900), 15 427 avis : alertes de restock + AutoBuy ($10.99/mois).
+- #5 shopping, [SellRaze](https://apps.apple.com/us/app/sellraze-list-sell-earn/id6455042085), 44 289 avis : revente / listing.
+- #9 shopping, [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278), 20 874 avis : estime le profit d'un objet de friperie.
+- #10 health, [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471), 24 101 avis : suivi de macros par abonnement.
+- #12 lifestyle, [CHANI](https://apps.apple.com/us/app/chani-your-astrology-guide/id1532791252), 60 562 avis : astrologie écrite par des humains.
+- #37 education, [Solid Starts](https://apps.apple.com/us/app/solid-starts-baby-first-foods/id1564189151) : alimentation bébé.
+- #7 sports, [Card Ladder](https://apps.apple.com/us/app/card-ladder/id1541535971), 12 212 avis : prix de cartes de collection.
+- #26 health, [Heart Beat](https://apps.apple.com/us/app/heart-beat-heart-rate-monitor/id6744920106), 7 298 avis : fréquence cardiaque.
+- Mouvements notables vs 2026-11-16 : Clash of Clans 91→41 (jeu, ignoré), BitePal calories nouveau→#88, Mimo nouveau→#91.
 
-**Jeunes apps (< 365 j) déjà classées**
-- #37 travel Mapsy (62 j, 6 avis, 3,0★), #44 travel Travel Memento (11 j, 0 avis), #92 travel « SeatGuru » (23 j, 6 avis, 2,5★, nom de marque d'un tiers : méfiance), #88 food Reel Craft Pass (70 j), #44 food Bunlo meal planner (44 j, 13 avis, 4,5★), #98 travel Planepoints (353 j).
-- Leaders sans mise à jour > 180 j : aucun dans cette liste (TrackingDays 116 j, My 24/7 Direct 130 j, juste en dessous).
-- Beaucoup d'apps très jeunes avec <15 avis classées top 100 : signe probable de publicité payante forte ou de classement volatil, pas de preuve de revenu durable.
+**Jeunes apps qui gagnent déjà (< 365 jours)**
+- #40 shopping Deals Soldier : sortie 2026-11-04 (12 j), 2 avis. Signal très faible, probable boost.
+- #52 shopping Squish Alert for NeeDoh Stock : sortie 2026-11-05 (11 j), 5 avis, 2.8★. Alertes de stock pour un jouet.
+- #94 shopping ShopYourSeason: Color Match : sortie 2026-10-06 (41 j), 6 avis.
+- #79 shopping PriceHUD : sortie 2026-09-20 (57 j), 16 avis, comparateur de prix.
+- #73 sports GreenScore (cerfs) : sortie 2026-07-24 (115 j), 17 avis.
+- #87 shopping Crosslist AI : sortie 2026-03-11 (250 j), 12 avis, revente multi-plateforme.
+- Leaders sans MAJ > 180 jours : HotStock (MAJ 2026-05-12, 188 j, notes « bug fix »), place à prendre côté fiabilité.
 
-## 🔬 App creusée #1 : Airclub (travel)
-**1. Identification** : [Airclub](https://apps.apple.com/us/app/airclub-flight-deals/id6740247064), Arcadia Labs Inc., sortie App Store 2025-02-22 (631 j), dernière MAJ 2026-11-11, catégorie Travel. #5 du top grossing travel, 19,3k avis, 4.83★. Fondateurs : non trouvés. Estimation tierce 100k $/mois ([apprank](https://apprank.io/airclub-flight-deals-7064)), non vérifiée.
+## 🔬 App creusée #1 : Solid Starts
+**1. Identification** : [Solid Starts](https://apps.apple.com/us/app/solid-starts-baby-first-foods/id1564189151), [site](https://solidstarts.com), sortie App Store 2021-05-10, fondatrice Jenny Best (ex-danseuse, [Foundry](https://www.builtbyfoundry.io/blog/jenny-best-solid-starts-baby-food-app)), bootstrappée (démarrage financé par crowdfunding à $75k, [Romper](https://www.romper.com/life/baby-led-weaning-solid-starts-jenny-best)). Éducation, gratuit à télécharger + abonnement. 4.91★, 47 580 notes, #37 education, 6M+ utilisateurs (déclaré), 4,7M abonnés YouTube (tiers). MAJ il y a 0 j.
 
-**2. Proposition de valeur** : problème = chercher des vols pas chers ; solution = alertes de baisse de prix depuis ses aéroports ; USP = « jusqu'à 90 % moins cher ». Cible grand public voyageur US. Prix : 14,99 $/mois, 39,99 $/an ; paliers d'accès uniques de 9,99 à 49,99 $ (App Store, via recherche web).
-
-**3. Les 3 décisions qui font l'argent**
-- Onboarding : longue série de questions et demande de note avant tout usage (avis 1★ « 20 prompts »).
-- Paywall : à la fin de l'onboarding, avant de voir un seul deal, au pic de l'envie de partir. Essai 7 jours avec carte.
-- Rétention : alertes push à chaque baisse de prix (estimation, déduit de la description).
-
-**4. Test des 3 traits**
-- ✅ Une émotion pour une action : l'envie de voyager, pas cher, tout de suite.
-- ❌ Résultat visible en quelques secondes : rien n'est visible avant paiement.
-- ❌ Distribution intégrée : aucun partage ni code relevé ; la carte des deals (MAJ 11 nov.) pourrait en devenir un.
-
-**5. Ce qui manque** : 27 avis sur 50 sont à 1★, presque tous sur le paywall d'entrée. « Not free : Got app only free for 7 days » ; « Terrible onboarding… no way to test the application without subscribing ». Autre plainte : pas d'aéroport d'origine fixe ni de dates. Mise à jour : 4 jours, donc l'app est suivie.
-
-**6. Acquisition** : pubs Meta non trouvées (aucune page d'app sûre). Pas d'autre canal documenté dans la collecte. Une plainte de prélèvement sous le nom « QGV Club » suggère des litiges de facturation.
-
-**7. Stack technique** : non documentée (estimation : app mobile native, API de prix de vols type Duffel/Amadeus/Kiwi, notifications push, affiliation de réservation).
-
-**8. Réplication** : complexité 6/10 (la donnée de prix et la qualité des deals font la difficulté). Niche à prendre : un leader qui déçoit sur le paywall. Angle Kyle : version française depuis Paris, Lyon, Marseille, essai sans carte, 1 vrai deal visible avant paiement. Temps de dev : 4–6 semaines (estimation).
-
-## 🔬 App creusée #2 : Flavorish (food)
-**1. Identification** : [Flavorish](https://apps.apple.com/us/app/flavorish-save-any-recipe/id6478546136), éditeur Flavorish (développeur nommé sur Google Play : Brendan Joel Strong), sortie 2024-04-05 (954 j), MAJ 2026-11-15 (hier), catégorie Food & Drink. #50 food, 1,7k avis, 4.74★. Revenus : introuvables.
-
-**2. Proposition de valeur** : sauver des recettes depuis Instagram, TikTok, Facebook, YouTube, sites, livres ou notes manuscrites en étapes propres, puis meal plan et courses triées par rayon. USP : 100 % sans pub. Prix : gratuit avec achats, environ 50 $/an d'après les avis.
+**2. Proposition de valeur** : le parent angoissé par l'étouffement et les allergènes. Base « First Foods » de 500+ aliments (comment servir à chaque âge), suivi des allergènes, équipe de pédiatres. Cible : parents de bébés 4–12 mois. Prix : $19.99/mois ou $99.99/an (Tracker et Compass), estimation Adapty ~$500K/mois de revenu (non vérifié).
 
 **3. Les 3 décisions qui font l'argent**
-- Onboarding : usage gratuit immédiat, 5 imports sociaux offerts (avis).
-- Paywall : après le 5e import depuis un réseau social, quand l'utilisateur a déjà commencé sa bibliothèque. Bon moment, mais mal expliqué.
-- Rétention : la bibliothèque personnelle (coût de départ) + meal plan hebdo. Les récentes MAJ ajoutent favoris, « fait », notes.
+- Onboarding : compte + prénom/âge du bébé *avant* de voir le prix (plainte d'un avis, `estimation` de l'ordre exact).
+- Paywall : après la promesse « aliment par aliment », sur favoris, suivi, guides complets ; la base gratuite sert d'appât SEO.
+- Retour : journal de ce que bébé a goûté + plan d'introduction des allergènes, et ~30 pubs vidéo actives qui ramènent.
 
 **4. Test des 3 traits**
-- ✅ Émotion pour une action : « enfin ma recette TikTok propre ».
-- ✅ Résultat visible en secondes : une vidéo devient une recette lisible.
-- ❌ Distribution intégrée : pas de partage ou de trend relevé (estimation).
+- ✅ Une émotion pour une action : rassurer (« puis-je donner ça à mon bébé ? »).
+- ✅ Résultat visible en secondes : fiche aliment avec coupe et âge.
+- ❌ Distribution intégrée : peu de partage natif, tout passe par les réseaux sociaux de la marque.
 
-**5. Ce qui manque** : recettes qui disparaissent, et quota confus. « 99% recipes gone! » ; « Not unlimited : Could only save 5 recipes from social media ». 16 avis sur 50 à 1★. MAJ de moins de 180 jours : l'app vit.
+**5. Ce qui manque** : le paywall (21 avis 1★ sur 50) et les prélèvements post-annulation. « Requires a $100/yr subscription. This is not disclosed until after you create an account. » · « Lifetime subscription my behind!!! … every feature I want to use is paywalled. » MAJ récente (0 j), donc pas de trou de maintenance.
 
-**6. Acquisition** : pubs Meta non trouvées (la seule page trouvée, « Flavorish Cake World », n'est pas la bonne). Plaintes de « publicité » dans les avis : une pub existe peut-être ailleurs (estimation).
+**6. Acquisition** : pubs Meta : 30 actives (plafond 30), 30 lancées depuis 7 jours ; formats : 23 vidéos, 5 carrousels, 2 images. Accroches : « Make ahead made easy! … Overnight Chia Seed Pudding », « Think babies can't have ANY salt…? Let us clarify », « Managing food allergies is hard enough… You shouldn't have to figure it out alone ». Autres canaux : Instagram (500k likes sur la page), YouTube, SEO, relais de pédiatres.
 
-**7. Stack technique** : estimation : app native iOS/Android, extraction de vidéo + transcription + LLM, OCR pour recettes manuscrites, synchronisation cloud.
+**7. Stack technique** : app mobile (iOS/Android, `estimation`), base de contenu éditoriale, vidéos hébergées (avis : vidéos qui ne chargent pas), compte utilisateur synchronisé.
 
-**8. Réplication** : complexité 5/10 (le dur est la fiabilité de l'import vidéo et de la synchro). Voisins : meal plan, courses. Niche à prendre : un leader qui déçoit + Paprika qui réussit en achat unique. Angle Kyle : sauve-recettes en français, achat unique, export local garanti. Temps de dev : 3–5 semaines (estimation).
+**8. Réplication** : complexité 4/10 côté code, le goulot est le contenu validé par des pros de santé (risque). Niche : leader qui déçoit sur le prix, version française absente (aucune trouvée dans les recherches). Angle Kyle : produit francophone en achat unique. Dev : 4–6 semaines.
 
-## 🔬 App creusée #3 : MWH Pilates (santé)
-**1. Identification** : [MWH](https://apps.apple.com/us/app/mwh-pilates-sculpt-strength/id1488181674), M WOOD INC., fondatrice Melissa Wood-Tepperberg, sortie 2019-12-03 (2 539 j), MAJ 2026-11-10, Health & Fitness. #48 santé (97→48 en 7 jours), 5,5k avis, 4.9★. Estimation tierce : 305k $/mois ([fluxbuilder](https://fluxbuilder.com/explore/mwh-pilates-sculpt-strength/)), 92k abonnés (blog, source secondaire). Non vérifié.
+## 🔬 App creusée #2 : HotStock
+**1. Identification** : [HotStock](https://apps.apple.com/us/app/hotstock-in-stock-alerts/id1257690900), [site](https://www.hotstock.io), éditeur Litebox Ltd (fondateur non trouvé), sortie 2017-09-21, shopping, #6 shopping US, 4.69★ sur 15 427 notes, gratuit + achats intégrés. Dernière MAJ 2026-05-12 (188 j, « bug fix »).
 
-**2. Proposition de valeur** : entraînements Pilates doux, force, yoga et méditation, de 5 à 30 minutes, avec une instructrice-marque. Cible : femmes 25–45 US. Prix : 14,95 $/mois ou 134,99 $/an (App Store).
+**2. Proposition de valeur** : alerte instantanée quand un produit rare revient (PS5 Pro, Switch 2 Zelda 40e, Xbox x25, cartes graphiques, Pokémon, LEGO), sur ~60 enseignes. Premium $5.49/mois (10 produits perso), AutoBuy $10.99/mois (achat automatique). Revenu estimé : ~$30k pour un mois ancien (Adapty, non vérifié).
 
 **3. Les 3 décisions qui font l'argent**
-- Onboarding : promesse « quelques minutes valent mieux que zéro » (estimation d'après la description).
-- Paywall : abonnement dès l'accès au catalogue, essai gratuit (avis « Free Trial Fail »).
-- Rétention : communauté autour de la fondatrice, nouveaux cours réguliers. Le revers : « I only want to pay for Melissa ».
+- Onboarding : parcourir un catalogue, « Alert me » en un tap (estimation).
+- Paywall : au moment du manque. Le gratuit rate le restock, ce qui pousse vers Premium/AutoBuy, au pic d'urgence (sortie d'une console).
+- Retour : saisonnalité des drops (Noël, sorties), la notification est la boucle.
 
 **4. Test des 3 traits**
-- ✅ Émotion : se sentir fort et calme, pas culpabilisé.
-- ❌ Résultat en secondes : un cours dure au moins 5 minutes.
-- ❌ Distribution intégrée : la distribution vient de la marque personnelle, pas du produit.
+- ✅ Émotion : la peur de rater (FOMO).
+- ✅ Résultat en secondes : la notification arrive, ou pas.
+- ❌ Distribution intégrée : pas de partage ni de code, bouche-à-oreille via Reddit/X.
 
-**5. Ce qui manque** : app instable et abonnement difficile à annuler. « App constantly crashes when watching a video » ; « Impossible to Cancel Membership ». 28 avis sur 50 à 1–2★. Pas de calendrier hebdo ni de mode iPad. MAJ récentes, mais notes de version génériques.
+**5. Ce qui manque** : retard et échecs. « Missed 2 Amazon restocks that other apps alerted me for. » · « By the time the app notifies you, it's already gone. » Pas de MAJ depuis 188 j. 45 avis sur 50 sont des 5★ : l'écart suggère des avis sollicités après un succès (estimation).
 
-**6. Acquisition** : pubs Meta non trouvées (pages homonymes écartées). Canal principal : Instagram de la fondatrice (estimation).
+**6. Acquisition** : pubs Meta : page « Hotstock » trouvée, 0 pub active. Canaux : SEO produit (pages /p/…), Reddit/X, presse jeux, blogs comme The Shortcut qui vendent aussi un tableau de restock.
 
-**7. Stack technique** : estimation : app native avec streaming vidéo et abonnement, accès web.
+**7. Stack technique** : crawlers de fiches produits par enseigne, file de notifications push, AutoBuy par automatisation du panier (`estimation`).
 
-**8. Réplication** : complexité 4/10 techniquement, mais 8/10 en contenu (il faut une instructrice et des vidéos). Niche à prendre : un leader qui déçoit sur la fiabilité ; « pilates app » 1 600 recherches, CPC 6,47 $. Angle Kyle : planificateur de séances Pilates sans vidéo ni instructrice-star, programme sur 28 jours. Temps de dev : 3–4 semaines pour le MVP sans contenu vidéo (estimation).
+**8. Réplication** : complexité 6/10 (anti-bots des enseignes, fiabilité de la latence). Niche : leader qui déçoit, aucune équivalent FR sérieux identifié (estimation). Angle Kyle : enseignes FR (Micromania, Fnac, Pokémon Center FR). Dev : 4 semaines pour 10 enseignes, coût de maintenance élevé.
+
+## 🔬 App creusée #3 : CHANI
+**1. Identification** : [CHANI](https://apps.apple.com/us/app/chani-your-astrology-guide/id1532791252), [site](https://www.chani.com/app), Chani Nicholas Inc., sortie 2020-12-17, fondatrice Chani Nicholas, lifestyle, #12 lifestyle US, 4.92★ sur 60 562 notes. MAJ il y a 2 j. N°1 astrologie US au T1 2026 (Statista/AppMagic, [lien](https://www.statista.com/statistics/1451664/top-horoscope-apps-us-market-revenue/)). Revenu : ~$14M/an selon [Foundry](https://www.builtbyfoundry.io/blog/chani-nicholas-chani-astrology-app), autres estimations $500–830k/mois : non vérifié.
+
+**2. Proposition de valeur** : l'astrologie « écrite par des astrologues, pas par l'IA », méditations, journal, lecture hebdo personnelle de Chani. Cible : femmes 25–45. Prix : ~$11.99/mois ou $107.99/an (Foundry, estimation).
+
+**3. Les 3 décisions qui font l'argent**
+- Onboarding : date, heure, lieu de naissance, carte natale (résultat perso immédiat), essai d'un mois (cité en avis).
+- Paywall : après la carte, sur les lectures quotidiennes et méditations ; le gratuit sert d'essai.
+- Retour : rituel du matin (horoscope + méditation) et lecture hebdo le lundi.
+
+**4. Test des 3 traits**
+- ✅ Émotion : se sentir comprise.
+- ✅ Résultat en secondes : sa carte natale.
+- ❌ Distribution intégrée : pas de carte à partager visible dans la fiche (estimation) ; Co-Star fait mieux là-dessus.
+
+**5. Ce qui manque** : widget absent, carte natale modifiable une fois par mois, contenu parfois jugé trop politique, sorties tardives le lundi. « Desperately needs a widget » · « limited changes to the birth chart to once monthly ». Pas d'inactivité (MAJ 2 j). Peu d'avis négatifs : 3 sur 50.
+
+**6. Acquisition** : pubs Meta non trouvées (la recherche renvoie un créateur sans lien sûr). Canaux : audience personnelle de la fondatrice, podcasts, Instagram.
+
+**7. Stack technique** : app mobile, calcul de cartes (éphémérides), contenu éditorial audio/texte, CMS (`estimation`).
+
+**8. Réplication** : complexité 5/10 (le calcul est un solved problem, le contenu est le travail). Niche : aucune app astro FR bien classée repérée au top US ; demande « astrology birth chart » 49 500/mois. Angle Kyle : carte natale + widget + transits en français, contenu assisté mais relu. Dev : 6 semaines.
 
 ## 📈 Tendances Émergentes
-**Accroches publicitaires** : aucune relevée ce jour (pubs Meta non trouvées pour les 3 apps creusées). Les seules « accroches » visibles viennent des avis et des descriptions : « 100 % sans pub, sans revente de données » (Flavorish), « jusqu'à 90 % moins cher » (Airclub), « quelques minutes valent mieux que zéro » (MWH).
+**Accroches publicitaires récurrentes**
+- « Tu n'as pas à gérer ça seul(e) » : Solid Starts (« You shouldn't have to figure it out alone »). Pubs vidéo éducatives, ton de pair expert.
+- Preuve par la rareté et l'immédiateté : HotStock mise sur « décroche la console avant qu'elle parte » (avis), sans pub Meta active.
+- Humain contre IA : CHANI (« made by real astrologers — not AI »), argument de marque à l'inverse du bruit IA.
 
 **Autres signaux**
-- Le paywall d'entrée est la plainte numéro un : 27/50 avis à 1★ chez Airclub, 16/50 chez Flavorish. Les utilisateurs veulent voir un résultat avant de payer.
-- Les apps à achat unique reviennent : Paprika entre #3 food ; un post r/microsaas (90 pts) affirme qu'il est « 100x plus facile de vendre un produit à achat unique » ([lien](https://www.reddit.com/r/microsaas/comments/1xuh2v4/)).
-- Beaucoup d'apps de moins de 15 avis classées top 100 en travel et food : le rang est volatil, il ne prouve pas le revenu.
-- Hacker News : Qwen4-Max (245 pts) ; « All AI-generated code should be Open Source » (1 120 pts) ; Claude Code et Codex qui rétro-ingénièrent l'ECU d'une Jeep (380 pts). Product Hunt : Rakazo, alternative open source à Grok Bot (345 votes) ; Spiik, preneur de notes IA sans bot (94 votes, vocal).
-- GitHub Trending hebdo : agents et outils d'agents (anthropics/skills, vercel-labs/agent-browser, plannotator), et une app de finance perso open source, [we-promise/sure](https://github.com/we-promise/sure) (+4,6k étoiles).
-- X : le gros du bruit des 7 derniers jours est du contenu crypto promotionnel, sans valeur pour la veille.
+- Fatigue des abonnements : Solid Starts (« Why is every app a subscription? »), HotStock (« paid $10 for autobuy ») : l'achat unique ou le prix honnête sert de positionnement.
+- Les alertes de stock grimpent dans le top grossing shopping avant Noël (6 apps montent de 15+ places sur 6 jours).
+- Astrologie : « astrology birth chart » passe de 40 500 à 74 000 recherches/mois puis redescend à 60 500, signe de pics saisonniers.
+- Agents IA partout (Product Hunt : Boost.space AgentOS 257 votes, OpenBot 230, Render Sandboxes 270) et GitHub (agent-skills, agent-browser), mais pas de preuve d'argent côté utilisateur final.
+- Pannes en chaîne (Chase, United, Microsoft email) : angle fiabilité/alertes pour les pros, hors cible grand public.
