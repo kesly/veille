@@ -1,169 +1,168 @@
-# 🔥 Market Scan — 2026-11-18
+# 🔥 Market Scan — 2026-11-19
 
-> Collecte : treg 4/5 sources (X en erreur), 7 recherches extended, GitHub Trending ok, 0 page lue via `read`, 3 candidats creusés (fiches App Store + avis). Pubs Meta : pages d'app introuvables ou vides pour les 3 apps.
+> Collecte : treg 5/5 sources, 8 recherches extended, GitHub Trending ok, 1 page lue (whipp.app), 3 candidats creusés (fiches App Store + avis).
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Indemnités kilométriques et frais pour indépendants FR (6.45/10, 🟡 BUILD ADJACENT)
+- Mon pari : Plan repas budget en français, prix des supermarchés FR (7.0/10, 🟡 BUILD ADJACENT)
 - Opportunités immédiates (BUILD NOW) : 0
 
 ## 🧭 Où l'argent se déplace
 | Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Kilométrage et reçus indépendants (finance) | Shoeboxed nouveau→#65 (7 j) ; Everlance #16 | « mileage tracker app » 5 400/mois, CPC 5,88 $, stable ; « invoice app » 2 900, CPC 42,60 $ | Everlance 4.8★, 53 617 avis ; pas de version FR (estimation) | **oui** : CPC élevé, offre FR à vérifier |
-| Remboursement de dettes (finance) | Ditch #12 ; Dollarwise 68→#48 ; Credit Booster AI 96→#61 | « debt payoff app » 590, CPC 11,36 $, stable ; « debt snowball app » 170, CPC 8,98 $ | Ditch 4.82★ mais 1★ sur frais ($1/transaction) et abonnement 79 $/an | **à creuser** : déjà vu, le trou est le prix, pas le besoin |
-| Santé féminine et nutrition par pathologie (medical) | 24 apps entrées ou montées en 6 j ; Kidney Pal 60→#42 ; Cubtale 70→#48 | « pregnancy tracker app » 5 400, CPC 3,17 $, pic 8 100 en été | PCOS Pal 4.65★, 19,99 $/mois, plaintes paywall sans essai | **oui** : pas de version FR, prix agressif |
-| Jeux de langues IA (education) | LingoLooper #89, Speak City nouveau→#91, LangLearn #9 | « language learning game » 880, CPC 5,52 $ ; « learn english app » 2 400, en baisse (3 600→1 300) | Duolingo-like saturé ; LingoLooper manque de dialectes | **non** : demande qui baisse, voix en plus |
-| Scanners de valeur : pièces, jouets, TCG (reference) | ChatCoin nouveau→#88, CoinCheck nouveau→#93, Toyzie nouveau→#91, ToyWorth 79→#63 | « pokemon card scanner » 14 800, CPC 2,44 $ ; « coin identifier app » 8 100 (14 800→4 400) | Beaucoup de clones à 1 600-3 700 avis | **à creuser** : saturé, FR possible |
-| Bible et prière (reference, lifestyle) | Vessel 56→#36, Life Bible 88→#60, Theo nouveau→#92, Pray.com nouveau→#93 | « bible app » 90 500, CPC 2,54 $, pics 165 000 | Marché anglophone, forte concurrence | **non** pour Kyle : marché US-chrétien, peu d'angle FR |
-| Courts dramas et histoires interactives (entertainment) | 10 apps ; LoveShots, Tallflix, Hushee nouveaux | « interactive story app » 170, CPC 8,48 $ ; « short drama app » 0 (pas de donnée) | Production vidéo lourde ; Elseway 2.86★ | **non** : coût de contenu |
-| Télécommande TV et nettoyage (utilities) | 9 apps entrées ou montées ; TV remote #20, #21, #24, #25 | « tv remote app » 12 100, CPC 2,94 $, plat ; « phone storage cleaner » 9 900, en baisse | Saturé, clones | **non** : déjà couvert (Pari télécommande) |
+| Plan repas budget (food) | 24 apps bougent en 9 j : Chow 74→34, Scoolinary 67→46, Feeding Littles nouveau→60 ; top 4 = Whipp, TapCook, mise | « meal planner app » 2 400/mois, CPC 5,38 $, stable ; « budget meal plan » 1 000, CPC 3,48 $ | Whipp 4,7★/958 avis : prix magasin faux, essai piégeux. Un seul leader jeune | **oui** : pas de version FR, prix réels à vérifier |
+| Fax mobile (business) | FAX from iPhone 64→22, FaxFlow 97→48, uFAX nouveau→86, Genius Fax nouveau→78 (9 j) | « fax from iphone » 5 400, CPC 6,39 $ ; « send fax online » 3 600, CPC 13,26 $ ; stable | 4,8★/17 k avis mais 31/50 avis récents à 1★ (abonnement caché) | **à creuser** : demande US, peu de fax en France |
+| Force / coaching (santé) | STNDRD 56→38, MWH Pilates 97→80, The Stack System nouveau→92 (7 j) | « macro tracker app » 1 000, CPC 3,68 $, concurrence LOW ; « pilates app » 1 600, CPC 6,47 $, en baisse (3 600→1 000) | STNDRD 4,6★ : facturation à l'essai, matériel limité, pas d'Apple Health | **à creuser** : créneau « à la maison », FR |
+| Suivi de vols et deals (travel) | Flightsy nouveau→45, Raylie nouveau→58, Rift nouveau→32 (9 j) | « flight tracker app » 6 600, CPC 1,36 $, LOW ; « flight deals » 18 100, CPC 1,57 $, en baisse | Leaders 4,8–4,9★ (Going, Airclub, Wanderlog) | **non** : CPC bas, leaders solides |
+| Notes IA / enregistreur d'appels (productivité, vocal) | Fieldy 96→49, Astari nouveau→96, TapeACall Pro nouveau→98 | « ai note taker » 22 200, CPC 12,44 $ ; « call recorder app » 3 600, CPC 5,04 $, en baisse | Otter, Plaud, Summary 4,7–4,9★ | **non** : saturé, vocal |
+| Astrologie (lifestyle) | Purple Ocean 83→58, TimePassages nouveau→75 | « astrology app » 12 100, CPC 4,02 $, en baisse (22 200→5 400) | Chani 4,9★/60 k avis | **non** : demande qui baisse |
+| Cours de langue et musique (éducation) | Pickup Music, Eppika, Loora (nouveau→87), BoldVoice nouveau→90 | « english speaking practice » 1 600, CPC 4,77 $ ; « accent training » 320, CPC 7,11 $ | Pimsleur, Speak : leaders établis | **à creuser** : demande petite |
 
 ## 🎯 Quoi builder
-### Pari #1 : Indemnités km et frais pour indépendants FR
-- **L'idée** : pour auto-entrepreneurs et salariés en frais réels, une app qui trace les trajets et sort le barème fiscal, 3,99 €/mois ou 29 €/an.
-- **Preuve d'argent** : [Everlance](https://apps.apple.com/us/app/mileage-tracker-by-everlance/id985378916) #16 finance (53 617 avis) ; Shoeboxed nouveau→#65 en 7 j. Un rang n'est pas un revenu.
-- **Le trou** : pas de version française trouvée (estimation, non vérifié par recherche). Demande « mileage tracker app » : 5 400/mois, CPC 5,88 $, stable ; « invoice app » CPC 42,60 $.
-- **Pourquoi Kyle** : full-stack, SaaS, connaît la fiscalité et le marché francophone.
-- **MVP** : détection automatique des trajets, calcul barème kilométrique, export PDF/CSV. 6 à 8 semaines.
-- **Argent** : paywall à l'export du premier relevé mensuel ; 29 €/an.
-- **Acquisition** : SEO « indemnités kilométriques » + groupes freelances. Accroche : « Tes km déductibles, sans carnet. »
-- **Test en 48 h** : landing + liste d'attente ; go si 60 inscrits sur 150 visites ciblées, sinon stop.
+### Pari #1 : Plan repas budget aux prix des supermarchés FR
+- **L'idée** : familles et étudiants francophones, plan de 7 dîners + liste de courses chiffrée avec les prix réels d'Intermarché/Leclerc/Lidl, 3,99 €/mois ou 29 €/an.
+- **Preuve d'argent** : [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) #3 food (480 k$/mois estimation tierce) ; [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) #4, [mise](https://apps.apple.com/us/app/mise-meal-planner/id6777471316) #7.
+- **Le trou** : « App said $45 total but when I purchased items it was $70. » (avis Whipp). Whipp vise US/UK (site). Pas de version FR trouvée (estimation).
+- **Pourquoi Kyle** : dev full-stack avec scraping/API de prix, marché FR vide, vente par TikTok en français.
+- **MVP** : (1) budget et régime, (2) plan 7 jours, (3) liste chiffrée par enseigne. 4 à 6 semaines.
+- **Argent** : paywall après l'aperçu du plan de la semaine, avant la liste chiffrée ; 3,99 €/mois, essai sans carte.
+- **Acquisition** : TikTok « 50 € de courses pour 7 dîners ». Accroche : « Le total est faux ? On te rembourse la différence. »
+- **Test en 48 h** : landing + 3 vidéos TikTok ; go si 100 inscriptions liste d'attente, stop sous 30. Demande US : « meal planner app » 2 400/mois, CPC 5,38 $, stable. Nouveau (la précédente idée était un sauve-recettes) : un planificateur, déjà vu 0 fois.
 
-### Pari #2 : Plan repas SOPK en français
-- **L'idée** : pour femmes avec SOPK en France, plans repas et suivi, essai gratuit puis 4,99 €/mois ou 39 €/an.
-- **Preuve d'argent** : [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) #8 medical, 19,99 $/mois ; Kidney Pal 60→#42 (nutrition par pathologie) ; 24 apps montent en medical.
-- **Le trou** : « Can't afford $15 a week right now » (avis App Store) et pas de version FR trouvée. Demande SOPK non mesurée (« pregnancy tracker app » 5 400, CPC 3,17 $ en repère).
-- **Pourquoi Kyle** : produit de contenu et de suivi, sans matériel, vendu en français.
-- **MVP** : questionnaire court, 4 semaines de menus, suivi poids et symptômes. 4 à 6 semaines.
-- **Argent** : paywall après le premier menu visible, jamais avant.
-- **Acquisition** : TikTok créatrices santé. Accroche : « Un plan SOPK sans payer 15 $ par semaine. »
-- **Test en 48 h** : vidéo TikTok + liste d'attente ; go si 5 % de conversion sur 200 clics.
+### Pari #2 : Fax payé à l'envoi, web + app
+- **L'idée** : particuliers et petits pros, envoi de fax à prix fixe (2,99 €) sans abonnement, scan intégré.
+- **Preuve d'argent** : [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-faxer/id6446494282) #22 business (64→22), FaxFlow 97→#48.
+- **Le trou** : « Advertised as free fax app but then asks you to pay. » (31/50 avis 1★). Concurrents web à 2,99–4,99 $ sans app iOS (sites vendeurs).
+- **Pourquoi Kyle** : un SaaS simple (API fax + paiement unique), en solo ; mais marché surtout US.
+- **MVP** : scan, envoi, preuve de livraison. 2 à 3 semaines.
+- **Argent** : paywall au moment d'envoyer, prix affiché avant ; 2,99 € par fax.
+- **Acquisition** : SEO « send fax online » (3 600/mois, CPC 13,26 $). Accroche : « Prix affiché avant d'envoyer. »
+- **Test en 48 h** : landing + pub à 20 € ; go si 10 clics payants sur 100 visites. Déjà vu 1 fois (rapport précédent) ; nouveau : le bond de rang de 9 jours et les avis récents.
 
-### Pari #3 : Scanner de valeur pièces et brocante FR
-- **L'idée** : pour particuliers qui vident une cave, photo d'une pièce ou d'un objet et fourchette de valeur en euros, 4,99 €/mois.
-- **Preuve d'argent** : ChatCoin nouveau→#88, ToyWorth 79→#63 reference ; « pokemon card scanner » 14 800/mois, CPC 2,44 $ (en hausse).
-- **Le trou** : marché saturé de clones, pas d'info sur les pièces euro ; demande « coin identifier app » en baisse. Pas de preuve FR : pari faible.
-- **Pourquoi Kyle** : API de vision et sources de prix, il construit seul.
-- **MVP** : photo, identification, fourchette de prix. 3 semaines.
-- **Argent** : paywall au résultat de la première photo.
-- **Acquisition** : TikTok « combien vaut ma pièce ». Accroche : « Ta pièce vaut peut-être 200 €. »
-- **Test en 48 h** : 3 vidéos TikTok ; go si 2 000 vues et 30 inscrits.
+### Pari #3 : Musculation à la maison en français
+- **L'idée** : programmes haltères/élastiques sans salle, en français, 6,99 €/mois ou 49 €/an, essai sans facturation surprise.
+- **Preuve d'argent** : [STNDRD](https://apps.apple.com/us/app/stndrd-workout-fitness-plans/id1573298047) #38 santé (56→38) ; [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) #11 santé, 4,8★.
+- **Le trou** : « Almost all the leg day exercises rely on expensive machines. » (avis STNDRD, 3★). Pas d'offre FR trouvée (estimation).
+- **Pourquoi Kyle** : produit de contenu + app, vendable en FR ; faiblesse : pas d'audience.
+- **MVP** : 4 programmes, suivi de charges, Apple Health. 6 à 8 semaines.
+- **Argent** : paywall après la première séance faite ; 6,99 €/mois.
+- **Acquisition** : TikTok/Shorts. Accroche : « Jambes complètes avec deux haltères. »
+- **Test en 48 h** : 3 vidéos + landing ; go si 150 inscrits, stop sous 40. Demande : « macro tracker app » 1 000/mois, CPC 3,68 $, LOW ; « pilates app » en baisse. Preuve de demande faible.
 
-**Mon pari : #1 — Indemnités km et frais pour indépendants FR**, car c'est la seule niche avec un CPC élevé, une demande stable et un produit que Kyle construit seul vite.
+**Mon pari : #1 — Plan repas budget aux prix des supermarchés FR**, car c'est le meilleur score pondéré et le trou (prix faux, pas de FR) est documenté par les avis.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché | ⚙️ Complexité inv. | ⏱️ TTM | 🏟️ Concurrence inv. | 💰 Revenu | 🧑‍💻 Fit Kyle | 3 traits | Score | Verdict |
+| Pari | 📊 Marché (20%) | ⚙️ Complexité (15%) | ⏱️ Délai (15%) | 🏟️ Concurrence (15%) | 💰 Revenu (20%) | 🧑‍💻 Fit Kyle (15%) | **Score** | Verdict | 3 traits |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Indemnités km FR | 6 | 7 | 6 | 6 | 6 | 8 | 1 | **6.45** | 🟡 BUILD ADJACENT |
-| #2 Plan repas SOPK FR | 5 | 8 | 7 | 5 | 6 | 6 | 1 | **6.10** | 🟡 BUILD ADJACENT |
-| #3 Scanner pièces FR | 5 | 6 | 7 | 3 | 5 | 7 | 2 | **5.45** | 🟠 WATCH |
+| #1 Plan repas budget FR | 7 | 7 | 7 | 6 | 7 | 8 | **7.0** | 🟡 BUILD ADJACENT | 2 |
+| #2 Fax à l'envoi | 6 | 6 | 8 | 4 | 6 | 6 | **6.0** | 🟡 BUILD ADJACENT | 2 |
+| #3 Musculation maison FR | 7 | 6 | 5 | 4 | 6 | 6 | **5.75** | 🟠 WATCH | 2 |
 
-Scores honnêtes : aucune preuve de revenu direct, seulement des rangs et de la demande Google.
+Scores honnêtes : aucun pari n'atteint 7.5. Tout est une estimation, pas de revenu vérifié.
 
-## 💰 Unit Economics — Pari #1 : Indemnités km FR
-Tout ce qui suit est une `estimation` à partir d'Everlance et du CPC, sans source directe.
+## 💰 Unit Economics — Pari #1 : Plan repas budget FR
+Comparables : Whipp (9,99 $/mois, 39,99 $/an ; 480 k$/mois estimation tierce), TapCook, mise. Toutes les valeurs ci-dessous sont des **estimations** pour un produit FR en année 1.
 
-| Métrique | Valeur (estimation) |
+| Métrique | Estimation |
 |---|---|
-| Hypothèse | 29 €/an, 3 000 abonnés payants en année 2 |
-| ARR | ~87 k€ |
-| ARPU | ~29 €/an |
-| Users (gratuits + payants) | ~30 000 (conversion 10 %) |
-| CAC | ~12 € (SEO, quelques pubs) |
-| LTV | ~70 € (rétention moyenne 2,4 ans) |
-| LTV/CAC | ~5,8 |
-| Payback | ~5 mois |
-| Burn | ~1 500 €/mois (Apple, serveurs, pubs) |
-| Runway | illimité si bootstrap, Kyle seul |
-| Rev/Employee | ~87 k€ (1 personne) |
-| Rule of 40 | > 40 (croissance forte, marge ~60 %) |
+| Objectif ARR | 36 k€ (3 k€ MRR) |
+| ARPU | ~30 €/an |
+| Payants | ~1 200 |
+| CAC | 5–8 € (TikTok organique + petite pub) |
+| LTV | ~45 € (durée moyenne 18 mois, estimation) |
+| LTV/CAC | ~6 |
+| Payback | 2–3 mois |
+| Burn | ~300 €/mois (hébergement, LLM, API prix) |
+| Runway | illimité en solo |
+| Rev/employé | 36 k€ (1 personne) |
+| Rule of 40 | n/d (pas de croissance historique) |
 
-Verdict santé : 🟡, rentable seul mais plafond bas ; saisonnalité fiscale (pic janvier à avril).
+Verdict santé : 🟡. Marges saines, mais la rétention d'un plan repas est incertaine (essais piégeux chez Whipp : 24/50 avis 1★). Sources : [AppStoreTracker via recherche](https://www.appstoretracker.com/app/whipp-meal-planner-and-recipes-6778126199), [Apptopia](https://apptopia.com/ios/app/6778126199/about).
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) | #12 finance, 4 997 avis | sortie 2023-09 | Arrondis vers les dettes, 12,99 $/mois ou 79,99 $/an (site) | Frais par transaction et paywall jugés scandaleux |
-| [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) | #8 medical, 2 702 avis | 2024-01 | Plans repas SOPK, 19,99 $/mois, 69,99 $/an ou 69 $ à vie | Pas de version FR, prix hebdo critiqué |
-| [LingoLooper](https://apps.apple.com/us/app/lingolooper-ai-language-game/id1670913076) | #89 education, 1 442 avis, 500k+ téléchargements Android | 2024-03 | Jeu de rôle vocal en 30+ langues | Dialectes manquants (arabe levantin) |
-| Everlance | #16 finance, 53 617 avis | non relevé | Suivi kilométrique auto pour indépendants | Version française absente (estimation) |
-| Shoeboxed | #65 finance, nouveau, 1 831 avis | non relevé | Scan de reçus et kilométrage | Entrée récente au classement |
-| [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187) | #10 finance, 6 002 avis | non relevé | Class actions à réclamer | Marché surtout US |
-| ToyWorth | #63 reference, 79→63, 1 603 avis | non relevé | Scan et valeur de jouets | Clones nombreux |
-| ChatCoin | #88 reference, nouveau, 1 975 avis | non relevé | Identifier de pièces | Demande Google en baisse |
-| Chartnote | #25 medical, 56→25, 613 avis | non relevé | Scribe médical IA (vocal) | Réglementé, exclu |
-| Kidney Pal | #42 medical, 60→42, 1 913 avis | non relevé | Régime rénal | Niche santé sans leader FR |
-| VibeShort | #17 entertainment, 59 541 avis | non relevé | Courts dramas IA | Marché chinois dominant |
-| Plaud | #26 productivity, 24 438 avis | non relevé | Enregistreur IA (matériel) | Hardware, exclu |
-| Floga | 10 k$/mois déclaré | non relevé | Yoga, produit physique plus app | — |
-| Habit Pixel | 1 k$ MRR déclaré | ~8 mois | Tracker d'habitudes | — |
-| Stella | ~350 k$ MRR déclaré | ~2 mois | Non précisé (agrégateur) | Preuve faible |
+| [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) | #3 food, 958 avis | 159 j | Plan repas hebdo + liste de courses chiffrée, 9,99 $/mois ou 39,99 $/an | Prix faux, essai piégeux, US/UK seulement |
+| [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) | #4 food, 8 219 avis | n/d | Plans repas petit budget | Pas de version FR (estimation) |
+| [mise](https://apps.apple.com/us/app/mise-meal-planner/id6777471316) | #7 food, 5 156 avis | n/d | Planificateur de repas | — |
+| Chow: Meal Planner | 74→#34, 67 avis | n/d | Plan repas + courses | Entrée récente à suivre |
+| [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-faxer/id6446494282) | #22 business (64→22), 17 143 avis | 1 163 j | Fax mobile, 11,99 $/sem à 69,99 $/an | 31 avis 1★ sur 50 : prix cachés |
+| FaxFlow | 97→#48 business, 8 522 avis | n/d | Fax iPhone | Même faille d'abonnement |
+| [STNDRD](https://apps.apple.com/us/app/stndrd-workout-fitness-plans/id1573298047) | #38 santé (56→38), 3 867 avis | 1 910 j | Programmes de force, 79,99–119,99 $/an | Matériel limité, Apple Health |
+| Pickup Music | nouveau→#89 éducation, 1 405 avis | n/d | Cours de musique | Pas de lien direct, à creuser |
+| Flightsy: AI Flight Tracker | nouveau→#45 travel, 18 avis | jeune | Suivi de vols IA | Demande « flight tracker app » 6 600/mois |
+| SnagRes | #66 food, 0 avis | 5 j | Alertes de réservations resto | Preuve faible |
+| Beside (M1): AI Receptionist | nouveau→#90 productivité, 9 256 avis | n/d | Réceptionniste IA (voix) | Vertical pros locaux |
+| [Bluedot Phone Calls](https://www.producthunt.com/products/bluedot-2) | 288 votes PH | jour | Notes IA d'appels Android (voix) | Déjà saturé |
+| App iOS 20 ans (X) | 3 100 $ MRR déclaré | 1 mois | Non nommée, TikTok organique | Distribution : TikTok |
+| App 4 chiffres (X) | 1 100 $/28 j déclaré | 90 j | Non nommée | — |
+| App santé iOS indé (X) | 2 000 $ cumulé déclaré | 8 mois | Santé, achat unique probable (estimation) | Croissance lente |
+
+Catégories : food, business, santé, éducation, travel, productivité. Apps vocales : 2/4.
 
 ## 💸 Apps qui font du cash
 **Revenus déclarés (déclaré, non vérifié)**
-- Stella : ~340-360 k$ MRR environ 2 mois après lancement, agrégateur secondaire, date non précisée, outlier → [source](https://stealwhatworks.com/blogs/news/indie-apps-gained-most-revenue) (déclaré, non vérifié).
-- Floga (yoga, produit physique devenu app) : 10 k$/mois, date non précisée → [Indie Hackers](https://www.indiehackers.com/post/tech/from-physical-product-to-10k-mo-app-JLVZDxJ9RfjdYdvINqgp) (déclaré, non vérifié).
-- Habit Pixel (tracker d'habitudes, dev solo) : 1 k$ MRR en 8 mois → [Indie Hackers](https://www.indiehackers.com/post/from-0-to-1k-mrr-in-8-months-bootstrapping-habit-pixel-as-a-solo-dev-53d8687d15) (déclaré, non vérifié).
-- Aucun post X exploitable : la source X a échoué (`TREG_ERREUR`). Les posts Reddit du jour n'annoncent aucun montant avec produit identifiable.
+- App iOS non nommée, 20 ans, TikTok organique : 3 100 $ MRR, 3 800 $ de revenu en 1 mois, 7 000 téléchargements (2026-11-18) — [post](https://x.com/julscales/status/2123064291305640065)
+- App non nommée : 1 100 $+ brut sur 28 jours, objectif 1 k$ MRR (2026-11-17) — [post](https://x.com/zakisbuilding/status/2122823230540968335)
+- App iOS santé indé : 2 000 $ brut cumulé, 123 acheteurs, premier euro en mars (2026-11-14) — [post](https://x.com/rjozefowicz/status/2121589922611990926)
+- ScribeKit : 30 $ MRR, 206 $ de revenu, 23 payants en 5 semaines, 100 % recherche App Store (2026-11-18) — [post](https://x.com/truly_offline/status/2122993424723026229)
+- App Android non nommée : 32 $ le premier mois (2026-11-16) — [post](https://x.com/engwaliullah/status/2122325193775546500)
 
-**App Store US, top grossing < 100k avis (un rang n'est pas un revenu)**
-- #12 finance, 4 997 avis : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208), arrondis d'achats vers les dettes.
-- #10 finance, 6 002 avis : [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187), trouve les class actions à réclamer.
-- #8 medical, 2 702 avis : [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020), plans repas et suivi SOPK.
-- #25 medical (56→25 en 6 j), 613 avis : Chartnote, scribe médical IA.
-- #42 medical (60→42), 1 913 avis : Kidney Pal, suivi alimentation rénale.
-- #89 education, 1 442 avis : [LingoLooper](https://apps.apple.com/us/app/lingolooper-ai-language-game/id1670913076), jeu de rôle de langues avec avatars IA.
-- #63 reference, 1 603 avis : ToyWorth, scan et valeur de jouets.
-- #17 entertainment, 59 541 avis : VibeShort, courts dramas IA.
-- Mouvement notable : les scanners de pièces/jouets (ChatCoin, CoinCheck, Toyzie) entrent tous dans le top 100 reference le même jour.
+**App Store US, top grossing < 100k avis** (un rang n'est pas un revenu)
+- #3 food, 958 avis : [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199), plan de la semaine selon le budget. Estimation tierce (AppStoreTracker) : 480 k$/mois, non vérifié.
+- #4 food, 8 219 avis : [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354), plans repas petit budget.
+- #7 food, 5 156 avis : [mise](https://apps.apple.com/us/app/mise-meal-planner/id6777471316), planificateur de repas.
+- #22 business (64→22 en 9 j), 17 143 avis : [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-faxer/id6446494282), envoi de fax par abonnement.
+- #38 santé (56→38), 3 867 avis : [STNDRD](https://apps.apple.com/us/app/stndrd-workout-fitness-plans/id1573298047), programmes de force signés Chris Bumstead.
+- #48 business (97→48), 8 522 avis : FaxFlow - Send Fax from iPhone (pas de lien direct dans le relevé), fax iPhone.
+- #49 utilities (96→49), 1 494 avis : Fieldy, prise de notes IA.
+- #45 travel (nouveau), 18 avis : Flightsy, suivi de vols IA.
 
 **Jeunes apps qui gagnent déjà (< 365 j)**
-- [Blueprint Finance](https://apps.apple.com/us/app/blueprint-finance/id6766875811) : #55 finance, sortie il y a 70 j, 10 avis (preuve faible).
-- [Finviz](https://apps.apple.com/us/app/finviz-stock-screener-charts/id6761907341) : #100 finance, 39 j, 15 avis, 3.87★ (marque web existante).
-- [MSK Sono](https://apps.apple.com/us/app/msk-sono-ultrasound-guide/id6765696708) : #58 medical, 161 j, 16 avis, guide échographie (réglementé, hors pari).
-- [Hammer Elite](https://apps.apple.com/us/app/hammer-elite/id6763444186) : #77 finance, 169 j, 53 avis, 3.11★.
-- [Elseway](https://apps.apple.com/us/app/elseway-into-the-story/id6773333143) : #90 entertainment, 162 j, 14 avis, 2.86★, histoires interactives.
-- Leaders sans mise à jour > 180 j : aucun dans l'échantillon (tous mis à jour il y a moins de 90 j).
+- #66 food, SnagRes (sortie il y a 5 j, 0 avis) : alertes de réservations resto.
+- #39 travel, CrewParent Live (15 j, 5 avis) ; #58 travel, Raylie (59 j, 1 avis).
+- #67 food, Wine Folly Plus (105 j, 4 avis) ; #56 food, Ai System (111 j, MAJ il y a 93 j).
+- #3 food, Whipp (159 j). #95 food, Sanity (215 j, 2.2★ : leader qui déçoit).
+- Aucun leader du relevé sans mise à jour > 180 jours.
 
-## 🔬 App creusée #1 : Ditch (finance)
-1. **Identification** : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208), sortie App Store 2023-09-14, fondateur Luis Andino ([Tracxn](https://tracxn.com/d/companies/ditch/__6NEMl3q7nRKpeiKem1bZJfkzTxeJRUuABseiQrlaUz0), équipe de 17 en 2026), finance. #12 finance US, 4.82★ sur 4 997 notes. Gratuit à télécharger, abonnement.
-2. **Proposition** : problème, la dette qui s'éternise. Solution, les arrondis d'achats partent vers les prêts. Cible : emprunteurs US. Prix du site : essai 7 jours puis 12,99 $/mois ou 79,99 $/an ; une autre page cite Basic 3,99 $ et Plus 9,99 $ ([Ditch pricing](https://www.ditch.io/pricing)) : sources en conflit.
-3. **Les 3 décisions** : onboarding avec parcours guidé qui exige un avis App Store avant d'entrer (avis 1★ répétés) ; paywall après la promesse « sans effort » et la liaison de comptes (estimation) ; rétention par prélèvements automatiques en arrière-plan.
-4. **3 traits** : émotion pour une action ❌ (soulagement différé) ; résultat visible en secondes ❌ (il faut lier des comptes) ; distribution intégrée ❌ (rien de viral).
-5. **Ce qui manque** : prix et frais. « Every transaction cost $1. » ; « $13/mo just to move money around ». 23 avis sur 50 sont à 1★. Dernière MAJ il y a 14 jours. Le développeur admet que « trop cher » est le premier motif de désinstallation (réponse du développeur sur la fiche App Store, relayée par la recherche).
-6. **Acquisition** : `pubs Meta non trouvées` (page introuvable). Autres canaux non relevés.
-7. **Stack** : estimation : app native iOS, agrégation bancaire type Plaid, paiements ACH.
-8. **Réplication** : complexité 7/10 (bancaire, conformité), temps 3 à 4 mois. Niche : leader qui déçoit sur le prix. Angle Kyle : planificateur de dettes sans prélèvement (calcul avalanche/boule de neige), donc sans licence de paiement. Déjà proposé dans un rapport précédent.
+## 🔬 App creusée #1 : Whipp (food & drink)
+1. **Identification** : [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199), EVOY LTD (Londres), sortie App Store 2026-06-12 (159 j), dernière MAJ il y a 1 j, food & drink. Fondateurs non trouvés. #3 food US, 951 notes 4,67★, site : « #1 food en Europe (UK, Espagne) ». Android : 100k+ installs ([Play](https://play.google.com/store/apps/details?id=app.whipp&hl=en_US)).
+2. **Valeur** : le « qu'est-ce qu'on mange à 18 h ». Tu donnes budget et goûts, il sort 7 dîners et la liste de courses chiffrée en 60 s. Cible US/UK. Prix : 9,99 $/mois, 39,99 $/an. Revenu : 480 k$/mois, estimation tierce non vérifiée.
+3. **3 décisions** : onboarding par questions budget/goûts (estimation) ; paywall dès la fin de l'onboarding, essai de 3 jours avec carte (avis) ; retour = liste de courses hebdo chiffrée.
+4. **3 traits** : ✅ émotion (soulagement du « quoi manger ») ; ✅ résultat visible en 60 s ; ❌ pas de distribution intégrée (pas de partage ni de code vu).
+5. **Ce qui manque** : prix de courses faux et essai piégeux (24 avis 1★ sur 50). « App said $45 total but when I purchased items it was $70. » · « Prices don't coincide with today's economic conditions. » MAJ récente, pas de retard.
+6. **Acquisition** : 0 pub Meta active, 0 lancée depuis 7 jours (page de 4 likes, à vérifier : possiblement pas la bonne). Autres canaux : ASO, Android.
+7. **Stack** : estimation : app native/RN, LLM pour recettes (avis : « AI slop »), prix magasins par scraping.
+8. **Réplication** : 6/10. Adjacent : budget étudiant, familles, bébé. Niche : version FR avec prix Carrefour/Leclerc/Lidl vérifiés. Angle Kyle : SaaS + marché francophone. 4 à 6 semaines.
 
-## 🔬 App creusée #2 : PCOS Pal (médical)
-1. **Identification** : [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020), éditeur Slayyy, Inc., sortie 2024-01-28, fondateurs non trouvés. Medical, #8 US, 4.65★ sur 2 702 notes ; 250k+ téléchargements selon [un agrégateur](https://mwm.ai/apps/pcos-pal/6474100020) (non vérifié).
-2. **Proposition** : problème, le SOPK mal accompagné. Solution : plans repas personnalisés et suivi du poids. Cible : femmes avec SOPK. Prix : 19,99 $/mois, 69,99 $/an, 69 $ à vie (fiche US).
-3. **Les 3 décisions** : questionnaire long avant tout (avis : « stuck on the questionnaire ») ; paywall dur juste après le questionnaire, sans version gratuite (estimation tirée des avis) ; rétention par plans repas et leçons quotidiennes.
-4. **3 traits** : émotion ✅ (se sentir comprise) ; résultat visible en secondes ❌ ; distribution intégrée ❌.
-5. **Ce qui manque** : le prix et l'absence d'essai. « Can't afford $15 a week right now. » ; « Nothing's free. » 19 avis sur 50 à 1★. Dernière MAJ il y a 16 jours.
-6. **Acquisition** : `pubs Meta non trouvées`. Canal probable : créatrices TikTok santé (estimation).
-7. **Stack** : estimation : app native, Apple Santé, base de recettes, contenu rédigé.
-8. **Réplication** : complexité 4/10 mais contenu nutritionnel à valider, 6 à 8 semaines. Niche : leader qui déçoit, pas de version française trouvée. Angle Kyle : plan repas SOPK en français, essai gratuit, prix annuel bas. Attention à rester « bien-être » (aucune allégation médicale).
+## 🔬 App creusée #2 : FAX from iPhone (business)
+1. **Identification** : [FAX from iPhone](https://apps.apple.com/us/app/fax-from-iphone-send-doc-faxer/id6446494282), Plekmin Trade S.L., sortie 2023-09-12 (1 163 j), MAJ il y a 9 j, business. #22 business (64→22 en 9 j), 17 143 avis 4,76★.
+2. **Valeur** : envoyer/recevoir un fax depuis l'iPhone, scan intégré. Cible : particuliers US (impôts, médecin, administration). Prix relevés dans les avis : 11,99 $/semaine, 24,99 $/mois, 69,99 $/an.
+3. **3 décisions** : scan puis envoi, le paywall tombe au moment d'envoyer (« asks to pay once I try to send ») ; essai « gratuit » qui bascule en abonnement ; retour = besoin ponctuel, rétention faible (estimation).
+4. **3 traits** : ✅ émotion (urgence administrative) ; ✅ résultat visible : fax envoyé ; ❌ pas de distribution.
+5. **Ce qui manque** : abonnement caché, fax non livré, support injoignable (31 avis 1★ sur 50). « Advertised as free fax app but then asks you to pay. » · « Paid, no proof of delivery, no support. »
+6. **Acquisition** : pubs Meta non trouvées. Canal probable : ASO (« fax from iphone » 5 400/mois, CPC 6,39 $) et pubs de recherche.
+7. **Stack** : estimation : API fax (type Twilio/Telnyx), scanner natif, StoreKit.
+8. **Réplication** : 4/10. Adjacent : signature, scan de documents. Niche : fax à l'envoi à prix fixe (concurrents web : 2,99–4,99 $ par fax, sans app iOS). Angle Kyle : web + app, mais le marché est US. 2 à 3 semaines. Déjà couvert dans un rapport précédent.
 
-## 🔬 App creusée #3 : LingoLooper (éducation)
-1. **Identification** : [LingoLooper](https://apps.apple.com/us/app/lingolooper-ai-language-game/id1670913076), Lumi Labs AB (Suède), sortie 2024-03-04, fondateurs non trouvés. Education #89 US, 4.84★ sur 1 442 notes ; 500k+ téléchargements Android ([Google Play](https://play.google.com/store/apps/details?id=com.lumilabs.LingoLooper&hl=en_US)).
-2. **Proposition** : problème, parler sans oser. Solution : jeu de rôle vocal avec avatars IA, 30+ langues. USP : dialectes (égyptien). Gratuit à télécharger, abonnement (annuel cité dans les avis, prix non relevé).
-3. **Les 3 décisions** : onboarding par choix d'avatar ; paywall après 2 conversations (avis : « two talks before I can't use it ») ; rétention par relations avec les personnages.
-4. **3 traits** : émotion pour une action ✅ (parler à un personnage) ; résultat en secondes ✅ ; distribution intégrée ❌.
-5. **Ce qui manque** : dialectes et langues. « I seriously need levantine dialect for Arabic. » ; « Add Gaelic pls. » Bugs de mode vocal. MAJ il y a 19 jours.
-6. **Acquisition** : 0 pub Meta active, 0 lancée depuis 7 jours (page de 19 likes, à vérifier). Canal probable : bouche à oreille et stores (estimation).
-7. **Stack** : estimation : app native/Unity 3D, STT, LLM, TTS.
-8. **Réplication** : complexité 8/10 (voix temps réel, avatars 3D), 3+ mois. Demande « learn english app » en baisse. Preuve d'argent faible (rang seul). Pas retenue pour un pari.
+## 🔬 App creusée #3 : STNDRD (santé / fitness)
+1. **Identification** : [STNDRD](https://apps.apple.com/us/app/stndrd-workout-fitness-plans/id1573298047) (ex-CBUM Fitness), Set The Standard LLC, face : Chris Bumstead. Sortie 2021-08-26 (1 910 j), MAJ il y a 3 j (« Personal Records »). #38 santé (56→38), 3 867 avis 4,56★, « 150 000+ membres » (déclaré).
+2. **Valeur** : programmes de force structurés par des champions, « pas des séances générées par IA ». Prix : 14,99 $/mois, 79,99 $/an (estimation recoupée) ; un avis cite 119,99 $. Revenu : 50–250 k$/mois, estimation tierce incohérente.
+3. **3 décisions** : onboarding par objectifs ; paywall essai 7 jours avec renouvellement annuel ; retour = points, records (PR) et partages (nouveauté).
+4. **3 traits** : ✅ émotion (fierté de progrès) ; ✅ résultat : séance guidée immédiate ; ✅ partage de PR (« new shareables »).
+5. **Ce qui manque** : facturation d'un an pendant l'essai, compte inaccessible, jambes sans machines. « Charged for a year during free trial. » · « Almost all the leg day exercises rely on expensive machines. » Pas d'Apple Health ni Watch.
+6. **Acquisition** : pubs Meta non trouvées. Créateur à 150 M$ d'empire (Raw Nutrition, source tierce) : audience propre.
+7. **Stack** : estimation : app native, vidéo, back-end de contenu, abonnements.
+8. **Réplication** : 5/10 sans célébrité. Niche : programmes « à la maison » avec haltères, en français. Angle Kyle : SaaS + contenu FR, mais la preuve repose sur une audience que Kyle n'a pas. 6 à 8 semaines.
 
 ## 📈 Tendances Émergentes
-**Accroches pub** : aucune récoltée (0 page Meta exploitable sur 3 apps). À relever au prochain run avec d'autres apps.
+**Accroches pub** : aucune pub Meta exploitable cette semaine (0 trouvée pour Whipp, pages non trouvées pour les deux autres). Les promesses qui reviennent dans les descriptions : « plus de “qu'est-ce qu'on mange” » (Whipp), « pas de séances IA » (STNDRD), « envoyez un fax en quelques secondes » (fax).
 
 **Autres signaux**
-- Les avis 1★ du jour portent presque tous sur le prix et le paywall : Ditch (« Takes your money then offers no tech support »), PCOS Pal (15 $/semaine). Un prix honnête est un angle récurrent.
-- Ditch force un avis 5★ avant l'accès : pratique contraire aux règles Apple selon un avis. Ne pas copier.
-- Vague de scanners « valeur » (pièces, jouets, TCG) : 4 entrées le même jour en reference, mais la demande « coin identifier app » est passée de 14 800 à 4 400/mois.
-- Santé : 24 apps montent en 6 j dans medical (nutrition, grossesse, suivi), la catégorie la plus mouvante du jour.
-- HN : « Google's AI answers reducing search traffic by 40% » (214 pts), pertinent pour l'acquisition SEO ([lien](https://revscope.co/blog/search-seo-geo-2026/)). Product Hunt : outils pour agents IA dominent (RankSpot 373 votes, Creatify Max 363), pas de produit grand public avec preuve d'argent.
-- GitHub Trending hebdo : [we-promise/sure](https://github.com/we-promise/sure) (finance perso open source, +4 786 étoiles) confirme l'appétit pour les outils d'argent ; le reste est centré sur les agents de code.
-- Limite du run : X en erreur, 7 recherches seulement, aucune lecture de site via `read`.
+- **Abonnement perçu comme piège** : essai « gratuit » qui facture, constaté sur les 3 apps creusées (24/50, 31/50 et 8/50 avis 1★). Un prix clair et un essai sans carte sont un angle de vente.
+- **« AI slop » rejeté** : recettes et photos IA critiquées chez Whipp, STNDRD vend l'inverse. Un contenu vérifié par un humain différencie.
+- **Distribution TikTok organique** : l'app à 3 100 $ MRR (déclaré) n'a eu aucune pub. ScribeKit : 100 % recherche App Store.
+- **Marché des petites apps** : médiane sous 50 $/mois à 12 mois (RevenueCat, via blog secondaire) ; les revenus déclarés ici sont l'exception.
+- **GitHub Trending** : agents et skills (modern-web-guidance, plannotator, anthropics/skills 4 381 étoiles/sem). Aussi [we-promise/sure](https://github.com/we-promise/sure), finance perso open source, 3 866 étoiles/sem.
+- **PH** : S.Space 346 votes, Bluedot Phone Calls 288, Toone 245 : agents et vocal, aucune preuve d'argent.
+- **Modèles** : Gemini 4 Neon, GPT-6.2, Qwen4-Max cette semaine (HN, PH).
