@@ -1,82 +1,104 @@
-# AI Watch — 2026-11-20 Matin
+# AI Watch — 2026-11-21 Matin
 
-> Collecte : treg 3/4 sources (Product Hunt en 504, Reddit vide), 16 recherches extended, GitHub Trending ok, 4 pages lues, 4 items confirmés par une deuxième source.
+> Collecte : treg 3/4 sources (Product Hunt en 504), 15 recherches extended, GitHub Trending ok, 4 pages lues, 5 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
-### Anthropic entre au Nasdaq (ANT), plus grosse IPO de l'histoire
-- **Quoi** : IPO à 83 $/action, 980 M d'actions vendues, 81,3 Md$ levés ; ouverture à 111,50 $, clôture à 97,17 $ (+17 %), capitalisation diluée ≈1,8 T$. CA de 33,24 Md$ sur 9 mois (prospectus).
-- **Date** : 19 novembre 2026
-- **Lien** : https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html (aussi Reuters via HN, 994 pts)
-- **Pourquoi c'est important** : plus grosse introduction en bourse jamais réalisée (devant SpaceX) ; référence de valorisation pour tout le secteur IA.
+### Preuve revendiquée de l'hypothèse de Riemann généralisée (GRH) avec Claude
+- **Quoi** : Levent Alpöge (Anthropic), avec un modèle interne, publie une preuve Lean-only de la GRH (~17,4 M de lignes de Lean selon Aaronson). Même jour : preuves assistées par IA de blow-up en temps fini pour Euler 3D (version lisible) et Navier-Stokes 3D (Alpöge, Buckmaster, Coiculescu).
+- **Date** : 2026-11-20
+- **Lien** : https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/ ; https://scottaaronson.blog/?p=10344 ; https://alpo.ge/remark.pdf
+- **Pourquoi c'est important** : si la vérification tient, c'est le résultat mathématique le plus marquant jamais obtenu avec une IA. Statut : NON vérifié. Pas de version lisible pour la GRH, vérification en cours (fil Lean Zulip). À traiter avec prudence.
+- **Testable** : Non (preuve Lean à vérifier par la communauté)
+
+### Anthropic entre au Nasdaq (ANT)
+- **Quoi** : IPO à 83 $/action, ~81,3 Md$ levés (record), ouverture à 111,50 $, clôture ~97 $ le premier jour.
+- **Date** : 2026-11-19
+- **Lien** : https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html
+- **Pourquoi c'est important** : plus grosse IPO de l'histoire ; valorisation 1,3 à 2 T$ selon le moment. Chiffres variables selon les sources.
 - **Testable** : Non
 
-### OpenAI GPT-6.2 Astra et Sol
-- **Quoi** : Astra (haut de gamme, 8 $/40 $ par M tokens, -20 %) et Sol (quotidien, 2 $/10 $, proche d'Astra en code pour ~1/5 du coût). Accueil mitigé des power users (boucles, réponses plus courtes).
-- **Date** : 17 novembre 2026 (Wikipedia indique le 18)
-- **Lien** : https://www.neowin.net/news/openai-launches-gpt-62-astra-and-sol-with-major-performance-gains-at-a-fraction-of-the-cost/ · critique : https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users
-- **Pourquoi c'est important** : baisse de prix du flagship ; Astra est le premier modèle déployé classé « High » en auto-amélioration IA (Preparedness Framework).
-- **Testable** : Oui — API `gpt-6.2-astra` / `gpt-6.2-sol`, ChatGPT Work et Codex (Plus, Pro, Enterprise, Edu). Payant.
-
-### Google Gemini 4 Neon
-- **Quoi** : modèle « frontier rapide » entre Hydrogen et Carbon ; 1 M tokens de contexte, 3 $/15 $ par M tokens (4 $/20 $ après promo) ; #3 Artificial Analysis (61), #2 Vals Index (70,9 %).
-- **Date** : 18 novembre 2026
-- **Lien** : https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/ (HN : #1 du Models Engineering Index, 241 pts)
-- **Pourquoi c'est important** : très bon rapport qualité/prix pour code et travail en entreprise. Chiffres majoritairement fournis par Google.
-- **Testable** : Oui — API `gemini-4-neon` (AI Studio), Antigravity, app Gemini (Pro/Ultra). Payant.
+### Inkling 2 Mini (Thinking Machines) — open weights, looped transformer
+- **Quoi** : MoE 26,4B (3,4B actifs), couches centrales exécutées 3 fois par token, Apache 2.0, 1M de contexte, texte+image. 48,2 % DeepSWE v1.1, meilleur modèle open <100B selon le labo.
+- **Date** : 2026-11-20
+- **Lien** : https://thinkingmachines.ai/news/inkling-2-mini/
+- **Pourquoi c'est important** : architecture bouclée qui raisonne plus avec moins de tokens ; tourne en local (Mac 32 Go via Ollama, DGX Spark, ~200 tok/s sur RTX 4090 avec vLLM selon Reddit).
+- **Testable** : Oui — open source, Ollama, Hugging Face, Tinker, OpenRouter.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### ChatGPT dot étendu aux abonnés Plus
-- **Quoi** : assistant proactif toujours actif (annoncé en septembre) testé auprès de quelques abonnés Plus, accès Business élargi.
-- **Date** : 19 novembre 2026
-- **Lien** : https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/
-- **Pourquoi c'est important** : l'agent permanent descend vers le grand public.
-- **Testable** : Oui, si éligible (Plus en test limité). Payant.
+### Gemini : computer use sur Mac
+- **Quoi** : l'app Gemini pour macOS pilote apps natives et sites en arrière-plan, avec validation des actions.
+- **Date** : 2026-11-19
+- **Lien** : https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/
+- **Pourquoi c'est important** : agent desktop grand public chez Google.
+- **Testable** : Oui — abonnement Google AI Plus/Pro/Ultra (payant).
 
-### Microsoft MAI Code 2 / MAI Code 2 Flash (Ignite)
-- **Quoi** : modèles de code maison de Microsoft, plus MAI Cyber 2 Flash.
-- **Date** : 17 novembre 2026
-- **Lien** : https://itwire.com/business-it-news/enterprise-solutions/microsoft-ships-own-coding-models-with-cyber-rollout-set-for-december (source unique, agrégateur)
-- **Pourquoi c'est important** : Microsoft réduit sa dépendance aux modèles tiers.
-- **Testable** : Non vérifié.
+### DreamCoder (harness/IDE de code)
+- **Quoi** : harness de codage et IDE par l'auteur de Mastering Emacs.
+- **Date** : 2026-11-20 (HN, 142 pts)
+- **Lien** : https://www.masteringemacs.org/article/announcing-dreamcoder
+- **Pourquoi c'est important** : nouvel entrant côté éditeurs/agents ; source unique, à surveiller.
+- **Testable** : Oui — voir la page.
 
-### AMD finalise l'achat de World Labs
-- **Quoi** : acquisition à ~8,2 Md$ conclue ; Fei-Fei Li devient EVP et chief scientist d'AMD.
-- **Date** : 16 novembre 2026
-- **Lien** : https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/
-- **Pourquoi c'est important** : modèles de monde 3D/spatiaux rattachés à un fabricant de puces.
-- **Testable** : Non
+### OpenComputer (alternative open source à Devin)
+- **Quoi** : agent de dev open source (Show HN).
+- **Date** : 2026-11-20
+- **Lien** : https://github.com/diggerhq/opencomputer
+- **Pourquoi c'est important** : agent autonome auto-hébergeable.
+- **Testable** : Oui — open source.
 
-### Open source / GitHub Trending (jour)
-- **Quoi** : obra/superpowers (+2 028 ★, framework de skills agentiques), elementalsouls/Claude-BugHunter (+1 349 ★), mvanhorn/last30days-skill (+954 ★), HKUDS/CLI-Anything (+898 ★), firecrawl/firecrawl (+825 ★), cursor/plugins (+384 ★), minimind (+238 ★, LLM 64M en ~2 h). Launch HN : Onlook (YC W25, open source).
-- **Date** : 19–20 novembre 2026
-- **Lien** : https://github.com/trending?since=daily · https://github.com/obra/superpowers · https://github.com/onlook-dev/onlook/
-- **Pourquoi c'est important** : la tendance reste aux « skills » et outils CLI pour agents de code.
-- **Testable** : Oui — repos open source.
+### ChatGPT : Live Dictation et GPT-Live-1.1 (API)
+- **Quoi** : dictée en direct sans limite de 10 min ; GPT-Live-1.1 pour agents vocaux multilingues.
+- **Date** : 2026-11-20 (sources secondaires + forum OpenAI)
+- **Lien** : https://community.openai.com/c/announcements/6
+- **Pourquoi c'est important** : voice AI.
+- **Testable** : Oui — ChatGPT / API (payant).
+
+### GitHub Trending (open source)
+- Claude-BugHunter (skills Claude Code, +1622★), obra/superpowers, firecrawl/firecrawl (API web pour agents), HKUDS/CLI-Anything, minimind (LLM 64M en 2h), last30days-skill, opensre, autoclip. Tendance : écosystème de « skills » pour agents de code. Lien : https://github.com/trending?since=daily
 
 ## 🧠 Mises à jour de Modèles
-- Voir Breaking (GPT-6.2, Gemini 4 Neon). Mistral Large 4 (poids ouverts, 29 oct) : hors fenêtre. Deutsche Telekom investit ~110 M$ dans Mistral (valorisation >21 Md€), source unique, https://qz.com/deutsche-telekom-mistral-ai-investment-series-d-111926
-- Image/vidéo, voix, Meta : RAS daté du 19 novembre (rien de confirmé).
+
+### Gemini 4 Neon (Google)
+- **Quoi** : modèle entre Hydrogen et Carbon, 1M de contexte, ~3 $/15 $ par M tokens (une source), benchmarks Google : Terminal-Bench Science 70,5 %, HLE-Diamond 71,3 %.
+- **Date** : 2026-11-18
+- **Lien** : https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+- **Pourquoi c'est important** : 4e modèle Gemini en un mois (cadence rapide). Benchmarks non indépendants.
+- **Testable** : Oui — AI Studio, app Gemini Pro/Ultra, Antigravity.
+
+### Tencent Hy4 flash
+- **Quoi** : MoE ~224B (~12B actifs), multimodal, 1M contexte, open weights, ~0,07 $/M tokens en entrée ; Tencent le dit proche de Claude Haiku 5.5 à 1/18 du coût (chiffres internes).
+- **Date** : 2026-11-16 (poids ouverts ~17)
+- **Lien** : https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/
+- **Pourquoi c'est important** : pression sur les prix des petits modèles. AMA Reddit r/LocalLLaMA (270 pts).
+- **Testable** : Oui — Hugging Face, TokenHub (−50 % jusqu'au 30/11).
+
+### Hors fenêtre 72 h : Microsoft MAI Code 2 (17/11, Ignite) — voir À surveiller.
 
 ## 🔬 Research
 
-### Claude Fable 5.2 résout deux problèmes ouverts de physique des trous noirs
-- **Quoi** : calcul de transition de Hawking-Page resté ouvert 23 ans, et borne exacte en « modular bootstrap » (gravité quantique 3D). Un résultat vérifié en Lean ; preprints non relus par des pairs.
-- **Date** : en tête de HN le 19–20 nov ; date de publication Anthropic incertaine (9 ou 17 nov selon les sources)
-- **Lien** : https://www.anthropic.com/research/claude-black-hole-physics
-- **Pourquoi c'est important** : cas concret de découverte scientifique par agents autonomes (≈6 semaines de travail).
+### Language Models Can Rewrite Their Own Weights
+- **Quoi** : un modèle open 27B réécrit ses propres poids sans gradient (+6,6 pts sur problèmes inédits, amélioration sur 8 sessions), capacité émergente avec l'échelle.
+- **Date** : arXiv 2026-11-16 (v2 le 18)
+- **Lien** : https://arxiv.org/abs/2611.21885
+- **Pourquoi c'est important** : pas vers l'auto-amélioration récursive ; résultat d'un seul papier, non répliqué.
 - **Testable** : Non
 
+### Show HN : audio-to-MIDI 60x plus efficace (Dettato)
+- **Lien** : https://kobi.music/research/dettato — 254 pts HN, source unique.
+
 ## 📝 À surveiller
-- Meta Muse accusé de lire des messages Signal chiffrés via les notifications Android (Reuters, via digests, non vérifié à la source).
-- Banques US (Citi, PNC, Citizens) : pertes liées aux agents IA mises à la charge du client (digests uniquement).
-- OpenAI : poursuite de la Californie sur des agents « rogues » et publicité dans ChatGPT (digests, non confirmé).
-- Nvidia suspendrait certaines livraisons de puces IA vers la Chine (digest unique).
-- Palo Alto Networks / Applied Compute, 4,5 Md$ (digest unique).
-- Product Hunt : lancements d'outils de vérification de sorties d'agents (UI Verify, Replay QA).
-- HN : « Rebuilding my local voice assistant pipeline », Pete Warden sur l'IA locale et les interfaces vocales.
+- **Vérification de la GRH** : suivre le fil Lean Zulip et les réactions d'experts. Anthropic aurait dit ne pas s'attendre à ce que ces techniques mènent à une preuve complète (source secondaire).
+- **Signal : restriction des agents IA sur les OS mobiles** (Signal, 527 pts HN) : https://signal.org/blog/protecting-your-privacy/
+- **Microsoft MAI Code 2 / MAI Cyber 2 Flash** (Ignite, 17/11), cyber en déploiement en décembre.
+- **Rumeurs/infos à source unique** : fuite de données de l'agent Meta Muse ; Apple développe un agent contrôlant l'ordinateur ; Nvidia stoppe les livraisons de puces vers la Chine ; enquête SEC sur Nvidia (comptabilité, HN 258 pts).
+- **Mistral** : Deutsche Telekom T.Capital investit 100 M€ (20/11) ; Large 4 aux poids ouverts (digest du 9/11, à vérifier).
+- **Zyphra ZONOS3-Mini** : TTS open-weight avec clonage de voix (12/11, source unique).
+- **OpenAI** : GPT-6.2 Astra/Sol (17/11, source Newegg unique), objectif d'un chercheur automatisé d'ici mars 2028, Performance Factory (Codex).
+- **ICLR 2027** : suppression de reviews générées par IA et desk rejections (Reddit).
+- **CodeRabbit Verify** en bêta publique (18/11).
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) IPO d'Anthropic (ANT) ; 2) GPT-6.2 Astra/Sol ; 3) Gemini 4 Neon.
-- **À tester en priorité** : Gemini 4 Neon (AI Studio), GPT-6.2 Sol (Codex), repo obra/superpowers.
+- **Top 3 du jour** : 1) Preuve GRH revendiquée avec Claude (à vérifier), 2) IPO Anthropic au Nasdaq, 3) Inkling 2 Mini open weights.
+- **À tester en priorité** : Inkling 2 Mini (Ollama/HF, Apache 2.0), Hy4 flash (open weights), Gemini 4 Neon (AI Studio), OpenComputer (open source).
