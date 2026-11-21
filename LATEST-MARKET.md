@@ -1,183 +1,158 @@
-# 🔥 Market Scan — 2026-11-20
+# 🔥 Market Scan — 2026-11-21
 
-> Collecte : treg 4/5 sources (Product Hunt en 504, Reddit vide), 9 recherches extended, GitHub Trending ok, 1 page lue, 3 candidats creusés.
+> Collecte : treg 3/5 sources (Product Hunt en 504, X en erreur, couvertes par WebSearch), 7 recherches extended, GitHub Trending ok, 0 pages lues (collecteur `read` non lancé), 3 candidats creusés.
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Scanner de revente Vinted/Leboncoin sans piège d'essai (6.05/10, 🟡 BUILD ADJACENT)
+- Mon pari : Pari #1 Remboursement de dettes sans frais cachés (6.45/10, 🟡 BUILD ADJACENT)
 - Opportunités immédiates (BUILD NOW) : 0
-- Signal du jour : les apps qui encaissent (ThriftAI, TalkingParents, Double Holo) accumulent les 1★ sur le même thème, l'essai gratuit piégé ou le paywall qui s'est durci.
 
 ## 🧭 Où l'argent se déplace
 | Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Revente / thrift (shopping) | Thrifty AI nouveau→#36, Thrifted 73→#53, Thrift Hunt 85→#62, Inventory Bot nouveau→#65, AI Listing Assistant nouveau→#67 (9 j) | « reseller app » 2 900/mois, CPC 5.23 $, plat ; « thrift scanner app » 10→30 | ThriftAI 4.77★, 20 880 avis, MAJ il y a 25 j ; 29 avis sur 50 à 1★ (essai piégé, prix faux) | **oui** : leader mal vu, clones en nombre |
-| Suivi de colis (shopping) | #3 My Package Tracker, #4 TrackPack 3.7★, #9 Parcels Hub 3.5★ | « amazon package tracker » 60 500, CPC 0.25 $ ; « package tracker app » 210, CPC 2.62 $ | Notes 3.5-3.7★ pour 2 sur 3 | à creuser : CPC bas |
-| Co-parentalité (productivité) | TalkingParents #25, OurFamilyWizard #22 | « co-parenting app » 27 100, CPC 5.31 $, **en baisse** (49 500→8 100) | TalkingParents 4.38★, 41 avis sur 50 à 1★, gratuit supprimé en mars 2026 | **oui** côté plainte, à creuser côté demande |
-| Alertes de restock (shopping) | Scout nouveau→#58, Outpost nouveau→#54, HotStock #5 | « restock alerts » 590, CPC 1.09 $, **260→2 400 en 12 mois** | HotStock 4.7★, 15 508 avis | **oui** : la demande monte plus vite que l'offre |
-| Cartes à collectionner (sports/shopping) | SPcard nouveau→#89, Card Ladder #5, Double Holo #10 | « pokemon card scanner » 14 800, CPC 2.44 $, 8 100→18 100 ; « sports card scanner » 4 400 | Double Holo 4.77★, 22 avis sur 50 à 1★ (paywall, compte obligatoire) | à creuser : données de prix lourdes |
-| Macros IA (santé) | FoodPilot nouveau→#99, MacrosFirst nouveau→#91, MacroFactor #12 | « ai calorie tracker » 1 000, CPC 4.41 $, en baisse | MacroFactor 4.8★ | non : leader solide |
-| Anglais IA (éducation, vocal) | Loora nouveau→#84, LangLearn #8, YayTalk #29 | « language learning app » 27 100, 40 500→8 100 | Speak 4.8★, 67 368 avis | non : saturé, demande en baisse |
+| Remboursement de dettes (finance) | Ditch #13 ; Milo 75→47 ; Credit Booster AI 96→77 ; Dumbo Credit 86→72 (9 j) | « debt payoff app » 590/mois, CPC 11,36 $, stable | Ditch 4.8★, 5165 avis, MAJ hier ; plaintes : frais et review forcée | **oui** : prix et frais, pas de FR |
+| Budget (finance) | Goodbudget 83→67, Weekly nouveau→85, Buddy 90→79 | « budget planner app » 1000, CPC 10,88, en baisse (1900→720) | YNAB, Copilot, EveryDollar très installés | non : demande qui recule |
+| Bible et foi (reference) | Vessel 56→27 ; Life Bible 88→54 ; Diya, Quran Majeed, Holy Bible KJV nouveaux (9 j) | « bible study app » 6600, CPC 3,64, pic 14800 puis chute à 2900 | BibleScroll #13, Bible Shorts #12, Prayer Lock 21 K$/mois déclaré | **à creuser** : version FR, saisonnalité |
+| Scanner de collection (reference) | TCG Stash 73→58 ; TCG Identifier 86→71 ; ToyWorth 79→60 (9 j) | « pokemon card scanner » 14800, CPC 2,44, en hausse ; « coin identifier app » 8100, en baisse | FoilSnap 4.75★ mais prix faux selon avis ; Collectr leader | à creuser : déjà vu 2 fois |
+| Rappels de médicaments et aidants (medical) | Medisafe 79→47 ; Medication/Pill apps ; PillEye 66→45 ; Kidney Pal 60→43 | « medication reminder app » 3600, CPC 2,52, stable | Medisafe 4.7★, 101k avis | à creuser : leader solide, angle FR aidants |
+| Santé féminine et SOPK (medical) | PCOS Pal #8 ; Lively, Natural Cycles dans le top | « pcos app » 390, CPC 5,35 ; « period tracker app » 12100, en forte baisse | PCOS Pal : plainte de prix | à creuser : demande faible |
+| Histoires IA et courts dramas (entertainment) | VibeShort #16, Popia #19, Whispy #26, Heyyyy #36 ; Tallflix, Hushee nouveaux | « ai story app » 260, CPC 7,49, 110→720 en 12 mois | Peu d'avis (1800 à 5800 pour les jeunes) | à creuser : risque contenu, demande qui monte |
+| Mileage et indépendants (finance) | Everlance #14 | « mileage tracker app » 5400, CPC 5,88 ; « invoice app » 2900, CPC 42,6 $ | Everlance 4.8★ | à creuser : déjà proposé |
 
-Source du bloc « Où l'argent bouge » : `/tmp/treg.md`, relevés du 11 au 20/11. Demande : `demand`, caches inclus.
+Mouvements sur 7 à 9 jours selon le bloc treg. Volumes : Google US, `demand`.
 
 ## 🎯 Quoi builder
-### Pari #1 : Scanner de revente Vinted/Leboncoin, essai sans piège
-- **L'idée** : pour les revendeurs et chineurs francophones, un scan photo qui estime le prix de revente et écrit l'annonce Vinted/Leboncoin, à 4.99 €/mois ou 29 €/an, essai sans carte. Déjà vu 1 fois (brocante FR) ; nouveau : le cluster shopping gagne 27 apps en 9 jours.
-- **Preuve d'argent** : [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) #11 shopping (45-60 K$/mois, estimation de trackers) ; [Thrifty AI / Thrift Hunt](https://apps.apple.com/us/app/thrift-hunt-resale-scanner-ai/id6760717302) #36 et #62.
-- **Le trou** : « Charged in full on the day the trial was supposed to end » (avis ThriftAI) ; prix faux sur les livres. Pas d'équivalent français trouvé, demande FR non mesurée.
-- **Pourquoi Kyle** : mobile et SaaS seul, intégration d'API de prix, marché francophone sans leader local vu.
-- **MVP** : scan photo avec estimation et fourchette ; annonce prête à coller ; historique d'achats et marge. 6 à 8 semaines.
-- **Argent** : paywall après 5 scans gratuits sans carte, 4.99 €/mois.
-- **Acquisition** : TikTok de revendeurs. Accroche : « Ton essai ne se transforme jamais en facture surprise. »
-- **Test en 48 h** : landing + vidéo TikTok de scan. Go à 100 emails, stop sous 30.
+### Pari #1 : Remboursement de dettes sans frais cachés
+- **L'idée** : pour les particuliers français avec crédits conso, un planificateur de remboursement (boule de neige / avalanche) à 4,99 €/mois ou 29 €/an, sans frais par paiement.
+- **Preuve d'argent** : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) #13 finance US, 5165 avis ; [Dovly](https://apps.apple.com/us/app/build-credit-fix-it-dovly/id1584248673) #4 finance, 86531 avis (rang, pas un revenu).
+- **Le trou** : avis Ditch : « $13/mo just to move money around », « Wants a review before getting all the way into the app » (fiche App Store). Pas de version française relevée (estimation).
+- **Pourquoi Kyle** : SaaS simple (calculs, graphiques, paywall), marché FR peu servi, sans liaison bancaire au départ.
+- **MVP** : saisie des dettes ; plan avalanche/boule de neige avec date de fin ; suivi mensuel partageable. 3 à 4 semaines.
+- **Argent** : paywall après l'affichage de la « date de libération » ; 29 €/an.
+- **Acquisition** : SEO et TikTok. Demande « debt payoff app » : 590/mois, CPC 11,36 $, stable. Accroche : « Ta date de fin de dettes, sans 1 € de frais caché ».
+- **Test en 48 h** : landing avec calculateur + 50 € de pub ; go si 5 % d'emails sur 200 visites.
 
-### Pari #2 : Co-parentalité à prix plat (France)
-- **L'idée** : pour parents séparés, messagerie, calendrier et frais partagés avec export PDF inclus, 5 €/mois par foyer. Déjà vu 1 fois ; nouveau : TalkingParents a supprimé son gratuit en mars 2026 et 41 avis sur 50 sont à 1★.
-- **Preuve d'argent** : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726) #25 productivité ; [OurFamilyWizard](https://apps.apple.com/us/app/ourfamilywizard-co-parent-app/id497405393) #22 (110-300 $/an par parent, estimation presse).
-- **Le trou** : « Now it's 40 a month. » (avis) ; support absent ; pas de version FR vue.
-- **Pourquoi Kyle** : produit CRUD + paiement, droit français à étudier, SEO francophone.
-- **MVP** : fil de messages horodatés ; calendrier de garde ; export PDF. 8 semaines.
-- **Argent** : paywall à l'invitation du second parent, 5 €/mois par foyer. La demande Google US (27 100, CPC 5.31 $) baisse.
-- **Acquisition** : SEO et forums de parents séparés. Accroche : « Un seul prix pour deux parents. »
-- **Test en 48 h** : landing + post sur un forum. Go à 50 inscrits, stop sous 15.
+### Pari #2 : Focus chrétien en français
+- **L'idée** : pour les catholiques et protestants francophones, une app qui bloque les réseaux jusqu'à une courte prière ou lecture, 4,99 €/mois.
+- **Preuve d'argent** : [Prayer Lock](https://screensdesign.com/apps/prayer-lock-christian-focus/) 21 K$/mois déclaré ; [BibleScroll](https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222) #13 reference ; [Bible Shorts](https://apps.apple.com/us/app/bible-shorts-watch-study/id6795921981) #12.
+- **Le trou** : pas de version FR relevée (estimation). Vessel 56→27 et Diya/Quran nouveaux : la demande religieuse monte. Demande « bible study app » 6600/mois, CPC 3,64 $, retombée de 14 800 à 2900 : saisonnalité à vérifier.
+- **Pourquoi Kyle** : marché francophone, contenu et TikTok plus que du code lourd.
+- **MVP** : blocage via Screen Time (iOS natif) ; prière du jour ; série de jours. 5 à 6 semaines.
+- **Argent** : paywall à la première série réussie ; essai 3 jours.
+- **Acquisition** : TikTok créateurs. Accroche : « Ton téléphone ne s'ouvre qu'après ta prière ».
+- **Test en 48 h** : vidéo TikTok + liste d'attente ; go si 100 inscrits.
 
-### Pari #3 : Scanner de cartes à collectionner sans compte
-- **L'idée** : pour collectionneurs francophones, scan de cartes avec cote Cardmarket, sans compte obligatoire, 3.99 €/mois. Déjà vu 1 fois ; nouveau : « pokemon card scanner » passe de 8 100 à 18 100/mois.
-- **Preuve d'argent** : [Double Holo](https://apps.apple.com/us/app/double-holo-card-scanner/id6759494054) #10 shopping (~250 K$ ARR déclaré) ; [Card Ladder](https://apps.apple.com/us/app/card-ladder/id1541535971) #5 sports.
-- **Le trou** : « Account creation is atrocious. » (avis Double Holo).
-- **Pourquoi Kyle** : il livre vite un scan simple, ses clients FR n'ont pas d'alternative évidente (non vérifié).
-- **MVP** : scan et prix ; collection locale ; alertes de prix. 10 semaines.
-- **Argent** : alertes et export derrière le paywall, 3.99 €/mois.
-- **Acquisition** : TikTok d'ouvertures de boosters. Accroche : « Scanne sans créer de compte. »
-- **Test en 48 h** : vidéo + landing. Go à 150 emails, stop sous 40.
+### Pari #3 : Rappels de médicaments pour aidants
+- **L'idée** : pour les aidants familiaux français, un suivi partagé des prises de médicaments, 3,99 €/mois.
+- **Preuve d'argent** : [Medisafe](https://apps.apple.com/us/search?term=Medisafe) 79→#47 medical, 101k avis ; [Caring Village](https://apps.apple.com/us/app/caring-village-caregiver-app/id1093814557) #92 medical, 36 avis.
+- **Le trou** : angle partage famille en français ; information issue du radar, avis non consultés.
+- **Pourquoi Kyle** : web + mobile, notifications, marché FR.
+- **MVP** : liste de médicaments ; rappels ; partage avec un proche. 4 semaines.
+- **Argent** : paywall au deuxième proche invité.
+- **Acquisition** : SEO. « medication reminder app » 3600/mois, CPC 2,52 $, stable. Accroche : « Papa a-t-il pris ses médicaments ? »
+- **Test en 48 h** : landing ; go si 4 % d'inscriptions.
 
-**Mon pari : #1 — Scanner de revente Vinted/Leboncoin**, car c'est le score le plus haut et la plainte la plus nette (essai piégé), dans la niche où 27 apps entrent en 9 jours. Tu décides.
+**Mon pari : #1 — Remboursement de dettes sans frais cachés**, car c'est le meilleur score pondéré et le seul avec un CPC élevé (11,36 $) et une plainte de prix chiffrée.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché 20 % | ⚙️ Complexité 15 % | ⏱️ Délai 15 % | 🏟️ Concurrence 15 % | 💰 Revenu 20 % | 🧑‍💻 Fit Kyle 15 % | **Score** | Verdict | 3 traits |
+| Pari | Market 20% | Complexité 15% | TTM 15% | Concurrence 15% | Revenu 20% | Fit Kyle 15% | 3 traits | Score | Verdict |
 |---|---|---|---|---|---|---|---|---|---|
-| #1 Scanner de revente FR | 6 | 6 | 6 | 4 | 7 | 7 | **6.05** | 🟡 BUILD ADJACENT | 2 |
-| #2 Co-parentalité FR | 6 | 5 | 5 | 6 | 7 | 6 | **5.90** | 🟠 WATCH | 2 |
-| #3 Scanner de cartes | 5 | 4 | 4 | 4 | 6 | 5 | **4.75** | 🟠 WATCH | 3 |
+| #1 Dettes sans frais | 6 | 7 | 7 | 5 | 6 | 8 | 1 | **6.45** | 🟡 BUILD ADJACENT |
+| #2 Focus chrétien FR | 6 | 6 | 7 | 6 | 7 | 6 | 2 | **6.35** | 🟡 BUILD ADJACENT |
+| #3 Rappels aidants | 6 | 6 | 6 | 3 | 5 | 7 | 1 | **5.50** | 🟠 WATCH |
 
-Scores honnêtes : aucune demande française n'a été mesurée, seulement la demande US, donc les notes de marché sont prudentes.
+Scores honnêtes, sans donnée de revenu directe : à confirmer par les tests en 48 h.
 
-## 💰 Unit Economics — Pari #1 : Scanner de revente FR
-Comparable : ThriftAI, 45-60 K$/mois selon des trackers (estimation). Tout est estimation.
-- **ARR** : 150 K€ en 18 mois (hypothèse : ~3 000 abonnés payants).
-- **ARPU** : 4 €/mois, 48 €/an. **Users** : 30 000 installs, 10 % de conversion.
-- **CAC** : 6 € (TikTok organique + un peu de pub). **LTV** : 4 € × 10 mois = 40 €. **LTV/CAC** : 6.7. **Payback** : 1.5 mois.
-- **Burn** : 800 €/mois (APIs de vision, hébergement). **Runway** : sans levée, jusqu'au seuil de rentabilité sur la trésorerie perso.
-- **Rev/employé** : 150 K€ (1 personne). **Rule of 40** : non applicable, croissance non mesurée.
-- **Verdict santé : 🟡**. L'économie est bonne si la rétention tient, mais le churn des apps de scan est haut (estimation) et la demande FR n'est pas prouvée.
+## 💰 Unit Economics — Pari #1 : Remboursement de dettes sans frais cachés
+Tout en `estimation`, sans source directe de revenus pour Ditch.
+- Users payants : 3 000 à un an. ARPU : ~29 €/an. ARR : ~87 K€.
+- CAC : ~12 € (SEO + TikTok). LTV : ~58 € (rétention de 2 ans). LTV/CAC : ~4,8. Payback : ~5 mois.
+- Burn : ~1 K€/mois (hébergement, outils). Runway : illimité en solo. Rev/Employee : 87 K€ (1 personne). Rule of 40 : non applicable.
+- Verdict : 🟡 sain si l'acquisition organique tient ; la demande Google est faible (590/mois), donc la croissance dépend de TikTok et du SEO long.
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278) | #11 shopping, 20 880 avis | 532 j | Scan photo → prix de revente, essai 3 j puis 9.99 $/mois ou 20-50 $/an | Pièges d'essai, prix faux |
-| [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726) | #25 productivité | 3 856 j | Messagerie co-parents certifiée tribunal, 7-32 $/mois par parent | Gratuit supprimé, support absent |
-| [OurFamilyWizard](https://apps.apple.com/us/app/ourfamilywizard-co-parent-app/id497405393) | #22 productivité, 57 581 avis | ancien | Idem, 110-300 $/an par parent (estimation presse) | Prix, pas de version FR |
-| [Double Holo](https://apps.apple.com/us/app/double-holo-card-scanner/id6759494054) | #10 shopping ; ~250 K$ ARR déclaré fondateur | 252 j | Scanner Pokémon + place de marché, 4.9 % de frais | Paywall vendeur durci |
-| [Card Ladder](https://apps.apple.com/us/app/card-ladder/id1541535971) | #5 sports, 12 303 avis, 4.9★ | ancien | Valeur de cartes de sport | Pas creusée |
-| [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) | #3 shopping | ancien | Suivi de colis | Demande 60 K/mois |
-| [TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278) | #4 shopping, 3.7★ | récent | Suivi de colis | Note faible |
-| [Outpost Alerts](https://apps.apple.com/us/app/outpost-alerts/id6777955638) | #54 shopping | 50 j | Alertes de stock | Jeune, 0 avis |
-| [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471) | #12 health, 4.8★ | ancien | Suivi de macros adaptatif | Pas de FR |
-| [Runna](https://apps.apple.com/us/app/runna-running-plans-coach/id1594204443) | #17 health | ancien | Plans de course | — |
-| [LangLearn](https://apps.apple.com/us/app/langlearn-ai-english-tutor/id6744358897) | #8 éducation (vocal) | ancien | Tuteur d'anglais IA | — |
-| [Wispr Flow](https://apps.apple.com/us/app/wispr-flow/id6497229487) | #33 productivité (vocal) | ancien | Dictée IA | — |
-| App de [@julscales](https://x.com/julscales/status/2123064291305640065) | 3 100 $ MRR déclaré | ~1 mois | App iOS via TikTok organique | Canal TikTok |
-| [CFO Lens](https://x.com/arsyadharmaa/status/2123250350933373015) | 3 500 $ MRR déclaré | 6 mois | Outil de pilotage financier | — |
-| [HabitKit](https://www.buildmvpfast.com/blog/602k-revenue-solo-indie-hacker-app-portfolio-breakdown-2026) | 28 K$ MRR (déc. 2025, secondaire) | ~2 ans | Suivi d'habitudes à 1-2 $/mois | Prix très bas |
+| [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) | #13 finance, 5165 avis, 4.8★ | 1163 j | Dettes remboursées par arrondis, ~79 $/an + 1 $/paiement | Frais cachés, review forcée |
+| [Copilot](https://apps.apple.com/us/app/copilot-track-budget-money/id1447330651) | #6 finance, 31097 avis | n.r. | Budget (payant) | — |
+| [Weekly: Budget Planner](https://apps.apple.com/us/search?term=Weekly%20Budget%20Planner) | nouveau→#85 finance | n.r. | Budget et factures | À creuser (lien non relevé) |
+| [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525) | #11 reference, 15692 avis | 416 j | Scanner de cartes TCG, ~40 $/an | Prix faux, abonnement piégeux |
+| [Collectr](https://apps.apple.com/us/app/collectr-tcg-collector-app/id1603892248) | #8 reference, ARR 8 chiffres (estimation) | n.r. | Suivi de collection, 7,99 $/mois | Leader, pas de version FR |
+| [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) | #8 medical, 2702 avis | 1027 j | Plans repas SOPK, 15 $/sem ou 200 $ à vie | Prix, pas de FR |
+| [Eko Vet+](https://apps.apple.com/us/app/eko-vet/id6743011008) | 54→#35 medical, 20 avis | 206 j | Stéthoscope numérique véto (matériel) | Dépend du hardware : non |
+| [Medisafe](https://apps.apple.com/us/search?term=Medisafe) | 79→#47 medical, 101k avis | n.r. | Rappels de médicaments | Version FR aidants |
+| [Prayer Lock](https://screensdesign.com/apps/prayer-lock-christian-focus/) | 21 K$/mois déclaré | ~1 an (estimation) | Bloque les apps jusqu'à la prière | Version FR |
+| [App « TikTok de la Bible »](https://x.com/jacobrodri_/status/2115060267545731513) | 2 M$ MRR déclaré, preuve faible | 10 mois | Bible en scroll vidéo | Non nommée |
+| [BibleScroll](https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222) | #13 reference, 10569 avis | n.r. | Focus chrétien | Distribution FR |
+| [Vessel Bible](https://apps.apple.com/us/search?term=Vessel%20Bible) | 56→#27 reference, 92 avis | n.r. | Étude biblique et notes | À creuser |
+| [Content Manager AI Cleaner](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300) | 52→#12 utilities, 60597 avis | n.r. | Nettoyage de photos | Déjà vu |
+| [Wellmy Heart Rate](https://apps.apple.com/us/app/wellmy-heart-rate-monitor/id6463719381) | 71→#29 health, 12802 avis | n.r. | Fréquence cardiaque | Faible barrière |
+| [Popia AI Stories](https://apps.apple.com/us/app/popia-ai-stories-creators/id6757948021) | #19 entertainment, 2195 avis | n.r. | Histoires IA interactives | Demande « ai story app » en hausse |
+
+n.r. = non relevé. Les liens Weekly, Medisafe et Vessel sont des raccourcis sans id : à vérifier.
 
 ## 💸 Apps qui font du cash
-**Revenus déclarés (déclaré, non vérifié)**
-- App iOS de @julscales : 3 100 $ MRR, 3 800 $ en un mois, 7 000 téléchargements, TikTok organique, 18/11/2026. [post](https://x.com/julscales/status/2123064291305640065) (nom de l'app non donné)
-- CFO Lens : 3 500 $ MRR, 19/11/2026, clients à Londres, Hong Kong, US. [post](https://x.com/arsyadharmaa/status/2123250350933373015)
-- App de @zakisbuilding : 1 100 $ bruts sur 28 jours, 17/11/2026, pas du MRR. [post](https://x.com/zakisbuilding/status/2122823230540968335)
-- Metrya (santé iOS) : 2 000 $ cumulés, 123 acheteurs, 14/11/2026. [post](https://x.com/rjozefowicz/status/2121589922611990926)
-- ScribeKit : 30 $ MRR, 23 payants, 18/11/2026, tout vient de la recherche App Store. [post](https://x.com/truly_offline/status/2122993424723026229)
-- HabitKit : 28 K$ MRR en déc. 2025, 25 100 abonnés à 1-2 $/mois, source secondaire. [article](https://www.buildmvpfast.com/blog/602k-revenue-solo-indie-hacker-app-portfolio-breakdown-2026)
+**Revenus déclarés** (déclaré, non vérifié)
+- Prayer Lock (blocage d'apps jusqu'à la prière) : 21 K$/mois en décembre, 15 K$ en novembre, 10 K$ en octobre selon le fondateur (capture App Store, vidéo Starter Story). Un co-fondateur annonce 150 K$/mois, chiffre non corroboré. [Ernesto Lopez sur X](https://x.com/ErnestoSOFTWARE/status/2049556610637348938) · [ProvenStartups](https://provenstartups.com/projects/prayer-lock-faith-phone-blocker-app)
+- App « TikTok de la Bible » : 2 M$ MRR en 10 mois, post X fin octobre 2026, app non nommée, donc `preuve faible`. [Post](https://x.com/jacobrodri_/status/2115060267545731513)
+- Collectr (scanner et suivi de cartes TCG) : ARR « à huit chiffres », équipe de 5, abonnement 7,99 $/mois (estimation d'une newsletter). [Ventureradar](https://www.readventureradar.com/p/collectible-app-ideas-collectr)
+- Zigpoll (SaaS Shopify, solo) : environ 125 K$ MRR en juin 2026. [Indie Hackers](https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO)
+- Petit SaaS à 130 $ MRR, post Reddit de la semaine : [r/SaaS](https://www.reddit.com/r/SaaS/comments/1y1h7k8/). Produit peu identifiable.
 
-**App Store US, top grossing, moins de 100k avis (un rang n'est pas un revenu)**
-- #3 shopping, 11 377 avis : [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226), suivi de colis.
-- #4 shopping, 2 011 avis, 3.7★ : [Package Tracker TrackPack](https://apps.apple.com/us/app/package-tracker-trackpack/id6762376278), idem, app récente (id 676…).
-- #5 sports, 12 303 avis : [Card Ladder](https://apps.apple.com/us/app/card-ladder/id1541535971), prix de cartes de sport.
-- #11 shopping, 20 880 avis : [ThriftAI](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278), scanner de profit de revente.
-- #12 health, 24 189 avis : [MacroFactor](https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471), suivi de macros.
-- #24 productivité, 24 522 avis : [Plaud](https://apps.apple.com/us/app/plaud-ai-work-companion/id6450364080), notes IA (matériel + app).
-- #25 productivité, 28 756 avis : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726), communication de co-parents.
-- Mouvements : shopping a 27 apps qui entrent ou montent en 9 jours (Thrifty AI nouveau→#36, Thrift Hunt 85→#62, Scout nouveau→#58).
+**App Store US, moins de 100k avis (un rang n'est pas un revenu)**
+- #13 finance, 5165 avis : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208), remboursement de dettes par arrondis. 
+- #15 finance, 6155 avis : [Collect](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187), trouve des class actions à réclamer. 
+- #11 reference, 15692 avis : [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525), scanner de cartes TCG.
+- #12 reference, 5021 avis : [Bible Shorts](https://apps.apple.com/us/app/bible-shorts-watch-study/id6795921981), vidéos courtes bibliques.
+- #8 medical, 2702 avis : [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020), plans repas SOPK.
+- #35 productivity, 8213 avis : [Pocket AI assistant](https://apps.apple.com/us/app/pocket-ai-personal-assistant/id6746845735).
+- #34 education, 18462 avis : [Gizmo AI Tutor](https://apps.apple.com/us/app/gizmo-ai-tutor/id1610516671).
+- #12 utilities (52→12 en un jour), 60597 avis : [Content Manager AI Cleaner](https://apps.apple.com/us/app/content-manager-ai-%D1%81leaner/id1541639300).
 
-**Jeunes apps qui gagnent déjà (sorties il y a moins de 365 jours)**
-- #54 shopping, [Outpost Alerts](https://apps.apple.com/us/app/outpost-alerts/id6777955638), 50 j, alertes de stock, aucun avis.
-- #92 shopping, [FlipRaptor](https://apps.apple.com/us/app/flipraptor/id6807098970), 52 j, revente, 1 avis.
-- #58 sports, [Captured Putting](https://apps.apple.com/us/app/captured-putting/id6820870213), 13 j, putting, 1.0★ sur 2 avis.
-- #62 shopping, [Thrift Hunt](https://apps.apple.com/us/app/thrift-hunt-resale-scanner-ai/id6760717302), 239 j, scanner de revente, 5 avis.
-- #99 shopping, [Thrifty Joe](https://apps.apple.com/us/app/thrifty-joe/id6762083255), 205 j, 4 avis.
-- #10 shopping, [Double Holo](https://apps.apple.com/us/app/double-holo-card-scanner/id6759494054), 252 j, scanner Pokémon.
-- Place à prendre : [QuickList](https://apps.apple.com/us/app/quicklist-ai-listing-tool/id6759634194) (#100, annonces IA) sans mise à jour depuis 251 jours.
+**Jeunes apps qui gagnent déjà (< 365 j)**
+- FoilSnap : sortie 2025-09-30 (416 j, juste au-dessus du seuil), #11 reference, 15692 avis.
+- Eko Vet+ : sortie 2026-04-28 (206 j), 54→#35 medical, 20 avis.
+- Vax-App : sortie 2026-06-25 (148 j), #80 medical, 16 avis (Church of The Healing Angels, signal douteux).
+- Breakout: Prop Firm & Trading : sortie 2026-03-25 (240 j), nouveau→#50 finance, 14 avis, 3.2★.
+- Fandorix : sortie 2026-09-10 (71 j), #99 entertainment, 4 avis, 1.0★ : classement suspect.
+- Leaders sans mise à jour > 180 j : aucun trouvé dans la liste ; AnSo (126 j) et Coexisting Diseases (108 j) sont les plus anciens.
 
-## 🔬 App creusée #1 : ThriftAI (shopping)
-**1. Identification** : [ThriftAI: Profit Identifier](https://apps.apple.com/us/app/thriftai-profit-identifier/id6746565278), sortie App Store 2025-06-05, éditeur smallstack ApS (Danemark), fondateurs non trouvés. Shopping, #11 top grossing US, 20 880 avis, 4.77★. Revenu : 45 à 60 K$/mois selon des trackers tiers (estimation, non vérifié).
-**2. Proposition** : photographier un objet de friperie, obtenir un prix de revente et une annonce eBay. Cible : revendeurs et chineurs. Prix : essai 3 jours, puis 9.99 $/mois ou 20-50 $/an, plus un module « sell-through » à 40 $ ([source](https://www.underpriced.app/blog/underpriced-vs-thrift-ai-2026)).
-**3. Les 3 décisions qui font l'argent** (avis, estimation pour le reste)
-- Onboarding : compte à rebours de 10 min dès l'installation avec offre d'essai (avis du 12/10).
-- Paywall : avant la première valeur, au moment où la curiosité est la plus forte.
-- Retour : l'utilisateur rescanne en magasin à chaque sortie, usage répété.
-**4. Test des 3 traits**
-- ✅ Une émotion pour une action : « combien vaut ce truc ? », l'envie de trouver une pépite.
-- ✅ Résultat visible en quelques secondes : un prix, même si les avis disent que le traitement est lent (3 photos exigées).
-- ❌ Distribution intégrée : pas de partage ni de code visible ; la croissance vient d'ailleurs.
-**5. Ce qui manque** : la plainte n°1 est le piège d'essai et la facturation. « Charged in full on the day the trial was supposed to end. » Seconde plainte : prix faux (« Pricing $300 book at $20 »). MAJ il y a 25 jours, donc pas abandonnée. 29 avis sur 50 sont à 1★.
-**6. Acquisition** : pubs Meta non trouvées (page « Thrift AI » ambiguë). Autres canaux : non relevés (estimation : TikTok de revendeurs).
-**7. Stack** : estimation, app mobile native, vision par modèle multimodal, comparables de ventes eBay, abonnements via RevenueCat.
-**8. Réplication** : complexité 6/10. Verticaux adjacents : livres, cartes, vinyles, brocante FR. Niche : un leader qui déçoit, sans vrai numéro 2 propre en français. Angle Kyle : même scan, prix fixe, essai sans carte, annonce Vinted/Leboncoin générée. Temps de dev : 6 à 8 semaines.
+## 🔬 App creusée #1 : Ditch (finance)
+1. **Identification** : [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208), Ditch Technologies, finance. Sortie App Store 2023-09-14, MAJ 2026-11-20. 4.83★ sur 5165 notes. Fondateurs non relevés. Méthode a publié un cas client : plus de 3 M$ de paiements de dettes et ~30 000 utilisateurs ([Method](https://methodfi.com/customers/ditch)), volume de paiements, pas un revenu.
+2. **Proposition** : dettes remboursées par arrondis d'achats et paiements auto. Cible : Américains endettés. Gratuit à télécharger, essai 1 semaine, environ 79 à 80 $/an (avis) plus 1 $ par paiement.
+3. **3 décisions** : onboarding long avec parcours de 5★ exigé avant d'entrer (avis, risque côté règles Apple) ; paywall juste après la connexion des comptes, au pic d'espoir ; retour par les paiements quotidiens automatiques.
+4. **3 traits** : émotion ✅ (soulagement de la dette) ; résultat en secondes ❌ (comptes à lier, vérification d'identité lente) ; distribution intégrée ❌ (aucune).
+5. **Ce qui manque** : frais cachés et prix, 22 avis 1★ sur 50. « $13/mo just to move money around » ; « Wants a review before getting all the way into the app ». MAJ il y a 1 jour : pas de place par l'ancienneté.
+6. **Acquisition** : pubs Meta non trouvées (aucune page d'app sûre). Autres canaux : non relevés.
+7. **Stack** : estimation : app mobile, paiements via Method (API de paiement de dettes).
+8. **Réplication** : 7/10 avec la liaison bancaire, 4/10 en saisie manuelle. Niche : planificateur de remboursement sans frais par paiement, abonnement bas. Angle Kyle : marché FR (crédits conso, rachat), SaaS web simple. Temps : 4 à 6 semaines.
 
-## 🔬 App creusée #2 : TalkingParents (productivité)
-**1. Identification** : [TalkingParents](https://apps.apple.com/us/app/talkingparents-co-parent-app/id1092220726), sortie 2016-04-29, éditeur Monitored Communications LLC, fondateurs non trouvés. Productivité, #25 top grossing, 28 756 avis, 4.38★. Revenu non déclaré, le rang est le seul signal.
-**2. Proposition** : messagerie, appels et paiements entre parents séparés, conservés dans un registre recevable au tribunal. Prix : 7, 16 ou 32 $/mois par parent, essai 30 jours ([page](https://talkingparents.com/pricing)). Plan gratuit supprimé le 30/03/2026 selon des comparatifs.
-**3. Les 3 décisions qui font l'argent**
-- Onboarding : un tribunal ou un avocat impose souvent l'outil, donc l'autre parent s'inscrit de force (estimation).
-- Paywall : après l'adoption obligatoire, l'enjeu émotionnel (voir ses enfants, preuve) rend la résiliation difficile.
-- Retour : calendrier partagé, appels « accountable », exports PDF vendus à part.
-**4. Test des 3 traits**
-- ✅ Émotion : le conflit, « protect your peace ».
-- ❌ Résultat en quelques secondes : le gain est un dossier, pas un résultat immédiat.
-- ✅ Distribution intégrée : l'autre parent doit rejoindre, et les tribunaux prescrivent l'outil.
-**5. Ce qui manque** : prix et support. « Just renewed my Subscription now it says They cannot find an active subscription. » « Now it's 40 a month. » 41 avis sur 50 sont à 1★. MAJ il y a 17 jours.
-**6. Acquisition** : 30 pubs Meta actives, dont 2 lancées depuis 7 jours. Formats : dco 18, image 6, vidéo 4, carrousel 2. Accroches : « Gaslighting doesn't work when there's a transcript » ; « High conflict co-parenting takes a toll. Protect your peace with recorded interactions. » ; « Documentation matters too. »
-**7. Stack** : estimation, app native iOS/Android, web, vidéo WebRTC, archivage horodaté, Stripe.
-**8. Réplication** : complexité 5/10 (la recevabilité juridique est le vrai coût, pas le code). Adjacent : parents séparés, aidants, colocation. Niche : leader mal noté, concurrent OurFamilyWizard cher ; pas de version française vue. Angle Kyle : prix fixe par foyer, droit français (JAF). Temps de dev : 8 semaines.
+## 🔬 App creusée #2 : FoilSnap (reference)
+1. **Identification** : [FoilSnap](https://apps.apple.com/us/app/tcg-card-scanner-foilsnap/id6752642525), Next Vision Limited, reference. Sortie 2025-09-30, MAJ 2026-11-18. 4.75★ sur 15692 notes. #11 top grossing reference.
+2. **Proposition** : scanner IA de cartes Pokémon, Magic, Yu-Gi-Oh ; prix du marché, collection. Gratuit puis ~40 $/an (avis).
+3. **3 décisions** : essai gratuit limité à quelques scans (« It only let me scan three cards ») ; paywall dès que la valeur d'une carte est révélée ; retour par le suivi de la valeur de la collection.
+4. **3 traits** : émotion ✅ (la carte vaut-elle de l'argent ?) ; résultat en secondes ✅ ; distribution intégrée ❌ (pas de partage observé).
+5. **Ce qui manque** : précision et prix faux. « I scan a common card it said $35. I used eBay it said $5 » ; « Told me I had a $154 but it was actually 50 cents ». Plaintes de renouvellement annuel automatique. MAJ il y a 3 jours.
+6. **Acquisition** : pubs Meta : 0 active (la page « TCG Card Scanner » trouvée n'est pas sûre). Autres canaux non relevés.
+7. **Stack** : estimation : vision par ordinateur, base de prix type TCGplayer.
+8. **Réplication** : 6/10. Déjà proposé deux fois, la nouveauté est la demande (Pokémon scanner 14 800/mois en hausse) et le trou de fiabilité des prix. Temps : 6 semaines.
 
-## 🔬 App creusée #3 : Double Holo (cartes à collectionner)
-Note : catégorie App Store Shopping, regroupée ici sous « cartes à collectionner ». Card Ladder (#5 sports) n'a pas été creusée, la limite de 3 fiches était atteinte.
-**1. Identification** : [Double Holo: Card Scanner](https://apps.apple.com/us/app/double-holo-card-scanner/id6759494054), sortie 2026-03-12, éditeur Double Holo Inc., cofondateur Kacy Lombard. #10 shopping, 2 191 avis, 4.77★. Revenu : environ 250 K$ ARR, 40-50 K utilisateurs, dit par le cofondateur ([Teknovation](https://www.teknovation.biz/doubleholo-is-capitalizing-on-the-marketplace-for-collectibles/), date non précisée, déclaré, non vérifié).
-**2. Proposition** : scanner une carte Pokémon, voir le prix du marché, puis la vendre depuis l'app. Gratuit pour scanner, premium pour alertes et ROI de grading, 4.9 % de frais vendeur, Vendor Hub (caisse de salon) payant.
-**3. Les 3 décisions qui font l'argent**
-- Onboarding : long, compte obligatoire (« about 50 pages to click through », avis).
-- Paywall : le scan est gratuit ; l'argent vient des frais de vente, des alertes et de l'inventaire limité à 50 objets.
-- Retour : alertes de prix, inventaire, boutique.
-**4. Test des 3 traits**
-- ✅ Émotion : la chasse à la carte valable.
-- ✅ Résultat en secondes : prix en direct au scan.
-- ✅ Distribution : place de marché, créateurs partenaires cités dans les avis.
-**5. Ce qui manque** : paywall qui se durcit, compte obligatoire. « Now I have over 300 items in my inventory with now a sudden paywall. » « Account creation is atrocious. » MAJ il y a 47 jours.
-**6. Acquisition** : pubs Meta non trouvées (pages « DoubleHolo » ambiguës). Autres canaux : créateurs de cartes cités dans les avis, SEO sur « pokemon card scanner ».
-**7. Stack** : estimation, vision par ordinateur sur base de cartes, flux de prix, place de marché avec paiement.
-**8. Réplication** : complexité 7/10 (base de cartes et prix). Adjacent : sports, Lorcana, monnaies. Niche : scanner francophone sans compte. Angle Kyle : scan hors ligne simple, cote Cardmarket. Temps de dev : 10 semaines.
+## 🔬 App creusée #3 : PCOS Pal (medical)
+1. **Identification** : [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020), Slayyy, Inc., medical. Sortie 2024-01-28, MAJ 2026-11-02. 4.65★ sur 2701 notes, #8 top grossing medical.
+2. **Proposition** : plans repas et suivi de poids pour le SOPK. Pas d'essai gratuit : ~15 $/semaine, ~20 $/mois, 200 $ à vie (avis).
+3. **3 décisions** : questionnaire long puis paywall bloquant ; offres de remise successives à la sortie ; retour par le plan repas quotidien et les leçons.
+4. **3 traits** : émotion ✅ ; résultat en secondes ❌ ; distribution ❌.
+5. **Ce qui manque** : prix. « Simply can't afford $14 a week » ; « Stuck on paywall ». 19 avis 1★ sur 50.
+6. **Acquisition** : pubs Meta non trouvées. Autres canaux non relevés.
+7. **Stack** : estimation : app mobile, Apple Health, abonnement.
+8. **Réplication** : 4/10. Déjà proposé (plan repas SOPK FR) ; demande « pcos app » 390/mois, en baisse pour « pcos tracker » : on ne le repropose pas. Temps : 3 semaines.
 
 ## 📈 Tendances Émergentes
-**Accroches qui reviennent** (une seule app avec pubs trouvées : TalkingParents)
-- « La preuve te protège » : « Gaslighting doesn't work when there's a transcript », « Protect your peace with recorded interactions ».
-- Pour les apps de revente, aucune accroche récupérée (pages Meta ambiguës) : à vérifier à la main dans la Meta Ad Library.
+**Accroches publicitaires** : aucune accroche Meta récupérée (0 pub pour FoilSnap, pages non trouvées pour Ditch et PCOS Pal). Le seul signal marketing : Prayer Lock fait tourner environ 6000 vidéos TikTok/mois avec 3 scripts (propos d'un co-fondateur, non vérifié).
 
 **Autres signaux**
-- **Le piège d'essai tue la note** : ThriftAI (essai facturé en plein), TalkingParents (gratuit supprimé en mars 2026), Double Holo (paywall vendeur ajouté). Les trois ont des centaines de 1★ récents sur ce seul thème. Une promesse « sans piège » est une accroche vendable.
-- **Shopping, 27 apps entrées ou montées en 9 jours** : revente par scan photo, alertes de stock, suivi de colis. Les entrants ont peu d'avis (Deals Soldier 7, Thrifted 23).
-- **Alertes de restock** : la recherche Google passe de 260 à 2 400/mois en 12 mois, avec un CPC de 1.09 $.
-- **Distribution TikTok organique** : une app iOS déclare 3 100 $ MRR en un mois sans pub ([post](https://x.com/julscales/status/2123064291305640065)).
-- **Recherche App Store seule** : ScribeKit, 23 payants en 5 semaines ([post](https://x.com/truly_offline/status/2122993424723026229)).
-- **GitHub Trending (semaine)** : outils pour agents de code (chrome-devtools-mcp, plannotator, ag-ui) et [sure](https://github.com/we-promise/sure), app de finance perso open source à 3 226 étoiles.
-- **HN** : l'introduction en bourse d'Anthropic domine (1 012 pts), sans lien direct avec un produit à copier.
+- La plainte numéro un des avis est le paywall piégeux : review forcée (Ditch), renouvellement annuel automatique (FoilSnap), 15 $/semaine (PCOS Pal). Un prix clair est un angle.
+- Le blocage d'apps conditionné à un acte (prière) donne un cas à 21 K$/mois déclaré.
+- Les agents de code dominent GitHub Trending (univer, open-code-review, chrome-devtools-mcp) ; [we-promise/sure](https://github.com/we-promise/sure) est une app de finance perso open source.
+- HN : Signal critique les agents IA dans les OS mobiles ; le classement top grossing est dominé par les courts dramas IA.
+- Product Hunt direct : 504, uniquement via recherche ([PH 14 novembre](https://www.producthunt.com/leaderboard/daily/2026/11/14)).
