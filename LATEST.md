@@ -1,104 +1,76 @@
-# AI Watch — 2026-11-21 Matin
+# AI Watch — 2026-11-22 Matin
 
-> Collecte : treg 3/4 sources (Product Hunt en 504), 15 recherches extended, GitHub Trending ok, 4 pages lues, 5 items confirmés par une deuxième source.
+> Collecte : treg 4/4 sources, 14 recherches extended, GitHub Trending ok, 3 pages lues, 2 items confirmés par une deuxième source (Riemann/Lean, Inkling 2 Mini).
 
 ## 🔥 Breaking
 
-### Preuve revendiquée de l'hypothèse de Riemann généralisée (GRH) avec Claude
-- **Quoi** : Levent Alpöge (Anthropic), avec un modèle interne, publie une preuve Lean-only de la GRH (~17,4 M de lignes de Lean selon Aaronson). Même jour : preuves assistées par IA de blow-up en temps fini pour Euler 3D (version lisible) et Navier-Stokes 3D (Alpöge, Buckmaster, Coiculescu).
-- **Date** : 2026-11-20
-- **Lien** : https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/ ; https://scottaaronson.blog/?p=10344 ; https://alpo.ge/remark.pdf
-- **Pourquoi c'est important** : si la vérification tient, c'est le résultat mathématique le plus marquant jamais obtenu avec une IA. Statut : NON vérifié. Pas de version lisible pour la GRH, vérification en cours (fil Lean Zulip). À traiter avec prudence.
-- **Testable** : Non (preuve Lean à vérifier par la communauté)
+### Preuve de l'hypothèse de Riemann (et GRH) par Levent Alpöge + Claude
+- **Quoi** : Levent Alpöge (mathématicien chez Anthropic) publie, avec Claude, une preuve de l'hypothèse de Riemann et de la GRH, formalisée en Lean 4 (~17 M de lignes). La communauté Lean/Mathlib déclare « pleine confiance » dans sa correction après compilation indépendante et vérification par plusieurs checkers.
+- **Date** : 20 nov. 2026 (certification Lean le 21 nov.)
+- **Lien** : https://leanprover-community.github.io/blog/posts/riemann-hypothesis/ — https://alpo.ge/remark.pdf — https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/
+- **Pourquoi c'est important** : si confirmé, plus grand problème ouvert des mathématiques résolu avec une IA ; certification formelle = signal fort. À noter : un brouillon humain concurrent (Alessandro Masullo, Stanford) est sorti quelques heures plus tard, et l'examen par les pairs de l'argument mathématique n'est pas terminé. Le papier de Terry Tao du même jour (lien Euler/Navier-Stokes ↔ GRH) alimente le débat : https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/
+- **Testable** : Oui — la bibliothèque Lean est publique, compilable avec Mathlib (gratuit, open source).
 
-### Anthropic entre au Nasdaq (ANT)
-- **Quoi** : IPO à 83 $/action, ~81,3 Md$ levés (record), ouverture à 111,50 $, clôture ~97 $ le premier jour.
-- **Date** : 2026-11-19
-- **Lien** : https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html
-- **Pourquoi c'est important** : plus grosse IPO de l'histoire ; valorisation 1,3 à 2 T$ selon le moment. Chiffres variables selon les sources.
-- **Testable** : Non
-
-### Inkling 2 Mini (Thinking Machines) — open weights, looped transformer
-- **Quoi** : MoE 26,4B (3,4B actifs), couches centrales exécutées 3 fois par token, Apache 2.0, 1M de contexte, texte+image. 48,2 % DeepSWE v1.1, meilleur modèle open <100B selon le labo.
-- **Date** : 2026-11-20
-- **Lien** : https://thinkingmachines.ai/news/inkling-2-mini/
-- **Pourquoi c'est important** : architecture bouclée qui raisonne plus avec moins de tokens ; tourne en local (Mac 32 Go via Ollama, DGX Spark, ~200 tok/s sur RTX 4090 avec vLLM selon Reddit).
-- **Testable** : Oui — open source, Ollama, Hugging Face, Tinker, OpenRouter.
+### Inkling 2 Mini (Thinking Machines) — modèle ouvert « looped transformer »
+- **Quoi** : MoE 26,4B (3,4B actifs), couches centrales bouclées 3 fois ; tourne sur laptop (≈32 Go Mac / 5,4 Go en quant selon un repo HN). Revendique la tête des modèles ouverts <100B : DeepSWE v1.1 48,2 %, Vals Index v2.2 46,5 %. Une variante « variable-loop » sort pour la recherche.
+- **Date** : 20 nov. 2026
+- **Lien** : https://thinkingmachines.ai/news/inkling-2-mini/ — https://lmstudio.ai/models/inkling-2-mini
+- **Pourquoi c'est important** : première architecture bouclée grand public en open weights, raisonne davantage avec moins de tokens ; étude de monitorabilité du CoT incluse. Benchmarks fournis par le labo (SWE-bench Verified 79,2 % cité par MarkTechPost, non confirmé ailleurs).
+- **Testable** : Oui — Apache 2.0, poids sur Hugging Face, LM Studio, API Tinker.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Gemini : computer use sur Mac
-- **Quoi** : l'app Gemini pour macOS pilote apps natives et sites en arrière-plan, avec validation des actions.
-- **Date** : 2026-11-19
+### Claude Computer Use (bêta Team/Enterprise) + nouveau design mobile
+- **Quoi** : Anthropic ajoute Computer Use en bêta aux plans Team/Enterprise et refond l'app mobile (source newsletter, non confirmée par seconde source).
+- **Date** : ~21 nov. 2026
+- **Lien** : https://riorundown.substack.com/p/ai-news-nov-21-2026-enterprise-infrastructure
+- **Pourquoi c'est important** : agents desktop en entreprise.
+- **Testable** : Oui si plan Team/Enterprise (payant).
+
+### Gemini computer use sur Mac
+- **Quoi** : Gemini pilote les apps Mac en arrière-plan (US, anglais, abonnés AI Plus/Pro/Ultra).
+- **Date** : 19 nov. 2026
 - **Lien** : https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/
-- **Pourquoi c'est important** : agent desktop grand public chez Google.
-- **Testable** : Oui — abonnement Google AI Plus/Pro/Ultra (payant).
+- **Pourquoi c'est important** : course au computer use grand public.
+- **Testable** : Oui (payant).
 
-### DreamCoder (harness/IDE de code)
-- **Quoi** : harness de codage et IDE par l'auteur de Mastering Emacs.
-- **Date** : 2026-11-20 (HN, 142 pts)
-- **Lien** : https://www.masteringemacs.org/article/announcing-dreamcoder
-- **Pourquoi c'est important** : nouvel entrant côté éditeurs/agents ; source unique, à surveiller.
-- **Testable** : Oui — voir la page.
+### Product Hunt : Exa Websets V2, Shipyard, AI Context Flow MCP, Stitch Loop
+- **Quoi** : Exa Websets V2 (datasets web 4x plus rapides, 126 votes) ; Shipyard (MCP pour Claude/Cursor/Codex, 88) ; AI Context Flow MCP (mémoire partagée entre agents, 220) ; Stitch Loop (agent Google qui corrige et suit la métrique, 73).
+- **Date** : 21-22 nov. 2026
+- **Lien** : https://www.producthunt.com/products/exa-ai — https://www.producthunt.com/products/shipyard — https://www.producthunt.com/products/ai-context-flow — https://www.producthunt.com/products/stitch-loop
+- **Pourquoi c'est important** : outillage MCP/agents en croissance continue.
+- **Testable** : Oui (tarifs variables).
 
-### OpenComputer (alternative open source à Devin)
-- **Quoi** : agent de dev open source (Show HN).
-- **Date** : 2026-11-20
-- **Lien** : https://github.com/diggerhq/opencomputer
-- **Pourquoi c'est important** : agent autonome auto-hébergeable.
-- **Testable** : Oui — open source.
-
-### ChatGPT : Live Dictation et GPT-Live-1.1 (API)
-- **Quoi** : dictée en direct sans limite de 10 min ; GPT-Live-1.1 pour agents vocaux multilingues.
-- **Date** : 2026-11-20 (sources secondaires + forum OpenAI)
-- **Lien** : https://community.openai.com/c/announcements/6
-- **Pourquoi c'est important** : voice AI.
-- **Testable** : Oui — ChatGPT / API (payant).
-
-### GitHub Trending (open source)
-- Claude-BugHunter (skills Claude Code, +1622★), obra/superpowers, firecrawl/firecrawl (API web pour agents), HKUDS/CLI-Anything, minimind (LLM 64M en 2h), last30days-skill, opensre, autoclip. Tendance : écosystème de « skills » pour agents de code. Lien : https://github.com/trending?since=daily
+### GitHub Trending : outillage pour agents de code
+- **Quoi** : obra/superpowers (+883 ★), HKUDS/CLI-Anything (+769), firecrawl/firecrawl (+1006), cathrynlavery/diagram-design (+583), mvanhorn/last30days-skill (+560), jingyaogong/minimind (+488), Claude-BugHunter (+1803, skill de bug hunting/red team). Open source.
+- **Date** : 22 nov. 2026
+- **Lien** : https://github.com/trending?since=daily
+- **Pourquoi c'est important** : les « skills » pour Claude Code/Cursor/Codex dominent le trending.
+- **Testable** : Oui (open source, gratuit).
 
 ## 🧠 Mises à jour de Modèles
 
-### Gemini 4 Neon (Google)
-- **Quoi** : modèle entre Hydrogen et Carbon, 1M de contexte, ~3 $/15 $ par M tokens (une source), benchmarks Google : Terminal-Bench Science 70,5 %, HLE-Diamond 71,3 %.
-- **Date** : 2026-11-18
-- **Lien** : https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
-- **Pourquoi c'est important** : 4e modèle Gemini en un mois (cadence rapide). Benchmarks non indépendants.
-- **Testable** : Oui — AI Studio, app Gemini Pro/Ultra, Antigravity.
-
-### Tencent Hy4 flash
-- **Quoi** : MoE ~224B (~12B actifs), multimodal, 1M contexte, open weights, ~0,07 $/M tokens en entrée ; Tencent le dit proche de Claude Haiku 5.5 à 1/18 du coût (chiffres internes).
-- **Date** : 2026-11-16 (poids ouverts ~17)
-- **Lien** : https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/
-- **Pourquoi c'est important** : pression sur les prix des petits modèles. AMA Reddit r/LocalLLaMA (270 pts).
-- **Testable** : Oui — Hugging Face, TokenHub (−50 % jusqu'au 30/11).
-
-### Hors fenêtre 72 h : Microsoft MAI Code 2 (17/11, Ignite) — voir À surveiller.
+- **OpenAI GPT-6.2 Astra / Sol** (17 nov.) : API dès 2 $/10 $ (Sol) ; garde-fous cyber renforcés. https://casrai.org/news/openai-gpt-6-2-astra-sol-release-2026 (source unique, hors fenêtre 72 h)
+- **Gemini 4 Neon** (18 nov.) : en tête d'un index d'agents de code selon un récap. Noms de modèles Google incohérents entre sources — à vérifier.
+- **Kimi K3.1 Pro Prime** (Moonshot, 20 nov.) : listé par des trackers, non vérifié. https://llmgateway.io/timeline
+- **Microsoft MAI Code 2 / Flash, MAI Realtime 1, MAI-Image-2.7-Flash** (17 nov.) : modèles de code moins chers, speech-to-speech et image. https://www.thedailystar.net/news/technology/news/microsoft-takes-openai-and-anthropic-cheaper-coding-ai-4327026
 
 ## 🔬 Research
 
-### Language Models Can Rewrite Their Own Weights
-- **Quoi** : un modèle open 27B réécrit ses propres poids sans gradient (+6,6 pts sur problèmes inédits, amélioration sur 8 sessions), capacité émergente avec l'échelle.
-- **Date** : arXiv 2026-11-16 (v2 le 18)
-- **Lien** : https://arxiv.org/abs/2611.21885
-- **Pourquoi c'est important** : pas vers l'auto-amélioration récursive ; résultat d'un seul papier, non répliqué.
-- **Testable** : Non
-
-### Show HN : audio-to-MIDI 60x plus efficace (Dettato)
-- **Lien** : https://kobi.music/research/dettato — 254 pts HN, source unique.
+- **Inkling 2 Mini variable-loop** : le no-CoT time horizon passe de 16 s à 37 s avec 3 boucles ; CoT plus court mais lisible. Voir lien ci-dessus.
+- **« LLMs can read and write executables byte by byte from a hex dump »** (HN, 206 pts) : https://sgiannopoulos.github.io/blog/machine-code-programming/
+- Sinon RAS.
 
 ## 📝 À surveiller
-- **Vérification de la GRH** : suivre le fil Lean Zulip et les réactions d'experts. Anthropic aurait dit ne pas s'attendre à ce que ces techniques mènent à une preuve complète (source secondaire).
-- **Signal : restriction des agents IA sur les OS mobiles** (Signal, 527 pts HN) : https://signal.org/blog/protecting-your-privacy/
-- **Microsoft MAI Code 2 / MAI Cyber 2 Flash** (Ignite, 17/11), cyber en déploiement en décembre.
-- **Rumeurs/infos à source unique** : fuite de données de l'agent Meta Muse ; Apple développe un agent contrôlant l'ordinateur ; Nvidia stoppe les livraisons de puces vers la Chine ; enquête SEC sur Nvidia (comptabilité, HN 258 pts).
-- **Mistral** : Deutsche Telekom T.Capital investit 100 M€ (20/11) ; Large 4 aux poids ouverts (digest du 9/11, à vérifier).
-- **Zyphra ZONOS3-Mini** : TTS open-weight avec clonage de voix (12/11, source unique).
-- **OpenAI** : GPT-6.2 Astra/Sol (17/11, source Newegg unique), objectif d'un chercheur automatisé d'ici mars 2028, Performance Factory (Codex).
-- **ICLR 2027** : suppression de reviews générées par IA et desk rejections (Reddit).
-- **CodeRabbit Verify** en bêta publique (18/11).
+
+- **Vérification de Riemann** : revue par les pairs, comparaison avec le brouillon Masullo.
+- **IPO Anthropic** : prix 83 $, ouverture ~111 $, clôture à 88,91 $ le 21 nov. selon la presse (chiffres divergents). https://www.japantimes.co.jp/business/2026/11/21/markets/anthropic-ai-stocks/
+- **Sécurité** : chercheur Dragos — au moins 3 fournisseurs d'inférence IA compromis, prompts siphonnés (HN : OpenRouter « Data Processing Incidents on Inference Providers » https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/) ; post Reddit sur un « agent swarm » ayant contourné la 2FA (non vérifié) ; RCE dans GnuPG (https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html).
+- **Mistral** : Studio managed agents en preview, déploiement privé fin novembre.
+- **Voice** : Zyphra ZONOS3-Mini TTS open-weight (12 nov.), ElevenLabs Scribe v3 Live (10 nov.) — hors fenêtre. Rien de neuf aujourd'hui.
+- **Image/Vidéo** : roundup du 21 nov. : aucun nouveau modèle de base cette semaine.
+- Pandex (droit européen via MCP) : https://www.pandex.io/
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) Preuve GRH revendiquée avec Claude (à vérifier), 2) IPO Anthropic au Nasdaq, 3) Inkling 2 Mini open weights.
-- **À tester en priorité** : Inkling 2 Mini (Ollama/HF, Apache 2.0), Hy4 flash (open weights), Gemini 4 Neon (AI Studio), OpenComputer (open source).
+- **Top 3 du jour** : 1) Preuve Lean de Riemann par Alpöge + Claude ; 2) Inkling 2 Mini open weights bouclé ; 3) Computer use chez Google et Anthropic (Mac / Team-Enterprise).
+- **À tester en priorité** : Inkling 2 Mini (LM Studio/HF), skills trending (superpowers, CLI-Anything), Exa Websets V2.
