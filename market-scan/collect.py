@@ -280,16 +280,21 @@ def app_report(target):
             if len(entries) < 50:
                 break
     except Exception as error:
-        print(f"AVIS_APPLE_INDISPONIBLE ({str(error)[:80]}) : repli treg")
+        print(f"AVIS_APPLE_INDISPONIBLE ({str(error)[:80]})")
+    source = "apple"
     if not reviews:
-        for page in (1, 2):
+        source = "litescrape (flux Apple vide)"
+        for page in (1, 2, 3, 4):
             try:
-                reviews += call(APP_REVIEWS, query={"product_id": app_id, "country": "us", "page": page}).get("reviews") or []
+                batch = call(APP_REVIEWS, query={"product_id": app_id, "country": "us", "page": page}).get("reviews") or []
             except Exception as error:
                 print(f"AVIS_ERREUR: {str(error)[:150]}")
                 break
+            reviews += batch
+            if len(batch) < 25:
+                break
     notes = Counter(r.get("rating") for r in reviews)
-    print(f"\n## {len(reviews)} avis US récents, notes : " + ", ".join(f"{n}★ {notes[n]}" for n in (5, 4, 3, 2, 1)))
+    print(f"\n## {len(reviews)} avis US récents (source {source}), notes : " + ", ".join(f"{n}★ {notes[n]}" for n in (5, 4, 3, 2, 1)))
     for r in sorted(reviews, key=lambda r: r.get("rating") or 5)[:30]:
         print(f"- {r.get('rating')}★ {r.get('review_date')} | {clip(r.get('title'), 80)} : {clip(r.get('text'), 220)}")
     short = re.split(r"\s[-–|:]\s|:\s", d.get("name") or "")[0]
@@ -336,7 +341,7 @@ def demand_report(arg):
 
 
 def keywords_report(arg):
-    terms = list(dict.fromkeys(t.strip().lower() for t in arg.split(",") if t.strip()))[:16]
+    terms = list(dict.fromkeys(t.strip().lower() for t in arg.split(",") if t.strip()))[:24]
     grossing = grossing_index("market-scan/data/top-grossing")
     volumes = {}
     if os.path.exists(DEMAND_CACHE):
@@ -344,7 +349,8 @@ def keywords_report(arg):
             word, _day, volume, *_ = line.rstrip("\n").split("\t")
             volumes[word] = int(volume or 0)
     print("## Tests App Store : top 10 réel de chaque recherche")
-    print("Prenable = moins de 1 000 notes ou pas de mise à jour depuis 180 j. Argent = app vue dans le top grossing US des 14 derniers jours.")
+    print("Prenable = moins de 1 000 notes ou pas de mise à jour depuis 180 j. Argent = une petite app (moins de 10 000 notes) vue dans le top grossing US des 14 derniers jours,"
+          " ou seulement des gros acteurs si la recherche est facile (5 places prenables ou plus).")
     for term in terms:
         country, _, word = term.rpartition(":")
         country = country or "us"
@@ -354,7 +360,7 @@ def keywords_report(arg):
             print(f"\n### « {word} » ({country}) : TREG_ERREUR {str(error)[:120]}")
             continue
         rows = rows[:10]
-        open_slots, strong, earners = 10 - len(rows), 0, []
+        open_slots, strong, earners, small = 10 - len(rows), 0, [], False
         print(f"\n### « {word} » ({country.upper()}, source {source})")
         for n, r in enumerate(rows, 1):
             upd = days_since(r["version_released_at"]) if r.get("version_released_at") else None
@@ -363,13 +369,16 @@ def keywords_report(arg):
             strong += r["rating_count"] >= 1000
             g = grossing.get(r["app_id"])
             if g:
-                earners.append(f"{r['name'][:30]} (#{g[0]} {g[1]}, {r['rating_count']} notes)")
+                is_small = r["rating_count"] < 10000
+                small = small or is_small
+                earners.append(f"{r['name'][:30]} (#{g[0]} {g[1]}, {r['rating_count']} notes, {'petite app' if is_small else 'gros acteur'})")
             print(f"{n}. {r['name'][:45]} | {r['rating_count']} notes, {r['rating']:.1f}★ | sortie {age(r.get('released_at'))} | MAJ il y a {upd} j | {r['url']}"
                   + (" | PRENABLE" if weak else "") + (f" | 💰 top grossing #{g[0]} {g[1]} le {g[2]}" if g else ""))
         volume = volumes.get(word) if country == "us" else None
         demand = volume >= 1000 if volume is not None else strong >= 3
         basis = f"{volume} recherches Google/mois" if volume is not None else f"{strong} apps à 1 000 notes ou plus"
-        tests = [demand, open_slots >= 3, bool(earners)]
+        money = small or (bool(earners) and open_slots >= 5)
+        tests = [demand, open_slots >= 3, money]
         verdict = {3: "BUILD", 2: "À CREUSER"}.get(sum(tests), "ÉCARTÉ")
         print(f"→ Demande {'✅' if tests[0] else '❌'} ({basis}) · Classable {'✅' if tests[1] else '❌'} ({open_slots}/10 prenables) · "
               f"Argent {'✅' if tests[2] else '❌'} ({'; '.join(earners) or 'aucune app du top grossing'}) · VERDICT {verdict}")
