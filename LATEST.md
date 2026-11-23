@@ -8,7 +8,7 @@
 - **Quoi** : Alpöge (Anthropic) publie le 20/11 une note de 4 pages et une bibliothèque Lean de ~17 M de lignes, trouvée avec Claude en ~41 jours. Le 21/11, Lean FRO et Mathlib Initiative certifient dans un communiqué commun que l'énoncé est bien celui de Mathlib et que la preuve compile (plusieurs vérificateurs indépendants, comparator et con-leche).
 - **Date** : 20-21 novembre 2026
 - **Lien** : https://www.quantamagazine.org/updates/transformation/ · https://officechai.com/ai/lean-community-certifies-levent-alpoges-claude-assisted-proof-of-the-riemann-hypothesis-as-correct/ · https://cryptoslate.com/claude-assisted-proof-of-riemann-hypothesis-validated-by-independent-checkers/
-- **Pourquoi c'est important** : si les idées mathématiques se confirment, c'est le premier problème du Millénaire résolu avec une IA. Réserves : la certification porte sur le code formel, pas sur la compréhension humaine de la preuve. Clay n'a pas encore statué (le prix reste « ouvert » au moment des articles). Une chiffre « 41,6 % → 67,2 % » circule, non confirmé. Une preuve humaine concurrente (Masullo, GRH) existe, non formalisée ; des doutes ont été signalés sur son théorème 12.5.1.1.
+- **Pourquoi c'est important** : si les idées mathématiques se confirment, c'est le premier problème du Millénaire résolu avec une IA. Réserves : la certification porte sur le code formel, pas sur la compréhension humaine de la preuve. Clay n'a pas encore statué (le prix reste « ouvert » au moment des articles). Un chiffre « 41,6 % → 67,2 % » circule, non confirmé. Une preuve humaine concurrente (Masullo, GRH) existe, non formalisée ; des doutes ont été signalés sur son théorème 12.5.1.1.
 - **Testable** : Oui — dépôts Lean de formalisation de Masullo : https://github.com/mccorvie/riemann-masullo (en cours). Treemap de la preuve : https://pengowray.github.io/riemann-zeta-proof-visualizer/
 
 ### OpenAI — « Perplexity and Intelligence » (Jakub Pachocki)
@@ -19,7 +19,7 @@
 - **Testable** : Non (publication de recherche/politique).
 
 ### Krach IA sur les marchés : Nasdaq −10 % sur la semaine, Nvidia ~−23 %, Anthropic −8,5 % le lendemain de son IPO
-- **Quoi** : pire semaine du Nasdaq depuis 2020 sur fond de doutes sur le financement et le rythme des investissements datacenters ; Nvidia perd ~2,6 Md$ de capitalisation malgré des résultats record. Anthropic a fixé son IPO à 83 $ (valorisation ≥ 1,5 Md$ de Md$ selon sources) puis a reculé de 8,5 % vendredi.
+- **Quoi** : pire semaine du Nasdaq depuis 2020 sur fond de doutes sur le financement et le rythme des investissements datacenters ; Nvidia perd ~2,6 Md$ de capitalisation malgré des résultats record. Anthropic a fixé son IPO à 83 $ (valorisation d'au moins 1 500 Md$ selon les sources) puis a reculé de 8,5 % vendredi.
 - **Date** : 16-21 novembre 2026
 - **Lien** : https://tastylive.substack.com/p/the-weekly-recap-the-ai-rout-went · https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety
 - **Pourquoi c'est important** : change le contexte de financement des labs et startups IA. Les chiffres exacts varient selon les indices et les sources.
