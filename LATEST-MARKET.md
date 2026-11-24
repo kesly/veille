@@ -1,161 +1,212 @@
-# 🔥 Market Scan — 2026-11-23
+# 🔥 Market Scan — 2026-11-24
 
-> Collecte : treg 5/5 sources, 16 tests App Store (source apple), 10 recherches extended, GitHub Trending ok, 3 pages lues, 3 candidats creusés (fiches App Store : Scavenger, MeAgain, Super Santa).
+> Collecte : treg 4/5 sources (Product Hunt en HTTP 504), 18 tests App Store (source apple, 3 en treg), 8 recherches extended, GitHub Trending ok, 1 page lue, 3 candidats creusés (Ditch sans avis : flux Apple vide).
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1 Abonnements : résiliation et suivi en français (6.6/10, 🟡 BUILD ADJACENT)
-- Opportunités immédiates (BUILD NOW) : 0
+- Mon pari : Pari #1, Dettes sans frais ni compte bancaire (BUILD, 7,0/10)
+- Twist Lab : 15 twists testés, 5 BUILD, 6 À CREUSER, 4 ÉCARTÉS
 
 ## 🧭 Où l'argent se déplace
-| Niche (catégorie) | Mouvement | Demande (Google US) | Leaders et faiblesse | Part à prendre |
+| Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Pénies et déstockage (shopping) | Scavenger 19→#4, Deals Soldier 67→#9, Penny 27→#11 (9 j) | « home depot penny items » 40 500/mois, CPC 2,08 $ ; « dollar general penny list » 18 100, 1,88 $ ; stable, pic estival | Scavenger : Pro 30 $/mois caché, 1★ « scam » ; Penny 3.4★ ; Penny Finder sans MAJ 391 j | **oui** : 6/10 prenables, plusieurs apps jeunes déjà payées |
-| Suivi GLP-1 (santé) | MeAgain 41k avis, Shotsy #63 ; MeAgain +50k téléchargements/mois (appllama, estimation) | « glp-1 meal plan » 2 900, CPC 5,55 $, en hausse (1 900→3 600) ; « glp-1 tracker » 480, 3,44 $ | MeAgain 4.79★, paywall 14,99 $/sem ; avis 1★ : doublon Apple Santé | **à creuser** : 5/10 prenables, mais leaders solides |
-| Résiliation d'abonnements (utilitaires/finance) | MonoBoost 95→#73, Subpilot #20 | « cancel subscriptions app » 1 900, CPC 10,80 $ ; « subscription tracker app » 1 300, 12,59 $ ; demande en baisse (2 400→1 300) | Rocket Money #3 finance ; MonoBoost 4.35★, « ne résilie pas » | **à creuser** : CPC très élevé, FR quasi vide (Subpilot FR 15 avis) |
-| Suivi de colis (shopping) | #3 My Package Delivery Tracker, Parcel, Packages | « parcel tracking » 49 500, CPC 0,46 $, stable ; « package tracker app » 210 | AfterShip 17 830 avis | **non** : seulement 3/10 prenables en FR, CPC bas |
-| Alertes de restock (shopping) | Squish Alert 51 (nouveau), Guppy TCG 63 (nouveau), HotStock #8 | « restock alerts app » 70, 0,69 $ ; « marketplace alerts » 90, 4,40 $ | HotStock 15 530 avis | **à creuser** : niches étroites, petite demande Google |
-| Éducation / mémoire (éducation) | memoryOS 72→#50, Wellspoken nouveau #83, Knowunity +292 notes/j | non testée | Brilliant, Lumosity | **à creuser** : pas de mots-clés testés |
-| Corvées et enfants (lifestyle) | Raccoon Kids (PH 70 votes), BrightCanary nouveau #83 | « chore app for kids » 0 | non lu | **non** : pas de preuve d'argent |
-| Appel du Père Noël (lifestyle) | Dial Santa (déclaré, suspect) | « video call santa » 2 900/mois, CPC 0,93 $, pic décembre (18 100) | Super Santa 3.48★, 12 avis 1★ sur 15 | **à creuser** : saisonnier, aucune app au top grossing |
+| Remboursement de dettes (finance) | Fudget (nouveau→#86), Buddy budget planner (79→67), Bill Tracker Pro (81→70) ; Ditch #12-13 stable | « debt payoff app » 590/mois, CPC 11,36 $, stable ; « debt snowball app » 170, CPC 8,98 $ | Ditch 4,83★, 5 238 avis, MAJ 3 j, frais par paiement (source tierce) ; Debt Snowball Planner sans MAJ depuis 1 311 j | **oui** : CPC élevé, 6/10 places prenables |
+| Suivi migraine (medical) | Migraine Buddy 29→#13 en 9 j | « migraine tracker app » 590/mois, CPC 3,74 $, en hausse (480→880) ; « migraine weather forecast » 2 900, CPC 7,62 $ | Migraine Buddy 4,8★, 42 606 avis ; 1-2★ : paywall forcé, polices minuscules | **oui** : 7/10 prenables, mais un seul vrai gagnant |
+| Identifiants de valeur par photo (reference) | Toyzie AI 99→88, VinylSnap nouveau→#86, PlantAI nouveau→#87 | « antique identifier app » 1 600/mois, CPC 3,21 $, stable ; « coin identifier app » 8 100 en baisse (14 800→4 400) | AntiqSnap 31 540 avis, 4,67★ mais 50 % de 1★ sur 100 avis (fausse gratuité) | **oui** : leader qui déçoit, 5/10 prenables |
+| Suivi de dossier d'immigration (utilities) | Lawfully nouveau→#95, 174 479 avis | « uscis case tracker » 60 500/mois, CPC 4,49 $, en hausse | Leader inconnu, un seul acteur visible | à creuser : hors France, demande énorme |
+| Aidants familiaux (medical) | Caring Village 92→70, Riley 91→71 | « caregiver app » 1 600/mois, CPC 6,45 $ ; « pill reminder app » 3 600, CPC 2,52 $ | Caring Village 36 avis, 4,47★, MAJ 38 j | à creuser : peu d'avis, preuve faible |
+| Indemnités de justice (finance) | Collect 6 246 avis, #16 ; Settlemate #15 (76 167 avis) | « settlement claim app » : volume 0 | Settlemate 4,8★ | à creuser : demande Google nulle, US seulement |
+| Bible et foi (reference) | #Bible 70→56 ; Vessel 50→#23 ; Theovia 96→#81 | « bible study app » 6 600/mois, CPC 3,64 $, en baisse (14 800→2 900) | Leaders > 100 000 avis | non : demande qui baisse, très disputé |
+| Séries courtes IA (entertainment) | MU Fan, Leaked, Hushee, MiniDrama entrent | « ai story app » 260/mois, CPC 7,49 $, 110→720 en 12 mois | Beaucoup d'entrées jeunes | à creuser : studio de contenu requis |
+
+Vitesse des notes : Grok Bot (+358/j) et Camtro (+240/j) montent ; aucune app de ces niches n'y figure. Niche vocale : aucune.
+
+## 🧪 Twist Lab
+**Ditch (finance)**
+
+| Twist (type) | L'idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
+|---|---|---|---|---|---|---|---|
+| Niche plus étroite | Remboursement de cartes de crédit | credit card payoff | ✅ 7 apps | ✅ 3/10 | ✅ Kiwipop #90, Debt Payoff Planner #62 | BUILD | — |
+| Plainte n°1 corrigée | Boule de neige sans frais ni banque | debt snowball | ✅ 5 apps | ✅ 6/10 | ✅ Debt Payoff Planner #62, EveryDollar #11 | BUILD | — |
+| Nouveau public | Prêts étudiants | student loan payoff | ✅ 5 apps | ✅ 7/10 | ❌ aucune | À CREUSER | Aucune app ne gagne |
+| Nouveau format | Compte à rebours « libre de dettes » | debt free countdown | ✅ 8 apps | ❌ 2/10 | ✅ Ditch #12 | À CREUSER | Leader installé |
+| Nouveau marché (FR) | Rembourser ses dettes en français | fr:rembourser dettes | ❌ 1 app | ✅ 9/10 | ❌ aucune | ÉCARTÉ | Demande trop faible |
+
+**Migraine Buddy (medical)**
+
+| Twist (type) | L'idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
+|---|---|---|---|---|---|---|---|
+| Plainte n°1 corrigée | Journal en un tap, gros caractères, paywall honnête | migraine log | ✅ 3 apps | ✅ 7/10 | ✅ Migraine Buddy #13 | BUILD | — |
+| Niche plus étroite | Céphalée en grappe | cluster headache tracker | ❌ 2 apps | ✅ 8/10 | ✅ Migraine Buddy #13 | À CREUSER | Demande faible, seul le leader gagne |
+| Nouveau public | Migraine menstruelle | menstrual migraine tracker | ✅ 6 apps | ✅ 4/10 | ❌ aucune | À CREUSER | Aucune petite app qui gagne |
+| Nouveau format | Prévision météo-migraine | migraine weather | ❌ 2 apps | ✅ 8/10 | ✅ Migraine Buddy #13 | À CREUSER | Seul le leader gagne, mais Google : 2 900/mois, CPC 7,62 $ |
+| Nouveau marché (FR) | Suivi migraine français | fr:suivi migraine | ❌ 1 app | ✅ 9/10 | ✅ Migraine Buddy #13 FR | À CREUSER | Demande FR faible |
+
+**AntiqSnap (reference)**
+
+| Twist (type) | L'idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
+|---|---|---|---|---|---|---|---|
+| Plainte n°1 corrigée | Valeur par ventes réelles, prix clair | antique value | ✅ 6 apps | ✅ 4/10 | ✅ AntiqSnap #12, Curio #37, Relic #56 | BUILD | — |
+| Niche plus étroite | Verrerie ancienne | vintage glassware identifier | ✅ 3 apps | ✅ 7/10 | ✅ Curio #37 | BUILD | — |
+| Niche plus étroite | Poinçons d'argenterie | silver hallmark identifier | ❌ 0 app | ✅ 10/10 | ❌ aucune | ÉCARTÉ | Aucune demande |
+| Nouveau public | Revendeurs de vide-greniers | estate sale scanner | ✅ 9 apps | ✅ 7/10 | ✅ scanner de documents #39 | ÉCARTÉ | Résultats = scanners de documents, faux positif |
+| Nouveau marché (FR) | Estimation de brocante | fr:brocante estimation | ❌ 0 app | ✅ 10/10 | ❌ aucune | ÉCARTÉ | Aucune demande |
+
+15 twists testés : 5 BUILD, 6 À CREUSER, 4 ÉCARTÉS
 
 ## 🎯 Quoi builder
-### Pari #1 : Abonnements : résiliation et suivi en français
-- **L'idée** : pour les Français qui oublient des abonnements, un suivi + lettre de résiliation prête à envoyer, 3,99 €/mois. Twist sur MonoBoost : plainte n°1 corrigée (« ne résilie pas ») + nouveau marché FR.
-- **Les 3 tests** : « cancel subscriptions » Demande ✅ · Classable ✅ (4/10) · Argent ✅ (Rocket Money #3 finance) · BUILD ; « subscription tracker » 7/10 prenables · BUILD ; « fr:suivi abonnements » À CREUSER (9/10 prenables, 1 app > 1 000 notes, argent via Subpilot FR #20, 15 notes).
-- **Preuve d'argent** : Subpilot #20 finance (6 738 avis, lien non relevé) ; [MonoBoost](https://apps.apple.com/us/app/monoboost-cancel-subscriptions/id6740202306) #73 utilitaires (95→#73). Demande : 1 900/mois, CPC 10,80 $, en baisse (2 400→1 300).
-- **Le trou** : MonoBoost « ne résilie pas » ([recherche](https://mwm.ai/apps/monoboost-cancel-subscriptions/6740202306)) ; FR : Subpilot FR 15 notes ; avis 1-2★ non comptés (fiche non lue).
-- **Pourquoi Kyle** : SaaS simple, droit français de résiliation (lettre/LRE), il vend seul en francophone.
-- **MVP** : détection par import CSV/PDF bancaire, génération de lettre, rappels avant renouvellement ; 4-5 semaines.
-- **Argent** : paywall au moment d'envoyer la lettre ; 3,99 €/mois ou 29 €/an.
-- **Acquisition** : SEO « résilier [service] » ; accroche : « Tu paies encore ça ? Résilie en 2 minutes. »
-- **Test en 48 h** : landing + liste d'attente ; go si 5 % de 300 visiteurs laissent leur mail.
+### Pari #1 : Dettes sans frais ni compte bancaire
+- **L'idée** : planificateur de dettes boule de neige en saisie manuelle pour Américains endettés, 4,99 $/mois ou 29,99 $/an. Twist sur Ditch : plainte n°1 corrigée (frais, liaison bancaire). Déjà vu 1 fois (« Remboursement de dettes sans frais cachés ») ; nouveau : tests App Store passés et Debt Payoff Planner #62 prouvé.
+- **Les 3 tests** : « debt snowball » → Demande ✅, Classable ✅ 6/10, Argent ✅ (Debt Payoff Planner #62, EveryDollar #11) → BUILD. Variante « credit card payoff » BUILD (3/10).
+- **Preuve d'argent** : [Debt Payoff Planner & Tracker](https://apps.apple.com/us/app/debt-payoff-planner-tracker/id1009323715) #62 finance ; [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) #12 ; [Kiwipop](https://apps.apple.com/us/app/kiwipop-payoff-credit-cards/id6484501975) #90.
+- **Le trou** : Debt Snowball – Payoff Planner sans MAJ depuis 1 311 j ; frais de 1 $ par payoff chez Ditch (source tierce, avis non lus ici) ; Google « debt payoff app » 590/mois, CPC 11,36 $.
+- **Pièges** : aucune marque d'autrui (ne pas citer EveryDollar, Dave Ramsey). Apple finance : pas de conseil financier, pas de prêt. Pas de données ni licence en saisie manuelle.
+- **Fiche App Store** : nom « Debt Snowball Planner » (21) ; sous-titre « Payoff plan, no bank link » (23) ; mots-clés `debt,payoff,credit card,budget,loan,tracker,interest,avalanche,calculator,free,plan`.
+- **Pourquoi Kyle** : produit SaaS simple, calcul local, aucun partenaire bancaire, vendable par ASO seul.
+- **MVP** : saisie des dettes, plan boule de neige/avalanche avec date de fin, widget de progression ; 3 semaines.
+- **Argent** : paywall après la date « libre de dettes » affichée, 4,99 $/mois ou 29,99 $/an.
+- **Acquisition** : ASO « debt snowball » ; accroche : « Ta date sans dettes en 60 secondes, sans lier ta banque ».
+- **Test en 48 h** : landing + post r/personalfinance-like ; go si 30 inscriptions à la liste d'attente, stop sinon.
 
-### Pari #2 : Plan protéines pour utilisateurs de GLP-1
-- **L'idée** : pour les utilisateurs de Wegovy/Mounjaro, un objectif de protéines et des repas, 7,99 $/mois. Twist sur MeAgain : niche plus étroite (protéines d'abord, sans suivi de doses).
-- **Les 3 tests** : « glp-1 protein » Demande ✅ · Classable ✅ (5/10) · Argent ✅ (MeAgain, Noom #34) · BUILD ; « glp-1 tracker » À CREUSER.
-- **Preuve d'argent** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) #37 ; Shotsy #63. « glp-1 meal plan » : 2 900/mois, CPC 5,55 $, en hausse.
-- **Le trou** : 3 avis sur 50 se plaignent (doublon Santé, rappels) : faible ; trou = tarif (« pricey », 14,99 $/sem). Source : fiche App Store.
-- **Pourquoi Kyle** : IA sur photo de repas, SaaS mobile. Risque : santé, pas d'avis médical.
-- **MVP** : objectif protéines, photo du repas, liste de courses ; 6-8 semaines.
-- **Argent** : paywall après le premier repas photographié ; 7,99 $/mois.
-- **Acquisition** : TikTok « mes protéines sous Ozempic » ; accroche : « Zéro appétit, 100 g de protéines. »
-- **Test en 48 h** : vidéo TikTok + landing ; go à 100 mails.
+### Pari #2 : Journal de migraine en un tap
+- **L'idée** : journal de migraine à gros caractères, widget et paywall honnête, pour migraineux, 3,99 $/mois. Twist sur Migraine Buddy : plainte n°1 corrigée. Pas vu dans les rapports précédents.
+- **Les 3 tests** : « migraine log » → Demande ✅ (3 apps), Classable ✅ 7/10, Argent ✅ (Migraine Buddy #13) → BUILD.
+- **Preuve d'argent** : [Migraine Buddy](https://apps.apple.com/us/app/migraine-buddy-track-headache/id975074413) #13 medical ; [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) #9 medical comme analogue (suivi de symptômes solo). Preuve faible sur le besoin exact : un seul gagnant migraine.
+- **Le trou** : 29 % des 1-2★ pour le paywall forcé, 29 % pour la lisibilité (« font sizes are ridiculously small »), 29 % bugs (17 avis 1-2★ sur 100, litescrape). Demande de widget en 4★.
+- **Pièges** : Apple santé : pas de diagnostic ni de conseil de dosage. Marque Migraine Buddy exclue. Pas de licence si pas de données médicales.
+- **Fiche App Store** : nom « Migraine Log: Quick Diary » (26) ; sous-titre « One-tap headache tracker » (24) ; mots-clés `headache,pain,trigger,symptom,diary,aura,widget,doctor,report,relief`.
+- **Pourquoi Kyle** : app mobile simple, aucune IA nécessaire, ton propre ASO.
+- **MVP** : bouton début/fin d'une crise, widget écran d'accueil, export PDF pour le médecin ; 3 semaines.
+- **Argent** : paywall après 7 jours d'usage réel, jamais à la création de compte, 3,99 $/mois.
+- **Acquisition** : ASO « migraine log » ; accroche : « Note ta crise en 2 secondes, même avec la migraine ».
+- **Test en 48 h** : post sur un forum de migraineux avec capture ; go si 20 réponses, stop sinon.
 
-### Pari #3 : Liste Dollar General sans paywall caché
-- **L'idée** : pour les chasseurs de pénies, liste hebdomadaire vérifiée + alerte du mardi, 4,99 $/mois affiché dès l'écran 1. Twist sur Scavenger : plainte n°1 corrigée (prix annoncé).
-- **Les 3 tests** : « penny list » Demande ✅ · Classable ✅ (6/10) · Argent ✅ (Scavenger #4, Penny #11) · BUILD ; « dollar general penny » BUILD.
-- **Preuve d'argent** : [Scavenger](https://apps.apple.com/us/app/scavenger-penny-deal-finder/id6804930165) #4 shopping ; [Penny](https://apps.apple.com/us/app/penny-deal-scanner-alerts/id6762319872) #11. « dollar general penny list » 18 100/mois, CPC 1,88 $, stable.
-- **Le trou** : 2 avis 1★ sur 10 (échantillon réduit) : « Not one mentions pro is $30 a month » ; Penny Finder sans MAJ 391 j.
-- **Pourquoi Kyle** : web + SEO, mais marché américain sans avantage francophone ; données crowdsourcées.
-- **MVP** : liste hebdo, scan code-barres, alerte du mardi ; 3-4 semaines.
-- **Argent** : paywall sur l'alerte push ; 4,99 $/mois.
-- **Acquisition** : SEO « dollar general penny list » ; accroche : « Prix affiché, zéro surprise. »
-- **Test en 48 h** : page SEO + liste d'attente ; go à 200 visiteurs organiques.
+### Pari #3 : Identifier la verrerie ancienne, prix honnête
+- **L'idée** : scanner de verrerie ancienne avec prix de ventes réelles, abonnement annuel clair 29,99 $, pour revendeurs et héritiers. Twist sur AntiqSnap : niche plus étroite. Voisin du pari « Scanner de valeur pièces et brocante FR » (déjà vu), mais niche et marché différents.
+- **Les 3 tests** : « vintage glassware identifier » → Demande ✅ (3 apps), Classable ✅ 7/10, Argent ✅ (Curio #37) → BUILD. « antique value » BUILD (4/10).
+- **Preuve d'argent** : [AntiqSnap](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120) #12 reference ; Curio - Antique Identifier #37 (lien non relevé) ; [Relic](https://apps.apple.com/us/app/antique-identifier-relic/id6747602157) #56.
+- **Le trou** : 50 des 100 avis lus sont à 1★, surtout facturation trompeuse ; valeurs tirées d'annonces, pas de ventes. Source : litescrape.
+- **Pièges** : aucune marque dans le nom (Pyrex, Fenton, Depression Glass à vérifier). Données de prix de vente à obtenir (licence ou scraping). Abonnement : Apple exige un prix clair.
+- **Fiche App Store** : nom « Glass ID: Vintage Glassware » (28) ; sous-titre « Identify and value by photo » (26) ; mots-clés `antique,crystal,depression,collectible,thrift,value,scan,flea,market,estate`.
+- **Pourquoi Kyle** : full-stack, base de prix à construire, vendable via recherches App Store.
+- **MVP** : photo, identification, fourchette de prix sold ; 6 semaines.
+- **Argent** : paywall après le premier résultat visible, 29,99 $/an, essai explicite.
+- **Acquisition** : TikTok de chasse en brocante ; accroche : « Cette verrerie à 2 $ vaut peut-être 80 $ ».
+- **Test en 48 h** : vidéo TikTok + landing ; go si 100 vues par 1 inscription sur 20, stop sinon.
 
-**Mon pari : #1 — Abonnements FR** : meilleur score pondéré (6.6), CPC élevé et aucune version française solide ; aucun pari n'est BUILD NOW, l'analyse reste à valider par Kyle.
+**Mon pari : #1 — Dettes sans frais ni compte bancaire** : meilleur score, BUILD, CPC de 11 $ qui signale un client rentable et aucun partenaire bancaire.
 
 ## 🧮 Scorecard des paris
-| Pari | 📊 Marché 20% | ⚙️ Complexité 15% | ⏱️ Délai 15% | 🏟️ Concurrence 15% | 💰 Revenu 20% | 🧑‍💻 Fit 15% | **Score** | 3 traits | Verdict |
-|---|---|---|---|---|---|---|---|---|---|
-| #1 Abonnements FR | 6 | 7 | 7 | 6 | 6 | 8 | **6.6** | 2 | 🟡 BUILD ADJACENT |
-| #2 Protéines GLP-1 | 7 | 6 | 6 | 5 | 7 | 6 | **6.25** | 2 | 🟡 BUILD ADJACENT |
-| #3 Liste Dollar General | 5 | 6 | 8 | 6 | 6 | 6 | **6.1** | 2 | 🟡 BUILD ADJACENT |
+| # | Pari | 📊 Marché | ⚙️ Complexité | ⏱️ Mise sur le marché | 🏟️ Concurrence | 💰 Revenu | 🧑‍💻 Fit Kyle | Score | 3 traits | Verdict |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Dettes sans frais | 7 | 8 | 8 | 5 | 6 | 8 | **7,0** | 1 | BUILD |
+| 2 | Journal de migraine | 6 | 8 | 8 | 6 | 5 | 7 | **6,6** | 1 | BUILD |
+| 3 | Verrerie ancienne | 6 | 6 | 6 | 6 | 7 | 6 | **6,2** | 2 | BUILD |
 
-Scores honnêtes : concurrence #1 = 4/10 prenables sur « cancel subscriptions » ; demande en baisse. Chiffres de marché : estimation.
+Scores honnêtes : le revenu du pari #3 repose sur une estimation tierce de 250 000 $/mois pour AntiqSnap. Les 3 traits sont la colonne d'information, hors score.
 
-## 💰 Unit Economics — Pari #1 : Abonnements FR
-Tous les chiffres sont des estimations (aucune source directe sur Subpilot ou MonoBoost) ; comparables : Subpilot (#20 finance), MonoBoost (#73).
-- **Scénario année 1** : 8 000 abonnés × 29 €/an → **ARR ≈ 230 k€** (estimation) ; ARPU ≈ 29 €/an.
-- **CAC** ≈ 12 € (SEO + TikTok, estimation) ; **LTV** ≈ 60 € (rétention ~2 ans) ; **LTV/CAC** ≈ 5 ; **Payback** ≈ 5 mois.
-- **Burn** ≈ 1 500 €/mois (API, hébergement, pubs) ; **Runway** : illimité en solo avec ~15 k€ de réserve.
-- **Rev/Employee** : 230 k€ (1 personne) ; **Rule of 40** : > 40 (croissance forte, marge ~85 %).
-- **Verdict santé** : 🟡 : marge saine mais demande Google en baisse et risque Apple (guideline sur les résiliations).
+## 💰 Unit Economics — Pari #1 : Dettes sans frais ni compte bancaire
+Tout est `estimation` (aucune source directe pour les apps comparables ; Crunchbase, Tracxn, SimilarWeb non consultés).
+
+| Métrique | Estimation |
+|---|---|
+| ARR visé à 12 mois | 36 000 $ (≈ 3 000 $ MRR) |
+| Utilisateurs payants | ≈ 900 à 4,99 $/mois effectif (mix mensuel/annuel) |
+| ARPU | ≈ 3,40 $/mois net après commission Apple 15-30 % |
+| CAC | ≈ 0 à 3 $ (ASO), 15 $ si pub payée |
+| LTV | ≈ 30 $ (rétention 9 mois) |
+| LTV/CAC | ≈ 10 (ASO), ≈ 2 (pub) |
+| Payback | < 1 mois (ASO) |
+| Burn / runway | ≈ 100 $/mois d'outils ; runway très long (solo) |
+| Revenu par employé | ≈ 36 000 $ (1 personne) |
+| Rule of 40 | non pertinent à ce stade |
+
+Verdict : 🟡. Marge confortable, mais marché de niche : le plafond de revenu est modeste (CPC 11 $ montre la valeur du client, pas le volume : 590 recherches/mois).
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [Scavenger](https://apps.apple.com/us/app/scavenger-penny-deal-finder/id6804930165) | #4 shopping, 198 avis | 62 j | Pénies Home Depot par ZIP, gratuit + Pro 30 $/mois | Paywall caché, 2 avis 1★ « scam » |
-| [Penny](https://apps.apple.com/us/app/penny-deal-scanner-alerts/id6762319872) | #11 shopping, 51 avis, 3.4★ | 184 j | Listes Dollar General, alertes | Mal noté, 310 articles/semaine |
-| [Deals Soldier](https://apps.apple.com/us/app/deals-soldier/id6829435739) | #9 shopping (67→#9), 10 avis | 18 j | Alertes déstockage, communauté Discord | Pas de numéro 2 clair |
-| [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) | #37 santé, 41 617 avis | 590 j | Suivi GLP-1 + IA, 14,99 $/sem ou 39,99 $/an | Protéines, version FR |
-| Shotsy | #63 santé, 35k avis | n.c. | Suivi GLP-1 (300 K$/mois déclaré par tiers, estimation) | Version FR existe, 659 avis |
-| [MonoBoost](https://apps.apple.com/us/app/monoboost-cancel-subscriptions/id6740202306) | #73 utilitaires (95→#73), 6 519 avis, 4.35★ | n.c. | Guide de résiliation, ne résilie pas | Plainte « ne résilie rien » |
-| Subpilot | #20 finance, 6 738 avis | n.c. | Résiliation d'abonnements | Version FR : 15 avis |
-| [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) | #3 shopping, 11 415 avis | n.c. | Suivi de colis | FR : 3/10 prenables |
-| [Card Ladder](https://apps.apple.com/us/app/card-ladder/id1541535971) | #8 sports, 12 418 avis, 4.9★ | n.c. | Prix de cartes de sport | Déjà vu en scanner |
-| LogTen Pilot Logbook | #100 utilitaires (nouveau), 10 073 avis | n.c. | Carnet de vol | Niche pilotes, 50 rech./mois |
-| Cloaked | #79 productivité, +499 notes/j | n.c. | Mails et numéros masqués | Pas de FR |
-| [Dial Santa](https://apps.apple.com/us/app/dial-santa-live-video-calls/id6808069158) | 3 043 $ déclarés (suspect) | < 6 mois | Appel vidéo IA avec le Père Noël, 3,99 $ | Saisonnier, FR absent |
-| ScribeKit | 30 $ MRR déclaré | 5 sem. | Notes (détail non lu) | Preuve faible |
-| CFO Lens | 3 500 $ MRR déclaré | 6 mois | SaaS pour directeurs financiers | B2B, hors cible |
-| Raccoon Kids | 70 votes PH | jeune | Corvées gamifiées enfants, Android | Pas de revenu connu |
+| [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) | #12 finance, 5 238 avis, 4,83★ | 1 166 j | Round-ups vers les dettes, essai 7 j, abonnement (3,99 à 15,99 $/mois selon sources tierces) | Frais par paiement signalés, lien bancaire |
+| [Debt Payoff Planner & Tracker](https://apps.apple.com/us/app/debt-payoff-planner-tracker/id1009323715) | #62 finance, 7 444 avis | 4 038 j | Planificateur boule de neige | Vieille interface, pas de n°2 net |
+| [Kiwipop](https://apps.apple.com/us/app/kiwipop-payoff-credit-cards/id6484501975) | #90 finance, 597 avis | 954 j | Remboursement de cartes de crédit | Petite app qui encaisse |
+| [Migraine Buddy](https://apps.apple.com/us/app/migraine-buddy-track-headache/id975074413) | #13 medical (29→13), 42 606 avis | 4 259 j | Journal de migraine, premium 24,99 $/2 mois | Paywall forcé, polices minuscules |
+| [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) | #9 medical, 2 703 avis | — | Suivi SOPK | — |
+| [Caring Village](https://apps.apple.com/us/app/caring-village-caregiver-app/id1093814557) | #70 medical (92→70), 36 avis | 3 819 j | Coordination d'aidants | Demande « caregiver app » 1 600/mois, CPC 6,45 $ |
+| [AntiqSnap](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120) | #12 reference, 31 540 avis | 404 j | Valeur d'antiquités par photo, 3,99 $/sem ou 29,99-39,99 $/an | Fausse gratuité, estimations sur annonces |
+| [Antique Identifier – Relic](https://apps.apple.com/us/app/antique-identifier-relic/id6747602157) | #56 reference, 8 579 avis | 515 j | Idem | Petite app qui encaisse |
+| [Collectr](https://apps.apple.com/us/app/collectr-tcg-collector-app/id1603892248) | #8 reference, 70 835 avis | — | Suivi de collections de cartes | Marques déposées : à éviter |
+| [Collect – Settlement Finder](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187) | #16 finance, 6 246 avis | — | Class actions à réclamer | Pas de version française |
+| Lawfully USCIS Case Tracker (lien non relevé) | entrée #95 utilities, 174 479 avis | — | Suivi de dossier USCIS | Demande 60 500/mois, hors France |
+| [ScribeKit](https://x.com/truly_offline/status/2122993424723026229) | Déclaré : 30 $ MRR, 23 payants, 5 semaines | 5 sem. | App de transcription/notes, 100 % recherche App Store | Preuve que l'ASO suffit |
+| [Hey Sherpa](https://apps.apple.com/us/app/hey-sherpa/id6767328953) | #42 health, 5 j, 2 avis | 5 j | Inconnu (`estimation`) | — |
+| [App iOS TikTok à 3 100 $ MRR](https://x.com/julscales/status/2123064291305640065) | Déclaré : 3 100 $ MRR en 1 mois | 1 mois | Produit non nommé, 7 000 téléchargements via TikTok | Distribution créateur |
+| [Portefeuille d'apps mono-usage](https://x.com/vovalukashov/status/2123721509566824778) | Déclaré : 508 $ MRR, 87 abonnements | 17 sem. | Apps iOS + web à usage unique | Une app = un besoin = une recherche |
+
+Revenus déclarés : ScribeKit, l'app TikTok et le portefeuille mono-usage (3 ; tous non vérifiés). Aucune app vocale au radar.
 
 ## 💸 Apps qui font du cash
-**Revenus déclarés** (déclaré, non vérifié)
-- Portefeuille de petites apps iOS+web : 508 $ MRR, 757 $ sur 28 j, semaine 17 de build in public, 2026-11-20 · [post](https://x.com/vovalukashov/status/2123721509566824778)
-- 1re app iOS, TikTok organique : 3 100 $ MRR, 3 800 $ de revenu, 7 000 téléchargements, 2026-11-18 · [post](https://x.com/julscales/status/2123064291305640065) (app non nommée)
-- 4 apps en parallèle d'un 9-5 : 321 $ MRR, 452 $ sur 28 j, 55 abonnés, 2026-11-21 · [post](https://x.com/MDALISHANALI2/status/2124193679023980829)
-- ScribeKit : 30 $ MRR, 206 $, 23 payants, tout via la recherche App Store, 2026-11-18 · [post](https://x.com/truly_offline/status/2122993424723026229)
-- CFO Lens (SaaS B2B) : 3 500 $ MRR, 2026-11-19 · [post](https://x.com/arsyadharmaa/status/2123250350933373015)
-- Dial Santa : 3 043 $ bruts, 403 clients, mois de novembre, 2026-11-22 · [post](https://www.reddit.com/r/microsaas/comments/1y29de6/) ⚠️ commentaires soupçonnent un post promotionnel (5 avis seulement)
+**Revenus déclarés** (déclaré, non vérifié) :
+- App iOS d'un créateur de 20 ans : 3 800 $ de revenu, 3 100 $ MRR en 1 mois, TikTok organique, 7 000 téléchargements, 2026-11-18 — [post](https://x.com/julscales/status/2123064291305640065)
+- Portefeuille de petites apps mono-usage (iOS + web) : 508 $ MRR, 87 abonnements, 2026-11-20 — [post](https://x.com/vovalukashov/status/2123721509566824778)
+- App de 2 mois : MRR 411 €, 1 496 € le mois 2, 2026-11-24 — [post](https://x.com/zakisbuilding/status/2125021985876942862)
+- 4 apps en parallèle d'un 9-5 : 321 $ MRR, 55 abonnés, 2026-11-21 — [post](https://x.com/MDALISHANALI2/status/2124193679023980829)
+- ScribeKit : 30 $ MRR, 23 payants, 429 users, 100 % recherche App Store, 2026-11-18 — [post](https://x.com/truly_offline/status/2122993424723026229)
+- TeaserKit : 100 $ MRR, 2026-11-23 — [post](https://x.com/AdarshSubham1/status/2124918402753941512)
+- CFO Lens (B2B) : 3 500 $ MRR, 2026-11-19 — [post](https://x.com/arsyadharmaa/status/2123250350933373015)
+- Garden – Sober Tracker : 23 $ MRR, 3 abonnés, 2026-11-23 — [post](https://x.com/lucasvribeiro_/status/2124669588587856319)
 
-**App Store US, top grossing, moins de 100k avis** (un rang n'est pas un revenu)
-- #4 shopping [Scavenger](https://apps.apple.com/us/app/scavenger-penny-deal-finder/id6804930165) (198 avis) : pénies Home Depot par code postal (19→#4 en 9 j)
-- #9 shopping [Deals Soldier](https://apps.apple.com/us/app/deals-soldier/id6829435739) (10 avis) : alertes de déstockage (67→#9)
-- #11 shopping [Penny](https://apps.apple.com/us/app/penny-deal-scanner-alerts/id6762319872) (51 avis) : listes Dollar General et alertes (27→#11)
-- #3 shopping [My Package Delivery Tracker](https://apps.apple.com/us/app/my-package-delivery-tracker/id6447516226) (11 415 avis) : suivi de colis
-- #37 santé [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534) (41 617 avis) : suivi GLP-1 avec compagnon IA
-- #20 finance Subpilot : résiliation d'abonnements (6 738 avis, kw)
-- #73 utilitaires [MonoBoost](https://apps.apple.com/us/app/monoboost-cancel-subscriptions/id6740202306) (6 519 avis, 95→#73) : guide de résiliation
-- #100 utilitaires LogTen Pilot Logbook : carnet de vol pour pilotes (nouveau dans le top, 10 073 avis, lien non relevé)
+**App Store US** (rang ≠ revenu) :
+- #12 finance, Ditch (5 238 avis) : round-ups vers les dettes — [lien](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208)
+- #16 finance, Collect – Settlement Finder (6 246 avis) : cherche les class actions où réclamer de l'argent — [lien](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187)
+- #9 medical, PCOS Pal (2 703 avis) : suivi SOPK — [lien](https://apps.apple.com/us/app/pcos-pal/id6474100020)
+- #14 reference, AntiqSnap (31 540 avis) : valeur d'antiquités par photo — [lien](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120)
+- #31 health, Bicah (133 avis) : entrée du jour, app de santé jeune — [lien](https://apps.apple.com/us/app/bicah/id6740829839)
+- #36 health, MenuFit (54 600 avis) : manger sainement au restaurant — [lien](https://apps.apple.com/us/app/menufit-healthy-eating-out/id6746144481)
+- #18 reference, WoodSense (24 613 avis) : plans de bricolage bois — [lien](https://apps.apple.com/us/app/woodsense-wood-plans-guides/id6754165620)
+- #19 utilities, Universal TV Remote Control (85 481 avis) : télécommande TV — [lien](https://apps.apple.com/us/app/universal-tv-remote-control/id6443877058)
+- Mouvements : Fudget et Buddy budget planner montent en finance ; VinylSnap entre en reference (#86).
 
-**Jeunes apps qui gagnent déjà** (< 365 j)
-- Deals Soldier : sortie 18 j, #9 shopping, alertes déstockage
-- Squish Alert for NeeDoh Stock : 17 j, #51 shopping, restock de jouets
-- PriceHUD : 63 j, #50 shopping, comparateur de prix (16 avis)
-- Scavenger : 62 j, #4 shopping
-- Penny : 184 j, #11 shopping
-- Thrifty Joe : 208 j, #77 shopping, 4 avis
-- Leaders sans MAJ > 180 j : Penny Finder (391 j, 2.7★, #7 sur « penny list »), Penny List: Clearance Finder (0 avis, MAJ 96 j). Patina (MAJ 159 j) proche du seuil.
+**Jeunes apps qui gagnent déjà** (< 365 jours) :
+- Hey Sherpa, #42 health, 5 jours, 2 avis : place gagnée très vite, produit inconnu (`estimation` : coaching marche/rando) — [lien](https://apps.apple.com/us/app/hey-sherpa/id6767328953)
+- Trend IQ: AI Chart Analysis, #96 finance, 185 j : analyse de graphiques par IA — [lien](https://apps.apple.com/us/app/trend-iq-ai-chart-analysis/id6764767822)
+- Obi by Dr. Sterling (#95 medical, 454 j) et AntiqSnap (404 j) dépassent 365 jours : hors liste, mais encaissent.
+- TopShort, #75 entertainment, 12 j, 1 avis : drames courts, signal faible — [lien](https://apps.apple.com/us/app/topshort-shorts-reels/id6827997660)
+- **Places à prendre (sans MAJ > 180 j)** : Vetpocket (#57 medical, MAJ il y a 201 j, 30 avis) ; Debt Snowball – Payoff Planner (MAJ il y a 1 311 j, 1 404 avis) ; Headache Migraine Diary (MAJ il y a 510 j, 550 avis).
 
-## 🔬 App creusée #1 : Scavenger: Penny Deal Finder (shopping)
-1. **Identification** : [Scavenger](https://scavenger.ai/), Scale Ventures LLC, sortie App Store 2026-09-21 (62 j), shopping, #4 top grossing (19→#4), 198 avis 4.8★, gratuit avec Pro. Fondateurs non trouvés.
-2. **Valeur** : signale les articles à 0,01 $ dans les Home Depot à 25 miles du code postal ; cible les chasseurs de pénies et revendeurs ; Pro 30 $/mois (avis).
-3. **3 décisions** : onboarding = aperçu gratuit sans compte ; paywall = après avoir vu 2 articles non pénies, au moment où l'envie est la plus forte ; retour = nouvelles baisses toutes les semaines (estimation).
-4. **3 traits** : émotion pour une action ✅ (la chasse au trésor) · résultat en secondes ✅ (scan par ZIP) · distribution intégrée ✅ (trouvailles avec reçus, vidéos YouTube de chasseurs).
-5. **Ce qui manque** : sur 2 avis 1-2★ lus (échantillon trop petit) : 100 % parlent du paywall caché ; « Not one mentions pro is $30 a month ». 8 avis 5★ sur 10, soupçon d'avis gonflés. MAJ il y a 25 j, pas de retard.
-6. **Acquisition** : pubs Meta non trouvées ; blog SEO (« penny list », « dollar general penny items »), vidéos YouTube de créateurs.
-7. **Stack** : probable scraping des stocks Home Depot + app iOS (estimation).
-8. **Réplication** : 5/10, 4-6 semaines ; niche à prendre : liste Dollar General crowdsourcée avec prix affiché ; angle Kyle : web + SEO.
+## 🔬 App creusée #1 : Ditch: Pay Off Debt Faster
+1. **Identification** : [Ditch](https://www.ditch.io/) (Ditch Technologies), finance, sortie App Store 2023-09-14, MAJ il y a 3 j, 4,83★ sur 5 238 notes, #12-13 finance. Le site affiche « 10,1 M$ remboursés ». Fondateurs : non trouvés. Gratuit à l'installation, abonnement après 7 jours.
+2. **Proposition** : problème = payer ses dettes sans y penser. Solution = round-ups des achats envoyés vers les prêts, pourcentages ou mode « smart ». USP : « pas de tableur, pas de stress ». Cible : adultes endettés avec un compte bancaire lié. Prix : 3,99 / 9,99 / 15,99 $ par mois (agrégateur tiers), 12,99 $/mois ou 79,99 $/an cités dans un avis ; sources en désaccord, `estimation`.
+3. **Les 3 décisions qui font l'argent** : (a) onboarding de ~4 minutes, connexion bancaire (96 % de couverture), puis réglage des payoffs (site). (b) Paywall : essai d'une semaine après la connexion bancaire, au moment où l'utilisateur voit sa dette (`estimation`). (c) Retour : chaque achat déclenche un payoff, la dette baisse sans action.
+4. **3 traits** : ✅ émotion pour une action (soulagement à chaque achat) ; ❌ résultat en quelques secondes (il faut 4 min + banque) ; ❌ distribution intégrée (aucun partage trouvé).
+5. **Ce qui manque** : `avis non consultés` (flux Apple vide, 0 avis lu). D'après des résumés tiers : un dollar de frais à chaque payoff, frais « non annoncés avant l'abonnement », échecs de liaison bancaire. Pas de mise à jour tardive (MAJ il y a 3 j).
+6. **Acquisition** : `pubs Meta non trouvées` (pages écartées : homonymes). Autres canaux : non trouvés.
+7. **Stack** (`estimation`) : app mobile native, agrégation bancaire type Plaid, virements ACH.
+8. **Réplication** : complexité 6/10 avec banque, 3/10 en saisie manuelle. Niche : « debt snowball » et « credit card payoff » (voir Twist Lab). Angle Kyle : planificateur sans compte bancaire ni frais. Temps : 4 à 5 semaines.
 
-## 🔬 App creusée #2 : MeAgain: GLP-1 Tracker (santé)
-1. **Identification** : [MeAgain](https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534), Dots Future Technologies, CEO Martyn Strydom, sortie 2025-04-11 (590 j), santé, #37 top grossing, 41 551 avis 4.79★, 7 employés (PitchBook), 500k téléchargements revendiqués.
-2. **Valeur** : suivi des doses, poids, protéines, effets secondaires pour utilisateurs de GLP-1 ; compagnon IA (capybara) ; 14,99 $/sem ou 39,99 $/an ([appllama](https://appllama.io/apps/6744178534/meagain-glp-1-tracker-app), estimation).
-3. **3 décisions** : onboarding de 30 écrans ; paywall après l'onboarding (88 écrans capturés) ; retour = rappels de jour d'injection et widget du compagnon.
-4. **3 traits** : émotion ✅ (accompagnement, « food noise ») · résultat en secondes ✅ (photo du repas → ingrédients) · distribution ❌ (communauté interne seulement).
-5. **Ce qui manque** : sur 50 avis, 1 seul 1★ (doublon des repas via Apple Santé) ; 3★ : rappels trop fréquents d'appeler le médecin ; « wish more features were free » ; « pricey for membership ». Plaintes mineures (3/50) ; MAJ il y a 11 j.
-6. **Acquisition** : pubs Meta non trouvées (pages concurrentes Mingo, Nuvo vues) ; communauté, MeAgain Index (communiqué du 2026-11-11).
-7. **Stack** : iOS + Android, IA de reconnaissance de repas (estimation).
-8. **Réplication** : 7/10 ; niche : protéines et repas pour GLP-1, ou version française ; angle Kyle : SaaS mobile + IA sur photo ; 8-10 semaines. Attention : Shotsy déjà en français.
+## 🔬 App creusée #2 : Migraine Buddy: Track Headache
+1. **Identification** : [Migraine Buddy](https://apps.apple.com/us/app/migraine-buddy-track-headache/id975074413) (Voluntis), medical, sortie 2015-03-27, MAJ 2026-11-11, 4,8★ sur 42 606 notes, #13 medical (29→13 en 9 j). La page Meta dit « 4,8 M de personnes ».
+2. **Proposition** : suivre ses crises, trouver les déclencheurs, rapport pour le médecin, communauté. Cible : migraineux. Prix : « MBplus » à 24,99 $ pour deux mois (fiche), 69,99-89,99 $/an (sources tierces, 17 nov.).
+3. **3 décisions** : (a) l'écran de facturation s'impose pendant la création du compte (d'après 3 avis). (b) Paywall tôt, avant la première utilité ; pas d'essai pour certains (avis mai). (c) Retour : journal quotidien, prévision de pression atmosphérique, intégrations Oura et Apple Santé.
+4. **3 traits** : ✅ une émotion (comprendre sa douleur) ; ❌ résultat immédiat (il faut des semaines de données) ; ❌ distribution intégrée (partage au médecin seulement).
+5. **Ce qui manque** : 100 avis US lus (source litescrape), 17 en 1-2★. Thèmes : 29 % paywall/facturation trompeurs (5/17), 29 % bugs et saisie qui échoue (5/17), 29 % lisibilité et complexité (5/17), le reste hors sujet. Citations : « Half the time, sleep cycle won't update », « font sizes are ridiculously small ». Une demande récurrente : un widget. MAJ il y a 12 jours, pas de retard.
+6. **Acquisition** : 30 pubs Meta actives (plafond), 0 lancées depuis 7 jours ; format image ×30. Accroches : « The craving. The tiredness. The mood shift the day before », « 58 % des abonnés disent comprendre enfin leur migraine », « A pressure drop showed up 14 hours before her last attack ». Page de 118 397 likes.
+7. **Stack** (`estimation`) : iOS/Android, backend de données santé, météo (pression), Oura et HealthKit.
+8. **Réplication** : complexité 4/10. Niche : « migraine log » (7/10 prenables). Angle Kyle : journal en un tap, grosses polices, widget, paywall honnête. Temps : 3 semaines. Contrainte Apple santé : pas de diagnostic.
 
-## 🔬 App creusée #3 : Dial Santa / Super Santa (lifestyle saisonnier, preuve faible)
-**Preuve faible** : le seul revenu est un post Reddit soupçonné d'être promotionnel.
-
-1. **Identification** : [Dial Santa](https://apps.apple.com/us/app/dial-santa-live-video-calls/id6808069158) (NateWalchenbach, 5 avis) ; fiche creusée : [Super Santa](https://apps.apple.com/us/app/super-santa-video-call-chat/id6474420242) (Ma Ngan, sortie 2023-12-18, 3.48★ sur 229, MAJ 10 j). Video Call Santa : 161 098 avis 4.7★ (18 nov.).
-2. **Valeur** : l'enfant appelle un Père Noël IA ; Dial Santa gratuit puis 3,99 $ pour l'appel ; post : 3 043 $ bruts, 403 clients (≈ 7,5 $ par client).
-3. **3 décisions** : onboarding court ; paywall au moment de lancer l'appel ; retour = saisonnier, zéro hors décembre (commentaire du fil).
-4. **3 traits** : émotion ✅ (l'enfant) · résultat ✅ · distribution ✅ (réactions d'enfants filmées par les parents).
-5. **Ce qui manque** : sur 15 avis Super Santa, 12 sont 1★ (80 %) : « scam », pas d'appel réel (7), pubs toutes les 10-20 s (3), contenu inapproprié (2) ; « it showed some weird creepy things ». 
-6. **Acquisition** : pubs Meta non trouvées ; un commentaire évoque Meta Ads Manager ; clips de parents.
-7. **Stack** : vidéo IA + voix temps réel, Twilio et Stripe cités (post).
-8. **Réplication** : 6/10 (latence, sécurité enfants), 3 semaines ; FR : « fr:appel père noël » ÉCARTÉ (aucune app au top grossing). Non retenu comme pari.
+## 🔬 App creusée #3 : AntiqSnap: Antique Identifier
+1. **Identification** : [AntiqSnap](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120) (Next Vision Limited, Chine d'après un agrégateur), reference, sortie 2025-10-15, MAJ il y a 6 j, 4,67★ sur 31 540 notes, #12 reference. Fondateurs non nommés.
+2. **Proposition** : photo d'un objet, identification, valeur estimée, rareté, collection. Cible : héritiers, brocanteurs, revendeurs. Prix : 3,99 $/semaine, 29,99 à 39,99 $/an, essai 3 ou 7 jours (sources tierces en désaccord). Revenu estimé 250 000 $/mois par screensdesign.com : `estimation` tierce, non vérifiée.
+3. **3 décisions** : (a) onboarding court vers la photo. (b) Paywall immédiat après le premier essai, souvent pendant l'émotion de la découverte. (c) Retour : collection personnelle, valeur à suivre.
+4. **3 traits** : ✅ émotion (« combien vaut l'objet de mamie ? ») ; ✅ résultat en quelques secondes ; ❌ distribution intégrée (aucun partage trouvé).
+5. **Ce qui manque** : 100 avis US lus (litescrape), 59 en 1-2★. Thèmes : environ 60 % facturation trompeuse (« gratuit » puis 39,99 $, annulation impossible), environ 25 % estimations fausses (prix d'annonces, pas de ventes réelles), le reste confidentialité. Citations : « Misidentifies 4 out of 5 pieces. Tested 108 pieces. », « I was charged 39.99 the very next day ». MAJ il y a 6 jours.
+6. **Acquisition** : `pubs Meta non trouvées` (homonymes écartés). Autres canaux : non trouvés.
+7. **Stack** (`estimation`) : modèle de vision, base de prix de vente, abonnement StoreKit.
+8. **Réplication** : complexité 6/10. Niche : « vintage glassware identifier » (7/10 prenables, BUILD). Angle Kyle : prix de ventes réelles et paywall honnête. Temps : 6 semaines.
 
 ## 📈 Tendances Émergentes
-- **Accroches** : pas de pubs Meta trouvées ce jour. Seules promesses relevées : « Find penny deals near you, no signup » (Scavenger, aperçu sans compte) et « one-time purchase » plutôt qu'abonnement (fil HN DB Pro).
-- **Paywall caché = plainte n°1** : Scavenger (Pro 30 $/mois jamais annoncé) et Super Santa (publicités, achat caché) : les avis 1★ parlent de « scam », jamais de la fonction.
-- **Shopping en tête du mouvement** : 24 apps bougent dans le shopping (alertes, pénies, restock) ; 6 des 10 premières de « penny list » sont prenables.
-- **GLP-1** : « glp-1 meal plan » passe de 1 900 à 3 600 recherches/mois, CPC 5,55 $.
-- **Abonnements** : demande Google en baisse de près de moitié en 12 mois, mais CPC à 10-12 $.
-- **Outils d'agents** dominent GitHub Trending (plannotator, last30days-skill, chrome-devtools-mcp) et PH (Render Sandboxes 281 votes) ; hors cible grand public. Finance perso open source : [sure](https://github.com/we-promise/sure) (1 771 étoiles/semaine).
-- **Astroturfing** : post Dial Santa et avis 5★ suspects de Scavenger : exiger l'avis App Store avant de croire un revenu déclaré.
+- **Accroche pub qui revient** : l'avant-signe caché (« les envies, la fatigue la veille : pas au hasard ») chez Migraine Buddy, 28 pubs sur 30. Pas de recoupement entre apps : seule Migraine Buddy a des pubs trouvées.
+- **Faux gratuit = plainte n°1** : chez AntiqSnap (≈ 35 des 59 avis 1-2★ lus, `estimation` sur les 30 pires) et Migraine Buddy (5/17), « gratuit » puis 24,99 à 39,99 $ sans essai clair. Un paywall honnête est un trou récurrent.
+- **Apps mono-usage vendues par la recherche** : ScribeKit (23 payants, 0 $ de pub) et un portefeuille de petites apps à 508 $ MRR ; une app TikTok à 3 100 $ MRR déclaré en un mois.
+- **Scanners de valeur par photo** : Toyzie, VinylSnap, PlantAI, AntiqSnap, Curio, Relic entrent ou tiennent le classement reference.
+- **Agents IA** dominent Product Hunt et GitHub (last30days-skill, ffmpeg-skill) : peu de signal grand public. Product Hunt du jour : HTTP 504.
+- Hacker News : Kagi Mail (387 pts), GLM-5.4, Ladybird alpha : pas d'app copiable ici.
