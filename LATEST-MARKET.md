@@ -1,212 +1,218 @@
-# 🔥 Market Scan — 2026-11-24
+# 🔥 Market Scan — 2026-11-25
 
-> Collecte : treg 4/5 sources (Product Hunt en HTTP 504), 18 tests App Store (source apple, 3 en treg), 8 recherches extended, GitHub Trending ok, 1 page lue, 3 candidats creusés (Ditch sans avis : flux Apple vide).
+> Collecte : treg 5/5 sources, 20 tests App Store (source apple ou treg), 2 recherches extended, GitHub Trending ok, 1 page lue (échec : site « Launching Soon »), 3 candidats creusés.
 
 ## 📊 Résumé Exécutif
 - Apps au radar : 15 · creusées : 3
-- Mon pari : Pari #1, Dettes sans frais ni compte bancaire (BUILD, 7,0/10)
-- Twist Lab : 15 twists testés, 5 BUILD, 6 À CREUSER, 4 ÉCARTÉS
+- Mon pari : Pari #1 Repas pour enfants difficiles (BUILD, 6,4/10)
+- Twist Lab : 20 twists testés, 15 BUILD, 5 À CREUSER, 0 ÉCARTÉS
 
 ## 🧭 Où l'argent se déplace
-| Niche (catégorie) | Mouvement | Demande Google US | Leaders et faiblesse | Part à prendre |
+| Niche (catégorie) | Mouvement | Demande (Google US) | Leaders et faiblesse | Part à prendre |
 |---|---|---|---|---|
-| Remboursement de dettes (finance) | Fudget (nouveau→#86), Buddy budget planner (79→67), Bill Tracker Pro (81→70) ; Ditch #12-13 stable | « debt payoff app » 590/mois, CPC 11,36 $, stable ; « debt snowball app » 170, CPC 8,98 $ | Ditch 4,83★, 5 238 avis, MAJ 3 j, frais par paiement (source tierce) ; Debt Snowball Planner sans MAJ depuis 1 311 j | **oui** : CPC élevé, 6/10 places prenables |
-| Suivi migraine (medical) | Migraine Buddy 29→#13 en 9 j | « migraine tracker app » 590/mois, CPC 3,74 $, en hausse (480→880) ; « migraine weather forecast » 2 900, CPC 7,62 $ | Migraine Buddy 4,8★, 42 606 avis ; 1-2★ : paywall forcé, polices minuscules | **oui** : 7/10 prenables, mais un seul vrai gagnant |
-| Identifiants de valeur par photo (reference) | Toyzie AI 99→88, VinylSnap nouveau→#86, PlantAI nouveau→#87 | « antique identifier app » 1 600/mois, CPC 3,21 $, stable ; « coin identifier app » 8 100 en baisse (14 800→4 400) | AntiqSnap 31 540 avis, 4,67★ mais 50 % de 1★ sur 100 avis (fausse gratuité) | **oui** : leader qui déçoit, 5/10 prenables |
-| Suivi de dossier d'immigration (utilities) | Lawfully nouveau→#95, 174 479 avis | « uscis case tracker » 60 500/mois, CPC 4,49 $, en hausse | Leader inconnu, un seul acteur visible | à creuser : hors France, demande énorme |
-| Aidants familiaux (medical) | Caring Village 92→70, Riley 91→71 | « caregiver app » 1 600/mois, CPC 6,45 $ ; « pill reminder app » 3 600, CPC 2,52 $ | Caring Village 36 avis, 4,47★, MAJ 38 j | à creuser : peu d'avis, preuve faible |
-| Indemnités de justice (finance) | Collect 6 246 avis, #16 ; Settlemate #15 (76 167 avis) | « settlement claim app » : volume 0 | Settlemate 4,8★ | à creuser : demande Google nulle, US seulement |
-| Bible et foi (reference) | #Bible 70→56 ; Vessel 50→#23 ; Theovia 96→#81 | « bible study app » 6 600/mois, CPC 3,64 $, en baisse (14 800→2 900) | Leaders > 100 000 avis | non : demande qui baisse, très disputé |
-| Séries courtes IA (entertainment) | MU Fan, Leaked, Hushee, MiniDrama entrent | « ai story app » 260/mois, CPC 7,49 $, 110→720 en 12 mois | Beaucoup d'entrées jeunes | à creuser : studio de contenu requis |
+| Plan repas budget (Food & Drink) | Chow nouveau→#22, Sidekick 79→35, MyPlateGuard nouveau→48 (9 j) ; Whipp #3, TapCook #4, mise #7 | « meal planner app » 2 400/mois, CPC 5,38 $, stable ; « meal planner with grocery list » 1 900, 3,59 $ | Whipp 4,69★ / 1 169 avis, MAJ 7 j : 43 % de 1★ sur 70 avis (essai « gratuit » facturé, prix faux). Samsung Food (MAJ 197 j), Real Plans (245 j) | **oui** : leaders jeunes et mal notés |
+| Fax (Business) | FaxFlow 97→37, Fax.Plus 67→43, Tiny Fax 82→54, Genius Fax nouveau→76 (9 j) | « fax app » 4 400, CPC 7,75 $, +50 % sur 12 mois ; « fax from phone » 3 600 → 6 600, CPC 8,87 $ | FaxFlow 4,85★ / 8 749 avis (+6 plaintes de paywall surprise), « FAX from iPhone & iPad » sans MAJ depuis 984 j, JotNot 2 246 j | **oui** : demande qui monte, CPC élevé, faux « gratuit » partout |
+| Langues à l'oral (Education) | Teuida nouveau→68, Parrot nouveau→81, ELSA nouveau→88 (7 j) | « learn korean » 9 900, CPC 4,99 $, stable ; « language learning app » 27 100 en baisse saisonnière | Teuida 4,89★ / 59 717 avis : micro qui rejette (≥ 6 des 8 avis 1 à 4★ lus) | **à creuser** : voix, leader bien noté |
+| Cartes de sièges d'avion (Travel) | AeroLOPA 62→45, SeatGuru-clone nouveau→89, SeatMap nouveau→95 (9 j) | non testée | Clones à 2,3★, 7 à 16 avis | **à creuser** : demande non mesurée |
+| Repas bébé (Food & Drink) | BLW Meals 69→52, BabyPlate nouveau→74 ; Solid Starts #30 education (47 899 avis) | « baby led weaning meals » : volume non remonté | Solid Starts 4,9★ | **à creuser** : règles santé enfant |
+| Scan et PDF (Business) | My Scanner 56→39, pdfFiller 61→45, TapScanner 88→66 | « scan to pdf app » 260, CPC 9,33 $ | Leaders à 20 000+ avis | **non** : trop encombré |
+| Jeûne et nutrition (Health) | Zero nouveau→27, RP Diet Coach nouveau→77 | non testée | Zero 445 332 avis | **non** : trop gros |
 
-Vitesse des notes : Grok Bot (+358/j) et Camtro (+240/j) montent ; aucune app de ces niches n'y figure. Niche vocale : aucune.
+Vitesse des notes : Grok Bot +367 notes/j, Camtro +250/j, YayTalk +125/j (education #31) ; aucune app repas ou fax parmi les moins de 100k avis du bloc.
 
 ## 🧪 Twist Lab
-**Ditch (finance)**
+Source : `keywords` du collecteur (Apple, ou treg si Apple ne répond pas). Demande ✅ = au moins 5 apps à 1 000 notes ou plus dans le top 10.
 
-| Twist (type) | L'idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
+**Whipp (repas)**
+| Twist (type) | Idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
 |---|---|---|---|---|---|---|---|
-| Niche plus étroite | Remboursement de cartes de crédit | credit card payoff | ✅ 7 apps | ✅ 3/10 | ✅ Kiwipop #90, Debt Payoff Planner #62 | BUILD | — |
-| Plainte n°1 corrigée | Boule de neige sans frais ni banque | debt snowball | ✅ 5 apps | ✅ 6/10 | ✅ Debt Payoff Planner #62, EveryDollar #11 | BUILD | — |
-| Nouveau public | Prêts étudiants | student loan payoff | ✅ 5 apps | ✅ 7/10 | ❌ aucune | À CREUSER | Aucune app ne gagne |
-| Nouveau format | Compte à rebours « libre de dettes » | debt free countdown | ✅ 8 apps | ❌ 2/10 | ✅ Ditch #12 | À CREUSER | Leader installé |
-| Nouveau marché (FR) | Rembourser ses dettes en français | fr:rembourser dettes | ❌ 1 app | ✅ 9/10 | ❌ aucune | ÉCARTÉ | Demande trop faible |
+| Plainte n°1 corrigée | Menus aux prix réels, essai honnête | grocery budget meal plan | ✅ | 4/10 | ✅ TapCook #3, mise #4 | BUILD | — |
+| Niche plus étroite | Batch cooking | batch cooking meal plan | ❌ (50/mois) | 6/10 | ✅ MealPrepPro #22 | À CREUSER | demande trop faible |
+| Nouveau public | Enfants difficiles | picky eater meal plan | ✅ | 6/10 | ✅ Potto #11, Plan to Eat #42 | BUILD | — |
+| Nouveau public | Repas pour une personne | meal prep for one | ✅ | 7/10 | ✅ Mob #22 | BUILD | — |
+| Nouveau marché | Menu de la semaine FR | fr:plan repas semaine | ✅ | 6/10 | ✅ Whipp FR #3 | BUILD | — |
+| Nouveau marché | Menus budget FR | fr:menu budget courses | ❌ | 8/10 | ✅ NeatEat #8 | À CREUSER | Jow (49 330 avis) tient la recherche |
 
-**Migraine Buddy (medical)**
-
-| Twist (type) | L'idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
+**FaxFlow (fax)**
+| Twist (type) | Idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
 |---|---|---|---|---|---|---|---|
-| Plainte n°1 corrigée | Journal en un tap, gros caractères, paywall honnête | migraine log | ✅ 3 apps | ✅ 7/10 | ✅ Migraine Buddy #13 | BUILD | — |
-| Niche plus étroite | Céphalée en grappe | cluster headache tracker | ❌ 2 apps | ✅ 8/10 | ✅ Migraine Buddy #13 | À CREUSER | Demande faible, seul le leader gagne |
-| Nouveau public | Migraine menstruelle | menstrual migraine tracker | ✅ 6 apps | ✅ 4/10 | ❌ aucune | À CREUSER | Aucune petite app qui gagne |
-| Nouveau format | Prévision météo-migraine | migraine weather | ❌ 2 apps | ✅ 8/10 | ✅ Migraine Buddy #13 | À CREUSER | Seul le leader gagne, mais Google : 2 900/mois, CPC 7,62 $ |
-| Nouveau marché (FR) | Suivi migraine français | fr:suivi migraine | ❌ 1 app | ✅ 9/10 | ✅ Migraine Buddy #13 FR | À CREUSER | Demande FR faible |
+| Plainte n°1 corrigée | Un fax, un prix affiché | send one fax | ✅ | 6/10 | ✅ FAX from iPhone #79 | BUILD | — |
+| Plainte n°1 corrigée | Sans abonnement | fax without subscription | ✅ | 6/10 | ✅ FaxFlow #37 | BUILD | — |
+| Niche plus étroite | Fax de formulaires médicaux | fax medical forms | ✅ | 5/10 | ✅ FaxFlow, Genius Fax | BUILD | — |
+| Nouveau format | Paiement à la page | fax pay per page | ✅ | 5/10 | ✅ FaxFlow #37 | BUILD | — |
+| Nouveau format | Signer puis faxer | fax signature document | ✅ | 3/10 | ✅ FAX from iPhone #81 | BUILD | — |
+| Nouveau marché | Fax en français | fr:envoyer un fax | ❌ | 10/10 | ✅ FaxFree #17 | À CREUSER | aucune demande FR visible |
 
-**AntiqSnap (reference)**
-
-| Twist (type) | L'idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
+**Teuida (coréen, voix)**
+| Twist (type) | Idée | Recherche testée | Demande | Classable | Argent | Verdict | Pourquoi pas |
 |---|---|---|---|---|---|---|---|
-| Plainte n°1 corrigée | Valeur par ventes réelles, prix clair | antique value | ✅ 6 apps | ✅ 4/10 | ✅ AntiqSnap #12, Curio #37, Relic #56 | BUILD | — |
-| Niche plus étroite | Verrerie ancienne | vintage glassware identifier | ✅ 3 apps | ✅ 7/10 | ✅ Curio #37 | BUILD | — |
-| Niche plus étroite | Poinçons d'argenterie | silver hallmark identifier | ❌ 0 app | ✅ 10/10 | ❌ aucune | ÉCARTÉ | Aucune demande |
-| Nouveau public | Revendeurs de vide-greniers | estate sale scanner | ✅ 9 apps | ✅ 7/10 | ✅ scanner de documents #39 | ÉCARTÉ | Résultats = scanners de documents, faux positif |
-| Nouveau marché (FR) | Estimation de brocante | fr:brocante estimation | ❌ 0 app | ✅ 10/10 | ❌ aucune | ÉCARTÉ | Aucune demande |
+| Nouveau format | Parler dès le jour 1, micro fiable | learn korean speaking | ✅ | 6/10 | ✅ Teuida #68 | BUILD | — |
+| Niche plus étroite | Hangul en une semaine | learn hangul | ✅ | 6/10 | ✅ Teuida | BUILD | — |
+| Nouvelle saison | Phrases de voyage | korean phrases travel | ✅ | 9/10 | ❌ | À CREUSER | aucune app qui gagne |
+| Nouveau public | Fans de K-pop | kpop korean lessons | ✅ | 8/10 | ❌ | À CREUSER | aucune app qui gagne |
+| Nouveau marché | Coréen pour francophones | fr:apprendre le coréen | ✅ | 5/10 | ✅ Teuida #68 | BUILD | — |
+| Nouveau marché | Parler anglais FR | fr:apprendre l'anglais parler | ✅ | 3/10 | ✅ Speak #10 | BUILD | — |
+| Nouvelle saison | Coréen avant un voyage | learn korean for travel | ✅ | 5/10 | ✅ Pimsleur #5 | BUILD | — |
+| Nouveau format | Prononciation seule | korean pronunciation practice | ✅ | 7/10 | ✅ BoldVoice #74 | BUILD | — |
 
-15 twists testés : 5 BUILD, 6 À CREUSER, 4 ÉCARTÉS
+20 twists testés : 15 BUILD, 5 À CREUSER, 0 ÉCARTÉS
 
 ## 🎯 Quoi builder
-### Pari #1 : Dettes sans frais ni compte bancaire
-- **L'idée** : planificateur de dettes boule de neige en saisie manuelle pour Américains endettés, 4,99 $/mois ou 29,99 $/an. Twist sur Ditch : plainte n°1 corrigée (frais, liaison bancaire). Déjà vu 1 fois (« Remboursement de dettes sans frais cachés ») ; nouveau : tests App Store passés et Debt Payoff Planner #62 prouvé.
-- **Les 3 tests** : « debt snowball » → Demande ✅, Classable ✅ 6/10, Argent ✅ (Debt Payoff Planner #62, EveryDollar #11) → BUILD. Variante « credit card payoff » BUILD (3/10).
-- **Preuve d'argent** : [Debt Payoff Planner & Tracker](https://apps.apple.com/us/app/debt-payoff-planner-tracker/id1009323715) #62 finance ; [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) #12 ; [Kiwipop](https://apps.apple.com/us/app/kiwipop-payoff-credit-cards/id6484501975) #90.
-- **Le trou** : Debt Snowball – Payoff Planner sans MAJ depuis 1 311 j ; frais de 1 $ par payoff chez Ditch (source tierce, avis non lus ici) ; Google « debt payoff app » 590/mois, CPC 11,36 $.
-- **Pièges** : aucune marque d'autrui (ne pas citer EveryDollar, Dave Ramsey). Apple finance : pas de conseil financier, pas de prêt. Pas de données ni licence en saisie manuelle.
-- **Fiche App Store** : nom « Debt Snowball Planner » (21) ; sous-titre « Payoff plan, no bank link » (23) ; mots-clés `debt,payoff,credit card,budget,loan,tracker,interest,avalanche,calculator,free,plan`.
-- **Pourquoi Kyle** : produit SaaS simple, calcul local, aucun partenaire bancaire, vendable par ASO seul.
-- **MVP** : saisie des dettes, plan boule de neige/avalanche avec date de fin, widget de progression ; 3 semaines.
-- **Argent** : paywall après la date « libre de dettes » affichée, 4,99 $/mois ou 29,99 $/an.
-- **Acquisition** : ASO « debt snowball » ; accroche : « Ta date sans dettes en 60 secondes, sans lier ta banque ».
-- **Test en 48 h** : landing + post r/personalfinance-like ; go si 30 inscriptions à la liste d'attente, stop sinon.
+### Pari #1 : Repas pour enfants difficiles
+- **L'idée** : parents d'enfants qui refusent de manger, un menu hebdo « un aliment nouveau à la fois » + liste de courses, 6,99 $/mois après un essai affiché honnêtement. Twist sur Whipp : nouveau public (food, plan repas) + plainte n°1 (essai piégé) corrigée.
+- **Les 3 tests** : « picky eater meal plan » : Demande ✅, Classable 6/10 prenables, Argent ✅ (Potto #11, Plan to Eat #42), BUILD. Google : « meal plan for picky eaters » 320/mois, CPC 8,79 $, stable.
+- **Preuve d'argent** : [Potto](https://apps.apple.com/us/app/potto-meal-planner/id6778760884) #11 food ; [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) #3 food.
+- **Le trou** : Real Plans sans MAJ depuis 245 j ; EatPal : 1 avis ; Whipp : 43 % des 30 pires avis = essai débité (source : fiche App Store, estimation de parts). Déjà vu : « plan repas budget » 3 fois ; nouveau : le public enfants, jamais proposé.
+- **Pièges** : aucune marque dans le nom. Conseils nutrition enfant = règles Apple santé : rester sur « idées de repas », pas de conseil médical ; pas d'allergies présentées comme sûres.
+- **Fiche App Store** : nom « Bite Steps: Kid Meals » (21) ; sous-titre « Picky eater meal plan » (21) ; mots-clés `toddler,fussy,kids,dinner,grocery,list,recipes,weekly,family,food,school,lunch` (≈78).
+- **Pourquoi Kyle** : produit SaaS simple, LLM + base de recettes, marché US vendu en ASO.
+- **MVP** : profil enfant (aliments acceptés), plan 7 jours avec 1 aliment « défi », liste de courses ; 4 semaines.
+- **Argent** : paywall après le premier menu vu, 6,99 $/mois ou 39,99 $/an.
+- **Acquisition** : TikTok parents ; accroche : « Mon enfant a mangé du brocoli en 7 jours ».
+- **Test en 48 h** : landing + post r/Parenting ; go si 5 % d'inscrits sur 200 visites.
 
-### Pari #2 : Journal de migraine en un tap
-- **L'idée** : journal de migraine à gros caractères, widget et paywall honnête, pour migraineux, 3,99 $/mois. Twist sur Migraine Buddy : plainte n°1 corrigée. Pas vu dans les rapports précédents.
-- **Les 3 tests** : « migraine log » → Demande ✅ (3 apps), Classable ✅ 7/10, Argent ✅ (Migraine Buddy #13) → BUILD.
-- **Preuve d'argent** : [Migraine Buddy](https://apps.apple.com/us/app/migraine-buddy-track-headache/id975074413) #13 medical ; [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) #9 medical comme analogue (suivi de symptômes solo). Preuve faible sur le besoin exact : un seul gagnant migraine.
-- **Le trou** : 29 % des 1-2★ pour le paywall forcé, 29 % pour la lisibilité (« font sizes are ridiculously small »), 29 % bugs (17 avis 1-2★ sur 100, litescrape). Demande de widget en 4★.
-- **Pièges** : Apple santé : pas de diagnostic ni de conseil de dosage. Marque Migraine Buddy exclue. Pas de licence si pas de données médicales.
-- **Fiche App Store** : nom « Migraine Log: Quick Diary » (26) ; sous-titre « One-tap headache tracker » (24) ; mots-clés `headache,pain,trigger,symptom,diary,aura,widget,doctor,report,relief`.
-- **Pourquoi Kyle** : app mobile simple, aucune IA nécessaire, ton propre ASO.
-- **MVP** : bouton début/fin d'une crise, widget écran d'accueil, export PDF pour le médecin ; 3 semaines.
-- **Argent** : paywall après 7 jours d'usage réel, jamais à la création de compte, 3,99 $/mois.
-- **Acquisition** : ASO « migraine log » ; accroche : « Note ta crise en 2 secondes, même avec la migraine ».
-- **Test en 48 h** : post sur un forum de migraineux avec capture ; go si 20 réponses, stop sinon.
+### Pari #2 : Fax à l'envoi, prix affiché avant le scan
+- **L'idée** : particuliers, un fax = 2,99 $ affiché avant le scan, sans abonnement. Twist sur FaxFlow : plainte n°1 corrigée. Déjà vu 1 fois (fax payé à l'envoi) ; nouveau : 55 avis 1★ sur 186 dans la fiche lue aujourd'hui, dont la majorité sur le tarif, FaxFlow 97→#37 en 9 j.
+- **Les 3 tests** : « send one fax » Demande ✅, 6/10 prenables, Argent ✅ (FAX from iPhone: Fax App #79), BUILD. « fax without subscription » BUILD. Google « fax app » 4 400/mois, CPC 7,75 $, +50 % sur 12 mois.
+- **Preuve d'argent** : [FaxFlow](https://apps.apple.com/us/app/faxflow-send-fax-from-iphone/id6479331793) #37 business ; [Fax.Plus](https://apps.apple.com/us/app/fax-plus-receive-send-fax/id1170782544) #42.
+- **Le trou** : ~70 % des 30 pires avis FaxFlow : tarif caché (« $15 to send one fax ») ; vieilles apps sans MAJ (984 j).
+- **Pièges** : passerelle de fax (licence opérateur, Twilio Fax arrêté : à vérifier) ; données médicales (HIPAA) : ne pas promettre la conformité ; aucune marque dans le nom (« Fax » générique OK).
+- **Fiche App Store** : nom « Fax Once: Pay Per Fax » (22) ; sous-titre « No subscription fax sender » (26) ; mots-clés `send,scan,document,iphone,pdf,medical,form,sign,online,number,email,receive`.
+- **Pourquoi Kyle** : back-end simple, intégration API, paiement à l'acte.
+- **MVP** : scan, prix affiché, envoi + preuve de livraison ; 3 semaines.
+- **Argent** : paywall avant l'envoi mais prix visible dès l'accueil ; 2,99 $/fax.
+- **Acquisition** : Apple Search Ads ; accroche : « Un fax, 2,99 $. Pas d'abonnement. »
+- **Test en 48 h** : landing + pub à 30 $ ; go si 4 % de clics sur « envoyer ».
 
-### Pari #3 : Identifier la verrerie ancienne, prix honnête
-- **L'idée** : scanner de verrerie ancienne avec prix de ventes réelles, abonnement annuel clair 29,99 $, pour revendeurs et héritiers. Twist sur AntiqSnap : niche plus étroite. Voisin du pari « Scanner de valeur pièces et brocante FR » (déjà vu), mais niche et marché différents.
-- **Les 3 tests** : « vintage glassware identifier » → Demande ✅ (3 apps), Classable ✅ 7/10, Argent ✅ (Curio #37) → BUILD. « antique value » BUILD (4/10).
-- **Preuve d'argent** : [AntiqSnap](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120) #12 reference ; Curio - Antique Identifier #37 (lien non relevé) ; [Relic](https://apps.apple.com/us/app/antique-identifier-relic/id6747602157) #56.
-- **Le trou** : 50 des 100 avis lus sont à 1★, surtout facturation trompeuse ; valeurs tirées d'annonces, pas de ventes. Source : litescrape.
-- **Pièges** : aucune marque dans le nom (Pyrex, Fenton, Depression Glass à vérifier). Données de prix de vente à obtenir (licence ou scraping). Abonnement : Apple exige un prix clair.
-- **Fiche App Store** : nom « Glass ID: Vintage Glassware » (28) ; sous-titre « Identify and value by photo » (26) ; mots-clés `antique,crystal,depression,collectible,thrift,value,scan,flea,market,estate`.
-- **Pourquoi Kyle** : full-stack, base de prix à construire, vendable via recherches App Store.
-- **MVP** : photo, identification, fourchette de prix sold ; 6 semaines.
-- **Argent** : paywall après le premier résultat visible, 29,99 $/an, essai explicite.
-- **Acquisition** : TikTok de chasse en brocante ; accroche : « Cette verrerie à 2 $ vaut peut-être 80 $ ».
-- **Test en 48 h** : vidéo TikTok + landing ; go si 100 vues par 1 inscription sur 20, stop sinon.
+### Pari #3 : Coréen pour francophones, Hangul d'abord
+- **L'idée** : francophones qui découvrent le coréen via K-drama, Hangul en 7 jours puis phrases, 8,99 €/mois. Twist sur Teuida : nouveau marché (FR). Une app vocale (la seule).
+- **Les 3 tests** : « fr:apprendre le coréen » Demande ✅, 5/10 prenables, Argent ✅ (Teuida #68 education, Duolingo #1), BUILD. « learn hangul » BUILD. Google : « learn korean » 9 900/mois, CPC 4,99 $.
+- **Preuve d'argent** : [Teuida](https://apps.apple.com/us/app/teuida-learn-languages/id1457532562) #68 ; [Pimsleur](https://apps.apple.com/us/app/pimsleur-language-learning/id1405735469) #5 education.
+- **Le trou** : micro de Teuida (4 avis sur 5 négatifs) ; pas de cours coréen en français dans la fiche ; aucune demande Google FR mesurée (« apprendre le coréen » : 10/mois), donc risque réel.
+- **Pièges** : aucune marque d'autrui (pas « K-pop » de labels) ; contenus audio sous licence.
+- **Fiche App Store** : nom « Hangul Pas à Pas » (17) ; sous-titre « Apprendre le coréen » (19) ; mots-clés `hangul,coréen,kdrama,prononciation,alphabet,débutant,leçon,parler`.
+- **Pourquoi Kyle** : marché francophone, voix nécessaire au produit.
+- **MVP** : alphabet par sons, exercice oral avec seuil tolérant, série quotidienne ; 6 à 8 semaines.
+- **Argent** : paywall après la leçon 3, 8,99 €/mois.
+- **Acquisition** : TikTok K-drama ; accroche : « Lis le coréen en 1 heure ».
+- **Test en 48 h** : vidéo TikTok + liste d'attente ; go si 100 inscrits.
 
-**Mon pari : #1 — Dettes sans frais ni compte bancaire** : meilleur score, BUILD, CPC de 11 $ qui signale un client rentable et aucun partenaire bancaire.
+**Mon pari : #1 — Repas pour enfants difficiles** : seul pari à la demande Google mesurée avec CPC élevé (8,79 $) et des leaders mal notés ou non mis à jour.
 
 ## 🧮 Scorecard des paris
-| # | Pari | 📊 Marché | ⚙️ Complexité | ⏱️ Mise sur le marché | 🏟️ Concurrence | 💰 Revenu | 🧑‍💻 Fit Kyle | Score | 3 traits | Verdict |
+| # | Pari | 📊 Marché | ⚙️ Complexité inv. | ⏱️ Time-to-market | 🏟️ Concurrence inv. | 💰 Revenu | 🧑‍💻 Fit Kyle | Score | 3 traits | Verdict |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Dettes sans frais | 7 | 8 | 8 | 5 | 6 | 8 | **7,0** | 1 | BUILD |
-| 2 | Journal de migraine | 6 | 8 | 8 | 6 | 5 | 7 | **6,6** | 1 | BUILD |
-| 3 | Verrerie ancienne | 6 | 6 | 6 | 6 | 7 | 6 | **6,2** | 2 | BUILD |
+| 1 | Repas enfants difficiles | 7 | 6 | 6 | 5 | 6 | 8 | **6,4** | 1 | BUILD |
+| 2 | Fax prix affiché | 7 | 5 | 7 | 3 | 7 | 8 | **6,3** | 1 | BUILD |
+| 3 | Coréen pour francophones | 6 | 5 | 5 | 4 | 6 | 6 | **5,4** | 2 | BUILD |
 
-Scores honnêtes : le revenu du pari #3 repose sur une estimation tierce de 250 000 $/mois pour AntiqSnap. Les 3 traits sont la colonne d'information, hors score.
+Scores estimés, `estimation`. Concurrence du #2 notée 3 : les 10 premiers sont des vieilles apps, mais des gros acteurs tiennent le top grossing.
 
-## 💰 Unit Economics — Pari #1 : Dettes sans frais ni compte bancaire
-Tout est `estimation` (aucune source directe pour les apps comparables ; Crunchbase, Tracxn, SimilarWeb non consultés).
+## 💰 Unit Economics — Pari #1 : Repas pour enfants difficiles
+Comparables : Whipp, TapCook, Potto (aucun chiffre de revenu public ; tout est `estimation`).
 
 | Métrique | Estimation |
 |---|---|
-| ARR visé à 12 mois | 36 000 $ (≈ 3 000 $ MRR) |
-| Utilisateurs payants | ≈ 900 à 4,99 $/mois effectif (mix mensuel/annuel) |
-| ARPU | ≈ 3,40 $/mois net après commission Apple 15-30 % |
-| CAC | ≈ 0 à 3 $ (ASO), 15 $ si pub payée |
-| LTV | ≈ 30 $ (rétention 9 mois) |
-| LTV/CAC | ≈ 10 (ASO), ≈ 2 (pub) |
-| Payback | < 1 mois (ASO) |
-| Burn / runway | ≈ 100 $/mois d'outils ; runway très long (solo) |
-| Revenu par employé | ≈ 36 000 $ (1 personne) |
-| Rule of 40 | non pertinent à ce stade |
+| ARR | 60 k$ à 12 mois (500 abonnés payants × 8 $ net/mois × 12 ≈ 48 k$, ordre de grandeur) |
+| ARPU | 6,99 $/mois (brut, avant 15 % de commission Apple) |
+| Users | 15 000 téléchargements, 3 % payants |
+| CAC | 8 à 15 $ (TikTok organique + Search Ads) |
+| LTV | 25 $ (rétention ~4 mois) |
+| LTV/CAC | 2 à 3 |
+| Payback | 2 à 3 mois |
+| Burn | ~300 $/mois (LLM, hébergement, données) |
+| Runway | illimité (solo, sans salaire) |
+| Rev/employee | 60 k$ (1 personne) |
+| Rule of 40 | non applicable (pas de croissance historique) |
 
-Verdict : 🟡. Marge confortable, mais marché de niche : le plafond de revenu est modeste (CPC 11 $ montre la valeur du client, pas le volume : 590 recherches/mois).
+Verdict santé : 🟡 la marge dépend de la rétention : les avis Whipp montrent un fort désabonnement quand l'essai est mal vendu.
 
 ## 🔭 Radar — 15 apps
 | App | Signal | Âge | Ce qu'elle vend | Piste |
 |---|---|---|---|---|
-| [Ditch](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208) | #12 finance, 5 238 avis, 4,83★ | 1 166 j | Round-ups vers les dettes, essai 7 j, abonnement (3,99 à 15,99 $/mois selon sources tierces) | Frais par paiement signalés, lien bancaire |
-| [Debt Payoff Planner & Tracker](https://apps.apple.com/us/app/debt-payoff-planner-tracker/id1009323715) | #62 finance, 7 444 avis | 4 038 j | Planificateur boule de neige | Vieille interface, pas de n°2 net |
-| [Kiwipop](https://apps.apple.com/us/app/kiwipop-payoff-credit-cards/id6484501975) | #90 finance, 597 avis | 954 j | Remboursement de cartes de crédit | Petite app qui encaisse |
-| [Migraine Buddy](https://apps.apple.com/us/app/migraine-buddy-track-headache/id975074413) | #13 medical (29→13), 42 606 avis | 4 259 j | Journal de migraine, premium 24,99 $/2 mois | Paywall forcé, polices minuscules |
-| [PCOS Pal](https://apps.apple.com/us/app/pcos-pal/id6474100020) | #9 medical, 2 703 avis | — | Suivi SOPK | — |
-| [Caring Village](https://apps.apple.com/us/app/caring-village-caregiver-app/id1093814557) | #70 medical (92→70), 36 avis | 3 819 j | Coordination d'aidants | Demande « caregiver app » 1 600/mois, CPC 6,45 $ |
-| [AntiqSnap](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120) | #12 reference, 31 540 avis | 404 j | Valeur d'antiquités par photo, 3,99 $/sem ou 29,99-39,99 $/an | Fausse gratuité, estimations sur annonces |
-| [Antique Identifier – Relic](https://apps.apple.com/us/app/antique-identifier-relic/id6747602157) | #56 reference, 8 579 avis | 515 j | Idem | Petite app qui encaisse |
-| [Collectr](https://apps.apple.com/us/app/collectr-tcg-collector-app/id1603892248) | #8 reference, 70 835 avis | — | Suivi de collections de cartes | Marques déposées : à éviter |
-| [Collect – Settlement Finder](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187) | #16 finance, 6 246 avis | — | Class actions à réclamer | Pas de version française |
-| Lawfully USCIS Case Tracker (lien non relevé) | entrée #95 utilities, 174 479 avis | — | Suivi de dossier USCIS | Demande 60 500/mois, hors France |
-| [ScribeKit](https://x.com/truly_offline/status/2122993424723026229) | Déclaré : 30 $ MRR, 23 payants, 5 semaines | 5 sem. | App de transcription/notes, 100 % recherche App Store | Preuve que l'ASO suffit |
-| [Hey Sherpa](https://apps.apple.com/us/app/hey-sherpa/id6767328953) | #42 health, 5 j, 2 avis | 5 j | Inconnu (`estimation`) | — |
-| [App iOS TikTok à 3 100 $ MRR](https://x.com/julscales/status/2123064291305640065) | Déclaré : 3 100 $ MRR en 1 mois | 1 mois | Produit non nommé, 7 000 téléchargements via TikTok | Distribution créateur |
-| [Portefeuille d'apps mono-usage](https://x.com/vovalukashov/status/2123721509566824778) | Déclaré : 508 $ MRR, 87 abonnements | 17 sem. | Apps iOS + web à usage unique | Une app = un besoin = une recherche |
+| [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) | #3 food, 1 169 avis | 165 j | Menus de la semaine sous budget, essai 3 j, gratuit puis abonnement | Prix irréalistes, essai piégé |
+| [TapCook](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354) | #4 food, 8 766 avis | 130 j | Plans repas à petit budget | Concurrent direct de Whipp |
+| [Chow](https://apps.apple.com/us/app/chow-meal-planner-groceries/id6807514592) | nouveau→#22 food, 72 avis | 74 j | Planificateur + courses | — |
+| [FaxFlow](https://apps.apple.com/us/app/faxflow-send-fax-from-iphone/id6479331793) | 97→#37 business | 984 j | Fax depuis l'iPhone, 9,99 à 14,99 $/semaine | Pay-per-send honnête |
+| [Genius Fax](https://apps.apple.com/us/app/genius-fax-faxing-app/id566504821) | #76 business, 44 491 avis | 13 ans | Fax à crédits | — |
+| [Teuida](https://apps.apple.com/us/app/teuida-learn-languages/id1457532562) | nouveau→#68 education | 2 785 j | Coréen, japonais, espagnol, français à l'oral (voix) | Micro qui rejette les bonnes réponses |
+| [Hey Sherpa](https://apps.apple.com/us/app/hey-sherpa/id6767328953) | nouveau→#41 health, 4 avis | 6 j | Non lu | — |
+| [SeatGuru (clone)](https://apps.apple.com/us/app/seatguru-flight-seat-maps/id6824291797) | #89 travel, 7 avis | 32 j | Cartes de sièges d'avion | Données fausses (2,29★) |
+| AeroLOPA: Aircraft Seat Maps | 62→#45 travel, 25 avis | non lu | Plans de cabines | — |
+| Zero: Fasting & Food Tracker | nouveau→#27 health | non lu | Jeûne intermittent | Trop gros |
+| [CFO Lens](https://x.com/arsyadharmaa/status/2123250350933373015) | 3 500 $ MRR déclaré | 6 mois | SaaS pour directeurs financiers | — |
+| [Portefeuille vovalukashov](https://x.com/vovalukashov/status/2123721509566824778) | 508 $ MRR déclaré | 17 sem. | Mini-apps à usage unique, iOS + web | Modèle « petite app » |
+| [Willow iOS 2.0](https://www.producthunt.com/products/willow-voice) | 101 votes PH | non lu | Dictée vocale | Voix, saturé |
+| [Mise](https://apps.apple.com/us/app/mise-meal-planner/id6777471316) | #7 food, 5 401 avis | 167 j | Planificateur de repas | — |
+| [ScribeKit](https://x.com/truly_offline/status/2122993424723026229) | 30 $ MRR déclaré | 5 sem. | Outil iOS, 100 % App Store Search | Preuve : ASO suffit |
 
-Revenus déclarés : ScribeKit, l'app TikTok et le portefeuille mono-usage (3 ; tous non vérifiés). Aucune app vocale au radar.
+AeroLOPA et Zero : pas de lien, id de fiche non relevé.
 
 ## 💸 Apps qui font du cash
-**Revenus déclarés** (déclaré, non vérifié) :
-- App iOS d'un créateur de 20 ans : 3 800 $ de revenu, 3 100 $ MRR en 1 mois, TikTok organique, 7 000 téléchargements, 2026-11-18 — [post](https://x.com/julscales/status/2123064291305640065)
-- Portefeuille de petites apps mono-usage (iOS + web) : 508 $ MRR, 87 abonnements, 2026-11-20 — [post](https://x.com/vovalukashov/status/2123721509566824778)
-- App de 2 mois : MRR 411 €, 1 496 € le mois 2, 2026-11-24 — [post](https://x.com/zakisbuilding/status/2125021985876942862)
-- 4 apps en parallèle d'un 9-5 : 321 $ MRR, 55 abonnés, 2026-11-21 — [post](https://x.com/MDALISHANALI2/status/2124193679023980829)
-- ScribeKit : 30 $ MRR, 23 payants, 429 users, 100 % recherche App Store, 2026-11-18 — [post](https://x.com/truly_offline/status/2122993424723026229)
-- TeaserKit : 100 $ MRR, 2026-11-23 — [post](https://x.com/AdarshSubham1/status/2124918402753941512)
-- CFO Lens (B2B) : 3 500 $ MRR, 2026-11-19 — [post](https://x.com/arsyadharmaa/status/2123250350933373015)
-- Garden – Sober Tracker : 23 $ MRR, 3 abonnés, 2026-11-23 — [post](https://x.com/lucasvribeiro_/status/2124669588587856319)
+**Revenus déclarés** (déclaré, non vérifié)
+- CFO Lens : 3 500 $ MRR, 2026-11-19 · [post](https://x.com/arsyadharmaa/status/2123250350933373015)
+- Portefeuille de petites apps iOS + web (vovalukashov) : 508 $ MRR, 87 abonnements, 2026-11-20 · [post](https://x.com/vovalukashov/status/2123721509566824778)
+- Groupbuild.app : plus de 1 000 $ de revenu cumulé en 13 mois, 2026-11-24 · [post](https://x.com/ramkoo9999/status/2125062941053702345)
+- TeaserKit : 100 $ MRR le premier mois, 2026-11-23 · [post](https://x.com/AdarshSubham1/status/2124918402753941512)
+- ScribeKit : 30 $ MRR, 23 payants, 100 % App Store Search, 2026-11-18 · [post](https://x.com/truly_offline/status/2122993424723026229)
+- Garden - Sober Tracker : 23 $ MRR, 3 abonnés, 2026-11-23 · [post](https://x.com/lucasvribeiro_/status/2124669588587856319)
 
-**App Store US** (rang ≠ revenu) :
-- #12 finance, Ditch (5 238 avis) : round-ups vers les dettes — [lien](https://apps.apple.com/us/app/ditch-pay-off-debt-faster/id6466198208)
-- #16 finance, Collect – Settlement Finder (6 246 avis) : cherche les class actions où réclamer de l'argent — [lien](https://apps.apple.com/us/app/collect-settlement-finder/id6752740187)
-- #9 medical, PCOS Pal (2 703 avis) : suivi SOPK — [lien](https://apps.apple.com/us/app/pcos-pal/id6474100020)
-- #14 reference, AntiqSnap (31 540 avis) : valeur d'antiquités par photo — [lien](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120)
-- #31 health, Bicah (133 avis) : entrée du jour, app de santé jeune — [lien](https://apps.apple.com/us/app/bicah/id6740829839)
-- #36 health, MenuFit (54 600 avis) : manger sainement au restaurant — [lien](https://apps.apple.com/us/app/menufit-healthy-eating-out/id6746144481)
-- #18 reference, WoodSense (24 613 avis) : plans de bricolage bois — [lien](https://apps.apple.com/us/app/woodsense-wood-plans-guides/id6754165620)
-- #19 utilities, Universal TV Remote Control (85 481 avis) : télécommande TV — [lien](https://apps.apple.com/us/app/universal-tv-remote-control/id6443877058)
-- Mouvements : Fudget et Buddy budget planner montent en finance ; VinylSnap entre en reference (#86).
+**App Store US, top grossing (moins de 100k avis, hors jeux), rang du 2026-11-25**
+- #3 Whipp, Food & Drink, 1 169 avis : plan de repas hebdo sous budget + liste de courses · [fiche](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199)
+- #4 TapCook, Food & Drink, 8 766 avis : plans repas à petit budget · [fiche](https://apps.apple.com/us/app/tapcook-budget-meal-plans/id6769601354)
+- #7 mise, Food & Drink, 5 401 avis : planificateur de repas · [fiche](https://apps.apple.com/us/app/mise-meal-planner/id6777471316)
+- #10 NeatEat, Food & Drink, 1 588 avis : planificateur de repas · [fiche](https://apps.apple.com/us/app/neateat-meal-planner/id6783742855)
+- #20 STNDRD, Health & Fitness, 3 884 avis : plans d'entraînement · [fiche](https://apps.apple.com/us/app/stndrd-workout-fitness-plans/id1573298047)
+- #37 FaxFlow, Business, 8 749 avis (97→37 en 9 j) : envoi de fax depuis l'iPhone · [fiche](https://apps.apple.com/us/app/faxflow-send-fax-from-iphone/id6479331793)
+- #68 Teuida, Education, 59 717 avis (nouveau) : cours de langues à l'oral · [fiche](https://apps.apple.com/us/app/teuida-learn-languages/id1457532562)
+- #27 Zero, Health & Fitness (nouveau→27, 445 332 avis) : jeûne intermittent, hors liste « petites » mais mouvement notable.
 
-**Jeunes apps qui gagnent déjà** (< 365 jours) :
-- Hey Sherpa, #42 health, 5 jours, 2 avis : place gagnée très vite, produit inconnu (`estimation` : coaching marche/rando) — [lien](https://apps.apple.com/us/app/hey-sherpa/id6767328953)
-- Trend IQ: AI Chart Analysis, #96 finance, 185 j : analyse de graphiques par IA — [lien](https://apps.apple.com/us/app/trend-iq-ai-chart-analysis/id6764767822)
-- Obi by Dr. Sterling (#95 medical, 454 j) et AntiqSnap (404 j) dépassent 365 jours : hors liste, mais encaissent.
-- TopShort, #75 entertainment, 12 j, 1 avis : drames courts, signal faible — [lien](https://apps.apple.com/us/app/topshort-shorts-reels/id6827997660)
-- **Places à prendre (sans MAJ > 180 j)** : Vetpocket (#57 medical, MAJ il y a 201 j, 30 avis) ; Debt Snowball – Payoff Planner (MAJ il y a 1 311 j, 1 404 avis) ; Headache Migraine Diary (MAJ il y a 510 j, 550 avis).
+**Jeunes apps qui gagnent déjà** (rang ≠ revenu)
+- Chow: Meal Planner & Groceries, #22 food, sortie il y a 74 j, 72 avis.
+- Remy: Cook with Top Chefs, #72 food, 144 j, 12 avis, recettes de chefs.
+- MealList, #84 food, 94 j, 8 avis.
+- Hey Sherpa, #41 health, 6 j, 4 avis (ce qu'elle vend : non lu, estimation : coach).
+- USBarkRangers: Park Passport, #56 travel, 14 j, 1 avis.
+- SeatGuru: Flight Seat Maps, #89 travel, 32 j, 7 avis, 2,29★ : cartes de sièges d'avion.
+- SeatMap: Flight Seat Info, #95 travel, 154 j, 16 avis.
+- Places à prendre (leader sans MAJ depuis plus de 180 j) : Real Plans (MAJ il y a 245 j, #97 food), Samsung Food (197 j, #54 food).
 
-## 🔬 App creusée #1 : Ditch: Pay Off Debt Faster
-1. **Identification** : [Ditch](https://www.ditch.io/) (Ditch Technologies), finance, sortie App Store 2023-09-14, MAJ il y a 3 j, 4,83★ sur 5 238 notes, #12-13 finance. Le site affiche « 10,1 M$ remboursés ». Fondateurs : non trouvés. Gratuit à l'installation, abonnement après 7 jours.
-2. **Proposition** : problème = payer ses dettes sans y penser. Solution = round-ups des achats envoyés vers les prêts, pourcentages ou mode « smart ». USP : « pas de tableur, pas de stress ». Cible : adultes endettés avec un compte bancaire lié. Prix : 3,99 / 9,99 / 15,99 $ par mois (agrégateur tiers), 12,99 $/mois ou 79,99 $/an cités dans un avis ; sources en désaccord, `estimation`.
-3. **Les 3 décisions qui font l'argent** : (a) onboarding de ~4 minutes, connexion bancaire (96 % de couverture), puis réglage des payoffs (site). (b) Paywall : essai d'une semaine après la connexion bancaire, au moment où l'utilisateur voit sa dette (`estimation`). (c) Retour : chaque achat déclenche un payoff, la dette baisse sans action.
-4. **3 traits** : ✅ émotion pour une action (soulagement à chaque achat) ; ❌ résultat en quelques secondes (il faut 4 min + banque) ; ❌ distribution intégrée (aucun partage trouvé).
-5. **Ce qui manque** : `avis non consultés` (flux Apple vide, 0 avis lu). D'après des résumés tiers : un dollar de frais à chaque payoff, frais « non annoncés avant l'abonnement », échecs de liaison bancaire. Pas de mise à jour tardive (MAJ il y a 3 j).
-6. **Acquisition** : `pubs Meta non trouvées` (pages écartées : homonymes). Autres canaux : non trouvés.
-7. **Stack** (`estimation`) : app mobile native, agrégation bancaire type Plaid, virements ACH.
-8. **Réplication** : complexité 6/10 avec banque, 3/10 en saisie manuelle. Niche : « debt snowball » et « credit card payoff » (voir Twist Lab). Angle Kyle : planificateur sans compte bancaire ni frais. Temps : 4 à 5 semaines.
+## 🔬 App creusée #1 : Whipp (repas, Food & Drink)
+1. **Identification** : [Whipp](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) (EVOY LTD), sortie App Store 2026-06-12, MAJ 2026-11-17 (v2.0.2), Food & Drink, version française « Whipp: Menu de la semaine » sortie 2026-11-05. Signal : #3 top grossing food, 1 169 avis, 4,69★ (un rang, pas un revenu). Fondateurs : non trouvés.
+2. **Proposition** : plus de « qu'est-ce qu'on mange ce soir » : plan de dîners de la semaine selon budget, magasin et goûts, liste de courses par rayon avec total. Cible : foyers américains qui veulent réduire les courses. Prix : gratuit au téléchargement, abonnement derrière un essai de 3 jours (prix exact : estimation 10 à 15 $/mois, non lu).
+3. **Les 3 décisions** : onboarding de préférences (budget, régime) obligatoire avant tout ; paywall juste après l'écran de préférences, avant d'avoir vu un seul menu (avis : « impossible de passer l'écran de paiement ») ; retour : une nouvelle liste de courses chaque semaine et le cap budget.
+4. **3 traits** : ❌ émotion : le soulagement du « 18 h » est réel mais l'app ne le fait pas ressentir. ✅ résultat visible en secondes : un plan complet en moins d'une minute. ❌ distribution intégrée : aucun partage ni code relevé.
+5. **Ce qui manque** (70 avis US lus, 35 à 1-2★, 30 pires affichés) : 43 % : essai « gratuit » débité (« cancelled 5 minutes after, still charged ») ; 27 % : prix de la liste faux (« $55 list rang up to $155 ») ; 23 % : recettes IA, peu de variété, filtres ignorés. Dernière MAJ il y a 7 j, pas de place à prendre par ce biais. Parts calculées sur les 30 affichés, `estimation`.
+6. **Acquisition** : pubs Meta : 0 active (page trouvée, 5 likes, @whipp.app : vérifier que c'est la bonne). Autres canaux : ASO (le nom de fiche contient « Meal Planner »), pas de créateurs repérés.
+7. **Stack** : non communiquée, estimation : app native iOS, génération de menus par LLM, prix de produits d'un fournisseur de données de courses.
+8. **Réplication** : complexité 5/10 ; adjacents : repas enfants, batch cooking, FR ; niche : leader qui déçoit (43 % d'essai piégé) ; angle Kyle : même promesse avec prix réel et essai honnête ; 4 à 6 semaines.
 
-## 🔬 App creusée #2 : Migraine Buddy: Track Headache
-1. **Identification** : [Migraine Buddy](https://apps.apple.com/us/app/migraine-buddy-track-headache/id975074413) (Voluntis), medical, sortie 2015-03-27, MAJ 2026-11-11, 4,8★ sur 42 606 notes, #13 medical (29→13 en 9 j). La page Meta dit « 4,8 M de personnes ».
-2. **Proposition** : suivre ses crises, trouver les déclencheurs, rapport pour le médecin, communauté. Cible : migraineux. Prix : « MBplus » à 24,99 $ pour deux mois (fiche), 69,99-89,99 $/an (sources tierces, 17 nov.).
-3. **3 décisions** : (a) l'écran de facturation s'impose pendant la création du compte (d'après 3 avis). (b) Paywall tôt, avant la première utilité ; pas d'essai pour certains (avis mai). (c) Retour : journal quotidien, prévision de pression atmosphérique, intégrations Oura et Apple Santé.
-4. **3 traits** : ✅ une émotion (comprendre sa douleur) ; ❌ résultat immédiat (il faut des semaines de données) ; ❌ distribution intégrée (partage au médecin seulement).
-5. **Ce qui manque** : 100 avis US lus (source litescrape), 17 en 1-2★. Thèmes : 29 % paywall/facturation trompeurs (5/17), 29 % bugs et saisie qui échoue (5/17), 29 % lisibilité et complexité (5/17), le reste hors sujet. Citations : « Half the time, sleep cycle won't update », « font sizes are ridiculously small ». Une demande récurrente : un widget. MAJ il y a 12 jours, pas de retard.
-6. **Acquisition** : 30 pubs Meta actives (plafond), 0 lancées depuis 7 jours ; format image ×30. Accroches : « The craving. The tiredness. The mood shift the day before », « 58 % des abonnés disent comprendre enfin leur migraine », « A pressure drop showed up 14 hours before her last attack ». Page de 118 397 likes.
-7. **Stack** (`estimation`) : iOS/Android, backend de données santé, météo (pression), Oura et HealthKit.
-8. **Réplication** : complexité 4/10. Niche : « migraine log » (7/10 prenables). Angle Kyle : journal en un tap, grosses polices, widget, paywall honnête. Temps : 3 semaines. Contrainte Apple santé : pas de diagnostic.
+## 🔬 App creusée #2 : FaxFlow (fax, Business)
+1. **Identification** : [FaxFlow](https://apps.apple.com/us/app/faxflow-send-fax-from-iphone/id6479331793) (Mobile Flow Ltd), sortie 2024-03-15, MAJ 2026-11-06, Business, 4,85★ / 8 749 avis. Signal : 97→#37 business en 9 j. Site officiel : page « Launching Soon » (lecture inutile). Fondateurs : non trouvés.
+2. **Proposition** : envoyer et recevoir des fax depuis l'iPhone, sans télécopieur : scan par caméra, numéro, confirmation de livraison. Cible : particuliers qui envoient un fax par an (médecin, assurance, RH). Prix tiré des avis : 9,99 $ la semaine, 14,99 $ la semaine, 34,99 $ le mois.
+3. **Les 3 décisions** : onboarding avec questions puis création du fax ; paywall au moment de l'émotion maximale : au clic sur « envoyer », après une demande de note (avis : « asks you to rate while it is sending, then pay popup ») ; retour : réception de fax et boîte de réception.
+4. **3 traits** : ❌ émotion : un besoin utilitaire, aucune joie. ✅ résultat visible : confirmation de livraison en quelques minutes. ❌ distribution intégrée : aucune.
+5. **Ce qui manque** (186 avis US lus, 58 à 1-2★) : sur les 30 pires affichés, ~70 % : tarif caché ou « pas gratuit » (« $15 to send one fax ») ; ~13 % : fax non livré ou illisible (« HR said too pixelated ») ; ~10 % : débit ou abonnement qui ne se débloque pas. Dernière MAJ il y a 18 j. `estimation` sur les parts.
+6. **Acquisition** : pubs Meta non trouvées (aucune page d'app sûre). Le mot « free » semble porter l'acquisition (avis). Canal à confirmer : ASO « fax app » 4 400 recherches/mois, CPC 7,75 $.
+7. **Stack** : estimation : app iOS + passerelle de fax du marché (Telnyx ou Documo ; Twilio Fax est arrêté, à revérifier).
+8. **Réplication** : complexité 4/10 ; adjacents : fax médical, fax signature (3/10 prenables) ; niche : leader qui déçoit + nombreuses vieilles apps (FAX from iPhone & iPad sans MAJ depuis 984 j) ; angle Kyle : prix par envoi affiché avant le scan, version FR ; 3 à 4 semaines.
 
-## 🔬 App creusée #3 : AntiqSnap: Antique Identifier
-1. **Identification** : [AntiqSnap](https://apps.apple.com/us/app/antiqsnap-antique-identifier/id6752929120) (Next Vision Limited, Chine d'après un agrégateur), reference, sortie 2025-10-15, MAJ il y a 6 j, 4,67★ sur 31 540 notes, #12 reference. Fondateurs non nommés.
-2. **Proposition** : photo d'un objet, identification, valeur estimée, rareté, collection. Cible : héritiers, brocanteurs, revendeurs. Prix : 3,99 $/semaine, 29,99 à 39,99 $/an, essai 3 ou 7 jours (sources tierces en désaccord). Revenu estimé 250 000 $/mois par screensdesign.com : `estimation` tierce, non vérifiée.
-3. **3 décisions** : (a) onboarding court vers la photo. (b) Paywall immédiat après le premier essai, souvent pendant l'émotion de la découverte. (c) Retour : collection personnelle, valeur à suivre.
-4. **3 traits** : ✅ émotion (« combien vaut l'objet de mamie ? ») ; ✅ résultat en quelques secondes ; ❌ distribution intégrée (aucun partage trouvé).
-5. **Ce qui manque** : 100 avis US lus (litescrape), 59 en 1-2★. Thèmes : environ 60 % facturation trompeuse (« gratuit » puis 39,99 $, annulation impossible), environ 25 % estimations fausses (prix d'annonces, pas de ventes réelles), le reste confidentialité. Citations : « Misidentifies 4 out of 5 pieces. Tested 108 pieces. », « I was charged 39.99 the very next day ». MAJ il y a 6 jours.
-6. **Acquisition** : `pubs Meta non trouvées` (homonymes écartés). Autres canaux : non trouvés.
-7. **Stack** (`estimation`) : modèle de vision, base de prix de vente, abonnement StoreKit.
-8. **Réplication** : complexité 6/10. Niche : « vintage glassware identifier » (7/10 prenables, BUILD). Angle Kyle : prix de ventes réelles et paywall honnête. Temps : 6 semaines.
+## 🔬 App creusée #3 : Teuida (coréen, Education)
+1. **Identification** : [Teuida](https://apps.apple.com/us/app/teuida-learn-languages/id1457532562) (TEUIDA), sortie 2019-04-10, MAJ 2026-11-23, Education, 4,89★ / 59 717 avis. Signal : nouveau→#68 education. Fondateurs : non trouvés. Voix : oui (une seule app vocale creusée).
+2. **Proposition** : apprendre le coréen, le japonais, l'espagnol et le français en parlant dès la première leçon, scénarios à la première personne, avec des tuteurs en vidéo. Cible : fans de K-pop et de K-drama, ados. Prix : gratuit avec une leçon par jour, premium pour lever la limite (avis : « wait a day if no premium »), tarif non lu.
+3. **Les 3 décisions** : onboarding par une mission orale immédiate ; paywall à la limite quotidienne de leçons ; retour : série quotidienne et tuteurs-personnages attachants (« I love the lovely lady who does French »).
+4. **3 traits** : ✅ émotion : se sentir capable de parler dès le jour 1. ✅ résultat visible en secondes : on dit « bonjour » et l'app valide. ❌ distribution intégrée : pas de partage relevé.
+5. **Ce qui manque** (200 avis US lus : 178 à 5★, seulement 4 à 1-2★) : le micro qui rejette les bonnes réponses revient dans 4 des 5 avis 1-3★ et dans plusieurs 4★ (« says wrong when I'm right »), 1 plainte de langues insuffisantes, 1 de mode sombre. Trop peu d'avis négatifs pour des parts fiables. MAJ il y a 1 j.
+6. **Acquisition** : 0 pub Meta active ; la page trouvée (Teuida 臺灣) n'est peut-être pas la bonne. Canal probable : TikTok et ASO (estimation).
+7. **Stack** : estimation : app native, reconnaissance vocale, vidéos tournées de tuteurs.
+8. **Réplication** : complexité 6/10 ; adjacent : Hangul seul, prononciation ; niche : « learn hangul » (6/10 prenables, Teuida seul gagnant visible) ; angle Kyle : coréen pour francophones ; 6 à 8 semaines.
 
 ## 📈 Tendances Émergentes
-- **Accroche pub qui revient** : l'avant-signe caché (« les envies, la fatigue la veille : pas au hasard ») chez Migraine Buddy, 28 pubs sur 30. Pas de recoupement entre apps : seule Migraine Buddy a des pubs trouvées.
-- **Faux gratuit = plainte n°1** : chez AntiqSnap (≈ 35 des 59 avis 1-2★ lus, `estimation` sur les 30 pires) et Migraine Buddy (5/17), « gratuit » puis 24,99 à 39,99 $ sans essai clair. Un paywall honnête est un trou récurrent.
-- **Apps mono-usage vendues par la recherche** : ScribeKit (23 payants, 0 $ de pub) et un portefeuille de petites apps à 508 $ MRR ; une app TikTok à 3 100 $ MRR déclaré en un mois.
-- **Scanners de valeur par photo** : Toyzie, VinylSnap, PlantAI, AntiqSnap, Curio, Relic entrent ou tiennent le classement reference.
-- **Agents IA** dominent Product Hunt et GitHub (last30days-skill, ffmpeg-skill) : peu de signal grand public. Product Hunt du jour : HTTP 504.
-- Hacker News : Kagi Mail (387 pts), GLM-5.4, Ladybird alpha : pas d'app copiable ici.
+**Accroches qui reviennent** (avis et X) : « free » comme promesse d'entrée, suivie d'un paywall surprise (Whipp, FaxFlow) ; « le plan en moins d'une minute » (Whipp) ; « parle dès le jour 1 » (Teuida). Aucune pub Meta comptée sur les 3 apps (pages non trouvées ou vides).
+
+- **Essais « gratuits » piégés** : première plainte de deux apps du top grossing sur trois. Un essai honnête est un angle d'acquisition.
+- **Mouvements vers le haut** : repas (Chow nouveau→22), fax (FaxFlow 97→37), langues (Teuida nouveau→68), cartes de sièges d'avion (clones jeunes à 2,3★).
+- **Revenus déclarés** : micro-apps à 30 à 500 $ MRR en ASO ou TikTok organique (ScribeKit, portefeuille vovalukashov) ; le modèle « petite app + ASO » se confirme.
+- **GitHub Trending (semaine)** : outils d'agents (last30days-skill 5 369 étoiles, stitch-skills 2 626, open-code-review 2 638). Pas de signal grand public.
+- **Product Hunt** : surtout outils pour développeurs et agents IA ; rien de clair en revenu, donc aucun pari n'en vient.
+- **Limites du run** : 2 recherches extended seulement ; le site de FaxFlow n'a rien donné ; Meta non vérifié.
