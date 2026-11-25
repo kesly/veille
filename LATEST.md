@@ -1,85 +1,92 @@
-# AI Watch — 2026-11-24 Matin
+# AI Watch — 2026-11-25 Matin
 
-> Collecte : treg 4/4 sources (X : 0 post après filtre), 15 recherches extended, GitHub Trending ok, 3 pages lues, 5 items confirmés par une deuxième source.
+> Collecte : treg 4/4 sources (X : 3 posts après filtre, peu exploitables), 17 recherches extended, GitHub Trending ok, 4 pages lues (1 PDF illisible, 1 page GitHub sans contenu utile), 6 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
-### GLM-5.4 (Z.ai), premier flagship « Loop Transformer »
-- **Quoi** : modèle d'environ 750B (taille non confirmée par Z.ai) qui repasse deux fois sur un bloc de 28 couches partagées. Vision, contexte 1M tokens, +50 % de quota hebdo sur le Coding Plan.
-- **Date** : 2026-11-23
-- **Lien** : https://z.ai/blog/glm-5.4 — https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/
-- **Pourquoi c'est important** : Z.ai annonce un niveau comparable à des modèles de 2 à 3T de paramètres sans ajouter de paramètres. Aucun benchmark chiffré publié. Reddit r/LocalLLaMA juge le modèle excellent en code mais faible en écriture. Z.ai reconnaît des boucles de « marathon thinking » trop longues.
-- **Testable** : Oui, via Z.ai Chat, ZCode et GLM Coding Plan (payant). API et poids ouverts : pas de date, après évaluation de sécurité.
+### OpenAI : « GPT-6 as a Universal Foundation Model for Protein Biology » (preprint)
+- **Quoi** : la famille GPT-6 conçoit des structures et séquences de protéines par raisonnement et code généraliste, sans appeler de modèle biologique spécialisé. Tests en laboratoire avec Onava : liaison observée sur 5 cibles avec des protéines issues de GPT-6.2 ; des anticorps redessinés gardent leur liaison.
+- **Date** : 2026-11-24
+- **Lien** : https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/ — https://www.unite.ai/openai-reports-gpt-6-designs-proteins-with-reasoning-and-code/
+- **Pourquoi c'est important** : un modèle généraliste rivalise avec des outils dédiés (selon la presse secondaire : 43,7 % vs 27,8 % pour RFdiffusion sur 30 défis de motif-scaffolding ; 35 protéines sur 322 synthétisées se lient à leur cible). Réserves : le modèle interne n'est pas celui qu'on peut utiliser, des modèles spécialisés ont aidé à sélectionner les candidats, et c'est un preprint non relu.
+- **Testable** : Non (pas d'endpoint dédié ; preprint lisible).
 
-### Anthropic : preuve annoncée de VP ≠ VNP, non vérifiée
-- **Quoi** : papier de 70 pages attribué à Claude seul, avec une formalisation Lean 4 (324 fichiers). Il affirme des bornes inférieures superpolynomiales pour le polynôme du cycle hamiltonien sur tout corps, et pour le permanent hors caractéristique 2. Anthropic précise que cela ne résout pas P vs NP.
-- **Date** : 2026-11-23 (environ 20h UTC)
-- **Lien** : https://github.com/anthropics/formal-math/tree/main/vp-vnp — https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture
-- **Pourquoi c'est important** : si le résultat tient, c'est un jalon majeur pour l'IA en mathématiques. Aucun mathématicien humain n'a vérifié. Lean valide les étapes, mais l'adéquation de l'énoncé formalisé à la conjecture n'a été jugée que par des IA. À traiter comme une revendication, pas comme un résultat établi.
-- **Testable** : Oui, le dépôt est public (vérification Lean possible).
+### OpenAI : preprint « The matrix multiplication exponent is nine fourths »
+- **Quoi** : OpenAI affirme que l'exposant de la multiplication de matrices carrées vaut exactement 9/4 sur tout corps. La borne supérieure 9/4 vient d'un preprint d'octobre ; la nouveauté serait la borne inférieure correspondante (pour les circuits arithmétiques formels, d'après un seul résumé).
+- **Date** : 2026-11-24
+- **Lien** : https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf — https://aiweekly.co/alerts/openai-claims-matrix-multiplication-exponent-is-exactly-94 — https://eccc.weizmann.ac.il/report/2026/281/
+- **Pourquoi c'est important** : le meilleur exposant connu était d'environ 2,371. Si la borne inférieure tient, c'est un résultat théorique majeur. Aucune vérification indépendante de l'argument inférieur n'a été trouvée, et aucun impact pratique sur les GPU n'est attendu. Je n'ai pas pu lire le PDF (extraction vide) : revendication à traiter avec prudence.
+- **Testable** : Non (papier ; le dépôt openai/math est public).
 
-### OpenAI + Cisco : Shirudo (runtime open source eBPF)
-- **Quoi** : « boucliers » eBPF générés par des agents (Codex) pour bloquer une faille sur un Linux en cours d'exécution, sans redémarrage. Démo : exploit Java4Shell bloqué sur un Elasticsearch.
+### Anthropic : Claude Ship (Code Review, PR Steward, Claude Approvals)
+- **Quoi** : agents qui relisent les pull requests GitHub, proposent des correctifs et approuvent les changements routiniers selon un fichier de politique écrit par l'équipe. Code Review est disponible ; PR Steward et Claude Approvals sont en bêta. Anthropic recommande de démarrer en mode observation seule et reconnaît que l'outil peut rater des bugs ou failles.
 - **Date** : 2026-11-23
-- **Lien** : https://openai.com/index/introducing-shirudo/ — https://isovalent.com/blog/post/cisco-openai-shirudo
-- **Pourquoi c'est important** : patcher prend des jours ou des semaines. Un correctif temporaire agentique réduit la fenêtre d'exposition. Le projet est pré-release et issu de Tetragon.
-- **Testable** : Oui, open source sur GitHub (pré-release).
+- **Lien** : https://marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents — https://www.itpro.com/software-engineering/anthropics-new-claude-ship-service-hands-the-reins-to-agents-to-fix-and-review-code-changes-but-the-company-warns-it-may-miss-bugs-security-vulnerabilities-or-other-issues
+- **Pourquoi c'est important** : passe du relecteur assistant à l'agent qui approuve. Chiffres cités (PR fusionnées x2 de juin à septembre, annulations -40 %) : internes à Anthropic. Aussi n°6 de Product Hunt (137 votes).
+- **Testable** : Oui, abonnés Claude Team/Enterprise avec GitHub (payant).
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Replit Missions
-- **Quoi** : essaim d'agents IA qui travaille sous budget plafonné et règles d'approbation, avec un relecteur IA indépendant en fin de mission. Replit a aussi ouvert le code de DataCat, construit avec Missions.
-- **Date** : 2026-11-17 (hors fenêtre 72 h, repris par Product Hunt le 23/11, 85 votes)
-- **Lien** : https://www.producthunt.com/products/replit — https://www.technobezz.com/news/replit-missions-budgets-ai-agent-swarms
-- **Pourquoi c'est important** : le modèle « objectif + budget » plutôt que « tâche ». Les accélérations annoncées (jusqu'à 19× avec 32 agents sur 13 tâches NumPy) viennent de Replit. Prix non communiqué.
-- **Testable** : Oui (payant, enterprise sur contact).
+### Ternary Bonsai 2.5 27B (PrismML)
+- **Quoi** : modèle ternaire de 27B basé sur Qwen3.8, 5,9 Go en mémoire, orienté code agentique et usage d'outils en local. Selon PrismML : SWE-bench Verified 75,6 (Qwen3.8 27B pleine précision : 80,6 ; Bonsai 2 : 60,8), Terminal-Bench 2.1 60,1, τ³-Bench 73,9. Tourne via llama.cpp (NVIDIA/Intel) et MLX (Apple).
+- **Date** : 2026-11-24
+- **Lien** : https://prismml.com/news/bonsai-2-5-27b — https://github.com/PrismML-Eng/Bonsai-demo
+- **Pourquoi c'est important** : très près du modèle de base pour un quart de l'empreinte mémoire. Benchmarks fournis par l'éditeur. 375 pts sur Hacker News.
+- **Testable** : Oui, open weights Apache 2.0, gratuit (`./setup.sh` du dépôt demo ; vérifier le nom exact du modèle sur Hugging Face).
 
-### Perplexity Monitor API
-- **Quoi** : surveillance planifiée du web pour agents, avec webhook uniquement quand un changement est pertinent. 1 $ pour 1 000 exécutions.
-- **Date** : 2026-11-16 (hors fenêtre 72 h, repris le 23/11)
-- **Lien** : https://www.perplexity.ai/hub/blog/introducing-perplexitys-monitor-api
-- **Pourquoi c'est important** : brique de base pour des agents toujours actifs. Performances revendiquées par Perplexity uniquement.
-- **Testable** : Oui, API payante.
+### Google Workspace MCP servers + Workspace CLI en GA
+- **Quoi** : serveurs MCP et CLI pour Gmail, Drive, Docs, Sheets, Calendar. Un compte rendu indique que les agents devront passer par MCP plutôt que l'API directe à partir du 1er février 2027 (non confirmé ailleurs).
+- **Date** : 2026-11-24
+- **Lien** : https://adaptd.ai/updates/google-workspace-mcp-servers-agent-controls/
+- **Pourquoi c'est important** : standardise l'accès des agents aux données Workspace. Source unique agrégatrice, à vérifier sur le blog Google.
+- **Testable** : Oui (selon la source, services Workspace).
 
-### Product Hunt, outils agents à noter
-- Polylane Swarms (129 votes, agents sur incidents de prod), Mobile Agent Testers (78 votes, open source, agents qui testent des apps mobiles), Plango (88 votes, agents qui tournent la nuit), Hydrilla (113 votes, assets 3D générés). Non vérifiés par une deuxième source.
-- **Lien** : https://www.producthunt.com/products/polylane — https://www.producthunt.com/products/mobile-agent-testers
-- **Testable** : Oui, voir les fiches.
+### Canva MCP server en disponibilité générale
+- **Quoi** : serveur MCP Canva ouvert sans liste d'attente, avec de nouvelles API pour intégrer Canva dans d'autres logiciels.
+- **Date** : ~2026-11-24
+- **Lien** : https://thenextweb.com/news/canva-mcp-ai-agents-developers
+- **Pourquoi c'est important** : design pilotable par agent. Une seule source.
+- **Testable** : Oui.
 
-### Open source / GitHub Trending (non vérifié ailleurs)
-- Claude-BugHunter (+2 029 étoiles/jour, skills Claude Code pour le bug hunting), firecrawl (+924), obra/superpowers (+840), last30days-skill (+797), CLI-Anything (+790), minimind (+828, LLM 64M en 2 h).
+### Songe (sous-labs) et autres projets du jour
+- **Quoi** : « A training engine for your local model, using your idle compute » (HN 197 pts). Je n'ai pas pu lire le README, donc je ne peux pas décrire le fonctionnement. Product Hunt : Render Sandboxes (281 votes, bacs à sable pour agents), Fleetify (open source, centre de contrôle d'agents de code, 86 votes), Granular.Build (201 votes), Clam AI (170 votes).
+- **Date** : 2026-11-24
+- **Lien** : https://github.com/sous-labs/songe — https://www.producthunt.com/products/render — https://www.producthunt.com/products/fleetify
+- **Pourquoi c'est important** : signaux de popularité uniquement, pas de revue de fond.
+- **Testable** : Oui (Songe et Fleetify sont open source ; Render est payant).
+
+### GitHub Trending (open source)
+- Skills et outils pour agents dominent : obra/superpowers (framework de skills, +1 003 étoiles), firecrawl/firecrawl (API de scraping pour agents, +991), HKUDS/CLI-Anything (rendre les logiciels utilisables par agents via CLI, +1 074), elementalsouls/Claude-BugHunter (skills Claude Code pour chasse aux bugs, +1 826), jingyaogong/minimind (LLM de 64M entraîné de zéro, +727), google-labs-code/stitch-skills (+403).
 - **Lien** : https://github.com/trending?since=daily
-- **Testable** : Oui, tous open source.
 
 ## 🧠 Mises à jour de Modèles
 
-### Inkling 2 Mini (Thinking Machines)
-- **Quoi** : MoE bouclé de 26,4B (3,4B actifs), poids Apache 2.0, contexte 1M, tourne sur un Mac 32 Go.
-- **Date** : 2026-11-20
-- **Lien** : https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/ — https://ollama.com/library/inkling-2-mini
-- **Pourquoi c'est important** : tendance « looped » confirmée (GLM-5.4 trois jours plus tard). Scores maison élevés (SWE-bench Verified 79,2 %). L'évaluation indépendante d'Artificial Analysis est plus modeste (20 sur l'Intelligence Index).
-- **Testable** : Oui, `ollama` / Hugging Face (open weights, gratuit).
+### GPT-6.2 Sol dans l'onglet Chat de ChatGPT
+- **Quoi** : version de GPT-6.2 Sol adaptée à la conversation, déployée à partir du 23 novembre pour Plus, Pro, Business, Enterprise (pas Free ni Go). Le modèle lui-même est sorti le 17 novembre. Une source mentionne un retrait de l'ancien modèle le 23 décembre (source unique).
+- **Date** : 2026-11-23
+- **Lien** : https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/ — https://www.notebookcheck.net/GPT-6-2-comes-to-ChatGPT-s-Chat-tab-but-only-for-paid-plans.1458765.0.html
+- **Pourquoi c'est important** : mise à jour de produit plus que nouveau modèle.
+- **Testable** : Oui, abonnement payant.
 
-### NariQ : Qwen3.8-27B niveau BF16 en 10 Go
-- **Quoi** : GGUF quantifié de Qwen3.8-27B. Source unique (Hacker News, 139 pts).
-- **Lien** : https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF
-- **Testable** : Oui (open weights).
+### GLM-5.4 (Z.ai)
+- Déjà couvert dans le rapport d'hier. Toujours sans API ni poids ouverts d'après les digests du jour.
 
 ## 🔬 Research
-- VP ≠ VNP : voir Breaking. Latent Introspection (les LLM détectent des concepts injectés) : https://arxiv.org/abs/2602.20031, source unique, 41 pts HN.
+- Voir les deux preprints OpenAI en Breaking (protéines, multiplication de matrices).
+- Reddit r/LocalLLaMA : post à 646 pts sur la réduction de la mémoire pour 1M tokens de 130 To à 890 Mo (https://www.reddit.com/r/LocalLLaMA/comments/1y4kikk/). Je n'ai pas lu le contenu, donc je ne peux pas dire de quelle technique il s'agit.
+- LessWrong : « Models Can Communicate via Inference Servers Despite Being Sandboxed » (https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being), non lu.
 
 ## 📝 À surveiller
-- **Nvidia** : Jensen Huang est réinstallé PDG le 23/11 après sa démission du 12/11. Confirmé par le communiqué Nvidia (https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director), Bloomberg et CNN. Le contexte politique pèse (pression de l'administration Trump selon NBC/Bloomberg). L'action aurait gagné plus de 30 % sur la journée selon CNN. Hors cœur IA, mais impact majeur sur le secteur (2 270 pts HN).
-- **Débat sur l'open source** : le post de Yann LeCun reprochant à Dario Amodei d'exagérer les dangers pour rendre les modèles open source illégaux fait 1 338 pts sur HN.
-- **Financement** : Deutsche Telekom engage 100 M€ dans Mistral AI. AMD et HUMAIN annoncent un partenariat jusqu'à 10 Md$ (500 MW). Des banques syndiquent 63 Md$ liés au bail de puces Google d'Anthropic. Source : agrégateurs, non vérifié directement.
-- **Claude Duet** (agent proactif d'Anthropic, preview le 21/10, aujourd'hui ouvert aux abonnés US Pro/Max/Ultra de la liste d'attente) : les résumés du 23/11 parlent d'un agent « nouveau », mais il s'agit probablement de re-couverture.
-- **Gemini 4 Neon** (Google, environ 18/11) et **Kimi K3.1 Pro Prime** (20/11) : dates issues d'agrégateurs, non confirmées par les éditeurs.
-- **Google** : abonnements Gemini AI Pro et Plus à moitié prix pour le Black Friday ; rétention des chats Gemini portée à 2 mois (17/11).
-- **Sécurité** : Zero Data Retention avec Enterprise Frontier Safeguards en beta chez Anthropic (source unique, 3 pts HN). Outils d'audit de skills et de serveurs MCP (mcpseal, toolfence-scan) : très petits, sources uniques.
-- **Voix** : rien de nouveau dans les 72 h. Derniers lancements notables (AssemblyAI TTS 27/10, ElevenLabs Scribe v3, Rime Prism, Liquid LFM3-Audio) sont plus anciens. FireVoice (Show HN, voice studio open source local) : source unique.
-- **Image/vidéo** : RAS dans les 72 h confirmés (Kling 4.0 en octobre, LongCat Video Avatar 1.6 le 13/11).
-- **Meta / Mistral** : RAS confirmé dans la fenêtre, hors le financement Deutsche Telekom.
+- **Nvidia** : le conseil a réintégré Jensen Huang comme PDG le 23 novembre, onze jours après sa démission ; l'action a bondi de 31 % lundi puis reculé de 7 % mardi. Une enquête indépendante se poursuit. https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director
+- **Amazon / Decart** : accord rapporté à 7,5 Md$ pour la technologie d'optimisation de Decart (Amazon confirme l'accord, pas le prix). https://techstartups.com/2026/11/23/amazon-acquires-decart-ais-technology-in-reported-7-5-billion-deal-to-boost-ai-chip-performance/
+- **Palo Alto Networks / Applied Compute** : rachat rapporté à 4,5 Md$ ; **Sierra** lève 1,75 Md$ à 30 Md$ de valorisation (en cours). Sources secondaires.
+- **Anthropic** : Artifacts installables en apps de bureau Mac/Windows (bêta, compte gratuit, https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/) ; skills via MCP en bêta publique et Tasks/Elicitation en GA (source secondaire, https://news.sulat.com/2026/11/25/claude-mcp-skills/). Des digests évoquent aussi une IPO à 81,3 Md$ et un accord Nscale d'environ 45 Md$ : non vérifiés, un seul digest.
+- **Google Gemini 4 Neon** (18 novembre, 3 $/15 $ par M de tokens d'après une source) et Gemini API CLI, qui permet à Claude Code/Codex d'utiliser Gemini (post X, 109 likes). https://dev.to/jimmyliao/gemini-api-cli-official-guide-part-1-giving-your-ai-agent-a-stateless-multimodal-cli-toolbox-36p3
+- **Notion MCP** : r/ClaudeAI (403 pts) accuse le MCP officiel de Notion d'injecter des messages commerciaux cachés dans Claude. Accusation Reddit non vérifiée.
+- **Versine (YC F26)** : MCP pour envoyer et recevoir de l'argent, Launch HN 75 pts. https://news.ycombinator.com/item?id=50634426
+- Voix : rien de neuf daté du 24. Dernier lancement notable : Qwen3 TTS sur Together AI (20 novembre). Image/vidéo : rien de daté du 24 (dernier : MiniMax H3, 21 novembre). Mistral : rien de neuf (Large 4 du 29 octobre).
+- Tableaux de modèles « S1 Fast / S1 Pro / REAX 1 » : un seul agrégateur, aucune confirmation, ignorés.
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) GLM-5.4, premier flagship Loop Transformer (avec Inkling 2 Mini, la tendance « looped »). 2) Revendication VP ≠ VNP par Claude, à vérifier. 3) Shirudo (OpenAI/Cisco), agents de sécurité Linux open source.
-- **À tester en priorité** : Inkling 2 Mini via Ollama (gratuit, local) ; GLM-5.4 via Z.ai Chat ; le dépôt Lean de vp-vnp ; Shirudo sur GitHub ; Perplexity Monitor API.
+- **Top 3 du jour** : 1) OpenAI : GPT-6 conçoit des protéines, avec liaison en laboratoire sur 5 cibles (preprint). 2) Anthropic : Claude Ship, des agents qui relisent et approuvent les PR. 3) PrismML : Ternary Bonsai 2.5 27B, modèle agentique local de 5,9 Go en open weights.
+- **À tester en priorité** : Bonsai 2.5 27B en local (Apache 2.0) ; Claude Ship en mode observation seule sur un dépôt Team/Enterprise ; serveurs MCP Google Workspace et Canva une fois la GA vérifiée.
