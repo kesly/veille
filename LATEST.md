@@ -1,85 +1,73 @@
-# AI Watch — 2026-11-26 Matin
+# AI Watch — 2026-11-27 Matin
 
-> Collecte : treg 4/4 sources, 13 recherches extended, GitHub Trending ok, 3 pages lues, 4 items confirmés par une deuxième source.
+> Collecte : treg 4/4 sources, 16 recherches extended, GitHub Trending ok, 4 pages lues, 3 items confirmés par une deuxième source.
 
 ## 🔥 Breaking
 
-### Google Workspace : serveurs MCP et CLI en disponibilité générale
-- **Quoi** : Google rend GA ses serveurs MCP hébergés (Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat, Tasks) et un CLI Workspace officiel. Les agents IA devront passer par MCP et non plus par REST à partir du 1er février 2027.
-- **Date** : 2026-11-24
-- **Lien** : https://developers.google.com/workspace/guides/configure-mcp-servers (guide) ; https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace
-- **Pourquoi c'est important** : MCP devient la voie obligatoire pour les agents sur les données Workspace. Un palier gratuit existe, un palier payant démarre le 1er avril 2027 (le plafond gratuit de 5 000 requêtes/jour n'est cité que par un média, non confirmé).
-- **Testable** : Oui, pour les clients Workspace. Déploiement progressif sur 2 semaines, contrôles admin dans la console (API Controls).
-- **Confirmation** : plusieurs médias (Dataconomy, UC Today, Sulat, etc.) ; blog Google vu en résultat de recherche, non lu directement.
-
-### Anthropic : Skills over MCP (bêta publique) et MCP Tasks/Elicitation GA
-- **Quoi** : les serveurs MCP peuvent livrer des instructions de workflow (skills) avec leurs outils ; MCP Tasks et Elicitation passent GA dans Claude.
-- **Date** : 2026-11-24
-- **Lien** : https://venturebeat.com/technology/mcp-servers-can-now-deliver-ai-agent-skills-changing-what-companies-approve-when-they-connect-one ; https://grafy.ai/news/anthropic-introduces-skills-over-mcp-to-automate-ai-workflows
-- **Pourquoi c'est important** : la spec signale elle-même un risque d'injection de prompt via les instructions fournies par le serveur. Ce qu'une entreprise approuve en connectant un serveur change.
-- **Testable** : Oui, en bêta dans Claude et Claude Code.
-- **Confirmation** : VentureBeat + Grafy.
-
-### Google « Cogentic » : 6 papiers de maths générés par agents (factorisation, log discret)
-- **Quoi** : Google Research publie dans son dépôt des papiers produits par l'agent Cogentic, dont une factorisation d'entiers « inconditionnelle » en L_N[1/3] et un log discret. Les autres couvrent équilibres de Nash approchés, reconstruction de graphes et conjecture log-rank.
-- **Date** : 2026-11-25
-- **Lien** : https://github.com/google-research/google-research/tree/master/cogentic_research_papers ; https://www.rdworldonline.com/google-cogentic-ai-integer-factoring-bounds-lean-proofs/
-- **Pourquoi c'est important** : si c'est valide, c'est un résultat algorithmique majeur sur la factorisation. La borne est sous-exponentielle, pas polynomiale : ça ne casse pas RSA en pratique.
-- **Testable** : Non (papiers). Rien n'est relu par des pairs ; les sources se contredisent sur la vérification Lean 4.
-- **Confirmation** : HN (461 pts), dépôt GitHub lu, plusieurs médias.
-
-### OpenAI : lot de preprints maths (ω = 9/4, conjecture de Hirsch polynomiale fausse, FFT)
-- **Quoi** : OpenAI a posté ~9 manuscrits le 24 novembre, dont ω = 9/4 pour la multiplication matricielle (borne inférieure), un contre-exemple à la conjecture de Hirsch polynomiale et la complexité de la FFT en N(log N)^(1/2+o(1)). Scott Aaronson les évoque, avec des preuves VP ≠ VNP d'OpenAI et d'Anthropic et une preuve de l'hypothèse de Riemann (Alpöge/Anthropic) citées dans son billet. Je n'ai pas vérifié ces dernières.
-- **Date** : 2026-11-24
-- **Lien** : https://scottaaronson.blog/?p=10379 ; https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf
-- **Pourquoi c'est important** : si ça tient, l'IA produit des résultats de premier plan en théorie de la complexité. Un autre claim d'OpenAI (conjecture de Connes) est déjà contesté par un mathématicien.
-- **Testable** : Non. Aucun de ces résultats n'est vérifié de façon indépendante. À traiter comme des allégations.
-- **Confirmation** : blog Aaronson lu, Snape Report, HN.
+### Google Workspace : serveurs MCP GA + obligation pour les agents IA
+- **Quoi** : Google rend GA ses 8 serveurs MCP Workspace (Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat, Tasks) et le CLI `gwscli`. Un nouvel addendum aux CGU impose aux outils « pilotés par un agent IA » de passer par ces MCP/CLI au lieu des API REST (application technique le 1er février 2027). Le serveur Gmail ne peut pas envoyer d'e-mail (accès partenaire requis). Tier gratuit plafonné à 5 000 requêtes/jour/projet/produit, facturation du tier payant à partir du 1er avril 2027 (chiffres de sources secondaires).
+- **Date** : 24 novembre 2026 (discussion HN le 26-27)
+- **Lien** : https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace — analyse : https://techstackups.com/articles/google-workspace-ai-agents-mcp/
+- **Pourquoi c'est important** : premier grand éditeur qui contraint contractuellement les agents à passer par MCP ; impact direct sur tout assistant e-mail/agent de code utilisant l'API Gmail/Drive, avec rétention des embeddings limitée à 30 jours et entraînement sur les données interdit.
+- **Testable** : Oui — gratuit (tier Standard), serveurs MCP distants et CLI à brancher sur un agent.
 
 ## 🆕 Nouveaux Outils & Produits
 
-### Canva MCP
-- **Quoi** : serveur MCP Canva pour agents (160 votes PH). **Date** : 2026-11-25. **Lien** : https://www.producthunt.com/products/canva
-- **Pourquoi c'est important** : suit la tendance MCP chez les éditeurs grand public. **Testable** : Oui.
+### Hub (Product Hunt, 367 votes)
+- **Quoi** : outil open source pour piloter une centaine de sessions Claude Code / Codex en parallèle.
+- **Date** : 26-27 novembre 2026
+- **Lien** : https://www.producthunt.com/products/hub-20
+- **Pourquoi c'est important** : l'orchestration multi-agents de code devient une catégorie (voir aussi DeskFleet 88 votes, AgentDE 68 votes).
+- **Testable** : Oui — open source.
 
-### Airbot et MyClaw 3.0
-- **Quoi** : Airbot est un « chief of staff » IA qui écrit en premier (259 votes) ; MyClaw 3.0 propose une équipe d'agents toujours active avec mémoire partagée (290 votes). **Date** : 2026-11-25. **Lien** : https://www.producthunt.com/products/airbots ; https://www.producthunt.com/products/myclaw-3-0
-- **Pourquoi c'est important** : agents persistants grand public, tendance forte. **Testable** : Oui (tarifs non vérifiés).
+### Pax by Pydantic (125 votes)
+- **Quoi** : agent de code où « même le code est un plugin ».
+- **Date** : 26-27 novembre 2026
+- **Lien** : https://www.producthunt.com/products/pydantic
+- **Pourquoi c'est important** : nouvel entrant de l'équipe Pydantic sur les agents de code extensibles.
+- **Testable** : Oui (détails de licence/prix non vérifiés).
 
-### MAGI-2 (Sand AI) — vidéo
-- **Quoi** : modèle de génération vidéo de 480B paramètres (87 votes). **Date** : 2026-11-25. **Lien** : https://www.producthunt.com/products/magi-1
-- **Pourquoi c'est important** : gros modèle vidéo annoncé ; licence et accès non vérifiés. **Testable** : à vérifier.
+### QA.tech MCP (194 votes)
+- **Quoi** : serveur MCP qui fait vérifier chaque changement depuis l'IDE par des agents QA.
+- **Date** : 26-27 novembre 2026
+- **Lien** : https://www.producthunt.com/products/qa-tech
+- **Pourquoi c'est important** : boucle de vérification automatique pour les agents de code.
+- **Testable** : Oui (prix non vérifié).
 
-### Apple FastFrames — vidéo
-- **Quoi** : deux modèles de diffusion vidéo autorégressifs (1,3B et 14B), 480p, environ 35 ms de latence pour le petit. **Date** : 2026-11-25. **Lien** : https://hn.today/s/fastframes-video-generation-at-interactive-latency
-- **Pourquoi c'est important** : vidéo à latence interactive. **Testable** : à vérifier (source unique, agrégateur).
+### GitHub Trending (open source)
+- **Quoi** : dominé par l'écosystème « skills » d'agents : `elementalsouls/Claude-BugHunter` (+1 597 étoiles/jour), `obra/superpowers` (+854), `HKUDS/CLI-Anything` (+746, rendre tout logiciel pilotable par agent via CLI), `firecrawl/firecrawl` (+1 046), `cathrynlavery/diagram-design` (+955), `jingyaogong/minimind` (+702, entraîner un LLM ~64M de zéro).
+- **Date** : 27 novembre 2026
+- **Lien** : https://github.com/trending?since=daily
+- **Pourquoi c'est important** : la dynamique open source est aux skills/plugins d'agents plutôt qu'aux modèles.
+- **Testable** : Oui — tous open source.
 
-### Open source trending (GitHub)
-- **minimind** (https://github.com/jingyaogong/minimind) : LLM de 64M paramètres entraîné en ~2 h. Open source. Testable.
-- **firecrawl** (https://github.com/firecrawl/firecrawl) : recherche/scraping pour agents, 550+ fournisseurs de données. Open source avec offre cloud payante.
-- **HKUDS/CLI-Anything** (https://github.com/HKUDS/CLI-Anything) : rend tout logiciel utilisable par agents via CLI.
-- **obra/superpowers** (https://github.com/obra/superpowers) : framework de skills pour agents de code.
-- **last30days-skill** (https://github.com/mvanhorn/last30days-skill) : skill de recherche multi-sources.
-- Note : Claude-BugHunter (1 652 étoiles/jour) est un bundle de skills de red team, à utiliser seulement sur des cibles autorisées.
+### AMD-specific fork de llama.cpp (HN 305 pts)
+- **Quoi** : fork de llama.cpp optimisé pour GPU AMD.
+- **Date** : 26-27 novembre 2026
+- **Lien** : https://devnull.land/amd-specific-llama-cpp
+- **Pourquoi c'est important** : inférence locale sur matériel AMD.
+- **Testable** : Oui — open source.
 
 ## 🧠 Mises à jour de Modèles
-- RAS de confirmé pour le 25 novembre. Rappels hors fenêtre de 72 h, issus de trackers incohérents entre eux : GPT-6.2 Astra/Sol (17/11), Gemini 4 Neon (18/11), Claude Fable 5.2 / Mythos 5.2 (9/11). Un benchmark HN (284 pts) montre GPT-6.2 Astra battant les records de code golf de Googlers : https://bjin.github.io/go-codegolf-benchmark/ (page lue, auteur individuel).
-- Reddit r/ClaudeAI : un post à 284 pts demande s'il a été routé vers « Opus 5.6 ». Rumeur non confirmée.
+- **OpenAI** : ChatGPT et Codex partageront un seul quota d'usage (Plus, Pro, Business) à partir de décembre ; Instant chat exempté (source : aide OpenAI via Android Authority, https://www.androidauthority.com/chatgpt-codex-shared-usage-limits-3739254/). Un billet d'analyse (https://micjm.com/blog/openai-is-in-cost-control-mode/, HN 301 pts) estime que Astra 6.2 et Sol 6.2 « sous-réfléchissent » par rapport à leurs prédécesseurs (réglage coût) ; une seule source, méthode non vérifiée.
+- **Amazon Nova 2.0 Omni** : listé au 26 novembre par un tracker ; pas d'annonce éditeur vérifiée → à surveiller.
+- **Mistral** : démo de Mistral Large 4 (zoom outil sur photo aérienne) le 26 novembre ; Mistral ouvre un siège APAC à Singapour (20 nov).
+- Reste : RAS confirmé.
 
 ## 🔬 Research
-- Voir Cogentic et preprints OpenAI ci-dessus (non vérifiés).
-- Reddit r/MachineLearning : « Research agents set 50 packing problem records » et LoomFormer (attention par tête). Faible traction (30 pts environ), source unique.
-- Anthropic « Siren » : test honeypot pré-release pour agents qui dérivent (source : agrégateur aiweekly, non confirmée).
+- **DeepMind** : des agents IA contrôlent une partie du calcul des expériences pour le prochain Gemini (Koray Kavukcuoglu, podcast DeepMind) ; pas d'auto-amélioration récursive complète, humains en revue, pas de récompense sur la chaîne de pensée. Confirmé par plusieurs relais. https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/
+- **Testable** : Non.
+- Rumeurs HN/Reddit sur une preuve de factorisation d'entiers (Google Research) et une préimpression de gravité liée à OpenAI : non vérifiées, voir À surveiller.
 
 ## 📝 À surveiller
-- **ElevenLabs** : rachat de Kotoba (~100 M$, Nikkei) et levée en cours à 33 Md$ (Bloomberg via SiliconANGLE). Reste à confirmer.
-- **Marché** : un agrégateur évoque une baisse du Nasdaq de ~4 % liée à l'IA, et l'IPO Anthropic (83 $/action) passée sous son prix d'introduction. Source unique, non vérifié.
-- **Sécurité** : OX Security (MCP : près d'un tiers des serveurs sans propriétaire traçable) ; 1Password et Defang ont publié des incidents de sécurité (HN, hors IA) ; un contenu rapporte une intrusion à Treasury/CIA avec un outil IA défensif détourné (source unique, non confirmée).
-- **Reddit** : post à 717 pts « Anthropic Ex-Employee: Claude sabotages research work » : allégation non vérifiée.
-- **Voix** : Together AI Qwen3 TTS (20 $/M caractères, 20/11), AssemblyAI-TTS-1 (27/10), Microsoft MAI Voice 2, Gradium Phonon (TTS on-device open source). Pas de lancement majeur du jour.
-- **Annonces rapportées** : Genesis AI (500 M$ Series A), Nvidia en discussion pour Inception (500 M$+), Meta Muse dans les DMs Instagram avec Walmart Agent Gateway.
-- Le NYT déconseille aux photographes de mettre à jour Photoshop à cause des fonctions IA (HN 257 pts) : https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features
+- **Claude Opus 5.6 (rumeur)** : des testeurs voient des sorties attribuées à un « Opus 5.6 » via une route « Opus 5.5 Extra » dans Claude Code/chat ; aucune annonce Anthropic, Opus 5.5 reste le dernier Opus (22 sept.). Dates de sortie spéculatives (fin décembre). https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/
+- **OpenAI Private Inference / Chat+Work unifiés** : en test alpha selon des digests quotidiens ; non retrouvé dans une source primaire.
+- **NYT / Photoshop** : le NYT déconseillerait aux photographes de mettre à jour Photoshop à cause de fonctions IA (HN 659 pts) — https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features (source unique, non confirmée).
+- **Microsoft MAI Code 2 / Flash** (Ignite, ~19 nov), **Cognition Devin Bots** (17 nov), **Gemini 4** (variantes Argon/Hydrogen ; hausse de prix après le 30 nov, sources de blogs) : à confirmer.
+- **Linger** (agent perso open source, ex-DeepSeek, 20 nov) et **Shirudo** (OpenAI + Cisco, runtime de protection Linux) : lancements récents open source.
+- Rumeurs « P = NP résolu » et retrait d'un auteur de préimpression : non vérifiées, ignorer.
+- Digests : FCC/SpaceX 1 M de satellites IA, ban des jouets IA à New York, arrêt d'expéditions de serveurs Nvidia (non confirmé).
 
 ## 📊 Résumé
-- **Top 3 du jour** : 1) Google Workspace MCP GA et obligation MCP au 1er février 2027 ; 2) Cogentic de Google et preprints maths d'OpenAI (résultats spectaculaires, non vérifiés) ; 3) Anthropic Skills over MCP, avec son risque d'injection.
-- **À tester en priorité** : serveurs MCP Workspace et CLI (gratuit) ; Skills over MCP dans Claude Code (bêta) ; minimind (open source) ; firecrawl.
+- **Top 3 du jour** : 1) Google impose MCP/CLI aux agents Workspace (échéance 1er fév. 2027) ; 2) DeepMind confie une part de calcul à des agents pour Gemini ; 3) ChatGPT/Codex à quota unique en décembre + rumeur Opus 5.6.
+- **À tester en priorité** : serveurs MCP Workspace / `gwscli` (gratuit), Hub (open source), `CLI-Anything` et `obra/superpowers` (open source).
